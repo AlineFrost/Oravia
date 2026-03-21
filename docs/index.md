@@ -1,8 +1,10 @@
 # Welcome to Oravia!
 
-It's a constructed language with a small, a priori vocabulary and syllable-meaning associations.
-It is built based on word-embeddings from internet-trained tokens, cognitive psychology, and data from learners.
-With a simple and flexible grammar, paired with soft and flowing sounds, Oravia aims to be easy, expressive and pleasant.
+It's a constructed language with a small, a priori vocabulary and a simple and flexible grammar.
+
+Oravia's approach is empirical: it's inspired by research findings, built based on word-embeddings from internet-trained tokens, and reiterated with data from learners.
+
+Paired with sound associations and stylistic options, Oravia aims to be easy and expressive.
 
 ---
 

@@ -66,32 +66,35 @@ Instead, it was an empirical approach based on how concepts are associated in la
 
 ### The Eurocentric Trade-off
 - languages that base themselves on European vocabulary and grammar are easier to learn for a big chunk of the world population
-- at the same time, they may be less accessible to learners of other backgrounds and that may shape what the language can do and express based on a Eurocentric standard
+- at the same time, they may be less accessible to learners from other backgrounds and that may shape what the language can do and express based on a Eurocentric standard
 
 **Oravia's approach:**
+
 A grammar that draws from different systems and can adapt to multiple native languages. A design that is simple, efficient and easy to learn across the board, created from the Global South and tested by people from diverse L1 backgrounds.
 
 ---
 
 ### The Intuition Trade-off
-- many languages meant to be easy are guided by the creator's own intuitions of what would be easy or what would work, without testing
+- creators' intuitions make languages unique, but may be misguided about what features are easy or work well
 
 **Oravia's approach:**
+
 Empirical approach: design based on research of how people learn and what makes languages easier. Sounds organized by semantic cluster based on word-embeddings trained on billions of internet tokens of how people associate concepts. Data from beta testers on what works and what doesn't. 
 
 ---
 
 ### The Phonology Trade-off
-- languages have arbitrary sounds and words that are differentiated based on easily confused sounds 
+- standard sound systems ensure consistent pronunciation, but can make sounds hard to articulate or differentiate depending on speaker background  
 
 **Oravia's approach:**
+
 Words do not rely on easily confused sounds such as m/n, l/r, p/b for differentiation. Plus, this means that if a native language does not have one of the sounds (e.g., "l"), one can pronounce it as the other (e.g., "r") with no issues. Furthermore, the sound system allows other adaptations based on native language such as inserting a vowel after final consonants (e.g., morta or morita).
 
 Words are composed from meaningful building blocks, and similar sounds often have similar meanings, reducing communicative confusion. Finally, choices were based on common cross-linguistic associations between sound and meaning.
 
 *Example*
 ```
-Can you guess which word means 'to cut' and which word means 'to slip'?
+Can you guess which word means 'to cut' and which word means 'to slip'? (c is pronounced as k in kite)
  jasrec, jasel
  
 Which word means 'pool' and which word means 'beak'?
@@ -102,9 +105,10 @@ Which word means 'pool' and which word means 'beak'?
 
 ### The Word Order Trade-off
 - languages are designed with mandatory word order (usually SVO) that prioritizes speakers of certain backgrounds
-- languages without word order often resort to complicated alternatives or end up with unclear syntax 
+- languages without a fixed word order often resort to complicated alternatives or end up with unclear syntax 
 
 **Oravia's approach:**
+
 Markers indicate the syntax role of each part of the sentence, so pieces can be moved around. This means that speakers can use whichever word order feels more natural to them (SOV, SVO, etc) and the sentence is just as clear. 
 
 *Example*
@@ -127,6 +131,7 @@ e mocen i anona u run a nim
 - many languages are designed to be easy and regular. As a consequence, they can frequently feel more rigid and lack personalization options
 
 **Oravia's approach:**
+
 The flexible grammar and cluster system intuitively make space for stylistic choices and rich expression. Furthermore, features embedded in the language (such as word decomposition, changing word cluster, register) make personalization and creativity natural. 
 
 *Example*

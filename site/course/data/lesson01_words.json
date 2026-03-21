@@ -1,0 +1,37 @@
+{
+  "lesson_id": "lesson01",
+  "cluster": "pronouns",
+  "cluster_meaning": "personal pronouns",
+  "words": [
+    {
+      "id": "pronoun_001",
+      "oravia": "nim",
+      "english": "I"
+    },
+    {
+      "id": "pronoun_002",
+      "oravia": "run",
+      "english": "you"
+    },
+    {
+      "id": "pronoun_003",
+      "oravia": "hay",
+      "english": "he/she/they (singular)"
+    },
+    {
+      "id": "pronoun_004",
+      "oravia": "nima",
+      "english": "we"
+    },
+    {
+      "id": "pronoun_005",
+      "oravia": "runa",
+      "english": "you (plural)"
+    },
+    {
+      "id": "pronoun_006",
+      "oravia": "haya",
+      "english": "they (plural)"
+    }
+  ]
+}

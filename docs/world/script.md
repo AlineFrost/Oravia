@@ -50,7 +50,7 @@ These might be the other *moa* words:
 ```
 möl = moa + l = moalen / banana (third letter *nature* domain le, li, lu)
 mön = moa + n = moanih / berry (third letter *function words* domain no, ne)
-möw = moa + w = mowena / lemon (third letter *geography* domain wi, wa)
+möw = moa + w = moawena / lemon (third letter *geography* domain wi, wa)
 ```
 
 Then the prepositions, pronouns, etc, can be expressed with only one letter, based on domain sound, as in:

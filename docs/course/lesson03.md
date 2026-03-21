@@ -1,7 +1,7 @@
 # Lesson 3: FA Cluster
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into four sections: **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order.
+    Every lesson is divided into four sections: **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order. After you finish, *try the Exercises and Review again* to see how much you’ve improved.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -124,7 +124,6 @@
     | faofa | cousin |
     | fame | parent |
     | falni | baby |
-    | faosume | uncle, aunt |
     | falen | child |
     
     What do you think the words that start in *FA* have in common?
@@ -183,15 +182,7 @@
     
     ---
     
-    ### Round 5
-    
-    <div id="matching-game-5" data-lesson="lesson03" data-round="5"></div>
-    
-    ---
-    
-    ### Round 6
-    
-    <div id="matching-game-6" data-lesson="lesson03" data-round="6"></div>
+
 
 === "Review"
 
@@ -219,43 +210,70 @@
 </div>
 
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const wrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-        const container = document.getElementById('review-game-container');
+async function initReview() {
+    const wrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
+    const container = document.getElementById('review-game-container');
+    if (!container) return;
+
+    if (wrongIds.length === 0) {
+        container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p><p style="color: #5a8bb8; margin-top: 0.5rem;">You did not miss any words. Excellent work!</p></div>';
+        return;
+    }
+
+    try {
+        // Automatically detect all JSON files used on this page
+        const lessonIds = [...new Set(
+            [...document.querySelectorAll('[data-lesson]')]
+                .map(el => el.dataset.lesson)
+        )];
         
-        if (wrongIds.length === 0) {
-            container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p><p style="color: #5a8bb8; margin-top: 0.5rem;">You didn not miss any words. Excellent work!</p></div>';
+        const baseUrl = window.location.origin;
+        const responses = await Promise.all(
+            lessonIds.map(id => fetch(baseUrl + '/data/' + id + '_words.json').then(r => r.json()))
+        );
+        const allWords = responses.flatMap(data => data.words);
+
+        // Deduplicate by id
+        const seen = new Set();
+        const uniqueWords = allWords.filter(w => {
+            if (seen.has(w.id)) return false;
+            seen.add(w.id);
+            return true;
+        });
+
+        const wrongWords = uniqueWords.filter(word => wrongIds.includes(word.id));
+
+        if (wrongWords.length === 0) {
+            container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p></div>';
             return;
         }
 
-        const baseUrl = window.location.origin;
-        fetch(baseUrl + '/data/lesson02_words.json')
-            .then(response => response.json())
-            .then(data => {
-                const wrongWords = data.words.filter(word => wrongIds.includes(word.id));
-                
-                if (wrongWords.length === 0) {
-                    container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p></div>';
-                    return;
-                }
+        container.innerHTML = '<p style="text-align: center; margin-bottom: 2rem; color: #5a8bb8;">Practice these ' + wrongWords.length + ' word(s) you found challenging:</p><div id="review-game-wrapper"></div><div style="text-align: center; margin-top: 2rem;"><button id="clear-review" style="padding: 0.5rem 1.5rem; background: #f57c00; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.95rem;">Clear Review List</button></div>';
 
-                container.innerHTML = '<p style="text-align: center; margin-bottom: 2rem; color: #5a8bb8;">Practice these ' + wrongWords.length + ' word(s) you found challenging:</p><div id="review-game-wrapper"></div><div style="text-align: center; margin-top: 2rem;"><button id="clear-review" style="padding: 0.5rem 1.5rem; background: #f57c00; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.95rem;">Clear Review List</button></div>';
+        new MatchingGame('review-game-wrapper', wrongWords, 'review', null, []);
 
-                new MatchingGame('review-game-wrapper', wrongWords, 'review', null, []);
+        document.getElementById('clear-review').addEventListener('click', function() {
+            if (confirm('Clear all review words? This will reset your wrong words list for this lesson.')) {
+                const allWrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
+                const lessonWordIds = uniqueWords.map(w => w.id);
+                const remainingWrongIds = allWrongIds.filter(id => !lessonWordIds.includes(id));
+                localStorage.setItem('wrong_ids', JSON.stringify(remainingWrongIds));
+                location.reload();
+            }
+        });
 
-                document.getElementById('clear-review').addEventListener('click', function() {
-                    if (confirm('Clear all review words? This will reset your wrong words list for this lesson.')) {
-                        const allWrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-                        const lessonWordIds = data.words.map(w => w.id);
-                        const remainingWrongIds = allWrongIds.filter(id => !lessonWordIds.includes(id));
-                        localStorage.setItem('wrong_ids', JSON.stringify(remainingWrongIds));
-                        location.reload();
-                    }
-                });
-            })
-            .catch(error => {
-                console.error('Error loading words:', error);
-                container.innerHTML = '<p style="color: #f44336;">Error loading review words. Please refresh the page.</p>';
-            });
-    });
+    } catch (error) {
+        console.error('Error loading words:', error);
+        container.innerHTML = '<p style="color: #f44336;">Error loading review words. Please refresh the page.</p>';
+    }
+}
+
+document.addEventListener('DOMContentLoaded', initReview);
+document.querySelectorAll('.tabbed-labels label').forEach(label => {
+    if (label.textContent.trim() === 'Review') {
+        label.addEventListener('click', function() {
+            setTimeout(initReview, 50);
+        });
+    }
+});
 </script>

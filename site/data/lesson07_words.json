@@ -1,0 +1,100 @@
+{
+  "lesson_id": "lesson07",
+  "cluster": "bo",
+  "cluster_meaning": "house",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "Round 1",
+      "buckets": ["bor"],
+      "words_per_bucket": 3
+    },
+    {
+      "round": 2,
+      "title": "Round 2",
+      "buckets": ["boe"],
+      "words_per_bucket": 3
+    },
+    {
+      "round": 3,
+      "title": "Round 3",
+      "buckets": ["bos"],
+      "words_per_bucket": 3
+    },
+    {
+      "round": 4,
+      "title": "Round 4",
+      "buckets": ["bon"],
+      "words_per_bucket": 3,
+      "allow_repeats": true
+    }
+  ],
+  "words": [
+    {
+      "id": "r_1",
+      "oravia": "bortal",
+      "english": "door",
+      "bucket": "bor"
+    },
+    {
+      "id": "r_2",
+      "oravia": "borcai",
+      "english": "wall",
+      "bucket": "bor"
+    },
+    {
+      "id": "r_3",
+      "oravia": "borlu",
+      "english": "window",
+      "bucket": "bor"
+    },
+    {
+      "id": "n_1",
+      "oravia": "bonjae",
+      "english": "cabinet",
+      "bucket": "bon"
+    },
+    {
+      "id": "n_2",
+      "oravia": "bonfene",
+      "english": "bed",
+      "bucket": "bon"
+    },
+    {
+      "id": "n_3",
+      "oravia": "bontame",
+      "english": "table",
+      "bucket": "bon"
+    },
+    {
+      "id": "s_2",
+      "oravia": "bospupi",
+      "english": "shower",
+      "bucket": "bos"
+    },
+    {
+      "id": "s_3",
+      "oravia": "bosvi",
+      "english": "toilet",
+      "bucket": "bos"
+    },
+    {
+      "id": "e_1",
+      "oravia": "boelo",
+      "english": "room",
+      "bucket": "boe"
+    },
+    {
+      "id": "e_2",
+      "oravia": "boetale",
+      "english": "hall",
+      "bucket": "boe"
+    },
+    {
+      "id": "e_3",
+      "oravia": "boemo",
+      "english": "kitchen",
+      "bucket": "boe"
+    }
+  ]
+}
