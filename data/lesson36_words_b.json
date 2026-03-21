@@ -1,0 +1,165 @@
+{
+  "lesson_id": "lesson36_b",
+  "cluster": "ye",
+  "cluster_meaning": "clothing",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "Round 1",
+      "buckets": [
+        "s",
+        "y"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 2,
+      "title": "Round 2",
+      "buckets": [
+        "s",
+        "y"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 3,
+      "title": "Round 3",
+      "buckets": [
+        "s",
+        "y"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 4,
+      "title": "Round 4",
+      "buckets": [
+        "s",
+        "y"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 5,
+      "title": "Round 5",
+      "buckets": [
+        "s",
+        "y"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 6,
+      "title": "Round 6",
+      "buckets": [
+        "s",
+        "y"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 7,
+      "title": "Round 7",
+      "buckets": [
+        "s",
+        "y"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    },
+    {
+      "round": 8,
+      "title": "Round 8",
+      "buckets": [
+        "s",
+        "y"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    },
+    {
+      "round": 9,
+      "title": "Round 9",
+      "buckets": [
+        "s",
+        "y"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    }
+  ],
+  "words": [
+    {
+      "id": "ye_s1",
+      "oravia": "yespuli",
+      "english": "sock",
+      "bucket": "s"
+    },
+    {
+      "id": "ye_s2",
+      "oravia": "yesrel",
+      "english": "jacket",
+      "bucket": "s"
+    },
+    {
+      "id": "ye_s3",
+      "oravia": "yesnou",
+      "english": "pants",
+      "bucket": "s"
+    },
+    {
+      "id": "ye_s4",
+      "oravia": "yesmel",
+      "english": "dress",
+      "bucket": "s"
+    },
+    {
+      "id": "ye_s5",
+      "oravia": "yeswol",
+      "english": "shirt",
+      "bucket": "s"
+    },
+    {
+      "id": "ye_s6",
+      "oravia": "yespai",
+      "english": "shoe",
+      "bucket": "s"
+    },
+    {
+      "id": "ye_y1",
+      "oravia": "yeleno",
+      "english": "cotton",
+      "bucket": "y"
+    },
+    {
+      "id": "ye_y2",
+      "oravia": "yean",
+      "english": "sew",
+      "bucket": "y"
+    },
+    {
+      "id": "ye_y3",
+      "oravia": "yejae",
+      "english": "bag",
+      "bucket": "y"
+    },
+    {
+      "id": "ye_y4",
+      "oravia": "yemiodu",
+      "english": "pillow",
+      "bucket": "y"
+    },
+    {
+      "id": "ye_y5",
+      "oravia": "yewamus",
+      "english": "net",
+      "bucket": "y"
+    },
+    {
+      "id": "ye_y6",
+      "oravia": "yedi",
+      "english": "stripe",
+      "bucket": "y"
+    }
+  ]
+}
