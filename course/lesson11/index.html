@@ -251,6 +251,8 @@
       
         
       
+        
+      
     
     
     
@@ -369,6 +371,34 @@
     
   
     About Me
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/get-involved/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Get Involved
   
 
     
@@ -932,10 +962,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#questions" class="md-nav__link">
+  <a href="#u-marker" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Questions
+        u Marker
       
     </span>
   </a>
@@ -2234,10 +2264,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#questions" class="md-nav__link">
+  <a href="#u-marker" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Questions
+        u Marker
       
     </span>
   </a>
@@ -2430,8 +2460,8 @@
 <h1 id="lesson-11-il-cluster">Lesson 11: IL Cluster</h1>
 <div class="admonition info">
 <p class="admonition-title">How to Use This Lesson</p>
-<p>Every lesson is divided into five sections: <strong>Warm-Up</strong>, <strong>Grammar</strong>, <strong>Vocabulary</strong>, <strong>Exercise</strong>, and <strong>Review</strong>. Please move through these tabs in order.</p>
-<p><strong>Do not try to memorize!</strong> Just read through the content attentively. We will have plenty of exercises and reviews later!</p>
+<p>Every lesson is divided into five sections: <strong>Warm-Up</strong>, <strong>Grammar</strong>, <strong>Vocabulary</strong>, <strong>Exercise</strong>, and <strong>Review</strong>. Please move through these tabs in order. After you finish, <em>try the Exercises and Review again</em> to see how much you’ve improved.</p>
+<p><strong>Do not try to memorize!</strong> Just read through the content attentively. We will have plenty of exercises and reviews later! </p>
 </div>
 <hr />
 <div class="tabbed-set tabbed-alternate" data-tabs="1:6"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><input id="__tabbed_1_5" name="__tabbed_1" type="radio" /><input id="__tabbed_1_6" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Warm-Up</label><label for="__tabbed_1_2">Grammar</label><label for="__tabbed_1_3">Vocabulary</label><label for="__tabbed_1_4">Exercise 1</label><label for="__tabbed_1_5">Exercise 2</label><label for="__tabbed_1_6">Review</label></div>
@@ -2455,9 +2485,9 @@
 </div>
 </div>
 <div class="tabbed-block">
-<h2 id="questions">Questions</h2>
+<h2 id="u-marker">u Marker</h2>
 <p>Now, see if you can understand these sentences. If you scroll bellow, you will see tips, and then answers. </p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>run i anona e molbai u falne.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>run i anona e molbai u falen.
 </code></pre></div>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>hai i daium i anona e mouje u run.
 </code></pre></div>
@@ -2468,7 +2498,7 @@
 <p><strong>Tips</strong></p>
 <p>anona = give<br />
 molbai = cup<br />
-falne = child<br />
+falen = child<br />
 mouje = drink<br />
 fare = parent<br />
 molcui = bowl<br />
@@ -2714,26 +2744,38 @@ if (document.readyState === 'loading') {
 </div>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
+async function initReview() {
     const wrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
     const container = document.getElementById('review-game-container');
+    if (!container) return;
 
     if (wrongIds.length === 0) {
         container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p><p style="color: #5a8bb8; margin-top: 0.5rem;">You did not miss any words. Excellent work!</p></div>';
         return;
     }
 
-    const baseUrl = window.location.origin;
+    try {
+        // Automatically detect all JSON files used on this page
+        const lessonIds = [...new Set(
+            [...document.querySelectorAll('[data-lesson]')]
+                .map(el => el.dataset.lesson)
+        )];
 
-    // Load both exercise 1 and exercise 2 words
-    Promise.all([
-        fetch(baseUrl + '/data/lesson11_words.json').then(r => r.json()),
-        fetch(baseUrl + '/data/lesson11_exercise2_words.json').then(r => r.json())
-    ])
-    .then(results => {
-        // Combine words from both exercises
-        const allWords = [...results[0].words, ...results[1].words];
-        const wrongWords = allWords.filter(word => wrongIds.includes(word.id));
+        const baseUrl = window.location.origin;
+        const responses = await Promise.all(
+            lessonIds.map(id => fetch(baseUrl + '/data/' + id + '_words.json').then(r => r.json()))
+        );
+        const allWords = responses.flatMap(data => data.words);
+
+        // Deduplicate by id
+        const seen = new Set();
+        const uniqueWords = allWords.filter(w => {
+            if (seen.has(w.id)) return false;
+            seen.add(w.id);
+            return true;
+        });
+
+        const wrongWords = uniqueWords.filter(word => wrongIds.includes(word.id));
 
         if (wrongWords.length === 0) {
             container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p></div>';
@@ -2747,17 +2789,26 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('clear-review').addEventListener('click', function() {
             if (confirm('Clear all review words? This will reset your wrong words list for this lesson.')) {
                 const allWrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-                const lessonWordIds = allWords.map(w => w.id);
+                const lessonWordIds = uniqueWords.map(w => w.id);
                 const remainingWrongIds = allWrongIds.filter(id => !lessonWordIds.includes(id));
                 localStorage.setItem('wrong_ids', JSON.stringify(remainingWrongIds));
                 location.reload();
             }
         });
-    })
-    .catch(error => {
+
+    } catch (error) {
         console.error('Error loading words:', error);
         container.innerHTML = '<p style="color: #f44336;">Error loading review words. Please refresh the page.</p>';
-    });
+    }
+}
+
+document.addEventListener('DOMContentLoaded', initReview);
+document.querySelectorAll('.tabbed-labels label').forEach(label => {
+    if (label.textContent.trim() === 'Review') {
+        label.addEventListener('click', function() {
+            setTimeout(initReview, 50);
+        });
+    }
 });
 </script>
 
