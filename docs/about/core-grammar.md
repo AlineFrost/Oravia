@@ -248,8 +248,7 @@ Oravia vocabulary is organized into semantic clusters. Typically, the first lett
 
 **Next steps:**
 
-[Start the Course →](../course/lesson00.md){ .md-button .md-button--primary }  
-[Explore Advanced Grammar →](advanced-grammar.md){ .md-button }
-
+[Start Learning →](../course/lesson00.md){ .md-button .md-button--primary }  
+[Get Involved →](get-involved.md){ .md-button }
 ---
 

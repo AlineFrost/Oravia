@@ -1,7 +1,7 @@
 # Lesson 23: Time & NO Cluster
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into five sections: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order.
+    Every lesson is divided into five sections: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order. After you finish, *try the Exercises and Review again* to see how much you've improved.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -220,47 +220,47 @@
     
     ---
     ### Round 1
-    <div id="matching-game-1" data-lesson="lesson22_b" data-round="1"></div>
+    <div id="matching-game-1" data-lesson="lesson22_words_b" data-round="1"></div>
 
     ---
 
     ### Round 2
-    <div id="matching-game-2" data-lesson="lesson22_b" data-round="2"></div>
+    <div id="matching-game-2" data-lesson="lesson22_words_b" data-round="2"></div>
 
     ---
 
     ### Round 3
-    <div id="matching-game-3" data-lesson="lesson22_b" data-round="3"></div>
+    <div id="matching-game-3" data-lesson="lesson22_words_b" data-round="3"></div>
 
     ---
 
     ### Round 4
-    <div id="matching-game-4" data-lesson="lesson22_b" data-round="4"></div>
+    <div id="matching-game-4" data-lesson="lesson22_words_b" data-round="4"></div>
 
     ---
 
     ### Round 5
-    <div id="matching-game-5" data-lesson="lesson22_b" data-round="5"></div>
+    <div id="matching-game-5" data-lesson="lesson22_words_b" data-round="5"></div>
 
     ---
 
     ### Round 6
-    <div id="matching-game-6" data-lesson="lesson22_b" data-round="6"></div>
+    <div id="matching-game-6" data-lesson="lesson22_words_b" data-round="6"></div>
 
     ---
 
     ### Round 7
-    <div id="matching-game-7" data-lesson="lesson22_b" data-round="7"></div>
+    <div id="matching-game-7" data-lesson="lesson22_words_b" data-round="7"></div>
 
     ---
 
     ### Round 8
-    <div id="matching-game-8" data-lesson="lesson22_b" data-round="8"></div>
+    <div id="matching-game-8" data-lesson="lesson22_words_b" data-round="8"></div>
 
     ---
 
     ### Round 9
-    <div id="matching-game-9" data-lesson="lesson22_b" data-round="9"></div>
+    <div id="matching-game-9" data-lesson="lesson22_words_b" data-round="9"></div>
 
 
 === "Exercise 2"
@@ -277,57 +277,57 @@
     
     ---
     ### Round 1
-    <div id="matching-game-10" data-lesson="lesson20_b" data-round="1"></div>
+    <div id="matching-game-10" data-lesson="lesson20_words_b" data-round="1"></div>
 
     ---
 
     ### Round 2
-    <div id="matching-game-11" data-lesson="lesson20_b" data-round="2"></div>
+    <div id="matching-game-11" data-lesson="lesson20_words_b" data-round="2"></div>
 
     ---
 
     ### Round 3
-    <div id="matching-game-12" data-lesson="lesson20_b" data-round="3"></div>
+    <div id="matching-game-12" data-lesson="lesson20_words_b" data-round="3"></div>
 
     ---
 
     ### Round 4
-    <div id="matching-game-13" data-lesson="lesson20_b" data-round="4"></div>
+    <div id="matching-game-13" data-lesson="lesson20_words_b" data-round="4"></div>
 
     ---
 
     ### Round 5
-    <div id="matching-game-14" data-lesson="lesson20_b" data-round="5"></div>
+    <div id="matching-game-14" data-lesson="lesson20_words_b" data-round="5"></div>
 
     ---
 
     ### Round 6
-    <div id="matching-game-15" data-lesson="lesson20_b" data-round="6"></div>
+    <div id="matching-game-15" data-lesson="lesson20_words_b" data-round="6"></div>
 
     ---
 
     ### Round 7
-    <div id="matching-game-16" data-lesson="lesson20_b" data-round="7"></div>
+    <div id="matching-game-16" data-lesson="lesson20_words_b" data-round="7"></div>
 
     ---
 
     ### Round 8
-    <div id="matching-game-17" data-lesson="lesson20_b" data-round="8"></div>
+    <div id="matching-game-17" data-lesson="lesson20_words_b" data-round="8"></div>
 
     ---
 
     ### Round 9
-    <div id="matching-game-18" data-lesson="lesson20_b" data-round="9"></div>
+    <div id="matching-game-18" data-lesson="lesson20_words_b" data-round="9"></div>
 
     ---
 
     ### Round 10
-    <div id="matching-game-19" data-lesson="lesson20_b" data-round="10"></div>
+    <div id="matching-game-19" data-lesson="lesson20_words_b" data-round="10"></div>
 
     ---
 
     ### Round 11
-    <div id="matching-game-20" data-lesson="lesson20_b" data-round="11"></div>
+    <div id="matching-game-20" data-lesson="lesson20_words_b" data-round="11"></div>
 
 
 === "Review"
@@ -409,48 +409,61 @@ if (document.readyState === 'loading') {
 
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
+async function initReview() {
     const wrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
     const container = document.getElementById('review-game-container');
-    
+    if (!container) return;
     if (wrongIds.length === 0) {
         container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p><p style="color: #5a8bb8; margin-top: 0.5rem;">You did not miss any words. Excellent work!</p></div>';
         return;
     }
-
-    const baseUrl = window.location.origin;
-    
-    Promise.all([
-        fetch(baseUrl + '/data/lesson10_words.json').then(r => r.json()),
-        fetch(baseUrl + '/data/lesson09_words.json').then(r => r.json())
-    ])
-    .then(results => {
-        const allWords = [...results[0].words, ...results[1].words];
-        const wrongWords = allWords.filter(word => wrongIds.includes(word.id));
+    try {
+        // Automatically detect all JSON files used on this page
+        const lessonIds = [...new Set(
+            [...document.querySelectorAll('[data-lesson]')]
+                .map(el => el.dataset.lesson)
+        )];
         
+        const baseUrl = window.location.origin;
+        const responses = await Promise.all(
+            lessonIds.map(id => fetch(baseUrl + '/data/' + id + '_words.json').then(r => r.json()))
+        );
+        const allWords = responses.flatMap(data => data.words);
+        // Deduplicate by id
+        const seen = new Set();
+        const uniqueWords = allWords.filter(w => {
+            if (seen.has(w.id)) return false;
+            seen.add(w.id);
+            return true;
+        });
+        const wrongWords = uniqueWords.filter(word => wrongIds.includes(word.id));
         if (wrongWords.length === 0) {
             container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p></div>';
             return;
         }
-
         container.innerHTML = '<p style="text-align: center; margin-bottom: 2rem; color: #5a8bb8;">Practice these ' + wrongWords.length + ' word(s) you found challenging:</p><div id="review-game-wrapper"></div><div style="text-align: center; margin-top: 2rem;"><button id="clear-review" style="padding: 0.5rem 1.5rem; background: #f57c00; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.95rem;">Clear Review List</button></div>';
-
         new MatchingGame('review-game-wrapper', wrongWords, 'review', null, []);
-
         document.getElementById('clear-review').addEventListener('click', function() {
             if (confirm('Clear all review words? This will reset your wrong words list for this lesson.')) {
                 const allWrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-                const lessonWordIds = allWords.map(w => w.id);
+                const lessonWordIds = uniqueWords.map(w => w.id);
                 const remainingWrongIds = allWrongIds.filter(id => !lessonWordIds.includes(id));
                 localStorage.setItem('wrong_ids', JSON.stringify(remainingWrongIds));
                 location.reload();
             }
         });
-    })
-    .catch(error => {
+    } catch (error) {
         console.error('Error loading words:', error);
         container.innerHTML = '<p style="color: #f44336;">Error loading review words. Please refresh the page.</p>';
-    });
+    }
+}
+document.addEventListener('DOMContentLoaded', initReview);
+document.querySelectorAll('.tabbed-labels label').forEach(label => {
+    if (label.textContent.trim() === 'Review') {
+        label.addEventListener('click', function() {
+            setTimeout(initReview, 50);
+        });
+    }
 });
 </script>
 

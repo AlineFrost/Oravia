@@ -10,12 +10,13 @@ And to you as well who visited my website, thank you!
 
 ---
 
-## Get Involved
+## Contact
 
 Interested in contributing to Oravia's development? I'm always looking for beta testers and feedback!
 
-**Contact:** 
+[Get Involved →](get-involved.md){ .md-button }
 
 ---
 
-[Start Learning Oravia →](../course/lesson00.md){ .md-button .md-button--primary }
+Oravia 2026 by Aline da Silva Frost  
+This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).

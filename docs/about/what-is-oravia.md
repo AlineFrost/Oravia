@@ -162,7 +162,7 @@ ceigor = emphasizes the creativity involved
 
 It's free  
 It's fun!  
-Much easier to learn than natural languages 
+Much easier to learn than natural languages  
 May help you learn other languages afterwards  
 Great exercise for memory, pattern recognition and cognitive flexibility  
 Lets you think and express yourself in new ways  
@@ -174,5 +174,6 @@ And have I mentioned *it's fun?* :)
 
 ---
 
-[Start Learning →](../course/lesson00.md){ .md-button .md-button--primary }  
+[Start Learning →](../course/lesson00.md){ .md-button .md-button--primary }
 [Read Core Grammar →](core-grammar.md){ .md-button }
+[Get Involved →](get-involved.md){ .md-button }

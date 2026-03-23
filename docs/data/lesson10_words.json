@@ -63,19 +63,19 @@
     },
     {
       "id": "n_1",
-      "oravia": "yanou",
+      "oravia": "yalnou",
       "english": "deep",
       "bucket": "n"
     },
     {
       "id": "n_2",
-      "oravia": "yanlen",
+      "oravia": "yalen",
       "english": "long",
       "bucket": "n"
     },
     {
       "id": "n_3",
-      "oravia": "yantan",
+      "oravia": "yaltan",
       "english": "big",
       "bucket": "n"
     },
@@ -93,7 +93,7 @@
     },
     {
       "id": "y_3",
-      "oravia": "yangai",
+      "oravia": "yalgai",
       "english": "small",
       "bucket": "y"
     },

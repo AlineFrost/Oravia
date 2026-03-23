@@ -1,7 +1,7 @@
 # Lesson 10: Indirect Object
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into five sections: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order.
+    Every lesson is divided into five sections: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order. After you finish, *try the Exercises and Review again* to see how much you’ve improved.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -56,7 +56,7 @@
      I     give   the milk
     ```
     I give the milk... *to whom?* We need another complement there!
-    If we want to say: I give milk **to the baby***. The baby is the not the thing being given, but the one **receiving it**. For that, we use **u**!
+    If we want to say: I give milk **to the baby**. The baby is the not the thing being given, but the one **receiving it**. For that, we use **u**!
     
     **U** is the marker to indicate indirect objects, which in English usually translates to "to/for". For example:
     
@@ -141,11 +141,11 @@
     | yahci | sharp |
     | yahlul | smooth |
     | yahgor | solid  |
-    | yanou | deep |
-    | yanlen | long |
-    | yantan | big |
+    | yalnou | deep |
+    | yalen | long |
+    | yaltan | big |
     
-    What do you notice about these words? Can you spot any patterns with **YAN** and **YAH**?
+    What do you notice about these words? Can you spot any patterns with **YAL** and **YAH**?
     
     <div style="text-align: center; margin: 2rem 0;">
         <button onclick="document.getElementById('cluster-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
@@ -154,26 +154,36 @@
     </div>
     
     <div id="cluster-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-        <p style="margin: 0;"> **YAN** is about **dimension/size**, and **YAH** is about **surface texture**</p>
+        <p style="margin: 0;"> **YAL** is about **dimension/size**, and **YAH** is about **surface texture**</p>
     </div>
     
+    Here are the other words from the **YA** Cluster we saw last time:
+        
+    | Oravia | English |
+    |--------|---------|
+    | yasoi | fast, speed |
+    | yalgai | small, little |
+    | yani | new, innovation |
+    | yamirli | old, age |
+    | yavuson | slow, slowly |
+    
     !!! tip "Sound Connections"
-    Did you notice that the word *yani*, new, has the same syllable as the word *falni*, baby? That's right! 
+        Did you notice that the word *yani*, new, has the same syllable as the word *falni*, baby? That's right! 
     
-    ```
-    ya    +   ni = new
-     ↓         ↓       
-    quality + new
-    ```
+        ```
+        ya    +   ni = new
+         ↓         ↓       
+        quality + new
+        ```
     
-    ```
-    fal    +    ni = new
-     ↓          ↓       
-    young  +   new  = baby
-    subcluster
-    ```
+        ```
+        fal    +    ni = new
+         ↓          ↓       
+        young  +   new  = baby
+        subcluster
+        ```
     
-    This is just a reminder to keep a look out for sound connections! 
+        This is just a reminder to keep a look out for sound connections! 
         
     You are now ready for the Exercise!
 
@@ -256,7 +266,6 @@
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     const warmupWords = [
-        const warmupWords = [
     {id: "mo_001", oravia: "mo", english: "food"},
     {id: "mo_002", oravia: "mogali", english: "coffee"},
     {id: "mo_003", oravia: "mocen", english: "chocolate"},
@@ -331,25 +340,39 @@ document.addEventListener('DOMContentLoaded', function() {
 </div>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
+async function initReview() {
     const wrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
     const container = document.getElementById('review-game-container');
-    
+    if (!container) return;
+
     if (wrongIds.length === 0) {
         container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p><p style="color: #5a8bb8; margin-top: 0.5rem;">You did not miss any words. Excellent work!</p></div>';
         return;
     }
 
-    const baseUrl = window.location.origin;
-    
-    Promise.all([
-        fetch(baseUrl + '/data/lesson10_words.json').then(r => r.json()),
-        fetch(baseUrl + '/data/lesson09_words.json').then(r => r.json())
-    ])
-    .then(results => {
-        const allWords = [...results[0].words, ...results[1].words];
-        const wrongWords = allWords.filter(word => wrongIds.includes(word.id));
+    try {
+        // Automatically detect all JSON files used on this page
+        const lessonIds = [...new Set(
+            [...document.querySelectorAll('[data-lesson]')]
+                .map(el => el.dataset.lesson)
+        )];
         
+        const baseUrl = window.location.origin;
+        const responses = await Promise.all(
+            lessonIds.map(id => fetch(baseUrl + '/data/' + id + '_words.json').then(r => r.json()))
+        );
+        const allWords = responses.flatMap(data => data.words);
+
+        // Deduplicate by id
+        const seen = new Set();
+        const uniqueWords = allWords.filter(w => {
+            if (seen.has(w.id)) return false;
+            seen.add(w.id);
+            return true;
+        });
+
+        const wrongWords = uniqueWords.filter(word => wrongIds.includes(word.id));
+
         if (wrongWords.length === 0) {
             container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p></div>';
             return;
@@ -362,16 +385,25 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('clear-review').addEventListener('click', function() {
             if (confirm('Clear all review words? This will reset your wrong words list for this lesson.')) {
                 const allWrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-                const lessonWordIds = allWords.map(w => w.id);
+                const lessonWordIds = uniqueWords.map(w => w.id);
                 const remainingWrongIds = allWrongIds.filter(id => !lessonWordIds.includes(id));
                 localStorage.setItem('wrong_ids', JSON.stringify(remainingWrongIds));
                 location.reload();
             }
         });
-    })
-    .catch(error => {
+
+    } catch (error) {
         console.error('Error loading words:', error);
         container.innerHTML = '<p style="color: #f44336;">Error loading review words. Please refresh the page.</p>';
-    });
+    }
+}
+
+document.addEventListener('DOMContentLoaded', initReview);
+document.querySelectorAll('.tabbed-labels label').forEach(label => {
+    if (label.textContent.trim() === 'Review') {
+        label.addEventListener('click', function() {
+            setTimeout(initReview, 50);
+        });
+    }
 });
 </script>

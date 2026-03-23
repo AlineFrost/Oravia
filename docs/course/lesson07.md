@@ -1,7 +1,7 @@
 # Lesson 7: AN Cluster
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into four sections: **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order.
+    Every lesson is divided into four sections: **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order. After you finish, *try the Exercises and Review again* to see how much you’ve improved.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -10,6 +10,8 @@
 === "Grammar"
 
     ## Questions
+    
+    Today, we will do some practice and review.
     
     Remember that in Oravia, words are flexible! The words we use as nouns most of the time can also be used as verbs. Take a look at this table with words from the BO cluster:
     
@@ -21,7 +23,7 @@
     | bospupi | shower |
     | boemo | kitchen |
     | bonjae | cabinet |
-    | bonpem | bed |
+    | bonfene | bed |
     | bontame | table |
     
     And these are some ways they can be used as verbs:
@@ -34,7 +36,7 @@
     | bospupi | shower, to shower, to wash |
     | boemo | kitchen, to cook |
     | bonjae | cabinet, to put in a cabinet |
-    | bonpem | bed, to lie down |
+    | bonfene | bed, to lie down |
     | bontame | table, to put on a table |
     
     No need to memorize the table! The verb meanings are usually the following:
@@ -47,8 +49,8 @@
     ```
     
     ```
-    bonpem = bed
-    i bonpem = as to use the bed = to lie down
+    bonfene = bed
+    i bonfene = as to use the bed = to lie down
     ```
     
     ```
@@ -81,7 +83,7 @@
     ```
     
     ```
-    cei i bortal en boegor?
+    cei i bortal en bo?
     ```
     
     ```
@@ -93,7 +95,7 @@
     ```
     
     ```
-    cei i bonpem en boetale?
+    cei i bonfene en boetale?
     ```
     
     **Tips**
@@ -107,7 +109,7 @@
     de = from/of/about  
     falni = baby
     boetale = hall
-    boegor = house
+    bo = house
     
     **Answers**
     <div style="text-align: center; margin: 2rem 0;">
@@ -159,8 +161,8 @@
     Of course, even though these are primarily actions, these words can also be used as nouns or adjectives. You could say, for instance:
     
     ```
-    aniden mocen
-    anidai bospupi
+    anidai mocen
+    anifou bospupi
     ```
     
     Recall that the word that comes before modifies the following one. What do you think these word combinations mean?
@@ -295,27 +297,39 @@
 </div>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
+async function initReview() {
     const wrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
     const container = document.getElementById('review-game-container');
-    
+    if (!container) return;
+
     if (wrongIds.length === 0) {
         container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p><p style="color: #5a8bb8; margin-top: 0.5rem;">You did not miss any words. Excellent work!</p></div>';
         return;
     }
 
-    const baseUrl = window.location.origin;
-    
-    // Load both exercise 1 and exercise 2 words
-    Promise.all([
-        fetch(baseUrl + '/data/lesson07_words.json').then(r => r.json()),
-        fetch(baseUrl + '/data/lesson06_exercise2_words.json').then(r => r.json())
-    ])
-    .then(results => {
-        // Combine words from both exercises
-        const allWords = [...results[0].words, ...results[1].words];
-        const wrongWords = allWords.filter(word => wrongIds.includes(word.id));
+    try {
+        // Automatically detect all JSON files used on this page
+        const lessonIds = [...new Set(
+            [...document.querySelectorAll('[data-lesson]')]
+                .map(el => el.dataset.lesson)
+        )];
         
+        const baseUrl = window.location.origin;
+        const responses = await Promise.all(
+            lessonIds.map(id => fetch(baseUrl + '/data/' + id + '_words.json').then(r => r.json()))
+        );
+        const allWords = responses.flatMap(data => data.words);
+
+        // Deduplicate by id
+        const seen = new Set();
+        const uniqueWords = allWords.filter(w => {
+            if (seen.has(w.id)) return false;
+            seen.add(w.id);
+            return true;
+        });
+
+        const wrongWords = uniqueWords.filter(word => wrongIds.includes(word.id));
+
         if (wrongWords.length === 0) {
             container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p></div>';
             return;
@@ -328,16 +342,25 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('clear-review').addEventListener('click', function() {
             if (confirm('Clear all review words? This will reset your wrong words list for this lesson.')) {
                 const allWrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-                const lessonWordIds = allWords.map(w => w.id);
+                const lessonWordIds = uniqueWords.map(w => w.id);
                 const remainingWrongIds = allWrongIds.filter(id => !lessonWordIds.includes(id));
                 localStorage.setItem('wrong_ids', JSON.stringify(remainingWrongIds));
                 location.reload();
             }
         });
-    })
-    .catch(error => {
+
+    } catch (error) {
         console.error('Error loading words:', error);
         container.innerHTML = '<p style="color: #f44336;">Error loading review words. Please refresh the page.</p>';
-    });
+    }
+}
+
+document.addEventListener('DOMContentLoaded', initReview);
+document.querySelectorAll('.tabbed-labels label').forEach(label => {
+    if (label.textContent.trim() === 'Review') {
+        label.addEventListener('click', function() {
+            setTimeout(initReview, 50);
+        });
+    }
 });
 </script>

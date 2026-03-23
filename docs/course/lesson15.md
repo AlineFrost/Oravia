@@ -1,7 +1,7 @@
 # Lesson 15: Numbers
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into five sections: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order.
+    Every lesson is divided into five sections: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order. After you finish, *try the Exercises and Review again* to see how much you’ve improved.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -48,6 +48,10 @@
     
     ```
     nim i anidai e mogali, mai su moulu.
+    ```
+    
+    ```
+    u nim, suum moulu, eori.
     ```
     
     ```
@@ -101,6 +105,7 @@
     <div id="subcluster3-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
     <p style="margin: 0 0 0.5rem 0;">Do you want milk or coffee?</p>
     <p style="margin: 0 0 0.5rem 0;">I want coffee, but with milk.</p>
+    <p style="margin: 0 0 0.5rem 0;">For me, without milk, please.</p>
     <p style="margin: 0 0 0.5rem 0;">She wants chocolate, but she doesn't need it.</p>
     <p style="margin: 0 0 0.5rem 0;">I can give you chocolate.</p>
     <p style="margin: 0 0 0.5rem 0;">Maybe you want a small apple.</p>
@@ -357,26 +362,41 @@ if (document.readyState === 'loading') {
     </p>
 </div>
 
+
 <script>
-document.addEventListener('DOMContentLoaded', function() {
+async function initReview() {
     const wrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
     const container = document.getElementById('review-game-container');
-    
+    if (!container) return;
+
     if (wrongIds.length === 0) {
         container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p><p style="color: #5a8bb8; margin-top: 0.5rem;">You did not miss any words. Excellent work!</p></div>';
         return;
     }
 
-    const baseUrl = window.location.origin;
-    
-    Promise.all([
-        fetch(baseUrl + '/data/lesson15_words.json').then(r => r.json()),
-        fetch(baseUrl + '/data/lesson15_exercise2_words.json').then(r => r.json())
-    ])
-    .then(results => {
-        const allWords = [...results[0].words, ...results[1].words];
-        const wrongWords = allWords.filter(word => wrongIds.includes(word.id));
+    try {
+        // Automatically detect all JSON files used on this page
+        const lessonIds = [...new Set(
+            [...document.querySelectorAll('[data-lesson]')]
+                .map(el => el.dataset.lesson)
+        )];
         
+        const baseUrl = window.location.origin;
+        const responses = await Promise.all(
+            lessonIds.map(id => fetch(baseUrl + '/data/' + id + '_words.json').then(r => r.json()))
+        );
+        const allWords = responses.flatMap(data => data.words);
+
+        // Deduplicate by id
+        const seen = new Set();
+        const uniqueWords = allWords.filter(w => {
+            if (seen.has(w.id)) return false;
+            seen.add(w.id);
+            return true;
+        });
+
+        const wrongWords = uniqueWords.filter(word => wrongIds.includes(word.id));
+
         if (wrongWords.length === 0) {
             container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p></div>';
             return;
@@ -389,16 +409,25 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('clear-review').addEventListener('click', function() {
             if (confirm('Clear all review words? This will reset your wrong words list for this lesson.')) {
                 const allWrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-                const lessonWordIds = allWords.map(w => w.id);
+                const lessonWordIds = uniqueWords.map(w => w.id);
                 const remainingWrongIds = allWrongIds.filter(id => !lessonWordIds.includes(id));
                 localStorage.setItem('wrong_ids', JSON.stringify(remainingWrongIds));
                 location.reload();
             }
         });
-    })
-    .catch(error => {
+
+    } catch (error) {
         console.error('Error loading words:', error);
         container.innerHTML = '<p style="color: #f44336;">Error loading review words. Please refresh the page.</p>';
-    });
+    }
+}
+
+document.addEventListener('DOMContentLoaded', initReview);
+document.querySelectorAll('.tabbed-labels label').forEach(label => {
+    if (label.textContent.trim() === 'Review') {
+        label.addEventListener('click', function() {
+            setTimeout(initReview, 50);
+        });
+    }
 });
 </script>
