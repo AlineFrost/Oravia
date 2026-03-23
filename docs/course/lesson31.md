@@ -129,7 +129,7 @@
     
     What do you think the **APA** cluster is about? 
     
-        <div style="text-align: center; margin: 2rem 0;">
+    <div style="text-align: center; margin: 2rem 0;">
     <button onclick="document.getElementById('subcluster4-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
         Click to Reveal the Answer
     </button>
@@ -172,37 +172,37 @@
     
     ---
     ### Round 1
-    <div id="matching-game-1" data-lesson="lesson30_words_b" data-round="1"></div>
+    <div id="matching-game-1" data-lesson="lesson30_b" data-round="1"></div>
 
     ---
 
     ### Round 2
-    <div id="matching-game-2" data-lesson="lesson30_words_b" data-round="2"></div>
+    <div id="matching-game-2" data-lesson="lesson30_b" data-round="2"></div>
 
     ---
 
     ### Round 3
-    <div id="matching-game-3" data-lesson="lesson30_words_b" data-round="3"></div>
+    <div id="matching-game-3" data-lesson="lesson30_b" data-round="3"></div>
 
     ---
 
     ### Round 4
-    <div id="matching-game-4" data-lesson="lesson30_words_b" data-round="4"></div>
+    <div id="matching-game-4" data-lesson="lesson30_b" data-round="4"></div>
 
     ---
 
     ### Round 5
-    <div id="matching-game-5" data-lesson="lesson30_words_b" data-round="5"></div>
+    <div id="matching-game-5" data-lesson="lesson30_b" data-round="5"></div>
 
     ---
 
     ### Round 6
-    <div id="matching-game-6" data-lesson="lesson30_words_b" data-round="6"></div>
+    <div id="matching-game-6" data-lesson="lesson30_b" data-round="6"></div>
 
     ---
 
     ### Round 7
-    <div id="matching-game-7" data-lesson="lesson30_words_b" data-round="7"></div>
+    <div id="matching-game-7" data-lesson="lesson30_b" data-round="7"></div>
 
 
 === "Exercise 2"
@@ -346,18 +346,15 @@ async function initReview() {
         return;
     }
     try {
-        // Automatically detect all JSON files used on this page
         const lessonIds = [...new Set(
             [...document.querySelectorAll('[data-lesson]')]
                 .map(el => el.dataset.lesson)
         )];
-        
         const baseUrl = window.location.origin;
         const responses = await Promise.all(
             lessonIds.map(id => fetch(baseUrl + '/data/' + id + '_words.json').then(r => r.json()))
         );
         const allWords = responses.flatMap(data => data.words);
-        // Deduplicate by id
         const seen = new Set();
         const uniqueWords = allWords.filter(w => {
             if (seen.has(w.id)) return false;
