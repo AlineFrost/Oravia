@@ -2739,25 +2739,25 @@ yani = new  </p>
 <p>Click one word from each column to match them. The game will check automatically when you select both words.</p>
 <hr />
 <h3 id="round-1">Round 1</h3>
-<p><div id="matching-game-1" data-lesson="lesson24_words_b" data-round="1"></div></p>
+<p><div id="matching-game-1" data-lesson="lesson24_b" data-round="1"></div></p>
 <hr />
 <h3 id="round-2">Round 2</h3>
-<p><div id="matching-game-2" data-lesson="lesson24_words_b" data-round="2"></div></p>
+<p><div id="matching-game-2" data-lesson="lesson24_b" data-round="2"></div></p>
 <hr />
 <h3 id="round-3">Round 3</h3>
-<p><div id="matching-game-3" data-lesson="lesson24_words_b" data-round="3"></div></p>
+<p><div id="matching-game-3" data-lesson="lesson24_b" data-round="3"></div></p>
 <hr />
 <h3 id="round-4">Round 4</h3>
-<p><div id="matching-game-4" data-lesson="lesson24_words_b" data-round="4"></div></p>
+<p><div id="matching-game-4" data-lesson="lesson24_b" data-round="4"></div></p>
 <hr />
 <h3 id="round-5">Round 5</h3>
-<p><div id="matching-game-5" data-lesson="lesson24_words_b" data-round="5"></div></p>
+<p><div id="matching-game-5" data-lesson="lesson24_b" data-round="5"></div></p>
 <hr />
 <h3 id="round-6">Round 6</h3>
-<p><div id="matching-game-6" data-lesson="lesson24_words_b" data-round="6"></div></p>
+<p><div id="matching-game-6" data-lesson="lesson24_b" data-round="6"></div></p>
 <hr />
 <h3 id="round-7">Round 7</h3>
-<p><div id="matching-game-7" data-lesson="lesson24_words_b" data-round="7"></div></p>
+<p><div id="matching-game-7" data-lesson="lesson24_b" data-round="7"></div></p>
 </div>
 <div class="tabbed-block">
 <h2 id="matching-games_1">Matching Games</h2>
@@ -2879,18 +2879,15 @@ async function initReview() {
         return;
     }
     try {
-        // Automatically detect all JSON files used on this page
         const lessonIds = [...new Set(
             [...document.querySelectorAll('[data-lesson]')]
                 .map(el => el.dataset.lesson)
         )];
-
         const baseUrl = window.location.origin;
         const responses = await Promise.all(
             lessonIds.map(id => fetch(baseUrl + '/data/' + id + '_words.json').then(r => r.json()))
         );
         const allWords = responses.flatMap(data => data.words);
-        // Deduplicate by id
         const seen = new Set();
         const uniqueWords = allWords.filter(w => {
             if (seen.has(w.id)) return false;
