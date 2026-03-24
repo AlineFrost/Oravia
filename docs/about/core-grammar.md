@@ -18,28 +18,26 @@ Oravia is a simple, flexible language. Meaning is carried by short function mark
 
 ### Pronunciation
 
-**Consonants:**
 
 **B C D F G H J L M N P R S T V W Y**
 
 All pronounced as you would expect in English or IPA, with the details of:
-
-- **C** pronounced as in *kite*
-- **H** pronounced as in *house*
-- **J** pronounced as in *jello*
-- **R** pronounced as 'tt' in *butter* (IPA ɾ, also r)
-
-**Vowels:**
-
+    
+- **C** pronounced as in *cake* (IPA k)
+- **H** pronounced as in *house* (IPA h, ʁ or x)
+- **J** pronounced as in *jello* (IPA dʒ)
+- **R** pronounced as 'tt' in *butter* (IPA ɾ, r)
+    
+    
 **A E I O U:**
-
-- **A** as in *father*
-- **E** as in *cedar*
-- **I** as in *machine*
-- **O** as in *door*
-- **U** as in *flu*
-
-If you pronounce E and O closed like in Spanish, that's fine too!
+    
+- **A** as in *father* (IPA ɑ)
+- **E** as in *cellar* (IPA ɛ)
+- **I** as in *creek* (IPA i)
+- **O** as in *door* (IPA ɔ)
+- **U** as in *flu* (IPA u)
+    
+If you pronounce E and O closed like in Spanish (IPA e and o), that's fine too!
 
 **Stress:** On the penultimate syllable, and if the word ends in consonant, on the last syllable.
 

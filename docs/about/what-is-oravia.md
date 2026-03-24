@@ -158,6 +158,15 @@ ceigor = emphasizes the creativity involved
 
 ---
 
+## A Note on Methods
+
+I used word embeddings to cluster words based on semantic associations. The word embeddings came from tokens trained on internet data on billions of uses. These associations are not universal or free of limitations (they depend on who uses the internet, etc) but they are more shared than just using my own intuitions of what goes together. Based on this large language data that it was determined, for example, that “bear” is closely related to “dog”, and thus they are in the same cluster (mi). And, the word “snake” goes closer to “rodent” and not with “dog” and “bear”, so I created another cluster for animals like “snake” and “rodent” (mu). I created the names for the clusters (e.g., bigger animals and smaller animals), so you may have another interpretation of what they are about.
+
+I used a variety of both natural and constructed languages as inspiration. For example, the idea of semantic clusters come from grammatical gender in languages like Swahili; the markers were inspired by particles in languages like Japanese; and the verb system was inspired by aspect in languages like Yucatec Maya. The prepositions are a tribute to Mini-Linga, and the numbers are a tribute to Kotava.
+
+---
+
+
 ## Why Learn Oravia?
 
 It's free  
