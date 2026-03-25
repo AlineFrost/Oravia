@@ -1,0 +1,113 @@
+{
+  "lesson_id": "lesson10",
+  "cluster": "ya",
+  "cluster_meaning": "objective qualities",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "Round 1",
+      "buckets": [
+        "h",
+        "n",
+        "y"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 2,
+      "title": "Round 2",
+      "buckets": [
+        "h",
+        "n",
+        "y"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 3,
+      "title": "Round 3",
+      "buckets": [
+        "h",
+        "n",
+        "y"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 4,
+      "title": "Round 4",
+      "buckets": [
+        "y"
+      ],
+      "words_per_bucket": 3
+    }
+  ],
+  "words": [
+    {
+      "id": "h_1",
+      "oravia": "yahci",
+      "english": "sharp",
+      "bucket": "h"
+    },
+    {
+      "id": "h_2",
+      "oravia": "yahlul",
+      "english": "smooth",
+      "bucket": "h"
+    },
+    {
+      "id": "h_3",
+      "oravia": "yahgor",
+      "english": "solid",
+      "bucket": "h"
+    },
+    {
+      "id": "n_1",
+      "oravia": "yalnou",
+      "english": "deep",
+      "bucket": "n"
+    },
+    {
+      "id": "n_2",
+      "oravia": "yalen",
+      "english": "long",
+      "bucket": "n"
+    },
+    {
+      "id": "n_3",
+      "oravia": "yaltan",
+      "english": "big",
+      "bucket": "n"
+    },
+    {
+      "id": "y_1",
+      "oravia": "yasoi",
+      "english": "fast",
+      "bucket": "y"
+    },
+    {
+      "id": "y_2",
+      "oravia": "yavuson",
+      "english": "slow",
+      "bucket": "y"
+    },
+    {
+      "id": "y_3",
+      "oravia": "yalgai",
+      "english": "small",
+      "bucket": "y"
+    },
+    {
+      "id": "y_4",
+      "oravia": "yani",
+      "english": "new",
+      "bucket": "y"
+    },
+    {
+      "id": "y_5",
+      "oravia": "yamirli",
+      "english": "old",
+      "bucket": "y"
+    }
+  ]
+}

@@ -60,7 +60,7 @@
      ↓     ↓                     
     parent man
     ```
-    Unmarked words already include all genders. For explicit nonbinary, you can use **torum**. 
+    Unmarked words already include all genders. For explicit nonbinary, you can use **torum** (tor = two and um = negation, so literal translation *non-binary*). 
     
     Now take a look at these words from the FA cluster.
     

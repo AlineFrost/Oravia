@@ -1,0 +1,3315 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Aline">
+      
+      
+      
+        <link rel="prev" href="../lesson32/">
+      
+      
+        <link rel="next" href="../lesson34/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>L33 - MI Cluster - Learn Oravia</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:300,300i,400,400i,700,700i%7CSource+Code+Pro:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Lora";--md-code-font:"Source Code Pro"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/custom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="light-blue" data-md-color-accent="amber">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#lesson-33-mi-cluster" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Learn Oravia" class="md-header__button md-logo" aria-label="Learn Oravia" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Learn Oravia
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              L33 - MI Cluster
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Learn Oravia" class="md-nav__button md-logo" aria-label="Learn Oravia" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Learn Oravia
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    About
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/what-is-oravia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    What is Oravia?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/core-grammar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Core Grammar
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/about-me/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About Me
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/get-involved/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Get Involved
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Content
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Content
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../content/vocabulary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vocabulary (beta)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../content/building_blocks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Building Blocks (beta)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../content/oravia-grammar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grammar Reference (beta)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Course
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Course
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson00/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L0 - Pronunciation & Structure
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Core
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Core
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson01/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L1 - Pronouns / MO Cluster
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson02/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L2 - Markers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson03/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L3 - FA Cluster
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson04/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L4 - Negation / Gender
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson05/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L5 - BO Cluster
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson06/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L6 - Questions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson07/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L7 - AN Cluster
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson08/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L8 - Possessives
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson09/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L9 - YA Cluster
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L10 - u Marker
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson11/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L11 - IL Cluster
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson12/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L12 - Is/Are
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson13/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L13 - EO Cluster
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson14/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L14 - Connectors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson15/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L15 - Numbers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson16/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L16 - Exist and Like / GE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson17/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L17 - LI Cluster
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson18/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L18 - CA Connector
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson19/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L19 - OI Cluster
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson20/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L20 - AR and IS / BE Cluster
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../milestone1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Milestone
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fluency
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fluency
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson21/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L21 - VA Cluster
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson22/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L22 - Time Units
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson23/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L23 - NO Cluster
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson24/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L24 - Hai & Hue
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson25/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L25 - YU Cluster
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson26/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L26 - Sequences
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson27/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L27 - TO Cluster
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson28/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L28 - Why & How
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L29 - LU Cluster
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson30/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L30 - Comparatives
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson31/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L31 - APA Cluster
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson32/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L32 - Should & Must / RO Cluster
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L33 - MI Cluster
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L33 - MI Cluster
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-much-do-you-remember" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How much do you remember?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#should-must" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Should &amp; Must
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mi-cluster" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MI CLUSTER
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#matching-games" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Matching Games
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Matching Games">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#round-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 5
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 6
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 7
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 8
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 9
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 10
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 11
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 12
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#matching-games_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Matching Games
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Matching Games">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#round-1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-3_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-4_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-5_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 5
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-6_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 6
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-7_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 7
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-8_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 8
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#review-missed-words" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Review Missed Words
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson34/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L34 - Conditionals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson35/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L35 - YE Cluster
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson36/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L36 - Each Other & Self / Habit
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson37/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L37 - NE Cluster
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson38/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L38 - Relative Time / YO Cluster
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson39/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L39 - LE Cluster
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesson40/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L40 - Gradation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../milestone2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Milestone 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Worldbuilding
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Worldbuilding
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../world/script/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Script
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-much-do-you-remember" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How much do you remember?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#should-must" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Should &amp; Must
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mi-cluster" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MI CLUSTER
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#matching-games" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Matching Games
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Matching Games">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#round-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 5
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 6
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 7
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 8
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 9
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 10
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 11
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 12
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#matching-games_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Matching Games
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Matching Games">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#round-1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-3_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-4_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-5_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 5
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-6_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 6
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-7_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 7
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-8_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Round 8
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#review-missed-words" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Review Missed Words
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="lesson-33-mi-cluster">Lesson 33: MI Cluster</h1>
+<div class="admonition info">
+<p class="admonition-title">How to Use This Lesson</p>
+<p>Every lesson is divided into five sections: <strong>Warm-Up</strong>, <strong>Grammar</strong>, <strong>Vocabulary</strong>, <strong>Exercise</strong>, and <strong>Review</strong>. Please move through these tabs in order. After you finish, <em>try the Exercises and Review again</em> to see how much you've improved.</p>
+<p><strong>Do not try to memorize!</strong> Just read through the content attentively. We will have plenty of exercises and reviews later!</p>
+</div>
+<hr />
+<div class="tabbed-set tabbed-alternate" data-tabs="1:6"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><input id="__tabbed_1_5" name="__tabbed_1" type="radio" /><input id="__tabbed_1_6" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Warm-Up</label><label for="__tabbed_1_2">Grammar</label><label for="__tabbed_1_3">Vocabulary</label><label for="__tabbed_1_4">Exercise 1</label><label for="__tabbed_1_5">Exercise 2</label><label for="__tabbed_1_6">Review</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<h2 id="how-much-do-you-remember">How much do you remember?</h2>
+<p>Check the boxes for words you think you know. Then click <strong>Show Answers</strong> to reveal the meanings and uncheck any you got wrong.</p>
+<div id="self-assessment-section">
+<p><div id="self-assessment-container"></div></p>
+</div>
+<div id="matching-section" style="display: none; margin-top: 3rem;">
+<p><h3>Practice Missed Words</h3>
+<p style="color: #5a8bb8;">Let's practice the <span id="missed-count"></span> word(s) you're still learning. Give it a try!</p></p>
+<p><div id="warmup-game-1"></div></p>
+<p><div style="margin-top: 2rem;">
+<div id="warmup-game-2"></div>
+</div></p>
+<p><div style="text-align: center; margin-top: 2rem;">
+    <button id="back-to-assessment-btn" style="background: #757575; color: white; border: none; padding: 0.5rem 1.5rem; border-radius: 4px; cursor: pointer; font-size: 0.95rem;">↩ Back to Assessment</button>
+</div></p>
+</div>
+</div>
+<div class="tabbed-block">
+<h2 id="should-must">Should &amp; Must</h2>
+<p>See if you can understand these sentences. Some words or uses may be new. Try to read them first, and then scroll down for tips, and then answers. </p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Roena hai i vil i roena.  
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>Roesau hai i tane i roesau mir. 
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>Eodenbor i tane i anisum e fani u nime faigel eomfel. 
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>A beivu hai i vil i moujeum notam.
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>Run i vil i vardurum e mo ca nimeum. 
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>A nim a roena haium, eta i vilum i roena u run!  
+</code></pre></div>
+<p><strong>Tips</strong></p>
+<p>-ar = completed<br />
+-is = yet to start<br />
+-um = not, negative<br />
+a...a... = is/are<br />
+a [subject] i [verb] e [direct complement] u [indirect complement/to/for]<br />
+(ani)su = bring<br />
+(dae)tane = recommendation, should <br />
+(no)vil = obligation, must  <br />
+beivu = car<br />
+beivu hai = driver<br />
+ca = that, which  <br />
+eodenbor = visit, guest<br />
+eomfel = event<br />
+eta = therefore<br />
+faigel = marriage, spouse  <br />
+fani = baby<br />
+hai = agent (doer)<br />
+mir = a lot, much<br />
+mouje = drink<br />
+nim = I<br />
+notam = first, before<br />
+roena = teach<br />
+roena hai = teacher<br />
+roesau = learn, study<br />
+roesau hai = student<br />
+run = you<br />
+u = to, for<br />
+vardur = tooth, bite  </p>
+<p><div style="text-align: center; margin: 2rem 0;">
+<button onclick="document.getElementById('subcluster3-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+    Click to Reveal the Answer
+</button>
+</div></p>
+<p><div id="subcluster3-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+<p style="margin: 0 0 0.5rem 0;">Possible translations:</p>
+<p style="margin: 0 0 0.5rem 0;"> It's an obligation that teachers teach. / Teachers must teach. </p>
+<p style="margin: 0 0 0.5rem 0;"> It's recommended that students study a lot. / Students should study hard.  </p>
+<p style="margin: 0 0 0.5rem 0;"> It's recommended that visits (guests) don't bring babies to my wedding. </p>
+<p style="margin: 0 0 0.5rem 0;"> It's an obligation that drivers not drink before [driving]. </p>
+<p style="margin: 0 0 0.5rem 0;"> It's an obligation you do not bite food that is not yours. </p>
+<p style="margin: 0 0 0.5rem 0;"> I am not a teacher, so I have no obligation to teach you! </p>
+</div></p>
+</div>
+<div class="tabbed-block">
+<h2 id="mi-cluster">MI CLUSTER</h2>
+<p>Today we will learn one of my favorite clusters, *<em>MI</em>!</p>
+<table>
+<thead>
+<tr>
+<th>Oravia</th>
+<th>English</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>miau</td>
+<td>cat</td>
+</tr>
+<tr>
+<td>micuc</td>
+<td>chicken</td>
+</tr>
+<tr>
+<td>miopi</td>
+<td>fox</td>
+</tr>
+<tr>
+<td>miwo</td>
+<td>dog</td>
+</tr>
+<tr>
+<td>mihie</td>
+<td>horse</td>
+</tr>
+<tr>
+<td>miotan</td>
+<td>elephant</td>
+</tr>
+<tr>
+<td>micea</td>
+<td>rabbit</td>
+</tr>
+</tbody>
+</table>
+<p>What do you think the <strong>MI</strong> cluster is about? </p>
+<p><div style="text-align: center; margin: 2rem 0;">
+<button onclick="document.getElementById('subcluster4-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+    Click to Reveal the Answer
+</button>
+</div></p>
+<p><div id="subcluster4-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+<p style="margin: 0;"> Animals! </p>
+</div></p>
+<p>These can also be used as verbs or adjectives, based on common cross-linguistic associations:</p>
+<table>
+<thead>
+<tr>
+<th>Oravia</th>
+<th>English</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>miau</td>
+<td>cat, graceful</td>
+</tr>
+<tr>
+<td>micuc</td>
+<td>chicken, coward</td>
+</tr>
+<tr>
+<td>miopi</td>
+<td>fox, cunning</td>
+</tr>
+<tr>
+<td>mihie</td>
+<td>horse, endurance, stamina</td>
+</tr>
+<tr>
+<td>miotan</td>
+<td>elephant, good memory, remember</td>
+</tr>
+<tr>
+<td>micea</td>
+<td>rabbit, skittish</td>
+</tr>
+</tbody>
+</table>
+<p>So for example, if one says "I'm elephant", it means "I have a good memory". Or, if they say "I cat into the house", it would mean something like "I enter gracefully in the house"!</p>
+<p>There is another cluster for animals that we will learn later. Today's <strong>MI</strong> cluster is for <strong>bigger animals</strong>, and the other cluster is for smaller animals like insects and rodents. </p>
+<p>Run i vanta e mi?</p>
+<p><textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea></p>
+<p><div style="text-align: center; margin: 2rem 0;">
+<button onclick="document.getElementById('subcluster5-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+    Click to Reveal Translation
+</button>
+</div></p>
+<p><div id="subcluster5-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+<p style="margin: 0;">Possible translation: Do you have any (bigger) animals?</p>
+</div></p>
+<p><div style="text-align: center; margin: 2rem 0;">
+<button onclick="document.getElementById('subcluster6-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+    Click to Reveal Answer
+</button>
+</div></p>
+<p><div id="subcluster6-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+<p style="margin: 0;">Example answers: I vanta e miwo, mai i dairan e miau su. Fare i anona u nim e micea, bi oipili! </p>
+</div></p>
+<p>You are ready for the exercise now!</p>
+</div>
+<div class="tabbed-block">
+<h2 id="matching-games">Matching Games</h2>
+<p>Time to practice! Match the Oravia words with their English meanings.</p>
+<p><strong>If you don't remember or make a mistake, that's totally fine!</strong> We will have plenty of opportunities to practice. Right now just give it a try.</p>
+<p>Click one word from each column to match them. The game will check automatically when you select both words.</p>
+<hr />
+<h3 id="round-1">Round 1</h3>
+<p><div id="matching-game-1" data-lesson="lesson32_b" data-round="1"></div></p>
+<hr />
+<h3 id="round-2">Round 2</h3>
+<p><div id="matching-game-2" data-lesson="lesson32_b" data-round="2"></div></p>
+<hr />
+<h3 id="round-3">Round 3</h3>
+<p><div id="matching-game-3" data-lesson="lesson32_b" data-round="3"></div></p>
+<hr />
+<h3 id="round-4">Round 4</h3>
+<p><div id="matching-game-4" data-lesson="lesson32_b" data-round="4"></div></p>
+<hr />
+<h3 id="round-5">Round 5</h3>
+<p><div id="matching-game-5" data-lesson="lesson32_b" data-round="5"></div></p>
+<hr />
+<h3 id="round-6">Round 6</h3>
+<p><div id="matching-game-6" data-lesson="lesson32_b" data-round="6"></div></p>
+<hr />
+<h3 id="round-7">Round 7</h3>
+<p><div id="matching-game-7" data-lesson="lesson32_b" data-round="7"></div></p>
+<hr />
+<h3 id="round-8">Round 8</h3>
+<p><div id="matching-game-8" data-lesson="lesson32_b" data-round="8"></div></p>
+<hr />
+<h3 id="round-9">Round 9</h3>
+<p><div id="matching-game-9" data-lesson="lesson32_b" data-round="9"></div></p>
+<hr />
+<h3 id="round-10">Round 10</h3>
+<p><div id="matching-game-10" data-lesson="lesson32_b" data-round="10"></div></p>
+<hr />
+<h3 id="round-11">Round 11</h3>
+<p><div id="matching-game-11" data-lesson="lesson32_b" data-round="11"></div></p>
+<hr />
+<h3 id="round-12">Round 12</h3>
+<p><div id="matching-game-12" data-lesson="lesson32_b" data-round="12"></div></p>
+</div>
+<div class="tabbed-block">
+<h2 id="matching-games_1">Matching Games</h2>
+<p>Time to practice! Match the Oravia words with their English meanings.</p>
+<p><strong>If you don't remember or make a mistake, that's totally fine!</strong> We will have plenty of opportunities to practice. Right now just give it a try.</p>
+<p>Click one word from each column to match them. The game will check automatically when you select both words.</p>
+<p>After completing the Exercises and Review, try it again to see how much you've improved.</p>
+<hr />
+<h3 id="round-1_1">Round 1</h3>
+<p><div id="matching-game-13" data-lesson="lesson30_exercise2" data-round="1"></div></p>
+<hr />
+<h3 id="round-2_1">Round 2</h3>
+<p><div id="matching-game-14" data-lesson="lesson30_exercise2" data-round="2"></div></p>
+<hr />
+<h3 id="round-3_1">Round 3</h3>
+<p><div id="matching-game-15" data-lesson="lesson30_exercise2" data-round="3"></div></p>
+<hr />
+<h3 id="round-4_1">Round 4</h3>
+<p><div id="matching-game-16" data-lesson="lesson30_exercise2" data-round="4"></div></p>
+<hr />
+<h3 id="round-5_1">Round 5</h3>
+<p><div id="matching-game-17" data-lesson="lesson30_exercise2" data-round="5"></div></p>
+<hr />
+<h3 id="round-6_1">Round 6</h3>
+<p><div id="matching-game-18" data-lesson="lesson30_exercise2" data-round="6"></div></p>
+<hr />
+<h3 id="round-7_1">Round 7</h3>
+<p><div id="matching-game-19" data-lesson="lesson30_exercise2" data-round="7"></div></p>
+<hr />
+<h3 id="round-8_1">Round 8</h3>
+<p><div id="matching-game-20" data-lesson="lesson30_exercise2" data-round="8"></div></p>
+</div>
+<div class="tabbed-block">
+<h2 id="review-missed-words">Review Missed Words</h2>
+<p>This section shows words you got wrong during practice, and words you didn't know in the Warm-Up. If you didn't miss any, this will be empty - great job! 🎉</p>
+<p><div id="review-game-container"></div></p>
+</div>
+</div>
+</div>
+<script>
+function initWarmup() {
+    const warmupWords = [
+    {id: "no_r2", oravia: "norocu", english: "almost"},
+    {id: "no_r3", oravia: "norfih", english: "enough"},
+    {id: "no_r4", oravia: "nordau", english: "far"},
+    {id: "no_g3", oravia: "noli", english: "now"},
+    {id: "no_g4", oravia: "none", english: "have"},
+    {id: "no_g5", oravia: "noder", english: "even"},
+    ];
+
+    function renderSelfAssessment() {
+        const container = document.getElementById('self-assessment-container');
+        if (!container) return;
+        let html = '<table style="width:100%; border-collapse:collapse; margin-bottom: 1rem;">';
+        html += '<thead><tr>';
+        html += '<th style="text-align:center; padding:0.5rem; border-bottom:2px solid #4a9cd6;">✓</th>';
+        html += '<th style="text-align:left; padding:0.5rem; border-bottom:2px solid #4a9cd6;">Oravia</th>';
+        html += '<th class="answer-col" style="display:none; text-align:left; padding:0.5rem; border-bottom:2px solid #4a9cd6;">English</th>';
+        html += '</tr></thead><tbody>';
+        warmupWords.forEach((word, i) => {
+            const bg = i % 2 === 0 ? '#f9f9f9' : 'white';
+            html += `<tr style="background:${bg};"><td style="text-align:center; padding:0.4rem;"><input type="checkbox" id="check-${word.id}" data-id="${word.id}" style="width:1.1rem; height:1.1rem; cursor:pointer;"></td><td style="font-weight:bold; padding:0.4rem 0.5rem;">${word.oravia}</td><td class="answer-col" style="display:none; padding:0.4rem 0.5rem; color:#43a047;">${word.english}</td></tr>`;
+        });
+        html += '</tbody></table>';
+        html += '<div style="text-align:center; margin-top:1.5rem;">';
+        html += '<button id="show-answers-btn" style="background:#4a9cd6; color:white; border:none; padding:0.75rem 2rem; border-radius:4px; cursor:pointer; font-size:1rem;">Show Answers</button>';
+        html += '<button id="practice-btn" style="display:none; background:#43a047; color:white; border:none; padding:0.75rem 2rem; border-radius:4px; cursor:pointer; margin-left:1rem; font-size:1rem;">Practice Missed Words</button>';
+        html += '<p id="all-known-msg" style="display:none; color:#43a047; font-size:1.1rem; margin-top:1rem;">\u{1F389} You remembered everything! Move on to Grammar.</p>';
+        html += '</div>';
+        container.innerHTML = html;
+        document.getElementById('show-answers-btn').addEventListener('click', function() {
+            document.querySelectorAll('.answer-col').forEach(col => col.style.display = 'table-cell');
+            this.style.display = 'none';
+            document.getElementById('practice-btn').style.display = 'inline-block';
+        });
+        document.getElementById('practice-btn').addEventListener('click', function() {
+            const missedWords = warmupWords.filter(w => !document.getElementById('check-' + w.id).checked);
+            if (missedWords.length === 0) {
+                document.getElementById('practice-btn').style.display = 'none';
+                document.getElementById('all-known-msg').style.display = 'block';
+                return;
+            }
+            const existing = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
+            localStorage.setItem('wrong_ids', JSON.stringify([...new Set([...existing, ...missedWords.map(w => w.id)])]));
+            document.getElementById('missed-count').textContent = missedWords.length;
+            document.getElementById('self-assessment-section').style.display = 'none';
+            document.getElementById('matching-section').style.display = 'block';
+            if (typeof MatchingGame !== 'undefined') {
+                new MatchingGame('warmup-game-1', missedWords, 'warmup-1', null, []);
+                new MatchingGame('warmup-game-2', missedWords, 'warmup-2', null, []);
+            }
+        });
+    }
+    const backBtn = document.getElementById('back-to-assessment-btn');
+    if (backBtn) backBtn.addEventListener('click', function() {
+        document.getElementById('matching-section').style.display = 'none';
+        document.getElementById('self-assessment-section').style.display = 'block';
+    });
+    renderSelfAssessment();
+}
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initWarmup);
+} else {
+    initWarmup();
+}
+</script>
+
+<script>
+async function initReview() {
+    const wrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
+    const container = document.getElementById('review-game-container');
+    if (!container) return;
+    if (wrongIds.length === 0) {
+        container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p><p style="color: #5a8bb8; margin-top: 0.5rem;">You did not miss any words. Excellent work!</p></div>';
+        return;
+    }
+    try {
+        const lessonIds = [...new Set(
+            [...document.querySelectorAll('[data-lesson]')]
+                .map(el => el.dataset.lesson)
+        )];
+        const baseUrl = window.location.origin;
+        const responses = await Promise.all(
+            lessonIds.map(id => fetch(baseUrl + '/data/' + id + '_words.json').then(r => r.json()))
+        );
+        const allWords = responses.flatMap(data => data.words);
+        const seen = new Set();
+        const uniqueWords = allWords.filter(w => {
+            if (seen.has(w.id)) return false;
+            seen.add(w.id);
+            return true;
+        });
+        const wrongWords = uniqueWords.filter(word => wrongIds.includes(word.id));
+        if (wrongWords.length === 0) {
+            container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p></div>';
+            return;
+        }
+        container.innerHTML = '<p style="text-align: center; margin-bottom: 2rem; color: #5a8bb8;">Practice these ' + wrongWords.length + ' word(s) you found challenging:</p><div id="review-game-wrapper"></div><div style="text-align: center; margin-top: 2rem;"><button id="clear-review" style="padding: 0.5rem 1.5rem; background: #f57c00; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.95rem;">Clear Review List</button></div>';
+        new MatchingGame('review-game-wrapper', wrongWords, 'review', null, []);
+        document.getElementById('clear-review').addEventListener('click', function() {
+            if (confirm('Clear all review words? This will reset your wrong words list for this lesson.')) {
+                const allWrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
+                const lessonWordIds = uniqueWords.map(w => w.id);
+                const remainingWrongIds = allWrongIds.filter(id => !lessonWordIds.includes(id));
+                localStorage.setItem('wrong_ids', JSON.stringify(remainingWrongIds));
+                location.reload();
+            }
+        });
+    } catch (error) {
+        console.error('Error loading words:', error);
+        container.innerHTML = '<p style="color: #f44336;">Error loading review words. Please refresh the page.</p>';
+    }
+}
+document.addEventListener('DOMContentLoaded', initReview);
+document.querySelectorAll('.tabbed-labels label').forEach(label => {
+    if (label.textContent.trim() === 'Review') {
+        label.addEventListener('click', function() {
+            setTimeout(initReview, 50);
+        });
+    }
+});
+</script>
+
+<div style="text-align: center; padding: 2rem 0; background: #e0f2f1; border-radius: 8px; margin-top: 3rem;">
+    <p style="font-size: 1.2rem; color: #4a9cd6; margin-bottom: 1rem;">
+        🎉 <strong>Lesson 33 Complete!</strong>
+    </p>
+    <p style="color: #5a8bb8; margin-bottom: 0.5rem;">
+        If you missed any words, check the <strong>Review</strong> tab to practice them again.
+    </p>
+    <p style="color: #5a8bb8; margin-bottom: 1.5rem;">
+        Come back tomorrow for Lesson 34.
+    </p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 Learn Oravia
+    </div>
+  
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/yourusername/oravia-learn" target="_blank" rel="noopener" title="GitHub Repository" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.sections", "navigation.expand", "navigation.top", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy", "content.tooltips"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../../js/matching-game.js"></script>
+      
+    
+  </body>
+</html>

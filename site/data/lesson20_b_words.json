@@ -1,0 +1,197 @@
+{
+  "lesson_id": "lesson20_b",
+  "cluster": "be+oi",
+  "cluster_meaning": "travel and emotion",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "Round 1",
+      "buckets": [
+        "n",
+        "j"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 2,
+      "title": "Round 2",
+      "buckets": [
+        "n",
+        "j"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 3,
+      "title": "Round 3",
+      "buckets": [
+        "n",
+        "j"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 4,
+      "title": "Round 4",
+      "buckets": [
+        "n",
+        "j"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 5,
+      "title": "Round 5",
+      "buckets": [
+        "g"
+      ],
+      "words_per_bucket": 3
+    },
+    {
+      "round": 6,
+      "title": "Round 6",
+      "buckets": [
+        "g"
+      ],
+      "words_per_bucket": 2
+    },
+    {
+      "round": 7,
+      "title": "Round 7",
+      "buckets": [
+        "g"
+      ],
+      "words_per_bucket": 2
+    },
+    {
+      "round": 8,
+      "title": "Round 8",
+      "buckets": [
+        "n",
+        "j"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    },
+    {
+      "round": 9,
+      "title": "Round 9",
+      "buckets": [
+        "n",
+        "j"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    },
+    {
+      "round": 10,
+      "title": "Round 10",
+      "buckets": [
+        "g"
+      ],
+      "words_per_bucket": 3,
+      "allow_repeats": true
+    },
+    {
+      "round": 11,
+      "title": "Round 11",
+      "buckets": [
+        "g"
+      ],
+      "words_per_bucket": 3,
+      "allow_repeats": true
+    }
+  ],
+  "words": [
+    {
+      "id": "be_g1",
+      "oravia": "bejae",
+      "english": "luggage",
+      "bucket": "n"
+    },
+    {
+      "id": "be_g2",
+      "oravia": "bevio",
+      "english": "shop",
+      "bucket": "n"
+    },
+    {
+      "id": "be_g3",
+      "oravia": "bedam",
+      "english": "square",
+      "bucket": "n"
+    },
+    {
+      "id": "be_g4",
+      "oravia": "bejui",
+      "english": "rent",
+      "bucket": "n"
+    },
+    {
+      "id": "be_i1",
+      "oravia": "beitor",
+      "english": "bicycle",
+      "bucket": "j"
+    },
+    {
+      "id": "be_i2",
+      "oravia": "beivu",
+      "english": "car",
+      "bucket": "j"
+    },
+    {
+      "id": "be_i3",
+      "oravia": "beilem",
+      "english": "station",
+      "bucket": "j"
+    },
+    {
+      "id": "be_i4",
+      "oravia": "beitan",
+      "english": "bus",
+      "bucket": "j"
+    },
+    {
+      "id": "oi_g1",
+      "oravia": "oifu",
+      "english": "silly",
+      "bucket": "g"
+    },
+    {
+      "id": "oi_g2",
+      "oravia": "oines",
+      "english": "joke",
+      "bucket": "g"
+    },
+    {
+      "id": "oi_g3",
+      "oravia": "oimel",
+      "english": "story",
+      "bucket": "g"
+    },
+    {
+      "id": "oi_g4",
+      "oravia": "oihi",
+      "english": "interest",
+      "bucket": "g"
+    },
+    {
+      "id": "oi_g5",
+      "oravia": "oipoh",
+      "english": "excitement",
+      "bucket": "g"
+    },
+    {
+      "id": "oi_g6",
+      "oravia": "oila",
+      "english": "happy",
+      "bucket": "g"
+    },
+    {
+      "id": "oi_g7",
+      "oravia": "oipili",
+      "english": "cute",
+      "bucket": "g"
+    }
+  ]
+}

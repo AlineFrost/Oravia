@@ -2,6 +2,8 @@
 
 Oravia words are built from **(sub)clusters** (sounds of the semantic group) + **roots** (sounds connecting words across multiple clusters). Not all words have shared roots. When they do, the meaning frequently makes more sense when combined with the (sub)cluster meaning.
 
+Note: 
+
 Use the filters to explore. 
 
 <div id="bb-controls" style="margin: 1rem 0; display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: center;">
