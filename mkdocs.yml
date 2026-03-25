@@ -34,6 +34,10 @@ nav:
     - Core Grammar: about/core-grammar.md
     - About Me: about/about-me.md
     - Get Involved: about/get-involved.md
+  - Content:
+    - Vocabulary (beta): content/vocabulary.md
+    - Building Blocks (beta): content/building_blocks.md
+    - Grammar Reference (beta): content/oravia-grammar.md
   - Course:
     - L0 - Pronunciation & Structure: course/lesson00.md
     - Core:

@@ -4,6 +4,52 @@ Oravia is a constructed language that aims to be flexible, easy, and empirically
 
 ---
 
+## Semantic Clusters
+
+The words in Oravia are organized into clusters. Clusters are groups of words that are associated together, and share the same initial sounds. This means that the whole vocabulary is organized based on sound-meaning associations.
+
+**I did not make up the clusters**. This structure emerged from semantic similarity between words based on how people actually use them. More specifically, I used word embeddings on billions of uses throughout the internet. That's one of the reasons I say Oravia's approach is empirical. Instead of creating the structure myself based on my own intuition of how words go together, I went out there to collect widespread word associations in large language data. 
+    
+Let's see how it works. For example, take the word 'horse'. It is more specific than the word 'animal'. However, 'horse' and 'animal' are two different English words that you need to memorize. In Oravia, it's easier: the word 'horse' already has the sound 'animal' in it.
+    
+But it's not only that. One of the cool things about the clusters is that even if you only know the 48 groups, you may be able to have a grasp of what's going on.
+    
+For example, take a look at this sentence (let's focus on vocabulary and not grammar for now):
+        
+```
+Miogar i tiva e fano
+```
+        
+You have no idea what these words mean. But if you know that:
+        
+- **mi** is used for larger animals
+- **ti** is used for doing bad things to someone
+- **fa** is used for family members
+        
+You can see that:
+        
+```
+Mi     i  ti   e  fa
+↓         ↓        ↓
+a large   harmed  a family
+animal            member
+```
+    
+Many clusters are further subdivided into 0-3 subclusters, which are indicated by the next letter. Subclusters are also super useful when you are communicating with people and forgot words. 
+    
+Let's suppose you want to say you went to shop for a bed, but you forgot how to say it. Maybe you just remember an associated word, like another piece of furniture. Maybe you just remember the beginning of the word "bed". Maybe you just remember how to say furniture. 
+    
+**In every one of these cases, you'd know the subcluster for furniture-related words is bon.** And if you just say bon, the meaning will be less specific, but you will probably be able to communicate. 
+    
+Or if you wanted to say you are feeling upset, but you forgot the word. You could say instead tos, and people will know you are talking about emotional suffering. And so on.
+    
+There are other little surprises in the vocabulary, but we will not cover everything here. I hope it makes learning more interesting!   
+
+Clusters have many advantages. They create a structure for the language. They make words **easier to learn and remember** than arbitrary sounds. They create sound-meaning associations that become intuitive overtime. They make it natural to play around with words and personalize meanings. As you learn the vocabulary, these semantic associations become intuitive.   
+
+---
+
+
 ## Why Oravia? How is it different from other constructed languages?
 
 This is not the first language I've created, but it's the first I am sharing. That's because I genuinely believe Oravia has something to offer.
@@ -13,7 +59,7 @@ This is not the first language I've created, but it's the first I am sharing. Th
 - languages with very few words may end up with vague communication and long word strings to express simple concepts
 
 **Oravia's approach:**
-A vocabulary that is larger than the minimalistic approach to allow more specificity and nuance, and expression of most concepts with only 1-2 words. At the same time, with 750 words it is still one of the smallest languages. 
+A vocabulary that is larger than the minimalistic approach to allow more specificity and nuance, and expression of most concepts with only 1-2 words. At the same time, with about 800 words it is still one of the smallest languages. 
 
 Importantly, these words don't add as much cognitive load because of the syllable-meaning associations and the cluster semantic structure. They are much easier and faster to learn than arbitrary sounds. That way, we get the benefit of having a larger vocabulary than minimalistic languages, with less load than the (already small) raw number may suggest.
 
@@ -25,10 +71,15 @@ travel  vehicle  water
 
   m           i         o    tan = elephant  
   ↓           ↓         ↓     ↓
-biology  large animal  wild  big   
+biology  large animal  wild  big 
 
-You learn the full words and over time, the sound-meaning associations become intuitive
+  l          u       n    hem = summer  
+  ↓          ↓       ↓     ↓
+nature  climate  seasons  heat
 ```
+
+*You learn the full words and over time, the sound-meaning associations become intuitive*
+
 
 ---
 
@@ -57,10 +108,11 @@ M  → related to biology
    MU  → smaller animals
      MU (base) → land or water (insect, mouse)
      MUH → flying (bird, butterfly)
-
-I did not make up the semantic structure. 
-Instead, it was an empirical approach based on how concepts are associated in large language data
 ```
+
+*I did not make up the semantic structure. 
+Instead, it was an empirical approach based on how concepts are associated in large language data.*
+
 
 ---
 
@@ -94,7 +146,8 @@ Words are composed from meaningful building blocks, and similar sounds often hav
 
 *Example*
 ```
-Can you guess which word means 'to cut' and which word means 'to slip'? (c is pronounced as k in kite)
+Can you guess which word means 'to cut' and which word means 'to slip'?  
+(c is pronounced as cake)
  jasrec, jasel
  
 Which word means 'pool' and which word means 'beak'?
@@ -160,7 +213,7 @@ ceigor = emphasizes the creativity involved
 
 ## A Note on Methods
 
-I used word embeddings to cluster words based on semantic associations. The word embeddings came from tokens trained on internet data on billions of uses. These associations are not universal or free of limitations (they depend on who uses the internet, etc) but they are more shared than just using my own intuitions of what goes together. Based on this large language data that it was determined, for example, that “bear” is closely related to “dog”, and thus they are in the same cluster (mi). And, the word “snake” goes closer to “rodent” and not with “dog” and “bear”, so I created another cluster for animals like “snake” and “rodent” (mu). I created the names for the clusters (e.g., bigger animals and smaller animals), so you may have another interpretation of what they are about.
+I used [word embeddings](https://en.wikipedia.org/wiki/Word_embedding) to cluster words based on semantic associations. The word embeddings came from tokens trained on internet data on billions of uses. These associations are not universal or free of limitations (they depend on who uses the internet, etc) but they are more widely shared than just using my own intuitions of what goes together. Based on this large language data that it was determined, for example, that “bear” is closely related to “dog”, and thus they are in the same cluster (mi). And, the word “snake” goes closer to “rodent” and not with “dog” and “bear”, so I created another cluster for animals like “snake” and “rodent” (mu). I created the names for the clusters (e.g., bigger animals and smaller animals), so you may have another interpretation of what they are about.
 
 I used a variety of both natural and constructed languages as inspiration. For example, the idea of semantic clusters come from grammatical gender in languages like Swahili; the markers were inspired by particles in languages like Japanese; and the verb system was inspired by aspect in languages like Yucatec Maya. The prepositions are a tribute to Mini-Linga, and the numbers are a tribute to Kotava.
 
