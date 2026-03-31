@@ -150,8 +150,48 @@
     Ce yo leipili run i dairan?
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
     
+    <div style="text-align: center; margin: 2rem 0;">
+    <button onclick="document.getElementById('subcluster5-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+        Click to Reveal Translation
+    </button>
+    </div>
+    
+    <div id="subcluster5-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+    <p style="margin: 0;">Possible translation: What color flowers do you like?</p>
+    </div>
+    
+    <div style="text-align: center; margin: 2rem 0;">
+    <button onclick="document.getElementById('subcluster6-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+        Click to Reveal Answer
+    </button>
+    </div>
+    
+    <div id="subcluster6-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+    <p style="margin: 0;">Example answer: A anodu yunrani yo u nim a yosari leipili. </p>
+    </div>
+    
     En rune bo i dami a leayo dou leinou?
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
+    
+        <div style="text-align: center; margin: 2rem 0;">
+    <button onclick="document.getElementById('subcluster7-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+        Click to Reveal Translation
+    </button>
+    </div>
+    
+    <div id="subcluster7-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+    <p style="margin: 0;">Possible translation: In your house is there a garden or yard?</p>
+    </div>
+    
+    <div style="text-align: center; margin: 2rem 0;">
+    <button onclick="document.getElementById('subcluster8-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+        Click to Reveal Answer
+    </button>
+    </div>
+    
+    <div id="subcluster8-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+    <p style="margin: 0;">Example answer: I damium, mai en bo de fare i dami a leinou. </p>
+    </div>
     
     You are ready for the exercise now!
     

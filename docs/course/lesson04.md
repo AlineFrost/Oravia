@@ -48,7 +48,7 @@
     We use the *FAE* (gender) subcluster to specify gender, if we want to. If you add *faejor* (woman) or *faejal* (man) in front of a word, you modify it. 
     
     ```
-    faejor fame = mother
+    faejor fare = mother
      ↓      ↓                     
     woman parent
     ```
@@ -80,7 +80,7 @@
     </div>
     
     <div id="gender-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-        <p style="margin: 0;"> Fano-jor. Faibor-jal. Fare-jor. Fasu-jal. Famsu-jal.</p>
+        <p style="margin: 0;"> Fano-jor. Faibor-jal. Fare-jor. Fasu-jal. </p>
     </div>
     
     You can add gender to other words too, for example:

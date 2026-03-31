@@ -30,6 +30,10 @@ To navigate the Lesson, please click the tabs below: "About the Course", "Pronun
     
     ### Consonants
     
+    <audio controls style="width:100%">
+      <source src="../audio/consonants.wav" type="audio/wav">
+    </audio>
+
     **B C D F G H J L M N P R S T V W Y**
     
     All pronounced as you would expect in English or IPA, with the details of:
@@ -41,6 +45,10 @@ To navigate the Lesson, please click the tabs below: "About the Course", "Pronun
     
     ### Vowels
     
+    <audio controls style="width:100%">
+      <source src="../audio/vowels.wav" type="audio/wav">
+    </audio>
+    
     **A E I O U:**
     
     - **A** as in *father* (IPA ɑ)
@@ -49,7 +57,7 @@ To navigate the Lesson, please click the tabs below: "About the Course", "Pronun
     - **O** as in *door* (IPA ɔ)
     - **U** as in *flu* (IPA u)
     
-    If you pronounce E and O closed like in Spanish (IPA e and o), that's fine too!
+    Pronouncing E and O closed like in Spanish (IPA e and o) is fine too!
     
     ### Important: Similar-Sounding Pairs
     
@@ -65,16 +73,18 @@ To navigate the Lesson, please click the tabs below: "About the Course", "Pronun
     
     ## Stress
     
-    My preference is stress on the **penultimate syllable**, and if the word ends in consonant, on the **last syllable**.
+    Preference is stress on the **penultimate syllable**.
     
     **Examples:**
     
     - i**LI**ru
-    - ili**RAN**
+    - **MOU**je
     
-    That's because it creates a sharper distinction between words (notice that if it were i**LI**ru and i**LI**ran, they would sound more similar).
+    When we add suffixes, the word retains the original stress and gets an emphasis on the suffix, like this:
     
-    However, if you want to always emphasize the penultimate syllable, it should still work just fine! Let's call it a dialectal difference :)
+    - **MOU**je + UM
+    - **MOU**je**UM**
+    
     
     ### Two Vowels Together
     
@@ -84,6 +94,12 @@ To navigate the Lesson, please click the tabs below: "About the Course", "Pronun
     
     - **LI**ria (preferred)
     - li**RI**a (also acceptable)
+    
+    <audio controls style="width:100%">
+      <source src="../audio/wordsexamples.wav" type="audio/wav">
+    </audio>
+    
+    iliru, mouje, moujeum, liria
 
 === "Vocabulary Structure"
 

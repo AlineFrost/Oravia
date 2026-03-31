@@ -122,7 +122,7 @@
     |--------|---------|
     | faibor | spouse |
     | faofa | cousin |
-    | fame | parent |
+    | fare | parent |
     | falni | baby |
     | falen | child |
     

@@ -1,4 +1,4 @@
-# Lesson 39: LE Cluster
+# Lesson 43:  Cluster
 
 !!! info "How to Use This Lesson"
     Every lesson is divided into five sections: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order. After you finish, *try the Exercises and Review again* to see how much you've improved.
@@ -38,68 +38,60 @@
     
 === "Grammar"
 
-    ## Relative Time
+    ## Compounds
     
      See if you can understand these sentences. Some words or uses may be new. Try to read them first, and then scroll down for tips, and then answers. 
     
 
     ```
-    Nim i roudal lilon roena hai i roudi.
+    Mir ponen teva gerina.
     ```
         
     ```
-    Nim i roudal ca roena hai i roudiar en roumir.  
+    I dami auta nen tenda ilhei.
     ```
     
     ```
-    Lunuar, nim i roejoar cali run i be. 
+     
     ```
     
     ```
-    Lunuis, nim i roejoar cali run i be.
+    Nesunya lirul a nim i bonfene a tohnaru u faibor.
     ```
     
     ```
-    Run i moar noli? Suum nim?
+    Nepar ilie i lupupi litamis. 
     ```
     
     ```
-    Nim i anocaris cali fare i ilaluan ca i tane i anisu e yesrel.
+    Hay i boemo en bo nealui lirular.
     ```
     
-    ```
-    Nim i anocaris cali fare i ilaluan ca i lupupi.
-    ```
-    
-    ```
-    Nim i anocaris cali fare i ilaluan ca i lupupis.
-    ```
     
     **Tips**
-    
     -ar = completed  
-    -is = yet to start  
-    ca = that, what (connector)  
-    cali = when  
-    lilon = while  
-    lunuar = last winter  
-    lunuis = next winter  
-    noli = now  
-    suum = without  
-    be = travel  
-    fare = parent  
-    hai = the  
-    ilaluan = said, told  
-    lupupi = rain (verb)  
-    mo = eat  
-    roejo = exam  
-    roena = teacher  
-    roudi = write  
-    roudal = read  
-    roumir = book  
-    tane = should  
-    anisu = take  
-    yesrel = sweater  
+    -is = yet to start   
+    (an)do = can  
+    anvu  = move, go   
+    bo  = house, home   
+    boemo  = cook   
+    bonfene  = bed, lie down   
+    en  = at, in (location)   
+    faibor  = partner   
+    ilie  = likelihood, maybe   
+    lirul  = habit (frequency)   
+    lirular  = used to (habit completed)   
+    litamis  = tomorrow (day yet to start)   
+    lufiva  = cold   
+    lupupi  = rain   
+    mai  = but   
+    nealui  = 5 out of 10   
+    nedas  = 10 out of 10   
+    nepar  = 3 out of 10   
+    nesunya  = 0 out of 10   
+    tohnaru  = angry   
+    toului  = tired   
+    toumo  = hungry   
 
     
     
@@ -111,35 +103,35 @@
     
     <div id="subcluster3-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
     <p style="margin: 0 0 0.5rem 0;">Possible translations:</p>
-    <p style="margin: 0 0 0.5rem 0;"> I read while the teacher writes. </p>
-    <p style="margin: 0 0 0.5rem 0;"> I read what the teacher has finished writing in the book. </p>
-    <p style="margin: 0 0 0.5rem 0;"> Last winter, I had taken the exam when you traveled. </p>
-    <p style="margin: 0 0 0.5rem 0;"> Next winter, I will have taken the exam when you travel. </p>
-    <p style="margin: 0 0 0.5rem 0;"> Have you just eaten? Without me? </p>
-    <p style="margin: 0 0 0.5rem 0;"> I was yet to leave when my parent told me I should bring a sweater.  </p>
-    <p style="margin: 0 0 0.5rem 0;"> I was yet to leave when my parent told me it was raining. </p>
-    <p style="margin: 0 0 0.5rem 0;"> I was yet to leave when my parent told me it was going to rain. </p>
+    <p style="margin: 0 0 0.5rem 0;"> The shower is not cold at all. </p>
+    <p style="margin: 0 0 0.5rem 0;"> I'm extremely hungry! </p>
+    <p style="margin: 0 0 0.5rem 0;"> I am a little tired but we can go. </p>
+    <p style="margin: 0 0 0.5rem 0;"> I never go to bed angry at my partner. </p>
+    <p style="margin: 0 0 0.5rem 0;"> It might rain tomorrow. </p>
+    <p style="margin: 0 0 0.5rem 0;"> She used to cook at home half the time.  </p>
     </div>
-    
+
     
 === "Vocabulary"
 
-    ## LE CLUSTER
+    ## JO CLUSTER
     
-    Today we will expand our vocabulary with the next cluster, **LE**! Take a look at the words below:
+    Today we will learn the **JO** Cluster! Take a look at the words below:
     
     | Oravia | English |
     |--------|---------|
-    | ledom | land |
-    | leno | soil |
-    | leafou | desert |
-    | leamo | farm |
-    | leipili | flower |
-    | leinou | grass |
-    | leini | seed |
+    | joliri | glass |
+    | joleni | plastic |
+    | jolem | box |
+    | jovabo | cover |
+    | joldur | metal |
+    | joniu | piece |
+    | jomo | plate |
+    | jolace | rubber |
+    | jocal | sheet |
     
     
-    What do you think the **LE** Cluster is about?
+    What do you think the **JO** Cluster is about?
     
     <div style="text-align: center; margin: 2rem 0;">
     <button onclick="document.getElementById('subcluster4-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
@@ -148,24 +140,60 @@
     </div>
     
     <div id="subcluster4-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;"> It's about <strong>earth and the natural world</strong>.</p>
+    <p style="margin: 0;"> It's about <strong>material objects</strong>.</p>
     </div>
+    
+    We also have one subcluster, can you identify the sound and the meaning?
+    
+    <div style="text-align: center; margin: 2rem 0;">
+    <button onclick="document.getElementById('subcluster-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+        Click to Reveal the Answer
+    </button>
+    </div>
+    
+    <div id="subcluster-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+    <p style="margin: 0;"> <strong>JOL</strong> is for basic substances used to make objects.</p>
+    </div>
+    
+    Notice that *jolem* (box) is not part of the subcluster, it is formed by jo + lem. (Do you remember any other words with lem?).
     
     Notice that these words can also be used in other ways, for example:
     
     | Oravia | English |
     |--------|---------|
-    | ledom | land, territory |
-    | leno | soil, dirt, clay |
-    | leamo | farm, to cultivate |
-    | leipili | flower, to grow |
-    | leinou | grass, lawn |
-    | leini | seed, to plant |
+    | joliri | glass, transparent |
+    | jolem | box, rectangular |
+    | jovabo | cover, blanket |
+    | joldur | metal, metallic |
+    | joniu | piece, part |
+    | jomo | plate, to plate |
+    | jolace | rubber, malleable |
+    | jocal | sheet, flat |
     
    
-    Now try to write 3 sentences using **LE** words.
+    Run i ilian canon i anye e ilwol de jo? 
     
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
+    
+    <div style="text-align: center; margin: 2rem 0;">
+    <button onclick="document.getElementById('subcluster5-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+        Click to Reveal Translation
+    </button>
+    </div>
+    
+    <div id="subcluster5-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+    <p style="margin: 0;">Possible translation: Do you know how to build things out of materials?</p>
+    </div>
+    
+    <div style="text-align: center; margin: 2rem 0;">
+    <button onclick="document.getElementById('subcluster6-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+        Click to Reveal Answer
+    </button>
+    </div>
+    
+    <div id="subcluster6-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+    <p style="margin: 0;">Example answer: Nim i do i anye e joliri ilwol. </p>
+    </div>
     
     
     You are ready for the exercise now!

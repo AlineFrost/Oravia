@@ -1,4 +1,4 @@
-# Lesson 39: LE Cluster
+# Lesson 46: Numbers Pt.2
 
 !!! info "How to Use This Lesson"
     Every lesson is divided into five sections: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order. After you finish, *try the Exercises and Review again* to see how much you've improved.
@@ -38,108 +38,95 @@
     
 === "Grammar"
 
-    ## Relative Time
+    ## Numbers Part 2
     
-     See if you can understand these sentences. Some words or uses may be new. Try to read them first, and then scroll down for tips, and then answers. 
+    This lesson, we will learn how to say numbers beyond 99 and how to express some number-related vocabulary!
     
-
-    ```
-    Nim i roudal lilon roena hai i roudi.
-    ```
-        
-    ```
-    Nim i roudal ca roena hai i roudiar en roumir.  
+    First, bigger numbers. To do that, we use *ponen*, which means power. The implicit number, as with ne gradation, is 10. Like this:
+    
+    ``` 
+    (po)nen tor = [10] to the power of 2 = 100
+    (po)nen par = [10] to the power of 3 = 1000    
     ```
     
-    ```
-    Lunuar, nim i roejoar cali run i be. 
-    ```
-    
-    ```
-    Lunuis, nim i roejoar cali run i be.
-    ```
-    
-    ```
-    Run i moar noli? Suum nim?
-    ```
-    
-    ```
-    Nim i anocaris cali fare i ilaluan ca i tane i anisu e yesrel.
-    ```
-    
-    ```
-    Nim i anocaris cali fare i ilaluan ca i lupupi.
-    ```
-    
-    ```
-    Nim i anocaris cali fare i ilaluan ca i lupupis.
-    ```
-    
-    **Tips**
-    
-    -ar = completed  
-    -is = yet to start  
-    ca = that, what (connector)  
-    cali = when  
-    lilon = while  
-    lunuar = last winter  
-    lunuis = next winter  
-    noli = now  
-    suum = without  
-    be = travel  
-    fare = parent  
-    hai = the  
-    ilaluan = said, told  
-    lupupi = rain (verb)  
-    mo = eat  
-    roejo = exam  
-    roena = teacher  
-    roudi = write  
-    roudal = read  
-    roumir = book  
-    tane = should  
-    anisu = take  
-    yesrel = sweater  
-
-    
+    How would you say one million? How about a billion? Tip: the first has 6 zeros and the latter has 9.
     
     <div style="text-align: center; margin: 2rem 0;">
-    <button onclick="document.getElementById('subcluster3-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+    <button onclick="document.getElementById('ubcluster4-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
         Click to Reveal the Answer
     </button>
     </div>
     
-    <div id="subcluster3-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0 0 0.5rem 0;">Possible translations:</p>
-    <p style="margin: 0 0 0.5rem 0;"> I read while the teacher writes. </p>
-    <p style="margin: 0 0 0.5rem 0;"> I read what the teacher has finished writing in the book. </p>
-    <p style="margin: 0 0 0.5rem 0;"> Last winter, I had taken the exam when you traveled. </p>
-    <p style="margin: 0 0 0.5rem 0;"> Next winter, I will have taken the exam when you travel. </p>
-    <p style="margin: 0 0 0.5rem 0;"> Have you just eaten? Without me? </p>
-    <p style="margin: 0 0 0.5rem 0;"> I was yet to leave when my parent told me I should bring a sweater.  </p>
-    <p style="margin: 0 0 0.5rem 0;"> I was yet to leave when my parent told me it was raining. </p>
-    <p style="margin: 0 0 0.5rem 0;"> I was yet to leave when my parent told me it was going to rain. </p>
+    <div id="ubcluster4-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+    <p style="margin: 0;"> (Po)nen teva and (po)nen tenda.</p>
     </div>
     
+    We also use numbers to talk about elements of the periodic table. For that, we use *pogai*, or atom:
+    
+    ``` 
+    iron, gold, silver, calcium, oxygen
+    ```
+    
+    We already know the markers *a* (subject), *e* (direct object), *i* (verb) and *u* (indirect object). This lesson we will learn our last marker, *o*. 
+    
+    We use *o* to give emphasis to what comes after it. Here are some examples:
+    
+    ``` 
+    o nim! = it's me!  
+    o nima i anvu = WE will go  
+    run o faibor = you're the one  
+    o faejal = the man  
+    i anona o u run = I give it to YOU (and not someone else)
+    ```
+    
+    If we use it before the verb, we emphasize the action. Without a specific subject, it can be read as an order:
+    
+    ``` 
+    o i anona! = give it!
+    o yadetu! = stop!
+    ```
+    
+    If we use it before the verb complement, we emphasize the complement and de-emphasize the subject. This is how we build passive voice:
+    
+    ``` 
+    o e leirih i vonlu = the tree was touched
+    i yean o e yemiodu = the pillow was sewn
+    a eofa i vanpai o e falen = the kid was kicked by the friend
+    ```
+   
+    To sum up:
+  
+    ```     
+    o marker = emphasis
+    o i [verb] = imperative, orders (emphasis on the action)
+    o e [object] = passive (emphasis on the object)
+    ```
+    
+    Now try to create 3 sentences using *o*.
+    
+    <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
+    
+
     
 === "Vocabulary"
 
-    ## LE CLUSTER
+    ## VO CLUSTER
     
-    Today we will expand our vocabulary with the next cluster, **LE**! Take a look at the words below:
+    Recall we already saw another cluster with *v*, the *VA* Cluster? We will learn another cluster related to that. The **VO** Cluster!
     
     | Oravia | English |
     |--------|---------|
-    | ledom | land |
-    | leno | soil |
-    | leafou | desert |
-    | leamo | farm |
-    | leipili | flower |
-    | leinou | grass |
-    | leini | seed |
+    | vonmo | lip |
+    | vonici | nail |
+    | vonlu | skin |
+    | vonyas | hair |
+    | vosvo | soap |
+    | vosfan | brush |
+    | vosfou | dry |
+    | vosvosi | rub |
     
-    
-    What do you think the **LE** Cluster is about?
+   
+    What do you think **VO** words are about?
     
     <div style="text-align: center; margin: 2rem 0;">
     <button onclick="document.getElementById('subcluster4-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
@@ -148,25 +135,45 @@
     </div>
     
     <div id="subcluster4-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;"> It's about <strong>earth and the natural world</strong>.</p>
+    <p style="margin: 0;"> <strong>VO</strong> means <strong>hygiene and personal care</strong>.</p>
     </div>
     
-    Notice that these words can also be used in other ways, for example:
+    Can you identify what the two subclusters are? What is their sound and their meaning? 
+
+    <div style="text-align: center; margin: 2rem 0;">
+    <button onclick="document.getElementById('subcluster-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+        Click to Reveal the Answer
+    </button>
+    </div>
     
-    | Oravia | English |
-    |--------|---------|
-    | ledom | land, territory |
-    | leno | soil, dirt, clay |
-    | leamo | farm, to cultivate |
-    | leipili | flower, to grow |
-    | leinou | grass, lawn |
-    | leini | seed, to plant |
+    <div id="subcluster-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+    <p style="margin: 0;"> <strong>VON</strong> is for <strong>external body surfaces</strong> and <strong>VOS</strong> is for <strong>grooming</strong>.</p>
+    </div>
     
-   
-    Now try to write 3 sentences using **LE** words.
+    
+    Ce yo rune vonlu, vonyas, su vardei? 
     
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
     
+    <div style="text-align: center; margin: 2rem 0;">
+    <button onclick="document.getElementById('subcluster5-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+        Click to Reveal Translation
+    </button>
+    </div>
+    
+    <div id="subcluster5-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+    <p style="margin: 0;">Possible translation: What is the color of your skin, hair, and eyes?</p>
+    </div>
+    
+    <div style="text-align: center; margin: 2rem 0;">
+    <button onclick="document.getElementById('subcluster6-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+        Click to Reveal Answer
+    </button>
+    </div>
+    
+    <div id="subcluster6-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+    <p style="margin: 0;">Example answer: Neloa yogali. </p>
+    </div>
     
     You are ready for the exercise now!
     
@@ -184,52 +191,22 @@
     
     ---
     ### Round 1
-    <div id="matching-game-1" data-lesson="lesson38_b" data-round="1"></div>
+    <div id="matching-game-1" data-lesson="lesson40" data-round="1"></div>
 
     ---
 
     ### Round 2
-    <div id="matching-game-2" data-lesson="lesson38_b" data-round="2"></div>
+    <div id="matching-game-2" data-lesson="lesson40" data-round="2"></div>
 
     ---
 
     ### Round 3
-    <div id="matching-game-3" data-lesson="lesson38_b" data-round="3"></div>
+    <div id="matching-game-3" data-lesson="lesson40" data-round="3"></div>
 
     ---
 
     ### Round 4
-    <div id="matching-game-4" data-lesson="lesson38_b" data-round="4"></div>
-
-    ---
-
-    ### Round 5
-    <div id="matching-game-5" data-lesson="lesson38_b" data-round="5"></div>
-
-    ---
-
-    ### Round 6
-    <div id="matching-game-6" data-lesson="lesson38_b" data-round="6"></div>
-
-    ---
-
-    ### Round 7
-    <div id="matching-game-7" data-lesson="lesson38_b" data-round="7"></div>
-
-    ---
-
-    ### Round 8
-    <div id="matching-game-8" data-lesson="lesson38_b" data-round="8"></div>
-
-    ---
-
-    ### Round 9
-    <div id="matching-game-9" data-lesson="lesson38_b" data-round="9"></div>
-
-    ---
-
-    ### Round 10
-    <div id="matching-game-10" data-lesson="lesson38_b" data-round="10"></div>
+    <div id="matching-game-4" data-lesson="lesson40" data-round="4"></div>
 
 
 === "Exercise 2"
@@ -246,37 +223,47 @@
     
     ---
     ### Round 1
-    <div id="matching-game-11" data-lesson="lesson36_exercise2" data-round="1"></div>
+    <div id="matching-game-5" data-lesson="lesson38_exercise2" data-round="1"></div>
 
     ---
 
     ### Round 2
-    <div id="matching-game-12" data-lesson="lesson36_exercise2" data-round="2"></div>
+    <div id="matching-game-6" data-lesson="lesson38_exercise2" data-round="2"></div>
 
     ---
 
     ### Round 3
-    <div id="matching-game-13" data-lesson="lesson36_exercise2" data-round="3"></div>
+    <div id="matching-game-7" data-lesson="lesson38_exercise2" data-round="3"></div>
 
     ---
 
     ### Round 4
-    <div id="matching-game-14" data-lesson="lesson36_exercise2" data-round="4"></div>
+    <div id="matching-game-8" data-lesson="lesson38_exercise2" data-round="4"></div>
 
     ---
 
     ### Round 5
-    <div id="matching-game-15" data-lesson="lesson36_exercise2" data-round="5"></div>
+    <div id="matching-game-9" data-lesson="lesson38_exercise2" data-round="5"></div>
 
     ---
 
     ### Round 6
-    <div id="matching-game-16" data-lesson="lesson36_exercise2" data-round="6"></div>
+    <div id="matching-game-10" data-lesson="lesson38_exercise2" data-round="6"></div>
 
     ---
 
     ### Round 7
-    <div id="matching-game-17" data-lesson="lesson36_exercise2" data-round="7"></div>
+    <div id="matching-game-11" data-lesson="lesson38_exercise2" data-round="7"></div>
+
+    ---
+
+    ### Round 8
+    <div id="matching-game-12" data-lesson="lesson38_exercise2" data-round="8"></div>
+
+    ---
+
+    ### Round 9
+    <div id="matching-game-13" data-lesson="lesson38_exercise2" data-round="9"></div>
 
 
 === "Review"
@@ -291,12 +278,14 @@
 <script>
 function initWarmup() {
     const warmupWords = [
-    {id: "lu_l3", oravia: "lusari", english: "sun"},
-    {id: "lu_l4", oravia: "luyol", english: "sky"},
-    {id: "lu_n1", oravia: "lunsor", english: "autumn"},
-    {id: "lu_n2", oravia: "lunpili", english: "spring"},
-    {id: "lu_n3", oravia: "lunhem", english: "summer"},
-    {id: "lu_n4", oravia: "lunu", english: "winter"},
+    {id: "apa_m1", oravia: "apasoi", english: "hurry"},
+    {id: "apa_m2", oravia: "apanou", english: "drop"},
+    {id: "apa_m3", oravia: "aparih", english: "jump"},
+    {id: "apa_m4", oravia: "apahela", english: "throw"},
+    {id: "apa_s1", oravia: "apaleno", english: "dig"},
+    {id: "apa_s2", oravia: "apavu", english: "run"},
+    {id: "apa_s3", oravia: "apafene", english: "sit"},
+    {id: "apa_s4", oravia: "apani", english: "pull"},
     ];
 
     function renderSelfAssessment() {
@@ -415,12 +404,12 @@ document.querySelectorAll('.tabbed-labels label').forEach(label => {
 
 <div style="text-align: center; padding: 2rem 0; background: #e0f2f1; border-radius: 8px; margin-top: 3rem;">
     <p style="font-size: 1.2rem; color: #4a9cd6; margin-bottom: 1rem;">
-        🎉 <strong>Lesson 39 Complete!</strong>
+        🎉 <strong>Lesson 40 Complete!</strong>
     </p>
     <p style="color: #5a8bb8; margin-bottom: 0.5rem;">
         If you missed any words, check the <strong>Review</strong> tab to practice them again.
     </p>
     <p style="color: #5a8bb8; margin-bottom: 1.5rem;">
-        Come back tomorrow for Lesson 40.
+        Come back tomorrow for Lesson 41.
     </p>
 </div>

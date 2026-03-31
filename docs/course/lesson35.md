@@ -156,11 +156,6 @@
     </div>
     
     These can also be used as verbs, for example, you could say *i yeswol* to mean *to put on a shirt*.
-   
-    Now try to write 3 sentences using **YE** words.
-    
-    <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
-    
     
     You are ready for the exercise now!
     
