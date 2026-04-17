@@ -43,7 +43,8 @@
       "try",
       "move",
       "make"
-    ]
+    ],
+    "etymology": "PIE *h₂en- (to breathe/live)"
   },
   {
     "type": "subcluster",
@@ -63,7 +64,8 @@
       "keep",
       "stop",
       "secure"
-    ]
+    ],
+    "etymology": "Latin manere (to remain/stay)"
   },
   {
     "type": "subcluster",
@@ -85,7 +87,8 @@
       "bring",
       "take",
       "back"
-    ]
+    ],
+    "etymology": "Latin animus (directed will); Japanese に (ni = toward, directional particle)"
   },
   {
     "type": "subcluster",
@@ -107,7 +110,8 @@
       "avoid",
       "lose",
       "let"
-    ]
+    ],
+    "etymology": "Japanese ano (that, over there)"
   },
   {
     "type": "subcluster",
@@ -139,7 +143,8 @@
       "hang",
       "hurry",
       "run"
-    ]
+    ],
+    "etymology": "Sanskrit apad (to move on foot)"
   },
   {
     "type": "subcluster",
@@ -151,7 +156,6 @@
       "asfe",
       "asfene",
       "asien",
-      "aslufu",
       "asoyo",
       "asubu"
     ],
@@ -160,10 +164,10 @@
       "pause",
       "sleep",
       "push",
-      "breathe",
       "shake",
       "drown"
-    ]
+    ],
+    "etymology": "PIE *h₁es- (to be, to exist)"
   },
   {
     "type": "subcluster",
@@ -181,7 +185,8 @@
       "smile",
       "tears",
       "kiss"
-    ]
+    ],
+    "etymology": "Sanskrit āśleṣa (embrace, close contact)"
   },
   {
     "type": "subcluster",
@@ -199,7 +204,8 @@
       "prick",
       "suck",
       "pee"
-    ]
+    ],
+    "etymology": "Sanskrit āsya (mouth)"
   },
   {
     "type": "subcluster",
@@ -212,7 +218,8 @@
       "asular",
       "asuor",
       "asur",
-      "asusu"
+      "asusu",
+      "asulufu"
     ],
     "english": [
       "sneeze",
@@ -220,8 +227,10 @@
       "laugh",
       "snore",
       "yell",
-      "whisper"
-    ]
+      "whisper",
+      "breathe"
+    ],
+    "etymology": "Sanskrit asu (breath, vital force)"
   },
   {
     "type": "subcluster",
@@ -241,7 +250,8 @@
       "rent",
       "private",
       "shop"
-    ]
+    ],
+    "etymology": "Bengali বেড়ানো berano (to roam, travel)"
   },
   {
     "type": "subcluster",
@@ -259,7 +269,8 @@
       "wagon",
       "bicycle",
       "car"
-    ]
+    ],
+    "etymology": "Mandarin 倍 (bèi = vehicle-related measure)"
   },
   {
     "type": "subcluster",
@@ -273,7 +284,8 @@
     "english": [
       "decorate",
       "inside"
-    ]
+    ],
+    "etymology": "Arabic بيت (bayt = house, dwelling); Hebrew בית (bayit = house); Proto-Semitic *bayt- (house); Swahili boma (enclosed homestead); Russian бок (bok = side of a house)"
   },
   {
     "type": "subcluster",
@@ -291,7 +303,8 @@
       "patio",
       "kitchen",
       "hall"
-    ]
+    ],
+    "etymology": "English bower (chamber, private room), Korean bueok (kitchen)"
   },
   {
     "type": "subcluster",
@@ -307,7 +320,8 @@
       "bed",
       "cabinet",
       "table"
-    ]
+    ],
+    "etymology": "French banc (bench, table-like furniture)"
   },
   {
     "type": "subcluster",
@@ -327,7 +341,8 @@
       "brick",
       "window",
       "door"
-    ]
+    ],
+    "etymology": "English bore/board (structural element); German Bord (board, structural element); Slavic бор (bor = pine/building material)"
   },
   {
     "type": "subcluster",
@@ -341,7 +356,8 @@
     "english": [
       "bath",
       "toilet"
-    ]
+    ],
+    "etymology": "Malay basuh (to wash)"
   },
   {
     "type": "subcluster",
@@ -375,7 +391,8 @@
       "document",
       "image",
       "print"
-    ]
+    ],
+    "etymology": "English creative, Latin creatus (produced)"
   },
   {
     "type": "subcluster",
@@ -407,7 +424,8 @@
       "ticket",
       "phone",
       "number"
-    ]
+    ],
+    "etymology": "Latin communicare (to communicate)"
   },
   {
     "type": "subcluster",
@@ -429,7 +447,8 @@
       "letter",
       "name",
       "mail"
-    ]
+    ],
+    "etymology": "French courier (mail, correspondence)"
   },
   {
     "type": "subcluster",
@@ -479,7 +498,8 @@
       "change",
       "exact",
       "represent"
-    ]
+    ],
+    "etymology": "Arabic ذا dhā (this, that, referential)"
   },
   {
     "type": "subcluster",
@@ -503,7 +523,8 @@
       "estimate",
       "evidence",
       "conclusion"
-    ]
+    ],
+    "etymology": "Japanese 代 (dai = declaration, evidence, proposition); Mandarin 代 (dài = on behalf of, epistemic stance)"
   },
   {
     "type": "subcluster",
@@ -521,7 +542,8 @@
       "serious",
       "important",
       "point"
-    ]
+    ],
+    "etymology": "Mandarin 但 (dàn = but, emphatic contrast); Mandarin 单 (dān = single, only, emphasis)"
   },
   {
     "type": "subcluster",
@@ -547,7 +569,8 @@
       "invent",
       "divide",
       "oscillate"
-    ]
+    ],
+    "etymology": "Mandarin 道 (dào = way, rule, principle); Japanese 道 (dō = the Way, code of conduct, discipline)"
   },
   {
     "type": "subcluster",
@@ -567,7 +590,8 @@
       "expel",
       "punish",
       "obligation"
-    ]
+    ],
+    "etymology": "Hausa dokar (regulation)"
   },
   {
     "type": "subcluster",
@@ -591,7 +615,8 @@
       "rite",
       "faith",
       "worship"
-    ]
+    ],
+    "etymology": "Aramaic Elah (God)"
   },
   {
     "type": "subcluster",
@@ -617,7 +642,8 @@
       "journey",
       "love",
       "dream"
-    ]
+    ],
+    "etymology": "Greek ἐλεύθερος (eleutheros = free, self-expansion); Latin elevare (to lift, self-expansion upward)"
   },
   {
     "type": "subcluster",
@@ -639,7 +665,8 @@
       "moral",
       "humble",
       "wise"
-    ]
+    ],
+    "etymology": "Greek ἠθικός (ethikos = ethical)"
   },
   {
     "type": "subcluster",
@@ -669,7 +696,8 @@
       "peace",
       "act",
       "pity"
-    ]
+    ],
+    "etymology": "Latin eloqui (to speak out)"
   },
   {
     "type": "subcluster",
@@ -699,7 +727,8 @@
       "win",
       "honor",
       "polite"
-    ]
+    ],
+    "etymology": "Greek εὐ- (eu = good, social prefix)"
   },
   {
     "type": "subcluster",
@@ -717,7 +746,8 @@
       "visit",
       "invite",
       "join"
-    ]
+    ],
+    "etymology": "Japanese deau 出会う (meet); Greek hodos (route, visiting)"
   },
   {
     "type": "subcluster",
@@ -733,7 +763,8 @@
       "event",
       "parade",
       "party"
-    ]
+    ],
+    "etymology": "Korean moim (gathering, meeting)"
   },
   {
     "type": "subcluster",
@@ -751,7 +782,8 @@
       "parent",
       "sibling",
       "birth"
-    ]
+    ],
+    "etymology": "Latin familia (family)"
   },
   {
     "type": "subcluster",
@@ -765,7 +797,8 @@
     "english": [
       "companion",
       "marry"
-    ]
+    ],
+    "etymology": "Latin foedus (pact, partnership)"
   },
   {
     "type": "subcluster",
@@ -781,33 +814,23 @@
       "child",
       "baby",
       "young"
-    ]
-  },
-  {
-    "type": "subcluster",
-    "sound": "fam",
-    "cluster": "family",
-    "meaning": "extended family",
-    "oravia": [
-      "famei"
     ],
-    "english": [
-      "family"
-    ]
+    "etymology": "Latin filia, filius (children)"
   },
   {
     "type": "subcluster",
-    "sound": "fare",
+    "sound": "fae",
     "cluster": "family",
     "meaning": "gender",
     "oravia": [
-      "farejal",
-      "farejor"
+      "faejal",
+      "faejor"
     ],
     "english": [
       "man",
       "woman"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "subcluster",
@@ -829,7 +852,8 @@
       "vary",
       "limit",
       "measure"
-    ]
+    ],
+    "etymology": "English gauge"
   },
   {
     "type": "subcluster",
@@ -851,7 +875,8 @@
       "high",
       "rank",
       "average"
-    ]
+    ],
+    "etymology": "Japanese 格 (kaku/gan proximity = rank, grade)"
   },
   {
     "type": "subcluster",
@@ -871,7 +896,8 @@
       "balance",
       "value",
       "equal"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "subcluster",
@@ -895,7 +921,8 @@
       "invest",
       "collect",
       "bet"
-    ]
+    ],
+    "etymology": "Proto-Germanic *geldan (to pay); German Geld (money); Dutch geld (money); "
   },
   {
     "type": "subcluster",
@@ -913,7 +940,8 @@
       "buy",
       "charge",
       "exchange"
-    ]
+    ],
+    "etymology": "German Geld/gelten (to be worth, to trade); Dutch gelden (to be valid, trade value)"
   },
   {
     "type": "subcluster",
@@ -927,7 +955,8 @@
     "english": [
       "secret",
       "air"
-    ]
+    ],
+    "etymology": "Greek ἥρως (heros = hero, trope figure)"
   },
   {
     "type": "subcluster",
@@ -945,13 +974,14 @@
       "shadow",
       "devil",
       "ghost"
-    ]
+    ],
+    "etymology": "English hex"
   },
   {
     "type": "subcluster",
     "sound": "hei",
     "cluster": "fiction trope",
-    "meaning": "hero tropes",
+    "meaning": "protagonist tropes",
     "oravia": [
       "heimir",
       "heipili",
@@ -963,7 +993,8 @@
       "fairy",
       "angel",
       "magic"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "subcluster",
@@ -983,7 +1014,8 @@
       "moon",
       "infinity",
       "ray"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "subcluster",
@@ -999,7 +1031,8 @@
       "people",
       "moment",
       "thing"
-    ]
+    ],
+    "etymology": "Latin ille (that thing, object of inquiry)"
   },
   {
     "type": "subcluster",
@@ -1015,7 +1048,8 @@
       "ask",
       "talk",
       "say"
-    ]
+    ],
+    "etymology": "Arabic إلى (ilā = toward, sharing direction)"
   },
   {
     "type": "subcluster",
@@ -1039,7 +1073,8 @@
       "think",
       "believe",
       "conscience"
-    ]
+    ],
+    "etymology": "Portuguese/Spanish inteligencia (intelligence); Japanese 意 (i/ili = intention, cognition)"
   },
   {
     "type": "subcluster",
@@ -1059,7 +1094,8 @@
       "forget",
       "surprise",
       "worry"
-    ]
+    ],
+    "etymology": "English illusion"
   },
   {
     "type": "subcluster",
@@ -1105,7 +1141,8 @@
       "lock",
       "pin",
       "cage"
-    ]
+    ],
+    "etymology": "Arabic jihāz (apparatus, equipment)"
   },
   {
     "type": "subcluster",
@@ -1121,7 +1158,8 @@
       "ax",
       "hammer",
       "knife"
-    ]
+    ],
+    "etymology": "Japanese 刃 (ha/ja = blade, edge)"
   },
   {
     "type": "subcluster",
@@ -1139,7 +1177,8 @@
       "cut",
       "bend",
       "fold"
-    ]
+    ],
+    "etymology": "Japanese hasamu (clamp, pinch)"
   },
   {
     "type": "subcluster",
@@ -1173,7 +1212,8 @@
       "cross",
       "arch",
       "rail"
-    ]
+    ],
+    "etymology": "Mandarin 节 (jié = joint, geometric section)"
   },
   {
     "type": "subcluster",
@@ -1199,7 +1239,8 @@
       "side",
       "through",
       "empty"
-    ]
+    ],
+    "etymology": "Japanese 前 (zen/jen front location); Mandarin 间 (jiān = between, location)"
   },
   {
     "type": "subcluster",
@@ -1215,7 +1256,8 @@
       "base",
       "center",
       "middle"
-    ]
+    ],
+    "etymology": "Greek γεω- geo (geography, geometry)"
   },
   {
     "type": "subcluster",
@@ -1245,7 +1287,8 @@
       "piece",
       "shell",
       "cover"
-    ]
+    ],
+    "etymology": "Korean 재료 jaeryo (material)"
   },
   {
     "type": "subcluster",
@@ -1271,7 +1314,8 @@
       "metal",
       "glass",
       "fiber"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "subcluster",
@@ -1289,7 +1333,8 @@
       "soil",
       "rock",
       "fertile"
-    ]
+    ],
+    "etymology": "PIE *lendh- (open land, heath); English land, German Land, Dutch land, Swedish land, Norwegian land, Danish land"
   },
   {
     "type": "subcluster",
@@ -1309,7 +1354,8 @@
       "farm",
       "fen",
       "garden"
-    ]
+    ],
+    "etymology": "English lea (open meadow, landscape type)"
   },
   {
     "type": "subcluster",
@@ -1331,7 +1377,8 @@
       "grass",
       "flower",
       "tree"
-    ]
+    ],
+    "etymology": "Mandarin 蕾 (lěi = flower bud, plant growth)"
   },
   {
     "type": "subcluster",
@@ -1365,7 +1412,8 @@
       "soon",
       "day",
       "morning"
-    ]
+    ],
+    "etymology": "Mandarin 历 / 曆 li (calendar)"
   },
   {
     "type": "subcluster",
@@ -1381,7 +1429,8 @@
       "minute",
       "second (time)",
       "hour"
-    ]
+    ],
+    "etymology": "Greek λεπτό lepto (minute)"
   },
   {
     "type": "subcluster",
@@ -1415,7 +1464,8 @@
       "light",
       "sky",
       "mist"
-    ]
+    ],
+    "etymology": "Latin lux (light, sky phenomenon); Italian luce; French lumière; Portuguese/Spanish luz; PIE *lewk- (to shine)"
   },
   {
     "type": "subcluster",
@@ -1433,7 +1483,8 @@
       "spring",
       "autumn",
       "winter"
-    ]
+    ],
+    "etymology": "Latin luna (moon, seasonal cycle); French lune; Spanish luna; Italian luna"
   },
   {
     "type": "subcluster",
@@ -1465,7 +1516,8 @@
       "grain",
       "soup",
       "egg"
-    ]
+    ],
+    "etymology": "Arabic مطبخ (matbakh = kitchen); Tamil மா (mā = flour, ground grain for cooking)"
   },
   {
     "type": "subcluster",
@@ -1485,7 +1537,8 @@
       "corn",
       "bean",
       "soy"
-    ]
+    ],
+    "etymology": "Mandarin 米 (mǐ = rice, grain)"
   },
   {
     "type": "subcluster",
@@ -1503,7 +1556,8 @@
       "flour",
       "cheese",
       "butter"
-    ]
+    ],
+    "etymology": "German Mehl (flour); English malt (grain product for bread)"
   },
   {
     "type": "subcluster",
@@ -1521,7 +1575,8 @@
       "salt",
       "onion",
       "pepper"
-    ]
+    ],
+    "etymology": "Arabic مسالة (masāla = spice blend); Hindi मसाला (masālā = spice mix)"
   },
   {
     "type": "subcluster",
@@ -1551,7 +1606,8 @@
       "animal",
       "pig",
       "dog"
-    ]
+    ],
+    "etymology": "Swahili mnyama (animal, with m- animate class prefix)"
   },
   {
     "type": "subcluster",
@@ -1573,7 +1629,8 @@
       "monkey",
       "fox",
       "elephant"
-    ]
+    ],
+    "etymology": "Hindi mṛg (wild animal)"
   },
   {
     "type": "subcluster",
@@ -1601,7 +1658,8 @@
       "ice",
       "spice",
       "sugar"
-    ]
+    ],
+    "etymology": "Hawaiian moku (to eat, archaic); Swahili mlo (meal); Korean 먹다 (meokda = to eat); Japanese もぐもぐ (mogu-mogu = onomatopoeia for eating/chewing)"
   },
   {
     "type": "subcluster",
@@ -1619,7 +1677,8 @@
       "berry",
       "apple",
       "lemon"
-    ]
+    ],
+    "etymology": "Polynesian languages moa (banana plants); Japanese 桃 (momo/moa = peach, fruit); "
   },
   {
     "type": "subcluster",
@@ -1637,7 +1696,8 @@
       "jar",
       "bowl",
       "bottle"
-    ]
+    ],
+    "etymology": "Japanese 器 (utsuwa/mol = vessel, container)"
   },
   {
     "type": "subcluster",
@@ -1661,7 +1721,8 @@
       "reptile",
       "snail",
       "squid"
-    ]
+    ],
+    "etymology": "Swahili mdudu (insect, bug); Japanese 虫 (mushi = insect, bug, worm)"
   },
   {
     "type": "subcluster",
@@ -1681,7 +1742,8 @@
       "bird",
       "butterfly",
       "mosquito"
-    ]
+    ],
+    "etymology": "Persian morgh (bird); Hindi murgā (rooster)"
   },
   {
     "type": "subcluster",
@@ -1709,7 +1771,8 @@
       "more",
       "single",
       "beyond"
-    ]
+    ],
+    "etymology": "Swahili na (additive marker)"
   },
   {
     "type": "subcluster",
@@ -1743,7 +1806,8 @@
       "some",
       "already",
       "should"
-    ]
+    ],
+    "etymology": "Latin non (negation, downward movement in discourse); Japanese の (no = possessive particle)"
   },
   {
     "type": "subcluster",
@@ -1759,7 +1823,8 @@
       "far",
       "enough",
       "almost"
-    ]
+    ],
+    "etymology": "Latin norma (standard, reference point); English norm"
   },
   {
     "type": "subcluster",
@@ -1797,7 +1862,8 @@
       "excite",
       "sex",
       "star"
-    ]
+    ],
+    "etymology": "Yiddish/English oy (exclamation of feeling)"
   },
   {
     "type": "subcluster",
@@ -1825,7 +1891,8 @@
       "music",
       "sound",
       "drum"
-    ]
+    ],
+    "etymology": "Sanskrit om/aum (the primordial sound, universal vibration — foundational to Hindu/Buddhist traditions); Japanese 音 (on/oto = sound, music); Korean 음 (eum = sound, music)"
   },
   {
     "type": "subcluster",
@@ -1849,7 +1916,8 @@
       "atom",
       "mixture",
       "motor"
-    ]
+    ],
+    "etymology": "English portion, Latin portio (portion)"
   },
   {
     "type": "subcluster",
@@ -1867,7 +1935,8 @@
       "acid",
       "dependence",
       "alcohol"
-    ]
+    ],
+    "etymology": "Mandarin 泡 (pào = bubble, chemical reaction); Japanese 泡 (awa/poa = bubble, chemical foam)"
   },
   {
     "type": "subcluster",
@@ -1891,7 +1960,8 @@
       "power",
       "steam",
       "energy"
-    ]
+    ],
+    "etymology": "Greek πῦρ (pyr = fire); PIE *péh₂ur (fire)"
   },
   {
     "type": "subcluster",
@@ -1911,7 +1981,8 @@
       "oil",
       "liter",
       "liquid"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "subcluster",
@@ -1931,7 +2002,8 @@
       "economy",
       "environment",
       "resource"
-    ]
+    ],
+    "etymology": "Sanskrit राष्ट्र rastra (state, polity, society)"
   },
   {
     "type": "subcluster",
@@ -1965,7 +2037,8 @@
       "military",
       "defend",
       "prison"
-    ]
+    ],
+    "etymology": "Hindi राज (rāj = rule, governance); Sanskrit राज (rāja = king, governance)"
   },
   {
     "type": "subcluster",
@@ -1985,7 +2058,8 @@
       "business",
       "market",
       "technology"
-    ]
+    ],
+    "etymology": "Hindi raṅgmanc (public stage)"
   },
   {
     "type": "subcluster",
@@ -2003,7 +2077,8 @@
       "sport",
       "culture",
       "history"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "subcluster",
@@ -2019,7 +2094,8 @@
       "theory",
       "philosophy",
       "science"
-    ]
+    ],
+    "etymology": "Japanese 論 (ron = argument, theoretical knowledge)"
   },
   {
     "type": "subcluster",
@@ -2037,7 +2113,8 @@
       "exam",
       "teach",
       "learn"
-    ]
+    ],
+    "etymology": "Latin rogare (formally proposing)"
   },
   {
     "type": "subcluster",
@@ -2053,7 +2130,8 @@
       "read",
       "write",
       "book"
-    ]
+    ],
+    "etymology": "Latin rotulus (scroll, written scroll); Japanese 録 (roku/rou written record)"
   },
   {
     "type": "subcluster",
@@ -2081,7 +2159,8 @@
       "menu",
       "package",
       "key"
-    ]
+    ],
+    "etymology": "Mandarin 设备 (shèbèi = equipment)"
   },
   {
     "type": "subcluster",
@@ -2099,7 +2178,8 @@
       "code",
       "fix",
       "program"
-    ]
+    ],
+    "etymology": "English select, cell"
   },
   {
     "type": "subcluster",
@@ -2115,7 +2195,8 @@
       "type",
       "system",
       "method"
-    ]
+    ],
+    "etymology": "Greek σύστημα systema (system)"
   },
   {
     "type": "subcluster",
@@ -2143,7 +2224,8 @@
       "capture",
       "erase",
       "detect"
-    ]
+    ],
+    "etymology": "PIE *sekʷ- (to follow a sequence, to process in order)"
   },
   {
     "type": "subcluster",
@@ -2161,7 +2243,8 @@
       "game",
       "solve",
       "trick"
-    ]
+    ],
+    "etymology": "Latin iocus (game, jest, play)"
   },
   {
     "type": "subcluster",
@@ -2199,7 +2282,8 @@
       "hell",
       "hate",
       "accuse"
-    ]
+    ],
+    "etymology": "Tamil தீ (tī = fire, harm, danger); Hindi तीखा (tīkhā = sharp, piercing, harmful)"
   },
   {
     "type": "subcluster",
@@ -2219,7 +2303,8 @@
       "threat",
       "abuse",
       "danger"
-    ]
+    ],
+    "etymology": "Sanskrit तीव्र (tīvra = severe, violent)"
   },
   {
     "type": "subcluster",
@@ -2243,7 +2328,8 @@
       "suffer",
       "ilness",
       "thirst"
-    ]
+    ],
+    "etymology": "Indonesian tobat (remorse, suffering from wrongdoing); Latin torquere (to twist/torture)"
   },
   {
     "type": "subcluster",
@@ -2271,7 +2357,8 @@
       "envy",
       "emotion",
       "fear"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "subcluster",
@@ -2287,7 +2374,8 @@
       "betrayal",
       "revenge",
       "bitter"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "subcluster",
@@ -2305,7 +2393,8 @@
       "hungry",
       "weak",
       "tense"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "subcluster",
@@ -2321,7 +2410,8 @@
       "barrage",
       "violence",
       "war"
-    ]
+    ],
+    "etymology": "Latin tumultus (conflict, violent disorder)"
   },
   {
     "type": "subcluster",
@@ -2337,7 +2427,8 @@
       "crash",
       "explode",
       "smoke"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "subcluster",
@@ -2353,7 +2444,8 @@
       "weapon",
       "gun",
       "arrow"
-    ]
+    ],
+    "etymology": "Indonesian tombak (spear/weapon)"
   },
   {
     "type": "subcluster",
@@ -2375,7 +2467,8 @@
       "pelvis",
       "shoulder",
       "chest"
-    ]
+    ],
+    "etymology": "Sanskrit वायु (vāyu = vital wind/breath)"
   },
   {
     "type": "subcluster",
@@ -2401,7 +2494,8 @@
       "knee",
       "hand",
       "leg"
-    ]
+    ],
+    "etymology": "Hindi बाँह (bāṃh = arm/limb); Arabic بَدَن (badan = body/limbs); Indonesian badan (body and its limbs)"
   },
   {
     "type": "subcluster",
@@ -2429,7 +2523,8 @@
       "face",
       "nose",
       "ear"
-    ]
+    ],
+    "etymology": "Sanskrit वक्त्रम् vaktram (face/mouth)"
   },
   {
     "type": "subcluster",
@@ -2451,7 +2546,8 @@
       "bacteria",
       "fungus",
       "wound"
-    ]
+    ],
+    "etymology": "Sanskrit वैद्य vaidya (physician)"
   },
   {
     "type": "subcluster",
@@ -2467,7 +2563,8 @@
       "therapy",
       "pill",
       "exercise"
-    ]
+    ],
+    "etymology": "Latin valere (to be well/healthy)"
   },
   {
     "type": "subcluster",
@@ -2493,7 +2590,8 @@
       "body",
       "blood",
       "breast"
-    ]
+    ],
+    "etymology": "Proto-Bantu *-vim- (becoming thick); Latin vita (life force, interior body)"
   },
   {
     "type": "subcluster",
@@ -2511,7 +2609,8 @@
       "brain",
       "stomach",
       "organ"
-    ]
+    ],
+    "etymology": "Latin viscera (internal organs)"
   },
   {
     "type": "subcluster",
@@ -2529,7 +2628,8 @@
       "skin",
       "lip",
       "hair"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "subcluster",
@@ -2553,7 +2653,8 @@
       "soap",
       "rub",
       "shave"
-    ]
+    ],
+    "etymology": "Swahili -osha (to wash/clean)"
   },
   {
     "type": "subcluster",
@@ -2585,7 +2686,8 @@
       "cliff",
       "ocean",
       "float"
-    ]
+    ],
+    "etymology": "Polynesian root wai (water)"
   },
   {
     "type": "subcluster",
@@ -2609,7 +2711,8 @@
       "north",
       "map",
       "east"
-    ]
+    ],
+    "etymology": "Arabic وين (wayn = where?)"
   },
   {
     "type": "subcluster",
@@ -2627,7 +2730,8 @@
       "village",
       "city",
       "bridge"
-    ]
+    ],
+    "etymology": "Latin villa (human settlement); English village"
   },
   {
     "type": "subcluster",
@@ -2645,7 +2749,8 @@
       "mountain",
       "valley",
       "lake"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "subcluster",
@@ -2665,7 +2770,8 @@
       "new",
       "fast",
       "slow"
-    ]
+    ],
+    "etymology": "Swahili -a (Bantu adjectival linker)"
   },
   {
     "type": "subcluster",
@@ -2683,7 +2789,8 @@
       "solid",
       "smooth",
       "limp"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "subcluster",
@@ -2707,7 +2814,8 @@
       "deep",
       "big",
       "wide"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "subcluster",
@@ -2733,7 +2841,8 @@
       "silk",
       "net",
       "feather"
-    ]
+    ],
+    "etymology": "Turkish yelken (sail/large expanse of fabric)"
   },
   {
     "type": "subcluster",
@@ -2759,7 +2868,8 @@
       "sock",
       "jacket",
       "shirt"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "subcluster",
@@ -2785,7 +2895,8 @@
       "yellow",
       "white",
       "blue"
-    ]
+    ],
+    "etymology": "Yoruba yọ (to emerge)"
   },
   {
     "type": "subcluster",
@@ -2811,7 +2922,8 @@
       "ironic",
       "rare",
       "comfortable"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "subcluster",
@@ -2837,23 +2949,8 @@
       "lazy",
       "beautiful",
       "smart"
-    ]
-  },
-  {
-    "type": "root",
-    "sound": "an",
-    "cluster": "el, il, ti, ye",
-    "meaning": "joining",
-    "oravia": [
-      "eloan",
-      "ilian",
-      "yean"
     ],
-    "english": [
-      "thanks",
-      "know",
-      "sew"
-    ]
+    "etymology": ""
   },
   {
     "type": "root",
@@ -2867,7 +2964,8 @@
     "english": [
       "pull",
       "meet"
-    ]
+    ],
+    "etymology": "Latin animus (directed will); Japanese に ni (toward, directional particle)"
   },
   {
     "type": "root",
@@ -2881,7 +2979,8 @@
     "english": [
       "cement",
       "jar"
-    ]
+    ],
+    "etymology": "Arabic بيت bayt (house, dwelling); Hebrew בית bayit (house); Proto-Semitic *bayt- (house); Swahili boma (enclosed homestead); Russian бок bok (side of a house)"
   },
   {
     "type": "root",
@@ -2897,7 +2996,8 @@
       "wall",
       "fence",
       "sheet"
-    ]
+    ],
+    "etymology": "Sanskrit चय caya (flat layer)"
   },
   {
     "type": "root",
@@ -2911,7 +3011,8 @@
     "english": [
       "chain",
       "slave"
-    ]
+    ],
+    "etymology": "Latin catena (chain, constraint); Hindi/Urdu कैद qaid (imprisonment, constraint); Arabic قَيْد qayd (constraint, shackle)"
   },
   {
     "type": "root",
@@ -2925,7 +3026,8 @@
     "english": [
       "ask",
       "puzzle"
-    ]
+    ],
+    "etymology": "Latin quid (what) and Romance que/ce"
   },
   {
     "type": "root",
@@ -2941,7 +3043,8 @@
       "decorate",
       "figure",
       "imagine"
-    ]
+    ],
+    "etymology": "English creative, Latin creatus (produced)"
   },
   {
     "type": "root",
@@ -2955,7 +3058,8 @@
     "english": [
       "elbow",
       "sharp"
-    ]
+    ],
+    "etymology": "Mandarin 刺 cì (to stab, prick, sharp); Arabic سكين sikkīn (knife, sharp); Sanskrit छिद् chid (to cut, sharp action); Swahili kisu (knife, sharp)"
   },
   {
     "type": "root",
@@ -2975,7 +3079,8 @@
       "gossip",
       "voice",
       "media"
-    ]
+    ],
+    "etymology": "Latin communicare (to communicate)"
   },
   {
     "type": "root",
@@ -2993,7 +3098,8 @@
       "rhyme",
       "read",
       "code"
-    ]
+    ],
+    "etymology": "Swahili dalili (sign, indication, pattern); Arabic دَلِيل dalīl (clue, sign, indication)"
   },
   {
     "type": "root",
@@ -3007,7 +3113,8 @@
     "english": [
       "freedom",
       "elect"
-    ]
+    ],
+    "etymology": "Mandarin 但 dàn (but, emphatic contrast); Mandarin 单 dān (single, only, emphasis)"
   },
   {
     "type": "root",
@@ -3021,7 +3128,8 @@
     "english": [
       "serious",
       "promise"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -3035,7 +3143,8 @@
     "english": [
       "far",
       "meter"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -3053,7 +3162,8 @@
       "origin",
       "root",
       "potato"
-    ]
+    ],
+    "etymology": "Latin de (from, down from); Portuguese/Spanish de (from, of, origin); French de (from, of); Italian di (from, of)"
   },
   {
     "type": "root",
@@ -3067,7 +3177,8 @@
     "english": [
       "philosophy",
       "logic"
-    ]
+    ],
+    "etymology": "Latin delineare (to draw out logically); Greek δῆλος dēlos (clear, logically evident)"
   },
   {
     "type": "root",
@@ -3085,7 +3196,8 @@
       "write",
       "finger",
       "stripe"
-    ]
+    ],
+    "etymology": "Sanskrit दिश् diś (direction, to point)"
   },
   {
     "type": "root",
@@ -3099,7 +3211,8 @@
     "english": [
       "rebel",
       "against"
-    ]
+    ],
+    "etymology": "Arabic ضِدّ ḍidd (opposing, against)"
   },
   {
     "type": "root",
@@ -3119,7 +3232,8 @@
       "land",
       "nation",
       "school"
-    ]
+    ],
+    "etymology": "Latin domus (house, place, domain); Russian дом dom (house, place); English dome/domain (dom- root, place)"
   },
   {
     "type": "root",
@@ -3133,7 +3247,8 @@
     "english": [
       "demonstration",
       "reveal"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -3147,7 +3262,8 @@
     "english": [
       "fate",
       "tie"
-    ]
+    ],
+    "etymology": "Latin adorare (to be bound in devotion)"
   },
   {
     "type": "root",
@@ -3167,7 +3283,8 @@
       "bone",
       "diamond",
       "hard"
-    ]
+    ],
+    "etymology": "Latin durus (hard, tough); Spanish duro (hard); French dur (hard); Portuguese duro (hard)"
   },
   {
     "type": "root",
@@ -3183,7 +3300,8 @@
       "inherit",
       "friend",
       "community"
-    ]
+    ],
+    "etymology": "Latin familia (family)"
   },
   {
     "type": "root",
@@ -3197,7 +3315,8 @@
     "english": [
       "put",
       "pause"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -3215,13 +3334,14 @@
       "sit",
       "sleep",
       "bed"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
     "sound": "fi",
     "cluster": "an, as, bo, ga",
-    "meaning": "coming",
+    "meaning": "inside",
     "oravia": [
       "anifi",
       "asefi",
@@ -3233,7 +3353,8 @@
       "hug",
       "inside",
       "less"
-    ]
+    ],
+    "etymology": "Swahili -fika (to arrive, come)"
   },
   {
     "type": "root",
@@ -3251,7 +3372,8 @@
       "desert",
       "dry",
       "poor"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -3265,7 +3387,8 @@
     "english": [
       "wind",
       "silly"
-    ]
+    ],
+    "etymology": "Mandarin 浮 fú (floating, light); Latin fumus (floating smoke)"
   },
   {
     "type": "root",
@@ -3295,7 +3418,8 @@
       "village",
       "small",
       "easy"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -3309,7 +3433,8 @@
     "english": [
       "coffee",
       "brown"
-    ]
+    ],
+    "etymology": "Arabic قهوة qahwa (coffee)"
   },
   {
     "type": "root",
@@ -3323,7 +3448,8 @@
     "english": [
       "dare",
       "proud"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -3337,7 +3463,8 @@
     "english": [
       "ax",
       "half"
-    ]
+    ],
+    "etymology": "Japanese 五 go (five, half of ten)"
   },
   {
     "type": "root",
@@ -3351,7 +3478,8 @@
     "english": [
       "message",
       "talk"
-    ]
+    ],
+    "etymology": "Swahili habari (news, message)"
   },
   {
     "type": "root",
@@ -3369,7 +3497,8 @@
       "self",
       "neutral",
       "people"
-    ]
+    ],
+    "etymology": "Mandarin 嘿 hēi (hey, exclamation used to address a person); Hausa hei (hey, exclamation used to address a person)"
   },
   {
     "type": "root",
@@ -3383,7 +3512,8 @@
     "english": [
       "throw",
       "send"
-    ]
+    ],
+    "etymology": "Sanskrit हेल् hel (to throw, sport)"
   },
   {
     "type": "root",
@@ -3399,7 +3529,8 @@
       "summer",
       "fry",
       "heat"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -3413,7 +3544,8 @@
     "english": [
       "fire",
       "red"
-    ]
+    ],
+    "etymology": "Polynesian root Hawaiian/Maori ahi (fire)"
   },
   {
     "type": "root",
@@ -3427,7 +3559,8 @@
     "english": [
       "shadow",
       "wolf"
-    ]
+    ],
+    "etymology": "Mandarin 后 hòu (behind, back)"
   },
   {
     "type": "root",
@@ -3441,7 +3574,8 @@
     "english": [
       "soul",
       "ghost"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -3459,7 +3593,8 @@
       "cabinet",
       "basket",
       "bag"
-    ]
+    ],
+    "etymology": "Portuguese/Spanish/Arabic جَرَّة jarra (large container, jar); Hindi जार jār (jar, container)"
   },
   {
     "type": "root",
@@ -3473,7 +3608,8 @@
     "english": [
       "trick",
       "lie"
-    ]
+    ],
+    "etymology": "Hindi झूठ jhūṭh (lie, deception)"
   },
   {
     "type": "root",
@@ -3487,7 +3623,8 @@
     "english": [
       "rent",
       "short"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -3501,7 +3638,8 @@
     "english": [
       "smile",
       "happy"
-    ]
+    ],
+    "etymology": "across unrelated languages as an expression of happiness (Portuguese/Spanish/Italian la in song, Arabic لا as affirmation, Swahili la in joy expressions, English la-la, Hindi lā in lullabies)"
   },
   {
     "type": "root",
@@ -3519,7 +3657,8 @@
       "center",
       "therapy",
       "fat"
-    ]
+    ],
+    "etymology": "Hindi संतुलन saṁtulana (balance, equilibrium)"
   },
   {
     "type": "root",
@@ -3533,7 +3672,8 @@
     "english": [
       "field",
       "area"
-    ]
+    ],
+    "etymology": "PIE *lendh- (open land, heath); English land, German Land, Dutch land, Swedish land, Norwegian land, Danish land"
   },
   {
     "type": "root",
@@ -3553,7 +3693,8 @@
       "box",
       "leftover",
       "asylum"
-    ]
+    ],
+    "etymology": "Greek λῆμμα lēmma (something taken and kept)"
   },
   {
     "type": "root",
@@ -3569,7 +3710,8 @@
       "pen",
       "banana",
       "long"
-    ]
+    ],
+    "etymology": "Latin longus (long); English longitude"
   },
   {
     "type": "root",
@@ -3583,7 +3725,8 @@
     "english": [
       "dig",
       "cotton"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -3597,7 +3740,8 @@
     "english": [
       "again",
       "now"
-    ]
+    ],
+    "etymology": "Mandarin 历 / 曆 li (calendar)"
   },
   {
     "type": "root",
@@ -3614,7 +3758,8 @@
       "bell",
       "sing",
       "rejection"
-    ]
+    ],
+    "etymology": "Hindi लय laya (rhythm, resonance); Arabic لَحْن laḥn (melody, resonant tune); Sanskrit लय laya (rhythm, resonance)"
   },
   {
     "type": "root",
@@ -3628,7 +3773,8 @@
     "english": [
       "meat",
       "muscle"
-    ]
+    ],
+    "etymology": "Arabic لِيف līf (fiber); Persian لیف līf (fiber)"
   },
   {
     "type": "root",
@@ -3642,7 +3788,8 @@
     "english": [
       "west",
       "dark"
-    ]
+    ],
+    "etymology": "Arabic لَيْل layl (night)"
   },
   {
     "type": "root",
@@ -3656,7 +3803,8 @@
     "english": [
       "sign",
       "blame"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -3670,7 +3818,8 @@
     "english": [
       "other",
       "foreign"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -3688,7 +3837,8 @@
       "universe",
       "all",
       "perfect"
-    ]
+    ],
+    "etymology": "Hawaiian loa (very much, extremely)"
   },
   {
     "type": "root",
@@ -3702,7 +3852,8 @@
     "english": [
       "out",
       "window"
-    ]
+    ],
+    "etymology": "Latin lux (light, sky phenomenon); Italian luce; French lumière; Portuguese/Spanish luz; PIE *lewk- (to shine)"
   },
   {
     "type": "root",
@@ -3718,7 +3869,8 @@
       "flow",
       "environment",
       "river"
-    ]
+    ],
+    "etymology": "Arabic لُجَّة lujja (deep flowing water)"
   },
   {
     "type": "root",
@@ -3732,7 +3884,8 @@
     "english": [
       "say",
       "tongue"
-    ]
+    ],
+    "etymology": "Arabic لِسَان lisān (tongue)"
   },
   {
     "type": "root",
@@ -3750,7 +3903,8 @@
       "air",
       "bubble",
       "sail"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -3764,7 +3918,8 @@
     "english": [
       "matter",
       "monster"
-    ]
+    ],
+    "etymology": "Arabic مطبخ matbakh (kitchen); Tamil மா mā (flour, ground grain for cooking)"
   },
   {
     "type": "root",
@@ -3780,7 +3935,8 @@
       "evening",
       "story",
       "dress"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -3796,7 +3952,8 @@
       "exist",
       "life",
       "second (time)"
-    ]
+    ],
+    "etymology": "Swahili mnyama (animal, with m- animate class prefix)"
   },
   {
     "type": "root",
@@ -3810,7 +3967,8 @@
     "english": [
       "estimate",
       "seem"
-    ]
+    ],
+    "etymology": "Mandarin 面 miàn (face, appearance)"
   },
   {
     "type": "root",
@@ -3826,7 +3984,8 @@
       "aid",
       "support",
       "neck"
-    ]
+    ],
+    "etymology": "Hindi mṛg (wild animal)"
   },
   {
     "type": "root",
@@ -3844,7 +4003,8 @@
       "awesome",
       "book",
       "rich"
-    ]
+    ],
+    "etymology": "Sanskrit मीर mīr (leader of many)"
   },
   {
     "type": "root",
@@ -3864,7 +4024,8 @@
       "hungry",
       "mouth",
       "pill"
-    ]
+    ],
+    "etymology": "Hawaiian moku (to eat, archaic); Swahili mlo (meal); Korean 먹다 meokda (to eat); Japanese もぐもぐ mogu-mogu (onomatopoeia for eating, chewing)"
   },
   {
     "type": "root",
@@ -3879,7 +4040,8 @@
       "cow",
       "venom",
       "silk"
-    ]
+    ],
+    "etymology": "Swahili mdudu (insect, bug); Japanese 虫 mushi (insect, bug, worm)"
   },
   {
     "type": "root",
@@ -3895,7 +4057,8 @@
       "give",
       "buy",
       "teach"
-    ]
+    ],
+    "etymology": "Proto-Bantu *-nab-/*-na (to give); Hindi देना/ना denā (to give); Latin donare (to give, donate)"
   },
   {
     "type": "root",
@@ -3911,7 +4074,8 @@
       "emergency",
       "attention",
       "threat"
-    ]
+    ],
+    "etymology": "Arabic نَفَر nafara (urgent flight, alarm)"
   },
   {
     "type": "root",
@@ -3931,7 +4095,8 @@
       "break",
       "violence",
       "fist"
-    ]
+    ],
+    "etymology": "Latin imponens (imposing)"
   },
   {
     "type": "root",
@@ -3953,7 +4118,8 @@
       "bean",
       "resource",
       "new"
-    ]
+    ],
+    "etymology": "Hindi नया nayā (new); Sanskrit नव nava (new); Greek νέος neos (new)"
   },
   {
     "type": "root",
@@ -3969,7 +4135,8 @@
       "evidence",
       "piece",
       "some"
-    ]
+    ],
+    "etymology": "Tagalog niyon/niyun (that)"
   },
   {
     "type": "root",
@@ -3987,7 +4154,8 @@
       "son, daughter",
       "soil",
       "arm"
-    ]
+    ],
+    "etymology": "Latin non (negation, downward movement in discourse); Japanese の no (possessive particle)"
   },
   {
     "type": "root",
@@ -4003,7 +4171,8 @@
       "journey",
       "path",
       "swim"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -4031,7 +4200,8 @@
       "south",
       "deep",
       "pants"
-    ]
+    ],
+    "etymology": "Arabic نَوْم nawm (sleep, falling into sleep)"
   },
   {
     "type": "root",
@@ -4045,7 +4215,8 @@
     "english": [
       "tendency",
       "until"
-    ]
+    ],
+    "etymology": "Greek νυ nu (particle marking limits in ancient poetry)"
   },
   {
     "type": "root",
@@ -4059,7 +4230,8 @@
     "english": [
       "forget",
       "empty"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -4073,7 +4245,8 @@
     "english": [
       "shut",
       "head"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -4089,7 +4262,8 @@
       "religion",
       "idea",
       "culture"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -4103,7 +4277,8 @@
     "english": [
       "paper",
       "card"
-    ]
+    ],
+    "etymology": "Latin papyrus (paper); English paper (from papyrus)"
   },
   {
     "type": "root",
@@ -4117,7 +4292,8 @@
     "english": [
       "foot",
       "shoe"
-    ]
+    ],
+    "etymology": "Hindi पैर pair (foot); Tamil பாதம் pādam (foot)"
   },
   {
     "type": "root",
@@ -4131,7 +4307,8 @@
     "english": [
       "front",
       "face"
-    ]
+    ],
+    "etymology": "Latin pro/prae (in front of, before); Spanish para (toward, in front of); Italian para (in front)"
   },
   {
     "type": "root",
@@ -4155,7 +4332,8 @@
       "butterfly",
       "cute",
       "piano"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -4169,7 +4347,8 @@
     "english": [
       "shell",
       "echo"
-    ]
+    ],
+    "etymology": "onomatopoeia for hollow resonance/echo"
   },
   {
     "type": "root",
@@ -4183,7 +4362,8 @@
     "english": [
       "lose",
       "sad"
-    ]
+    ],
+    "etymology": "Persian پوچ pūc (emptiness, loss)"
   },
   {
     "type": "root",
@@ -4197,7 +4377,8 @@
     "english": [
       "government",
       "command"
-    ]
+    ],
+    "etymology": "Latin punire (to punish, command obedience); English punish (puni- root)"
   },
   {
     "type": "root",
@@ -4211,7 +4392,8 @@
     "english": [
       "shower",
       "rain"
-    ]
+    ],
+    "etymology": "onomatopoeia for falling water"
   },
   {
     "type": "root",
@@ -4225,7 +4407,8 @@
     "english": [
       "flash",
       "explode"
-    ]
+    ],
+    "etymology": "Latin raptim (suddenly, rapidly)"
   },
   {
     "type": "root",
@@ -4247,7 +4430,8 @@
       "cliff",
       "north",
       "jacket"
-    ]
+    ],
+    "etymology": "Latin relevare (to lift, raise up)"
   },
   {
     "type": "root",
@@ -4261,7 +4445,8 @@
     "english": [
       "holy",
       "honor"
-    ]
+    ],
+    "etymology": "Mandarin 仁 rén (benevolence, honor)"
   },
   {
     "type": "root",
@@ -4275,7 +4460,8 @@
     "english": [
       "correct",
       "truth"
-    ]
+    ],
+    "etymology": "Latin revelare (to reveal)"
   },
   {
     "type": "root",
@@ -4303,7 +4489,8 @@
       "tower",
       "tree",
       "mountain"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -4329,7 +4516,8 @@
       "computer",
       "brain",
       "smart"
-    ]
+    ],
+    "etymology": "Japanese 論 ron (argument, theoretical knowledge)"
   },
   {
     "type": "root",
@@ -4343,7 +4531,8 @@
     "english": [
       "bend",
       "knee"
-    ]
+    ],
+    "etymology": "Arabic رُكُوع rukūʿ (bowing, bending); Sanskrit रुज् ruj (to bend)"
   },
   {
     "type": "root",
@@ -4357,7 +4546,8 @@
     "english": [
       "rite",
       "custom"
-    ]
+    ],
+    "etymology": "English rule; Hindi रोल rol (role, habit)"
   },
   {
     "type": "root",
@@ -4373,7 +4563,8 @@
       "hang",
       "charge",
       "hook"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -4387,7 +4578,8 @@
     "english": [
       "sun",
       "yellow"
-    ]
+    ],
+    "etymology": "Sanskrit सूर्य sūrya (sun); Hindi सूरज sūraj (sun)"
   },
   {
     "type": "root",
@@ -4403,7 +4595,8 @@
       "start",
       "awake",
       "learn"
-    ]
+    ],
+    "etymology": "Hindi शुरू śurū (start, beginning)"
   },
   {
     "type": "root",
@@ -4419,7 +4612,8 @@
       "horizontal",
       "parade",
       "menu"
-    ]
+    ],
+    "etymology": "Latin series (sequence, series)"
   },
   {
     "type": "root",
@@ -4433,7 +4627,8 @@
     "english": [
       "document",
       "letter"
-    ]
+    ],
+    "etymology": "Latin iocus (game, jest, play)"
   },
   {
     "type": "root",
@@ -4451,7 +4646,8 @@
       "soon",
       "flee",
       "fast"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -4475,7 +4671,8 @@
       "sibling",
       "moon",
       "believe"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -4489,7 +4686,8 @@
     "english": [
       "sound",
       "ear"
-    ]
+    ],
+    "etymology": "Latin auscultare (to listen, hear)"
   },
   {
     "type": "root",
@@ -4505,7 +4703,8 @@
       "take",
       "capture",
       "hand"
-    ]
+    ],
+    "etymology": "Latin tangere (to touch with hand)"
   },
   {
     "type": "root",
@@ -4519,7 +4718,8 @@
     "english": [
       "lead",
       "direction"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -4533,7 +4733,8 @@
     "english": [
       "door",
       "oven"
-    ]
+    ],
+    "etymology": "Persian طاق ṭāq (arch, doorway); Hindi ताला tālā (lock, door mechanism)"
   },
   {
     "type": "root",
@@ -4547,7 +4748,8 @@
     "english": [
       "hall",
       "through"
-    ]
+    ],
+    "etymology": "Welsh taith (journey, passage)"
   },
   {
     "type": "root",
@@ -4561,7 +4763,8 @@
     "english": [
       "day",
       "single"
-    ]
+    ],
+    "etymology": "Arabic تَمَام tamām (whole, one complete); Persian تمام tamām (all, complete, one); Hindi तमाम tamām (all, one complete)"
   },
   {
     "type": "root",
@@ -4579,7 +4782,8 @@
       "elephant",
       "city",
       "big"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -4593,7 +4797,8 @@
     "english": [
       "regulate",
       "law"
-    ]
+    ],
+    "etymology": "Arabic تَرْتِيب tartīb (regulation, arrangement); Hindi तरतीब tartīb (regulation, order)"
   },
   {
     "type": "root",
@@ -4607,7 +4812,8 @@
     "english": [
       "image",
       "map"
-    ]
+    ],
+    "etymology": "English television; Arabic تِلِيفِزْيُون tilifiziyūn (television); Swahili televisheni (television)"
   },
   {
     "type": "root",
@@ -4621,7 +4827,8 @@
     "english": [
       "situation",
       "moment"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -4635,7 +4842,8 @@
     "english": [
       "number",
       "rank"
-    ]
+    ],
+    "etymology": "Latin ter (three times); Greek τρεῖς treis (three times); Sanskrit त्रि tri (three times)"
   },
   {
     "type": "root",
@@ -4653,7 +4861,8 @@
       "devil",
       "whip",
       "tumor"
-    ]
+    ],
+    "etymology": "Tamil தீ tī (fire, harm, danger); Hindi तीखा tīkhā (sharp, piercing, harmful)"
   },
   {
     "type": "root",
@@ -4667,7 +4876,8 @@
     "english": [
       "mushroom",
       "fungus"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -4683,7 +4893,8 @@
       "pity",
       "worry",
       "wound"
-    ]
+    ],
+    "etymology": "Indonesian tobat (remorse, suffering from wrongdoing); Latin torquere (to twist, torture)"
   },
   {
     "type": "root",
@@ -4697,7 +4908,8 @@
     "english": [
       "cover",
       "comfortable"
-    ]
+    ],
+    "etymology": "va (body) + bo (home)"
   },
   {
     "type": "root",
@@ -4711,7 +4923,8 @@
     "english": [
       "snow",
       "ice"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -4725,7 +4938,8 @@
     "english": [
       "private",
       "secret"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -4741,7 +4955,8 @@
       "back",
       "tail",
       "back"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -4759,7 +4974,8 @@
       "lock",
       "defend",
       "key"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -4781,7 +4997,8 @@
       "fertile",
       "emotion",
       "pelvis"
-    ]
+    ],
+    "etymology": "Proto-Bantu *-vim- (becoming thick); Latin vita (life force, interior body)"
   },
   {
     "type": "root",
@@ -4803,7 +5020,8 @@
       "exchange",
       "magic",
       "market"
-    ]
+    ],
+    "etymology": "Latin via (road, path of change, exchange); Italian/Spanish vía (route of exchange)"
   },
   {
     "type": "root",
@@ -4823,7 +5041,8 @@
       "technology",
       "science",
       "method"
-    ]
+    ],
+    "etymology": "Latin viscera (internal organs)"
   },
   {
     "type": "root",
@@ -4837,7 +5056,8 @@
     "english": [
       "cage",
       "prison"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -4851,7 +5071,8 @@
     "english": [
       "danger",
       "fear"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -4869,7 +5090,8 @@
       "run",
       "car",
       "leg"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -4883,7 +5105,8 @@
     "english": [
       "snail",
       "slow"
-    ]
+    ],
+    "etymology": "vu (move) + son"
   },
   {
     "type": "root",
@@ -4907,7 +5130,8 @@
       "thirst",
       "blood",
       "lake"
-    ]
+    ],
+    "etymology": "Polynesian root wai (water)"
   },
   {
     "type": "root",
@@ -4927,7 +5151,8 @@
       "chest",
       "wide",
       "shirt"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -4945,7 +5170,8 @@
       "represent",
       "worship",
       "invite"
-    ]
+    ],
+    "etymology": "Swahili -a (Bantu adjectival linker)"
   },
   {
     "type": "root",
@@ -4969,7 +5195,8 @@
       "star",
       "east",
       "white"
-    ]
+    ],
+    "etymology": "Arabic ضياء ḍiyāʾ (radiant light)"
   },
   {
     "type": "root",
@@ -4980,14 +5207,17 @@
       "aseyel",
       "eleyel",
       "eodyel",
-      "wilyel"
+      "wilyel", 
+      "yeyel"
     ],
     "english": [
       "kiss",
       "love",
       "join",
-      "bridge"
-    ]
+      "bridge",
+      "sew"
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -5001,7 +5231,8 @@
     "english": [
       "print",
       "mail"
-    ]
+    ],
+    "etymology": "Mandarin 印 yìn (stamp, print mark)"
   },
   {
     "type": "root",
@@ -5017,7 +5248,8 @@
       "sky",
       "ocean",
       "blue"
-    ]
+    ],
+    "etymology": ""
   },
   {
     "type": "root",
@@ -5031,7 +5263,8 @@
     "english": [
       "oscillate",
       "float"
-    ]
+    ],
+    "etymology": "onomatopoeia for oscillation"
   },
   {
     "type": "root",
@@ -5045,6 +5278,7 @@
     "english": [
       "mist",
       "smoke"
-    ]
+    ],
+    "etymology": "Mandarin 云 yún (cloud, mist)"
   }
 ]
