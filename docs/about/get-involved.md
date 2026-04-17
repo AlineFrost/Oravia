@@ -10,6 +10,16 @@ Beta Testers give feedback on the language and materials. They are part of a coh
 
 ---
 
+## Discord
+
+Join our Discord community! 
+Chat with other learners, follow updates, and give feedback.
+
+https://discord.gg/bdr6vsMU
+
+---
+
+
 ## Get in Touch
 
 Use the form below to reach me for any reason: beta testing interest, feedback, questions about Oravia, or just to say hello!

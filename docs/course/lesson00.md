@@ -31,7 +31,7 @@ To navigate the Lesson, please click the tabs below: "About the Course", "Pronun
     ### Consonants
     
     <audio controls style="width:100%">
-      <source src="../audio/consonants.wav" type="audio/wav">
+      <source src="../audio/consonants.mp3" type="audio/wav">
     </audio>
 
     **B C D F G H J L M N P R S T V W Y**
@@ -46,7 +46,7 @@ To navigate the Lesson, please click the tabs below: "About the Course", "Pronun
     ### Vowels
     
     <audio controls style="width:100%">
-      <source src="../audio/vowels.wav" type="audio/wav">
+      <source src="../audio/vowels.mp3" type="audio/wav">
     </audio>
     
     **A E I O U:**
@@ -96,7 +96,7 @@ To navigate the Lesson, please click the tabs below: "About the Course", "Pronun
     - li**RI**a (also acceptable)
     
     <audio controls style="width:100%">
-      <source src="../audio/wordsexamples.wav" type="audio/wav">
+      <source src="../audio/wordexamples.mp3" type="audio/wav">
     </audio>
     
     iliru, mouje, moujeum, liria

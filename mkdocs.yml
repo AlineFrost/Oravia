@@ -37,7 +37,9 @@ nav:
     - Vocabulary (beta): content/vocabulary.md
     - Building Blocks (beta): content/building_blocks.md
     - Grammar Reference (beta): content/oravia-grammar.md
+    - Semantic Explorer (beta): content/semantic_explorer.md
     - Readings: content/readings.md
+    - Media: content/media.md
   - Course:
     - L0 - Pronunciation & Structure: course/lesson00.md
     - Core:

@@ -113,6 +113,10 @@
     
     **Remember, do not try to memorize them.** Just read it through attentively.
     
+    <audio controls style="width:100%">
+      <source src="../audio/2v.mp3" type="audio/wav">
+    </audio>
+    
     
     | Oravia | English |
     |--------|---------|
@@ -120,7 +124,7 @@
     | molcui | bowl |
     | molvou | bottle |
     | moaria | apple |
-    | moale  | banana |
+    | moalen  | banana |
     | moanih | berry |
     
     What do you think the words that start in *MOL* have in common?

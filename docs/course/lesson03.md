@@ -15,6 +15,11 @@
     
     See if you can understand these sentences. If you scroll bellow, you will see tips, and then answers. 
     
+    <audio controls style="width:100%">
+      <source src="../audio/3g.mp3" type="audio/wav">
+    </audio>
+    
+    
     ```
     a runa i mo e moaria
     ```
@@ -36,7 +41,7 @@
     ```
     
     ```
-    nim i mo moale
+    nim i mo moalen
     ```
     
     **Tips**
@@ -55,7 +60,7 @@
     | mouje  | drink |
     | moulu  | milk |
     | moaria | apple |
-    | moale  | banana |
+    | moalen  | banana |
     | moanih | berry |
     
     | Singular | Plural |
@@ -117,6 +122,10 @@
     Time to take a look at our second cluster! Look at the list of words below.
     
     **Remember, do not try to memorize them.** Just read it through attentively.
+    
+    <audio controls style="width:100%">
+      <source src="../audio/3v.mp3" type="audio/wav">
+    </audio>
     
     | Oravia | English |
     |--------|---------|

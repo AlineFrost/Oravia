@@ -43,6 +43,11 @@
     
     Now let's look at them again, singular and plural:
     
+    <audio controls style="width:100%">
+      <source src="../audio/1g.mp3" type="audio/wav">
+    </audio>
+    
+    
     | Singular | Plural |
     |----------|--------|
     | **nim** (I) | **nima** (we) |
@@ -64,6 +69,11 @@
     We are going to learn our first cluster! Look at the list of words below. 
     
     **Remember, do not try to memorize them.** Just read it through attentively.
+    
+    <audio controls style="width:100%">
+      <source src="../audio/1v.mp3" type="audio/wav">
+    </audio>
+    
     
     | Oravia | English |
     |--------|---------|

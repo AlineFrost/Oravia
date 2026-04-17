@@ -24,9 +24,8 @@ Use the filters to explore.
       <th data-col="sound"   style="position:sticky;top:0;background:#e3f2fd;padding:0.35rem 0.5rem;text-align:left;  color:#3182bd;border-bottom:2px solid #4a9cd6;white-space:nowrap;z-index:1;">Sound ↕</th>
       <th data-col="meaning" style="position:sticky;top:0;background:#e3f2fd;padding:0.35rem 0.5rem;text-align:left;  color:#3182bd;border-bottom:2px solid #4a9cd6;white-space:nowrap;z-index:1;">Meaning ↕</th>
       <th data-col="oravia"  style="position:sticky;top:0;background:#e3f2fd;padding:0.35rem 0.5rem;text-align:left;  color:#3182bd;border-bottom:2px solid #4a9cd6;z-index:1;">Words (Oravia)</th>
-      <th data-col="english"   style="position:sticky;top:0;background:#e3f2fd;padding:0.35rem 0.5rem;text-align:left;  color:#3182bd;border-bottom:2px solid #4a9cd6;z-index:1;">Words (English)</th>
-      <th data-col="etymology" style="position:sticky;top:0;background:#e3f2fd;padding:0.35rem 0.5rem;text-align:left;  color:#3182bd;border-bottom:2px solid #4a9cd6;z-index:1;">Etymology</th>
-      <th data-col="_n"        style="position:sticky;top:0;background:#e3f2fd;padding:0.35rem 0.3rem;text-align:right; color:#3182bd;border-bottom:2px solid #4a9cd6;white-space:nowrap;z-index:1;width:28px;">#</th>
+      <th data-col="english" style="position:sticky;top:0;background:#e3f2fd;padding:0.35rem 0.5rem;text-align:left;  color:#3182bd;border-bottom:2px solid #4a9cd6;z-index:1;">Words (English)</th>
+      <th data-col="_n"      style="position:sticky;top:0;background:#e3f2fd;padding:0.35rem 0.3rem;text-align:right; color:#3182bd;border-bottom:2px solid #4a9cd6;white-space:nowrap;z-index:1;width:28px;">#</th>
     </tr>
   </thead>
   <tbody id="bb-body"></tbody>
@@ -56,7 +55,7 @@ Use the filters to explore.
     let filtered = allData.filter(r => {
       if (tp && r.type !== tp) return false;
       if (q) {
-        const hay = (r.sound+' '+r.meaning+' '+r.oravia.join(' ')+' '+r.english.join(' ')+' '+(r.etymology||'')).toLowerCase();
+        const hay = (r.sound+' '+r.meaning+' '+r.oravia.join(' ')+' '+r.english.join(' ')).toLowerCase();
         if (!hay.includes(q)) return false;
       }
       return true;
@@ -100,7 +99,6 @@ Use the filters to explore.
         '<td style="padding:0.28rem 0.5rem;color:#444;">'+r.meaning+'</td>'+
         '<td style="padding:0.28rem 0.5rem;color:#2c6e9e;">'+r.oravia.join(', ')+'</td>'+
         '<td style="padding:0.28rem 0.5rem;color:#5a6a7a;">'+r.english.join(', ')+'</td>'+
-        '<td style="padding:0.28rem 0.5rem;color:#6a7a5a;font-size:0.78rem;">'+(r.etymology||'')+'</td>'+
         '<td style="padding:0.28rem 0.3rem;text-align:right;color:#ccc;font-size:0.75rem;">'+(i+1)+'</td>';
       tbody.appendChild(tr);
     });
