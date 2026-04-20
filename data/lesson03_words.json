@@ -6,45 +6,33 @@
     {
       "round": 1,
       "title": "Round 1",
-      "buckets": ["mol", "moa", "mo_other", "mo_on"],
+      "buckets": ["mol", "mo_on"],
       "words_per_bucket": 1
     },
     {
       "round": 2,
       "title": "Round 2",
-      "buckets": ["mol", "moa", "mo_other", "mo_on"],
-      "words_per_bucket": 1
+      "buckets": ["moa"],
+      "words_per_bucket": 2
     },
     {
       "round": 3,
       "title": "Round 3",
-      "buckets": ["mol", "moa", "mo_other", "mo_on"],
-      "words_per_bucket": 1
+      "buckets": ["mo_other"],
+      "words_per_bucket": 2
     },
     {
       "round": 4,
       "title": "Round 4",
-      "buckets": ["pron"],
-      "words_per_bucket": 6
+      "buckets": ["mo_other"],
+      "words_per_bucket": 2
     }
   ],
   "words": [
     {
       "id": "mo_l1",
-      "oravia": "molban",
-      "english": "cup",
-      "bucket": "mol"
-    },
-    {
-      "id": "mo_l2",
       "oravia": "molcui",
       "english": "bowl",
-      "bucket": "mol"
-    },
-    {
-      "id": "mo_l3",
-      "oravia": "molvou",
-      "english": "bottle",
       "bucket": "mol"
     },
     {
@@ -55,14 +43,8 @@
     },
     {
       "id": "mo_a2",
-      "oravia": "moale",
+      "oravia": "moalen",
       "english": "banana",
-      "bucket": "moa"
-    },
-    {
-      "id": "mo_a3",
-      "oravia": "moanih",
-      "english": "berry",
       "bucket": "moa"
     },
     {
@@ -84,21 +66,15 @@
       "bucket": "mo_other"
     },
     {
+      "id": "mo_o4",
+      "oravia": "moulu",
+      "english": "milk",
+      "bucket": "mo_other"
+    },
+    {
       "id": "mo_on1",
       "oravia": "moyi",
       "english": "sugar",
-      "bucket": "mo_on"
-    },
-    {
-      "id": "mo_on2",
-      "oravia": "moyame",
-      "english": "spice",
-      "bucket": "mo_on"
-    },
-    {
-      "id": "mo_on3",
-      "oravia": "moval",
-      "english": "ice",
       "bucket": "mo_on"
     },
     {
@@ -123,18 +99,6 @@
       "id": "pr_004",
       "oravia": "nima",
       "english": "we",
-      "bucket": "pron"
-    },
-    {
-      "id": "pr_005",
-      "oravia": "runa",
-      "english": "you (plural)",
-      "bucket": "pron"
-    },
-    {
-      "id": "pr_006",
-      "oravia": "haya",
-      "english": "they (plural)",
       "bucket": "pron"
     }
   ]

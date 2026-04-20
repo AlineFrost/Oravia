@@ -3,122 +3,22 @@
   "cluster": "li",
   "cluster_meaning": "time",
   "rounds": [
-    {
-      "round": 1,
-      "title": "Round 1",
-      "buckets": [
-        "p"
-      ],
-      "words_per_bucket": 3
-    },
-    {
-      "round": 2,
-      "title": "Round 2",
-      "buckets": [
-        "m"
-      ],
-      "words_per_bucket": 4
-    },
-    {
-      "round": 3,
-      "title": "Round 3",
-      "buckets": [
-        "t"
-      ],
-      "words_per_bucket": 3
-    },
-    {
-      "round": 4,
-      "title": "Round 4",
-      "buckets": [
-        "t"
-      ],
-      "words_per_bucket": 2
-    },
-    {
-      "round": 5,
-      "title": "Round 5",
-      "buckets": [
-        "t",
-        "p",
-        "m"
-      ],
-      "words_per_bucket": 2,
-      "allow_repeats": true
-    }
+    {"round": 1, "title": "Round 1", "buckets": ["p"], "words_per_bucket": 3},
+    {"round": 2, "title": "Round 2", "buckets": ["m","t"], "words_per_bucket": 2},
+    {"round": 3, "title": "Round 3", "buckets": ["t"], "words_per_bucket": 3},
+    {"round": 4, "title": "Round 4", "buckets": ["t","p","m"], "words_per_bucket": 1, "allow_repeats": true},
+    {"round": 5, "title": "Round 5", "buckets": ["t","p"], "words_per_bucket": 2, "allow_repeats": true}
   ],
   "words": [
-    {
-      "id": "li_t1",
-      "oravia": "liyar",
-      "english": "morning",
-      "bucket": "t"
-    },
-    {
-      "id": "li_t2",
-      "oravia": "litam",
-      "english": "day",
-      "bucket": "t"
-    },
-    {
-      "id": "li_t3",
-      "oravia": "litegai",
-      "english": "minute",
-      "bucket": "t"
-    },
-    {
-      "id": "li_t4",
-      "oravia": "litetan",
-      "english": "hour",
-      "bucket": "t"
-    },
-    {
-      "id": "li_t5",
-      "oravia": "limel",
-      "english": "evening",
-      "bucket": "t"
-    },
-    {
-      "id": "li_p1",
-      "oravia": "lipardas",
-      "english": "month",
-      "bucket": "p"
-    },
-    {
-      "id": "li_p2",
-      "oravia": "liperi",
-      "english": "week",
-      "bucket": "p"
-    },
-    {
-      "id": "li_p3",
-      "oravia": "lidastor",
-      "english": "year",
-      "bucket": "p"
-    },
-    {
-      "id": "li_m1",
-      "oravia": "lili",
-      "english": "again",
-      "bucket": "m"
-    },
-    {
-      "id": "li_m2",
-      "oravia": "ligo",
-      "english": "half",
-      "bucket": "m"
-    },
-    {
-      "id": "li_m3",
-      "oravia": "linu",
-      "english": "until",
-      "bucket": "m"
-    },
-    {
-      "id": "li_m4",
-      "oravia": "lilon",
-      "english": "while",
-      "bucket": "m"
-    }
+    {"id": "li_t1", "oravia": "liyar",    "english": "morning", "bucket": "t"},
+    {"id": "li_t2", "oravia": "limel",    "english": "evening", "bucket": "t"},
+    {"id": "li_t3", "oravia": "litegai",  "english": "minute",  "bucket": "t"},
+    {"id": "li_t4", "oravia": "litetan",  "english": "hour",    "bucket": "t"},
+    {"id": "li_t5", "oravia": "litam",    "english": "day",     "bucket": "t"},
+    {"id": "li_p1", "oravia": "lipardas", "english": "month",   "bucket": "p"},
+    {"id": "li_p2", "oravia": "liperi",   "english": "week",    "bucket": "p"},
+    {"id": "li_p3", "oravia": "lidastor", "english": "year",    "bucket": "p"},
+    {"id": "li_m1", "oravia": "lili",     "english": "again",   "bucket": "m"},
+    {"id": "li_m2", "oravia": "lilon",    "english": "while",   "bucket": "m"}
   ]
 }

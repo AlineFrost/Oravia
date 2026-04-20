@@ -6,118 +6,49 @@
     {
       "round": 1,
       "title": "Round 1",
-      "buckets": [
-        "r",
-        "g"
-      ],
-      "words_per_bucket": 2
+      "buckets": ["r", "g"],
+      "words_per_bucket": 1
     },
     {
       "round": 2,
       "title": "Round 2",
-      "buckets": [
-        "r",
-        "g"
-      ],
+      "buckets": ["g"],
       "words_per_bucket": 2
     },
     {
       "round": 3,
       "title": "Round 3",
-      "buckets": [
-        "g"
-      ],
+      "buckets": ["g"],
       "words_per_bucket": 2
     },
     {
       "round": 4,
       "title": "Round 4",
-      "buckets": [
-        "r"
-      ],
-      "words_per_bucket": 4,
+      "buckets": ["r", "g"],
+      "words_per_bucket": 1,
       "allow_repeats": true
     },
     {
       "round": 5,
       "title": "Round 5",
-      "buckets": [
-        "g"
-      ],
+      "buckets": ["g"],
       "words_per_bucket": 4,
       "allow_repeats": true
     },
     {
       "round": 6,
       "title": "Round 6",
-      "buckets": [
-        "r",
-        "g"
-      ],
+      "buckets": ["r", "g"],
       "words_per_bucket": 2,
       "allow_repeats": true
     }
   ],
   "words": [
-    {
-      "id": "no_r1",
-      "oravia": "norven",
-      "english": "already",
-      "bucket": "r"
-    },
-    {
-      "id": "no_r2",
-      "oravia": "norocu",
-      "english": "almost",
-      "bucket": "r"
-    },
-    {
-      "id": "no_r3",
-      "oravia": "norfih",
-      "english": "enough",
-      "bucket": "r"
-    },
-    {
-      "id": "no_r4",
-      "oravia": "nordau",
-      "english": "far",
-      "bucket": "r"
-    },
-    {
-      "id": "no_g1",
-      "oravia": "nomie",
-      "english": "seems",
-      "bucket": "g"
-    },
-    {
-      "id": "no_g2",
-      "oravia": "noniu",
-      "english": "some",
-      "bucket": "g"
-    },
-    {
-      "id": "no_g3",
-      "oravia": "noli",
-      "english": "now",
-      "bucket": "g"
-    },
-    {
-      "id": "no_g4",
-      "oravia": "none",
-      "english": "have",
-      "bucket": "g"
-    },
-    {
-      "id": "no_g5",
-      "oravia": "noder",
-      "english": "even",
-      "bucket": "g"
-    },
-    {
-      "id": "no_g6",
-      "oravia": "noi",
-      "english": "here",
-      "bucket": "g"
-    }
+    {"id": "no_r4", "oravia": "nordau", "english": "far", "bucket": "r"},
+    {"id": "no_g1", "oravia": "nomie", "english": "seems", "bucket": "g"},
+    {"id": "no_g2", "oravia": "noniu", "english": "some", "bucket": "g"},
+    {"id": "no_g3", "oravia": "noli", "english": "now", "bucket": "g"},
+    {"id": "no_g6", "oravia": "noi", "english": "here", "bucket": "g"},
+    {"id": "no_g7", "oravia": "no", "english": "such, like", "bucket": "g"}
   ]
 }

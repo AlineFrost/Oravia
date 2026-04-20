@@ -6,147 +6,57 @@
     {
       "round": 1,
       "title": "Round 1",
-      "buckets": [
-        "y",
-        "n"
-      ],
+      "buckets": ["y", "n"],
       "words_per_bucket": 2
     },
     {
       "round": 2,
       "title": "Round 2",
-      "buckets": [
-        "y",
-        "n"
-      ],
-      "words_per_bucket": 2
+      "buckets": ["y", "n"],
+      "words_per_bucket": 1
     },
     {
       "round": 3,
       "title": "Round 3",
-      "buckets": [
-        "y",
-        "n"
-      ],
-      "words_per_bucket": 3
+      "buckets": ["n"],
+      "words_per_bucket": 2
     },
     {
       "round": 4,
       "title": "Round 4",
-      "buckets": [
-        "y"
-      ],
-      "words_per_bucket": 4,
+      "buckets": ["y"],
+      "words_per_bucket": 3,
       "allow_repeats": true
     },
     {
       "round": 5,
       "title": "Round 5",
-      "buckets": [
-        "n"
-      ],
+      "buckets": ["n"],
       "words_per_bucket": 4,
       "allow_repeats": true
     },
     {
       "round": 6,
       "title": "Round 6",
-      "buckets": [
-        "y",
-        "n"
-      ],
+      "buckets": ["y", "n"],
       "words_per_bucket": 2,
       "allow_repeats": true
     },
     {
       "round": 7,
       "title": "Round 7",
-      "buckets": [
-        "y",
-        "n"
-      ],
+      "buckets": ["y", "n"],
       "words_per_bucket": 2,
       "allow_repeats": true
     }
   ],
   "words": [
-    {
-      "id": "yu_y1",
-      "oravia": "yuvabo",
-      "english": "comfortable",
-      "bucket": "y"
-    },
-    {
-      "id": "yu_y2",
-      "oravia": "yugai",
-      "english": "easy",
-      "bucket": "y"
-    },
-    {
-      "id": "yu_y3",
-      "oravia": "yuba",
-      "english": "good",
-      "bucket": "y"
-    },
-    {
-      "id": "yu_y4",
-      "oravia": "yudur",
-      "english": "hard",
-      "bucket": "y"
-    },
-    {
-      "id": "yu_y5",
-      "oravia": "yufer",
-      "english": "dirty",
-      "bucket": "y"
-    },
-    {
-      "id": "yu_y6",
-      "oravia": "yuloa",
-      "english": "perfect",
-      "bucket": "y"
-    },
-    {
-      "id": "yu_n1",
-      "oravia": "yunmir",
-      "english": "rich",
-      "bucket": "n"
-    },
-    {
-      "id": "yu_n2",
-      "oravia": "yunro",
-      "english": "smart",
-      "bucket": "n"
-    },
-    {
-      "id": "yu_n3",
-      "oravia": "yunpili",
-      "english": "timid",
-      "bucket": "n"
-    },
-    {
-      "id": "yu_n4",
-      "oravia": "yunfou",
-      "english": "poor",
-      "bucket": "n"
-    },
-    {
-      "id": "yu_n5",
-      "oravia": "yunitam",
-      "english": "special",
-      "bucket": "n"
-    },
-    {
-      "id": "yu_n6",
-      "oravia": "yunmpou",
-      "english": "lazy",
-      "bucket": "n"
-    },
-    {
-      "id": "yu_n7",
-      "oravia": "yunrani",
-      "english": "beautiful",
-      "bucket": "n"
-    }
+    {"id": "yu_y1", "oravia": "yuvabo", "english": "comfortable", "bucket": "y"},
+    {"id": "yu_y3", "oravia": "yuba", "english": "good", "bucket": "y"},
+    {"id": "yu_y4", "oravia": "yudur", "english": "hard", "bucket": "y"},
+    {"id": "yu_n1", "oravia": "yunmir", "english": "rich", "bucket": "n"},
+    {"id": "yu_n2", "oravia": "yunro", "english": "smart", "bucket": "n"},
+    {"id": "yu_n5", "oravia": "yunitam", "english": "special", "bucket": "n"},
+    {"id": "yu_n7", "oravia": "yunrani", "english": "beautiful", "bucket": "n"}
   ]
 }

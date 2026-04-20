@@ -1,23 +1,25 @@
 {
-  "lesson_id": "lesson11",
-  "cluster": "il",
-  "cluster_meaning": "inquire",
+  "lesson_id": "lesson12_exercise2",
+  "cluster": "ya",
+  "cluster_meaning": "objective qualities",
   "rounds": [
     {
       "round": 1,
       "title": "Round 1",
       "buckets": [
-        "h"
+        "h",
+        "n"
       ],
-      "words_per_bucket": 3
+      "words_per_bucket": 1
     },
     {
       "round": 2,
       "title": "Round 2",
       "buckets": [
-        "n"
+        "n",
+        "y"
       ],
-      "words_per_bucket": 3
+      "words_per_bucket": 1
     },
     {
       "round": 3,
@@ -31,19 +33,14 @@
       "round": 4,
       "title": "Round 4",
       "buckets": [
+        "n",
         "y"
       ],
-      "words_per_bucket": 3,
+      "words_per_bucket": 2,
       "allow_repeats": true
     }
   ],
   "words": [
-    {
-      "id": "h_1",
-      "oravia": "yahci",
-      "english": "sharp",
-      "bucket": "h"
-    },
     {
       "id": "h_2",
       "oravia": "yahlul",
@@ -51,26 +48,14 @@
       "bucket": "h"
     },
     {
-      "id": "h_3",
-      "oravia": "yahgor",
-      "english": "solid",
-      "bucket": "h"
-    },
-    {
-      "id": "n_1",
-      "oravia": "yanou",
-      "english": "deep",
-      "bucket": "n"
-    },
-    {
       "id": "n_2",
-      "oravia": "yanlen",
+      "oravia": "yalen",
       "english": "long",
       "bucket": "n"
     },
     {
       "id": "n_3",
-      "oravia": "yantan",
+      "oravia": "yaltan",
       "english": "big",
       "bucket": "n"
     },
@@ -81,14 +66,8 @@
       "bucket": "y"
     },
     {
-      "id": "y_2",
-      "oravia": "yavuson",
-      "english": "slow",
-      "bucket": "y"
-    },
-    {
       "id": "y_3",
-      "oravia": "yangai",
+      "oravia": "yalgai",
       "english": "small",
       "bucket": "y"
     },

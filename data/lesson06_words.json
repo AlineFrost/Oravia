@@ -1,7 +1,7 @@
 {
-  "lesson_id": "lesson04",
-  "cluster": "fa",
-  "cluster_meaning": "family",
+  "lesson_id": "lesson06",
+  "cluster": "bo",
+  "cluster_meaning": "house",
   "rounds": [
     {
       "round": 1,
@@ -35,77 +35,17 @@
     }
   ],
   "words": [
-    {
-      "id": "r_1",
-      "oravia": "bortal",
-      "english": "door",
-      "bucket": "bor"
-    },
-    {
-      "id": "r_2",
-      "oravia": "borcai",
-      "english": "wall",
-      "bucket": "bor"
-    },
-    {
-      "id": "r_3",
-      "oravia": "borlu",
-      "english": "window",
-      "bucket": "bor"
-    },
-    {
-      "id": "n_1",
-      "oravia": "bonjae",
-      "english": "cabinet",
-      "bucket": "bon"
-    },
-    {
-      "id": "n_2",
-      "oravia": "bonpem",
-      "english": "bed",
-      "bucket": "bon"
-    },
-    {
-      "id": "n_3",
-      "oravia": "bontame",
-      "english": "table",
-      "bucket": "bon"
-    },
-    {
-      "id": "s_1",
-      "oravia": "bosteo",
-      "english": "bath",
-      "bucket": "bos"
-    },
-    {
-      "id": "s_2",
-      "oravia": "bospupi",
-      "english": "shower",
-      "bucket": "bos"
-    },
-    {
-      "id": "s_3",
-      "oravia": "bosvi",
-      "english": "toilet",
-      "bucket": "bos"
-    },
-    {
-      "id": "e_1",
-      "oravia": "boelori",
-      "english": "room",
-      "bucket": "boe"
-    },
-    {
-      "id": "e_2",
-      "oravia": "boetale",
-      "english": "hall",
-      "bucket": "boe"
-    },
-    {
-      "id": "e_3",
-      "oravia": "boemo",
-      "english": "kitchen",
-      "bucket": "boe"
-    }
+    {"id": "r_1", "oravia": "bortal",   "english": "door",    "bucket": "bor"},
+    {"id": "r_2", "oravia": "borcai",   "english": "wall",    "bucket": "bor"},
+    {"id": "r_3", "oravia": "borlu",    "english": "window",  "bucket": "bor"},
+    {"id": "n_1", "oravia": "bonjae",   "english": "cabinet", "bucket": "bon"},
+    {"id": "n_2", "oravia": "bonfene",   "english": "bed",     "bucket": "bon"},
+    {"id": "n_3", "oravia": "bontame",  "english": "table",   "bucket": "bon"},
+    {"id": "s_1", "oravia": "bosteo",   "english": "bath",    "bucket": "bos"},
+    {"id": "s_2", "oravia": "bospupi",  "english": "shower",  "bucket": "bos"},
+    {"id": "s_3", "oravia": "bosvi",    "english": "toilet",  "bucket": "bos"},
+    {"id": "e_1", "oravia": "boelori",  "english": "room",    "bucket": "boe"},
+    {"id": "e_2", "oravia": "boetale",  "english": "hall",    "bucket": "boe"},
+    {"id": "e_3", "oravia": "boemo",    "english": "kitchen", "bucket": "boe"}
   ]
 }

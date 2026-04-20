@@ -1,52 +1,55 @@
 {
-  "lesson_id": "lesson07",
-  "cluster": "bo",
-  "cluster_meaning": "house",
+  "lesson_id": "lesson14_exercise2",
+  "cluster": "il",
+  "cluster_meaning": "mind and speech",
   "rounds": [
     {
       "round": 1,
       "title": "Round 1",
-      "buckets": ["a", "i", "il", "o"],
+      "buckets": [
+        "a",
+        "i"
+      ],
       "words_per_bucket": 1
     },
     {
       "round": 2,
       "title": "Round 2",
-      "buckets": ["a", "i"],
-      "words_per_bucket": 2
+      "buckets": [
+        "o",
+        "il",
+        "a"
+      ],
+      "words_per_bucket": 1
     },
     {
       "round": 3,
       "title": "Round 3",
-      "buckets": ["il", "o"],
-      "words_per_bucket": 2
+      "buckets": [
+        "i",
+        "o",
+        "il"
+      ],
+      "words_per_bucket": 1
     },
     {
       "round": 4,
-      "title": "Round 3",
-      "buckets": ["o"],
-      "words_per_bucket": 3,
-      "allow_repeats": true
-    }, 
-    {
-      "round": 5,
-      "title": "Round 5",
-      "buckets": ["a"],
-      "words_per_bucket": 3,
-      "allow_repeats": true
-    }, 
-    {
-      "round": 6,
-      "title": "Round 6",
-      "buckets": ["il"],
-      "words_per_bucket": 3,
+      "title": "Round 4",
+      "buckets": [
+        "a",
+        "i"
+      ],
+      "words_per_bucket": 2,
       "allow_repeats": true
     },
     {
-      "round": 7,
-      "title": "Round 7",
-      "buckets": ["i"],
-      "words_per_bucket": 3,
+      "round": 5,
+      "title": "Round 5",
+      "buckets": [
+        "o",
+        "il"
+      ],
+      "words_per_bucket": 2,
       "allow_repeats": true
     }
   ],
@@ -55,12 +58,6 @@
       "id": "a_1",
       "oravia": "ilace",
       "english": "ask",
-      "bucket": "a"
-    },
-    {
-      "id": "a_2",
-      "oravia": "ilahai",
-      "english": "talk",
       "bucket": "a"
     },
     {
@@ -82,21 +79,9 @@
       "bucket": "i"
     },
     {
-      "id": "i_3",
-      "oravia": "iliro",
-      "english": "think",
-      "bucket": "i"
-    },
-    {
       "id": "o_1",
       "oravia": "ilonya",
       "english": "forget",
-      "bucket": "o"
-    },
-    {
-      "id": "o_2",
-      "oravia": "iloi",
-      "english": "hope",
       "bucket": "o"
     },
     {
@@ -115,12 +100,6 @@
       "id": "il_2",
       "oravia": "ilhei",
       "english": "people",
-      "bucket": "il"
-    },
-    {
-      "id": "il_3",
-      "oravia": "ilteli",
-      "english": "moment",
       "bucket": "il"
     }
   ]

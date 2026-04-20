@@ -6,78 +6,28 @@
     {
       "round": 1,
       "title": "Round 1",
-      "buckets": [
-        "m"
-      ],
-      "words_per_bucket": 4
+      "buckets": ["m"],
+      "words_per_bucket": 3
     },
     {
       "round": 2,
       "title": "Round 2",
-      "buckets": [
-        "s"
-      ],
-      "words_per_bucket": 4
+      "buckets": ["s"],
+      "words_per_bucket": 2
     },
     {
       "round": 3,
       "title": "Round 3",
-      "buckets": [
-        "m",
-        "s"
-      ],
-      "words_per_bucket": 4,
+      "buckets": ["m", "s"],
+      "words_per_bucket": 2,
       "allow_repeats": true
     }
   ],
   "words": [
-    {
-      "id": "apa_m1",
-      "oravia": "apasoi",
-      "english": "hurry",
-      "bucket": "m"
-    },
-    {
-      "id": "apa_m2",
-      "oravia": "apanou",
-      "english": "drop",
-      "bucket": "m"
-    },
-    {
-      "id": "apa_m3",
-      "oravia": "aparih",
-      "english": "jump",
-      "bucket": "m"
-    },
-    {
-      "id": "apa_m4",
-      "oravia": "apahela",
-      "english": "throw",
-      "bucket": "m"
-    },
-    {
-      "id": "apa_s1",
-      "oravia": "apaleno",
-      "english": "dig",
-      "bucket": "s"
-    },
-    {
-      "id": "apa_s2",
-      "oravia": "apavu",
-      "english": "run",
-      "bucket": "s"
-    },
-    {
-      "id": "apa_s3",
-      "oravia": "apafene",
-      "english": "sit",
-      "bucket": "s"
-    },
-    {
-      "id": "apa_s4",
-      "oravia": "apani",
-      "english": "pull",
-      "bucket": "s"
-    }
+    {"id": "apa_m1", "oravia": "apasoi", "english": "hurry", "bucket": "m"},
+    {"id": "apa_m2", "oravia": "apanou", "english": "drop", "bucket": "m"},
+    {"id": "apa_m3", "oravia": "aparih", "english": "jump", "bucket": "m"},
+    {"id": "apa_s2", "oravia": "apavu", "english": "run", "bucket": "s"},
+    {"id": "apa_s3", "oravia": "apafene", "english": "sit", "bucket": "s"}
   ]
 }

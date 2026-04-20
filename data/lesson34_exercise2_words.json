@@ -6,160 +6,65 @@
     {
       "round": 1,
       "title": "Round 1",
-      "buckets": [
-        "d",
-        "o"
-      ],
+      "buckets": ["d", "o"],
       "words_per_bucket": 2
     },
     {
       "round": 2,
       "title": "Round 2",
-      "buckets": [
-        "d",
-        "o"
-      ],
+      "buckets": ["d", "o"],
       "words_per_bucket": 2
     },
     {
       "round": 3,
       "title": "Round 3",
-      "buckets": [
-        "d",
-        "o"
-      ],
+      "buckets": ["d", "o"],
       "words_per_bucket": 2
     },
     {
       "round": 4,
       "title": "Round 4",
-      "buckets": [
-        "d"
-      ],
-      "words_per_bucket": 3
+      "buckets": ["d"],
+      "words_per_bucket": 3,
+      "allow_repeats": true
     },
     {
       "round": 5,
       "title": "Round 5",
-      "buckets": [
-        "d"
-      ],
+      "buckets": ["d"],
       "words_per_bucket": 4,
       "allow_repeats": true
     },
     {
       "round": 6,
       "title": "Round 6",
-      "buckets": [
-        "d"
-      ],
+      "buckets": ["d"],
       "words_per_bucket": 4,
       "allow_repeats": true
     },
     {
       "round": 7,
       "title": "Round 7",
-      "buckets": [
-        "o"
-      ],
-      "words_per_bucket": 4,
+      "buckets": ["o"],
+      "words_per_bucket": 2,
       "allow_repeats": true
     },
     {
       "round": 8,
       "title": "Round 8",
-      "buckets": [
-        "d",
-        "o"
-      ],
+      "buckets": ["d", "o"],
       "words_per_bucket": 2,
       "allow_repeats": true
     }
   ],
   "words": [
-    {
-      "id": "mi_d1",
-      "oravia": "miau",
-      "english": "cat",
-      "bucket": "d"
-    },
-    {
-      "id": "mi_d2",
-      "oravia": "micuc",
-      "english": "chicken",
-      "bucket": "d"
-    },
-    {
-      "id": "mi_d3",
-      "oravia": "miwo",
-      "english": "dog",
-      "bucket": "d"
-    },
-    {
-      "id": "mi_d4",
-      "oravia": "mihie",
-      "english": "horse",
-      "bucket": "d"
-    },
-    {
-      "id": "mi_d5",
-      "oravia": "mibeh",
-      "english": "goat",
-      "bucket": "d"
-    },
-    {
-      "id": "mi_d6",
-      "oravia": "micea",
-      "english": "rabbit",
-      "bucket": "d"
-    },
-    {
-      "id": "mi_d7",
-      "oravia": "mimu",
-      "english": "cow",
-      "bucket": "d"
-    },
-    {
-      "id": "mi_d8",
-      "oravia": "mius",
-      "english": "pig",
-      "bucket": "d"
-    },
-    {
-      "id": "mi_d9",
-      "oravia": "mime",
-      "english": "sheep",
-      "bucket": "d"
-    },
-    {
-      "id": "mi_o1",
-      "oravia": "miogar",
-      "english": "bear",
-      "bucket": "o"
-    },
-    {
-      "id": "mi_o2",
-      "oravia": "mioici",
-      "english": "monkey",
-      "bucket": "o"
-    },
-    {
-      "id": "mi_o3",
-      "oravia": "miotan",
-      "english": "elephant",
-      "bucket": "o"
-    },
-    {
-      "id": "mi_o4",
-      "oravia": "miopi",
-      "english": "fox",
-      "bucket": "o"
-    },
-    {
-      "id": "mi_o5",
-      "oravia": "miohou",
-      "english": "wolf",
-      "bucket": "o"
-    }
+    {"id": "mi_d1", "oravia": "miau", "english": "cat", "bucket": "d"},
+    {"id": "mi_d2", "oravia": "micuc", "english": "chicken", "bucket": "d"},
+    {"id": "mi_d3", "oravia": "miwo", "english": "dog", "bucket": "d"},
+    {"id": "mi_d4", "oravia": "mihie", "english": "horse", "bucket": "d"},
+    {"id": "mi_d6", "oravia": "micea", "english": "rabbit", "bucket": "d"},
+    {"id": "mi_d7", "oravia": "mimu", "english": "cow", "bucket": "d"},
+    {"id": "mi_o1", "oravia": "miogar", "english": "bear", "bucket": "o"},
+    {"id": "mi_o3", "oravia": "miotan", "english": "elephant", "bucket": "o"}
   ]
 }

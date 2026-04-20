@@ -88,7 +88,7 @@
       "take",
       "back"
     ],
-    "etymology": "Latin animus (directed will); Japanese に (ni = toward, directional particle)"
+    "etymology": "Latin animus (directed will); Japanese に ni (toward, directional particle)"
   },
   {
     "type": "subcluster",
@@ -922,7 +922,7 @@
       "collect",
       "bet"
     ],
-    "etymology": "Proto-Germanic *geldan (to pay); German Geld (money); Dutch geld (money); "
+    "etymology": "Proto-Germanic *geldan (to pay); German Geld (money); Dutch geld (money)"
   },
   {
     "type": "subcluster",
@@ -1678,7 +1678,7 @@
       "apple",
       "lemon"
     ],
-    "etymology": "Polynesian languages moa (banana plants); Japanese 桃 (momo/moa = peach, fruit); "
+    "etymology": "Polynesian languages moa (banana plants); Japanese 桃 (momo/moa = peach, fruit)"
   },
   {
     "type": "subcluster",
@@ -1697,7 +1697,7 @@
       "bowl",
       "bottle"
     ],
-    "etymology": "Japanese 器 (utsuwa/mol = vessel, container)"
+    "etymology": ""
   },
   {
     "type": "subcluster",
@@ -1946,7 +1946,7 @@
     "oravia": [
       "pohcavo",
       "pohem",
-      "pohisa",
+      "pohpoh",
       "pohivi",
       "pohnen",
       "pohufu",
@@ -2078,7 +2078,7 @@
       "culture",
       "history"
     ],
-    "etymology": ""
+    "etymology": "Arabic/Persian/Urdu rasm (social practice, tradition)"
   },
   {
     "type": "subcluster",
@@ -2358,7 +2358,7 @@
       "emotion",
       "fear"
     ],
-    "etymology": ""
+    "etymology": "English torment"
   },
   {
     "type": "subcluster",
@@ -2428,7 +2428,7 @@
       "explode",
       "smoke"
     ],
-    "etymology": ""
+    "etymology": "English tumble"
   },
   {
     "type": "subcluster",
@@ -2815,7 +2815,7 @@
       "big",
       "wide"
     ],
-    "etymology": ""
+    "etymology": "Arabic ṭawīl (long, tall, length)"
   },
   {
     "type": "subcluster",
@@ -3316,7 +3316,7 @@
       "put",
       "pause"
     ],
-    "etymology": ""
+    "etymology": "Turkish fren (brake)"
   },
   {
     "type": "root",
@@ -3373,7 +3373,7 @@
       "dry",
       "poor"
     ],
-    "etymology": ""
+    "etymology": "English few"
   },
   {
     "type": "root",
@@ -3419,7 +3419,7 @@
       "small",
       "easy"
     ],
-    "etymology": ""
+    "etymology": "English grain of sand"
   },
   {
     "type": "root",
@@ -3575,7 +3575,7 @@
       "soul",
       "ghost"
     ],
-    "etymology": ""
+    "etymology": "Mandarin 魂 hún (soul, spirit)"
   },
   {
     "type": "root",
@@ -3624,7 +3624,7 @@
       "rent",
       "short"
     ],
-    "etymology": ""
+    "etymology": "Hindi/Urdu jugāṛ (makeshift, temporary fix)"
   },
   {
     "type": "root",
@@ -3726,7 +3726,7 @@
       "dig",
       "cotton"
     ],
-    "etymology": ""
+    "etymology": "Spanish llano (flat ground)"
   },
   {
     "type": "root",
@@ -3804,7 +3804,7 @@
       "sign",
       "blame"
     ],
-    "etymology": ""
+    "etymology": "Latin littera (letter, mark)"
   },
   {
     "type": "root",
@@ -3819,7 +3819,7 @@
       "other",
       "foreign"
     ],
-    "etymology": ""
+    "etymology": "Latin alius (other)"
   },
   {
     "type": "root",
@@ -3904,7 +3904,7 @@
       "bubble",
       "sail"
     ],
-    "etymology": ""
+    "etymology": "German Luft (air)"
   },
   {
     "type": "root",
@@ -3920,23 +3920,6 @@
       "monster"
     ],
     "etymology": "Arabic مطبخ matbakh (kitchen); Tamil மா mā (flour, ground grain for cooking)"
-  },
-  {
-    "type": "root",
-    "sound": "mel",
-    "cluster": "li, oi, ye",
-    "meaning": "evening",
-    "oravia": [
-      "limel",
-      "oimel",
-      "yesmel"
-    ],
-    "english": [
-      "evening",
-      "story",
-      "dress"
-    ],
-    "etymology": ""
   },
   {
     "type": "root",
@@ -3985,7 +3968,7 @@
       "support",
       "neck"
     ],
-    "etymology": "Hindi mṛg (wild animal)"
+    "etymology": ""
   },
   {
     "type": "root",
@@ -4231,7 +4214,7 @@
       "forget",
       "empty"
     ],
-    "etymology": ""
+    "etymology": "Sanskrit शून्य śūnya (nothingness, emptiness)"
   },
   {
     "type": "root",
@@ -4564,7 +4547,7 @@
       "charge",
       "hook"
     ],
-    "etymology": ""
+    "etymology": "Turkish sarkmak (to hang down)"
   },
   {
     "type": "root",
@@ -4719,7 +4702,7 @@
       "lead",
       "direction"
     ],
-    "etymology": ""
+    "etymology": "Mandarin 带 dài (lead)"
   },
   {
     "type": "root",
@@ -4783,7 +4766,7 @@
       "city",
       "big"
     ],
-    "etymology": ""
+    "etymology": "Greek titan (giant)"
   },
   {
     "type": "root",
@@ -4924,7 +4907,7 @@
       "snow",
       "ice"
     ],
-    "etymology": ""
+    "etymology": "Italian valanga (snow mass), English/French avalanche"
   },
   {
     "type": "root",
@@ -4975,7 +4958,7 @@
       "defend",
       "key"
     ],
-    "etymology": ""
+    "etymology": "German Wehr (defense, protection)"
   },
   {
     "type": "root",
@@ -5057,7 +5040,7 @@
       "cage",
       "prison"
     ],
-    "etymology": ""
+    "etymology": "Mandarin 围 wéi (enclose, surround)"
   },
   {
     "type": "root",
@@ -5072,7 +5055,7 @@
       "danger",
       "fear"
     ],
-    "etymology": ""
+    "etymology": "English horror"
   },
   {
     "type": "root",
@@ -5091,7 +5074,7 @@
       "car",
       "leg"
     ],
-    "etymology": ""
+    "etymology": "Mandarin 步 bù (step, pace)"
   },
   {
     "type": "root",
@@ -5217,7 +5200,7 @@
       "bridge",
       "sew"
     ],
-    "etymology": ""
+    "etymology": "English yoke"
   },
   {
     "type": "root",

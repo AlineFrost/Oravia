@@ -6,20 +6,39 @@
     {
       "round": 1,
       "title": "Round 1",
-      "buckets": ["fai", "fal", "fae", "tr"],
+      "buckets": [
+        "fai",
+        "fal"
+      ],
       "words_per_bucket": 1
     },
     {
       "round": 2,
       "title": "Round 2",
-      "buckets": ["fai", "fal", "fae", "tr"],
+      "buckets": [
+        "fai",
+        "fal",
+        "fae"
+      ],
       "words_per_bucket": 1
     },
     {
       "round": 3,
       "title": "Round 3",
-      "buckets": ["tr", "fal", "tr", "tr"],
+      "buckets": [
+        "fae",
+        "fal",
+        "tr"
+      ],
       "words_per_bucket": 1
+    },
+    {
+      "round": 4,
+      "title": "Round 4",
+      "buckets": [
+        "tr"
+      ],
+      "words_per_bucket": 4
     }
   ],
   "words": [
@@ -34,30 +53,6 @@
       "oravia": "faigel",
       "english": "marry",
       "bucket": "fai"
-    },
-    {
-      "id": "m_1",
-      "oravia": "fare",
-      "english": "parent",
-      "bucket": "tr"
-    },
-    {
-      "id": "m_2",
-      "oravia": "fasu",
-      "english": "sibling",
-      "bucket": "tr"
-    },
-    {
-      "id": "m_3",
-      "oravia": "fano",
-      "english": "son/daughter",
-      "bucket": "tr"
-    },
-    {
-      "id": "o_1",
-      "oravia": "favi",
-      "english": "birth",
-      "bucket": "tr"
     },
     {
       "id": "l_1",
@@ -78,16 +73,46 @@
       "bucket": "fal"
     },
     {
-      "id": "i_1",
+      "id": "e_1",
       "oravia": "faejor",
       "english": "woman",
       "bucket": "fae"
     },
     {
-      "id": "i_2",
+      "id": "e_2",
       "oravia": "faejal",
       "english": "man",
       "bucket": "fae"
+    },
+    {
+      "id": "m_1",
+      "oravia": "fare",
+      "english": "parent",
+      "bucket": "tr"
+    },
+    {
+      "id": "m_2",
+      "oravia": "fasu",
+      "english": "sibling",
+      "bucket": "tr"
+    },
+    {
+      "id": "m_3",
+      "oravia": "fano",
+      "english": "son/daughter",
+      "bucket": "tr"
+    },
+    {
+      "id": "m_4",
+      "oravia": "favi",
+      "english": "birth",
+      "bucket": "tr"
+    },
+    {
+      "id": "m_5",
+      "oravia": "famei",
+      "english": "family",
+      "bucket": "tr"
     }
   ]
 }

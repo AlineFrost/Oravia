@@ -5,60 +5,30 @@
   "rounds": [
     {
       "round": 1,
-      "title": "Singular Pronouns",
+      "title": "Round 1",
       "buckets": ["singular"],
       "words_per_bucket": 3
     },
     {
       "round": 2,
-      "title": "Plural Pronouns",
+      "title": "Round 2",
       "buckets": ["plural"],
       "words_per_bucket": 3
     },
     {
       "round": 3,
-      "title": "All Pronouns",
+      "title": "Round 3",
       "buckets": ["singular", "plural"],
-      "words_per_bucket": 3,
+      "words_per_bucket": 2,
       "allow_repeats": true
     }
   ],
   "words": [
-    {
-      "id": "pr_001",
-      "oravia": "nim",
-      "english": "I",
-      "bucket": "singular"
-    },
-    {
-      "id": "pr_002",
-      "oravia": "run",
-      "english": "you",
-      "bucket": "singular"
-    },
-    {
-      "id": "pr_003",
-      "oravia": "hay",
-      "english": "he/she/they (singular)",
-      "bucket": "singular"
-    },
-    {
-      "id": "pr_004",
-      "oravia": "nima",
-      "english": "we",
-      "bucket": "plural"
-    },
-    {
-      "id": "pr_005",
-      "oravia": "runa",
-      "english": "you (plural)",
-      "bucket": "plural"
-    },
-    {
-      "id": "pr_006",
-      "oravia": "haya",
-      "english": "they (plural)",
-      "bucket": "plural"
-    }
+    {"id": "pr_001", "oravia": "nim",  "english": "I",                     "bucket": "singular"},
+    {"id": "pr_002", "oravia": "run",  "english": "you",                   "bucket": "singular"},
+    {"id": "pr_003", "oravia": "hay",  "english": "he/she/they (singular)","bucket": "singular"},
+    {"id": "pr_004", "oravia": "nima", "english": "we",                    "bucket": "plural"},
+    {"id": "pr_005", "oravia": "runa", "english": "you (plural)",          "bucket": "plural"},
+    {"id": "pr_006", "oravia": "haya", "english": "they (plural)",         "bucket": "plural"}
   ]
 }

@@ -1760,17 +1760,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#round-5_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Round 5
-      
-    </span>
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -2666,17 +2655,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#round-5_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Round 5
-      
-    </span>
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -2724,17 +2702,6 @@
 <p>Check the boxes for words you think you know. Then click <strong>Show Answers</strong> to reveal the meanings and uncheck any you got wrong.</p>
 <div id="self-assessment-section">
 <p><div id="self-assessment-container"></div></p>
-</div>
-<div id="matching-section" style="display: none; margin-top: 3rem;">
-<p><h3>Practice Missed Words</h3>
-<p style="color: #5a8bb8;">Let's practice the <span id="missed-count"></span> word(s) you're still learning. Give it a try!</p></p>
-<p><div id="warmup-game-1"></div></p>
-<p><div style="margin-top: 2rem;">
-<div id="warmup-game-2"></div>
-</div></p>
-<p><div style="text-align: center; margin-top: 2rem;">
-    <button id="back-to-assessment-btn" style="background: #757575; color: white; border: none; padding: 0.5rem 1.5rem; border-radius: 4px; cursor: pointer; font-size: 0.95rem;">↩ Back to Assessment</button>
-</div></p>
 </div>
 </div>
 <div class="tabbed-block">
@@ -2880,7 +2847,7 @@ yaltan = big</p>
 <td>neck, throat, to cough</td>
 </tr>
 <tr>
-<td>varsi</td>
+<td>varpi</td>
 <td>nose, smell, to smell</td>
 </tr>
 <tr>
@@ -2915,7 +2882,7 @@ yaltan = big</p>
 </thead>
 <tbody>
 <tr>
-<td>varsi</td>
+<td>varpi</td>
 <td>nose, meddlesome, prying</td>
 </tr>
 <tr>
@@ -2933,6 +2900,12 @@ yaltan = big</p>
 </tbody>
 </table>
 <p>These are based on body-part associations that are common across many languages worldwide. </p>
+<div class="admonition info">
+<p class="admonition-title">🌍 Fun Fact</p>
+<p>Ta comes from Latin tangere (to touch with hand).  </p>
+<p>Sus mimics a murmur or whisper, and comes from Latin auscultare (to listen, hear).  </p>
+<p>Di means finger/stripe, and comes from Sanskrit दिश् diś (direction, to point)</p>
+</div>
 <p>Now, try to answer:  </p>
 <p>1) Run i iran i varsi e mo, dou i varsus e bospupi?  </p>
 <p>2) A rune va a yasoi dou a yavuson? A falte dou a yamirli? A yalgai dou a yaltan? A yalen dou a ho yalen?  </p>
@@ -2995,9 +2968,6 @@ yaltan = big</p>
 <hr />
 <h3 id="round-4_1">Round 4</h3>
 <p><div id="matching-game-11" data-lesson="lesson19_exercise2" data-round="4"></div></p>
-<hr />
-<h3 id="round-5_1">Round 5</h3>
-<p><div id="matching-game-12" data-lesson="lesson19_exercise2" data-round="5"></div></p>
 </div>
 <div class="tabbed-block">
 <h2 id="review-missed-words">Review Missed Words</h2>
@@ -3008,13 +2978,15 @@ yaltan = big</p>
 </div>
 <script>
 function initWarmup() {
-    const warmupWords = [
-    {id: "il_p1", oravia: "ilonya", english: "memory"},
-    {id: "il_p2", oravia: "iloi", english: "question"},
-    {id: "il_p3", oravia: "iloto", english: "worry"},
-    {id: "il_p4", oravia: "ilwol", english: "opinion"},
-    {id: "il_p5", oravia: "ilhei", english: "person"},
-    {id: "il_p6", oravia: "ilteli", english: "truth"},
+            const warmupWords = [
+    {id: "il_5", oravia: "ilian",   english: "know"},
+    {id: "il_8", oravia: "iloto",   english: "worry"},
+    {id: "il_2", oravia: "ilhei",   english: "person"},
+    {id: "il_7", oravia: "ilonya",  english: "forget"},
+    {id: "il_3", oravia: "ilace",   english: "ask"},
+    {id: "il_6", oravia: "ilie",    english: "maybe"},
+    {id: "il_1", oravia: "ilwol",   english: "thing"},
+    {id: "il_4", oravia: "ilaluan", english: "say"},
     ];
 
     function renderSelfAssessment() {
@@ -3051,20 +3023,10 @@ function initWarmup() {
             }
             const existing = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
             localStorage.setItem('wrong_ids', JSON.stringify([...new Set([...existing, ...missedWords.map(w => w.id)])]));
-            document.getElementById('missed-count').textContent = missedWords.length;
-            document.getElementById('self-assessment-section').style.display = 'none';
-            document.getElementById('matching-section').style.display = 'block';
-            if (typeof MatchingGame !== 'undefined') {
-                new MatchingGame('warmup-game-1', missedWords, 'warmup-1', null, []);
-                new MatchingGame('warmup-game-2', missedWords, 'warmup-2', null, []);
-            }
+            document.getElementById('practice-btn').style.display = 'none';
+            document.getElementById('practice-btn').insertAdjacentHTML('afterend', '<p id="added-msg" style="color:#43a047; font-size:1rem; margin-top:1rem;">✓ Added to your Review tab!</p>');
         });
     }
-    const backBtn = document.getElementById('back-to-assessment-btn');
-    if (backBtn) backBtn.addEventListener('click', function() {
-        document.getElementById('matching-section').style.display = 'none';
-        document.getElementById('self-assessment-section').style.display = 'block';
-    });
     renderSelfAssessment();
 }
 if (document.readyState === 'loading') {

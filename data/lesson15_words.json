@@ -12,14 +12,15 @@
     {
       "round": 2,
       "title": "Round 2",
-      "buckets": ["n", "r", "e", "d"],
+      "buckets": ["n", "r", "e"],
       "words_per_bucket": 1
     },
     {
       "round": 3,
       "title": "Round 3",
       "buckets": ["n", "r", "e", "d"],
-      "words_per_bucket": 1
+      "words_per_bucket": 1,
+      "allow_repeats": true
     },
     {
       "round": 4,
@@ -45,22 +46,10 @@
   ],
   "words": [
     {
-      "id": "n_1",
-      "oravia": "eomfel",
-      "english": "event",
-      "bucket": "n"
-    },
-    {
       "id": "n_2",
-      "oravia": "eompela",
+      "oravia": "eomsu",
       "english": "party",
       "bucket": "n"
-    },
-    {
-      "id": "r_1",
-      "oravia": "eoren",
-      "english": "honor, mr. mrs.",
-      "bucket": "r"
     },
     {
       "id": "r_2",
@@ -76,38 +65,20 @@
     },
     {
       "id": "e_1",
-      "oravia": "eolei",
-      "english": "member",
-      "bucket": "e"
-    },
-    {
-      "id": "e_2",
-      "oravia": "eopan",
-      "english": "win",
-      "bucket": "e"
-    },
-    {
-      "id": "e_3",
       "oravia": "eomio",
       "english": "support",
       "bucket": "e"
     },
     {
-      "id": "d_1",
-      "oravia": "eodani",
-      "english": "meet",
-      "bucket": "d"
+      "id": "e_2",
+      "oravia": "eofa",
+      "english": "friend",
+      "bucket": "e"
     },
     {
       "id": "d_2",
       "oravia": "eodenbor",
       "english": "visit",
-      "bucket": "d"
-    },
-    {
-      "id": "d_3",
-      "oravia": "eodya",
-      "english": "invite",
       "bucket": "d"
     }
   ]

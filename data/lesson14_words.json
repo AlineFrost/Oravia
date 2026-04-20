@@ -1,7 +1,7 @@
 {
-  "lesson_id": "lesson07",
-  "cluster": "bo",
-  "cluster_meaning": "house",
+  "lesson_id": "lesson14",
+  "cluster": "eo",
+  "cluster_meaning": "community",
   "rounds": [
     {
       "round": 1,
@@ -35,71 +35,16 @@
     }
   ],
   "words": [
-    {
-      "id": "n_1",
-      "oravia": "eomfel",
-      "english": "event",
-      "bucket": "n"
-    },
-    {
-      "id": "n_2",
-      "oravia": "eomsu",
-      "english": "party",
-      "bucket": "n"
-    },
-    {
-      "id": "r_1",
-      "oravia": "eoren",
-      "english": "honor, mr. mrs.",
-      "bucket": "r"
-    },
-    {
-      "id": "r_2",
-      "oravia": "eori",
-      "english": "polite, please",
-      "bucket": "r"
-    },
-    {
-      "id": "r_3",
-      "oravia": "eon",
-      "english": "hello",
-      "bucket": "r"
-    },
-    {
-      "id": "e_1",
-      "oravia": "eolei",
-      "english": "member",
-      "bucket": "e"
-    },
-    {
-      "id": "e_2",
-      "oravia": "eopan",
-      "english": "win",
-      "bucket": "e"
-    },
-    {
-      "id": "e_3",
-      "oravia": "eomio",
-      "english": "support",
-      "bucket": "e"
-    },
-    {
-      "id": "d_1",
-      "oravia": "eodani",
-      "english": "meet",
-      "bucket": "d"
-    },
-    {
-      "id": "d_2",
-      "oravia": "eodenbor",
-      "english": "visit",
-      "bucket": "d"
-    },
-    {
-      "id": "d_3",
-      "oravia": "eodya",
-      "english": "invite",
-      "bucket": "d"
-    }
+    {"id": "n_1", "oravia": "eomfel",    "english": "event",          "bucket": "n"},
+    {"id": "n_2", "oravia": "eomsu",     "english": "party",          "bucket": "n"},
+    {"id": "r_1", "oravia": "eoren",     "english": "honor, mr./mrs.","bucket": "r"},
+    {"id": "r_2", "oravia": "eori",      "english": "polite, please", "bucket": "r"},
+    {"id": "r_3", "oravia": "eon",       "english": "hello",          "bucket": "r"},
+    {"id": "e_1", "oravia": "eolei",     "english": "member",         "bucket": "e"},
+    {"id": "e_2", "oravia": "eopan",     "english": "win",            "bucket": "e"},
+    {"id": "e_3", "oravia": "eomio",     "english": "support",        "bucket": "e"},
+    {"id": "d_1", "oravia": "eodani",    "english": "meet",           "bucket": "d"},
+    {"id": "d_2", "oravia": "eodenbor",  "english": "visit",          "bucket": "d"},
+    {"id": "d_3", "oravia": "eodya",     "english": "invite",         "bucket": "d"}
   ]
 }
