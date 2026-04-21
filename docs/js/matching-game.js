@@ -13,7 +13,7 @@ class MatchingGame {
         this.selectedOravia = null;
         this.selectedEnglish = null;
         this.matchedPairs = 0;
-        
+
         this.init();
     }
 
@@ -23,7 +23,7 @@ class MatchingGame {
             this.container.innerHTML = '<p>No words configured for this round.</p>';
             return;
         }
-        
+
         this.renderGame(words);
     }
 
@@ -39,16 +39,16 @@ class MatchingGame {
         buckets.forEach(bucketName => {
             // Get all words from this bucket that haven't been used
             const bucketWords = this.allWords.filter(word => {
-    if (this.roundConfig.allow_repeats) {
-        return word.bucket === bucketName;
-    }
-    return word.bucket === bucketName && !this.usedWordIds.includes(word.id);
-});
+                if (this.roundConfig.allow_repeats) {
+                    return word.bucket === bucketName;
+                }
+                return word.bucket === bucketName && !this.usedWordIds.includes(word.id);
+            });
 
             // Randomly select words_per_bucket words from this bucket
             const shuffled = this.shuffle([...bucketWords]);
             const selected = shuffled.slice(0, wordsPerBucket);
-            
+
             selectedWords.push(...selected);
 
             // Mark these words as used for future rounds
@@ -146,7 +146,7 @@ class MatchingGame {
             this.selectedEnglish.classList.remove('selected');
             this.selectedOravia.classList.add('correct');
             this.selectedEnglish.classList.add('correct');
-            
+
             this.matchedPairs++;
             if (statusMessage) {
                 statusMessage.textContent = 'Correct! ✓';
@@ -168,10 +168,10 @@ class MatchingGame {
         } else {
             const wrongOravia = this.selectedOravia;
             const wrongEnglish = this.selectedEnglish;
-            
+
             wrongOravia.classList.add('incorrect');
             wrongEnglish.classList.add('incorrect');
-            
+
             if (statusMessage) {
                 statusMessage.textContent = 'Try again...';
                 statusMessage.style.color = '#757575';
@@ -204,9 +204,9 @@ class MatchingGame {
 
 window.MatchingGame = MatchingGame;
 
-document.addEventListener('DOMContentLoaded', async () => {
+document$.subscribe(async () => {
     console.log('Matching game script loaded');
-    
+
     const games = [];
     const gameElements = document.querySelectorAll('[id^="matching-game-"]');
     gameElements.forEach(game => {
@@ -219,14 +219,14 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
     });
     games.sort((a, b) => a.id - b.id);
-    
+
     if (games.length === 0) {
         console.log('No game containers found');
         return;
     }
-    
+
     console.log(`Found ${games.length} games`);
-    
+
     // Group games by lesson
     const lessonGroups = {};
     games.forEach(game => {
@@ -235,20 +235,20 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
         lessonGroups[game.lesson].push(game);
     });
-    
+
     // Load data for each lesson and initialize games
     try {
         const baseUrl = window.location.origin;
-        
+
         for (const [lessonId, lessonGames] of Object.entries(lessonGroups)) {
             console.log(`Loading data for ${lessonId}`);
-            
+
             const response = await fetch(`${baseUrl}/data/${lessonId}_words.json`);
             if (!response.ok) throw new Error(`HTTP ${response.status}`);
             const data = await response.json();
-            
+
             const usedWordIds = [];
-            
+
             lessonGames.forEach(game => {
                 const roundConfig = data.rounds?.find(r => r.round === game.round);
                 if (roundConfig) {
