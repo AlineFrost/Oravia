@@ -33,7 +33,7 @@ Next, you indicate the **moa** subcluster, which is the subcluster 1. Each clust
 
 So, it would work something like this:
 
-**mö** (imagine *m* is a symbol for the domain, *o* is another symbol that indicates cluster 1, and the umlaut is the accessory that indicates subcluster 1). This means *moa*. But now we need to know which *moa* word (moanih, moale, moaria?).
+**mö** (imagine *m* is a symbol for the domain, *o* is another symbol that indicates cluster 1, and the umlaut is the accessory that indicates subcluster 1). This means *moa*. But now we need to know which *moa* word (moanih, moalen, moaria?).
 
 We give it a sound clue! Recall each domain has an associated sound, because that's how Oravia works. For example, the *biology domain* symbol has an *m* sound because that's what these clusters sound like. For the third letter, we would use just the sound, not the meaning. 
 

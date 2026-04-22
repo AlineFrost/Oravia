@@ -4,6 +4,10 @@ body {
     background-color: #fdf8f3;
 }
 
+.md-header {
+    z-index: 20;
+}
+
 .md-content {
     background-color: #fffefb;
     border-radius: 12px;

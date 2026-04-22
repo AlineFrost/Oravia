@@ -114,7 +114,7 @@
     
     What do you think the **TO** cluster is about? 
     
-        <div style="text-align: center; margin: 2rem 0;">
+    <div style="text-align: center; margin: 2rem 0;">
     <button onclick="document.getElementById('subcluster4-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
         Click to Reveal the Answer
     </button>
@@ -327,12 +327,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <div style="text-align: center; padding: 2rem 0; background: #e0f2f1; border-radius: 8px; margin-top: 3rem;">
     <p style="font-size: 1.2rem; color: #4a9cd6; margin-bottom: 1rem;">
-        🎉 <strong>Lesson 23 Complete!</strong>
+        🎉 <strong>Lesson 27 Complete!</strong>
     </p>
     <p style="color: #5a8bb8; margin-bottom: 0.5rem;">
         If you missed any words, check the <strong>Review</strong> tab to practice them again.
     </p>
     <p style="color: #5a8bb8; margin-bottom: 1.5rem;">
-        Come back tomorrow for Lesson 24.
+        Come back tomorrow for Lesson 28.
     </p>
 </div>
