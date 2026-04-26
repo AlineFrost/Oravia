@@ -71,7 +71,7 @@
     | mouje  | drink |
     | moulu  | milk |
     | moaria | apple |
-    | moale  | banana |
+    | moalen  | banana |
     
     | Singular | Plural |
     |----------|--------|

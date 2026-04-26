@@ -408,12 +408,12 @@ document.querySelectorAll('.tabbed-labels label').forEach(label => {
 
 <div style="text-align: center; padding: 2rem 0; background: #e0f2f1; border-radius: 8px; margin-top: 3rem;">
     <p style="font-size: 1.2rem; color: #4a9cd6; margin-bottom: 1rem;">
-        🎉 <strong>Lesson 39 Complete!</strong>
+        🎉 <strong>Lesson 43 Complete!</strong>
     </p>
     <p style="color: #5a8bb8; margin-bottom: 0.5rem;">
         If you missed any words, check the <strong>Review</strong> tab to practice them again.
     </p>
     <p style="color: #5a8bb8; margin-bottom: 1.5rem;">
-        Come back tomorrow for Lesson 40.
+        Come back tomorrow for Lesson 44.
     </p>
 </div>

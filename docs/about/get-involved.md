@@ -15,7 +15,8 @@ Beta Testers give feedback on the language and materials. They are part of a coh
 Join our Discord community! 
 Chat with other learners, follow updates, and give feedback.
 
-https://discord.gg/bdr6vsMU
+
+[https://discord.com/invite/FWavWeG](https://discord.com/invite/FWavWeG)
 
 ---
 
