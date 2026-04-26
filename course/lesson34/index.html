@@ -2633,7 +2633,7 @@
 <div class="tabbed-content">
 <div class="tabbed-block">
 <h2 id="how-much-do-you-remember">How much do you remember?</h2>
-<p>Check the boxes for words you think you know. Then click <strong>Show Answers</strong> to reveal the meanings and uncheck any you got wrong.</p>
+<p>Check the boxes for words you think you know. Then click <strong>Show Answers</strong> to reveal the meanings.</p>
 <div id="self-assessment-section">
 <p><div id="self-assessment-container"></div></p>
 </div>
@@ -2871,7 +2871,7 @@ This means the speaker is <strong>not</strong> tall in reality.</p>
 </div>
 <div class="tabbed-block">
 <h2 id="review-missed-words">Review Missed Words</h2>
-<p>This section shows words you got wrong during practice, and words you didn't know in the Warm-Up. If you didn't miss any, this will be empty - great job! 🎉</p>
+<p>This section shows words you got wrong during practice. If you didn't miss any, this will be empty - great job! 🎉</p>
 <p><div id="review-game-container"></div></p>
 </div>
 </div>
@@ -2904,26 +2904,11 @@ function initWarmup() {
         html += '</tbody></table>';
         html += '<div style="text-align:center; margin-top:1.5rem;">';
         html += '<button id="show-answers-btn" style="background:#4a9cd6; color:white; border:none; padding:0.75rem 2rem; border-radius:4px; cursor:pointer; font-size:1rem;">Show Answers</button>';
-        html += '<button id="practice-btn" style="display:none; background:#43a047; color:white; border:none; padding:0.75rem 2rem; border-radius:4px; cursor:pointer; margin-left:1rem; font-size:1rem;">Practice Missed Words</button>';
-        html += '<p id="all-known-msg" style="display:none; color:#43a047; font-size:1.1rem; margin-top:1rem;">\u{1F389} You remembered everything! Move on to Grammar.</p>';
         html += '</div>';
         container.innerHTML = html;
         document.getElementById('show-answers-btn').addEventListener('click', function() {
             document.querySelectorAll('.answer-col').forEach(col => col.style.display = 'table-cell');
             this.style.display = 'none';
-            document.getElementById('practice-btn').style.display = 'inline-block';
-        });
-        document.getElementById('practice-btn').addEventListener('click', function() {
-            const missedWords = warmupWords.filter(w => !document.getElementById('check-' + w.id).checked);
-            if (missedWords.length === 0) {
-                document.getElementById('practice-btn').style.display = 'none';
-                document.getElementById('all-known-msg').style.display = 'block';
-                return;
-            }
-            const existing = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-            localStorage.setItem('wrong_ids', JSON.stringify([...new Set([...existing, ...missedWords.map(w => w.id)])]));
-            document.getElementById('practice-btn').style.display = 'none';
-            document.getElementById('practice-btn').insertAdjacentHTML('afterend', '<p id="added-msg" style="color:#43a047; font-size:1rem; margin-top:1rem;">✓ Added to your Review tab!</p>');
         });
     }
     renderSelfAssessment();
