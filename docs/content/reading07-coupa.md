@@ -4,12 +4,11 @@
 **Topic:** The missing tower card from a tarot deck  
 
 ---
-<div style="text-align: center;">
+
 ![Image by Cottonbro Studio](jerih.jpg){ width="600" }
-</div>
 
 <audio controls style="width:100%">
-  <source src="jerih.m4a" type="audio/mp4">
+  <source src="jerih.mp3" type="audio/mpeg">
 </audio>
 
 ## Read

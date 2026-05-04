@@ -320,6 +320,13 @@ pre code {
     color: #1a1a1a;
 }
 
+/* ===== IMAGES ===== */
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
 /* ===== DARK MODE ===== */
 
 [data-md-color-scheme="slate"] .matching-item {

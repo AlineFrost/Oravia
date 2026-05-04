@@ -8,7 +8,7 @@
 Image by Goro Fujita
 
 <audio controls style="width:100%">
-  <source src="hehma.m4a" type="audio/mp4">
+  <source src="hehma.mp3" type="audio/mpeg">
 </audio>
 
 ## Read

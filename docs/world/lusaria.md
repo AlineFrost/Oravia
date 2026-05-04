@@ -7,8 +7,6 @@ Lusaria is a cosmopolitan confederation with a liberal government (based on cont
 Lusaria does not have much of a military tradition, but it is well protected by a navy, sorcerers, and natural barriers (there is a mountainous terrain surrounding it inland, and a rock/coral barrier in the sea). It also does not hurt they have a long diplomacy tradition and prosperous trade that other nations depend on.  
 
 
-<div style="text-align: center;">
 ![Lusaria](lusaria.png){ width="600" }
-</div>
 
 [more worldbuilding coming soon :)]
