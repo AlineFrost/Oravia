@@ -36,6 +36,7 @@ nav:
   - Content:
     - Vocabulary (beta): content/vocabulary.md
     - Building Blocks (beta): content/building_blocks.md
+    - Blocks Cheat Sheet (beta): content/cheat.md
     - Grammar Reference (beta): content/oravia-grammar.md
     - Semantic Explorer (beta): content/semantic_explorer.md
     - Readings: content/readings.md
