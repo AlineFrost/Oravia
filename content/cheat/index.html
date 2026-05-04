@@ -2308,7 +2308,8 @@
 <style>
 .cs-legend { display:flex; gap:16px; margin-bottom:18px; font-size:12px; color:#888; }
 .cs-legend-item { display:flex; align-items:center; gap:5px; }
-.cs-dot { display:inline-block; width:7px; height:7px; border-radius:50%; flex-shrink:0; margin-top:1px; }
+.cs-dot { display:inline-block; width:7px; height:7px; border-radius:50%; flex-shrink:0; margin-top:4px; }
+.cs-entry .cs-dot + .cs-dot { margin-left:2px; }
 .dot-c { background:#0D7A60; }
 .dot-r { background:#C8860A; }
 .cs-grid { columns:3; column-gap:18px; }
@@ -2323,16 +2324,17 @@
 </style>
 
 <div class="cs-legend">
-  <div class="cs-legend-item"><span class="cs-dot dot-c"></span> clusters & subclusters</div>
-  <div class="cs-legend-item"><span class="cs-dot dot-r"></span> cross-cluster roots</div>
+  <div class="cs-legend-item"><span class="cs-dot dot-c"></span> cluster subcluster</div>
+  <div class="cs-legend-item"><span class="cs-dot dot-r"></span> cross-cluster root</div>
+
 </div>
 
 <div class="cs-grid">
 <div class="cs-letter">A</div>
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">an</span><span class="cs-body"><span class="cs-mean">action</span><span class="cs-nl">PIE *h₂en- (to breathe/live)</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">ane</span><span class="cs-body"><span class="cs-mean">static movement</span><span class="cs-nl">Latin manere (to remain/stay)</span></span></div>
-<div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">ani</span><span class="cs-body"><span class="cs-mean">movement towards</span><span class="cs-nl">Latin animus (directed will); Japanese に ni (toward, di…</span></span></div>
-<div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">ani</span><span class="cs-body"><span class="cs-mean">directed pull, toward</span><span class="cs-nl">Latin animus (directed will); Japanese に ni (toward, di…</span></span></div>
+<div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-dot dot-r"></span><span class="cs-sound">ani</span><span class="cs-body"><span class="cs-mean">movement towards</span><span class="cs-nl">Latin animus (directed will); Japanese に ni (toward, di…</span></span></div>
+
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">ano</span><span class="cs-body"><span class="cs-mean">movement away</span><span class="cs-nl">Japanese ano (that, over there)</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">apa</span><span class="cs-body"><span class="cs-mean">physical movement</span><span class="cs-nl">Sanskrit apad (to move on foot)</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">as</span><span class="cs-body"><span class="cs-mean">involuntary bodily functions</span><span class="cs-nl">PIE *h₁es- (to be, to exist)</span></span></div>
@@ -2342,8 +2344,8 @@
 <div class="cs-letter">B</div>
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">be</span><span class="cs-body"><span class="cs-mean">travel</span><span class="cs-nl">Bengali বেড়ানো berano (to roam, travel)</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">bei</span><span class="cs-body"><span class="cs-mean">vehicles</span><span class="cs-nl">Mandarin 倍 (bèi = vehicle-related measure)</span></span></div>
-<div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">bo</span><span class="cs-body"><span class="cs-mean">home interior</span><span class="cs-nl">Arabic بيت (bayt = house, dwelling); Hebrew בית (bayit …</span></span></div>
-<div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">bo</span><span class="cs-body"><span class="cs-mean">house</span><span class="cs-nl">Arabic بيت bayt (house, dwelling); Hebrew בית bayit (ho…</span></span></div>
+<div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-dot dot-r"></span><span class="cs-sound">bo</span><span class="cs-body"><span class="cs-mean">home interior</span><span class="cs-nl">Arabic بيت (bayt = house, dwelling); Hebrew בית (bayit …</span></span></div>
+
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">boe</span><span class="cs-body"><span class="cs-mean">house spaces</span><span class="cs-nl">English bower (chamber, private room), Korean bueok (ki…</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">bon</span><span class="cs-body"><span class="cs-mean">furniture</span><span class="cs-nl">French banc (bench, table-like furniture)</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">bor</span><span class="cs-body"><span class="cs-mean">house structure</span><span class="cs-nl">English bore/board (structural element); German Bord (b…</span></span></div>
@@ -2353,10 +2355,10 @@
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">cati</span><span class="cs-body"><span class="cs-mean">constraint</span><span class="cs-nl">Latin catena (chain, constraint); Hindi/Urdu कैद qaid (…</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">ce</span><span class="cs-body"><span class="cs-mean">what?</span><span class="cs-nl">Latin quid (what) and Romance que/ce</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">ci</span><span class="cs-body"><span class="cs-mean">sharp</span><span class="cs-nl">Mandarin 刺 cì (to stab, prick, sharp); Arabic سكين sikk…</span></span></div>
-<div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">ciu</span><span class="cs-body"><span class="cs-mean">creative products</span><span class="cs-nl">English creative, Latin creatus (produced)</span></span></div>
-<div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">ciu</span><span class="cs-body"><span class="cs-mean">creative product</span><span class="cs-nl">English creative, Latin creatus (produced)</span></span></div>
-<div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">co</span><span class="cs-body"><span class="cs-mean">communication</span><span class="cs-nl">Latin communicare (to communicate)</span></span></div>
-<div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">co</span><span class="cs-body"><span class="cs-mean">communication</span><span class="cs-nl">Latin communicare (to communicate)</span></span></div>
+<div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-dot dot-r"></span><span class="cs-sound">ciu</span><span class="cs-body"><span class="cs-mean">creative products</span><span class="cs-nl">English creative, Latin creatus (produced)</span></span></div>
+
+<div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-dot dot-r"></span><span class="cs-sound">co</span><span class="cs-body"><span class="cs-mean">communication</span><span class="cs-nl">Latin communicare (to communicate)</span></span></div>
+
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">cou</span><span class="cs-body"><span class="cs-mean">written communication</span><span class="cs-nl">French courier (mail, correspondence)</span></span></div>
 <div class="cs-letter">D</div>
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">da</span><span class="cs-body"><span class="cs-mean">evaluation</span><span class="cs-nl">Arabic ذا dhā (this, that, referential)</span></span></div>
@@ -2385,8 +2387,8 @@
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">eod</span><span class="cs-body"><span class="cs-mean">social interactions</span><span class="cs-nl">Japanese deau 出会う (meet); Greek hodos (route, visiting)</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">eom</span><span class="cs-body"><span class="cs-mean">events and gatherings</span><span class="cs-nl">Korean moim (gathering, meeting)</span></span></div>
 <div class="cs-letter">F</div>
-<div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">fa</span><span class="cs-body"><span class="cs-mean">family relationships</span><span class="cs-nl">Latin familia (family)</span></span></div>
-<div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">fa</span><span class="cs-body"><span class="cs-mean">family</span><span class="cs-nl">Latin familia (family)</span></span></div>
+<div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-dot dot-r"></span><span class="cs-sound">fa</span><span class="cs-body"><span class="cs-mean">family relationships</span><span class="cs-nl">Latin familia (family)</span></span></div>
+
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">fae</span><span class="cs-body"><span class="cs-mean">gender</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">fai</span><span class="cs-body"><span class="cs-mean">partnership, marriage</span><span class="cs-nl">Latin foedus (pact, partnership)</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">fal</span><span class="cs-body"><span class="cs-mean">young ones</span><span class="cs-nl">Latin filia, filius (children)</span></span></div>
@@ -2409,8 +2411,8 @@
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">hai</span><span class="cs-body"><span class="cs-mean">message</span><span class="cs-nl">Swahili habari (news, message)</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">he</span><span class="cs-body"><span class="cs-mean">fiction tropes</span><span class="cs-nl">Greek ἥρως (heros = hero, trope figure)</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">heh</span><span class="cs-body"><span class="cs-mean">antagonist tropes</span><span class="cs-nl">English hex</span></span></div>
-<div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">hei</span><span class="cs-body"><span class="cs-mean">protagonist tropes</span></span></div>
-<div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">hei</span><span class="cs-body"><span class="cs-mean">person</span><span class="cs-nl">Mandarin 嘿 hēi (hey, exclamation used to address a pers…</span></span></div>
+<div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-dot dot-r"></span><span class="cs-sound">hei</span><span class="cs-body"><span class="cs-mean">protagonist tropes</span></span></div>
+
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">hela</span><span class="cs-body"><span class="cs-mean">projecting outward</span><span class="cs-nl">Sanskrit हेल् hel (to throw, sport)</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">hem</span><span class="cs-body"><span class="cs-mean">warmth</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">heo</span><span class="cs-body"><span class="cs-mean">background</span></span></div>
@@ -2437,15 +2439,15 @@
 <div class="cs-letter">L</div>
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">la</span><span class="cs-body"><span class="cs-mean">happiness</span><span class="cs-nl">across unrelated languages as an expression of happines…</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">lan</span><span class="cs-body"><span class="cs-mean">balance</span><span class="cs-nl">Hindi संतुलन saṁtulana (balance, equilibrium)</span></span></div>
-<div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">le</span><span class="cs-body"><span class="cs-mean">environment</span><span class="cs-nl">PIE *lendh- (open land, heath); English land, German La…</span></span></div>
-<div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">le</span><span class="cs-body"><span class="cs-mean">area</span><span class="cs-nl">PIE *lendh- (open land, heath); English land, German La…</span></span></div>
+<div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-dot dot-r"></span><span class="cs-sound">le</span><span class="cs-body"><span class="cs-mean">environment</span><span class="cs-nl">PIE *lendh- (open land, heath); English land, German La…</span></span></div>
+
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">lea</span><span class="cs-body"><span class="cs-mean">landscape</span><span class="cs-nl">English lea (open meadow, landscape type)</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">lei</span><span class="cs-body"><span class="cs-mean">plants</span><span class="cs-nl">Mandarin 蕾 (lěi = flower bud, plant growth)</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">lem</span><span class="cs-body"><span class="cs-mean">keeping</span><span class="cs-nl">Greek λῆμμα lēmma (something taken and kept)</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">len</span><span class="cs-body"><span class="cs-mean">long</span><span class="cs-nl">Latin longus (long); English longitude</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">leno</span><span class="cs-body"><span class="cs-mean">ground</span><span class="cs-nl">Spanish llano (flat ground)</span></span></div>
-<div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">li</span><span class="cs-body"><span class="cs-mean">time</span><span class="cs-nl">Mandarin 历 / 曆 li (calendar)</span></span></div>
-<div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">li</span><span class="cs-body"><span class="cs-mean">time</span><span class="cs-nl">Mandarin 历 / 曆 li (calendar)</span></span></div>
+<div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-dot dot-r"></span><span class="cs-sound">li</span><span class="cs-body"><span class="cs-mean">time</span><span class="cs-nl">Mandarin 历 / 曆 li (calendar)</span></span></div>
+
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">lia</span><span class="cs-body"><span class="cs-mean">resonant</span><span class="cs-nl">Hindi लय laya (rhythm, resonance); Arabic لَحْن laḥn (m…</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">lil</span><span class="cs-body"><span class="cs-mean">muscle</span><span class="cs-nl">Arabic لِيف līf (fiber); Persian لیف līf (fiber)</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">limel</span><span class="cs-body"><span class="cs-mean">evening</span><span class="cs-nl">Arabic لَيْل layl (night)</span></span></div>
@@ -2453,8 +2455,8 @@
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">lite</span><span class="cs-body"><span class="cs-mean">clock time</span><span class="cs-nl">Greek λεπτό lepto (minute)</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">liu</span><span class="cs-body"><span class="cs-mean">other</span><span class="cs-nl">Latin alius (other)</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">loa</span><span class="cs-body"><span class="cs-mean">completeness</span><span class="cs-nl">Hawaiian loa (very much, extremely)</span></span></div>
-<div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">lu</span><span class="cs-body"><span class="cs-mean">weather and atmosphere</span><span class="cs-nl">Latin lux (light, sky phenomenon); Italian luce; French…</span></span></div>
-<div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">lu</span><span class="cs-body"><span class="cs-mean">outside</span><span class="cs-nl">Latin lux (light, sky phenomenon); Italian luce; French…</span></span></div>
+<div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-dot dot-r"></span><span class="cs-sound">lu</span><span class="cs-body"><span class="cs-mean">atmosphere, outside</span><span class="cs-nl">Latin lux (light, sky phenomenon); Italian luce; French…</span></span></div>
+
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">lua</span><span class="cs-body"><span class="cs-mean">flow</span><span class="cs-nl">Arabic لُجَّة lujja (deep flowing water)</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">luan</span><span class="cs-body"><span class="cs-mean">tongue</span><span class="cs-nl">Arabic لِسَان lisān (tongue)</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">lufu</span><span class="cs-body"><span class="cs-mean">air</span><span class="cs-nl">German Luft (air)</span></span></div>
@@ -2471,12 +2473,12 @@
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">mio</span><span class="cs-body"><span class="cs-mean">wild animals</span><span class="cs-nl">Hindi mṛg (wild animal)</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">mio</span><span class="cs-body"><span class="cs-mean">support</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">mir</span><span class="cs-body"><span class="cs-mean">lots of</span><span class="cs-nl">Sanskrit मीर mīr (leader of many)</span></span></div>
-<div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">mo</span><span class="cs-body"><span class="cs-mean">food, eating</span><span class="cs-nl">Hawaiian moku (to eat, archaic); Swahili mlo (meal); Ko…</span></span></div>
-<div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">mo</span><span class="cs-body"><span class="cs-mean">eat</span><span class="cs-nl">Hawaiian moku (to eat, archaic); Swahili mlo (meal); Ko…</span></span></div>
+<div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-dot dot-r"></span><span class="cs-sound">mo</span><span class="cs-body"><span class="cs-mean">food, eating</span><span class="cs-nl">Hawaiian moku (to eat, archaic); Swahili mlo (meal); Ko…</span></span></div>
+
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">moa</span><span class="cs-body"><span class="cs-mean">fruits</span><span class="cs-nl">Polynesian languages moa (banana plants); Japanese 桃 (m…</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">mol</span><span class="cs-body"><span class="cs-mean">food containers</span></span></div>
-<div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">mu</span><span class="cs-body"><span class="cs-mean">smaller animals</span><span class="cs-nl">Swahili mdudu (insect, bug); Japanese 虫 (mushi = insect…</span></span></div>
-<div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">mu</span><span class="cs-body"><span class="cs-mean">small animal</span><span class="cs-nl">Swahili mdudu (insect, bug); Japanese 虫 mushi (insect, …</span></span></div>
+<div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-dot dot-r"></span><span class="cs-sound">mu</span><span class="cs-body"><span class="cs-mean">smaller animals</span><span class="cs-nl">Swahili mdudu (insect, bug); Japanese 虫 (mushi = insect…</span></span></div>
+
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">muh</span><span class="cs-body"><span class="cs-mean">flying animals</span><span class="cs-nl">Persian morgh (bird); Hindi murgā (rooster)</span></span></div>
 <div class="cs-letter">N</div>
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">na</span><span class="cs-body"><span class="cs-mean">giving</span><span class="cs-nl">Proto-Bantu *-nab-/*-na (to give); Hindi देना/ना denā (…</span></span></div>
@@ -2485,8 +2487,8 @@
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">nen</span><span class="cs-body"><span class="cs-mean">power and violence</span><span class="cs-nl">Latin imponens (imposing)</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">ni</span><span class="cs-body"><span class="cs-mean">new</span><span class="cs-nl">Hindi नया nayā (new); Sanskrit नव nava (new); Greek νέο…</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">niu</span><span class="cs-body"><span class="cs-mean">some</span><span class="cs-nl">Tagalog niyon/niyun (that)</span></span></div>
-<div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">no</span><span class="cs-body"><span class="cs-mean">function words</span><span class="cs-nl">Latin non (negation, downward movement in discourse); J…</span></span></div>
-<div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">no</span><span class="cs-body"><span class="cs-mean">downward, extension below</span><span class="cs-nl">Latin non (negation, downward movement in discourse); J…</span></span></div>
+<div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-dot dot-r"></span><span class="cs-sound">no</span><span class="cs-body"><span class="cs-mean">function words</span><span class="cs-nl">Latin non (negation, downward movement in discourse); J…</span></span></div>
+
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">non</span><span class="cs-body"><span class="cs-mean">path</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">nor</span><span class="cs-body"><span class="cs-mean">relation to reference</span><span class="cs-nl">Latin norma (standard, reference point); English norm</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">nou</span><span class="cs-body"><span class="cs-mean">low, falling</span><span class="cs-nl">Arabic نَوْم nawm (sleep, falling into sleep)</span></span></div>
@@ -2520,8 +2522,8 @@
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">ren</span><span class="cs-body"><span class="cs-mean">honor</span><span class="cs-nl">Mandarin 仁 rén (benevolence, honor)</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">reva</span><span class="cs-body"><span class="cs-mean">accurate</span><span class="cs-nl">Latin revelare (to reveal)</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">rih</span><span class="cs-body"><span class="cs-mean">higher, rising</span></span></div>
-<div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">ro</span><span class="cs-body"><span class="cs-mean">knowledge</span><span class="cs-nl">Japanese 論 (ron = argument, theoretical knowledge)</span></span></div>
-<div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">ro</span><span class="cs-body"><span class="cs-mean">thinking, reasoning</span><span class="cs-nl">Japanese 論 ron (argument, theoretical knowledge)</span></span></div>
+<div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-dot dot-r"></span><span class="cs-sound">ro</span><span class="cs-body"><span class="cs-mean">knowledge</span><span class="cs-nl">Japanese 論 (ron = argument, theoretical knowledge)</span></span></div>
+
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">roe</span><span class="cs-body"><span class="cs-mean">formal education</span><span class="cs-nl">Latin rogare (formally proposing)</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">rou</span><span class="cs-body"><span class="cs-mean">written knowledge</span><span class="cs-nl">Latin rotulus (scroll, written scroll); Japanese 録 (rok…</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">ru</span><span class="cs-body"><span class="cs-mean">bend</span><span class="cs-nl">Arabic رُكُوع rukūʿ (bowing, bending); Sanskrit रुज् ru…</span></span></div>
@@ -2551,12 +2553,12 @@
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">tel</span><span class="cs-body"><span class="cs-mean">image</span><span class="cs-nl">English television; Arabic تِلِيفِزْيُون tilifiziyūn (t…</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">teli</span><span class="cs-body"><span class="cs-mean">moment</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">ter</span><span class="cs-body"><span class="cs-mean">count</span><span class="cs-nl">Latin ter (three times); Greek τρεῖς treis (three times…</span></span></div>
-<div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">ti</span><span class="cs-body"><span class="cs-mean">harm, damage</span><span class="cs-nl">Tamil தீ (tī = fire, harm, danger); Hindi तीखा (tīkhā =…</span></span></div>
-<div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">ti</span><span class="cs-body"><span class="cs-mean">bad</span><span class="cs-nl">Tamil தீ tī (fire, harm, danger); Hindi तीखा tīkhā (sha…</span></span></div>
+<div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-dot dot-r"></span><span class="cs-sound">ti</span><span class="cs-body"><span class="cs-mean">harm, damage</span><span class="cs-nl">Tamil தீ (tī = fire, harm, danger); Hindi तीखा (tīkhā =…</span></span></div>
+
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">tira</span><span class="cs-body"><span class="cs-mean">fungus</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">tiu</span><span class="cs-body"><span class="cs-mean">types of harm</span><span class="cs-nl">Sanskrit तीव्र (tīvra = severe, violent)</span></span></div>
-<div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">to</span><span class="cs-body"><span class="cs-mean">suffering, distress</span><span class="cs-nl">Indonesian tobat (remorse, suffering from wrongdoing); …</span></span></div>
-<div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">to</span><span class="cs-body"><span class="cs-mean">suffering</span><span class="cs-nl">Indonesian tobat (remorse, suffering from wrongdoing); …</span></span></div>
+<div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-dot dot-r"></span><span class="cs-sound">to</span><span class="cs-body"><span class="cs-mean">suffering, distress</span><span class="cs-nl">Indonesian tobat (remorse, suffering from wrongdoing); …</span></span></div>
+
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">toh</span><span class="cs-body"><span class="cs-mean">emotional suffering</span><span class="cs-nl">English torment</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">tos</span><span class="cs-body"><span class="cs-mean">interpersonal suffering</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">tou</span><span class="cs-body"><span class="cs-mean">physical depletion</span></span></div>
@@ -2574,8 +2576,8 @@
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">vei</span><span class="cs-body"><span class="cs-mean">health issues</span><span class="cs-nl">Sanskrit वैद्य vaidya (physician)</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">vel</span><span class="cs-body"><span class="cs-mean">medical treatments</span><span class="cs-nl">Latin valere (to be well/healthy)</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">ver</span><span class="cs-body"><span class="cs-mean">safety</span><span class="cs-nl">German Wehr (defense, protection)</span></span></div>
-<div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">vi</span><span class="cs-body"><span class="cs-mean">interior body</span><span class="cs-nl">Proto-Bantu *-vim- (becoming thick); Latin vita (life f…</span></span></div>
-<div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">vi</span><span class="cs-body"><span class="cs-mean">internal body</span><span class="cs-nl">Proto-Bantu *-vim- (becoming thick); Latin vita (life f…</span></span></div>
+<div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-dot dot-r"></span><span class="cs-sound">vi</span><span class="cs-body"><span class="cs-mean">interior body</span><span class="cs-nl">Proto-Bantu *-vim- (becoming thick); Latin vita (life f…</span></span></div>
+
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">vio</span><span class="cs-body"><span class="cs-mean">change, exchange</span><span class="cs-nl">Latin via (road, path of change, exchange); Italian/Spa…</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">vir</span><span class="cs-body"><span class="cs-mean">organs</span><span class="cs-nl">Latin viscera (internal organs)</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">vir</span><span class="cs-body"><span class="cs-mean">method</span><span class="cs-nl">Latin viscera (internal organs)</span></span></div>
@@ -2586,8 +2588,8 @@
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">vu</span><span class="cs-body"><span class="cs-mean">movement</span><span class="cs-nl">Mandarin 步 bù (step, pace)</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">vuson</span><span class="cs-body"><span class="cs-mean">slow movement</span><span class="cs-nl">vu (move) + son</span></span></div>
 <div class="cs-letter">W</div>
-<div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">wa</span><span class="cs-body"><span class="cs-mean">sea, water bodies</span><span class="cs-nl">Polynesian root wai (water)</span></span></div>
-<div class="cs-entry"><span class="cs-dot dot-r"></span><span class="cs-sound">wa</span><span class="cs-body"><span class="cs-mean">water</span><span class="cs-nl">Polynesian root wai (water)</span></span></div>
+<div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-dot dot-r"></span><span class="cs-sound">wa</span><span class="cs-body"><span class="cs-mean">sea, water bodies</span><span class="cs-nl">Polynesian root wai (water)</span></span></div>
+
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">wi</span><span class="cs-body"><span class="cs-mean">geographical orientation</span><span class="cs-nl">Arabic وين (wayn = where?)</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">wil</span><span class="cs-body"><span class="cs-mean">human made geography</span><span class="cs-nl">Latin villa (human settlement); English village</span></span></div>
 <div class="cs-entry"><span class="cs-dot dot-c"></span><span class="cs-sound">wim</span><span class="cs-body"><span class="cs-mean">natural geography</span></span></div>
