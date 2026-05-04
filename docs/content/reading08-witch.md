@@ -4,9 +4,9 @@
 **Topic:** The character approaches a witch house  
 
 ---
-<img src="./witch.jpg" alt="Image by Andrew Ferez" style="width:100%; max-width:600px;">
-
-
+<div style="text-align: center;">
+![Image by Andrew Ferez](witch.jpg){ width="600" }
+</div>
 
 
 

@@ -4,7 +4,9 @@
 **Topic:** The missing tower card from a tarot deck  
 
 ---
-<img src="./jerih.jpg" alt="Image by Cottonbro Studio" style="width:100%; max-width:600px;">
+<div style="text-align: center;">
+![Image by Cottonbro Studio](jerih.jpg){ width="600" }
+</div>
 
 <audio controls style="width:100%">
   <source src="jerih.m4a" type="audio/mp4">
