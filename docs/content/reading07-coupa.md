@@ -8,7 +8,7 @@
 ![Image by Cottonbro Studio](jerih.jpg){ width="400" }
 
 <audio controls style="width:100%">
-  <source src="audio/jerih.mp3" type="audio/mpeg">
+  <source src="../audio/jerih.mp3" type="audio/mpeg">
 </audio>
 
 ## Read
