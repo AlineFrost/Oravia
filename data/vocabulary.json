@@ -961,8 +961,8 @@
     "cluster_name": "house",
     "cluster_sound": "bo",
     "subcluster": "bo",
-    "root": "cei",
-    "oravia": "bocei",
+    "root": "ciu",
+    "oravia": "bociu",
     "days": 2,
     "english": "decorate",
     "english_all": "decorate, ornamentation, adorn, fancy"
@@ -1135,10 +1135,10 @@
   {
     "lesson": 0,
     "cluster_name": "create",
-    "cluster_sound": "cei",
-    "subcluster": "cei",
+    "cluster_sound": "ciu",
+    "subcluster": "ciu",
     "root": "dal",
-    "oravia": "ceidal",
+    "oravia": "ciudal",
     "days": 0,
     "english": "design",
     "english_all": "design, blueprint, framework, outline"
@@ -1146,10 +1146,10 @@
   {
     "lesson": 0,
     "cluster_name": "create",
-    "cluster_sound": "cei",
-    "subcluster": "cei",
+    "cluster_sound": "ciu",
+    "subcluster": "ciu",
     "root": "dal",
-    "oravia": "ceidal",
+    "oravia": "ciudal",
     "days": 0,
     "english": "rhyme",
     "english_all": "rhyme, rhyming, pattern, regular"
@@ -1157,10 +1157,10 @@
   {
     "lesson": 0,
     "cluster_name": "create",
-    "cluster_sound": "cei",
-    "subcluster": "cei",
+    "cluster_sound": "ciu",
+    "subcluster": "ciu",
     "root": "de",
-    "oravia": "ceide",
+    "oravia": "ciude",
     "days": 0,
     "english": "theme",
     "english_all": "theme, subject, topic, to be about, to concern"
@@ -1168,10 +1168,10 @@
   {
     "lesson": 0,
     "cluster_name": "create",
-    "cluster_sound": "cei",
-    "subcluster": "cei",
+    "cluster_sound": "ciu",
+    "subcluster": "ciu",
     "root": "don",
-    "oravia": "ceidon",
+    "oravia": "ciudon",
     "days": 0,
     "english": "demonstration",
     "english_all": "demonstration, indicate, show"
@@ -1179,10 +1179,10 @@
   {
     "lesson": 0,
     "cluster_name": "create",
-    "cluster_sound": "cei",
-    "subcluster": "cei",
+    "cluster_sound": "ciu",
+    "subcluster": "ciu",
     "root": "gai",
-    "oravia": "ceigai",
+    "oravia": "ciugai",
     "days": 0,
     "english": "detail",
     "english_all": "detail, detailed, meticulous"
@@ -1190,10 +1190,10 @@
   {
     "lesson": 0,
     "cluster_name": "create",
-    "cluster_sound": "cei",
-    "subcluster": "cei",
+    "cluster_sound": "ciu",
+    "subcluster": "ciu",
     "root": "mar",
-    "oravia": "ceimar",
+    "oravia": "ciumar",
     "days": 0,
     "english": "art",
     "english_all": "art, artistic"
@@ -1201,10 +1201,10 @@
   {
     "lesson": 0,
     "cluster_name": "create",
-    "cluster_sound": "cei",
-    "subcluster": "cei",
+    "cluster_sound": "ciu",
+    "subcluster": "ciu",
     "root": "pa",
-    "oravia": "ceipa",
+    "oravia": "ciupa",
     "days": 0,
     "english": "paper",
     "english_all": "paper"
@@ -1212,10 +1212,10 @@
   {
     "lesson": 0,
     "cluster_name": "create",
-    "cluster_sound": "cei",
-    "subcluster": "cei",
+    "cluster_sound": "ciu",
+    "subcluster": "ciu",
     "root": "ro",
-    "oravia": "ceiro",
+    "oravia": "ciuro",
     "days": 1,
     "english": "abstract",
     "english_all": "abstract, abstraction, -ness, -ity"
@@ -1223,10 +1223,10 @@
   {
     "lesson": 0,
     "cluster_name": "create",
-    "cluster_sound": "cei",
-    "subcluster": "cei",
+    "cluster_sound": "ciu",
+    "subcluster": "ciu",
     "root": "seri",
-    "oravia": "ceiseri",
+    "oravia": "ciuseri",
     "days": 0,
     "english": "horizontal",
     "english_all": "horizontal, series, order, row, horizon"
@@ -1234,10 +1234,10 @@
   {
     "lesson": 0,
     "cluster_name": "create",
-    "cluster_sound": "cei",
-    "subcluster": "cei",
+    "cluster_sound": "ciu",
+    "subcluster": "ciu",
     "root": "sio",
-    "oravia": "ceisio",
+    "oravia": "ciusio",
     "days": 0,
     "english": "document",
     "english_all": "document, file"
@@ -1245,10 +1245,10 @@
   {
     "lesson": 0,
     "cluster_name": "create",
-    "cluster_sound": "cei",
-    "subcluster": "cei",
+    "cluster_sound": "ciu",
+    "subcluster": "ciu",
     "root": "tel",
-    "oravia": "ceitel",
+    "oravia": "ciutel",
     "days": 0,
     "english": "image",
     "english_all": "image, picture"
@@ -1256,10 +1256,10 @@
   {
     "lesson": 0,
     "cluster_name": "create",
-    "cluster_sound": "cei",
-    "subcluster": "cei",
+    "cluster_sound": "ciu",
+    "subcluster": "ciu",
     "root": "yen",
-    "oravia": "ceiyen",
+    "oravia": "ciuyen",
     "days": 0,
     "english": "print",
     "english_all": "print, publish"
@@ -1467,8 +1467,8 @@
     "cluster_name": "evaluate",
     "cluster_sound": "da",
     "subcluster": "da",
-    "root": "cei",
-    "oravia": "dacei",
+    "root": "ciu",
+    "oravia": "daciu",
     "days": 0,
     "english": "figure",
     "english_all": "figure, form, shape, structure, statue"
@@ -3150,8 +3150,8 @@
     "cluster_name": "inquire",
     "cluster_sound": "il",
     "subcluster": "ili",
-    "root": "cei",
-    "oravia": "ilicei",
+    "root": "ciu",
+    "oravia": "iliciu",
     "days": 0,
     "english": "imagine",
     "english_all": "imagine, suppose"
@@ -3557,8 +3557,8 @@
     "cluster_name": "geometrics",
     "cluster_sound": "je",
     "subcluster": "je",
-    "root": "ceita",
-    "oravia": "jeceita",
+    "root": "ciuta",
+    "oravia": "jeciuta",
     "days": 0,
     "english": "line",
     "english_all": "line, direct"
@@ -3821,8 +3821,8 @@
     "cluster_name": "materials",
     "cluster_sound": "jo",
     "subcluster": "jo",
-    "root": "ceiwa",
-    "oravia": "joceiwa",
+    "root": "ciuwa",
+    "oravia": "jociuwa",
     "days": 0,
     "english": "paint",
     "english_all": "paint, painting, painted"
