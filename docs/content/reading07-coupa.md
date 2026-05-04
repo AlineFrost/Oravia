@@ -4,11 +4,10 @@
 **Topic:** The missing tower card from a tarot deck  
 
 ---
-![alt text](jerih.jpg)
-Image by Cottonbro Studio
+<img src="jerih.jpg" alt="Image by Cottonbro Studio" style="width:100%; max-width:600px;">
 
 <audio controls style="width:100%">
-  <source src="jerih.wav" type="audio/wav">
+  <source src="jerih.m4a" type="audio/mp4">
 </audio>
 
 ## Read
@@ -78,7 +77,7 @@ yunitam = special
 ## Translation
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin: 2rem 0;">
-  <iframe width="560" height="315" src="https://www.youtube.com/watch?v=ydJBGQKC9qE&list=PLIRkEPYkAY3mPxbgmeuPnd2JARbL2tFn3" 
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/ydJBGQKC9qE" 
   title="YouTube video player" frameborder="0" 
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
   allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;">

@@ -6,7 +6,9 @@ Oravia's approach is empirical: it's inspired by research findings, built based 
 
 Paired with sound associations and stylistic options, Oravia aims to be easy, expressive and pleasant.
 
-![alt text](flag.png)
+<div style="text-align: center;">
+  <img src="flag.png" alt="Lusaria" style="width:100%; max-width:600px;">
+</div>
 
 ---
 

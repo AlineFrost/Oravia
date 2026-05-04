@@ -7,7 +7,7 @@
 
 ## Read
 
-**Cea**
+**Cea: A Elodao a Yamirli no Li**
 
 lunu yadetu i iloi a lusari  
 i om su i apasar 'anesar anelem  
@@ -74,29 +74,34 @@ su noder micea en noi a lunhem
 
 *Commentary*
 
-. notam luval notor val i 'al
+*notam luval notor val i 'al*
 
-I gradually change the word to indicate that the ice is melting. luval (snow) becomes just the root val (ice), which then becomes al.
+I gradually change the word to indicate that the ice is melting. luval (snow) becomes just the root val (ice), which then becomes al.  
 
-. i apasar 'anesar anelem
 
-to indicate a kind of settling in anticipation/suspension, I use the words three times inside the same marker (i = verb), which reads as something without pause, while they gradually shifting into one another.
+*i apasar 'anesar anelem*
 
-. su a micea i garel e varodu en lufu hem
+to indicate a kind of settling in anticipation/suspension, I use the words three times inside the same marker (i = verb), which reads as something without pause, while they gradually shifting into one another.  
 
-su noder micea en noi a lunhem
 
-In the last sentence of each stanza, I use the word "micea", but in two different meanings. The first one means literally a rabbit, while the second one means acting shy like a rabbit.
+*su a micea i garel e varodu en lufu hem*  
 
-. A Elodao a Yamirli no El
+  *su noder micea en noi a lunhem*
 
-The title means "A Promise as Old as Wonder", but notice that Elodao has El inside of it. This is because the word "elodao" belongs to the "wonder" cluster (words in Oravia belong to a cluster/classification, indicated by the first syllable). So it means something like the word "promise" returning to its own essence, "el".
+In the last sentence of each stanza, I use the word "micea", but in two different meanings. The first one means literally a rabbit, while the second one means acting shy like a rabbit.  
 
-. lusari, yosari, hem, lunhem
 
-here I use the same roots under different clusters. lusari being "(atmospheric) sun", yosari being "yellow (color sun)". hem being "heat", lunhem being "summer (season heat)". The roots stay the same but the words shift. This emphasizes the passage of time while things remain the same within change.
+*A Elodao a Yamirli no El*
 
-.
+The alternative title means "A Promise as Old as Wonder", but notice that Elodao has El inside of it. This is because the word "elodao" belongs to the "wonder" cluster (words in Oravia belong to a cluster/classification, indicated by the first syllable). So it means something like the word "promise" returning to its own essence, "el".  
+
+
+*lusari, yosari, hem, lunhem*
+
+here I use the same roots under different clusters. lusari being "(atmospheric) sun", yosari being "yellow (color sun)". hem being "heat", lunhem being "summer (season heat)". The roots stay the same but the words shift. This emphasizes the passage of time while things remain the same within change.  
+
+
+
 
 All together these linguistic devices indicate visually, phonetically and semantically the passage of time, a hanging anticipation, and change while staying the same. They also make the imagery more expressive and showcase some possibilities of the language. I hope you enjoy it!
 
