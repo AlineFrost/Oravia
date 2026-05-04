@@ -1137,8 +1137,8 @@
     "cluster_name": "create",
     "cluster_sound": "ciu",
     "subcluster": "ciu",
-    "root": "dal",
-    "oravia": "ciudal",
+    "root": "tam",
+    "oravia": "ciutam",
     "days": 0,
     "english": "design",
     "english_all": "design, blueprint, framework, outline"
