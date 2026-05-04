@@ -36,11 +36,11 @@ Lina i vardei e mo ca Ana i boemo. I varsi yuba.
 
 “Ce hoi?”
 
-“Micuc. No farejor. Lirular a hay i boemo e micuc neauta lirul perien. Daehun nim i anye no yuba, nedas ilie a roena hai i dairan. Ilicei a nim a nime farejor, i ilian canon…”
+“Micuc. No farejor. Lirular a hay i boemo e micuc neauta lirul perien. Daehun nim i anye no yuba, nedas ilie a roena hai i dairan. Iliciu a nim a nime farejor, i ilian canon…”
 
 “Ceora run no iloto? Norven a run a boemo hai. A rune mo a anodu. Ga run, a nim a yunmpou.”
 
-Haya i vardei e cemi en litegai.
+Haya i vardei e fene en litegai.
 
 “I miotan cali a nima a falen?" Ana i ansau i ilahai. " A nim a micear, mai a run i anidai a eofa. Notor i mo, lirular nima i apaleno en nime leayo, i apaluon su nime fare, no mioici i anodu e leirih! Neron, nime farejal nedas lirul i ilahai…”
 
@@ -82,7 +82,7 @@ bortal = door, enter
 ca = that, which (connector)  
 cali = when (connector)  
 canon = how (affirmative)  
-cemi = each other  
+fene = each other  
 cenon = how?  
 ceora = why?  
 daehun = if, assuming  
@@ -102,7 +102,7 @@ ilace = ask
 ilhei = person, people  
 ilian = know  
 ilie = maybe  
-ilicei = imagine, hypothetical, counterfactual  
+iliciu = imagine, hypothetical, counterfactual  
 iliro = think  
 iloto = worry  
 ilahai = speak, talk  
@@ -173,7 +173,7 @@ Lirular a farejor i boemo e micuc neauta lirul perien.
 Daehun nim i anye no yuba, nedas ilie a roena hai i dairan.  
 *Assume: if I make it well like that, 10/10 likelihood the teacher will like it.*  
 
-Ilicei a nim a nime farejor, i ilian canon.  
+Iliciu a nim a nime farejor, i ilian canon.  
 *Imagine: If I were my mother, I would know how.*  
 
 Run i iliro ca a roejois a yudur?  

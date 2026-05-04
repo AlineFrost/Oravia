@@ -11,7 +11,7 @@
 
     ## How much do you remember?
     
-    Check the boxes for words you think you know. Then click **Show Answers** to reveal the meanings and uncheck any you got wrong.
+    Check the boxes for words you think you know. Then click **Show Answers** to reveal the meanings.
     
     <div id="self-assessment-section">
     
@@ -26,26 +26,26 @@
     
     Today we will learn how to use conditionals! That is, the English *if*.
     In Oravia, there are two types of conditionals. 
-    The first one is for imagined and counterfactual situations. That is, things considered in an alternative world. For that, we use **ilicei**, which means **imagine**: 
+    The first one is for imagined and counterfactual situations. That is, things considered in an alternative world. For that, we use **iliciu**, which means **imagine**: 
     
     ```
-    Ilicei a nim a yalen. 
+    Iliciu a nim a yalen. 
     Imagine: I am tall.
     ```
     This means the speaker is **not** tall in reality.
     
     ```
-    Ilicei a hay a yuba, nim i dairan e hay. 
+    Iliciu a hay a yuba, nim i dairan e hay. 
     Imagine: he is good, I like him. / If he were good, I would like him. 
     ```
     
     You can express counterfactuals about past situations too. For example:
     ```
-    Ilicei nim i anvuar, i anopum e bejae. 
+    Iliciu nim i anvuar, i anopum e bejae. 
     Imagine: I went, I don't lose the luggage.  
     ```
     
-    This would be translated to English as: *If I had gone, I would not have lost the luggage*. Notice that we skip a lot of complicated verb forms just by using *ilicei*!
+    This would be translated to English as: *If I had gone, I would not have lost the luggage*. Notice that we skip a lot of complicated verb forms just by using *iliciu*!
     
     The second type of conditional is for ordinary *if, then* reasoning. We use this to state simple truths and causal relations. For that, we use *daehun*, which means *assume, suppose*: 
     
@@ -59,11 +59,11 @@
     
     To sum up:
     ```
-    ilicei = imagine, counterfactual  
+    iliciu = imagine, counterfactual  
     daehun = assume, if then  
     ```
 
-    Now try to create 3 sentences using **ilicei** and **daehun**:
+    Now try to create 3 sentences using **iliciu** and **daehun**:
     
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
     
@@ -231,7 +231,7 @@
 
     ## Review Missed Words
     
-    This section shows words you got wrong during practice, and words you didn't know in the Warm-Up. If you didn't miss any, this will be empty - great job! 🎉
+    This section shows words you got wrong during practice. If you didn't miss any, this will be empty - great job! 🎉
     
     <div id="review-game-container"></div>
 
@@ -264,26 +264,11 @@ function initWarmup() {
         html += '</tbody></table>';
         html += '<div style="text-align:center; margin-top:1.5rem;">';
         html += '<button id="show-answers-btn" style="background:#4a9cd6; color:white; border:none; padding:0.75rem 2rem; border-radius:4px; cursor:pointer; font-size:1rem;">Show Answers</button>';
-        html += '<button id="practice-btn" style="display:none; background:#43a047; color:white; border:none; padding:0.75rem 2rem; border-radius:4px; cursor:pointer; margin-left:1rem; font-size:1rem;">Practice Missed Words</button>';
-        html += '<p id="all-known-msg" style="display:none; color:#43a047; font-size:1.1rem; margin-top:1rem;">\u{1F389} You remembered everything! Move on to Grammar.</p>';
         html += '</div>';
         container.innerHTML = html;
         document.getElementById('show-answers-btn').addEventListener('click', function() {
             document.querySelectorAll('.answer-col').forEach(col => col.style.display = 'table-cell');
             this.style.display = 'none';
-            document.getElementById('practice-btn').style.display = 'inline-block';
-        });
-        document.getElementById('practice-btn').addEventListener('click', function() {
-            const missedWords = warmupWords.filter(w => !document.getElementById('check-' + w.id).checked);
-            if (missedWords.length === 0) {
-                document.getElementById('practice-btn').style.display = 'none';
-                document.getElementById('all-known-msg').style.display = 'block';
-                return;
-            }
-            const existing = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-            localStorage.setItem('wrong_ids', JSON.stringify([...new Set([...existing, ...missedWords.map(w => w.id)])]));
-            document.getElementById('practice-btn').style.display = 'none';
-            document.getElementById('practice-btn').insertAdjacentHTML('afterend', '<p id="added-msg" style="color:#43a047; font-size:1rem; margin-top:1rem;">✓ Added to your Review tab!</p>');
         });
     }
     renderSelfAssessment();

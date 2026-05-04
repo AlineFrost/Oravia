@@ -447,15 +447,15 @@ Pattern:
 
 Two types of conditional:
 
-**Ilicei** = imagine / counterfactual / hypothesis:
+**Iliciu** = imagine / counterfactual / hypothesis:
 
 ```
-ilicei a nim a yalen = imagine: I am tall (I am not)  
+iliciu a nim a yalen = imagine: I am tall (I am not)  
 
-ilicei a hay a yuba, nim i dairan e hay
+iliciu a hay a yuba, nim i dairan e hay
 If he were good, I would like him.  
 
-ilicei nim i anvuar, i anopum e bejae
+iliciu nim i anvuar, i anopum e bejae
 If I had gone, I would not have lost the luggage.
 ```
 
@@ -468,7 +468,7 @@ If I drop the apple, it falls.
 
 *Daehun* makes no claim about whether the condition is true, it just asks you to consider the consequence.
 
-Notice that using *ilicei* and *daehun* skips a lot of complicated verb tenses in languages like English.
+Notice that using *iliciu* and *daehun* skips a lot of complicated verb tenses in languages like English.
 
 ---
 
@@ -477,8 +477,8 @@ Notice that using *ilicei* and *daehun* skips a lot of complicated verb tenses i
 **Cemi** = *each other*:
 
 ```
-haya i vardei e cemi = they look at each other
-haya i anye e anona u cemi = they make gifts for each other
+haya i vardei e fene = they look at each other
+haya i anye e anona u fene = they make gifts for each other
 ```
 
 **Elihei** = *self*:

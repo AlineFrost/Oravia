@@ -222,8 +222,8 @@ Explore Oravia vocabulary by sound and cluster. Click a letter to begin.
       return;
     }
     var etymSnippet = '';
-    if (sub.etymology) {
-      var first = sub.etymology.split(';')[0].replace(/^[★\s]+/, '').trim();
+    if (sub.natural_language) {
+      var first = sub.natural_language.split(';')[0].replace(/^[★\s]+/, '').trim();
       if (first) etymSnippet = '<span class="lex-etym">' + first + '</span>';
     }
     var html = '<div class="lex-words-wrap">';

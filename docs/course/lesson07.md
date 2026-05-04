@@ -17,7 +17,7 @@
     
     | Oravia | English |
     |--------|---------|
-    | bocei | decoration |
+    | bociu | decoration |
     | bortal | door |
     | borcai | wall |
     | bospupi | shower |
@@ -30,7 +30,7 @@
     
     | Oravia | English |
     |--------|---------|
-    | bocei | decoration, to decorate |
+    | bociu | decoration, to decorate |
     | bortal | door, to enter |
     | borcai | wall, to separate |
     | bospupi | shower, to shower, to wash |

@@ -11,7 +11,7 @@
 
 === "Part 1"
 
-    I eorbor e eofa sherlock holmes en tor ganter liyar larvas christmas[^1]. Dasora i iloi u hay yuba elaren liyar. Hay i bonfene en yahlula yaotana apafene en yoyol yohisa yesmel, su jobos widuo anomi vanta, su apaima de liyar yani ceipa. A yani ceipa a noeli roerihei. En jensui apafene i dami leirih apafene, su en vavari jenai i dami yufer su ho eoren ye jorel. A jorel a mir anlorei su i dami mir gai jashur. I dami vardei joliri en leirih apafene, daeniu jorel noi dasora roejo.
+    I eorbor e eofa sherlock holmes en tor ganter liyar larvas christmas[^1]. Dasora i iloi u hay yuba elaren liyar. Hay i bonfene en yahlula yaotana apafene en yoyol yohisa yesmel, su jobos widuo anomi vanta, su apaima de liyar yani ciupa. A yani ciupa a noeli roerihei. En jensui apafene i dami leirih apafene, su en vavari jenai i dami yufer su ho eoren ye jorel. A jorel a mir anlorei su i dami mir gai jashur. I dami vardei joliri en leirih apafene, daeniu jorel noi dasora roejo.
 
     [^1]: elaren asfe caora elahir favi
 
