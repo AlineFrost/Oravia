@@ -88,6 +88,7 @@ nav:
       - Milestone 2: course/milestone2.md
   - Worldbuilding:
       - Script: world/script.md
+      - Locations: world/lusaria.md
 
 markdown_extensions:
   - attr_list

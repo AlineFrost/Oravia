@@ -1,0 +1,161 @@
+{
+  "lesson_id": "lesson40_exercise2",
+  "cluster": "le",
+  "cluster_meaning": "earth",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "Round 1",
+      "buckets": [
+        "b",
+        "a"
+      ],
+      "words_per_bucket": 2
+    },
+    {
+      "round": 2,
+      "title": "Round 2",
+      "buckets": [
+        "a",
+        "i"
+      ],
+      "words_per_bucket": 2
+    },
+    {
+      "round": 3,
+      "title": "Round 3",
+      "buckets": [
+        "b",
+        "i"
+      ],
+      "words_per_bucket": 3
+    },
+    {
+      "round": 4,
+      "title": "Round 4",
+      "buckets": [
+        "b"
+      ],
+      "words_per_bucket": 4,
+      "allow_repeats": true
+    },
+    {
+      "round": 5,
+      "title": "Round 5",
+      "buckets": [
+        "a"
+      ],
+      "words_per_bucket": 4,
+      "allow_repeats": true
+    },
+    {
+      "round": 6,
+      "title": "Round 6",
+      "buckets": [
+        "i"
+      ],
+      "words_per_bucket": 4,
+      "allow_repeats": true
+    },
+    {
+      "round": 7,
+      "title": "Round 7",
+      "buckets": [
+        "b",
+        "a"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    },
+    {
+      "round": 8,
+      "title": "Round 8",
+      "buckets": [
+        "a",
+        "i"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    }
+  ],
+  "words": [
+    {
+      "id": "le_b1",
+      "oravia": "ledom",
+      "english": "land",
+      "bucket": "b"
+    },
+    {
+      "id": "le_b2",
+      "oravia": "levi",
+      "english": "fertile",
+      "bucket": "b"
+    },
+    {
+      "id": "le_b3",
+      "oravia": "leno",
+      "english": "soil",
+      "bucket": "b"
+    },
+    {
+      "id": "le_b4",
+      "oravia": "lenodur",
+      "english": "rock",
+      "bucket": "b"
+    },
+    {
+      "id": "le_a1",
+      "oravia": "leafou",
+      "english": "desert",
+      "bucket": "a"
+    },
+    {
+      "id": "le_a2",
+      "oravia": "leamoma",
+      "english": "farm",
+      "bucket": "a"
+    },
+    {
+      "id": "le_a3",
+      "oravia": "leayo",
+      "english": "garden",
+      "bucket": "a"
+    },
+    {
+      "id": "le_a4",
+      "oravia": "lealei",
+      "english": "forest",
+      "bucket": "a"
+    },
+    {
+      "id": "le_i1",
+      "oravia": "leipili",
+      "english": "flower",
+      "bucket": "i"
+    },
+    {
+      "id": "le_i2",
+      "oravia": "leinou",
+      "english": "grass",
+      "bucket": "i"
+    },
+    {
+      "id": "le_i3",
+      "oravia": "leini",
+      "english": "seed",
+      "bucket": "i"
+    },
+    {
+      "id": "le_i4",
+      "oravia": "leirih",
+      "english": "tree",
+      "bucket": "i"
+    },
+    {
+      "id": "le_i5",
+      "oravia": "leide",
+      "english": "root",
+      "bucket": "i"
+    }
+  ]
+}
