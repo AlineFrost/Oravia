@@ -63,9 +63,9 @@ This kind of script is used by children. The motifs are usually animals, plants 
 Some examples of Animal Crackers Script
 
 
-![Example](crackers.JPG){ width="400" }
+![Example](crackers.png){ width="400" }
 
-![Example](scenery.JPG){ width="400" }
+![Example](scenery.png){ width="400" }
 
 
 ---
