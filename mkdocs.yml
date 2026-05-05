@@ -34,11 +34,11 @@ nav:
     - About Me: about/about-me.md
     - Get Involved: about/get-involved.md
   - Content:
-    - Vocabulary (beta): content/vocabulary.md
-    - Building Blocks (beta): content/building_blocks.md
-    - Blocks Cheat Sheet (beta): content/cheat.md
-    - Grammar Reference (beta): content/oravia-grammar.md
-    - Semantic Explorer (beta): content/semantic_explorer.md
+    - Vocabulary: content/vocabulary.md
+    - Grammar: content/oravia-grammar.md
+    - Building Blocks: content/building_blocks.md
+    - Blocks Cheat Sheet: content/cheat.md
+    - Semantic Explorer: content/semantic_explorer.md
     - Readings: content/readings.md
     - Media: content/media.md
   - Course:
