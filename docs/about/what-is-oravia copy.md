@@ -228,7 +228,7 @@ It's fun!
 Much easier to learn than natural languages  
 May help you learn other languages afterwards  
 Great exercise for memory, pattern recognition and cognitive flexibility  
-Lets you think and express yourself in ways you never knew possible  
+Lets you think and express yourself in new ways  
 Have a secret language among friends, couples or family members  
 Be part of the constructed languages community  
 Explore the interesting design ideas that go into creating a language   
