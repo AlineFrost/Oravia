@@ -8,6 +8,7 @@ Connect with other learners, follow updates, and give feedback.
 [Join the Oravia Discord →](https://discord.gg/bdr6vsMU){ .md-button }
 
 ---
+(psst... recall that Oravia's vocabulary is small? It has only ~800 core words, mostly composed of ~260 building blocks. This means that by consuming media, you can be rapidly exposed to large parts of the vocabulary! Just the 4 songs have more than 100 unique words. Plus the 2 Good Place scenes and the 2 stories, that's 38% of the vocabulary already! These videos also show how expressive and precise Oravia can be, even with a small vocabulary.)
 
 ## Videos
 

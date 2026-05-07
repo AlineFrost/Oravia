@@ -62,7 +62,7 @@
     
     We can also use created words, or imported words, to indicate compounds. We will look into created words in the Extension course, but for now, you should know that words not in the official list must be preceded by '. This includes these two types of imports:
     
-    1) Names, languages, locations, regional dishes. In these cases, we should use the word people that belong to that group use themselves. For example, 'Italia is Italy and 'Nihongo is Japanese language.
+    1) Names, languages, locations, regional dishes, ethnicities, religions, and other cultural referents. In these cases, we should use the word people that belong to that group use themselves. For example, 'Italia is Italy and 'Nihongo is Japanese language.
     
     2) Specific species of plants and animals. When we want to be specific, we use the scientific names. 
     
@@ -73,7 +73,7 @@
     *miautan = yedia yaltana miau, *panthera tigris*.
     ```
     
-    These do not become new vocabulary! We should always use compounds to define new and imported words so that the vocabulary does not grow. 
+    You may also find people using *Palmae* to refer to palm trees, or *Turdus* to refer to a robin. Scientific names make the referent clear (different languages have different conceptual overlaps of flora and fauna), avoids adding thousands of created words to the vocabulary, and we get to learn new things!  
    
     To sum up:
   
@@ -81,6 +81,8 @@
     modifying word +a = compound (read as one concept)
     new or imported word = indicate with ' and describe in footnotes
     ```
+    
+    These do not become new vocabulary! We should use compounds to define new and imported words so that the vocabulary does not grow. 
     
     Now try to make compounds to express *sunset*, *diary*, and *tea*.
     
