@@ -140,7 +140,7 @@ a nim i anefe e sever en bontame
 !!! info "Coordinators"
     **su** = and/with  
     **mai** = but  
-    **dou** = or
+    **dou** = or  
     **eta** = so, therefore
 
 **Example:**
@@ -211,15 +211,15 @@ a nim i anefeis e sever en bontame
 **Examples:**
 
 ```
-ce i moar?
- ↓     ↓        
-what finished eating? ("what did you eat?")
+ ce  en   bo?
+ ↓    ↓    ↓        
+what in the house?
 ```
 
 ```
-a nim i ilian ca a run i dairan
+a nim i anye ca a run i dairan
   ↓       ↓         ↓       ↓ 
-  I     know  what you     like
+  I      do  what you     like
 ```
 
 You can combine ca/ce with other words to form more connectors and questions. The version starting with "ce" is a question, and the one with "ca" is used in affirmatives and connecting clauses. 
@@ -272,7 +272,7 @@ waa jasru = ocean-bend = bay
 lufua yahlul = air-soft = fluffy
 waa garel = water-up = fountain
 yalgaia mus = small-bug = ant
-selyinoa li = plan-time = schedule
+li selyino = time-plan = schedule
 waa dom = water-land = island
 ```
 
