@@ -224,11 +224,11 @@ a nim i ilian ca a run i dairan
 
 You can combine ca/ce with other words to form more connectors and questions. The version starting with "ce" is a question, and the one with "ca" is used in affirmatives and connecting clauses. 
 
-ceora / caora = why/because (ce/ca what + ora reason)
-cei / caei = who (ce/ca what + ei person)
-celi / cali = when (ce/ca what + li time)
-cenon / canon = how (ce/ca what + non way)
-cedom / cadom = where (ce/ca what + dom place)
+ceora / caora = why/because (ce/ca what + ora reason)  
+cei / caei = who (ce/ca what + ei person)  
+celi / cali = when (ce/ca what + li time)  
+cenon / canon = how (ce/ca what + non way)  
+cedom / cadom = where (ce/ca what + dom place)  
 
 ---
 ## 9. Verb Stacking
