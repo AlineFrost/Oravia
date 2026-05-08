@@ -6,9 +6,8 @@ Learn the basics in 10 simple points and start making sentences right away. If y
 
 !!! tip "Grammar at a Glance"
     **4 core markers:** a (subject), i (verb), e (direct object), u (indirect object)  
-    **Flexible word order** — markers show role  
-    **Simple negation** — add -um to any word  
-    **Optional aspect** — add -ar (completed action), -is (yet to start action)
+    **Flexible word order**: markers show role  
+    **Simple negation**: add -um to any word  
 
 ---
 
@@ -85,17 +84,13 @@ a nim i anona e mocen u run
     I    give chocolate to you
 ```
 
----
-
-## 3. Word Order (Use Your Own)
-
-Because roles are marked (a/e/u), word order is flexible. Beginners can copy the natural order of their own language. If a sentence feels unclear, add missing markers or move phrases closer to the words they modify.
+Because roles are marked (a/e/u), word order is flexible and you can copy the natural order of your own language. 
 
 Since this website is in English, I will follow English word order in the core grammar examples.
 
 ---
 
-## 4. Describing Words (Modifiers)
+## 3. Describing Words (Modifiers)
 
 A modifier goes right before the word it describes.
 
@@ -106,28 +101,30 @@ mocen mouje  =  "chocolate drink"
 pohem mocen mouje  =  "hot chocolate drink"
 ```
 
+Because of the markers, any word can go in any role. For example, if you say *a yungi* this means "[subject] brave", if you say *i yungi* this means "[verb] to dare". If you say *yungi falen*, this means "bold child".
+
 ---
 
-## 5. Two Core Connectors
+## 4. Two Core Prepositions
 
 Use these instead of a large set of prepositions:
 
 !!! info "Connectors"
     **en** = location/time ("in, on, at")  
-    **de** = source/topic ("of, from, about")
+    **de** = source/possession ("of, from")
 
 **Examples:**
 
 ```
-a nim i vanvu en boegor
-    ↓     ↓         ↓         
-    I   walk to the house
+ a nim en bo
+    ↓      ↓                
+    I  at  home
 ```
 
 ```
-a nim i ilian de run
-    ↓     ↓        ↓         
-    I   know about you
+  a nim i anifi de bo
+     ↓    ↓         ↓         
+     I come from the house 
 ```
 
 ```
@@ -138,12 +135,13 @@ a nim i anefe e sever en bontame
 
 ---
 
-## 6. Coordination and Contrast
+## 5. Coordination and Contrast
 
 !!! info "Coordinators"
     **su** = and/with  
     **mai** = but  
     **dou** = or
+    **eta** = so, therefore
 
 **Example:**
 
@@ -155,7 +153,7 @@ a nim i vanvu su run
 
 ---
 
-## 7. Negation
+## 6. Negation
 
 Negate by adding **-um** to the word you want to negate.
 
@@ -177,15 +175,15 @@ a nim i dairanum e mocen
 
 ---
 
-## 8. Aspect (Optional)
+## 7. Aspect (Optional)
 
-If context is clear, you can leave aspect unmarked. This tends to be preferred.
+Generally, aspect is only used if you want to specify it. The default is just the bare verb (i + word).
 
 !!! info "Aspect Markers"
     **-ar** = completed action  
     **-is** = yet to start action  
 
-**Note:** If your language uses past and future tenses, *ar* may feel past-like and *is* may feel future-like. That intuition will serve you well most of the time! There are a few cases in which they don't correspond exactly, but we will cover this later.
+**Note:** If your language uses past and future tenses, *ar* may feel past-like and *is* may feel future-like. That intuition will serve you well most of the time! The key difference is that they mark completion relative to a context, not calendar time. There are a few cases in which they don't correspond exactly, but we will cover this in another opportunity.
 
 **Examples:**
 
@@ -204,7 +202,7 @@ a nim i anefeis e sever en bontame
 
 ---
 
-## 9. Questions and "What/That" Clauses
+## 8. Questions and "What/That" Clauses
 
 **ce** = what / general question
 
@@ -224,28 +222,100 @@ a nim i ilian ca a run i dairan
   I     know  what you     like
 ```
 
+You can combine ca/ce with other words to form more connectors and questions. The version starting with "ce" is a question, and the one with "ca" is used in affirmatives and connecting clauses. 
+
+ceora / caora = why/because (ce/ca what + ora reason)
+cei / caei = who (ce/ca what + ei person)
+celi / cali = when (ce/ca what + li time)
+cenon / canon = how (ce/ca what + non way)
+cedom / cadom = where (ce/ca what + dom place)
+
+---
+## 9. Verb Stacking
+
+When you want to complement a verb with another verb, you can put them in a sequence, repeating *i* before each one. Unlike English, there is no "to" connecting them.
+
+**ando** = can (able to)
+
+**anidai** = want
+
+**anifou** = need
+
+**dairan** = like
+
+**Examples:**
+
+```
+a run i anidai i anelem en bo
+  ↓       ↓         ↓       ↓ 
+ you    want to   stay     home
+```
+
+```
+a haya i anifou i mo
+  ↓       ↓       ↓       
+ they   need to   eat
+```
+
 ---
 
-## 10. Semantic Clusters (Vocabulary Note)
+## 10. Compounds
 
-Oravia vocabulary is organized into semantic clusters. Typically, the first letter signals a broader domain (e.g., m for biology), the first syllable a cluster (e.g., mo for food), and the next letter a subcluster (e.g., moa for fruit). This structure helps learning and recall. For more information, head over to L0 in the course page.
+Oravia has a small vocabulary, and as such, there is full creativity and flexibility to create new expressions.
+
+To use multiple words to express a single concept, we attach -a at the end of the modifying words. 
+
+Here are some examples of compounds:
+```
+lufua bei = air-vehicle = airplane
+waa jasru = ocean-bend = bay
+lufua yahlul = air-soft = fluffy
+waa garel = water-up = fountain
+yalgaia mus = small-bug = ant
+selyinoa li = plan-time = schedule
+waa dom = water-land = island
+```
+
+Notice you can be as specific as you'd like by adding more descriptions to your compound. If you think lufua bei (air-vehicle) is not enough specificity for what you want to express as airplane, you can for example say jeluina lufua bei (winged-air-vehicle).
+
+
+To give flavors or fine-grained meaning to words, we can merge two of them together with an hyphen, like this:
+
+```
+falen-li = child-time = childhood
+tohpu-vanvu = sad-walk = to trudge, move with sadness
+bo-bortal = house-enter = to enter a house
+elivon-ilaluan = wisdom-speak = to speak with wisdom
+ilofun-vardei = hesitant-look = to peek with doubt
+```
+
+If you are unsure whether you want a compound or hyphenated expression, just use whatever feels right to you. Chances are, either works!
 
 ---
 
 
-## You've Got the Essentials!
+## You've Got the Essentials of Grammar!
 
 **You now know:**
 
 - The 4 core markers (a/i/e/u)
 - How to negate with -um
 - How to mark aspect (optional)
-- Basic word order flexibility
-- Core connectors (en/de) and coordinators (su/mai/dou)
+- How to ask questions (ce)
+- Prepositions (en/de)
+- Core connectors (ca) and coordinators (su/mai/dou/eta)
+- Verb stacking and creating new expressions
+
+You can start building sentences right away! 
+Why don't you search some words in the [Vocabulary](../content/vocabulary.md) and give it a try on [Discord](https://discord.com/invite/FWavWeG)?
 
 **Next steps:**
 
 [Start Learning →](../course/lesson00.md){ .md-button .md-button--primary }  
 [Get Involved →](get-involved.md){ .md-button }
+
+**20 Hours to Oravia!**  
+Complete the course: 60 lessons of ~15 minutes each.  
+Get immersed from day 1: chat on discord, watch videos, read and create.  
 ---
 

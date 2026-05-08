@@ -8,15 +8,13 @@ To navigate the Lesson, please click the tabs below: "About the Course", "Pronun
 
 === "About the Course"
 
-    The Complete Course is divided into three sections: Core, Fluency, and Extension.
+    The Complete Course is divided into two sections: Core and Expansion. The Course is called complete not because it covers everything there is about Oravia, but because it has grammar, vocabulary, listening, reading, and writing.
 
-    The **Core Course** covers everything you need to get started. After completing it, you will be able to understand most of Oravia with the help of a vocabulary list. The Core Course takes about 5-8h, so technically it could be done over a weekend. However, most learners find a slower pace more enjoyable.
+    The **Core Course** covers everything you need to get started. After completing it, you will be able to understand a lot of Oravia with the help of the vocabulary list. The Core Course takes about 5-8h, so technically it could be done over a weekend. However, most learners find a slower pace more enjoyable.
 
-    The **Fluency Course** finishes all the grammar, allowing you to express more nuance. After completing it, you will be able to talk about pretty much anything, and engage with different kinds of media. 
+    The **Expansion Course** finishes most of the grammar, allowing you to express more nuance. After completing it, you will be able to have conversations and consume media more easily. As with any language, becoming fluent requires more than studying: talking and reading/listening are essential steps. Lucky for us, this tends to be the most fun part! And after Expansion, you will have little problem diving in. 
 
-    The **Extension Course** unlocks more options for creativity, style, and personalization. After completing it, you will be able to create your own voice, play with all the language features, and contribute to Oravia's development.  
-
-    In total, there are 80 lessons of about 15 minutes each. Most learners will do best with 1 lesson a day. It doesn't sound like much, but learning a completely different language introduces new ways of thinking and communicating that your brain needs to get used to. Experienced language learners sometimes prefer 2-3 lessons a day if they want a faster pace.
+    In total, there are 60 lessons of about 15 minutes each. Most learners will do best with 1 lesson a day. It doesn't sound like much, but learning a completely different language introduces new ways of thinking and communicating that your brain needs to get used to. Experienced language learners sometimes prefer 2-3 lessons a day if they want a faster pace.
 
     Welcome to the course and enjoy exploring!
 
@@ -103,6 +101,8 @@ To navigate the Lesson, please click the tabs below: "About the Course", "Pronun
 
 === "Vocabulary Structure"
 
+    The part of language learning that takes the longest is vocabulary. This is true even with Oravia, which has a small vocabulary and ways to make acquiring it easier. Remembering words requires exposure and repetition, and this course takes a light approach: no long writing exercises, no spaced repetition decks. This means that especially in the beginning, before you know the syllable-meaning associations, learning words may not be as easy. But, as your progress through the course, it gets easier and easier! Because of the vocabulary structure, the more words you know, the easier it becomes to learn more. So don't worry if you forget or confuse words, it will come naturally to you as you progres. 
+    
     ## How Vocabulary Works
     
     Now, let's talk about how the vocabulary is structured. **No need to memorize any of that**, it's just to give you an idea of how it works!
@@ -184,11 +184,9 @@ To navigate the Lesson, please click the tabs below: "About the Course", "Pronun
     
     Or if you wanted to say you are feeling upset, but you forgot the word. You could say instead tos, and people will know you are talking about emotional suffering. And so on.
     
-    
     There are other little surprises in the vocabulary, but we will not talk about them now. As you learn words, these semantic associations become intuitive.
     
     I hope these little nuggets make exploring vocabulary more interesting!
-
 ---
 
 <div style="text-align: center; padding: 2rem 0;">
