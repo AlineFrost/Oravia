@@ -372,3 +372,58 @@ img {
 .md-content {
     margin-right: 0 !important;
 }
+
+/* ===== GRAMMAR REFERENCE EXPANDABLE SECTIONS ===== */
+
+/* Remove ALL Material admonition/details box styling */
+.md-typeset details.gr-part,
+.md-typeset details.gr-sec {
+    border: none !important;
+    border-left: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    padding: 0 !important;
+    margin: 0.3rem 0 !important;
+    color: inherit !important;
+    border-radius: 0 !important;
+}
+
+/* Part summary: clean heading style */
+.md-typeset details.gr-part > summary {
+    background: transparent !important;
+    font-size: 1.05rem !important;
+    font-weight: 700 !important;
+    color: #3a6a9a !important;
+    padding: 0.5rem 0.25rem !important;
+    border-bottom: 1px solid #d3e8f7 !important;
+    margin-bottom: 0.5rem !important;
+}
+
+/* Section summary: lighter style */
+.md-typeset details.gr-sec > summary {
+    background: transparent !important;
+    font-size: 0.95rem !important;
+    font-weight: 600 !important;
+    color: #444 !important;
+    padding: 0.35rem 0.25rem !important;
+    border-bottom: 1px solid #efefef !important;
+}
+
+/* Remove Material icon completely */
+.md-typeset details.gr-part > summary::before,
+.md-typeset details.gr-sec > summary::before {
+    display: none !important;
+    content: none !important;
+    background: none !important;
+}
+
+/* Keep only the arrow */
+.md-typeset details.gr-part > summary::after,
+.md-typeset details.gr-sec > summary::after {
+    color: #999 !important;
+}
+
+/* Indent section content */
+.md-typeset details.gr-sec {
+    margin-left: 1rem !important;
+}

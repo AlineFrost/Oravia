@@ -1,7 +1,7 @@
 # Lesson 22: Time Units
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into five sections: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order. After you finish, *try the Exercises and Review again* to see how much you've improved.
+    Every lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -151,14 +151,15 @@
     | vandi | finger, toe, skillful |
     | vanta | hand, hold, manual |
     
-    !!! info "🌍 Fun Fact"
+    !!! info "🌍 Sound Connections"
         Pai is like Hindi पैर pair (foot) and Tamil பாதம் pādam (foot).
         
         Var comes from Sanskrit वक्त्रम् vaktram (face/mouth).
         
-        Van comes from Hindi बाँह (bāṃh = arm/limb); Arabic بَدَن (badan = body/limbs); Indonesian badan (body and its limbs).  
+        Van comes from Hindi बाँह (bāṃh = arm/limb); Arabic بَدَن (badan = body/limbs); Indonesian badan (body and its limbs).
         
-        
+    We also have:  
+    **yespai** = shoe (clothing + feet), just like vanpai = foot, kick (limb body part + foot)  
     
     Now try to create 3 sentences using **VA** words:
     
@@ -170,10 +171,8 @@
 
     ## Matching Games
 
-    Time to practice! Match the Oravia words with their English meanings.
-
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
-
+    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
     Click one word from each column to match them. The game will check automatically when you select both words.
 
     ---
@@ -200,10 +199,8 @@
 
     ## Matching Games
 
-    Time to practice! Match the Oravia words with their English meanings.
-
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
-
+    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
     Click one word from each column to match them. The game will check automatically when you select both words.
 
     After completing the Exercises and Review, try it again to see how much you've improved.

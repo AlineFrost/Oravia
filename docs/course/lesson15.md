@@ -1,7 +1,7 @@
 # Lesson 15: Numbers
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into five sections: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order. After you finish, *try the Exercises and Review again* to see how much you’ve improved.
+    Every lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -157,7 +157,7 @@
     | tam | 1 |
     | tor | 2 |
     | par | 3 |
-    | bale | 4 |
+    | balem | 4 |
     | alui | 5 |
     | teva | 6 |
     | peri | 7 |
@@ -182,7 +182,7 @@
     Great job, you can count to 99! Or should I say, *tenda das tenda?*
  
      
-    !!! info "🌍 Fun Fact"
+    !!! info "🌍 Sound Connections"
         Auta is similar to Proto-Indo-European roots, leading to words like Hindi āṭh and English eight.  
         
         Das is also like PIE, leading to words like Portuguese dez and Hindi दस das, both of which mean ten.  
@@ -192,10 +192,8 @@
 
     ## Matching Games
 
-    Time to practice! Match the Oravia words with their English meanings.
-
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
-
+    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
     Click one word from each column to match them. The game will check automatically when you select both words.
 
     ---
@@ -228,10 +226,8 @@
 
     ## Matching Games
 
-    Time to practice! Match the Oravia words with their English meanings.
-
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
-
+    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
     Click one word from each column to match them. The game will check automatically when you select both words.
 
     After completing the Exercises and Review, try it again to see how much you've improved.

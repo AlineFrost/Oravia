@@ -1,7 +1,7 @@
 # Lesson 35: YE Cluster
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into five sections: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order. After you finish, *try the Exercises and Review again* to see how much you've improved.
+    Every lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -141,10 +141,15 @@
     
     These can also be used as verbs, for example, you could say *i yeswol* to mean *to put on a shirt*.
     
-    !!! info "🌍 Fun Fact"
+    !!! info "🌍 Sound Connections"
         Ye comes from Turkish yelken (sail/large expanse of fabric).  
         
         Yel means to join, and comes from English yoke.
+      
+    Here are other words with this root:    
+    **aseyel** = kiss (affectionate bodily action + join), just like yeyel = sew (clothing / garment + join)    
+    **eleyel** = love (elevated virtues + join)  
+    **wilyel** = bridge (human-made geography + join)  
         
     You are ready for the exercise now!
     
@@ -154,10 +159,8 @@
 
     ## Matching Games
 
-    Time to practice! Match the Oravia words with their English meanings.
-
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
-
+    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
     Click one word from each column to match them. The game will check automatically when you select both words.
 
     ---
@@ -184,10 +187,8 @@
 
     ## Matching Games
 
-    Time to practice! Match the Oravia words with their English meanings.
-
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
-
+    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
     Click one word from each column to match them. The game will check automatically when you select both words.
 
     After completing the Exercises and Review, try it again to see how much you've improved.

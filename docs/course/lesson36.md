@@ -1,7 +1,7 @@
 # Lesson 36: Each other & Self / Habit
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into five sections: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order. After you finish, *try the Exercises and Review again* to see how much you've improved.
+    Every lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -25,13 +25,13 @@
     ## Each Other & Self
     
     Today we will learn how to say *each other* and *self*. 
-    To say **each other** we use **fene**, like this:
+    To say **each other** we use **rein**, like this:
     
     ```
     Haya i vardei.
     They look.
     
-    Haya i vardei e fene.
+    Haya i vardei e rein.
     They look at each other.
     ```
     
@@ -47,7 +47,7 @@
     
     Here are some more examples:
     ```
-    Haya i anye e anona u fene.
+    Haya i anye e anona u rein.
     They make a gift for each other.
     
     Haya i anye e anona u elihei.
@@ -77,12 +77,12 @@
     
     To sum up:
     ```
-    fene = each other  
+    rein = each other  
     elihei = self  
     lirul = habit
     ```
     
-    Now try to create 3 sentences using **fene**, **elihei**, and **lirul**:
+    Now try to create 3 sentences using **rein**, **elihei**, and **lirul**:
     
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
     
@@ -97,17 +97,14 @@
     | Oravia | English |
     |--------|---------|
     | yeleno | cotton |
-    | yean | sew |
     | yespuli | sock |
     | yesrel | jacket |
     | yesnou | pants |
     | yesmel | dress |
     | yeswol | shirt |
-    | yespai | shoe |
     | yejae | bag |
     | yemiodu | pillow, cushion |
     | yewamus | net |
-    | yedi | stripe |
 
    
     Do you see a subcluster in here? What do you think it is about?
@@ -132,8 +129,7 @@
     | yespai | shoe, suitable |
     | yejae | bag, burden |
     | yemiodu | pillow, cushion, padded |
-    | yewamus | net, network, trap, catch |
-    | yedi | stripe, striped, lined |
+    | yewamus | net, network, internet, catch |
     
     If you want to say someone is wearing a piece of clothing, you use *i yes*. To say they put it on, you use the clothing as a verb. For example:
     
@@ -177,10 +173,8 @@
 
     ## Matching Games
 
-    Time to practice! Match the Oravia words with their English meanings.
-
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
-
+    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
     Click one word from each column to match them. The game will check automatically when you select both words.
 
     ---
@@ -207,10 +201,8 @@
 
     ## Matching Games
 
-    Time to practice! Match the Oravia words with their English meanings.
-
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
-
+    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
     Click one word from each column to match them. The game will check automatically when you select both words.
 
     After completing the Exercises and Review, try it again to see how much you've improved.

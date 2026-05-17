@@ -1,7 +1,7 @@
 # Lesson 27: TO Cluster
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into five sections: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order.
+    Every lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -124,13 +124,18 @@
     <p style="margin: 0;"> It's about suffering and distress. </p>
     </div>
 
-    !!! info "🌍 Fun Fact"
+    !!! info "🌍 Sound Connections"
         Vei means "health issues", and comes from Sanskrit वैद्य vaidya (physician).
         
         Pu is like Persian پوچ pūc (emptiness, loss).  
         
         Wa is water, from the Polynesian root wai (water).
-        
+    
+    Here are other words that use these roots:  
+    **anopu** = to lose (movement away + loss), just like tohpu = sad (emotional suffering + loss)  
+    **wimwa** = lake (natural geography + natural), just like touwa = thirst (physical depletion + water)  
+    **viwa** = blood (internal body + water)
+    
     Now try to create 3 sentences using **TO** words:
     
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
@@ -143,10 +148,8 @@
 
     ## Matching Games
 
-    Time to practice! Match the Oravia words with their English meanings.
-
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
-
+    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
     Click one word from each column to match them. The game will check automatically when you select both words.
 
     ---
@@ -173,10 +176,8 @@
 
     ## Matching Games
 
-    Time to practice! Match the Oravia words with their English meanings.
-
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
-
+    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
     Click one word from each column to match them. The game will check automatically when you select both words.
 
     After completing the Exercises and Review, try it again to see how much you've improved.

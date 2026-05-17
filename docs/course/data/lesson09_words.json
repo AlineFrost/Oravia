@@ -1,0 +1,99 @@
+{
+  "lesson_id": "lesson09",
+  "cluster": "an",
+  "cluster_meaning": "volitional actions",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "Round 1",
+      "buckets": [
+        "e",
+        "o",
+        "n"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 2,
+      "title": "Round 2",
+      "buckets": [
+        "e",
+        "i",
+        "n"
+      ],
+      "words_per_bucket": 1,
+      "allow_repeats": true
+    },
+    {
+      "round": 3,
+      "title": "Round 3",
+      "buckets": [
+        "i",
+        "n"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 4,
+      "title": "Round 4",
+      "buckets": [
+        "e",
+        "o",
+        "i",
+        "n"
+      ],
+      "words_per_bucket": 1,
+      "allow_repeats": true
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson09_e_1",
+      "oravia": "anye",
+      "english": "make",
+      "bucket": "e"
+    },
+    {
+      "id": "lesson09_i_1",
+      "oravia": "anidai",
+      "english": "want",
+      "bucket": "i"
+    },
+    {
+      "id": "lesson09_i_2",
+      "oravia": "anifou",
+      "english": "need",
+      "bucket": "i"
+    },
+    {
+      "id": "lesson09_o_1",
+      "oravia": "anona",
+      "english": "give",
+      "bucket": "o"
+    },
+    {
+      "id": "lesson09_n_1",
+      "oravia": "ando",
+      "english": "can",
+      "bucket": "n"
+    },
+    {
+      "id": "lesson09_n_2",
+      "oravia": "beivu",
+      "english": "car",
+      "bucket": "n"
+    },
+    {
+      "id": "lesson09_n_3",
+      "oravia": "bofi",
+      "english": "inside",
+      "bucket": "n"
+    },
+    {
+      "id": "lesson09_n_4",
+      "oravia": "roesau",
+      "english": "study",
+      "bucket": "n"
+    }
+  ]
+}

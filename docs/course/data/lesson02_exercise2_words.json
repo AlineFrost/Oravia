@@ -1,0 +1,71 @@
+{
+  "lesson_id": "lesson02_exercise2",
+  "cluster": "pronouns",
+  "cluster_meaning": "personal pronouns",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "Round 1",
+      "buckets": [
+        "singular"
+      ],
+      "words_per_bucket": 3
+    },
+    {
+      "round": 2,
+      "title": "Round 2",
+      "buckets": [
+        "plural"
+      ],
+      "words_per_bucket": 3
+    },
+    {
+      "round": 3,
+      "title": "Round 3",
+      "buckets": [
+        "singular",
+        "plural"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson02_exercise2_singular_1",
+      "oravia": "moaria",
+      "english": "apple",
+      "bucket": "singular"
+    },
+    {
+      "id": "lesson02_exercise2_singular_2",
+      "oravia": "molcui",
+      "english": "bowl",
+      "bucket": "singular"
+    },
+    {
+      "id": "lesson02_exercise2_singular_3",
+      "oravia": "mouje",
+      "english": "drink",
+      "bucket": "singular"
+    },
+    {
+      "id": "lesson02_exercise2_plural_1",
+      "oravia": "mocen",
+      "english": "chocolate",
+      "bucket": "plural"
+    },
+    {
+      "id": "lesson02_exercise2_plural_2",
+      "oravia": "yogali",
+      "english": "brown",
+      "bucket": "plural"
+    },
+    {
+      "id": "lesson02_exercise2_plural_3",
+      "oravia": "yalen",
+      "english": "long",
+      "bucket": "plural"
+    }
+  ]
+}

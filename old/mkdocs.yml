@@ -1,10 +1,17 @@
 site_name: Learn Oravia
-site_description: Master Oravia through spaced repetition and interactive learning
+site_description: Learn Oravia — a free constructed language course built around sound and meaning.
 site_author: Aline
+site_url: https://learnoravia.com
 
 theme:
   name: material
   language: en
+  favicon: images/favicon.png
+
+  palette:
+    scheme: default
+    primary: light blue
+    accent: amber
 
   palette:
     scheme: default
@@ -18,10 +25,6 @@ theme:
   features:
     - navigation.instant
     - navigation.tracking
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.sections
-    - navigation.expand
     - navigation.top
     - navigation.indexes
     - search.suggest
@@ -34,8 +37,18 @@ nav:
   - About:
     - What is Oravia?: about/what-is-oravia.md
     - Core Grammar: about/core-grammar.md
-    - Advanced Grammar: about/advanced-grammar.md
     - About Me: about/about-me.md
+    - Get Involved: about/get-involved.md
+    - Vocabulary FAQ: about/vocab.md
+  - Content:
+    - Vocabulary: content/vocabulary.md
+    - Grammar: content/oravia-grammar.md
+    - Building Blocks: content/building_blocks.md
+    - Blocks Cheat Sheet: content/cheat.md
+    - Semantic Explorer: content/semantic_explorer.md
+    - Craft & Style: content/oravia-style.md
+    - Readings: content/readings.md
+    - Media: content/media.md
   - Course:
     - L0 - Pronunciation & Structure: course/lesson00.md
     - Core:
@@ -60,13 +73,31 @@ nav:
       - L19 - OI Cluster: course/lesson19.md
       - L20 - AR and IS / BE Cluster: course/lesson20.md
       - Milestone: course/milestone1.md
-    - Fluency:
+    - Expansion:
       - L21 - VA Cluster: course/lesson21.md
       - L22 - Time Units: course/lesson22.md
       - L23 - NO Cluster: course/lesson23.md
-      - L24 - HAI / HUE: course/lesson24.md
+      - L24 - Hai & Hue: course/lesson24.md
+      - L25 - YU Cluster: course/lesson25.md
+      - L26 - Sequences: course/lesson26.md
+      - L27 - TO Cluster: course/lesson27.md
+      - L28 - Why & How: course/lesson28.md
+      - L29 - LU Cluster: course/lesson29.md
+      - L30 - Comparatives: course/lesson30.md
+      - L31 - APA Cluster: course/lesson31.md
+      - L32 - Should & Must / RO Cluster: course/lesson32.md
+      - L33 - MI Cluster: course/lesson33.md
+      - L34 - Conditionals: course/lesson34.md
+      - L35 - YE Cluster: course/lesson35.md
+      - L36 - Each Other & Self / Habit: course/lesson36.md
+      - L37 - NE Cluster: course/lesson37.md
+      - L38 - Relative Time / YO Cluster: course/lesson38.md
+      - L39 - LE Cluster: course/lesson39.md
+      - L40 - Gradation: course/lesson40.md
+      - Milestone 2: course/milestone2.md
   - Worldbuilding:
       - Script: world/script.md
+      - Locations: world/lusaria.md
 
 markdown_extensions:
   - attr_list
@@ -94,19 +125,17 @@ plugins:
       lang: en
 
 extra:
-  version:
-    provider: mike
-  cache_buster: true  # Add this line
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/yourusername/oravia-learn
+      link: https://github.com/AlineFrost/Oravia
       name: GitHub Repository
   generator: false
 
-copyright: Copyright &copy; 2025 Learn Oravia
+copyright: Copyright &copy; 2026 Learn Oravia
 
 extra_css:
   - css/custom.css
 
 extra_javascript:
   - js/matching-game.js
+

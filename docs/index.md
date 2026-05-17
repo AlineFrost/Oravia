@@ -1,3 +1,6 @@
+<meta property="og:image" content="https://learnoravia.com/flag.png">
+<meta property="og:title" content="Learn Oravia">
+
 # Welcome to Oravia!
 
 It's a constructed language with a small vocabulary and a simple and flexible grammar.

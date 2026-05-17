@@ -1,7 +1,7 @@
 # Lesson 9: YA Cluster
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into four sections: **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order. After you finish, *try the Exercises and Review again* to see how much you’ve improved.
+    Every lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -125,18 +125,18 @@
     
     It all depends on how you use the word in each sentence! In future lessons we will take a look at some sentences we can make with these words in various roles. 
 
-    !!! info "🌍 Fun Fact"
+    !!! info "🌍 Sound Connections"
         Gai means small and comes from English and French grain.  
-        
+      
+    Here are other words with this root:  
+    **litegai** = minute (clock time + small; hour is the big unit), just like yalgai = small (objective quality + small).    
 
 === "Exercise 1"
 
     ## Matching Games
     
-    Time to practice! Match the Oravia words with their English meanings.
-    
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
-    
+    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
     Click one word from each column to match them. The game will check automatically when you select both words.
     
     ---
@@ -164,10 +164,8 @@
 
     ## Matching Games
 
-    Time to practice! Match the Oravia words with their English meanings.
-
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
-
+    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
     Click one word from each column to match them. The game will check automatically when you select both words.
 
     After completing the Exercises and Review, try it again to see how much you've improved.

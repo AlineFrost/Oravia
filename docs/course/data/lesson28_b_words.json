@@ -1,0 +1,130 @@
+{
+  "lesson_id": "lesson28_b",
+  "cluster": "to",
+  "cluster_meaning": "distress",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "Round 1",
+      "buckets": [
+        "h",
+        "u",
+        "b"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 2,
+      "title": "Round 2",
+      "buckets": [
+        "h",
+        "u",
+        "b"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 3,
+      "title": "Round 3",
+      "buckets": [
+        "h",
+        "b"
+      ],
+      "words_per_bucket": 1,
+      "allow_repeats": true
+    },
+    {
+      "round": 4,
+      "title": "Round 4",
+      "buckets": [
+        "h",
+        "u"
+      ],
+      "words_per_bucket": 1,
+      "allow_repeats": true
+    },
+    {
+      "round": 5,
+      "title": "Round 5",
+      "buckets": [
+        "h"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    },
+    {
+      "round": 6,
+      "title": "Round 6",
+      "buckets": [
+        "h",
+        "u"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    },
+    {
+      "round": 7,
+      "title": "Round 7",
+      "buckets": [
+        "h",
+        "b"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    },
+    {
+      "round": 8,
+      "title": "Round 8",
+      "buckets": [
+        "u",
+        "b"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson28_b_h_1",
+      "oravia": "tohdin",
+      "english": "sorry",
+      "bucket": "h"
+    },
+    {
+      "id": "lesson28_b_h_2",
+      "oravia": "anopu",
+      "english": "lose",
+      "bucket": "h"
+    },
+    {
+      "id": "lesson28_b_u_1",
+      "oravia": "toului",
+      "english": "tired",
+      "bucket": "u"
+    },
+    {
+      "id": "lesson28_b_u_2",
+      "oravia": "toumo",
+      "english": "hungry",
+      "bucket": "u"
+    },
+    {
+      "id": "lesson28_b_b_1",
+      "oravia": "tovei",
+      "english": "illness",
+      "bucket": "b"
+    },
+    {
+      "id": "lesson28_b_b_2",
+      "oravia": "wimwa",
+      "english": "lake",
+      "bucket": "b"
+    },
+    {
+      "id": "lesson28_b_b_3",
+      "oravia": "viwa",
+      "english": "blood",
+      "bucket": "b"
+    }
+  ]
+}

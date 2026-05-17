@@ -1,0 +1,42 @@
+{
+  "lesson_id": "lesson09",
+  "cluster": "an",
+  "cluster_meaning": "volitional actions",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "Round 1",
+      "buckets": ["e", "o", "n"],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 2,
+      "title": "Round 2",
+      "buckets": ["e", "i", "n"],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 3,
+      "title": "Round 3",
+      "buckets": ["i", "n"],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 4,
+      "title": "Round 4",
+      "buckets": ["e", "o", "i", "n"],
+      "words_per_bucket": 1,
+      "allow_repeats": true
+    }
+  ],
+  "words": [
+    {"id": "e_1", "oravia": "anefene", "english": "rest", "bucket": "e"},
+    {"id": "e_2", "oravia": "anepou", "english": "stop", "bucket": "e"},
+    {"id": "i_1", "oravia": "anidai", "english": "want", "bucket": "i"},
+    {"id": "i_2", "oravia": "anifou", "english": "need", "bucket": "i"},
+    {"id": "o_1", "oravia": "anona", "english": "give", "bucket": "o"},
+    {"id": "n_1", "oravia": "anye", "english": "make", "bucket": "n"},
+    {"id": "n_2", "oravia": "ando", "english": "can", "bucket": "n"},
+    {"id": "n_3", "oravia": "anvu", "english": "move", "bucket": "n"}
+  ]
+}

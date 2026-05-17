@@ -1,0 +1,114 @@
+{
+  "lesson_id": "lesson30_b",
+  "cluster": "lu",
+  "cluster_meaning": "weather",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "Round 1",
+      "buckets": [
+        "n",
+        "p",
+        "l"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 2,
+      "title": "Round 2",
+      "buckets": [
+        "n",
+        "l"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 3,
+      "title": "Round 3",
+      "buckets": [
+        "l"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    },
+    {
+      "round": 4,
+      "title": "Round 4",
+      "buckets": [
+        "n",
+        "p",
+        "l"
+      ],
+      "words_per_bucket": 1,
+      "allow_repeats": true
+    },
+    {
+      "round": 5,
+      "title": "Round 5",
+      "buckets": [
+        "n",
+        "p"
+      ],
+      "words_per_bucket": 1,
+      "allow_repeats": true
+    },
+    {
+      "round": 6,
+      "title": "Round 6",
+      "buckets": [
+        "p",
+        "l"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    },
+    {
+      "round": 7,
+      "title": "Round 7",
+      "buckets": [
+        "n",
+        "l"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson30_b_n_1",
+      "oravia": "lunu",
+      "english": "winter",
+      "bucket": "n"
+    },
+    {
+      "id": "lesson30_b_n_2",
+      "oravia": "lunpili",
+      "english": "spring",
+      "bucket": "n"
+    },
+    {
+      "id": "lesson30_b_p_1",
+      "oravia": "aslufu",
+      "english": "breath",
+      "bucket": "p"
+    },
+    {
+      "id": "lesson30_b_l_1",
+      "oravia": "lufiva",
+      "english": "cold",
+      "bucket": "l"
+    },
+    {
+      "id": "lesson30_b_l_2",
+      "oravia": "lusari",
+      "english": "sun",
+      "bucket": "l"
+    },
+    {
+      "id": "lesson30_b_l_3",
+      "oravia": "pohem",
+      "english": "hot",
+      "bucket": "l"
+    }
+  ]
+}

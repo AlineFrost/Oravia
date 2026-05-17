@@ -1,4 +1,4 @@
-# Building Blocks (beta)
+# Building Blocks
 
 Oravia words are built from **(sub)clusters** (sounds of the semantic group) + **roots** (sounds connecting words across multiple clusters). Not all words have shared roots. When they do, the meaning frequently makes more sense when combined with the (sub)cluster meaning.
 
@@ -94,11 +94,14 @@ Use the filters to explore.
         : '<span style="color:#9B7700;font-weight:600;">root</span>';
       const soundColor = isSub ? '#1a6aa8' : '#9B7700';
 
+      const oraviaLinks = r.oravia.map(w =>
+        '<a href="/content/vocabulary/" data-vw="'+w+'" class="vocab-link" style="color:#2c6e9e;text-decoration:none;">'+w+'</a>'
+      ).join(', ');
       tr.innerHTML =
         '<td style="padding:0.28rem 0.5rem;">'+typeLabel+'</td>'+
         '<td style="padding:0.28rem 0.5rem;font-weight:700;color:'+soundColor+';">'+r.sound+'</td>'+
         '<td style="padding:0.28rem 0.5rem;color:#444;">'+r.meaning+'</td>'+
-        '<td style="padding:0.28rem 0.5rem;color:#2c6e9e;">'+r.oravia.join(', ')+'</td>'+
+        '<td style="padding:0.28rem 0.5rem;">'+oraviaLinks+'</td>'+
         '<td style="padding:0.28rem 0.5rem;color:#5a6a7a;">'+r.english.join(', ')+'</td>'+
         '<td style="padding:0.28rem 0.5rem;color:#6a7a5a;font-size:0.78rem;">'+(r.natural_language||'')+'</td>'+
         '<td style="padding:0.28rem 0.3rem;text-align:right;color:#ccc;font-size:0.75rem;">'+(i+1)+'</td>';
@@ -118,6 +121,61 @@ Use the filters to explore.
   document.getElementById('bb-search').addEventListener('input', render);
   document.getElementById('bb-type').addEventListener('change', render);
 
-  render();
+  // Click on oravia word → go to vocabulary filtered to that word
+  document.addEventListener('click', function(e) {
+    const link = e.target.closest('.vocab-link');
+    if (link) {
+      sessionStorage.setItem('vocab_exact', link.dataset.vw);
+    }
+  });
+
+  // Exact sound match from vocabulary page
+  function applyExactMatch() {
+    const exact = sessionStorage.getItem('bb_exact');
+    if (exact) {
+      sessionStorage.removeItem('bb_exact');
+      // Filter allData to exact sound match only
+      const tbody = document.getElementById('bb-body');
+      tbody.innerHTML = '';
+      const matches = allData.filter(r => r.sound === exact);
+      document.getElementById('bb-count').textContent = matches.length + ' entries';
+      matches.forEach((r, i) => {
+        const tr = document.createElement('tr');
+        const isSub = r.type === 'subcluster';
+        const bg = isSub ? '#f0f7ff' : '#fffef0';
+        tr.style.background = bg;
+        const typeLabel = isSub
+          ? '<span style="color:#1a6aa8;font-weight:600;">subcluster</span>'
+          : '<span style="color:#9B7700;font-weight:600;">root</span>';
+        const soundColor = isSub ? '#1a6aa8' : '#9B7700';
+        const oraviaLinks = r.oravia.map(w =>
+          '<a href="/content/vocabulary/" data-vw="'+w+'" class="vocab-link" style="color:#2c6e9e;text-decoration:none;">'+w+'</a>'
+        ).join(', ');
+        tr.innerHTML =
+          '<td style="padding:0.28rem 0.5rem;">'+typeLabel+'</td>'+
+          '<td style="padding:0.28rem 0.5rem;font-weight:700;color:'+soundColor+';">'+r.sound+'</td>'+
+          '<td style="padding:0.28rem 0.5rem;color:#444;">'+r.meaning+'</td>'+
+          '<td style="padding:0.28rem 0.5rem;">'+oraviaLinks+'</td>'+
+          '<td style="padding:0.28rem 0.5rem;color:#5a6a7a;">'+r.english.join(', ')+'</td>'+
+          '<td style="padding:0.28rem 0.5rem;color:#6a7a5a;font-size:0.78rem;">'+(r.natural_language||'')+'</td>'+
+          '<td style="padding:0.28rem 0.3rem;text-align:right;color:#ccc;font-size:0.75rem;">'+(i+1)+'</td>';
+        tbody.appendChild(tr);
+      });
+      // Add clear filter button
+      const controls = document.getElementById('bb-controls');
+      if (!document.getElementById('bb-clear')) {
+        const btn = document.createElement('button');
+        btn.id = 'bb-clear';
+        btn.textContent = '✕ Show all';
+        btn.style.cssText = 'padding:0.4rem 0.75rem;border:2px solid #4a9cd6;border-radius:6px;background:white;color:#4a9cd6;cursor:pointer;font-family:inherit;font-size:0.9rem;';
+        btn.onclick = () => { btn.remove(); render(); };
+        controls.appendChild(btn);
+      }
+      return;
+    }
+    render();
+  }
+
+  applyExactMatch();
 })();
 </script>

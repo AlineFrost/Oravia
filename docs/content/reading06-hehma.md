@@ -1,6 +1,6 @@
 # The Monster in the Tunnel
 
-**Level:** Fluency  
+**Level:** Expansion    
 **Topic:** The character is walking in the sewer when they see a monster
 
 ---

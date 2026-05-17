@@ -6,117 +6,116 @@
     {
       "round": 1,
       "title": "Round 1",
-      "buckets": ["n"],
+      "buckets": [
+        "n"
+      ],
       "words_per_bucket": 3
     },
     {
       "round": 2,
       "title": "Round 2",
-      "buckets": ["i"],
+      "buckets": [
+        "i"
+      ],
       "words_per_bucket": 3
     },
     {
       "round": 3,
       "title": "Round 3",
-      "buckets": ["j"],
+      "buckets": [
+        "j"
+      ],
       "words_per_bucket": 4
     },
     {
       "round": 4,
       "title": "Round 4",
-      "buckets": ["g"],
+      "buckets": [
+        "g"
+      ],
       "words_per_bucket": 2
     },
     {
       "round": 5,
       "title": "Round 5",
-      "buckets": ["g"],
-      "words_per_bucket": 2
+      "buckets": [
+        "g"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
     }
   ],
   "words": [
     {
-      "id": "n_1",
+      "id": "lesson16_n_1",
       "oravia": "tam",
       "english": "1",
       "bucket": "n"
     },
     {
-      "id": "n_2",
+      "id": "lesson16_n_2",
       "oravia": "tor",
       "english": "2",
       "bucket": "n"
     },
     {
-      "id": "n_3",
+      "id": "lesson16_n_3",
       "oravia": "par",
       "english": "3",
       "bucket": "n"
     },
     {
-      "id": "i_1",
+      "id": "lesson16_i_1",
       "oravia": "bale",
       "english": "4",
       "bucket": "i"
     },
     {
-      "id": "i_2",
+      "id": "lesson16_i_2",
       "oravia": "alui",
       "english": "5",
       "bucket": "i"
     },
     {
-      "id": "i_3",
+      "id": "lesson16_i_3",
       "oravia": "teva",
       "english": "6",
       "bucket": "i"
     },
     {
-      "id": "j_4",
+      "id": "lesson16_j_4",
       "oravia": "peri",
       "english": "7",
       "bucket": "j"
     },
     {
-      "id": "j_1",
+      "id": "lesson16_j_1",
       "oravia": "auta",
       "english": "8",
       "bucket": "j"
     },
     {
-      "id": "j_2",
+      "id": "lesson16_j_2",
       "oravia": "teda",
       "english": "9",
       "bucket": "j"
     },
     {
-      "id": "j_3",
+      "id": "lesson16_j_3",
       "oravia": "das",
       "english": "10",
       "bucket": "j"
     },
     {
-      "id": "g_1",
+      "id": "lesson16_ge_new1",
       "oravia": "gerina",
       "english": "money",
       "bucket": "g"
     },
     {
-      "id": "g_2",
+      "id": "lesson16_ge_new2",
       "oravia": "gelna",
       "english": "buy",
-      "bucket": "g"
-    },
-    {
-      "id": "g_3",
-      "oravia": "gelsar",
-      "english": "bill",
-      "bucket": "g"
-    }, 
-    {
-      "id": "g_4",
-      "oravia": "geldove",
-      "english": "sell",
       "bucket": "g"
     }
   ]
