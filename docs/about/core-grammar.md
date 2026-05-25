@@ -50,6 +50,7 @@ If you pronounce E and O closed like in Spanish (IPA e and o), that's fine too!
 | run (you) | runa (you, pl) |
 | hay (he/she/they) | haya (they, pl) |
 
+Pronouns are often dropped when context is clear. Affirmative sentences default to *nim* and questions to *run*, so you don't repeat them as much as in English.
 
 **Possessive:** Use the pronoun before the word 
 ```
@@ -84,11 +85,15 @@ a nim i anona e mocen u run
     I    give chocolate to you
 ```
 
-Because roles are marked (a/e/u), word order is flexible and you can copy the natural order of your own language. 
+*More often (nim dropped in affirmative): i anona e mocen u run*
 
-Since this website is in English, I will follow English word order in the core grammar examples.
+**Mnemonics:** **A**ctor [subject] · **I**nitiates [verb] · **E**ngaging [direct object] · **U**nto [indirect object]
 
-We also use **a** to say something is something. For example, *a nim a yalen* = I am tall · *a bo a yamirli* = the house is old.
+You may drop markers when context is clear. *a* drops the easiest, and then *e*.
+
+Because roles are marked, word order is flexible and you can copy the natural order of your own language. Since this website is in English, I will follow English word order in the core grammar examples. In natural language encounter, other orders such as *e mocen u run i anona* are also common.
+
+We also use **a...a** to say something is something. For example, *a nim a yalen* = I am tall · *a bo a yamirli* = the house is old.
 
 ---
 
@@ -358,6 +363,8 @@ oipoh = exciting
 ---
 
 Try combining them now. *nim i dairan e mogali* · *i dami a yuba mo* · *a bo a yamirli* · *hay i anvu, mai nim i doum*
+
+Don't worry too much about perfect grammar, the goal is communication.
 
 **Ready to go further?**
 

@@ -33,16 +33,17 @@ nav:
   - Home: index.md
   - About:
     - What is Oravia?: about/what-is-oravia.md
-    - 10-Minute Grammar: about/core-grammar.md
     - About Me: about/about-me.md
     - Get Involved: about/get-involved.md
     - Vocabulary FAQ: about/vocab.md
-  - Content:
+  - Quick Reference:
+    - Cheat Sheet: about/cheat-sheet.md
+    - 10-Minute Grammar: about/core-grammar.md
     - Vocabulary: content/vocabulary.md
-    - Grammar: content/oravia-grammar.md
     - Building Blocks: content/building_blocks.md
-    - Blocks Cheat Sheet: content/cheat.md
     - Semantic Explorer: content/semantic_explorer.md
+  - Content:
+    - Comprehensive Grammar: content/oravia-grammar.md
     - Craft & Style: content/oravia-style.md
     - Readings: content/readings.md
     - Media: content/media.md
