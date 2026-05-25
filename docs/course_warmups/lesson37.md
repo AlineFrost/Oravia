@@ -140,11 +140,25 @@
     Here's another word with this root:  
     **railiu** = foreign, foreigner (society + other), just like neliu = other (quantifier + other)  
     
-    Now try to write 3 sentences using **NE** words.
-    
-    <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
-    
-    
+    Now let's see some words in context:
+
+    A Lina su Ana a mir li eofa. Cali falen, lirular i mo en bo de famei de Ana en tevaen limel. Noli haya i roesau en boemo roedom, su litam i dami a roejo.
+
+    Tamen en liyar en lunu. A luyol a lumbo, a lufu a lufiva.
+
+    *roesau = study · roedom = school · roejo = exam*
+
+    <div style="text-align: center; margin: 2rem 0;">
+    <button onclick="document.getElementById('l37context').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+        Click for Translation
+    </button>
+    </div>
+
+    <div id="l37context" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+    <p style="margin: 0 0 0.5rem 0;">Lina and Ana are longtime friends. When they were children, they used to eat at Ana's family's house on Friday evenings. Now they study at cooking school, and today there is an exam.</p>
+    <p style="margin: 0;">Monday morning in winter. The sky is cloudy, the wind is cold.</p>
+    </div>
+
     You are ready for the exercise now!
     
  

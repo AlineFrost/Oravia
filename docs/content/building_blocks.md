@@ -20,7 +20,7 @@ Use the filters to explore.
 <table id="bb-table" style="width:100%; border-collapse:collapse; font-size:0.82rem; line-height:1.3;">
   <thead>
     <tr id="bb-header" style="background:#e3f2fd; cursor:pointer; user-select:none;">
-      <th data-col="type"    style="position:sticky;top:0;background:#e3f2fd;padding:0.35rem 0.5rem;text-align:left;  color:#3182bd;border-bottom:2px solid #4a9cd6;white-space:nowrap;z-index:1;">Type ↕</th>
+      <th data-col="type"    style="position:sticky;top:0;background:#e3f2fd;padding:0.35rem 0.5rem;text-align:left;  color:#3182bd;border-bottom:2px solid #4a9cd6;white-space:nowrap;z-index:1;width:90px;min-width:90px;">Type ↕</th>
       <th data-col="sound"   style="position:sticky;top:0;background:#e3f2fd;padding:0.35rem 0.5rem;text-align:left;  color:#3182bd;border-bottom:2px solid #4a9cd6;white-space:nowrap;z-index:1;">Sound ↕</th>
       <th data-col="meaning" style="position:sticky;top:0;background:#e3f2fd;padding:0.35rem 0.5rem;text-align:left;  color:#3182bd;border-bottom:2px solid #4a9cd6;white-space:nowrap;z-index:1;">Meaning ↕</th>
       <th data-col="oravia"  style="position:sticky;top:0;background:#e3f2fd;padding:0.35rem 0.5rem;text-align:left;  color:#3182bd;border-bottom:2px solid #4a9cd6;z-index:1;">Words (Oravia)</th>
@@ -98,7 +98,7 @@ Use the filters to explore.
         '<a href="/content/vocabulary/" data-vw="'+w+'" class="vocab-link" style="color:#2c6e9e;text-decoration:none;">'+w+'</a>'
       ).join(', ');
       tr.innerHTML =
-        '<td style="padding:0.28rem 0.5rem;">'+typeLabel+'</td>'+
+        '<td style="padding:0.28rem 0.5rem;width:90px;min-width:90px;">'+typeLabel+'</td>'+
         '<td style="padding:0.28rem 0.5rem;font-weight:700;color:'+soundColor+';">'+r.sound+'</td>'+
         '<td style="padding:0.28rem 0.5rem;color:#444;">'+r.meaning+'</td>'+
         '<td style="padding:0.28rem 0.5rem;">'+oraviaLinks+'</td>'+
@@ -152,7 +152,7 @@ Use the filters to explore.
           '<a href="/content/vocabulary/" data-vw="'+w+'" class="vocab-link" style="color:#2c6e9e;text-decoration:none;">'+w+'</a>'
         ).join(', ');
         tr.innerHTML =
-          '<td style="padding:0.28rem 0.5rem;">'+typeLabel+'</td>'+
+          '<td style="padding:0.28rem 0.5rem;width:90px;min-width:90px;">'+typeLabel+'</td>'+
           '<td style="padding:0.28rem 0.5rem;font-weight:700;color:'+soundColor+';">'+r.sound+'</td>'+
           '<td style="padding:0.28rem 0.5rem;color:#444;">'+r.meaning+'</td>'+
           '<td style="padding:0.28rem 0.5rem;">'+oraviaLinks+'</td>'+

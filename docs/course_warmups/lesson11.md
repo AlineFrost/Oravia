@@ -246,16 +246,13 @@
 ---
 
 <script>
-function initWarmup() {
+document.addEventListener('DOMContentLoaded', function() {
             const warmupWords = [
-    {id: "mo_5", oravia: "moulu",  english: "milk"},
-    {id: "mo_3", oravia: "moyi",   english: "sugar"},
-    {id: "mo_8", oravia: "molcui", english: "bowl"},
-    {id: "mo_7", oravia: "moalen",  english: "banana"},
-    {id: "mo_2", oravia: "mocen",  english: "chocolate"},
-    {id: "mo_6", oravia: "moaria", english: "apple"},
-    {id: "mo_4", oravia: "mouje",  english: "drink"},
-    {id: "mo_1", oravia: "mogali", english: "coffee"},
+    {id: "wu_moaria_1", oravia: "moaria", english: "apple"},
+    {id: "wu_molcui_2", oravia: "molcui", english: "bowl"},
+    {id: "wu_mouje_3", oravia: "mouje", english: "drink"},
+    {id: "wu_mocen_4", oravia: "mocen", english: "chocolate"},
+    {id: "wu_yalen_5", oravia: "yalen", english: "long, tall"},
     ];
     function renderSelfAssessment() {
         const container = document.getElementById('self-assessment-container');

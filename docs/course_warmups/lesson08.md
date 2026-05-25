@@ -11,7 +11,7 @@
 === "Grammar"
 
 
-    Before our lesson, let's watch this 1-minute video to practice some of what we've learned in context!
+    Before our lesson, let's watch this 1-minute video to practice some of what we've learned in context! In the video, the word *su* appears; it means *and*.
     
     <video controls width="720">
         <source src="/videos/lesson5.mp4" type="video/mp4">

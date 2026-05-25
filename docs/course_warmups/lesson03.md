@@ -89,6 +89,12 @@
 
     . There are no articles, conjugation or plural (just plural for personal pronouns).  
     
+    If it's helpful to you, here's some mnemonics for the markers:
+    
+    **A**ctor  
+    **I**nitiate  
+    **E**ngaged  
+    
     ## Adjectives
     
     Remember words can work as a noun, adjective, adverb, or verb? That is, their meaning and role is flexible depending on the sentence.

@@ -5,7 +5,7 @@
 
 It's a constructed language with a small vocabulary and a simple and flexible grammar.
 
-Oravia's approach is empirical: it's inspired by research findings, built based on word-embeddings from internet-trained tokens, and reiterated with data from learners.
+Oravia's approach is empirical: it's inspired by research findings, built based on word-embeddings from internet-trained tokens, and iterated with data from learners.
 
 Paired with sound associations and stylistic options, Oravia aims to be easy, expressive and pleasant.
 

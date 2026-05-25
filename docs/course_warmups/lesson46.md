@@ -1,7 +1,7 @@
 # Lesson 46: Numbers Pt.2
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into five sections: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order. After you finish, *try the Exercises and Review again* to see how much you've improved.
+    Every lesson is divided into five sections: **Warm-Up**, **Vocabulary**, **Reading**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -36,97 +36,35 @@
     
     </div>
     
-=== "Grammar"
-
-    ## Numbers Part 2
-    
-    This lesson, we will learn how to say numbers beyond 99 and how to express some number-related vocabulary!
-    
-    First, bigger numbers. To do that, we use *ponen*, which means power. The implicit number, as with ne gradation, is 10. Like this:
-    
-    ``` 
-    (po)nen tor = [10] to the power of 2 = 100
-    (po)nen par = [10] to the power of 3 = 1000    
-    ```
-    
-    How would you say one million? How about a billion? Tip: the first has 6 zeros and the latter has 9.
-    
-    <div style="text-align: center; margin: 2rem 0;">
-    <button onclick="document.getElementById('ubcluster4-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
-        Click to Reveal the Answer
-    </button>
-    </div>
-    
-    <div id="ubcluster4-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;"> (Po)nen teva and (po)nen tenda.</p>
-    </div>
-    
-    We also use numbers to talk about elements of the periodic table. For that, we use *pogai*, or atom:
-    
-    ``` 
-    iron, gold, silver, calcium, oxygen
-    ```
-    
-    We already know the markers *a* (subject), *e* (direct object), *i* (verb) and *u* (indirect object). This lesson we will learn our last marker, *o*. 
-    
-    We use *o* to give emphasis to what comes after it. Here are some examples:
-    
-    ``` 
-    o nim! = it's me!  
-    o nima i anvu = WE will go  
-    run o faibor = you're the one  
-    o faejal = the man  
-    i anona o u run = I give it to YOU (and not someone else)
-    ```
-    
-    If we use it before the verb, we emphasize the action. Without a specific subject, it can be read as an order:
-    
-    ``` 
-    o i anona! = give it!
-    o yadetu! = stop!
-    ```
-    
-    If we use it before the verb complement, we emphasize the complement and de-emphasize the subject. This is how we build passive voice:
-    
-    ``` 
-    o e leirih i vonlu = the tree was touched
-    i yean o e yemiodu = the pillow was sewn
-    a eofa i vanpai o e falen = the kid was kicked by the friend
-    ```
-   
-    To sum up:
-  
-    ```     
-    o marker = emphasis
-    o i [verb] = imperative, orders (emphasis on the action)
-    o e [object] = passive (emphasis on the object)
-    ```
-    
-    Now try to create 3 sentences using *o*.
-    
-    <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
-    
-
-    
 === "Vocabulary"
 
-    ## VO CLUSTER
+    Wait, does this lesson start on vocabulary?  
+    That's right! We have already covered all the grammar for the course. Congratulations!  
+    There are so many nuanced constructions you have already seen, like ar/is, ne gradation, iliciu/daehun conditionals, tane/vil should and must, ga/anodu comparatives...  
     
-    Recall we already saw another cluster with *v*, the *VA* Cluster? We will learn another cluster related to that. The **VO** Cluster!
+    For the rest of the course, we will now focus on vocabulary!  
+    
+    So here's what it is going to be like:  
+    
+    Every lesson will now start on vocabulary. Because there is no more grammar, we will start introducing 1-2 clusters per lesson. Even though we will see more words in the lessons, the number of new core words repeated in the matching games, warm ups and exercises will stay similar.  
+    
+    After vocabulary, we will have a reading! The goal is to use the words and grammar you have learned in context. This will speed up your language skills and prepare you to immerse on content after the course.     
+    
+    So let's go!  
+    
+    ## WA CLUSTER
+    
+    Let's see our first cluster of the day, **WA**!
     
     | Oravia | English |
     |--------|---------|
-    | vonmo | lip |
-    | vonici | nail |
-    | vonlu | skin |
-    | vonyas | hair |
-    | vosvo | soap |
-    | vosfan | brush |
-    | vosfou | dry |
-    | vosvosi | rub |
+    | wayol | ocean |
+    | wayoyo | float |
+    | wanon | swim |
+    | wami | fish |
+    | wayurtan | whale |
     
-   
-    What do you think **VO** words are about?
+    What do you think **WA** words are about?
     
     <div style="text-align: center; margin: 2rem 0;">
     <button onclick="document.getElementById('subcluster4-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
@@ -135,49 +73,127 @@
     </div>
     
     <div id="subcluster4-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;"> <strong>VO</strong> means <strong>hygiene and personal care</strong>.</p>
+    <p style="margin: 0;"> <strong>WA</strong> is related to <strong>ocean and water</strong>.</p>
     </div>
     
-    Can you identify what the two subclusters are? What is their sound and their meaning? 
-
+    !!! info "🌍 Sound Connections"
+        Non means path, so wanon (water + path = swim) has the same root as elenon (self-expansion + path = journey).
+    
+    
+    ## DO CLUSTER
+    
+    Moving on to our second cluster of the day, **DO**!
+    
+    | Oravia | English |
+    |--------|---------|
+    | dohtos | expel |
+    | dohcu | obey |
+    | dorel | tolerate |
+    | donu | tendency |
+    | dohti | punish |
+  
+    What do you think **DO** words are about?
+    
     <div style="text-align: center; margin: 2rem 0;">
-    <button onclick="document.getElementById('subcluster-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+    <button onclick="document.getElementById('subcluster4-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
         Click to Reveal the Answer
     </button>
     </div>
     
-    <div id="subcluster-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;"> <strong>VON</strong> is for <strong>external body surfaces</strong> and <strong>VOS</strong> is for <strong>grooming</strong>.</p>
+    <div id="subcluster4-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+    <p style="margin: 0;"> <strong>DO</strong> is related to <strong>regulations and control</strong>.</p>
     </div>
     
+    !!! info "🌍 Sound Connections"
+        Yoyo is mimicking a gentle swinging or bobbing. 
+        
+    **doyoyo** = to oscillate (regulate + swinging), just like wayoyo = floating (water + swinging) 
     
-    Ce yo rune vonlu, vonyas, su vardei? 
+    You are ready for the reading now!
+    
+=== "Reading"
+    
+    Starting on this lesson, we will have readings. Each time, they will be different types of genres and topics. Today, we will read a famous Brazilian poem.
+    
+    There will be some things you do not know in the readings to mirror real language encounter. Read it once and see if you can get the gist of it, and then try it again checking the tips below. 
+    
+    Before you dive in, here are a few key words:
+    
+    omlia = song, to sing  
+    muhpili = bird  
+    jele  = field  
+    oimin = pleasure, pleasant  
+  
+    
+    Omlia de Nordau Ledom
+
+    en nim ledom, a 'palmae
+    cadom a 'turdus i omlia /
+    a muhpili ca i omlia noi,
+    i omlia noum muhpili en ho noi
+
+    en nima luyol, neron 'heoyar
+    en nima waa jele, neron leipili
+    en nima leayo, neron elemi
+    nima elemi neron eleyel
+
+    i lirul-iliro, cali netam, en limel
+    neron oimin en ho noi /
+    a 'palmae en nim ledom
+    cadom i omlia a 'turdus 
+    
+    by Gonçalves Dias, 1843
+    
+    *palmae = yalena leirih ca i none e yalwol jocai en anodu. Lirul en jensui wayol (tall tree that has broad leaves in the top. It is frequently next to the sea).  
+    *turdus rufiventris = yalgai, yogali su yopohsari muhpili ca i omlia (small, brown and orange bird that sings).
+    
+    
+    **Tips**
+
+    ca = that, which  
+    cadom = where (connector)  
+    en = in, at  
+    'heoyar = star, coined 
+    ho noi = there (literally: not-here)  
+    leayo = garden  
+    ledom = land  
+    leipili = flower  
+    leno = soil, ground  
+    limel = night  
+    luyol = sky  
+    netam = only  
+    neron = more  
+    no = like, similar to  
+    noi = here  
+    waa jele = water-field (floodplain)
+    
+    <div style="text-align: center; margin: 2rem 0;">
+    <button onclick="document.getElementById('poem-translation').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+        Click to Reveal Original
+    </button>
+    </div>
+
+    <div id="poem-translation" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+    <p style="margin: 0 0 0.5rem 0;">Original in English Translation:</p>
+    <p style="margin: 0 0 0.5rem 0;">In my land, there are palm trees</p>
+    <p style="margin: 0 0 0.5rem 0;">where the turdus sings</p>
+    <p style="margin: 0 0 0.5rem 0;">The birds that sing here</p>
+    <p style="margin: 0 0 0.5rem 0;">do not sing like the birds there</p>
+    <p style="margin: 0 0 0.5rem 0;"></p>
+    <p style="margin: 0 0 0.5rem 0;">In our sky, more stars</p>
+    <p style="margin: 0 0 0.5rem 0;">In our floodplains, more flowers</p>
+    <p style="margin: 0 0 0.5rem 0;">In our gardens, more life</p>
+    <p style="margin: 0 0 0.5rem 0;">Our life has more love</p>
+    <p style="margin: 0 0 0.5rem 0;"></p>
+    <p style="margin: 0 0 0.5rem 0;">I dwell, when alone, at night:</p>
+    <p style="margin: 0 0 0.5rem 0;">there are more pleasures there</p>
+    <p style="margin: 0 0 0.5rem 0;">In my land, there are palm trees</p>
+    <p style="margin: 0 0 0.5rem 0;">where the turdus sings</p>
+    </div>
+
+    Now in 1 or 2 sentences, try to write what this poem is about:
     
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
-    
-    <div style="text-align: center; margin: 2rem 0;">
-    <button onclick="document.getElementById('subcluster5-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
-        Click to Reveal Translation
-    </button>
-    </div>
-    
-    <div id="subcluster5-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;">Possible translation: What is the color of your skin, hair, and eyes?</p>
-    </div>
-    
-    <div style="text-align: center; margin: 2rem 0;">
-    <button onclick="document.getElementById('subcluster6-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
-        Click to Reveal Answer
-    </button>
-    </div>
-    
-    <div id="subcluster6-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;">Example answer: Neloa yogali. </p>
-    </div>
-    
-    You are ready for the exercise now!
-    
- 
 
 === "Exercise 1"
 

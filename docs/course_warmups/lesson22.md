@@ -47,7 +47,7 @@
     <p style="margin: 0 0 0.5rem 0;">Baleen liperi (Thurs), Aluien liperi (Fri), Tevaen liperi (Sat), Perien liperi (Sunday).</p>
     </div>
     
-    In speech, people may drop *liperi* and say just *Tamen*, *Toren*, *Paren*, *Baleen*, *Aluien*, *Tevaen*, and *Perien*. In writing, the full form is preferred.
+    In speech, people may drop *liperi* and say just *Tamen*, *Toren*, *Paren*, *Baleen*, *Aluien*, *Tevaen*, and *Perien*. In writing, the full form may be preferred.
     
     For months, we use numbers 8–12: *auta, tenda, das, dastam, dastor.* For dates, we specify the month and day, like this:
     
@@ -85,11 +85,31 @@
     <p style="margin: 0 0 0.5rem 0;">When is your birthday? Possible answer: Lipardas par su Litam tam / Litam tam su Lipardas par (March 1st). </p>
     </div>
     
+    Finally, there are two more important words when it comes to time. *Lar* is used for a general, unspecified past, and *lis* is used for a general, unspecified future. For example:
+    
+    ```
+    Lar, i dami a falen = once upon a time, there was a child  
+    Lis, i ilian = one day, I will know  
+    ```
+    
+    These words can also be used to mean *last* and *next* when followed by a time period, like this:  
+        
+    ```
+    Lar lidastor = the previous year / last year
+    Lis lipardas = the following month / next month 
+    ```
+    
+    The reference is usually the present, so when someone says *lis or lar + time*, it usually means last or next year / month / week. But remember, -ar and -is work as relative time, so if the narrative is not in the present, they may mean the previous / the following. 
+    
     To sum up:
     ```
     Lipardas tam, lipardas tor... = January, February... 
     Litam tam, litam tor... = day 1, day 2...
     Tamen liperi, toren liperi... = Monday, Tuesday...
+    Lar = unspecified past, once
+    Lar + time period = the previous year / month / week...
+    Lis = unspecific future, one day
+    Lis + time period = the following year / month / week...
     ```
    
 === "Vocabulary"

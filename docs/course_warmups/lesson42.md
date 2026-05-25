@@ -1,7 +1,7 @@
 # Lesson 42: Compounds / VO Cluster
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into five sections: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order. After you finish, *try the Exercises and Review again* to see how much you've improved.
+    Every lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -60,7 +60,7 @@
     
     Also, they are used when you want to be more specific. Most of the time, context is clear and simply saying *apafene* for couch is good enough.
     
-    We can also use created words, or imported words, to indicate compounds. We will look into created words in the Extension course, but for now, you should know that words not in the official list must be preceded by '. This includes these two types of imports:
+    We can also use created words, or imported words, to indicate compounds. Words not in the official list must be preceded by '. This includes these two types of imports:
     
     1) Names, languages, locations, regional dishes, ethnicities, religions, and other cultural referents. In these cases, we should use the word people that belong to that group use themselves. For example, 'Italia is Italy and 'Nihongo is Japanese language.
     
@@ -75,14 +75,29 @@
     
     You may also find people using *Palmae* to refer to palm trees, or *Turdus* to refer to a robin. Scientific names make the referent clear (different languages have different conceptual overlaps of flora and fauna), avoids adding thousands of created words to the vocabulary, and we get to learn new things!  
    
+    Finally, there is another way to create new meanings: hyphenated words. While -a compounds are usually created with modifiers describing a single concept, hyphenated expressions are used to join together two meanings, like this:
+    
+    ``` 
+    falen-li = child-time, childhood  
+    i toului-asfe = tired-stop, to give up from exhaustion  
+    ```
+    
+    We also use it for other verbs, to make it easier:
+    
+    ``` 
+    i bo-bortal = bortal en bo, to house-enter  
+    i yamirli-davio = davio no yamirli, to old-become  
+    ```
+    
+    If you are unsure whether something should be a compound or a hyphenated expression, go with whatever feels right to you. Chances are, either works!
+    
     To sum up:
   
     ```     
-    modifying word +a = compound (read as one concept)
+    modifying word +a = compound, modifiers creating a single concept
     new or imported word = indicate with ' and describe in footnotes
-    ```
-    
-    These do not become new vocabulary! We should use compounds to define new and imported words so that the vocabulary does not grow. 
+    hyphen = two words joined for more fine-grained meaning
+    ``` 
     
     Now try to make compounds to express *sunset*, *diary*, and *tea*.
     
@@ -94,7 +109,7 @@
 
     ## VO CLUSTER
     
-    Recall we already saw another cluster with *v*, the *VA* Cluster? We will learn another cluster related to that. The **VO** Cluster!
+    Recall we already saw another cluster with *v*, the *VA* Cluster? We will learn a related cluster. The **VO** Cluster!
     
     | Oravia | English |
     |--------|---------|

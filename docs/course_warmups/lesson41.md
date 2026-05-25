@@ -1,7 +1,7 @@
 # Lesson 41: JO Cluster
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into five sections: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order. After you finish, *try the Exercises and Review again* to see how much you've improved.
+    Every lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -139,14 +139,11 @@
     |--------|---------|
     | joliri | glass |
     | joleni | plastic |
-    | jolem | box |
-    | jovabo | cover |
     | joldur | metal |
     | joniu | piece |
     | jomo | plate |
     | jolace | rubber |
     | jocai | sheet |
-    
     
     What do you think the **JO** Cluster is about?
     
@@ -172,15 +169,12 @@
     <p style="margin: 0;"> <strong>JOL</strong> is for basic substances used to make objects.</p>
     </div>
     
-    Notice that *jolem* (box) is not part of the subcluster, it is formed by jo + lem. (Do you remember any other words with lem?).
-    
     Notice that these words can also be used in other ways, for example:
     
     | Oravia | English |
     |--------|---------|
     | joliri | glass, transparent |
     | jolem | box, rectangular |
-    | jovabo | cover, blanket |
     | joldur | metal, metallic |
     | joniu | piece, part |
     | jomo | plate, to plate |
@@ -188,7 +182,7 @@
     | jocai | sheet, flat |
     
    
-    Run i ilian canon i anye e ilwol de jo? 
+    Run i ilian canon i anye e ilwol de jol? 
     
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
     
@@ -245,7 +239,32 @@
 
     <div id="matching-game-3" data-lesson="lesson38_b" data-round="3"></div>
 
+    ---
 
+    ### Round 4
+
+    <div id="matching-game-4" data-lesson="lesson38_b" data-round="4"></div>
+
+    ---
+
+    ### Round 4
+
+    <div id="matching-game-4" data-lesson="lesson38_b" data-round="4"></div>
+    
+    ---
+
+    ### Round 5
+
+    <div id="matching-game-5" data-lesson="lesson38_b" data-round="5"></div>
+    
+    ---
+
+    ### Round 6
+
+    <div id="matching-game-6" data-lesson="lesson38_b" data-round="6"></div>
+    
+    ---
+    
 
 === "Exercise 2"
 
@@ -263,27 +282,39 @@
 
     ### Round 1
 
-    <div id="matching-game-4" data-lesson="lesson36_exercise2" data-round="1"></div>
+    <div id="matching-game-7" data-lesson="lesson36_exercise2" data-round="1"></div>
 
     ---
 
     ### Round 2
 
-    <div id="matching-game-5" data-lesson="lesson36_exercise2" data-round="2"></div>
+    <div id="matching-game-8" data-lesson="lesson36_exercise2" data-round="2"></div>
 
     ---
 
     ### Round 3
 
-    <div id="matching-game-6" data-lesson="lesson36_exercise2" data-round="3"></div>
+    <div id="matching-game-9" data-lesson="lesson36_exercise2" data-round="3"></div>
 
     ---
 
     ### Round 4
 
-    <div id="matching-game-7" data-lesson="lesson36_exercise2" data-round="4"></div>
+    <div id="matching-game-10" data-lesson="lesson36_exercise2" data-round="4"></div>
 
+    ---
 
+    ### Round 5
+
+    <div id="matching-game-11" data-lesson="lesson36_exercise2" data-round="5"></div>
+    
+    ---
+
+    ### Round 6
+
+    <div id="matching-game-12" data-lesson="lesson36_exercise2" data-round="6"></div>
+
+    ---
 
 === "Review"
 
@@ -297,13 +328,10 @@
 <script>
 function initWarmup() {
         const warmupWords = [
-    {id: "lu_1", oravia: "lufiva", english: "cold"},
-    {id: "lu_2", oravia: "luyar",  english: "light"},
-    {id: "lu_3", oravia: "lupupi", english: "rain"},
-    {id: "lu_4", oravia: "luyol",  english: "sky"},
-    {id: "lu_5", oravia: "lusari", english: "sun"},
-    {id: "lu_6", oravia: "lunhem", english: "summer"},
-    {id: "lu_7", oravia: "lunu",   english: "winter"},
+    {id: "wu_apasoi_1", oravia: "apasoi", english: "hurry, busy"},
+    {id: "wu_apavu_2", oravia: "apavu", english: "run"},
+    {id: "wu_apafene_3", oravia: "apafene", english: "sit, seat"},
+    {id: "wu_apaleno_4", oravia: "apaleno", english: "dig, bury"},
     ];
 
     function renderSelfAssessment() {

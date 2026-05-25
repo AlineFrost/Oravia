@@ -141,10 +141,25 @@
     **jolem** = box (materials cluster + keep), just like beilem = station (vehicles + keep)  
     **yaljui** = temporary (objective quality dimension + temporary), just like bejui = rent (travel cluster + temporary)  
     
-    Now try to create 3 sentences using **BE** words:
-    
-    <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
-    
+    Now let's see these words in context:
+
+    **8. Kai:** Nima i do i mo yalgai.<br>Ce run i iliro, moa?
+
+    **9. Ana:** Oila.<br>Nima i do i mo e moa en bedam.<br>Su i anvu en mo bevio litamis.
+
+    *bedam = square · mo bevio = restaurant · litamis = tomorrow*
+
+    <div style="text-align: center; margin: 2rem 0;">
+    <button onclick="document.getElementById('l20context').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+        Click for Translation
+    </button>
+    </div>
+
+    <div id="l20context" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+    <p style="margin: 0 0 0.5rem 0;">Kai: We can eat something small. What do you think, fruit?</p>
+    <p style="margin: 0;">Ana: Happy. We can eat fruit at the square. And go to the restaurant tomorrow.</p>
+    </div>
+
     You are ready for the exercise now!
 
 === "Exercise 1"

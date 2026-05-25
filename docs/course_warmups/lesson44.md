@@ -1,7 +1,7 @@
 # Lesson 44: O Marker 
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into five sections: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order. After you finish, *try the Exercises and Review again* to see how much you've improved.
+    Every lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -83,23 +83,34 @@
     
 === "Vocabulary"
 
-    ## VO CLUSTER
+    ## EL CLUSTER
     
-    Recall we already saw another cluster with *v*, the *VA* Cluster? We will learn another cluster related to that. The **VO** Cluster!
+    Let's dig deeper into this amazing cluster, **EL**:
     
     | Oravia | English |
     |--------|---------|
-    | vonmo | lip |
-    | vonici | nail |
-    | vonlu | skin |
-    | vonyas | hair |
-    | vosvo | soap |
-    | vosfan | brush |
-    | vosfou | dry |
-    | vosvosi | rub |
+    | elarih | divine |
+    | elaora | religion |
+    | eleyel | love |
+    | elenon | journey |
+    | eleyus | dream |
+    | elireva | truth |
+    | elirota | moral |
+    | elihei | self |
+    | elomio | help |
+    | elodan | free, freedom |
+    | elonor | peace |
+
     
-   
-    What do you think **VO** words are about?
+    I will tell you the meanings of the four subclusters and you will try to match which is which. Ready?
+
+    One is about social virtues: things people do to each other, that depend on a societal structure and social obligation.  
+    One is about intrinsic values.  
+    One is about self-expansion.  
+    One is about religious words.  
+
+
+    What do you think is the subcluster sound of each?
     
     <div style="text-align: center; margin: 2rem 0;">
     <button onclick="document.getElementById('subcluster4-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
@@ -108,23 +119,20 @@
     </div>
     
     <div id="subcluster4-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;"> <strong>VO</strong> means <strong>hygiene and personal care</strong>.</p>
+    <p style="margin: 0;"> <strong>ELA</strong> is about <strong>religious words</strong>, <strong>ELE</strong> is about <strong>self-expansion</strong>, <strong>ELI</strong> is about <strong>instrinsic values</strong>, <strong>ELO</strong> is about <strong>social virtues</strong>.</p>
     </div>
     
-    Can you identify what the two subclusters are? What is their sound and their meaning? 
-
-    <div style="text-align: center; margin: 2rem 0;">
-    <button onclick="document.getElementById('subcluster-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
-        Click to Reveal the Answer
-    </button>
-    </div>
+    If you are not clear which is which, or if you forget the subcluster, remember it's totally okay to not use it! You could say for example *elenon* or *elnon*, they both mean journey! You can also say just *ele* (self-expansion) or *non* (way, path), although the meaning would be a little broader.
     
-    <div id="subcluster-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;"> <strong>VON</strong> is for <strong>external body surfaces</strong> and <strong>VOS</strong> is for <strong>grooming</strong>.</p>
-    </div>
+    !!! info "🌍 Sound Connections"
+        Ela is like Aramaic Elah, which means God. It is related to other Semitic words like Arabic Allah and Hebrew El, from which we got names like Gabriel, Michael and Daniel.   
+        
+        Elo is like Latin eloqui, which means to speak out.
+        
+        Eli has the same e-i pattern as the Greek ethikos, from which English words like ethical came from.
+        
     
-    
-    Ce yo rune vonlu, vonyas, su vardei? 
+    Ce run eleyus?
     
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
     
@@ -135,7 +143,7 @@
     </div>
     
     <div id="subcluster5-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;">Possible translation: What is the color of your skin, hair, and eyes?</p>
+    <p style="margin: 0;">Possible translation: What is your dream?</p>
     </div>
     
     <div style="text-align: center; margin: 2rem 0;">
@@ -145,7 +153,7 @@
     </div>
     
     <div id="subcluster6-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;">Example answer: Neloa yogali. </p>
+    <p style="margin: 0;">Example answer: A nim eleyus a elomio e neliu ilhei. </p>
     </div>
     
     You are ready for the exercise now!

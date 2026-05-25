@@ -166,7 +166,7 @@ there is no apple
 
 ## 7. Questions and "What/That" Clauses
 
-Raise intonation for yes/no questions — no structural change needed:
+Raise intonation for yes/no questions, no structural change needed:
 
 ```
 run i mo?            →   are you eating?

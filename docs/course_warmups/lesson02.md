@@ -49,7 +49,13 @@
     a [someone] i [verb] e [something]
     ```
     
-    Because we have the markers, the word order is flexible.
+    If it's helpful to you, here's some mnemonics:
+    
+    **A**ctor  
+    **I**nitiate  
+    **E**ngaged  
+    
+    Also, because we have the markers, the word order is flexible.
     
     ```
     a nim i mo e mocen
@@ -158,7 +164,13 @@
           
         Banana is Moalen (moa + len). Len is like Latin longus (long), which is the root of the word longitude in English.  
         
-    ---
+      ---  
+      
+    We will now move on to the Matching Game Exercise. Sometimes, the game is about recognizing the meanings behind certain syllables, rather than learning words. On the next page, you will see many different words you do not need to memorize. Instead, try using the subcluster sounds we just learned to figure out which word corresponds to which meaning.  
+    
+    Since the purpose is to learn the subcluster sounds, many of these words will not appear much again. On future matching games, you will see a different version of the MO cluster with fewer words repeating more times. The same is true of matching games covering most of other clusters as well.      
+    
+      ---  
 
 === "Exercise 1"
 

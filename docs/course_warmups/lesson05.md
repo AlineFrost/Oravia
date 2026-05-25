@@ -45,9 +45,9 @@
     
     **Tips**
     
-    a = subject, the doer or experiencer  
-    i = verb  
-    e = direct complement of the verb  
+    a = **A**ctor, subject, the doer or experiencer  
+    i = **I**nitiate, verb  
+    e = **E**ngaged, direct complement of the verb  
     -um = no/not  
     -jor = woman  
     -jal = man  

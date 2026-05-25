@@ -239,8 +239,7 @@ document.addEventListener('DOMContentLoaded', function() {
     {id: "fa_3", oravia: "fano",   english: "child"},
     {id: "fa_5", oravia: "faibor", english: "spouse"},
     {id: "fa_6", oravia: "falen",  english: "kid"},
-    {id: "fa_7", oravia: "faejal", english: "man"},
-    {id: "fa_8", oravia: "faejor", english: "woman"},
+    {id: "fa_7", oravia: "faejor", english: "woman"},
     ];
 
     function renderSelfAssessment() {

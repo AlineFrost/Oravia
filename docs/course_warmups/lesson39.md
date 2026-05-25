@@ -146,11 +146,23 @@
     | leini | seed, to plant |
     
    
-    Now try to write 3 sentences using **LE** words.
-    
-    <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
-    
-    
+    Now let's see some words in context:
+
+    Lina i anifi en roedom. Hay i anvuis en bortal cali i vardei norven Ana en borlu. Ana i boemo e noniu, su i nomie no iloto. Lina i bortal, su Ana i eon lisoi.
+
+    "Cenon run?" Lina ilace.
+
+    <div style="text-align: center; margin: 2rem 0;">
+    <button onclick="document.getElementById('l39context').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+        Click for Translation
+    </button>
+    </div>
+
+    <div id="l39context" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+    <p style="margin: 0 0 0.5rem 0;">Lina arrives at school. She is about to enter when she already sees Ana at the window. Ana is cooking something, and seems worried. Lina enters, and Ana greets her right away.</p>
+    <p style="margin: 0;">"How are you?" Lina asks.</p>
+    </div>
+
     You are ready for the exercise now!
     
  

@@ -2,9 +2,9 @@
 
 Congratulations! You made it to Lesson 40!
 
-Before moving on to the remaining of Fluency, let's see how much you can do.
+Before moving on to the remaining of Expansion, let's see how much you can do.
 
-Below is a conversation between Lina and Ana. 
+Below is a conversation between Lina and Ana. You have already seen parts of this conversation in earlier lessons. Now it's time to read the full dialogue and connect everything together.
 
 This narrative is more challenging and contains a few words you haven't learned yet, to mimic real language encounter. Try to understand from context first, then check the tips below after reading. You may understand more than you expect!  
   
@@ -36,13 +36,13 @@ Lina i vardei e mo ca Ana i boemo. I varsi yuba.
 
 “Ce hoi?”
 
-“Micuc. No farejor. Lirular a hay i boemo e micuc neauta lirul perien. Daehun nim i anye no yuba, nedas ilie a roena hai i dairan. Iliciu a nim a nime farejor, i ilian canon…”
+“Micuc. No farejor. Lirular a hay i boemo e micuc neauta lirul perien. Daehun nim i anye no yuba, nedas ilie a roena hai i dairan. Iliciu a nim a nim farejor, i ilian canon…”
 
-“Ceora run no iloto? Norven a run a boemo hai. A rune mo a anodu. Ga run, a nim a yunmpou.”
+“Ceora run no iloto? Norven a run a boemo hai. A run mo a anodu. Ga run, a nim a yunmpou.”
 
 Haya i vardei e fene en litegai.
 
-“I miotan cali a nima a falen?" Ana i ansau i ilahai. " A nim a micear, mai a run i anidai a eofa. Notor i mo, lirular nima i apaleno en nime leayo, i apaluon su nime fare, no mioici i anodu e leirih! Neron, nime farejal nedas lirul i ilahai…”
+“I miotan cali a nima a falen?" Ana i ansau i ilahai. " A nim a micear, mai a run i anidai a eofa. Notor i mo, lirular nima i apaleno en nim leayo, i apaluon su nim fare, no mioici i anodu e leirih! Neron, nim farejal nedas lirul i ilahai…”
 
 “...ca yesmel i tane yufer.” Lina i yadetu, a oimin. 
 
@@ -173,7 +173,7 @@ Lirular a farejor i boemo e micuc neauta lirul perien.
 Daehun nim i anye no yuba, nedas ilie a roena hai i dairan.  
 *Assume: if I make it well like that, 10/10 likelihood the teacher will like it.*  
 
-Iliciu a nim a nime farejor, i ilian canon.  
+Iliciu a nim a nim farejor, i ilian canon.  
 *Imagine: If I were my mother, I would know how.*  
 
 Run i iliro ca a roejois a yudur?  
@@ -185,7 +185,7 @@ I miotan cali a nima a falen?
 A nim a micear, mai a run i anidai a eofa.  
 *I was a rabbit (shy), but you wanted to be friends.*
 
-Notor i mo, lirular nima i apaleno en nime leayo, i apaluon su nime fare, no a mioci i anodu e leirih!  
+Notor i mo, lirular nima i apaleno en nim leayo, i apaluon su nim fare, no a mioci i anodu e leirih!  
 *Second we would eat, [first] we used to dig in my garden, jump with my parents, like monkeys go to the top of trees!*
 
 Bi ho yuvabo, roena hai i bortal.  

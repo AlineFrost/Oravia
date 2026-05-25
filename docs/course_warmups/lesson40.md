@@ -186,6 +186,34 @@
     <p style="margin: 0;">Example answer: I damium, mai en bo de fare i dami a leinou. </p>
     </div>
     
+    Now let's see these words in context:
+
+    "Lar liperi, netam i roesau, i anyeum neliu. Faibor i ilahai ca nim i tane i anefene neron, mai i vil i yuloa."
+
+    "Mihie run! Run i iliro ca a roejois a yudur?"
+
+    "Ga lidastorar, yudur. A roena hai a anodu yahci."
+
+    Lina i vardei e mo ca Ana i boemo. I varpu yuba.
+
+    "Ce hoi?"
+
+    *Mihie = horse (endurance) · yuloa = perfect · varpu = smell · vil = must*
+
+    <div style="text-align: center; margin: 2rem 0;">
+    <button onclick="document.getElementById('l40context').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+        Click for Translation
+    </button>
+    </div>
+
+    <div id="l40context" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+    <p style="margin: 0 0 0.5rem 0;">"Last week, I only studied and did nothing else. My spouse said I should rest more, but I must be perfect."</p>
+    <p style="margin: 0 0 0.5rem 0;">"You horse! Do you think the exam will be hard?"</p>
+    <p style="margin: 0 0 0.5rem 0;">"Compared to last year, harder. The teacher is the sharpest."</p>
+    <p style="margin: 0 0 0.5rem 0;">Lina looks at what Ana is cooking. It smells good.</p>
+    <p style="margin: 0;">"What is this?"</p>
+    </div>
+
     You are ready for the exercise now!
     
  

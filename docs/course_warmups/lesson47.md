@@ -1,7 +1,7 @@
 # Lesson 43:  Cluster
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into five sections: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order. After you finish, *try the Exercises and Review again* to see how much you've improved.
+    Every lesson is divided into five sections: **Warm-Up**, **Vocabulary**, **Reading**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -36,102 +36,28 @@
     
     </div>
     
-=== "Grammar"
-
-    ## Compounds
-    
-     See if you can understand these sentences. Some words or uses may be new. Try to read them first, and then scroll down for tips, and then answers. 
-    
-
-    ```
-    Mir ponen teva gerina.
-    ```
-        
-    ```
-    I dami auta nen tenda ilhei.
-    ```
-    
-    ```
-     
-    ```
-    
-    ```
-    Nesunya lirul a nim i bonfene a tohnaru u faibor.
-    ```
-    
-    ```
-    Nepar ilie i lupupi litamis. 
-    ```
-    
-    ```
-    Hay i boemo en bo nealui lirular.
-    ```
-    
-    
-    **Tips**
-    -ar = completed  
-    -is = yet to start   
-    (an)do = can  
-    anvu  = move, go   
-    bo  = house, home   
-    boemo  = cook   
-    bonfene  = bed, lie down   
-    en  = at, in (location)   
-    faibor  = partner   
-    ilie  = likelihood, maybe   
-    lirul  = habit (frequency)   
-    lirular  = used to (habit completed)   
-    litamis  = tomorrow (day yet to start)   
-    lufiva  = cold   
-    lupupi  = rain   
-    mai  = but   
-    nealui  = 5 out of 10   
-    nedas  = 10 out of 10   
-    nepar  = 3 out of 10   
-    nesunya  = 0 out of 10   
-    tohnaru  = angry   
-    toului  = tired   
-    toumo  = hungry   
-
-    
-    
-    <div style="text-align: center; margin: 2rem 0;">
-    <button onclick="document.getElementById('subcluster3-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
-        Click to Reveal the Answer
-    </button>
-    </div>
-    
-    <div id="subcluster3-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0 0 0.5rem 0;">Possible translations:</p>
-    <p style="margin: 0 0 0.5rem 0;"> The shower is not cold at all. </p>
-    <p style="margin: 0 0 0.5rem 0;"> I'm extremely hungry! </p>
-    <p style="margin: 0 0 0.5rem 0;"> I am a little tired but we can go. </p>
-    <p style="margin: 0 0 0.5rem 0;"> I never go to bed angry at my partner. </p>
-    <p style="margin: 0 0 0.5rem 0;"> It might rain tomorrow. </p>
-    <p style="margin: 0 0 0.5rem 0;"> She used to cook at home half the time.  </p>
-    </div>
-
-    
 === "Vocabulary"
-
-    ## JO CLUSTER
     
-    Today we will learn the **JO** Cluster! Take a look at the words below:
+    ## MA CLUSTER
+    
+    Today we will learn one cluster, **MA**! 
     
     | Oravia | English |
     |--------|---------|
-    | joliri | glass |
-    | joleni | plastic |
-    | jolem | box |
-    | jovabo | cover |
-    | joldur | metal |
-    | joniu | piece |
-    | jomo | plate |
-    | jolace | rubber |
-    | jocal | sheet |
+    | mamol | pot |
+    | matal | oven |
+    | mamini | egg |
+    | maemiri | rice |
+    | maemopi | corn |
+    | maeyalo | soy |
+    | malvae | bread |
+    | malvou | butter |
+    | masha | salt |
+    | masnam | pepper |
     
+    MA words are related to food, just like MO words. The difference is that MO words are more related to produce, while MA words are more related to cooking.
     
-    What do you think the **JO** Cluster is about?
+    What do you think **MAE** words are about?
     
     <div style="text-align: center; margin: 2rem 0;">
     <button onclick="document.getElementById('subcluster4-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
@@ -140,64 +66,151 @@
     </div>
     
     <div id="subcluster4-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;"> It's about <strong>material objects</strong>.</p>
+    <p style="margin: 0;"> <strong>MAE</strong> words are <strong>crops and grains</strong>.</p>
     </div>
     
-    We also have one subcluster, can you identify the sound and the meaning?
+    What do you think **MAL** words are about?
     
     <div style="text-align: center; margin: 2rem 0;">
-    <button onclick="document.getElementById('subcluster-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+    <button onclick="document.getElementById('subcluster4-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
         Click to Reveal the Answer
     </button>
     </div>
     
-    <div id="subcluster-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;"> <strong>JOL</strong> is for basic substances used to make objects.</p>
+    <div id="subcluster4-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+    <p style="margin: 0;"> <strong>MAL</strong> words are related to <strong>bread and butter</strong>, like flour and cheese.</p>
     </div>
     
-    Notice that *jolem* (box) is not part of the subcluster, it is formed by jo + lem. (Do you remember any other words with lem?).
-    
-    Notice that these words can also be used in other ways, for example:
-    
-    | Oravia | English |
-    |--------|---------|
-    | joliri | glass, transparent |
-    | jolem | box, rectangular |
-    | jovabo | cover, blanket |
-    | joldur | metal, metallic |
-    | joniu | piece, part |
-    | jomo | plate, to plate |
-    | jolace | rubber, malleable |
-    | jocal | sheet, flat |
-    
-   
-    Run i ilian canon i anye e ilwol de jo? 
-    
-    <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
+    What do you think **MAS** words are about?
     
     <div style="text-align: center; margin: 2rem 0;">
-    <button onclick="document.getElementById('subcluster5-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+    <button onclick="document.getElementById('subcluster4-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+        Click to Reveal the Answer
+    </button>
+    </div>
+    
+    <div id="subcluster4-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+    <p style="margin: 0;"> <strong>MAS</strong> words are <strong>seasonings and spices</strong>.</p>
+    </div>
+    
+    To sum up:
+    ```     
+    MAE = crops, grain
+    MAL = bread and butter
+    MAS = seasoning, spice 
+    ```
+    
+    !!! info "🌍 Sound Connections"
+        Do you recognize the syllables in mamol, matal and mamini? What do they mean?
+        Ma comes from Arabic matbakh, which means kitchen.
+        Mal is like German Mehl, which means flour. 
+        Mas comes from Arabic and Hindi Masala, which is a spice mix.
+
+    
+    You are ready for the reading now!
+    
+=== "Reading"
+    
+    There will be some things you do not know in the readings to mirror real language encounter. Read it once and see if you can get the gist of it, and then try it again checking the tips below. 
+    
+    Before you dive in, here are a few key words:
+    
+    mahon = spoon  
+    vilan  = thick  
+    mascur = garlic  
+    gavol = measure  
+  
+    'Roumo Joniu Tam (Recipe Part 1)
+    
+    3 molbai de maemiri
+    2 mamini
+    2 mascur, nedas yalgai mir joniu
+    3 'yolei masloma, yalgai mir joniu
+    1 molbai de maemopi
+    2 yaltan mahon de maeyalo vilan-wa
+    2 yaltan mahon de 'malumo
+    vandi gavol de masha su masnam
+    1 molbai de lei 
+    
+    
+    Notam, i bospupi 3 molbai de maemiri linu a wa a joliri. I mamol e maemiri su 6 molbai wa su vandi gavol de masha. I anodu e mamol su i pohem. Cali i varsus ca a wa i jolufu, i gafi e pohem. A mamol i anefene en dasalui litegai. O i antorium e anodu.
+
+    
+    *roumo = rou ca i elomio i boemo e mo (writing that helps cook food).  
+    *malumo = poilumo sora boemo (oil to cook).
+    
+    
+    **Tips**
+
+    ' = coined word, guess from its parts!  
+    anefene = rest  
+    anodu = top, to top, to close  
+    antori = open  
+    bospupi = shower, to wash  
+    cali = when  
+    dasalui = fifteen  
+    gafi = less, reduce  
+    gavol = measure, amount  
+    joniu = piece  
+    joliri = glass, clear, transparent  
+    jolufu = bubble  
+    lei = plant  
+    linu = until  
+    litegai = minute  
+    mahon = spoon  
+    mamini = egg  
+    mamol = pot  
+    maemiri = rice  
+    maemopi = corn  
+    maeyalo = soy  
+    mascur = garlic  
+    masha = salt  
+    masnam = pepper  
+    masloma = onion  
+    mir = many  
+    molbai = cup  
+    nedas = 10/10  
+    notam = first  
+    pohem = heat  
+    vandi = finger  
+    varsus = hear, listen  
+    vilan = fat, thick  
+    wa = water  
+    yalgai = small  
+    yaltan = large  
+    
+     <div style="text-align: center; margin: 2rem 0;">
+    <button onclick="document.getElementById('recipe-translation').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
         Click to Reveal Translation
     </button>
     </div>
-    
-    <div id="subcluster5-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;">Possible translation: Do you know how to build things out of materials?</p>
+
+    <div id="recipe-translation" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+    <p style="margin: 0 0 0.5rem 0;">English translation:</p>
+    <p style="margin: 0 0 0.5rem 0;">Recipe Part One</p>
+    <p style="margin: 0 0 0.5rem 0;"></p>
+    <p style="margin: 0 0 0.5rem 0;">3 cups of rice</p>
+    <p style="margin: 0 0 0.5rem 0;">2 eggs</p>
+    <p style="margin: 0 0 0.5rem 0;">2 garlic cloves, very finely minced</p>
+    <p style="margin: 0 0 0.5rem 0;">3 green onions, finely chopped</p>
+    <p style="margin: 0 0 0.5rem 0;">1 cup of corn</p>
+    <p style="margin: 0 0 0.5rem 0;">2 tablespoons of soy sauce</p>
+    <p style="margin: 0 0 0.5rem 0;">2 tablespoons of oil</p>
+    <p style="margin: 0 0 0.5rem 0;">a pinch of salt and pepper</p>
+    <p style="margin: 0 0 0.5rem 0;">1 cup of vegetables</p>
+    <p style="margin: 0 0 0.5rem 0;"></p>
+    <p style="margin: 0 0 0.5rem 0;">First, wash 3 cups of rice until the water is clear.</p>
+    <p style="margin: 0 0 0.5rem 0;">Put the rice in a pot with 6 cups of water and a pinch of salt.</p>
+    <p style="margin: 0 0 0.5rem 0;">Cover the pot and heat it up.</p>
+    <p style="margin: 0 0 0.5rem 0;">When you hear the water bubble, reduce the heat.</p>
+    <p style="margin: 0 0 0.5rem 0;">The pot rests for 15 minutes.</p>
+    <p style="margin: 0;">Do not open the lid.</p>
     </div>
+
+    Now in 1 or 2 sentences, try to write what this recipe is telling us so far:
     
-    <div style="text-align: center; margin: 2rem 0;">
-    <button onclick="document.getElementById('subcluster6-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
-        Click to Reveal Answer
-    </button>
-    </div>
-    
-    <div id="subcluster6-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;">Example answer: Nim i do i anye e joliri ilwol. </p>
-    </div>
-    
-    
-    You are ready for the exercise now!
-    
+    <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
+
  
 
 === "Exercise 1"

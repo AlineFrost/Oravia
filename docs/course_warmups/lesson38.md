@@ -141,9 +141,25 @@
     !!! tip "Sound Connections"
         Take a look at the YO words. By this point, you have already encountered most of these syllables. Try to see if you recognize them and what they mean!
 
-    Create two new color words and explain them:
-    <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
-    
+    Now let's see some words in context:
+
+    Notam Lina i asau, notor i yes. I vardei e elihei, hay i nomie no toului su toharou.
+
+    I anocari yasoi su ho miau. A roedom a nordaum, eta i vanpai lilon i mo. Anolu, i dami a mir ilhei: a geldove hai i ilaluan, a falen i apavu.
+
+    *asau = wake up · toharou = anxious · roedom = school · miau = graceful · vanpai = walk*
+
+    <div style="text-align: center; margin: 2rem 0;">
+    <button onclick="document.getElementById('l38context').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+        Click for Translation
+    </button>
+    </div>
+
+    <div id="l38context" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+    <p style="margin: 0 0 0.5rem 0;">First Lina wakes up, then gets dressed. She looks at herself, she seems tired and anxious.</p>
+    <p style="margin: 0;">She leaves in a hurry and ungracefully. The school is not far, so she walks while eating. Outside, there are many people: sellers talk, children run.</p>
+    </div>
+
     You are ready for the exercise now!
     
  

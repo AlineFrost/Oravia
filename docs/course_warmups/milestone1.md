@@ -2,9 +2,9 @@
 
 Congratulations! You made it to the end of Core!
 
-Before moving on to Fluency, let's see how much you can do.
+Before moving on to Expansion, let's see how much you can do.
 
-Below is a conversation between Ana and Kai. They are making *travel plans by phone*.
+Below is a conversation between Ana and Kai. They are making *travel plans by phone*. You have already seen parts of this conversation in earlier lessons. Now it's time to read the full dialogue and connect everything together.
 
 This dialogue is more challenging and contains a few words you haven't learned yet, to mimic real language encounter. Try to understand from context first, then check the tips below after reading. You may understand more than you expect!
 
@@ -22,7 +22,7 @@ This dialogue is more challenging and contains a few words you haven't learned y
 
 6\. **Kai:** I dai i bevio en yani bedam,<br>a ilhei i ilaluan ca oipili.<br>En limel, i dai i mo.
 
-7\. **Ana:** A bevio a oi!<br>Nim i geldovear nime beivu,<br>eta nim i do i gerina.<br>Mai, i iranum i mo en limel.
+7\. **Ana:** A bevio a oi!<br>Nim i geldovear nim beivu,<br>eta nim i do i gerina.<br>Mai, i iranum i mo en limel.
 
 8\. **Kai:** Nima i do i mo yalgai.<br>Ce run i iliro, moa?
 
@@ -42,9 +42,9 @@ This dialogue is more challenging and contains a few words you haven't learned y
 
 16\. **Kai:** Oipoh!<br>Nim i ilahai e oines lilon nima i mo!
 
-17\. **Ana:** Bi oila a nim i anita e rune oimel!<br>A run a oi lili su lili!
+17\. **Ana:** Bi oila a nim i anita e run oimel!<br>A run a oi lili su lili!
 
-18\. **Kai:** Run su!<br>A run a nime eofa bi oi.<br>I anvu!
+18\. **Kai:** Run su!<br>A run a nim eofa bi oi.<br>I anvu!
 
 19\. **Ana:** I anvu!
 
@@ -52,7 +52,7 @@ This dialogue is more challenging and contains a few words you haven't learned y
 
 **Timeline**
 
-Based on the dialogue, fill in what Ana and Kai did or plan to do:
+Based on what Ana and Kai did or plan to do, write a word or two for each time range:
 
 Yesterday: <textarea style="width: 100%; min-height: 50px; padding: 0.5rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write here..."></textarea>
 
@@ -140,8 +140,7 @@ mai = but
 mo = food, eat  
 mo bevio = restaurant  
 moa = fruit  
-nim/nima/run/runa/hay/haya = personal pronouns  
-nime/rune/haye... = possessives (pronoun + e)  
+nim/nima/run/runa/hay/haya = personal pronouns or possessives   
 oifu = silly, trivial  
 oi = fun, entertaining  
 oia = yay  
@@ -179,10 +178,10 @@ I dami, cadom bortal.
 Nim i ilahai e oines lilon nima i mo.  
 *I will tell (you) a joke while we eat.*
 
-Bi oila a nim i anita e rune oimel! A run a oi lili su lili!  
+Bi oila a nim i anita e run oimel! A run a oi lili su lili!  
 *I'm happy that I take (listen to) your stories! You are again and again (always) amusing!*
 
-Run su! A run a nime eofa bi oi. I anvu!  
+Run su! A run a nim eofa bi oi. I anvu!  
 *You too! It's fun that you are my friend. Let's go!*  
 
 ---

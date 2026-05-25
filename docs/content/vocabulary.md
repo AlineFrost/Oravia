@@ -26,7 +26,7 @@ Search and filter all Oravia words. Click any column header to sort.
     <tr id="vocab-header" style="background:#e3f2fd; cursor:pointer; user-select:none;">
       <th data-col="cluster_name"  style="position:sticky;top:0;background:#e3f2fd;padding:0.35rem 0.5rem;text-align:left;  color:#3182bd;border-bottom:2px solid #4a9cd6;white-space:nowrap;z-index:1;">Cluster ↕</th>
       <th data-col="cluster_sound" style="position:sticky;top:0;background:#e3f2fd;padding:0.35rem 0.5rem;text-align:left;  color:#3182bd;border-bottom:2px solid #4a9cd6;white-space:nowrap;z-index:1;">Sound ↕</th>
-      <th data-col="subcluster"    style="position:sticky;top:0;background:#e3f2fd;padding:0.35rem 0.5rem;text-align:left;  color:#3182bd;border-bottom:2px solid #4a9cd6;white-space:nowrap;z-index:1;">Subcluster ↕</th>
+      <th data-col="subcluster"    style="position:sticky;top:0;background:#e3f2fd;padding:0.35rem 0.5rem;text-align:left;  color:#3182bd;border-bottom:2px solid #4a9cd6;white-space:nowrap;z-index:1;">(Sub)cluster ↕</th>
       <th data-col="root"          style="position:sticky;top:0;background:#e3f2fd;padding:0.35rem 0.5rem;text-align:left;  color:#3182bd;border-bottom:2px solid #4a9cd6;white-space:nowrap;z-index:1;">Root ↕</th>
       <th data-col="oravia"        style="position:sticky;top:0;background:#e3f2fd;padding:0.35rem 0.5rem;text-align:left;  color:#3182bd;border-bottom:2px solid #4a9cd6;white-space:nowrap;z-index:1;">Oravia ↕</th>
       <th data-col="english"       style="position:sticky;top:0;background:#e3f2fd;padding:0.35rem 0.5rem;text-align:left;  color:#3182bd;border-bottom:2px solid #4a9cd6;white-space:nowrap;z-index:1;">English ↕</th>
@@ -135,7 +135,7 @@ Search and filter all Oravia words. Click any column header to sort.
         ? (validSubclusters.has(subcl_raw)
             ? '<a href="/content/building_blocks/" data-bb="' + subcl_raw + '" class="bb-link" style="color:#777;text-decoration:none;font-weight:600;">' + subcl_raw.toUpperCase() + '</a>'
             : '<span style="color:#777;font-weight:600;">' + subcl_raw.toUpperCase() + '</span>')
-        : '—';
+        : '<a href="/content/building_blocks/" data-bb="' + r.cluster_sound + '" class="bb-link" style="color:#777;text-decoration:none;font-weight:600;">' + r.cluster_sound.toUpperCase() + '</a>';
       const root_cell = r.root
         ? (validRoots.has(r.root)
             ? '<a href="/content/building_blocks/" data-bb="' + r.root + '" class="bb-link" style="color:inherit;text-decoration:none;">' + r.root + '</a>'

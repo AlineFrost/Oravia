@@ -253,33 +253,12 @@ bonfene (bed)   → i bonfene = to lie down
 bortal (door)   → i bortal  = to enter 
 mogali (coffee) → i mogali  = to drink coffee</pre>
 <p>More details about this on §17.</p>
-<h4>7.2 Aspect Suffixes</h4>
-<p>Aspect marks the completion state of an action. It is optional: bare verbs are the default.
-</p>
-<table>
-<tr><th>Suffix</th><th>Meaning</th><th>Feel</th></tr>
-<tr><td>(bare)</td><td>general / ongoing / habitual</td><td>neutral — the default</td></tr>
-<tr><td>-ar</td><td>completed action</td><td>past-like relative to the main reference</td></tr>
-<tr><td>-is</td><td>not yet started</td><td>future-like relative to the main reference</td></tr>
-</table>
-<p>-ar does not mean &quot;past tense.&quot; It means the action is complete relative to the reference moment:</p>
-<pre>nim i moar cali run i anifi
-I had already eaten when you arrived</pre>
-<p>-is marks something as not yet started:</p>
-<pre>a anseis    → a future/upcoming job
-litamis     → tomorrow</pre>
-<p>The rule is:</p>
-<p> 
-. use the base form of the verb in general. </p>
-<p>. when you want to specify if an action was completed, or if it was done before another action, you can use -ar </p>
-<p>. when you want to specify if an action will yet to start, or if it follows another action, you can use -is </p>
-<pre>litamar, nim i mouje e mogali     yesterday, I drank coffee → verb in base form, natural</pre>
-<h4>7.3 Negation</h4>
+<h4>7.2 Negation</h4>
 <p>Add -um directly to the verb:</p>
 <pre>nim i moum e moyi       → I don&#x27;t eat sugar
 nim i doum i siyal      → I cannot find</pre>
 <p>More information about negation under §13.</p>
-<h4>7.4 Verb Stacking</h4>
+<h4>7.3 Verb Stacking</h4>
 <p>Use the short root of the first verb, then the full second verb:</p>
 <pre>i [root]   i [full verb]</pre>
 <table>
@@ -294,7 +273,7 @@ nim i doum i siyal      → I cannot find</pre>
 nim i vil i mo      → I must eat
 nim i tane i mo     → I should eat</pre>
 <p>This is the natural choice in speech. Full forms for the first verb (nim i anidai i bonfene) sound formal or deliberate.</p>
-<h4>7.5 Must vs. Should</h4>
+<h4>7.4 Must vs. Should</h4>
 <pre>nim i vil i [verb]   → I must [verb]   — obligation
 nim i tane i [verb]  → I should [verb] — recommendation</pre>
 <p>To negate, add -um to the inner verb: <em>nim i vil i moum</em> = I have an obligation not to eat.</p>
@@ -303,12 +282,58 @@ nim i tane i [verb]  → I should [verb] — recommendation</pre>
 </details>
 
 <details class="gr-sec">
-<summary>8. Habit and Completed Habit</summary>
+<summary>8. Aspect and Habit </summary>
 <div class="gr-content">
-<p>lirul marks habitual or recurring action. lirular (-ar on lirul) marks a past habit that no longer holds (&quot;used to&quot;):</p>
+<h4>8.1 Aspect: -ar and -is</h4>
+<p><strong>AR</strong> is used to mean something that has been <strong>completed</strong>. <strong>IS</strong> is used to mean something that has <strong>not yet started</strong>.</p>
+<p>The rule is:</p>
+<p>. Use the base form of the verb in general.</p>
+<p>. When you want to specify if an action was completed, or if it was done before another action, you can use -ar.</p>
+<p>. When you want to specify if an action will yet to start, or if it follows another action, you can use -is.</p>
+<p>If you use -ar or -is when it's already clear from context, listeners will interpret a special emphasis on completion, or expect another action clause to follow. For this reason, prefer base verb when context and adverbs are doing their job: </p>
+<pre>litamar, nim i mouje e mogali = yesterday, I drank coffee (verb in base form, natural)</pre>
+<h5>On non-verbs</h5>
+<p>Notice that -ar and -is are not only for verbs. You can use it in all kinds of words:</p>
+<pre>faiborar = faibor + ar = ex
+anseis   = anse + is  = prospective job</pre>
+<p>And this includes LI words:</p>
+<pre>litamar = litam + ar = the completed day, yesterday
+litamis = litam + is = the day yet to start, tomorrow
+lis = li + is = unspecified time yet to start, one day</pre>
+<h5>Relative time</h5>
+<p>Typically, our reference is the present, so the completed time and the time yet to start are in the past and in the future, respectively. However, when we use another reference that is not the present, the meaning diverges.</p>
+<p>When we are talking about a narrative in the past, or sequencing two actions, the time is relative to these references:</p>
+<pre>Litamar, nim i vaspai cali hay anifi.
+Yesterday, I was putting on my shoes when he arrived.
+(both actions at the same time)
+
+Litamar, nim i vaspaiar cali hay anifi.
+Yesterday, I had put on my shoes when he arrived.
+(first action completed by the time of the second action)
+
+Litamar, nim i vaspai, hay anifis.
+Yesterday, (when) I put on my shoes, he hadn't arrived yet.
+(by the time of the first action, second action yet to start)</pre>
+<p>Relative time also happens when the reference is the future:</p>
+<pre>Litamis, nim i bospupi cali i mouje.
+Tomorrow, I will shower while drinking.
+(both actions at the same time)
+
+Litamis, nim i bospupiar cali i mouje.
+Tomorrow, I will have showered by the time I drink.
+(first action completed by the time of the second action)
+
+Litamis, nim i bospupi, i moujeis.
+Tomorrow, I will shower, (later) I will drink.
+(by the time of the first action, second action yet to start)</pre>
+<h4>8.2 Ongoing and Habit</h4>
+<p>When you use <strong>base verb form</strong>, it is a general action. It can also indicate something that is a) ongoing, or b) habitual. As is usually the case in Oravia, you can just use the base form, but you can also make further specifications if desired or needed. </p>
+<p>To express ongoing actions, we use words like noli (now), anlaro (continue), and lilon (while). We also have continuative aspect (see §10).</p> 
+<p>To express a habitual or recurring action, we can do that explicitly with lirul (habit). Lirular (-ar on lirul) marks a completed habit that no longer holds (&quot;used to&quot;):</p>
 <pre>nim i mo e mogali lirul         → I habitually drink coffee
 nim i mo e mogali lirular       → I used to drink coffee (but don&#x27;t anymore)
 hay i boemo en bo nealui lirular → she used to cook at home half the time</pre>
+<p>As is usually the case, you can change the word order. Time words like noli, lilon, lirul, and  lirular can come at the end of the clause like the examples above, in the beginning, or between blocks.</p> 
 </div>
 </details>
 
@@ -1327,11 +1352,13 @@ hay i sau i anvu        → she starts going / she starts to leave</pre>
 <h4>(da)vio — change into / become</h4>
 <p>Davio means &quot;change&quot;, you use &quot;no&quot; as complement:	</p>
 <pre>i davio no roena hai   → I become a teacher
-(I become a teacher)
 
 a jevial i davio no lenodur → the statue turns into stone
 
-hay i davio no yamirli     → she becomes old</pre>
+hay i davio no yamirli     → she becomes old
+
+i davio e wa no luval  → I turn the water into ice
+</pre>
 <p>As with other hyphenated expressions, you can express change like this instead:</p>
 <pre>a jevial i lenodur-davio → the statue turns into stone
 
@@ -1354,9 +1381,12 @@ bi iloi a litamis a yuba           → I hope tomorrow is good
 bi iloi nim i do i anocari         → I wish I could leave
 bi iloi run i anocari              → I hope you leave</pre>
 <h4>47.2 o i — Jussive (Let&#x27;s)</h4>
-<p>The same o i [verb] construction used for commands (§5) also covers the first-person plural invitation (&quot;let’s&quot;). Context makes the reading clear: this can be like an order or invitation.</p>
-<p>You can use &quot;what do you think&quot;, which is not as ambiguous:</p>
-<pre>ce iliro nima i mo?          → what do you think we eat?</pre>
+<p>The same o i [verb] construction used for commands (§5) also covers the first-person plural invitation (&quot;let’s&quot;). Context, punctuation marks, and intonation makes the reading clear: </p>
+<pre>o i mo?          → shall we eat?
+o i mo!          → eat!</pre>
+<p>If you want your invitation to be absolutely unambiguous, you can use &quot;what do you think&quot;, or &quot;nima&quot;:</p>
+<pre>ce iliro nima i mo?          → what do you think we eat?
+o i mo nima / nima o i mo → let's eat</pre>
 </div>
 </details>
 
@@ -1379,20 +1409,27 @@ bi iloi run i anocari              → I hope you leave</pre>
 <p>i bo could mean to be at home, to go home, to enter. i tohpu could mean to feel sad, to act sad, to express sadness. Think of it as the unmarked, general, or poetic option. You may choose it when the specific reading is clear from context, when it doesn&#x27;t matter, or when you want the word to carry more than one resonance at once.</p>
 <p>When you do want to be specific, the tools are already there:</p>
 <h5>i bo — location as verb</h5>
-<table>
-<tr><th>hay en bo                    → she is in the house hay i anvu jetai bo          → she goes direction the house  hay i bortal en bo           → she enters the house  hay i bo-anvu                → she house-goes hay i bo-bortal              → she house-enters  hay i bo e falen             → she houses/shelters a kid</th></tr>
-</table>
+<pre>hay en bo               → she is in the house
+hay i anvu jetai bo          → she goes direction the house  
+hay i bortal en bo           → she enters the house  
+hay i bo-anvu                → she house-goes 
+hay i bo-bortal              → she house-enters  
+hay i bo e falen             → she houses/shelters a kid
+</pre>
 <h5>i tohpu — quality as verb</h5>
-<table>
-<tr><th>a hay a tohpu                 → she is sad  (copula)hay i davio no tohpu          → she becomes sad  hay i tohpu-davio             → she sad-becomes  hay i ciudon e tohpu          → she shows sadness  hay i tohpu-anye              → she sad-acts  hay i tohpu e falen           → she saddens the kid (causative via e)</th></tr>
-</table>
+<pre>a hay a tohpu            → she is sad  (copula)
+hay i davio no tohpu          → she becomes sad  
+hay i tohpu-davio             → she sad-becomes  
+hay i ciudon e tohpu          → she shows sadness  
+hay i tohpu-anye              → she sad-acts  
+hay i tohpu e falen           → she saddens the kid (causative via e)</pre>
 </div>
 </details>
 
 <details class="gr-sec">
 <summary>49. Evidentiality</summary>
 <div class="gr-content">
-<p>Oravia has an optional evidential system built on bi. Because bi already marks speaker stance, evidential phrases read as a natural extension of the same system: rather than just commenting, the speaker also notes the source of their knowledge.</p>
+<p>Oravia has an optional evidential system built on bi. Because bi already marks speaker stance, commenting on the source of the knowledge is as a natural extension of the same system.</p>
 <h4>The Three Evidential Options</h4>
 <table>
 <tr><th>Phrase</th><th>Built from</th><th>Meaning</th></tr>
@@ -1400,11 +1437,11 @@ bi iloi run i anocari              → I hope you leave</pre>
 <tr><td>bi daeniu</td><td>bi + daeniu (witness)</td><td>I witnessed this / direct evidence</td></tr>
 <tr><td>bi daeta</td><td>bi + daeta (inference)</td><td>I inferred this / evidential reasoning</td></tr>
 </table>
-<p>bi evidential phrases sit clause-finally, like other bi phrases:</p>
+<p>The word order is flexible, as with other blocks:</p>
 <pre>hay i anocari bi daeniu
 she left — I witnessed this
 bi eosus a hay a tohpu
-he is sad — I heard this
+I heard that he is sad
 a bo a anolum hue, bi daeta
 the house seems abandoned — I’m inferring this</pre>
 <p>They can also stand alone as a comment on a prior statement:</p>
@@ -1412,8 +1449,8 @@ the house seems abandoned — I’m inferring this</pre>
 B: bi eosus (I heard the same.)</pre>
 <h4>Bi evidentials and bi emotional comments</h4>
 <p>Both use bi, but the words are distinct in meaning and feel. Emotional bi phrases (bi oipoh, bi tohpu, bi oila) express how the speaker feels about the content. Evidential bi phrases express where the knowledge comes from. In practice the two don&#x27;t conflict and they can be combined:</p>
-<pre>hay i anocari, bi eosus, bi tohpu
-she left — I heard this — how sad</pre>
+<pre>hay i anocari, bi eosus su tohpu / bi eosus bi tohpu
+she left — I heard this, how sad</pre>
 </div>
 </details>
 
@@ -1540,9 +1577,9 @@ a big cat = a description of the cat</pre>
 <h4>50.2 Common Patterns for Romance Speakers</h4>
 <p>The same principle applies here. If Oravia absorbs Romance grammar through its speakers, it will confuse speakers of other backgrounds, and be farther from its aim of being international and start reflecting a particular language family. The patterns below are the most common transfers from languages like Spanish, Italian, French, and Portuguese.</p>
 <p><strong>De</strong><strong> for possession</strong></p>
-<p>In Oravia, de marks origin and belonging in a broad sense, so using it with personal pronouns read as &quot;from&quot; rather than a possessive relation. Instead, use the -e suffix.</p>
-<pre>haye bo      [her house]         ✓
-de hay bo    [from she house]    ✗</pre>
+<p>In Oravia, de marks origin and belonging in a broad sense, so using it with personal pronouns read as &quot;from&quot; rather than a possessive relation.</p>
+<pre>hay bo      [her house]         ✓
+de hay bo    [from her house]    ✗</pre>
 <p><strong>Adjective after the noun</strong></p>
 <p>In most Romance languages adjectives commonly follow the noun. In Oravia all modifiers come before what they modify, without exception. This applies to single adjectives, compound modifiers, and possessives alike.</p>
 <pre>yaltan yunmir    [large fortune]    ✓

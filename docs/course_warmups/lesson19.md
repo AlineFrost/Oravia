@@ -178,10 +178,25 @@
     And finally, *oi* means fun, amuse, entertain.  
     If we want to say a neutral *yes*, we use *ia*. If we want to say an enthusiastic *yay*, we use *oia* = oi + ia!
     
-    Now try to create 3 sentences using **OI** words:
-    
-    <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
-    
+    Now let's see these words in context:
+
+    **6. Kai:** I dai i bevio en yani bedam,<br>a ilhei i ilaluan ca oipili.<br>En limel, i dai i mo.
+
+    **7. Ana:** A bevio a oi!<br>Nim i geldovear nime beivu,<br>eta nim i do i gerina.<br>Mai, i iranum i mo en limel.
+
+    *bevio = shop · bedam = square · beivu = car · geldovear = sold*
+
+    <div style="text-align: center; margin: 2rem 0;">
+    <button onclick="document.getElementById('l19context').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+        Click for Translation
+    </button>
+    </div>
+
+    <div id="l19context" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+    <p style="margin: 0 0 0.5rem 0;">Kai: I want to shop at the new square. People say it is cute. In the evening, I want to eat.</p>
+    <p style="margin: 0;">Ana: Shopping is fun! I sold my car, so I can spend money. But I don't like to eat in the evening.</p>
+    </div>
+
     You are ready for the exercise now!
     
  
