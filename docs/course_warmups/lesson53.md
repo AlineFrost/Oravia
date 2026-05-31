@@ -1,4 +1,4 @@
-# Lesson 52: VE / SI Clusters
+# Lesson 52: CO Cluster
 
 !!! info "How to Use This Lesson"
     Every lesson is divided into five sections: **Warm-Up**, **Vocabulary**, **Reading**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
@@ -38,19 +38,21 @@
     
 === "Vocabulary"
     
-    ## VE CLUSTER
+    ## CO CLUSTER
     
-    Our first cluster today is **VE**! 
+    We will only leanr one cluster today, **CO**: 
     
     | Oravia | English |
     |--------|---------|
-    | veito | wound |
-    | velan | therapy, treatment |
-    | veimigai | bacteria |
-    | veluo | exercise |
-    | velmo | pill |
+    | cohela | send |
+    | conala | emergency |
+    | conehui | request |
+    | corior | phone, smartphone |
+    | colira | sign, symbol |
+    | couyen | mail, email |
+    | couhai | message |
     
-    What do you think **VE** words are about?
+    What do you think **CO** words are about?
     
     <div style="text-align: center; margin: 2rem 0;">
     <button onclick="document.getElementById('subcluster4-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
@@ -59,11 +61,11 @@
     </div>
     
     <div id="subcluster4-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;"> <strong>VE</strong> words are related to <strong>health</strong>.</p>
+    <p style="margin: 0;"> <strong>CO</strong> words are related to <strong>communication</strong>.</p>
     </div>
     
-    Ce lirul run i veluo en liperi?
-        
+    Run i neron anja e corior dou e sirosa? Ce i anye noi?
+    
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
     
     <div style="text-align: center; margin: 2rem 0;">
@@ -73,51 +75,40 @@
     </div>
     
     <div id="subcluster5-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;">Possible translation: How often do you exercise in a week?</p>
+    <p style="margin: 0;">Possible translation: Do you use more the phone or the computer? What do you do there?</p>
+    </div>
+    
+    <div style="text-align: center; margin: 2rem 0;">
+    <button onclick="document.getElementById('subcluster6-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+        Click to Reveal Answer
+    </button>
     </div>
     
     <div id="subcluster6-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;">Example answers: Lirul, i veluo en Tamen, Balen, su Tevaen. En liperi yadetu, i iran i apavu en lu.  </p>
+    <p style="margin: 0;">Example answers: I neron anja e sirosa, caora i iran i rosa-sioer. Mai i anja e corior su, caora i iran i couhai u eofa.</p>
     </div>
-    
-    ## SI CLUSTER
-    
-    Our second cluster today is **SI**! 
-    
-    | Oravia | English |
-    |--------|---------|
-    | sirosa | computer, virtual |
-    | siyal | detect, notice |
-    | sioer | game, play |
-    | sioce | puzzle |
-    | simir | complex, complicated |
-    | sihei | robot, android |
-    
-    **SI** words are related to computer-like processes.  
-    Words that start with *sio*, like sioce and sioer, are related to *games*. 
-    Two very useful compounds here: bontame-sioer (boardgames) and sirosa-sioer (video games). 
     
     You are ready for the reading now!
     
 === "Reading"
     
-    This lesson, we will read a fable.   
+    Let's continue our fable from last time.   
     There will be some things you do not know in the readings to mirror real language encounter. Read it once and see if you can get the gist of it, and then try it again checking the tips below. 
     
     Before you dive in, here are a few key words:
     
-    tinen  = break, crack  
-    wimlua = river  
-    anise = carry, bring  
-    neiden = grow, develop  
+    dahau = responsibility  
+    jensui = side  
+    ilofun = hesitant  
   
   
-    Tinen Hue Molbo: Joniu Tam 
+    Tinen Hue Molbo: Joniu Tor 
     
-    Lar, i dami a yamirli faejal caei i elemi en wilgai. Nehen liyar, hay i anise e tor wa molbo. Notor, i vanvu en yalen jenon sora i anise e wa de wimlua u fa. 
-    Mai, a tor wa molbo a gavio. En tam wa molbo, i dami a yalgai tinen. Eta, wa i apanou de noi molbo.
-    A yamirli faejal i yaldih e wa molbo en wimlua. Mai cali i anivari-anifi en bo, a tinen molbo a nealui jenya. Caora lilon a faejal i vanvu, a wa i apanou.
-    A tinen molbo a tilira-neiden.
+    Lilon a faejal i yaldih e molbo en wimlua, a tinen molbo i ilaluan u hay.
+    "Nedas tohdin. Caora neliu molbo ga, i doum i dahau, a nim a tilira."
+    A yamirli faejal i asela, su i daco: "Litam cali nima i anivari-vanvu en bo, i anidai ca run i vardei e run jensui en jenon."
+     A tinen molbo i ilofun-dasu. Cali haya i anivari de wimlua su i ansau en jenon, nedas ilotanu.
+     En hay jensui en jenon, a nedas yunrani ciuseri de leipili i dami.
 
 
 
@@ -181,10 +172,9 @@
     <p style="margin: 0;">The cracked pot grew increasingly ashamed.</p>
     </div>
     
-    Now in 1 or 2 sentences, try to write what the story is about:
+     Now in 1 or 2 sentences, try to write what the story is about:
     
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
- 
 
 === "Exercise 1"
 
