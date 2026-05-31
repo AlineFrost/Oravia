@@ -96,7 +96,7 @@
     
     Word orders like this are very common worldwide and occur in languages like Japanese and Hindi. To mirror a different word order, here's what is going to happen to the text today:
     
-    . the verb will go to the end of the sentence, like *a falen e ompili i roesau* (the child learns piano)  
+    . the verb will go to the end of the sentence, like *a falen e ompili i roesau* (the child learns piano).  
     . secondary and modifying clauses will go to the front. For example, *mioci ca i sioerar su fano* becomes *fano sioerar mioici* (monkey that had been playing with their offspring).
     
     In order to read the story, just remember: the markers indicate the role in the sentence, not the order! Keep your attention in the markers. Now let's give it a try. 

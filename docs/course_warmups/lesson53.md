@@ -40,7 +40,7 @@
     
     ## CO CLUSTER
     
-    We will only leanr one cluster today, **CO**: 
+    We will only learn one cluster today, **CO**: 
     
     | Oravia | English |
     |--------|---------|

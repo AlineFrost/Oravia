@@ -1,4 +1,4 @@
-# Lesson 52: CO Cluster
+# Lesson 54: PO Cluster
 
 !!! info "How to Use This Lesson"
     Every lesson is divided into five sections: **Warm-Up**, **Vocabulary**, **Reading**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
@@ -38,21 +38,24 @@
     
 === "Vocabulary"
     
-    ## CO CLUSTER
+    ## PO CLUSTER
     
-    We will only leanr one cluster today, **CO**: 
+    Today we will learn one cluster, **PO**! 
     
     | Oravia | English |
     |--------|---------|
-    | cohela | send |
-    | conala | emergency |
-    | conehui | request |
-    | corior | phone, smartphone |
-    | colira | sign, symbol |
-    | couyen | mail, email |
-    | couhai | message |
+    | poarofei | alcohol |
+    | pocor | trash |
+    | podau | meter, distance |
+    | pohivi | electricity |
+    | pohyaro | energy, charger |
+    | poilumo | oil |
+    | poiwa | liquid |
+    | poiyal | liter, volume |
     
-    What do you think **CO** words are about?
+    **PO** words are related to chemistry.
+    
+    We have 2 subclusters here. What do you think they are about?
     
     <div style="text-align: center; margin: 2rem 0;">
     <button onclick="document.getElementById('subcluster4-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
@@ -61,10 +64,20 @@
     </div>
     
     <div id="subcluster4-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;"> <strong>CO</strong> words are related to <strong>communication</strong>.</p>
+    <p style="margin: 0;"> <strong>POH</strong> words are related to <strong>energy and power</strong>, and <strong>POI</strong> words are related to <strong>liquids</strong>.</p>
     </div>
     
-    Run i neron anja e corior dou e sirosa? Ce i anye noi?
+    *Poh* also means fire, that's why we have *pohpoh* as the word for fire, and *yopoh* as red.
+    
+    In this cluster, we have a very important word: **pohnen**. It means power, force, strong, to impose. We use it to say someone is forcing someone to do something. For that, we use the ca connector, like this:
+    
+    ```
+    Toului i pohnen ca a nim i anefene = tiredness makes me rest.  
+    
+    A fare i pohnen ca a fano i yadetu e dahau notor sioer = The parent makes the child finish the chores before playing.
+    ```
+    
+    Run fare i pohnen ca run i mo e lei cali falen? 
     
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
     
@@ -75,7 +88,7 @@
     </div>
     
     <div id="subcluster5-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;">Possible translation: Do you use more the phone or the computer? What do you do there?</p>
+    <p style="margin: 0;">Possible translation: Did your parent make you eat vegetables when you were a kid?</p>
     </div>
     
     <div style="text-align: center; margin: 2rem 0;">
@@ -85,51 +98,56 @@
     </div>
     
     <div id="subcluster6-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;">Example answers: I neron anja e sirosa, caora i iran i rosa-sioer. Mai i anja e corior su, caora i iran i couhai u eofa.</p>
+    <p style="margin: 0;">Example answers: I foum, caora nolili i iran i mo e lei. Mai, haya i pohnen ca nim i mo e mi, caora nim i anidaium.</p>
     </div>
     
     You are ready for the reading now!
     
 === "Reading"
     
-    Let's continue our fable from last time.   
-    There will be some things you do not know in the readings to mirror real language encounter. Read it once and see if you can get the gist of it, and then try it again checking the tips below. 
+    Let's re-read the Craked Pot story, with a twist! The sentences and meaning will be the same, but the word order will flip.
     
-    Before you dive in, here are a few key words:
+    Here's what is going to happen to the text today:
     
-    dahau = responsibility  
-    jensui = side  
-    ilofun = hesitant  
+    . the verb will go to the end of the sentence, like *a falen e ompili i roesau* (the child learns piano).  
+    . secondary and modifying clauses will go to the front. For example, *mioci ca i sioerar su fano* becomes *fano sioerar mioici* (monkey that had been playing with their offspring).
+    
+    In order to read the story, just remember: the markers indicate the role in the sentence, not the order! Keep your attention in the markers. Now let's give it a try. 
   
   
-    Tinen Hue Molbo: Joniu Tor 
+    Tinen Hue Molbo 
     
+    Lar, i dami a yamirli faejal caei i elemi en wilgai. Nehen liyar, hay i anise e tor wa molbo. Notor, i vanvu en yalen jenon sora i anise e wa de wimlua u fa. 
+    Mai, a tor wa molbo a gavio. En tam wa molbo, i dami a yalgai tinen. Eta, wa i apanou de noi molbo.
+    A yamirli faejal i yaldih e wa molbo en wimlua. Mai cali i anivari-anifi en bo, a tinen molbo a nealui jenya. Caora lilon a faejal i vanvu, a wa i apanou.
+    A tinen molbo a tilira-neiden.
     Lilon a faejal i yaldih e molbo en wimlua, a tinen molbo i ilaluan u hay.
     "Nedas tohdin. Caora neliu molbo ga, i doum i dahau, a nim a tilira."
     A yamirli faejal i asela, su i daco: "Litam cali nima i anivari-vanvu en bo, i anidai ca run i vardei e run jensui en jenon."
      A tinen molbo i ilofun-dasu. Cali haya i anivari de wimlua su i ansau en jenon, nedas ilotanu.
      En hay jensui en jenon, i dami a nedas yunrani ciuseri de leipili.
 
-
-
     **Tips**
 
     anidai = want  
+    anise = carry  
     anivari = return  
+    anivari-anifi = return, get back  
     anivari-vanvu = walk back, return walking  
+    apanou = leak, fall, drop  
     ansau = start  
     asela = smile  
-    bo = home  
-    cali = when  
-    caora = because  
+    bo = home, house  
     ciuseri = row, series  
     daco = reply, answer  
     dahau = responsibility, responsible  
     dami = exist, there is  
-    de = from, of  
-    en = in, at  
+    elemi = live  
+    eta = so, therefore  
+    fa = family  
     faejal = man  
     ga = compared to, than  
+    gavio = different  
     hay = he  
     haya = they  
     ilaluan = speak, say  
@@ -137,44 +155,57 @@
     ilotanu = surprised, astonished  
     jenon = path  
     jensui = side  
+    jenya = empty  
+    lar = once  
     leipili = flower  
     lilon = while, during  
-    litam = today, day  
+    litam = day, today  
+    liyar = morning  
     mai = but  
     molbo = pot  
+    nealui = half  
     nedas = very, extremely  
+    nehen = every  
+    neiden = develop, grow   
     neliu = other  
-    nim = I  
-    nima = we  
-    run = you  
-    su = and  
-    tilira = shame, ashamed  
+    notor = then  
+    sora = in order to  
     tinen = crack, cracked  
+    tilira = shame, ashamed  
     tohdin = sorry  
-    u = to  
+    tor = two  
+    u = to, for  
+    vanvu = walk  
     vardei = look, see  
+    wa = water  
+    wilgai = village  
     wimlua = river  
+    yalgai = small  
     yaldih = fill  
+    yalen = long  
     yamirli = old  
     yunrani = beautiful  
     
     <div style="text-align: center; margin: 2rem 0;">
-    <button onclick="document.getElementById('tinen-molbo2-translation').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+    <button onclick="document.getElementById('tinen-molbo-full-translation').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
         Click to Reveal Translation
     </button>
     </div>
-    <div id="tinen-molbo2-translation" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+    <div id="tinen-molbo-full-translation" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
     <p style="margin: 0 0 0.5rem 0;">English translation:</p>
-    <p style="margin: 0 0 0.5rem 0;">While the old man filled the pots at the river, the cracked pot spoke to him.</p>
+    <p style="margin: 0 0 0.5rem 0;">Once, there was an old man who lived in a village.</p>
+    <p style="margin: 0 0 0.5rem 0;">Every morning, he would carry two water pots. Then, he would walk a long path in order to carry water from the river to his family.</p>
+    <p style="margin: 0 0 0.5rem 0;">But the two water pots were different.</p>
+    <p style="margin: 0 0 0.5rem 0;">In one water pot, there was a small crack. So, water would leak from that pot.</p>
+    <p style="margin: 0 0 0.5rem 0;">The old man would fill the water pots at the river. But when he got back home, the cracked pot would be half empty. Because while the man walked, the water would leak.</p>
+    <p style="margin: 0 0 0.5rem 0;">The cracked pot grew increasingly ashamed.</p>
+    <p style="margin: 0 0 0.5rem 0;">One day, while the old man filled the pots at the river, the cracked pot spoke to him.</p>
     <p style="margin: 0 0 0.5rem 0;">“I’m very sorry. Because I cannot fulfill my responsibility as well as the other pot, I am ashamed.”</p>
     <p style="margin: 0 0 0.5rem 0;">The old man smiled and replied: “Today, when we walk back home, I want you to look at your side of the path.”</p>
     <p style="margin: 0 0 0.5rem 0;">The cracked pot reluctantly agreed. As they returned from the river and started on the path, he was extremely surprised.</p>
     <p style="margin: 0;">On his side of the path, there was a very beautiful row of flowers.</p>
     </div>
-     
-     Now in 1 or 2 sentences, try to write what the story is about:
-    
-    <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
+
 
 === "Exercise 1"
 
