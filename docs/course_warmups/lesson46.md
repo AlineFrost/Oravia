@@ -1,4 +1,4 @@
-# Lesson 46: Numbers Pt.2
+# Lesson 46: WA / DO
 
 !!! info "How to Use This Lesson"
     Every lesson is divided into five sections: **Warm-Up**, **Vocabulary**, **Reading**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.

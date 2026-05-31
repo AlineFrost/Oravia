@@ -1,7 +1,7 @@
-# Lesson 43: EL Cluster
+# Lesson 49: JA Cluster
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into five sections: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order. After you finish, *try the Exercises and Review again* to see how much you've improved.
+    Every lesson is divided into five sections: **Warm-Up**, **Vocabulary**, **Reading**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -36,105 +36,24 @@
     
     </div>
     
-=== "Grammar"
-
-    ## Compounds
-    
-    Try to see if you can guess these compounds! Remember, this is not exact science. 
-    
-
-    ```
-    Hetam i do i boemo daehun 'roumo.
-    ```
-        
-    ```
-    A suuma fare i tohpu.
-    ```
-    
-    ```
-    Nim i fou i tohdina ilahai. 
-    ```
-    
-
----
-    
-    ```
-    Nesunya lirul a nim i bonfene a tohnaru u faibor.
-    ```
-    
-    ```
-    Nepar ilie i lupupi litamis. 
-    ```
-    
-    ```
-    Hay i boemo en bo nealui lirular.
-    ```
-    
-    
-    **Tips**
-    -ar = completed  
-    -is = yet to start   
-    (an)do = can  
-    anvu  = move, go   
-    bo  = house, home   
-    boemo  = cook   
-    bonfene  = bed, lie down   
-    en  = at, in (location)   
-    faibor  = partner   
-    ilie  = likelihood, maybe   
-    lirul  = habit (frequency)   
-    lirular  = used to (habit completed)   
-    litamis  = tomorrow (day yet to start)   
-    lufiva  = cold   
-    lupupi  = rain   
-    mai  = but   
-    nealui  = 5 out of 10   
-    nedas  = 10 out of 10   
-    nepar  = 3 out of 10   
-    nesunya  = 0 out of 10   
-    tohnaru  = angry   
-    toului  = tired   
-    toumo  = hungry   
-
-    
-    
-    <div style="text-align: center; margin: 2rem 0;">
-    <button onclick="document.getElementById('subcluster3-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
-        Click to Reveal the Answer
-    </button>
-    </div>
-    
-    <div id="subcluster3-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0 0 0.5rem 0;">Possible translations:</p>
-    <p style="margin: 0 0 0.5rem 0;"> The shower is not cold at all. </p>
-    <p style="margin: 0 0 0.5rem 0;"> I'm extremely hungry! </p>
-    <p style="margin: 0 0 0.5rem 0;"> I am a little tired but we can go. </p>
-    <p style="margin: 0 0 0.5rem 0;"> I never go to bed angry at my partner. </p>
-    <p style="margin: 0 0 0.5rem 0;"> It might rain tomorrow. </p>
-    <p style="margin: 0 0 0.5rem 0;"> She used to cook at home half the time.  </p>
-    </div>
-
-    
 === "Vocabulary"
-
-    ## JO CLUSTER
     
-    Today we will learn the **JO** Cluster! Take a look at the words below:
+    ## JA CLUSTER
+    
+    Today we will learn one cluster, **JA**! 
     
     | Oravia | English |
     |--------|---------|
-    | joliri | glass |
-    | joleni | plastic |
-    | jolem | box |
-    | jovabo | cover |
-    | joldur | metal |
-    | joniu | piece |
-    | jomo | plate |
-    | jolace | rubber |
-    | jocal | sheet |
+    | jarih | ladder |
+    | jadun | fork |
+    | jalen | pencil |
+    | jajol | pocket |
+    | jahvel | knife |
+    | jahpapa | hammer |
+    | jadoe | shelf |
     
     
-    What do you think the **JO** Cluster is about?
+    What do you think **JA** words are about?
     
     <div style="text-align: center; margin: 2rem 0;">
     <button onclick="document.getElementById('subcluster4-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
@@ -143,64 +62,119 @@
     </div>
     
     <div id="subcluster4-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;"> It's about <strong>material objects</strong>.</p>
+    <p style="margin: 0;"> <strong>JA</strong> words are related to <strong>tools</strong>.</p>
     </div>
     
-    We also have one subcluster, can you identify the sound and the meaning?
+    Remember these words can be used as verbs as well. For example, 
+
+    ```     
+    i jahvel e micuc = I cut the chicken
+    i jadoe e roumir = I put the book in the shelf
+    ```
     
+    
+    !!! info "🌍 Sound Connections"
+        Rih means higher, rising. That's why we have Elarih (religious + higher) as divine, aparih (body movement + higher) as jump, ganrih (rank + higher) as above, leirih (plant + higher) as tree, and jarih (tool + higher) as ladder.  
+       This is a bit different from Rel, which means up. Some words that have the rel root include fare[l] (family + one generation up) as parent, borel (house structure + up) as ceiling or roof, and yesrel (clothes + up) as jacket.
+
+    
+    You are ready for the reading now!
+    
+=== "Reading"
+    
+    Today we will read an fairytale from the Amazon region.
+    There will be some things you do not know in the readings to mirror real language encounter. Read it once and see if you can get the gist of it, and then try it again checking the tips below. 
+    
+    Before you dive in, here are a few key words:
+    
+    ancem = rotate, turn  
+    couya  = word, name, to call  
+    eover = protect, defend  
+    copei = search, hunt  
+  
+  
+    Curupira Joniu Tam (Curupira Part 1)
+    
+    En lealei i elemi a yalgai su mioici faejal. Hay i none e yopoh vosyas su e ancem hue vanpai. O e hay i couya no Curupira.
+    Eofa de le, hay lirul en yaltan mio mius. Curupira i eover e lei su misumu. Cali a neauta lupupi i widuo, notam hay i ilahai u misumu. Eta, neloa i do i raiver de lufu su 'lusiram. 
+    Lar, a copei hai i copei e mioici ca i sioerar su fano. A curupira i vardei noi, su i ansau i vanvu. A vanpai colira de curupira a ancem hue. 
+    Cali a sita hai i vardei e colira en leno, i copei. Mai, a colira i antai en ho jetai. Eta, a sita hai i ilianum e jenon en lealei, su a jenon-tohbian. Notor, hay i apanou en janou: o yewamus de curupira. 
+
+    **Tips**
+
+    ancem = turn, backwards  
+    ansau = start  
+    antai = lead, direct  
+    apanou = fall  
+    colira = sign, mark  
+    elemi = life, to live  
+    eofa = friend  
+    eta = therefore, so  
+    faejal = man  
+    fano = offspring  
+    hue = resultant state  
+    ilahai = to tell  
+    janou = hole  
+    jenon = path  
+    jetai = direction  
+    lar = once, in the past  
+    lealei = forest  
+    lei = plant  
+    leno = soil, ground  
+    lirul = habitually  
+    lufu = wind  
+    lupupi = rain  
+    'lusiram = lu (weather) + siram (flash) = lightning  
+    mioici = monkey, mischievous  
+    misumu = animal  
+    mius = pig  
+    neauta = 8/10  
+    neloa = all, everyone  
+    none = have  
+    notor =   
+    raiver = defend  
+    sioer = play, game  
+    tohbian = confusion  
+    vanpai = foot  
+    vanvu = walk  
+    vardei = see  
+    vosyas = hair  
+    widuo = near, to approach  
+    yalgai = small  
+    yaltan = large  
+    yewamus = net, trap  
+    yopoh = red  
+
     <div style="text-align: center; margin: 2rem 0;">
-    <button onclick="document.getElementById('subcluster-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
-        Click to Reveal the Answer
-    </button>
-    </div>
-    
-    <div id="subcluster-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;"> <strong>JOL</strong> is for basic substances used to make objects.</p>
-    </div>
-    
-    Notice that *jolem* (box) is not part of the subcluster, it is formed by jo + lem. (Do you remember any other words with lem?).
-    
-    Notice that these words can also be used in other ways, for example:
-    
-    | Oravia | English |
-    |--------|---------|
-    | joliri | glass, transparent |
-    | jolem | box, rectangular |
-    | jovabo | cover, blanket |
-    | joldur | metal, metallic |
-    | joniu | piece, part |
-    | jomo | plate, to plate |
-    | jolace | rubber, malleable |
-    | jocal | sheet, flat |
-    
-   
-    Run i ilian canon i anye e ilwol de jo? 
-    
-    <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
-    
-    <div style="text-align: center; margin: 2rem 0;">
-    <button onclick="document.getElementById('subcluster5-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+    <button onclick="document.getElementById('curupira1-translation').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
         Click to Reveal Translation
     </button>
     </div>
-    
-    <div id="subcluster5-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;">Possible translation: Do you know how to build things out of materials?</p>
+    <div id="curupira1-translation" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+    <p style="margin: 0 0 0.5rem 0;">English translation:</p>
+    <p style="margin: 0 0 0.5rem 0;">In the forest lives a small, mischievous man.</p>
+    <p style="margin: 0 0 0.5rem 0;">He has red hair and backwards feet.</p>
+    <p style="margin: 0 0 0.5rem 0;">He is called Curupira.</p>
+    <p style="margin: 0 0 0.5rem 0;"></p>
+    <p style="margin: 0 0 0.5rem 0;">A friend of nature, he is habitually on large wild boars.</p>
+    <p style="margin: 0 0 0.5rem 0;">Curupira protects the plants and animals.</p>
+    <p style="margin: 0 0 0.5rem 0;">When heavy rain approaches, beforehand he tells the animals.</p>
+    <p style="margin: 0 0 0.5rem 0;">So everyone can protect themselves from wind and lightning.</p>
+    <p style="margin: 0 0 0.5rem 0;"></p>
+    <p style="margin: 0 0 0.5rem 0;">Once, a hunter was hunting a monkey who was playing with their offspring.</p>
+    <p style="margin: 0 0 0.5rem 0;">Curupira sees this and starts to walk.</p>
+    <p style="margin: 0 0 0.5rem 0;">Curupira's tracks (foot mark) are backwards.</p>
+    <p style="margin: 0 0 0.5rem 0;"></p>
+    <p style="margin: 0 0 0.5rem 0;">When the hunter saw the marks on the ground, he pursued them.</p>
+    <p style="margin: 0 0 0.5rem 0;">But the mark led him in the opposite direction.</p>
+    <p style="margin: 0 0 0.5rem 0;">So the hunter did not know the path in the forest, and got lost.</p>
+    <p style="margin: 0;">Then he fell in a hole: Curupira's trap.</p>
     </div>
     
-    <div style="text-align: center; margin: 2rem 0;">
-    <button onclick="document.getElementById('subcluster6-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
-        Click to Reveal Answer
-    </button>
-    </div>
+    Now in 1 or 2 sentences, try to write what the story is about:
     
-    <div id="subcluster6-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;">Example answer: Nim i do i anye e joliri ilwol. </p>
-    </div>
-    
-    
-    You are ready for the exercise now!
-    
+    <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
+
  
 
 === "Exercise 1"
@@ -388,12 +362,12 @@ document.querySelectorAll('.tabbed-labels label').forEach(label => {
 
 <div style="text-align: center; padding: 2rem 0; background: #e0f2f1; border-radius: 8px; margin-top: 3rem;">
     <p style="font-size: 1.2rem; color: #4a9cd6; margin-bottom: 1rem;">
-        🎉 <strong>Lesson 43 Complete!</strong>
+        🎉 <strong>Lesson 47 Complete!</strong>
     </p>
     <p style="color: #5a8bb8; margin-bottom: 0.5rem;">
         If you missed any words, check the <strong>Review</strong> tab to practice them again.
     </p>
     <p style="color: #5a8bb8; margin-bottom: 1.5rem;">
-        Come back tomorrow for Lesson 44.
+        Come back tomorrow for Lesson 48.
     </p>
 </div>

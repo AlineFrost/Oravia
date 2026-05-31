@@ -157,7 +157,8 @@
         <p style="margin: 0;">MOA means <strong>fruit</strong>, and all words that start with MOA are fruits.</p>
     </div>
     
-    *MOA* and *MOL* are subclusters! They indicate subdivisions within the *MO cluster*. Subclusters are indicated by the third letter. Clusters can have between 0–4 subclusters.
+    *MOA* and *MOL* are subclusters! They indicate subdivisions within the *MO cluster*. Each cluster can have between 0–4 subclusters. 
+    Subclusters are usually indicated by the third letter, completing a syllable. For example, with a cluster like MO, you could have subclusters that sound like MOL-ban, MOA-ria, MOU-je... but you would generally *not* have a subcluster like MOG-ali, because the third letter here is starting another syllable.
     
     !!! info "🌍 Fun Fact"
         Moa means banana plant in Polynesian roots, and indicates all fruits in Oravia.  

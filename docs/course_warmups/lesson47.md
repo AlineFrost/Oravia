@@ -1,4 +1,4 @@
-# Lesson 43:  Cluster
+# Lesson 47: MA Cluster
 
 !!! info "How to Use This Lesson"
     Every lesson is divided into five sections: **Warm-Up**, **Vocabulary**, **Reading**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.

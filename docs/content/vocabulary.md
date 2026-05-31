@@ -17,6 +17,14 @@ Search and filter all Oravia words. Click any column header to sort.
     style="padding: 0.4rem 0.75rem; border: 2px solid #4a9cd6; border-radius: 6px; font-size: 0.9rem; font-family: inherit; background: white;">
     <option value="">All lessons</option>
   </select>
+  <select id="vocab-field"
+    style="padding: 0.4rem 0.75rem; border: 2px solid #4a9cd6; border-radius: 6px; font-size: 0.9rem; font-family: inherit; background: white;">
+    <option value="">All fields</option>
+    <option value="cluster">(Sub)cluster</option>
+    <option value="root">Root</option>
+    <option value="oravia">Oravia word</option>
+    <option value="english">English</option>
+  </select>
   <span id="vocab-count" style="color: #5a8bb8; font-size: 0.85rem;"></span>
 </div>
 
@@ -100,7 +108,12 @@ Search and filter all Oravia words. Click any column header to sort.
       if (cl && r.cluster_name !== cl) return false;
       if (ls && r.lesson !== ls) return false;
       if (q) {
-        const hay = (r.oravia+' '+r.english+' '+(r.english_all||'')).toLowerCase();
+        const field = document.getElementById('vocab-field').value;
+        const hay = field === 'cluster' ? ((r.cluster_name||'')+' '+(r.cluster_sound||'')+' '+(r.subcluster||'')).toLowerCase()
+                  : field === 'root'    ? (r.root||'').toLowerCase()
+                  : field === 'oravia'  ? (r.oravia||'').toLowerCase()
+                  : field === 'english' ? ((r.english||'')+' '+(r.english_all||'')).toLowerCase()
+                  : ((r.cluster_name||'')+' '+(r.cluster_sound||'')+' '+(r.subcluster||'')+' '+(r.root||'')+' '+r.oravia+' '+r.english+' '+(r.english_all||'')).toLowerCase();
         if (!hay.includes(q)) return false;
       }
       return true;
@@ -168,6 +181,7 @@ Search and filter all Oravia words. Click any column header to sort.
   document.getElementById('vocab-search').addEventListener('input', render);
   clusterSel.addEventListener('change', render);
   lessonSel.addEventListener('change', render);
+  document.getElementById('vocab-field').addEventListener('change', render);
 
   // Store exact sound for building blocks links
   document.addEventListener('click', function(e) {

@@ -105,7 +105,7 @@
         Lano comes from the Polynesian root Rano, which is a circular volcanic crater with a lake. In Oravia it means round, around.
         
     Here's another word with this root:
-    **jelano** = ball, sphere (geometric + around), just like aselano = hug (interpersonal body action + around) 
+    **jelano** = circle, wheel (geometric + around), just like aselano = hug (interpersonal body action + around) 
 
     
     You are ready for the reading now!

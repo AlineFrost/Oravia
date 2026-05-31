@@ -39,11 +39,11 @@ nav:
   - Quick Reference:
     - Cheat Sheet: about/cheat-sheet.md
     - 10-Minute Grammar: about/core-grammar.md
-    - Vocabulary: content/vocabulary.md
     - Building Blocks: content/building_blocks.md
     - Semantic Explorer: content/semantic_explorer.md
   - Content:
     - Comprehensive Grammar: content/oravia-grammar.md
+    - Dictionary: content/dictionary.md
     - Craft & Style: content/oravia-style.md
     - Readings: content/readings.md
     - Media: content/media.md
@@ -94,6 +94,14 @@ nav:
       - L39 - LE Cluster: course_warmups/lesson39.md
       - L40 - Gradation: course_warmups/lesson40.md
       - Milestone 2: course_warmups/milestone2.md
+      - L41 - 41: course_warmups/lesson41.md
+      - L42 - 42: course_warmups/lesson42.md
+      - L43 - 43: course_warmups/lesson43.md
+      - L44 - 44: course_warmups/lesson44.md
+      - L45 - 45: course_warmups/lesson45.md
+      - L46 - 46: course_warmups/lesson46.md
+      - L47 - 47: course_warmups/lesson47.md
+      - L48 - 48: course_warmups/lesson48.md
   - Worldbuilding:
       - Script: world/script.md
       - Locations: world/lusaria.md

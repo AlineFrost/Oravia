@@ -45,8 +45,6 @@ Nearly all auxlangs are essentially simplified Romance-Germanic: even when they 
 
 This grammar document aims to be comprehensive, and as such has more advanced or niche constructions. Also, **a lot of these smaller rules are either optional or can be acquired by "osmosis"**. If you'd like to check the foundations of the grammar and start speaking, check the [Core Grammar](../about/core-grammar.md) or the [Core Course](../course/lesson00.md).
 
-[⬇ Open as PDF](oravia-grammar.pdf){ .md-button }
-
 ---
 
 <details class="gr-part">
@@ -215,7 +213,8 @@ haya i ilian ca nim i anye = they know what I am doing</pre>
 </table>
 <pre>hayjor = she         farejor = mother
 faejor fano = daughter    faejal fano = son</pre>
-<p>Gender is always optional: use it only when disambiguation is needed.</p>
+<p>Gender is always optional: use it only when disambiguation is needed.  
+You can also make any word into a gender word by adding it into the fae subcluster (fae + root). More information about coining words in the Guide to Craft and Style.</p>
 </div>
 </details>
 
@@ -680,11 +679,8 @@ en bo i dami a yunitam mo   → in the house there is a special dish</pre>
 </details>
 
 <details class="gr-sec">
-<summary>22. Adjectives and Modifier Order</summary>
+<summary>22. Compounds and Importing Words</summary>
 <div class="gr-content">
-<p>The modifier always comes first:</p>
-<pre>mogali moulu        → coffee milk = coffee-flavored milk
-yamirli heivio hai  → old magic-doer (witch/wizard)</pre>
 <h4>22.1 Compounds — the -a Suffix</h4>
 <p>Adding -a to a modifying word signals they are forming one concept, rather than working as an adjective:</p>
 <table>
@@ -724,13 +720,16 @@ mirli-elivon   → much time + wisdom, understanding that comes with time</pre>
 <p>For species and coined words, define the word at its first use with a compound:</p>
 <pre>En borlu, i vardei e &#x27;miautan.
 *miautan = yedia yaltana miau, *panthera tigris*</pre>
-<p>The ’ signals to the reader: this word is not in the core vocabulary. Imported and coined words never enter the core vocabulary. </p>
+<p>The ' signals to the reader: this word is not in the core vocabulary. Imported and coined words never enter the core vocabulary. </p>
 </div>
 </details>
 
 <details class="gr-sec">
 <summary>23. Adverbs and the Adjective/Adverb Distinction</summary>
 <div class="gr-content">
+<p>The modifier always comes first:</p>
+<pre>mogali moulu        → coffee milk = coffee-flavored milk
+yamirli heivio hai  → old magic-doer (witch/wizard)</pre>
 <p>In Oravia, any word can function as a modifier. Context usually makes the adjective/adverb reading clear. When disambiguation is needed, three strategies are available:</p>
 <h4>23.1 Hyphenated Verb</h4>
 <p>Hyphenate the modifier to the verb to signal it modifies the action, not a noun:</p>
@@ -829,23 +828,34 @@ tam ganter litam       → the first day (in a sequence)</pre>
 <details class="gr-sec">
 <summary>27. Only and Also/Too</summary>
 <div class="gr-content">
-<h4>27.1 netam — Only</h4>
-<p>netam (from ne + tam = single/one) means &quot;only.&quot; It precedes what it restricts, just like other modifiers:</p>
-<pre>i anidai netam e mogali            → I want only coffee
-netam o nim i none                 → only I have it
-a netam litam i dami               → there is only one day left
-hay i anicavori netam caora tohpu     → she left only because of sadness</pre>
-<h4>27.2 su — Also/Too</h4>
-<p>su already appears as the connector &quot;and/also/with&quot; (placed before or between elements). When placed after a word, it takes on the meaning &quot;also / too,&quot; emphasizing that the word it follows is included in addition to something already established.</p>
+<p>English only covers several genuinely different ideas. Compare:</p>
+<pre>"I have only ten minutes." — a small quantity, no more than
+"I only wanted to help." — softening, no big deal
+"Only Maria came." — exclusive, no one else</pre>
+<p>Oravia treats these as separate words.</p>
+<h4>27.1 negafi — small quantity, no more than</h4>
+<p>negafi is from the NE cluster (quantifiers) + gafi (less).</p>
+<pre>i vanta negafi tam coupa    → I have only one card</pre>
+<h4>27.2 bi gai — merely, just</h4>
+<p>bi gai combines the bi stance marker with gai (easy, simple). The speaker is minimizing or softening, framing something as "no big deal". This is the "just" in <em>I'm just a student</em> or <em>I just wanted to help</em>.</p>
+<pre>bi gai i dai i elomio    → I just want to help
+bi gai i ilaluan         → I'm just saying</pre>
+<p>Because it uses bi, this is always a speaker's stance, not a quantity or exclusion statement.</p>
+<h4>27.3 dantam — exclusively / and no others</h4>
+<p>dantam is formed by DAN (emphasis) + TAM (one, single). It singles out one entity above all others.</p>
+<pre>dantam a Maria i anifi              → Only Maria came
+dantam a run i ilidai e noi dasora  → Only you intended this purpose</pre>
+<h4>27.4 su — Also/Too</h4>
+<p>su already appears as the connector "and/also/with" (placed before or between elements). When placed after a word, it takes on the meaning "also / too," emphasizing that the word it follows is included in addition to something already established.</p>
 <p>The position distinguishes the two uses:</p>
-<pre>Before/between = &quot;and/with&quot; (connector):
+<pre>Before/between = "and/with" (connector):
 nim su run i anvu           → I and you go / I go with you
  
-After a word = &quot;also/too&quot; (focus):
+After a word = "also/too" (focus):
 hay i anifar su             → she also left / she left too
 nim i mo, hay su            → I eat; she does too
 neloa i mo su               → everyone also eats</pre>
-<p>The &quot;also/too&quot; use of su is the same word; context and position make the reading clear.</p>
+<p>The "also/too" use of su is the same word; context and position make the reading clear.</p>
 </div>
 </details>
 
