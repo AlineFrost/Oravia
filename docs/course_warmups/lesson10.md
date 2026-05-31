@@ -56,6 +56,9 @@
      I       give    milk   to baby
     ```
     
+    These are the mnemonics for the markers:
+    **A**gent **I**nitiates **E**ngaging **U**nto
+    
     Just like with the other markers, word order is flexible. You can use whatever order feels most natural to you:
     
     ```
