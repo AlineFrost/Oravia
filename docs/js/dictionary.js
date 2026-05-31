@@ -1,7 +1,7 @@
 (function () {
   'use strict';
 
-  console.log('Oravia dictionary.js loaded: 2026-05-31 clean replacement');
+  console.log('Oravia dictionary.js loaded: 2026-05-31 restored original visible formatting');
 
   var CLUSTER_COLORS = {
     "volitional action": "#5b6af0", "physical action": "#f07a5b", "bodily actions": "#e8a857",
@@ -270,7 +270,7 @@
     if (w.ex && w.ex.length > 0) html += renderExample(w.ex[0]);
 
     if (w.rel && w.rel.length > 0) {
-      html += '<div class="dict-related"><span class="dict-rel-label">Related:</span> ';
+      html += '<div class="dict-related"><span class="dict-rel-label">related words</span> ';
       html += w.rel.map(function (r) {
         return '<span class="dict-related-item" tabindex="0" role="button" data-word="' + escAttr(r) + '">' + esc(r) + '</span>';
       }).join(' ');
@@ -286,16 +286,16 @@
     var meaning = esc(p.meaning || '');
     if (p.bb_id || p.bb_href || p.bb_type) {
       var href = buildingBlocksPageUrl;
-      return '<a href="' + escAttr(href) + '" data-bb="' + escAttr(p.sound || '') + '" data-bb-id="' + escAttr(p.bb_id || '') + '" data-bb-type="' + escAttr(p.bb_type || '') + '" class="dict-bb-link">' + sound + '</a> = ' + meaning;
+      return '<a href="' + escAttr(href) + '" data-bb="' + escAttr(p.sound || '') + '" data-bb-id="' + escAttr(p.bb_id || '') + '" data-bb-type="' + escAttr(p.bb_type || '') + '" class="dict-bb-link">' + sound + '</a> (' + meaning + ')';
     }
-    return sound + ' = ' + meaning;
+    return sound + ' (' + meaning + ')';
   }
 
   function renderExample(ex) {
     var html = '<div class="dict-example">';
-    html += '<span class="dict-ex-label">Example:</span> ';
     if (ex.o) html += '<span class="dict-ex-oravia">' + esc(ex.o) + '</span>';
-    if (ex.e) html += '<span class="dict-ex-sep"> — </span><span class="dict-ex-english">' + esc(ex.e) + '</span>';
+    if (ex.g) html += '<br><span class="dict-ex-gloss">' + esc(ex.g) + '</span>';
+    if (ex.e) html += '<span class="dict-ex-sep"> = </span><span class="dict-ex-english">' + esc(ex.e) + '</span>';
     html += '</div>';
     return html;
   }
