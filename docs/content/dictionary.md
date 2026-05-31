@@ -9,4 +9,4 @@ The cluster indicates a word's domain. The root gives additional hints about its
 
 <div id="oravia-dictionary">Loading dictionary…</div>
 
-<script src="../../js/dictionary.js"></script>
+<script src="../../js/dictionary.js?v=20260530-1"></script>

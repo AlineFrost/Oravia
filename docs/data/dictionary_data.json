@@ -431,8 +431,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "Hay i none e yopoh vosyas su e ancem hue vanpai.",
-        "e": "He has red hair and feet pointing backwards.",
+        "o": "hay i none e yopoh vosyas su e ancem hue vanpai.",
+        "e": "he has red hair and feet pointing backwards.",
         "from_lesson": true
       }
     ],
@@ -692,8 +692,8 @@
     ],
     "ex": [
       {
-        "o": "A mamol i anefene en dasalui litegai.",
-        "e": "The pot rests for fifteen minutes.",
+        "o": "a mamol i anefene en dasalui litegai.",
+        "e": "the pot rests for fifteen minutes.",
         "from_lesson": true
       }
     ],
@@ -830,32 +830,36 @@
     "c": "volitional action",
     "cs": "an",
     "sc": "ane",
-    "r": "oleo",
+    "r": "leo",
     "bd": [
       {
         "sound": "ane",
-        "meaning": "static actions",
+        "meaning": "static movement",
         "bb_type": "subcluster",
         "bb_id": "bb-subcluster-ane",
         "bb_href": "building_blocks_reference.html#bb-subcluster-ane",
         "bb_meaning": "static movement"
       },
       {
-        "sound": "oleo",
-        "meaning": "member"
+        "sound": "leo",
+        "meaning": "belong",
+        "bb_type": "root",
+        "bb_id": "bb-root-leo",
+        "bb_href": "building_blocks_reference.html#bb-root-leo",
+        "bb_meaning": "belonging"
       }
     ],
     "ex": [
       {
         "o": "i aneoleo e nim anse u rafa",
-        "e": "I contribute my work to the community",
+        "e": "i contribute my work to the community",
         "from_lesson": false
       }
     ],
     "syllable_meanings": [
       {
         "sound": "ane",
-        "meaning": "static actions",
+        "meaning": "static movement",
         "position": "subcluster",
         "bb_type": "subcluster",
         "bb_id": "bb-subcluster-ane",
@@ -863,31 +867,38 @@
         "bb_meaning": "static movement"
       },
       {
-        "sound": "oleo",
-        "meaning": "member",
-        "position": "root"
+        "sound": "leo",
+        "meaning": "belong",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-leo",
+        "bb_href": "building_blocks_reference.html#bb-root-leo",
+        "bb_meaning": "belonging"
       }
     ],
     "search_terms": [
       "action",
-      "actions",
       "an",
       "ane",
       "aneoleo",
+      "belong",
+      "belonging",
       "collaboration",
       "contribute",
       "contribute, collaboration",
       "keep",
+      "kind",
+      "leo",
       "member",
       "movement",
-      "oleo",
       "put",
+      "race",
       "rest",
       "secure",
       "static",
-      "static actions",
       "static movement",
       "stop",
+      "value",
       "volitional",
       "volitional action"
     ]
@@ -918,7 +929,7 @@
     "ex": [
       {
         "o": "norven nim i anepou",
-        "e": "I already stopped",
+        "e": "i already stopped",
         "from_lesson": true
       }
     ],
@@ -1167,7 +1178,7 @@
     "ex": [
       {
         "o": "i anidai ca run i mo",
-        "e": "I like that you eat",
+        "e": "i like that you eat",
         "from_lesson": true
       }
     ],
@@ -1328,8 +1339,8 @@
     ],
     "ex": [
       {
-        "o": "Nim i anitar caora i anifou.",
-        "e": "I took it because I need it.",
+        "o": "nim i anitar caora i anifou.",
+        "e": "i took it because I need it.",
         "from_lesson": false
       }
     ],
@@ -1413,7 +1424,7 @@
     "ex": [
       {
         "o": "i aniran e anodu yuba jenon",
-        "e": "I choose the best path",
+        "e": "i choose the best path",
         "from_lesson": false
       }
     ],
@@ -1500,7 +1511,7 @@
     "ex": [
       {
         "o": "i anisu e mo u nim falen",
-        "e": "I bring food to my child",
+        "e": "i bring food to my child",
         "from_lesson": false
       }
     ],
@@ -1592,8 +1603,8 @@
     ],
     "ex": [
       {
-        "o": "Cenon run i do i anita e yaltana miau fano, suum i bortal en yaltana miau bo?",
-        "e": "How can you catch tiger cubs without entering the tiger’s lair?",
+        "o": "cenon run i do i anita e yaltana miau fano, suum i bortal en yaltana miau bo?",
+        "e": "how can you catch tiger cubs without entering the tiger’s lair?",
         "from_lesson": false
       }
     ],
@@ -1832,27 +1843,19 @@
         "bb_meaning": "action"
       },
       {
-        "sound": "la",
-        "meaning": "happiness",
+        "sound": "laro",
+        "meaning": "continue",
         "bb_type": "root",
-        "bb_id": "bb-root-la",
-        "bb_href": "building_blocks_reference.html#bb-root-la",
-        "bb_meaning": "happiness"
-      },
-      {
-        "sound": "ro",
-        "meaning": "thinking, reasoning",
-        "bb_type": "root",
-        "bb_id": "bb-root-ro",
-        "bb_href": "building_blocks_reference.html#bb-root-ro",
-        "bb_meaning": "thinking, reasoning"
+        "bb_id": "bb-root-laro",
+        "bb_href": "building_blocks_reference.html#bb-root-laro",
+        "bb_meaning": "continuation"
       }
     ],
     "rel": [],
     "ex": [
       {
         "o": "i anlaro-mo",
-        "e": "I'm still eating",
+        "e": "i'm still eating",
         "from_lesson": true
       }
     ],
@@ -1867,62 +1870,41 @@
         "bb_meaning": "action"
       },
       {
-        "sound": "la",
-        "meaning": "happiness",
+        "sound": "laro",
+        "meaning": "continue",
         "position": "root",
         "bb_type": "root",
-        "bb_id": "bb-root-la",
-        "bb_href": "building_blocks_reference.html#bb-root-la",
-        "bb_meaning": "happiness"
-      },
-      {
-        "sound": "ro",
-        "meaning": "thinking, reasoning",
-        "position": "root",
-        "bb_type": "root",
-        "bb_id": "bb-root-ro",
-        "bb_href": "building_blocks_reference.html#bb-root-ro",
-        "bb_meaning": "thinking, reasoning"
+        "bb_id": "bb-root-laro",
+        "bb_href": "building_blocks_reference.html#bb-root-laro",
+        "bb_meaning": "continuation"
       }
     ],
     "search_terms": [
-      "abstract",
       "action",
       "an",
       "anlaro",
       "benefit",
-      "brain",
       "can",
+      "continuation",
       "continue",
       "continue, insist",
       "contribute",
       "dare",
       "decide",
-      "happines",
-      "happiness",
-      "happy",
       "insist",
-      "invent",
       "laro",
       "lead",
       "make",
-      "memory",
       "move",
       "open",
+      "permanent",
       "preparation",
       "privilege",
-      "reason",
-      "reasoning",
       "right",
       "service",
       "shut",
-      "smart",
-      "smile",
       "spread",
       "start",
-      "think",
-      "thinking",
-      "thinking, reasoning",
       "try",
       "turn",
       "use",
@@ -2045,8 +2027,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "En noi eodomai, runa i anloris",
-        "e": "In this negotiation, you will benefit",
+        "o": "en noi eodomai, runa i anloris",
+        "e": "in this negotiation, you will benefit",
         "from_lesson": false
       }
     ],
@@ -2219,7 +2201,7 @@
     "ex": [
       {
         "o": "nim i anidai ca hay i anocari e anona u nim lili.",
-        "e": "I like that she brings back gifts for me again",
+        "e": "i like that she brings back gifts for me again",
         "from_lesson": true
       }
     ],
@@ -2384,8 +2366,8 @@
     ],
     "ex": [
       {
-        "o": "Anolu, mir ilhei: a geldove hai i ilaluan, a falen i apavu.",
-        "e": "Outside, many people: sellers talk, children run.",
+        "o": "anolu, mir ilhei: a geldove hai i ilaluan, a falen i apavu.",
+        "e": "outside, many people: sellers talk, children run.",
         "from_lesson": false
       }
     ],
@@ -2582,7 +2564,7 @@
     "ex": [
       {
         "o": "i anona e anona u noniu ilhei",
-        "e": "I give the gift to some people",
+        "e": "i give the gift to some people",
         "from_lesson": true
       }
     ],
@@ -2656,8 +2638,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "Bi eloi elarih i anonuve ca a nim i yadetu",
-        "e": "I hope God prevents me from dying",
+        "o": "bi eloi elarih i anonuve ca a nim i yadetu",
+        "e": "i hope God prevents me from dying",
         "from_lesson": false
       }
     ],
@@ -2731,8 +2713,8 @@
     ],
     "ex": [
       {
-        "o": "Noder a anona i nomie no anopu hue, mai a anelem hue.",
-        "e": "Even though the gift appears to have been lost, it was kept.",
+        "o": "noder a anona i nomie no anopu hue, mai a anelem hue.",
+        "e": "even though the gift appears to have been lost, it was kept.",
         "from_lesson": false
       }
     ],
@@ -2873,8 +2855,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "O i anparu sora a yani lun",
-        "e": "Prepare for a new era",
+        "o": "o i anparu sora a yani lun",
+        "e": "prepare for a new era",
         "from_lesson": false
       }
     ],
@@ -2962,8 +2944,8 @@
     ],
     "ex": [
       {
-        "o": "I anroar i boemo e mo de falen su",
-        "e": "She decided to cook something from her childhood also",
+        "o": "i anroar i boemo e mo de falen su",
+        "e": "she decided to cook something from her childhood also",
         "from_lesson": false
       }
     ],
@@ -3064,8 +3046,8 @@
     ],
     "ex": [
       {
-        "o": "A curupira i vardei noi, su i ansau i vanvu.",
-        "e": "Curupira saw this and started walking.",
+        "o": "a curupira i vardei noi, su i ansau i vanvu.",
+        "e": "curupira saw this and started walking.",
         "from_lesson": true
       }
     ],
@@ -3666,7 +3648,7 @@
     "ex": [
       {
         "o": "i anye",
-        "e": "I do",
+        "e": "i do",
         "from_lesson": true
       }
     ],
@@ -3835,8 +3817,8 @@
     ],
     "ex": [
       {
-        "o": "Run i fou i anvu e apafene noniu vanpai",
-        "e": "You need to move your chair a few steps",
+        "o": "run i fou i anvu e apafene noniu vanpai",
+        "e": "you need to move your chair a few steps",
         "from_lesson": false
       }
     ],
@@ -3976,12 +3958,12 @@
   },
   {
     "w": "apahotai",
-    "e": "deviate, go the opposite way",
+    "e": "wander",
     "ea": "wander, roam, rove",
     "c": "physical action",
     "cs": "apa",
     "sc": "apa",
-    "r": "renu",
+    "r": "hotai",
     "bd": [
       {
         "sound": "apa",
@@ -3992,16 +3974,8 @@
         "bb_meaning": "physical movement"
       },
       {
-        "sound": "ho",
-        "meaning": "opposite"
-      },
-      {
-        "sound": "tai",
-        "meaning": "guide",
-        "bb_type": "root",
-        "bb_id": "bb-root-tai",
-        "bb_href": "building_blocks_reference.html#bb-root-tai",
-        "bb_meaning": "guide"
+        "sound": "hotai",
+        "meaning": "wander"
       }
     ],
     "rel": [],
@@ -4017,18 +3991,9 @@
         "bb_meaning": "physical movement"
       },
       {
-        "sound": "ho",
-        "meaning": "opposite",
+        "sound": "hotai",
+        "meaning": "wander",
         "position": "root"
-      },
-      {
-        "sound": "tai",
-        "meaning": "guide",
-        "position": "root",
-        "bb_type": "root",
-        "bb_id": "bb-root-tai",
-        "bb_href": "building_blocks_reference.html#bb-root-tai",
-        "bb_meaning": "guide"
       }
     ],
     "search_terms": [
@@ -4036,36 +4001,25 @@
       "activity",
       "apa",
       "apahotai",
-      "deviate",
-      "deviate, go the opposite way",
       "dig",
-      "direction",
       "drop",
-      "go",
-      "guide",
       "hang",
+      "hotai",
       "hurry",
       "jump",
-      "lead",
       "movement",
-      "opposite",
       "physical",
       "physical action",
       "physical movement",
-      "politic",
-      "politics",
       "pull",
-      "renu",
       "roam",
       "rove",
       "run",
       "sit",
-      "the",
       "throw",
       "vertical",
       "wander",
-      "wander, roam, rove",
-      "way"
+      "wander, roam, rove"
     ]
   },
   {
@@ -4168,8 +4122,8 @@
     ],
     "ex": [
       {
-        "o": "Cali falte, lirular nima i apaleno en nim leayo",
-        "e": "When we were young, we used to dig in my garden",
+        "o": "cali falte, lirular nima i apaleno en nim leayo",
+        "e": "when we were young, we used to dig in my garden",
         "from_lesson": false
       }
     ],
@@ -4717,7 +4671,7 @@
     "ex": [
       {
         "o": "i yasoi-apavu",
-        "e": "I run fast",
+        "e": "i run fast",
         "from_lesson": true
       }
     ],
@@ -4799,8 +4753,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "I asano e maemiri en jensu, su i tinen e 2 mamini.",
-        "e": "Push the rice to the side and crack 2 eggs.",
+        "o": "i asano e maemiri en jensu, su i tinen e 2 mamini.",
+        "e": "push the rice to the side and crack 2 eggs.",
         "from_lesson": true
       }
     ],
@@ -4892,8 +4846,8 @@
     ],
     "ex": [
       {
-        "o": "A yamirli faejal i asela, su i daco",
-        "e": "The old man smiled and replied",
+        "o": "a yamirli faejal i asela, su i daco",
+        "e": "the old man smiled and replied",
         "from_lesson": false
       }
     ],
@@ -4958,20 +4912,12 @@
         "bb_meaning": "affectionate contact"
       },
       {
-        "sound": "la",
-        "meaning": "happiness",
+        "sound": "lano",
+        "meaning": "around",
         "bb_type": "root",
-        "bb_id": "bb-root-la",
-        "bb_href": "building_blocks_reference.html#bb-root-la",
-        "bb_meaning": "happiness"
-      },
-      {
-        "sound": "no",
-        "meaning": "downward, extension below",
-        "bb_type": "root",
-        "bb_id": "bb-root-no",
-        "bb_href": "building_blocks_reference.html#bb-root-no",
-        "bb_meaning": "downward, extension below"
+        "bb_id": "bb-root-lano",
+        "bb_href": "building_blocks_reference.html#bb-root-lano",
+        "bb_meaning": "around"
       }
     ],
     "rel": [],
@@ -4987,22 +4933,13 @@
         "bb_meaning": "affectionate contact"
       },
       {
-        "sound": "la",
-        "meaning": "happiness",
+        "sound": "lano",
+        "meaning": "around",
         "position": "root",
         "bb_type": "root",
-        "bb_id": "bb-root-la",
-        "bb_href": "building_blocks_reference.html#bb-root-la",
-        "bb_meaning": "happiness"
-      },
-      {
-        "sound": "no",
-        "meaning": "downward, extension below",
-        "position": "root",
-        "bb_type": "root",
-        "bb_id": "bb-root-no",
-        "bb_href": "building_blocks_reference.html#bb-root-no",
-        "bb_meaning": "downward, extension below"
+        "bb_id": "bb-root-lano",
+        "bb_href": "building_blocks_reference.html#bb-root-lano",
+        "bb_meaning": "around"
       }
     ],
     "search_terms": [
@@ -5010,36 +4947,24 @@
       "actions",
       "affectionate",
       "affectionate contact",
-      "arm",
+      "around",
       "as",
       "ase",
       "aselano",
-      "below",
+      "ball",
       "bodily",
       "bodily actions",
+      "circle",
       "contact",
-      "daughter",
-      "downward",
-      "downward, extension below",
       "embrace",
-      "extension",
-      "happines",
-      "happiness",
-      "happy",
       "hug",
       "hug, embrace",
       "kis",
       "kiss",
       "lano",
-      "represent",
-      "sentence",
       "smile",
-      "soil",
-      "son",
-      "son, daughter",
       "tear",
-      "tears",
-      "worship"
+      "tears"
     ]
   },
   {
@@ -5320,8 +5245,8 @@
     ],
     "ex": [
       {
-        "o": "Yadetu, a Wirel Lufu i toului-asfe.",
-        "e": "Finally, North Wind gave up.",
+        "o": "yadetu, a Wirel Lufu i toului-asfe.",
+        "e": "finally, North Wind gave up.",
         "from_lesson": false
       }
     ],
@@ -6217,8 +6142,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "Notor, run i asular",
-        "e": "Then, you laughed",
+        "o": "notor, run i asular",
+        "e": "then, you laughed",
         "from_lesson": false
       }
     ],
@@ -6334,7 +6259,7 @@
     "c": "bodily actions",
     "cs": "as",
     "sc": "asu",
-    "r": "usu",
+    "r": "sus",
     "bd": [
       {
         "sound": "asu",
@@ -6345,8 +6270,8 @@
         "bb_meaning": "involuntary vocal acts"
       },
       {
-        "sound": "usu",
-        "meaning": "whisper"
+        "sound": "sus",
+        "meaning": "sound"
       }
     ],
     "rel": [],
@@ -6362,8 +6287,8 @@
         "bb_meaning": "involuntary vocal acts"
       },
       {
-        "sound": "usu",
-        "meaning": "whisper",
+        "sound": "sus",
+        "meaning": "sound",
         "position": "root"
       }
     ],
@@ -6384,7 +6309,8 @@
       "rustle",
       "sneeze",
       "snore",
-      "usu",
+      "sound",
+      "sus",
       "vocal",
       "whisper",
       "whisper, rustle, murmur",
@@ -6503,8 +6429,8 @@
     ],
     "ex": [
       {
-        "o": "Celi i anifi en beilem?",
-        "e": "When will you arrive at the station?",
+        "o": "celi i anifi en beilem?",
+        "e": "when will you arrive at the station?",
         "from_lesson": false
       }
     ],
@@ -6634,8 +6560,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "Nim i bejui e beitor litamar, eta i foum i gerina en beitan.",
-        "e": "I rented a bicycle yesterday, so I don’t need to spend money on the bus.",
+        "o": "nim i bejui e beitor litamar, eta i foum i gerina en beitan.",
+        "e": "i rented a bicycle yesterday, so I don’t need to spend money on the bus.",
         "from_lesson": false
       }
     ],
@@ -6780,8 +6706,8 @@
     ],
     "ex": [
       {
-        "o": "I anisu e yalgai bejae.",
-        "e": "I brought a small luggage.",
+        "o": "i anisu e yalgai bejae.",
+        "e": "i brought a small luggage.",
         "from_lesson": false
       }
     ],
@@ -6859,8 +6785,8 @@
     ],
     "ex": [
       {
-        "o": "Nim i bejui e beitor litamar, eta i foum i gerina en beitan.",
-        "e": "I rented a bicycle yesterday, so I don’t need to spend money on the bus.",
+        "o": "nim i bejui e beitor litamar, eta i foum i gerina en beitan.",
+        "e": "i rented a bicycle yesterday, so I don’t need to spend money on the bus.",
         "from_lesson": false
       }
     ],
@@ -7146,8 +7072,8 @@
     ],
     "ex": [
       {
-        "o": "Ceora runa i dairanum e bociu?",
-        "e": "Why don’t you all like the decoration?",
+        "o": "ceora runa i dairanum e bociu?",
+        "e": "why don’t you all like the decoration?",
         "from_lesson": false
       }
     ],
@@ -7651,7 +7577,7 @@
     "ex": [
       {
         "o": "i bonfene",
-        "e": "I lie down",
+        "e": "i lie down",
         "from_lesson": true
       }
     ],
@@ -8016,8 +7942,8 @@
     ],
     "ex": [
       {
-        "o": "Hay i anvuis en bortal cali i vardei norven Ana en borlu.",
-        "e": "She is about to enter through the door when she already sees Ana at the window.",
+        "o": "hay i anvuis en bortal cali i vardei norven Ana en borlu.",
+        "e": "she is about to enter through the door when she already sees Ana at the window.",
         "from_lesson": false
       }
     ],
@@ -8753,8 +8679,8 @@
     ],
     "ex": [
       {
-        "o": "A nim i roesau e yani ciugai en liyar de bale ganter litam, cali a run i ilahai u nim",
-        "e": "I learned that new detail on the morning of the fourth day, when you said to me",
+        "o": "a nim i roesau e yani ciugai en liyar de bale ganter litam, cali a run i ilahai u nim",
+        "e": "i learned that new detail on the morning of the fourth day, when you said to me",
         "from_lesson": false
       }
     ],
@@ -9714,8 +9640,8 @@
     ],
     "ex": [
       {
-        "o": "Cali a sita hai i vardei e colira en leno, i copei.",
-        "e": "When the hunter saw the mark on the ground, he followed.",
+        "o": "cali a sita hai i vardei e colira en leno, i copei.",
+        "e": "when the hunter saw the mark on the ground, he followed.",
         "from_lesson": true
       }
     ],
@@ -9985,20 +9911,8 @@
         "bb_meaning": "communication"
       },
       {
-        "sound": "no",
-        "meaning": "downward, extension below",
-        "bb_type": "root",
-        "bb_id": "bb-root-no",
-        "bb_href": "building_blocks_reference.html#bb-root-no",
-        "bb_meaning": "downward, extension below"
-      },
-      {
-        "sound": "do",
-        "meaning": "regulations",
-        "bb_type": "root",
-        "bb_id": "bb-root-do",
-        "bb_href": "building_blocks_reference.html#bb-root-do",
-        "bb_meaning": "regulations"
+        "sound": "nodo",
+        "meaning": "office"
       }
     ],
     "rel": [],
@@ -10014,59 +9928,30 @@
         "bb_meaning": "communication"
       },
       {
-        "sound": "no",
-        "meaning": "downward, extension below",
-        "position": "root",
-        "bb_type": "root",
-        "bb_id": "bb-root-no",
-        "bb_href": "building_blocks_reference.html#bb-root-no",
-        "bb_meaning": "downward, extension below"
-      },
-      {
-        "sound": "do",
-        "meaning": "regulations",
-        "position": "root",
-        "bb_type": "root",
-        "bb_id": "bb-root-do",
-        "bb_href": "building_blocks_reference.html#bb-root-do",
-        "bb_meaning": "regulations"
+        "sound": "nodo",
+        "meaning": "office",
+        "position": "root"
       }
     ],
     "search_terms": [
       "agency",
-      "arm",
-      "below",
-      "can",
       "co",
       "communication",
       "conodo",
-      "daughter",
-      "downward",
-      "downward, extension below",
       "emergency",
-      "extension",
       "information",
-      "mimic",
       "nodo",
       "number",
       "office",
       "office, workplace, agency",
       "phone",
       "receive",
-      "regulation",
-      "regulations",
-      "represent",
       "request",
       "search",
       "send",
-      "sentence",
       "sign",
-      "soil",
-      "son",
-      "son, daughter",
       "ticket",
-      "workplace",
-      "worship"
+      "workplace"
     ]
   },
   {
@@ -10094,8 +9979,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "Cali a sita hai i vardei e colira en leno, i copei.",
-        "e": "When the hunter saw the mark on the ground, he followed.",
+        "o": "cali a sita hai i vardei e colira en leno, i copei.",
+        "e": "when the hunter saw the mark on the ground, he followed.",
         "from_lesson": true
       }
     ],
@@ -10293,8 +10178,8 @@
     ],
     "ex": [
       {
-        "o": "Peri coter o i apanou, auta coter o i ho bonfene",
-        "e": "Fall seven times, stand up eight",
+        "o": "peri coter o i apanou, auta coter o i ho bonfene",
+        "e": "fall seven times, stand up eight",
         "from_lesson": false
       }
     ],
@@ -10597,7 +10482,7 @@
       },
       {
         "sound": "siu",
-        "meaning": "letter",
+        "meaning": "document",
         "bb_type": "root",
         "bb_id": "bb-root-siu",
         "bb_href": "building_blocks_reference.html#bb-root-siu",
@@ -10618,7 +10503,7 @@
       },
       {
         "sound": "siu",
-        "meaning": "letter",
+        "meaning": "document",
         "position": "root",
         "bb_type": "root",
         "bb_id": "bb-root-siu",
@@ -10743,7 +10628,7 @@
       },
       {
         "sound": "var",
-        "meaning": "cover",
+        "meaning": "face",
         "bb_type": "root",
         "bb_id": "bb-root-var",
         "bb_href": "building_blocks_reference.html#bb-root-var",
@@ -10764,7 +10649,7 @@
       },
       {
         "sound": "var",
-        "meaning": "cover",
+        "meaning": "face",
         "position": "root",
         "bb_type": "root",
         "bb_id": "bb-root-var",
@@ -11406,7 +11291,7 @@
       },
       {
         "sound": "fei",
-        "meaning": "criticize",
+        "meaning": "less",
         "bb_type": "root",
         "bb_id": "bb-root-fei",
         "bb_href": "building_blocks_reference.html#bb-root-fei",
@@ -11427,7 +11312,7 @@
       },
       {
         "sound": "fei",
-        "meaning": "criticize",
+        "meaning": "less",
         "position": "root",
         "bb_type": "root",
         "bb_id": "bb-root-fei",
@@ -11476,7 +11361,7 @@
       },
       {
         "sound": "gor",
-        "meaning": "convince",
+        "meaning": "firm",
         "bb_type": "root",
         "bb_id": "bb-root-gor",
         "bb_href": "building_blocks_reference.html#bb-root-gor",
@@ -11497,7 +11382,7 @@
       },
       {
         "sound": "gor",
-        "meaning": "convince",
+        "meaning": "firm",
         "position": "root",
         "bb_type": "root",
         "bb_id": "bb-root-gor",
@@ -11557,7 +11442,7 @@
     "ex": [
       {
         "o": "boemo hai i do i boemo daehun 'roumo.",
-        "e": "The chef can cook if they have a recipe.",
+        "e": "the chef can cook if they have a recipe.",
         "from_lesson": true
       }
     ],
@@ -11616,7 +11501,7 @@
       },
       {
         "sound": "el",
-        "meaning": "correct"
+        "meaning": "elevated"
       }
     ],
     "rel": [],
@@ -11633,7 +11518,7 @@
       },
       {
         "sound": "el",
-        "meaning": "correct",
+        "meaning": "elevated",
         "position": "root"
       }
     ],
@@ -11647,6 +11532,8 @@
       "da",
       "dael",
       "el",
+      "elevat",
+      "elevated",
       "evaluate",
       "evaluation",
       "exact",
@@ -11705,7 +11592,7 @@
     "ex": [
       {
         "o": "i daelan e hay no ti",
-        "e": "I judge him as bad",
+        "e": "i judge him as bad",
         "from_lesson": true
       }
     ],
@@ -12182,8 +12069,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "Caora neliu ilhei ga i doum i dahau, a nim a tilira",
-        "e": "I’m so embarrassed that I cannot fulfill my responsibilities as well as the other people",
+        "o": "caora neliu ilhei ga i doum i dahau, a nim a tilira",
+        "e": "i’m so embarrassed that I cannot fulfill my responsibilities as well as the other people",
         "from_lesson": false
       }
     ],
@@ -12267,7 +12154,7 @@
     "ex": [
       {
         "o": "i dairan e moaria",
-        "e": "I like apples",
+        "e": "i like apples",
         "from_lesson": true
       }
     ],
@@ -12431,7 +12318,7 @@
       },
       {
         "sound": "mai",
-        "meaning": "argue"
+        "meaning": "however"
       }
     ],
     "rel": [],
@@ -12454,7 +12341,7 @@
       },
       {
         "sound": "mai",
-        "meaning": "argue",
+        "meaning": "however",
         "position": "root"
       }
     ],
@@ -12477,6 +12364,7 @@
       "exist",
       "favor",
       "figure",
+      "however",
       "mai",
       "matter",
       "mean",
@@ -12682,27 +12570,15 @@
         "bb_meaning": "evaluation"
       },
       {
-        "sound": "mu",
-        "meaning": "small animal",
-        "bb_type": "root",
-        "bb_id": "bb-root-mu",
-        "bb_href": "building_blocks_reference.html#bb-root-mu",
-        "bb_meaning": "small animal"
-      },
-      {
-        "sound": "ra",
-        "meaning": "society",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-ra",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-ra",
-        "bb_meaning": "society"
+        "sound": "mura",
+        "meaning": "meaning"
       }
     ],
     "rel": [],
     "ex": [
       {
-        "o": "Tohvi ca semtelaum, caora o nim doum siyal e damura-ora.",
-        "e": "A feeling I cannot dispel; for I myself cannot grasp the theme of it.",
+        "o": "tohvi ca semtelaum, caora o nim doum siyal e damura-ora.",
+        "e": "a feeling I cannot dispel; for I myself cannot grasp the theme of it.",
         "from_lesson": false
       }
     ],
@@ -12717,71 +12593,43 @@
         "bb_meaning": "evaluation"
       },
       {
-        "sound": "mu",
-        "meaning": "small animal",
-        "position": "root",
-        "bb_type": "root",
-        "bb_id": "bb-root-mu",
-        "bb_href": "building_blocks_reference.html#bb-root-mu",
-        "bb_meaning": "small animal"
-      },
-      {
-        "sound": "ra",
-        "meaning": "society",
-        "position": "root",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-ra",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-ra",
-        "bb_meaning": "society"
+        "sound": "mura",
+        "meaning": "meaning",
+        "position": "root"
       }
     ],
     "search_terms": [
       "accept",
-      "animal",
       "answer",
       "argue",
       "change",
-      "community",
       "correct",
-      "cow",
       "da",
       "damura",
-      "economy",
-      "elect",
-      "environment",
       "evaluate",
       "evaluation",
       "exact",
       "exist",
       "favor",
       "figure",
-      "fish",
       "matter",
       "mean",
       "meaning",
       "meaning, to mean, sense, significance, significant",
       "mura",
-      "nation",
       "obviou",
       "obvious",
       "origin",
       "purpose",
-      "race",
       "refer",
       "relate",
       "represent",
-      "resource",
       "responsible",
       "sense",
       "significance",
       "significant",
-      "silk",
       "situation",
-      "small",
-      "small animal",
-      "society",
-      "to",
-      "venom"
+      "to"
     ]
   },
   {
@@ -12816,8 +12664,8 @@
     ],
     "ex": [
       {
-        "o": "O i danala e nim selyino",
-        "e": "Pay attention to my plan",
+        "o": "o i danala e nim selyino",
+        "e": "pay attention to my plan",
         "from_lesson": false
       }
     ],
@@ -13130,20 +12978,8 @@
         "bb_meaning": "emphasis"
       },
       {
-        "sound": "van",
-        "meaning": "private",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-van",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-van",
-        "bb_meaning": "limbs"
-      },
-      {
-        "sound": "di",
-        "meaning": "stripe, finger",
-        "bb_type": "root",
-        "bb_id": "bb-root-di",
-        "bb_href": "building_blocks_reference.html#bb-root-di",
-        "bb_meaning": "stripe, finger"
+        "sound": "vandi",
+        "meaning": "finger"
       }
     ],
     "rel": [],
@@ -13159,61 +12995,30 @@
         "bb_meaning": "emphasis"
       },
       {
-        "sound": "van",
-        "meaning": "private",
-        "position": "root",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-van",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-van",
-        "bb_meaning": "limbs"
-      },
-      {
-        "sound": "di",
-        "meaning": "stripe, finger",
-        "position": "root",
-        "bb_type": "root",
-        "bb_id": "bb-root-di",
-        "bb_href": "building_blocks_reference.html#bb-root-di",
-        "bb_meaning": "stripe, finger"
+        "sound": "vandi",
+        "meaning": "finger",
+        "position": "root"
       }
     ],
     "search_terms": [
-      "arm",
       "attention",
-      "body",
-      "body parts",
       "da",
       "dan",
       "danvandi",
       "dot",
-      "elbow",
       "emphasi",
       "emphasis",
       "evaluate",
       "finger",
-      "fist",
-      "foot",
-      "hand",
       "important",
       "indicate",
-      "knee",
-      "leg",
-      "limb",
-      "limbs",
-      "noodle",
       "only",
-      "part",
-      "parts",
       "point",
       "point, dot, spot, indicate",
-      "private",
       "seriou",
       "serious",
       "spot",
-      "stripe",
-      "stripe, finger",
-      "vandi",
-      "write"
+      "vandi"
     ]
   },
   {
@@ -13249,8 +13054,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "Dantam anloris sora heimir dasora",
-        "e": "A unique opportunity for an awesome purpose",
+        "o": "dantam anloris sora heimir dasora",
+        "e": "a unique opportunity for an awesome purpose",
         "from_lesson": false
       }
     ],
@@ -13755,8 +13560,8 @@
     ],
     "ex": [
       {
-        "o": "A nima i vil i iloi linu davir li",
-        "e": "We must wait until it is the right time",
+        "o": "a nima i vil i iloi linu davir li",
+        "e": "we must wait until it is the right time",
         "from_lesson": false
       }
     ],
@@ -13990,8 +13795,8 @@
     ],
     "ex": [
       {
-        "o": "Nima i ilaluan e raitar hai su dofa",
-        "e": "We are talking of rulers and inheritance",
+        "o": "nima i ilaluan e raitar hai su dofa",
+        "e": "we are talking of rulers and inheritance",
         "from_lesson": false
       }
     ],
@@ -15226,8 +15031,8 @@
     ],
     "ex": [
       {
-        "o": "Bi eloi elarih i anonuve ca a nim i yadetu",
-        "e": "I hope God prevents me from dying",
+        "o": "bi eloi elarih i anonuve ca a nim i yadetu",
+        "e": "i hope God prevents me from dying",
         "from_lesson": false
       }
     ],
@@ -15391,8 +15196,8 @@
     ],
     "ex": [
       {
-        "o": "A curupira a oila caora a faejal i elasu u elodao.",
-        "e": "Curupira was happy because the man kept his promise.",
+        "o": "a curupira a oila caora a faejal i elasu u elodao.",
+        "e": "curupira was happy because the man kept his promise.",
         "from_lesson": true
       }
     ],
@@ -15478,7 +15283,7 @@
     "ex": [
       {
         "o": "i siyal ca a eledora a eodyel",
-        "e": "I noticed that fate was joining us",
+        "e": "i noticed that fate was joining us",
         "from_lesson": true
       }
     ],
@@ -15621,8 +15426,8 @@
     ],
     "ex": [
       {
-        "o": "Nen par anepou elehui en elehuidom",
-        "e": "A thousand lost souls in the underworld",
+        "o": "nen par anepou elehui en elehuidom",
+        "e": "a thousand lost souls in the underworld",
         "from_lesson": false
       }
     ],
@@ -15859,8 +15664,8 @@
     ],
     "ex": [
       {
-        "o": "A elenon de nen peri podau gavou i ansau anja tam vanpai",
-        "e": "A journey of a thousand miles begins with a single step",
+        "o": "a elenon de nen peri podau gavou i ansau anja tam vanpai",
+        "e": "a journey of a thousand miles begins with a single step",
         "from_lesson": false
       }
     ],
@@ -15939,8 +15744,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "Nim i oiyar ca suum nim, run i doum i elepan",
-        "e": "I emphasize that without me, you cannot succeed",
+        "o": "nim i oiyar ca suum nim, run i doum i elepan",
+        "e": "i emphasize that without me, you cannot succeed",
         "from_lesson": false
       }
     ],
@@ -16692,8 +16497,8 @@
     ],
     "ex": [
       {
-        "o": "A curupira a oila caora a faejal i elasu u elodao.",
-        "e": "Curupira was happy because the man kept his promise.",
+        "o": "a curupira a oila caora a faejal i elasu u elodao.",
+        "e": "curupira was happy because the man kept his promise.",
         "from_lesson": true
       }
     ],
@@ -17467,8 +17272,8 @@
     ],
     "ex": [
       {
-        "o": "I iran i eodani e yani ilhei, su i do i anefene cali en bo.",
-        "e": "I like meeting new people, and I can rest when I am home.",
+        "o": "i iran i eodani e yani ilhei, su i do i anefene cali en bo.",
+        "e": "i like meeting new people, and I can rest when I am home.",
         "from_lesson": false
       }
     ],
@@ -17608,8 +17413,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "En noi eodomai, runa i anloris",
-        "e": "In this negotiation, you will benefit",
+        "o": "en noi eodomai, runa i anloris",
+        "e": "in this negotiation, you will benefit",
         "from_lesson": false
       }
     ],
@@ -17691,7 +17496,7 @@
     "ex": [
       {
         "o": "i eodya e run",
-        "e": "I invited you",
+        "e": "i invited you",
         "from_lesson": true
       }
     ],
@@ -17770,7 +17575,7 @@
     "ex": [
       {
         "o": "i siyal ca a eledora a eodyel",
-        "e": "I noticed that fate was joining us",
+        "e": "i noticed that fate was joining us",
         "from_lesson": true
       }
     ],
@@ -18132,8 +17937,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "Cegaori a noi eomfel?",
-        "e": "How much is this event?",
+        "o": "cegaori a noi eomfel?",
+        "e": "how much is this event?",
         "from_lesson": false
       }
     ],
@@ -18517,8 +18322,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "A lis a yaldih de elefo eopan",
-        "e": "There will be a future full of wonderful victories",
+        "o": "a lis a yaldih de elefo eopan",
+        "e": "there will be a future full of wonderful victories",
         "from_lesson": false
       }
     ],
@@ -18768,8 +18573,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "E mogali, eori.",
-        "e": "Coffee, please.",
+        "o": "e mogali, eori.",
+        "e": "coffee, please.",
         "from_lesson": false
       }
     ],
@@ -18948,8 +18753,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "En lealei i elemi a yalgai su mioici faejal.",
-        "e": "In the forest lives a small mischievous man.",
+        "o": "en lealei i elemi a yalgai su mioici faejal.",
+        "e": "in the forest lives a small mischievous man.",
         "from_lesson": true
       }
     ],
@@ -19151,7 +18956,7 @@
     "ex": [
       {
         "o": "i faigel, bi oipoh!",
-        "e": "I'm getting married — how exciting!",
+        "e": "i'm getting married — how exciting!",
         "from_lesson": true
       }
     ],
@@ -19437,8 +19242,8 @@
     ],
     "ex": [
       {
-        "o": "Lar, a copei hai i copei e mioici ca i sioerar su fano.",
-        "e": "Once, a hunter hunted monkeys playing with offspring.",
+        "o": "lar, a copei hai i copei e mioici ca i sioerar su fano.",
+        "e": "once, a hunter hunted monkeys playing with offspring.",
         "from_lesson": true
       }
     ],
@@ -20481,7 +20286,7 @@
     "ex": [
       {
         "o": "run gaomem nim a yalen",
-        "e": "I am as tall as you",
+        "e": "i am as tall as you",
         "from_lesson": true
       }
     ],
@@ -20719,8 +20524,8 @@
     ],
     "ex": [
       {
-        "o": "Mai, a tor wa molbo a gavio",
-        "e": "But the two water pots were not the same",
+        "o": "mai, a tor wa molbo a gavio",
+        "e": "but the two water pots were not the same",
         "from_lesson": false
       }
     ],
@@ -20955,7 +20760,7 @@
     "ex": [
       {
         "o": "en gedom",
-        "e": "I am in the bank",
+        "e": "i am in the bank",
         "from_lesson": true
       }
     ],
@@ -21390,8 +21195,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "I anvu en bevio sora i gerina e omja",
-        "e": "I am going to the store to buy a guitar",
+        "o": "i anvu en bevio sora i gerina e omja",
+        "e": "i am going to the store to buy a guitar",
         "from_lesson": true
       }
     ],
@@ -21754,7 +21559,7 @@
     "ex": [
       {
         "o": "i ilaluan e run no hehma",
-        "e": "I call you a monster",
+        "e": "i call you a monster",
         "from_lesson": true
       }
     ],
@@ -21911,8 +21716,8 @@
     ],
     "ex": [
       {
-        "o": "I nomie no hehti",
-        "e": "It sounds evil",
+        "o": "i nomie no hehti",
+        "e": "it sounds evil",
         "from_lesson": false
       }
     ],
@@ -22066,8 +21871,8 @@
     ],
     "ex": [
       {
-        "o": "Neloa i vardeis e nim no elireva heimir",
-        "e": "Everyone will see me as the true awesome I am",
+        "o": "neloa i vardeis e nim no elireva heimir",
+        "e": "everyone will see me as the true awesome I am",
         "from_lesson": false
       }
     ],
@@ -22402,8 +22207,8 @@
     ],
     "ex": [
       {
-        "o": "Iliciu run i do i helufu en France en tam litegai",
-        "e": "If you could fly to France in one minute",
+        "o": "iliciu run i do i helufu en France en tam litegai",
+        "e": "if you could fly to France in one minute",
         "from_lesson": false
       }
     ],
@@ -22624,7 +22429,7 @@
     "ex": [
       {
         "o": "nim i ilianum ca i dami, mai i ilian ca a heoloa ansaum.",
-        "e": "I don't know what, but I know the universe never began",
+        "e": "i don't know what, but I know the universe never began",
         "from_lesson": true
       }
     ],
@@ -22940,7 +22745,7 @@
     "ex": [
       {
         "o": "i ilonya, eta i ilace",
-        "e": "I forget, so I ask",
+        "e": "i forget, so I ask",
         "from_lesson": true
       }
     ],
@@ -23017,8 +22822,8 @@
     ],
     "ex": [
       {
-        "o": "Nim i fou i tohdina ilahai.",
-        "e": "I need to apologize.",
+        "o": "nim i fou i tohdina ilahai.",
+        "e": "i need to apologize.",
         "from_lesson": true
       }
     ],
@@ -23278,7 +23083,7 @@
     "ex": [
       {
         "o": "i anona e anona u noniu ilhei",
-        "e": "I give the gift to some people",
+        "e": "i give the gift to some people",
         "from_lesson": true
       }
     ],
@@ -23357,7 +23162,7 @@
     "ex": [
       {
         "o": "i dai i ilian cadom run i anvu",
-        "e": "I want to know where you are going",
+        "e": "i want to know where you are going",
         "from_lesson": true
       }
     ],
@@ -23440,8 +23245,8 @@
     ],
     "ex": [
       {
-        "o": "Iliciu a nim a nime farejor, i ilian canon.",
-        "e": "If I were my mother, I would know how.",
+        "o": "iliciu a nim a nime farejor, i ilian canon.",
+        "e": "if I were my mother, I would know how.",
         "from_lesson": false
       }
     ],
@@ -23516,8 +23321,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "Nepar ilie i lupupi litamis.",
-        "e": "It will possibly rain tomorrow.",
+        "o": "nepar ilie i lupupi litamis.",
+        "e": "it will possibly rain tomorrow.",
         "from_lesson": true
       }
     ],
@@ -23672,8 +23477,8 @@
     ],
     "ex": [
       {
-        "o": "Yuba iliora",
-        "e": "Good idea",
+        "o": "yuba iliora",
+        "e": "good idea",
         "from_lesson": false
       }
     ],
@@ -23761,7 +23566,7 @@
     "ex": [
       {
         "o": "i lirul-iliro en limel",
-        "e": "I habitually think at night",
+        "e": "i habitually think at night",
         "from_lesson": true
       }
     ],
@@ -24329,7 +24134,7 @@
     "ex": [
       {
         "o": "i ilonya, eta i ilace",
-        "e": "I forget, so I ask",
+        "e": "i forget, so I ask",
         "from_lesson": true
       }
     ],
@@ -24413,8 +24218,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "Notam, run i nomie no nedas ilotanu",
-        "e": "At first you seemed to be very much surprised",
+        "o": "notam, run i nomie no nedas ilotanu",
+        "e": "at first you seemed to be very much surprised",
         "from_lesson": false
       }
     ],
@@ -24822,7 +24627,7 @@
     "ex": [
       {
         "o": "i jadoe e roumir.",
-        "e": "I put the book on the shelf",
+        "e": "i put the book on the shelf",
         "from_lesson": true
       }
     ],
@@ -25036,8 +24841,8 @@
     ],
     "ex": [
       {
-        "o": "A jahgo i ilonya, mai a leirih i miotan",
-        "e": "The axe forgets, but the tree remembers",
+        "o": "a jahgo i ilonya, mai a leirih i miotan",
+        "e": "the axe forgets, but the tree remembers",
         "from_lesson": false
       }
     ],
@@ -27000,20 +26805,12 @@
         "bb_meaning": "geometrics"
       },
       {
-        "sound": "la",
-        "meaning": "happiness",
+        "sound": "lano",
+        "meaning": "around",
         "bb_type": "root",
-        "bb_id": "bb-root-la",
-        "bb_href": "building_blocks_reference.html#bb-root-la",
-        "bb_meaning": "happiness"
-      },
-      {
-        "sound": "no",
-        "meaning": "downward, extension below",
-        "bb_type": "root",
-        "bb_id": "bb-root-no",
-        "bb_href": "building_blocks_reference.html#bb-root-no",
-        "bb_meaning": "downward, extension below"
+        "bb_id": "bb-root-lano",
+        "bb_href": "building_blocks_reference.html#bb-root-lano",
+        "bb_meaning": "around"
       }
     ],
     "rel": [],
@@ -27029,45 +26826,29 @@
         "bb_meaning": "geometrics"
       },
       {
-        "sound": "la",
-        "meaning": "happiness",
+        "sound": "lano",
+        "meaning": "around",
         "position": "root",
         "bb_type": "root",
-        "bb_id": "bb-root-la",
-        "bb_href": "building_blocks_reference.html#bb-root-la",
-        "bb_meaning": "happiness"
-      },
-      {
-        "sound": "no",
-        "meaning": "downward, extension below",
-        "position": "root",
-        "bb_type": "root",
-        "bb_id": "bb-root-no",
-        "bb_href": "building_blocks_reference.html#bb-root-no",
-        "bb_meaning": "downward, extension below"
+        "bb_id": "bb-root-lano",
+        "bb_href": "building_blocks_reference.html#bb-root-lano",
+        "bb_meaning": "around"
       }
     ],
     "search_terms": [
       "arch",
-      "arm",
       "around",
-      "below",
+      "ball",
       "circle",
       "circle, round, around, wheel",
       "cros",
       "cross",
-      "daughter",
       "direction",
-      "downward",
-      "downward, extension below",
-      "extension",
       "fence",
       "field",
       "geometric",
       "geometrics",
-      "happines",
-      "happiness",
-      "happy",
+      "hug",
       "je",
       "jelano",
       "lano",
@@ -27075,17 +26856,10 @@
       "narrow",
       "path",
       "rail",
-      "represent",
       "round",
-      "sentence",
-      "smile",
-      "soil",
-      "son",
-      "son, daughter",
       "tower",
       "wheel",
-      "wing",
-      "worship"
+      "wing"
     ]
   },
   {
@@ -27594,8 +27368,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "Elhay i anidai o i vardei ca nima i roesau i do i neron-oila-davio, en jenrein oila",
-        "e": "What God wants is to see us learning to be able to become more joyful, in the midst of joy",
+        "o": "elhay i anidai o i vardei ca nima i roesau i do i neron-oila-davio, en jenrein oila",
+        "e": "what God wants is to see us learning to be able to become more joyful, in the midst of joy",
         "from_lesson": false
       }
     ],
@@ -27664,8 +27438,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "I asano e maemiri en jensu, su i tinen e 2 mamini.",
-        "e": "Push the rice to the side and crack 2 eggs.",
+        "o": "i asano e maemiri en jensu, su i tinen e 2 mamini.",
+        "e": "push the rice to the side and crack 2 eggs.",
         "from_lesson": true
       }
     ],
@@ -27828,8 +27602,8 @@
     ],
     "ex": [
       {
-        "o": "Mai cali jetai bo i anivari-anifi, a tinen molbo a nealui jenya",
-        "e": "But by the time he got back to his home, the cracked pot would be half empty",
+        "o": "mai cali jetai bo i anivari-anifi, a tinen molbo a nealui jenya",
+        "e": "but by the time he got back to his home, the cracked pot would be half empty",
         "from_lesson": false
       }
     ],
@@ -28190,7 +27964,7 @@
     "ex": [
       {
         "o": "i anvu jetai bo",
-        "e": "I go toward the house",
+        "e": "i go toward the house",
         "from_lesson": true
       }
     ],
@@ -28482,7 +28256,7 @@
     "ex": [
       {
         "o": "i vanpai en jobos",
-        "e": "I walk in the tunnel",
+        "e": "i walk in the tunnel",
         "from_lesson": true
       }
     ],
@@ -29312,8 +29086,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "Notam, i bospupi 3 molbai de maemiri linu a wa a joliri.",
-        "e": "First, wash 3 cups of rice until the water is clear.",
+        "o": "notam, i bospupi 3 molbai de maemiri linu a wa a joliri.",
+        "e": "first, wash 3 cups of rice until the water is clear.",
         "from_lesson": true
       }
     ],
@@ -29456,8 +29230,8 @@
     ],
     "ex": [
       {
-        "o": "Cali i varsus ca a wa i jolufu, i gafi e pohem.",
-        "e": "When you hear the water bubble, reduce the heat.",
+        "o": "cali i varsus ca a wa i jolufu, i gafi e pohem.",
+        "e": "when you hear the water bubble, reduce the heat.",
         "from_lesson": true
       }
     ],
@@ -29618,8 +29392,8 @@
     ],
     "ex": [
       {
-        "o": "I neron 2 mascur ca a nedas yalgai mir joniu.",
-        "e": "Add 2 garlic cloves, very finely chopped.",
+        "o": "i neron 2 mascur ca a nedas yalgai mir joniu.",
+        "e": "add 2 garlic cloves, very finely chopped.",
         "from_lesson": true
       }
     ],
@@ -29924,8 +29698,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "En lealei i elemi a yalgai su mioici faejal.",
-        "e": "In the forest lives a small mischievous man.",
+        "o": "en lealei i elemi a yalgai su mioici faejal.",
+        "e": "in the forest lives a small mischievous man.",
         "from_lesson": true
       }
     ],
@@ -30743,8 +30517,8 @@
     ],
     "ex": [
       {
-        "o": "A jahgo i ilonya, mai a leirih i miotan",
-        "e": "The axe forgets, but the tree remembers",
+        "o": "a jahgo i ilonya, mai a leirih i miotan",
+        "e": "the axe forgets, but the tree remembers",
         "from_lesson": false
       }
     ],
@@ -30831,8 +30605,8 @@
     ],
     "ex": [
       {
-        "o": "Cali a sita hai i vardei e colira en leno, i copei.",
-        "e": "When the hunter saw the mark on the ground, he followed.",
+        "o": "cali a sita hai i vardei e colira en leno, i copei.",
+        "e": "when the hunter saw the mark on the ground, he followed.",
         "from_lesson": true
       }
     ],
@@ -30989,12 +30763,12 @@
   },
   {
     "w": "levi",
-    "e": "fertile",
-    "ea": "fertile, fecund, fertilizer, nutrient, to produce, productive",
+    "e": "production",
+    "ea": "production, produce, productive",
     "c": "environment",
     "cs": "le",
     "sc": "le",
-    "r": "vi",
+    "r": "levi",
     "bd": [
       {
         "sound": "le",
@@ -31006,7 +30780,7 @@
       },
       {
         "sound": "vi",
-        "meaning": "internal body",
+        "meaning": "production",
         "bb_type": "root",
         "bb_id": "bb-root-vi",
         "bb_href": "building_blocks_reference.html#bb-root-vi",
@@ -31033,7 +30807,7 @@
       },
       {
         "sound": "vi",
-        "meaning": "internal body",
+        "meaning": "production",
         "position": "root",
         "bb_type": "root",
         "bb_id": "bb-root-vi",
@@ -31045,26 +30819,22 @@
       "body",
       "emotion",
       "environment",
-      "fecund",
       "fertile",
-      "fertile, fecund, fertilizer, nutrient, to produce, productive",
-      "fertilizer",
       "internal",
       "internal body",
       "land",
       "le",
       "levi",
-      "nutrient",
       "pelvi",
       "pelvis",
       "produce",
+      "production",
+      "production, produce, productive",
       "productive",
       "rock",
       "soil",
       "suck",
-      "to",
-      "toilet",
-      "vi"
+      "toilet"
     ]
   },
   {
@@ -31093,7 +30863,7 @@
     "ex": [
       {
         "o": "i mo e mogali en mir lidastor",
-        "e": "I have been drinking coffee for many years",
+        "e": "i have been drinking coffee for many years",
         "from_lesson": true
       }
     ],
@@ -31349,7 +31119,7 @@
     "ex": [
       {
         "o": "nim i anidai ca hay i anocari e anona u nim lili.",
-        "e": "I like that she brings back gifts for me again",
+        "e": "i like that she brings back gifts for me again",
         "from_lesson": true
       }
     ],
@@ -31563,8 +31333,8 @@
     ],
     "ex": [
       {
-        "o": "Notam, i bospupi 3 molbai de maemiri linu a wa a joliri.",
-        "e": "First, wash 3 cups of rice until the water is clear.",
+        "o": "notam, i bospupi 3 molbai de maemiri linu a wa a joliri.",
+        "e": "first, wash 3 cups of rice until the water is clear.",
         "from_lesson": true
       }
     ],
@@ -31717,7 +31487,7 @@
     "ex": [
       {
         "o": "tamen liperi",
-        "e": "Monday",
+        "e": "monday",
         "from_lesson": true
       }
     ],
@@ -31837,7 +31607,7 @@
     "ex": [
       {
         "o": "i lirul-iliro, cali netam, en limel",
-        "e": "I habitually think, only when it's night",
+        "e": "i habitually think, only when it's night",
         "from_lesson": true
       }
     ],
@@ -31990,8 +31760,8 @@
     ],
     "ex": [
       {
-        "o": "I pomia e mamini lisoi notor i pomia e maemiri.",
-        "e": "Scramble the eggs quickly then mix with rice.",
+        "o": "i pomia e mamini lisoi notor i pomia e maemiri.",
+        "e": "scramble the eggs quickly then mix with rice.",
         "from_lesson": true
       }
     ],
@@ -32165,8 +31935,8 @@
     ],
     "ex": [
       {
-        "o": "A mamol i anefene en dasalui litegai.",
-        "e": "The pot rests for fifteen minutes.",
+        "o": "a mamol i anefene en dasalui litegai.",
+        "e": "the pot rests for fifteen minutes.",
         "from_lesson": true
       }
     ],
@@ -32317,8 +32087,8 @@
     ],
     "ex": [
       {
-        "o": "I do i vardei e anocari lusari cali teva litetan",
-        "e": "You can see the sunset when it’s 6 o’clock",
+        "o": "i do i vardei e anocari lusari cali teva litetan",
+        "e": "you can see the sunset when it’s 6 o’clock",
         "from_lesson": false
       }
     ],
@@ -32553,8 +32323,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "A bospupi a nesunya lufiva.",
-        "e": "The shower is not at all cold.",
+        "o": "a bospupi a nesunya lufiva.",
+        "e": "the shower is not at all cold.",
         "from_lesson": true
       }
     ],
@@ -32810,8 +32580,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "A luyol a lumbo, a lufu a lufiva.",
-        "e": "The sky is cloudy, the wind is cold.",
+        "o": "a luyol a lumbo, a lufu a lufiva.",
+        "e": "the sky is cloudy, the wind is cold.",
         "from_lesson": false
       }
     ],
@@ -33261,8 +33031,8 @@
     ],
     "ex": [
       {
-        "o": "Nepar ilie i lupupi litamis.",
-        "e": "It will possibly rain tomorrow.",
+        "o": "nepar ilie i lupupi litamis.",
+        "e": "it will possibly rain tomorrow.",
         "from_lesson": true
       }
     ],
@@ -33896,8 +33666,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "Noli i do i mo e yuba pomia maemiri!",
-        "e": "Now you can eat the delicious fried rice!",
+        "o": "noli i do i mo e yuba pomia maemiri!",
+        "e": "now you can eat the delicious fried rice!",
         "from_lesson": true
       }
     ],
@@ -34253,8 +34023,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "I pohem 1 yaltan mahon de 'malumo en neliu mamol.",
-        "e": "Heat 1 large spoon of oil in another pot.",
+        "o": "i pohem 1 yaltan mahon de 'malumo en neliu mamol.",
+        "e": "heat 1 large spoon of oil in another pot.",
         "from_lesson": true
       }
     ],
@@ -34655,8 +34425,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "I pomia e mamini lisoi notor i pomia e maemiri.",
-        "e": "Scramble the eggs quickly then mix with rice.",
+        "o": "i pomia e mamini lisoi notor i pomia e maemiri.",
+        "e": "scramble the eggs quickly then mix with rice.",
         "from_lesson": true
       }
     ],
@@ -34752,8 +34522,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "A mamol i anefene en dasalui litegai.",
-        "e": "The pot rests for fifteen minutes.",
+        "o": "a mamol i anefene en dasalui litegai.",
+        "e": "the pot rests for fifteen minutes.",
         "from_lesson": true
       }
     ],
@@ -34906,8 +34676,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "I neron 2 mascur ca a nedas yalgai mir joniu.",
-        "e": "Add 2 garlic cloves, very finely chopped.",
+        "o": "i neron 2 mascur ca a nedas yalgai mir joniu.",
+        "e": "add 2 garlic cloves, very finely chopped.",
         "from_lesson": true
       }
     ],
@@ -35478,7 +35248,7 @@
     "ex": [
       {
         "o": "i none e miau a ca i mo",
-        "e": "I have the cat who eats",
+        "e": "i have the cat who eats",
         "from_lesson": true
       }
     ],
@@ -35679,8 +35449,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "Lirular a farejor i boemo e micuc neauta lirul perien.",
-        "e": "My mother used to cook chicken often on Sundays.",
+        "o": "lirular a farejor i boemo e micuc neauta lirul perien.",
+        "e": "my mother used to cook chicken often on Sundays.",
         "from_lesson": false
       }
     ],
@@ -35747,8 +35517,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "Mihie run!",
-        "e": "You have such endurance!",
+        "o": "mihie run!",
+        "e": "you have such endurance!",
         "from_lesson": false
       }
     ],
@@ -36023,8 +35793,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "Hay i ilahai, a miogar.",
-        "e": "He says, stern as a bear.",
+        "o": "hay i ilahai, a miogar.",
+        "e": "he says, stern as a bear.",
         "from_lesson": false
       }
     ],
@@ -36168,8 +35938,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "En lealei i elemi a yalgai su mioici faejal.",
-        "e": "In the forest lives a small mischievous man.",
+        "o": "en lealei i elemi a yalgai su mioici faejal.",
+        "e": "in the forest lives a small mischievous man.",
         "from_lesson": true
       }
     ],
@@ -36314,8 +36084,8 @@
     ],
     "ex": [
       {
-        "o": "A jahgo i ilonya, mai a leirih i miotan",
-        "e": "The axe forgets, but the tree remembers",
+        "o": "a jahgo i ilonya, mai a leirih i miotan",
+        "e": "the axe forgets, but the tree remembers",
         "from_lesson": false
       }
     ],
@@ -36402,8 +36172,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "Curupira i eover e lei su misumu.",
-        "e": "Curupira protects the plants and animals.",
+        "o": "curupira i eover e lei su misumu.",
+        "e": "curupira protects the plants and animals.",
         "from_lesson": true
       }
     ],
@@ -36765,7 +36535,7 @@
     "ex": [
       {
         "o": "i mo e mocen su e moaria",
-        "e": "I eat chocolate and apple",
+        "e": "i eat chocolate and apple",
         "from_lesson": true
       }
     ],
@@ -36894,7 +36664,7 @@
     "ex": [
       {
         "o": "i mo e mocen su e moaria",
-        "e": "I eat chocolate and apple",
+        "e": "i eat chocolate and apple",
         "from_lesson": true
       }
     ],
@@ -36966,7 +36736,7 @@
     "ex": [
       {
         "o": "i mo e mogali lirul",
-        "e": "I habitually drink coffee",
+        "e": "i habitually drink coffee",
         "from_lesson": true
       }
     ],
@@ -37038,8 +36808,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "Notam, i bospupi 3 molbai de maemiri linu a wa a joliri.",
-        "e": "First, wash 3 cups of rice until the water is clear.",
+        "o": "notam, i bospupi 3 molbai de maemiri linu a wa a joliri.",
+        "e": "first, wash 3 cups of rice until the water is clear.",
         "from_lesson": true
       }
     ],
@@ -37328,7 +37098,7 @@
     "ex": [
       {
         "o": "i mo su i mouje",
-        "e": "I eat and drink",
+        "e": "i eat and drink",
         "from_lesson": true
       }
     ],
@@ -37402,7 +37172,7 @@
     "ex": [
       {
         "o": "nim i anona e moulu.",
-        "e": "I give milk",
+        "e": "i give milk",
         "from_lesson": true
       }
     ],
@@ -37618,7 +37388,7 @@
     "ex": [
       {
         "o": "nim i moum e moyi",
-        "e": "I don't eat sugar",
+        "e": "i don't eat sugar",
         "from_lesson": true
       }
     ],
@@ -38589,8 +38359,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "Nehen liyar, hay i anise e tor wa molbo",
-        "e": "Every morning, he would carry two water pots",
+        "o": "nehen liyar, hay i anise e tor wa molbo",
+        "e": "every morning, he would carry two water pots",
         "from_lesson": false
       }
     ],
@@ -38809,8 +38579,8 @@
     ],
     "ex": [
       {
-        "o": "I pohem 1 yaltan mahon de 'malumo en neliu mamol.",
-        "e": "Heat 1 large spoon of oil in another pot.",
+        "o": "i pohem 1 yaltan mahon de 'malumo en neliu mamol.",
+        "e": "heat 1 large spoon of oil in another pot.",
         "from_lesson": true
       }
     ],
@@ -39250,7 +39020,7 @@
     "ex": [
       {
         "o": "i moar noder",
-        "e": "I already ate",
+        "e": "i already ate",
         "from_lesson": true
       }
     ],
@@ -39476,8 +39246,8 @@
     ],
     "ex": [
       {
-        "o": "Noli i do i mo e yuba pomia maemiri!",
-        "e": "Now you can eat the delicious fried rice!",
+        "o": "noli i do i mo e yuba pomia maemiri!",
+        "e": "now you can eat the delicious fried rice!",
         "from_lesson": true
       }
     ],
@@ -39567,7 +39337,7 @@
     "ex": [
       {
         "o": "nolili nim i anyeis",
-        "e": "I will always do it",
+        "e": "i will always do it",
         "from_lesson": true
       }
     ],
@@ -39744,8 +39514,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "Hay i none e yopoh vosyas.",
-        "e": "He has red hair.",
+        "o": "hay i none e yopoh vosyas.",
+        "e": "he has red hair.",
         "from_lesson": true
       }
     ],
@@ -39831,7 +39601,7 @@
     "ex": [
       {
         "o": "i anona e noniu anona u ilhei",
-        "e": "I give some gifts to people",
+        "e": "i give some gifts to people",
         "from_lesson": true
       }
     ],
@@ -39919,8 +39689,8 @@
     ],
     "ex": [
       {
-        "o": "Bi tohpu, a hay bo a nordau",
-        "e": "Unfortunately, their house is far away",
+        "o": "bi tohpu, a hay bo a nordau",
+        "e": "unfortunately, their house is far away",
         "from_lesson": false
       }
     ],
@@ -40111,7 +39881,7 @@
     "ex": [
       {
         "o": "norven nim i anepou",
-        "e": "I already stopped",
+        "e": "i already stopped",
         "from_lesson": true
       }
     ],
@@ -40294,8 +40064,8 @@
     ],
     "ex": [
       {
-        "o": "I anidaium e varsi ilhei, mai i anidai cali haye i anisu e oico!",
-        "e": "I don’t like meddlesome people, but I like it when they bring gossip!",
+        "o": "i anidaium e varsi ilhei, mai i anidai cali haye i anisu e oico!",
+        "e": "i don’t like meddlesome people, but I like it when they bring gossip!",
         "from_lesson": false
       }
     ],
@@ -40655,8 +40425,8 @@
     ],
     "ex": [
       {
-        "o": "A curupira a oila caora a faejal i elasu u elodao.",
-        "e": "Curupira was happy because the man kept his promise.",
+        "o": "a curupira a oila caora a faejal i elasu u elodao.",
+        "e": "curupira was happy because the man kept his promise.",
         "from_lesson": true
       }
     ],
@@ -40879,8 +40649,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "Nim i ilahai e oines lilon nima i mo!",
-        "e": "I will tell you a joke while we eat!",
+        "o": "nim i ilahai e oines lilon nima i mo!",
+        "e": "i will tell you a joke while we eat!",
         "from_lesson": false
       }
     ],
@@ -41047,7 +40817,7 @@
     "ex": [
       {
         "o": "i faigel, bi oipoh!",
-        "e": "I'm getting married — how exciting!",
+        "e": "i'm getting married — how exciting!",
         "from_lesson": true
       }
     ],
@@ -41196,8 +40966,8 @@
     ],
     "ex": [
       {
-        "o": "Nim i oiyar ca suum nim, run i doum i elepan",
-        "e": "I emphasize that without me, you cannot succeed",
+        "o": "nim i oiyar ca suum nim, run i doum i elepan",
+        "e": "i emphasize that without me, you cannot succeed",
         "from_lesson": false
       }
     ],
@@ -41487,8 +41257,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "I anvu en bevio sora i gerina e omja",
-        "e": "I am going to the store to buy a guitar",
+        "o": "i anvu en bevio sora i gerina e omja",
+        "e": "i am going to the store to buy a guitar",
         "from_lesson": true
       }
     ],
@@ -41909,13 +41679,13 @@
     ]
   },
   {
-    "w": "poarofi",
+    "w": "poarofei",
     "e": "alcohol",
     "ea": "alcohol, liquor",
     "c": "components",
     "cs": "po",
     "sc": "poa",
-    "r": "rofi",
+    "r": "rofei",
     "bd": [
       {
         "sound": "poa",
@@ -41934,12 +41704,12 @@
         "bb_meaning": "thinking, reasoning"
       },
       {
-        "sound": "fi",
-        "meaning": "inside",
+        "sound": "fei",
+        "meaning": "less",
         "bb_type": "root",
-        "bb_id": "bb-root-fi",
-        "bb_href": "building_blocks_reference.html#bb-root-fi",
-        "bb_meaning": "inside"
+        "bb_id": "bb-root-fei",
+        "bb_href": "building_blocks_reference.html#bb-root-fei",
+        "bb_meaning": "less"
       }
     ],
     "rel": [],
@@ -41964,13 +41734,13 @@
         "bb_meaning": "thinking, reasoning"
       },
       {
-        "sound": "fi",
-        "meaning": "inside",
+        "sound": "fei",
+        "meaning": "less",
         "position": "root",
         "bb_type": "root",
-        "bb_id": "bb-root-fi",
-        "bb_href": "building_blocks_reference.html#bb-root-fi",
-        "bb_meaning": "inside"
+        "bb_id": "bb-root-fei",
+        "bb_href": "building_blocks_reference.html#bb-root-fei",
+        "bb_meaning": "less"
       }
     ],
     "search_terms": [
@@ -41980,21 +41750,22 @@
       "alcohol, liquor",
       "brain",
       "chemical",
-      "come",
       "component",
       "components",
+      "criticize",
       "decide",
       "dependence",
-      "inside",
       "invent",
+      "les",
+      "less",
       "liquor",
       "memory",
       "po",
       "poa",
-      "poarofi",
+      "poarofei",
       "reason",
       "reasoning",
-      "rofi",
+      "rofei",
       "smart",
       "think",
       "thinking",
@@ -42026,8 +41797,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "A noi yaltan lenodur, i nomie no nedas pocan? um, daehun run i aniseum",
-        "e": "Doesn’t this large boulder look heavy? not if you don’t carry it",
+        "o": "a noi yaltan lenodur, i nomie no nedas pocan? um, daehun run i aniseum",
+        "e": "doesn’t this large boulder look heavy? not if you don’t carry it",
         "from_lesson": false
       }
     ],
@@ -42159,8 +41930,8 @@
     ],
     "ex": [
       {
-        "o": "A elenon de nen peri podau gavou i ansau anja tam vanpai",
-        "e": "A journey of a thousand miles begins with a single step",
+        "o": "a elenon de nen peri podau gavou i ansau anja tam vanpai",
+        "e": "a journey of a thousand miles begins with a single step",
         "from_lesson": false
       }
     ],
@@ -42449,8 +42220,8 @@
     ],
     "ex": [
       {
-        "o": "I pohem 1 yaltan mahon de 'malumo en neliu mamol.",
-        "e": "Heat 1 large spoon of oil in another pot.",
+        "o": "i pohem 1 yaltan mahon de 'malumo en neliu mamol.",
+        "e": "heat 1 large spoon of oil in another pot.",
         "from_lesson": true
       }
     ],
@@ -42589,7 +42360,7 @@
     "ex": [
       {
         "o": "i pohnen ca hay i mo",
-        "e": "I made him eat",
+        "e": "i made him eat",
         "from_lesson": true
       }
     ],
@@ -43253,8 +43024,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "Noli i do i mo e yuba pomia maemiri!",
-        "e": "Now you can eat the delicious fried rice!",
+        "o": "noli i do i mo e yuba pomia maemiri!",
+        "e": "now you can eat the delicious fried rice!",
         "from_lesson": true
       }
     ],
@@ -43316,20 +43087,8 @@
         "bb_meaning": "components"
       },
       {
-        "sound": "mu",
-        "meaning": "small animal",
-        "bb_type": "root",
-        "bb_id": "bb-root-mu",
-        "bb_href": "building_blocks_reference.html#bb-root-mu",
-        "bb_meaning": "small animal"
-      },
-      {
-        "sound": "vu",
-        "meaning": "movement",
-        "bb_type": "root",
-        "bb_id": "bb-root-vu",
-        "bb_href": "building_blocks_reference.html#bb-root-vu",
-        "bb_meaning": "movement"
+        "sound": "muvu",
+        "meaning": "motor"
       }
     ],
     "rel": [],
@@ -43345,51 +43104,26 @@
         "bb_meaning": "components"
       },
       {
-        "sound": "mu",
-        "meaning": "small animal",
-        "position": "root",
-        "bb_type": "root",
-        "bb_id": "bb-root-mu",
-        "bb_href": "building_blocks_reference.html#bb-root-mu",
-        "bb_meaning": "small animal"
-      },
-      {
-        "sound": "vu",
-        "meaning": "movement",
-        "position": "root",
-        "bb_type": "root",
-        "bb_id": "bb-root-vu",
-        "bb_href": "building_blocks_reference.html#bb-root-vu",
-        "bb_meaning": "movement"
+        "sound": "muvu",
+        "meaning": "motor",
+        "position": "root"
       }
     ],
     "search_terms": [
-      "animal",
       "atom",
-      "car",
       "component",
       "components",
-      "cow",
       "engine",
-      "fish",
-      "leg",
       "mas",
       "mass",
       "meter",
       "mixture",
       "motor",
       "motor, engine",
-      "move",
-      "movement",
       "muvu",
       "po",
       "pomuvu",
       "pure",
-      "run",
-      "silk",
-      "small",
-      "small animal",
-      "venom",
       "waste"
     ]
   },
@@ -43610,7 +43344,7 @@
     "w": "raidana",
     "e": "surrender",
     "ea": "surrender, submit, yield, give in, submission, colony, protectorate",
-    "c": "society",
+    "c": "government",
     "cs": "ra",
     "sc": "rai",
     "r": "dana",
@@ -43624,15 +43358,27 @@
         "bb_meaning": "governance"
       },
       {
-        "sound": "dana",
-        "meaning": "surrender"
+        "sound": "da",
+        "meaning": "evaluate",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-da",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-da",
+        "bb_meaning": "evaluation"
+      },
+      {
+        "sound": "na",
+        "meaning": "give",
+        "bb_type": "root",
+        "bb_id": "bb-root-na",
+        "bb_href": "building_blocks_reference.html#bb-root-na",
+        "bb_meaning": "giving"
       }
     ],
     "rel": [],
     "ex": [
       {
-        "o": "Eta Wirel Lufu i raidana-ilaluan ca a Lusari a pohnen.",
-        "e": "Then North Wind conceded that Sun was the stronger.",
+        "o": "eta Wirel Lufu i raidana-ilaluan ca a Lusari a pohnen.",
+        "e": "then North Wind conceded that Sun was the stronger.",
         "from_lesson": false
       }
     ],
@@ -43647,37 +43393,77 @@
         "bb_meaning": "governance"
       },
       {
-        "sound": "dana",
-        "meaning": "surrender",
-        "position": "root"
+        "sound": "da",
+        "meaning": "evaluate",
+        "position": "root",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-da",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-da",
+        "bb_meaning": "evaluation"
+      },
+      {
+        "sound": "na",
+        "meaning": "give",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-na",
+        "bb_href": "building_blocks_reference.html#bb-root-na",
+        "bb_meaning": "giving"
       }
     ],
     "search_terms": [
+      "accept",
+      "answer",
+      "argue",
       "asylum",
+      "buy",
+      "change",
       "citizen",
       "colony",
+      "correct",
       "dana",
       "defend",
+      "evaluate",
+      "evaluation",
+      "exact",
+      "exist",
+      "favor",
+      "figure",
       "flee",
       "foreign",
+      "giv",
       "give",
+      "giving",
       "governance",
       "government",
       "in",
       "law",
+      "matter",
+      "mean",
+      "meaning",
       "military",
+      "obviou",
+      "obvious",
+      "origin",
       "police",
       "prison",
       "protectorate",
+      "purpose",
       "ra",
       "rai",
       "raidana",
       "rebel",
-      "society",
+      "refer",
+      "relate",
+      "represent",
+      "responsible",
+      "sense",
+      "situation",
       "submission",
       "submit",
       "surrender",
       "surrender, submit, yield, give in, submission, colony, protectorate",
+      "teach",
       "yield"
     ]
   },
@@ -43685,7 +43471,7 @@
     "w": "raidoi",
     "e": "rebel",
     "ea": "rebel, rebellion, revolution, rebellious",
-    "c": "society",
+    "c": "government",
     "cs": "ra",
     "sc": "rai",
     "r": "doi",
@@ -43756,7 +43542,6 @@
       "rebelliou",
       "rebellious",
       "revolution",
-      "society",
       "surrender"
     ]
   },
@@ -43764,7 +43549,7 @@
     "w": "raihei",
     "e": "citizen",
     "ea": "citizen, civilian, civil, civilize",
-    "c": "society",
+    "c": "government",
     "cs": "ra",
     "sc": "rai",
     "r": "hei",
@@ -43834,7 +43619,6 @@
       "raihei",
       "rebel",
       "self",
-      "society",
       "surrender"
     ]
   },
@@ -43842,7 +43626,7 @@
     "w": "railem",
     "e": "asylum",
     "ea": "asylum, refugee, shelter",
-    "c": "society",
+    "c": "government",
     "cs": "ra",
     "sc": "rai",
     "r": "lem",
@@ -43915,7 +43699,6 @@
       "rebel",
       "refugee",
       "shelter",
-      "society",
       "station",
       "surrender"
     ]
@@ -43924,7 +43707,7 @@
     "w": "railiu",
     "e": "foreign",
     "ea": "foreign, alien",
-    "c": "society",
+    "c": "government",
     "cs": "ra",
     "sc": "rai",
     "r": "liu",
@@ -43990,7 +43773,6 @@
       "rai",
       "railiu",
       "rebel",
-      "society",
       "surrender"
     ]
   },
@@ -43998,7 +43780,7 @@
     "w": "rainen",
     "e": "police",
     "ea": "police",
-    "c": "society",
+    "c": "government",
     "cs": "ra",
     "sc": "rai",
     "r": "nen",
@@ -44070,7 +43852,6 @@
       "rai",
       "rainen",
       "rebel",
-      "society",
       "surrender",
       "violence"
     ]
@@ -44079,7 +43860,7 @@
     "w": "raipuni",
     "e": "government",
     "ea": "government, govern",
-    "c": "society",
+    "c": "government",
     "cs": "ra",
     "sc": "rai",
     "r": "puni",
@@ -44145,7 +43926,6 @@
       "rai",
       "raipuni",
       "rebel",
-      "society",
       "surrender"
     ]
   },
@@ -44219,7 +43999,7 @@
     "w": "raisoi",
     "e": "flee",
     "ea": "flee, escape, run away",
-    "c": "society",
+    "c": "government",
     "cs": "ra",
     "sc": "rai",
     "r": "soi",
@@ -44295,7 +44075,6 @@
       "raisoi",
       "rebel",
       "run",
-      "society",
       "soi",
       "soon",
       "spe",
@@ -44307,7 +44086,7 @@
     "w": "raitar",
     "e": "law",
     "ea": "law, rule",
-    "c": "society",
+    "c": "government",
     "cs": "ra",
     "sc": "rai",
     "r": "tar",
@@ -44334,8 +44113,8 @@
     ],
     "ex": [
       {
-        "o": "A darevaum i raitar",
-        "e": "Injustice reigns",
+        "o": "a darevaum i raitar",
+        "e": "injustice reigns",
         "from_lesson": false
       }
     ],
@@ -44378,7 +44157,6 @@
       "rebel",
       "regulate",
       "rule",
-      "society",
       "surrender",
       "tar"
     ]
@@ -44387,7 +44165,7 @@
     "w": "raitu",
     "e": "military",
     "ea": "military, army",
-    "c": "society",
+    "c": "government",
     "cs": "ra",
     "sc": "rai",
     "r": "tu",
@@ -44452,7 +44230,6 @@
       "rai",
       "raitu",
       "rebel",
-      "society",
       "surrender",
       "tu",
       "violence",
@@ -44463,7 +44240,7 @@
     "w": "raiver",
     "e": "defend",
     "ea": "defend, guard, protect, protection, defense",
-    "c": "society",
+    "c": "government",
     "cs": "ra",
     "sc": "rai",
     "r": "ver",
@@ -44492,8 +44269,8 @@
     ],
     "ex": [
       {
-        "o": "A raiver hai de lealei i varsus e asur de sita hai:",
-        "e": "The forest guardian heard the hunter's scream:",
+        "o": "a raiver hai de lealei i varsus e asur de sita hai:",
+        "e": "the forest guardian heard the hunter's scream:",
         "from_lesson": true
       }
     ],
@@ -44544,7 +44321,6 @@
       "rebel",
       "safety",
       "secure",
-      "society",
       "surrender",
       "to",
       "to care for",
@@ -44555,7 +44331,7 @@
     "w": "raivoa",
     "e": "prison",
     "ea": "prison, jail, imprison",
-    "c": "society",
+    "c": "government",
     "cs": "ra",
     "sc": "rai",
     "r": "voa",
@@ -44622,7 +44398,6 @@
       "rai",
       "raivoa",
       "rebel",
-      "society",
       "surrender",
       "voa"
     ]
@@ -44942,20 +44717,8 @@
         "bb_meaning": "media, public discourse"
       },
       {
-        "sound": "le",
-        "meaning": "area",
-        "bb_type": "root",
-        "bb_id": "bb-root-le",
-        "bb_href": "building_blocks_reference.html#bb-root-le",
-        "bb_meaning": "area"
-      },
-      {
-        "sound": "vi",
-        "meaning": "internal body",
-        "bb_type": "root",
-        "bb_id": "bb-root-vi",
-        "bb_href": "building_blocks_reference.html#bb-root-vi",
-        "bb_meaning": "internal body"
+        "sound": "levi",
+        "meaning": "production"
       }
     ],
     "rel": [],
@@ -44971,55 +44734,32 @@
         "bb_meaning": "media, public discourse"
       },
       {
-        "sound": "le",
-        "meaning": "area",
-        "position": "root",
-        "bb_type": "root",
-        "bb_id": "bb-root-le",
-        "bb_href": "building_blocks_reference.html#bb-root-le",
-        "bb_meaning": "area"
-      },
-      {
-        "sound": "vi",
-        "meaning": "internal body",
-        "position": "root",
-        "bb_type": "root",
-        "bb_id": "bb-root-vi",
-        "bb_href": "building_blocks_reference.html#bb-root-vi",
-        "bb_meaning": "internal body"
+        "sound": "levi",
+        "meaning": "production",
+        "position": "root"
       }
     ],
     "search_terms": [
-      "area",
-      "body",
       "busines",
       "business",
       "discourse",
-      "emotion",
       "factory",
-      "fertile",
-      "field",
       "industrial",
       "industry",
       "industry, industrial, factory, mill",
-      "internal",
-      "internal body",
       "levi",
       "market",
       "marketing",
       "media",
       "media, public discourse",
       "mill",
-      "pelvi",
-      "pelvis",
+      "production",
       "public",
       "ra",
       "ran",
       "ranlevi",
       "society",
-      "suck",
-      "technology",
-      "toilet"
+      "technology"
     ]
   },
   {
@@ -45681,8 +45421,8 @@
     ],
     "ex": [
       {
-        "o": "Noli haya i roesau en boemo roedom, su litam i dami a roejo.",
-        "e": "Now they study at culinary school, and today there is an exam.",
+        "o": "noli haya i roesau en boemo roedom, su litam i dami a roejo.",
+        "e": "now they study at culinary school, and today there is an exam.",
         "from_lesson": false
       }
     ],
@@ -46137,7 +45877,7 @@
     "ex": [
       {
         "o": "nim i roudal lilon roena hai i roudi.",
-        "e": "I read while the teacher writes",
+        "e": "i read while the teacher writes",
         "from_lesson": true
       }
     ],
@@ -46295,7 +46035,7 @@
     "ex": [
       {
         "o": "i jadoe e roumir.",
-        "e": "I put the book on the shelf",
+        "e": "i put the book on the shelf",
         "from_lesson": true
       }
     ],
@@ -46753,8 +46493,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "O i danala e nim selyino",
-        "e": "Pay attention to my plan",
+        "o": "o i danala e nim selyino",
+        "e": "pay attention to my plan",
         "from_lesson": false
       }
     ],
@@ -46871,8 +46611,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "Tohvi ca semtelaum, caora o nim doum siyal e damura-ora.",
-        "e": "A feeling I cannot dispel; for I myself cannot grasp the theme of it.",
+        "o": "tohvi ca semtelaum, caora o nim doum siyal e damura-ora.",
+        "e": "a feeling I cannot dispel; for I myself cannot grasp the theme of it.",
         "from_lesson": false
       }
     ],
@@ -47704,13 +47444,13 @@
     ]
   },
   {
-    "w": "simira",
+    "w": "sihei",
     "e": "robot",
     "ea": "robot",
     "c": "process",
     "cs": "si",
     "sc": "si",
-    "r": "mira",
+    "r": "hei",
     "bd": [
       {
         "sound": "si",
@@ -47721,20 +47461,12 @@
         "bb_meaning": "processes"
       },
       {
-        "sound": "mi",
-        "meaning": "existence, being",
+        "sound": "hei",
+        "meaning": "protagonist tropes",
         "bb_type": "root",
-        "bb_id": "bb-root-mi",
-        "bb_href": "building_blocks_reference.html#bb-root-mi",
-        "bb_meaning": "existence, being"
-      },
-      {
-        "sound": "ra",
-        "meaning": "society",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-ra",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-ra",
-        "bb_meaning": "society"
+        "bb_id": "bb-root-hei",
+        "bb_href": "building_blocks_reference.html#bb-root-hei",
+        "bb_meaning": "person"
       }
     ],
     "rel": [],
@@ -47750,56 +47482,41 @@
         "bb_meaning": "processes"
       },
       {
-        "sound": "mi",
-        "meaning": "existence, being",
+        "sound": "hei",
+        "meaning": "protagonist tropes",
         "position": "root",
         "bb_type": "root",
-        "bb_id": "bb-root-mi",
-        "bb_href": "building_blocks_reference.html#bb-root-mi",
-        "bb_meaning": "existence, being"
-      },
-      {
-        "sound": "ra",
-        "meaning": "society",
-        "position": "root",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-ra",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-ra",
-        "bb_meaning": "society"
+        "bb_id": "bb-root-hei",
+        "bb_href": "building_blocks_reference.html#bb-root-hei",
+        "bb_meaning": "person"
       }
     ],
     "search_terms": [
-      "being",
       "capture",
-      "community",
+      "citizen",
       "computer",
       "detect",
-      "economy",
-      "elect",
-      "environment",
       "erase",
-      "exist",
-      "existence",
-      "existence, being",
       "flash",
-      "life",
-      "mira",
-      "nation",
+      "hei",
+      "neutral",
+      "people",
+      "person",
       "proces",
       "process",
       "processe",
       "processes",
-      "race",
+      "pronoun",
+      "protagonist",
+      "protagonist tropes",
       "random",
-      "resource",
       "robot",
-      "second",
-      "second (time)",
+      "self",
       "si",
-      "simira",
-      "society",
+      "sihei",
       "spy",
-      "time",
+      "trope",
+      "tropes",
       "viru",
       "virus"
     ]
@@ -48074,7 +47791,7 @@
     ]
   },
   {
-    "w": "siomir",
+    "w": "simir",
     "e": "complex",
     "ea": "complex, complicated, tangle",
     "c": "process",
@@ -48083,12 +47800,12 @@
     "r": "mir",
     "bd": [
       {
-        "sound": "sio",
-        "meaning": "games",
+        "sound": "si",
+        "meaning": "processes",
         "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-sio",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-sio",
-        "bb_meaning": "games"
+        "bb_id": "bb-subcluster-si",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-si",
+        "bb_meaning": "processes"
       },
       {
         "sound": "mir",
@@ -48103,13 +47820,13 @@
     "ex": [],
     "syllable_meanings": [
       {
-        "sound": "sio",
-        "meaning": "games",
+        "sound": "si",
+        "meaning": "processes",
         "position": "subcluster",
         "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-sio",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-sio",
-        "bb_meaning": "games"
+        "bb_id": "bb-subcluster-si",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-si",
+        "bb_meaning": "processes"
       },
       {
         "sound": "mir",
@@ -48124,12 +47841,15 @@
     "search_terms": [
       "awesome",
       "book",
+      "capture",
       "complex",
       "complex, complicated, tangle",
       "complicat",
       "complicated",
-      "game",
-      "games",
+      "computer",
+      "detect",
+      "erase",
+      "flash",
       "important",
       "lot",
       "lots",
@@ -48138,15 +47858,18 @@
       "of",
       "proces",
       "process",
-      "puzzle",
+      "processe",
+      "processes",
+      "random",
       "rich",
+      "robot",
       "si",
+      "simir",
       "sio",
-      "siomir",
-      "solve",
+      "spy",
       "tangle",
-      "toy",
-      "trick"
+      "viru",
+      "virus"
     ]
   },
   {
@@ -48319,8 +48042,8 @@
     ],
     "ex": [
       {
-        "o": "A sita hai i davio no tilira su tohpu.",
-        "e": "The hunter became ashamed and sad.",
+        "o": "a sita hai i davio no tilira su tohpu.",
+        "e": "the hunter became ashamed and sad.",
         "from_lesson": true
       }
     ],
@@ -48400,7 +48123,7 @@
     "ex": [
       {
         "o": "i tohpu caora siur de haye",
-        "e": "I am sad because of her disappearance",
+        "e": "i am sad because of her disappearance",
         "from_lesson": true
       }
     ],
@@ -48475,7 +48198,7 @@
     "ex": [
       {
         "o": "i doum i siyal",
-        "e": "I cannot find",
+        "e": "i cannot find",
         "from_lesson": true
       }
     ],
@@ -48594,8 +48317,8 @@
     ],
     "ex": [
       {
-        "o": "Jenon de ticati-anise ‘beiwa",
-        "e": "The path of the slave ship",
+        "o": "jenon de ticati-anise ‘beiwa",
+        "e": "the path of the slave ship",
         "from_lesson": false
       }
     ],
@@ -48734,20 +48457,12 @@
         "bb_meaning": "harm, damage"
       },
       {
-        "sound": "de",
-        "meaning": "origin, from",
+        "sound": "detu",
+        "meaning": "end",
         "bb_type": "root",
-        "bb_id": "bb-root-de",
-        "bb_href": "building_blocks_reference.html#bb-root-de",
-        "bb_meaning": "origin, from"
-      },
-      {
-        "sound": "tu",
-        "meaning": "conflict",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-tu",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-tu",
-        "bb_meaning": "conflict"
+        "bb_id": "bb-root-detu",
+        "bb_href": "building_blocks_reference.html#bb-root-detu",
+        "bb_meaning": "end"
       }
     ],
     "rel": [],
@@ -48769,33 +48484,21 @@
         "bb_meaning": "harm, damage"
       },
       {
-        "sound": "de",
-        "meaning": "origin, from",
+        "sound": "detu",
+        "meaning": "end",
         "position": "root",
         "bb_type": "root",
-        "bb_id": "bb-root-de",
-        "bb_href": "building_blocks_reference.html#bb-root-de",
-        "bb_meaning": "origin, from"
-      },
-      {
-        "sound": "tu",
-        "meaning": "conflict",
-        "position": "root",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-tu",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-tu",
-        "bb_meaning": "conflict"
+        "bb_id": "bb-root-detu",
+        "bb_href": "building_blocks_reference.html#bb-root-detu",
+        "bb_meaning": "end"
       }
     ],
     "search_terms": [
       "accuse",
       "against",
-      "attack",
-      "barrage",
       "beat",
       "blame",
       "break",
-      "conflict",
       "curse",
       "damage",
       "dead",
@@ -48804,25 +48507,19 @@
       "deceive",
       "detu",
       "die",
-      "from",
+      "end",
+      "finish",
       "harm",
       "harm, damage",
       "hate",
       "hell",
       "lie",
       "mean",
-      "origin",
-      "origin, from",
-      "potato",
-      "root",
       "slave",
       "steal",
-      "theme",
       "ti",
       "tidetu",
-      "venom",
-      "violence",
-      "war"
+      "venom"
     ]
   },
   {
@@ -49095,8 +48792,8 @@
     ],
     "ex": [
       {
-        "o": "A sita hai i davio no tilira su tohpu.",
-        "e": "The hunter became ashamed and sad.",
+        "o": "a sita hai i davio no tilira su tohpu.",
+        "e": "the hunter became ashamed and sad.",
         "from_lesson": true
       }
     ],
@@ -49267,8 +48964,8 @@
     ],
     "ex": [
       {
-        "o": "I asano e maemiri en jensu, su i tinen e 2 mamini.",
-        "e": "Push the rice to the side and crack 2 eggs.",
+        "o": "i asano e maemiri en jensu, su i tinen e 2 mamini.",
+        "e": "push the rice to the side and crack 2 eggs.",
         "from_lesson": true
       }
     ],
@@ -50326,8 +50023,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "I vardei e elihei, hay i nomie no toului su toharou.",
-        "e": "She looks at herself — she seems tired and anxious.",
+        "o": "i vardei e elihei, hay i nomie no toului su toharou.",
+        "e": "she looks at herself — she seems tired and anxious.",
         "from_lesson": false
       }
     ],
@@ -50473,8 +50170,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "A sita hai, ca a elireva tohdin, i davio no raiver hai de fano de misumu.",
-        "e": "The hunter, truly sorry, became a guardian of the animals' offspring.",
+        "o": "a sita hai, ca a elireva tohdin, i davio no raiver hai de fano de misumu.",
+        "e": "the hunter, truly sorry, became a guardian of the animals' offspring.",
         "from_lesson": true
       }
     ],
@@ -50594,7 +50291,7 @@
     "w": "tohlora",
     "e": "crazy",
     "ea": "crazy, mad, insane, madden",
-    "c": "suffering",
+    "c": "suffer",
     "cs": "toh",
     "sc": "toh",
     "r": "lora",
@@ -50693,8 +50390,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "Nesunya lirul a nim i bonfene a tohnaru u faibor.",
-        "e": "I never go to bed angry at my spouse.",
+        "o": "nesunya lirul a nim i bonfene a tohnaru u faibor.",
+        "e": "i never go to bed angry at my spouse.",
         "from_lesson": true
       }
     ],
@@ -50790,8 +50487,8 @@
     ],
     "ex": [
       {
-        "o": "A suuma fare i tohpu.",
-        "e": "Suuma's parent is sad.",
+        "o": "a suuma fare i tohpu.",
+        "e": "suuma's parent is sad.",
         "from_lesson": true
       }
     ],
@@ -51390,27 +51087,15 @@
         "bb_meaning": "interpersonal suffering"
       },
       {
-        "sound": "le",
-        "meaning": "area",
-        "bb_type": "root",
-        "bb_id": "bb-root-le",
-        "bb_href": "building_blocks_reference.html#bb-root-le",
-        "bb_meaning": "area"
-      },
-      {
-        "sound": "va",
-        "meaning": "core",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-va",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-va",
-        "bb_meaning": "core"
+        "sound": "leva",
+        "meaning": "betrayal"
       }
     ],
     "rel": [],
     "ex": [
       {
-        "o": "I davio e tosrei no tosleva",
-        "e": "Transform bitterness into revenge",
+        "o": "i davio e tosrei no tosleva",
+        "e": "transform bitterness into revenge",
         "from_lesson": false
       }
     ],
@@ -51425,47 +51110,20 @@
         "bb_meaning": "interpersonal suffering"
       },
       {
-        "sound": "le",
-        "meaning": "area",
-        "position": "root",
-        "bb_type": "root",
-        "bb_id": "bb-root-le",
-        "bb_href": "building_blocks_reference.html#bb-root-le",
-        "bb_meaning": "area"
-      },
-      {
-        "sound": "va",
-        "meaning": "core",
-        "position": "root",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-va",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-va",
-        "bb_meaning": "core"
+        "sound": "leva",
+        "meaning": "betrayal",
+        "position": "root"
       }
     ],
     "search_terms": [
-      "area",
-      "back",
       "betrayal",
       "betrayal, treason",
       "bitter",
-      "body",
-      "body parts",
-      "butt",
-      "chest",
-      "core",
-      "field",
       "interpersonal",
       "interpersonal suffering",
       "leva",
-      "neck",
       "offend",
-      "part",
-      "parts",
-      "pelvi",
-      "pelvis",
       "revenge",
-      "shoulder",
       "suffer",
       "suffering",
       "to",
@@ -51557,8 +51215,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "I davio e tosrei no tosleva",
-        "e": "Transform bitterness into revenge",
+        "o": "i davio e tosrei no tosleva",
+        "e": "transform bitterness into revenge",
         "from_lesson": false
       }
     ],
@@ -51689,8 +51347,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "A nim a nepar toului, mai nima i do i anvu.",
-        "e": "I am a little tired, but we can go.",
+        "o": "a nim a nepar toului, mai nima i do i anvu.",
+        "e": "i am a little tired, but we can go.",
         "from_lesson": true
       }
     ],
@@ -51762,8 +51420,8 @@
     ],
     "ex": [
       {
-        "o": "Nedas toumo!",
-        "e": "Extremely hungry!",
+        "o": "nedas toumo!",
+        "e": "extremely hungry!",
         "from_lesson": true
       }
     ],
@@ -52592,11 +52250,7 @@
       },
       {
         "sound": "rai",
-        "meaning": "war",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-rai",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-rai",
-        "bb_meaning": "governance"
+        "meaning": "society"
       }
     ],
     "rel": [],
@@ -52613,32 +52267,16 @@
       },
       {
         "sound": "rai",
-        "meaning": "war",
-        "position": "root",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-rai",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-rai",
-        "bb_meaning": "governance"
+        "meaning": "society",
+        "position": "root"
       }
     ],
     "search_terms": [
-      "asylum",
       "attack",
       "barrage",
-      "citizen",
       "conflict",
-      "defend",
-      "flee",
-      "foreign",
-      "governance",
-      "government",
-      "law",
-      "military",
-      "police",
-      "prison",
       "rai",
-      "rebel",
-      "surrender",
+      "society",
       "tu",
       "turai",
       "violence",
@@ -53086,8 +52724,8 @@
     ],
     "ex": [
       {
-        "o": "Ti varsi no vanou de mio mius",
-        "e": "Smelly like the bottom of a wild boar",
+        "o": "ti varsi no vanou de mio mius",
+        "e": "smelly like the bottom of a wild boar",
         "from_lesson": false
       }
     ],
@@ -54141,8 +53779,8 @@
     ],
     "ex": [
       {
-        "o": "Cali i varsus ca a wa i jolufu, i gafi e pohem.",
-        "e": "When you hear the water bubble, reduce the heat.",
+        "o": "cali i varsus ca a wa i jolufu, i gafi e pohem.",
+        "e": "when you hear the water bubble, reduce the heat.",
         "from_lesson": true
       }
     ],
@@ -56746,7 +56384,7 @@
     "w": "wagavir",
     "e": "shore",
     "ea": "shore, beach, coast, litoral",
-    "c": "sea",
+    "c": "water",
     "cs": "wa",
     "sc": "wa",
     "r": "gavir",
@@ -56810,7 +56448,7 @@
     "w": "waimi",
     "e": "whale",
     "ea": "whale, dolphin, cetacean",
-    "c": "sea",
+    "c": "water",
     "cs": "wa",
     "sc": "wa",
     "r": "imi",
@@ -56872,7 +56510,7 @@
     "w": "walufu",
     "e": "sail",
     "ea": "sail",
-    "c": "sea",
+    "c": "water",
     "cs": "wa",
     "sc": "wa",
     "r": "lufu",
@@ -56946,7 +56584,7 @@
     "w": "wamon",
     "e": "cave",
     "ea": "cave, cavern",
-    "c": "sea",
+    "c": "water",
     "cs": "wa",
     "sc": "wa",
     "r": "mon",
@@ -57007,7 +56645,7 @@
     "w": "wamu",
     "e": "fish",
     "ea": "fish",
-    "c": "sea",
+    "c": "water",
     "cs": "wa",
     "sc": "wa",
     "r": "mu",
@@ -57080,7 +56718,7 @@
     "w": "wanenou",
     "e": "dive",
     "ea": "dive, plunge, submerge, dip, dunk",
-    "c": "sea",
+    "c": "water",
     "cs": "wa",
     "sc": "wa",
     "r": "nenou",
@@ -57094,8 +56732,20 @@
         "bb_meaning": "water, sea"
       },
       {
-        "sound": "nenou",
-        "meaning": "dive"
+        "sound": "ne",
+        "meaning": "quantifiers",
+        "bb_type": "root",
+        "bb_id": "bb-root-ne",
+        "bb_href": "building_blocks_reference.html#bb-root-ne",
+        "bb_meaning": "quantifiers"
+      },
+      {
+        "sound": "nou",
+        "meaning": "low, falling",
+        "bb_type": "root",
+        "bb_id": "bb-root-nou",
+        "bb_href": "building_blocks_reference.html#bb-root-nou",
+        "bb_meaning": "low, falling"
       }
     ],
     "rel": [],
@@ -57111,28 +56761,59 @@
         "bb_meaning": "water, sea"
       },
       {
-        "sound": "nenou",
-        "meaning": "dive",
-        "position": "root"
+        "sound": "ne",
+        "meaning": "quantifiers",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-ne",
+        "bb_href": "building_blocks_reference.html#bb-root-ne",
+        "bb_meaning": "quantifiers"
+      },
+      {
+        "sound": "nou",
+        "meaning": "low, falling",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-nou",
+        "bb_href": "building_blocks_reference.html#bb-root-nou",
+        "bb_meaning": "low, falling"
       }
     ],
     "search_terms": [
+      "butt",
       "cave",
       "cliff",
+      "deep",
+      "degree",
       "dip",
       "dive",
       "dive, plunge, submerge, dip, dunk",
+      "drop",
       "dunk",
+      "fall",
+      "falling",
       "fish",
       "float",
+      "gras",
+      "grass",
+      "have",
+      "hole",
+      "low",
+      "low, falling",
       "nenou",
       "ocean",
+      "pant",
+      "pants",
       "plunge",
+      "quantifier",
+      "quantifiers",
       "sail",
       "sea",
       "shore",
+      "south",
       "submerge",
       "swim",
+      "understand",
       "wa",
       "wanenou",
       "water",
@@ -57144,7 +56825,7 @@
     "w": "wanon",
     "e": "swim",
     "ea": "swim",
-    "c": "sea",
+    "c": "water",
     "cs": "wa",
     "sc": "wa",
     "r": "non",
@@ -57216,7 +56897,7 @@
     "w": "warel",
     "e": "cliff",
     "ea": "cliff, edge",
-    "c": "sea",
+    "c": "water",
     "cs": "wa",
     "sc": "wa",
     "r": "rel",
@@ -57300,7 +56981,7 @@
     "w": "wawowo",
     "e": "float",
     "ea": "float, buoy, buoyant, a float",
-    "c": "sea",
+    "c": "water",
     "cs": "wa",
     "sc": "wa",
     "r": "wowo",
@@ -57374,7 +57055,7 @@
     "w": "wayol",
     "e": "ocean",
     "ea": "ocean, sea, marine",
-    "c": "sea",
+    "c": "water",
     "cs": "wa",
     "sc": "wa",
     "r": "yol",
@@ -57684,8 +57365,8 @@
     ],
     "ex": [
       {
-        "o": "Lar, i dami a yamirli faejal caei i elemi en wilgai",
-        "e": "Once, there was an old man who lived in a village",
+        "o": "lar, i dami a yamirli faejal caei i elemi en wilgai",
+        "e": "once, there was an old man who lived in a village",
         "from_lesson": false
       }
     ],
@@ -57984,8 +57665,8 @@
     ],
     "ex": [
       {
-        "o": "Notor, i vanvu en yalen jenon sora i anise e wa de wimlua u fa",
-        "e": "And walk several miles to the river to get fresh water for his family",
+        "o": "notor, i vanvu en yalen jenon sora i anise e wa de wimlua u fa",
+        "e": "and walk several miles to the river to get fresh water for his family",
         "from_lesson": false
       }
     ],
@@ -58367,8 +58048,8 @@
     ],
     "ex": [
       {
-        "o": "Wirel Lufu su Lusari i damai cai a pohnen, cali be hai i anifi su vilan jovabo.",
-        "e": "North Wind and Sun argued about who was stronger, when a traveler arrived wearing a thick cloak.",
+        "o": "wirel Lufu su Lusari i damai cai a pohnen, cali be hai i anifi su vilan jovabo.",
+        "e": "north Wind and Sun argued about who was stronger, when a traveler arrived wearing a thick cloak.",
         "from_lesson": false
       }
     ],
@@ -58987,8 +58668,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "A yamirli faejal e wa molbo en wimlua i yaldih",
-        "e": "The old man would fill both pots at the river",
+        "o": "a yamirli faejal e wa molbo en wimlua i yaldih",
+        "e": "the old man would fill both pots at the river",
         "from_lesson": false
       }
     ],
@@ -59067,7 +58748,7 @@
     "ex": [
       {
         "o": "a nim a yalen",
-        "e": "I am tall",
+        "e": "i am tall",
         "from_lesson": true
       }
     ],
@@ -59153,8 +58834,8 @@
     ],
     "ex": [
       {
-        "o": "En lealei i elemi a yalgai su mioici faejal.",
-        "e": "In the forest lives a small mischievous man.",
+        "o": "en lealei i elemi a yalgai su mioici faejal.",
+        "e": "in the forest lives a small mischievous man.",
         "from_lesson": true
       }
     ],
@@ -59407,8 +59088,8 @@
     ],
     "ex": [
       {
-        "o": "I pohem 1 yaltan mahon de 'malumo en neliu mamol.",
-        "e": "Heat 1 large spoon of oil in another pot.",
+        "o": "i pohem 1 yaltan mahon de 'malumo en neliu mamol.",
+        "e": "heat 1 large spoon of oil in another pot.",
         "from_lesson": true
       }
     ],
@@ -59788,7 +59469,7 @@
     "ex": [
       {
         "o": "nim i anidai e anodu yani bontame.",
-        "e": "I want the best new table",
+        "e": "i want the best new table",
         "from_lesson": true
       }
     ],
@@ -59871,7 +59552,7 @@
     "ex": [
       {
         "o": "i yasoi-apavu",
-        "e": "I run fast",
+        "e": "i run fast",
         "from_lesson": true
       }
     ],
@@ -60248,8 +59929,16 @@
         "bb_meaning": "clothing and fabric"
       },
       {
-        "sound": "miudu",
-        "meaning": "support + top"
+        "sound": "miu",
+        "meaning": "support",
+        "bb_type": "root",
+        "bb_id": "bb-root-miu",
+        "bb_href": "building_blocks_reference.html#bb-root-miu",
+        "bb_meaning": "support"
+      },
+      {
+        "sound": "du",
+        "meaning": "top"
       }
     ],
     "rel": [],
@@ -60265,12 +59954,22 @@
         "bb_meaning": "clothing and fabric"
       },
       {
-        "sound": "miudu",
-        "meaning": "support + top",
+        "sound": "miu",
+        "meaning": "support",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-miu",
+        "bb_href": "building_blocks_reference.html#bb-root-miu",
+        "bb_meaning": "support"
+      },
+      {
+        "sound": "du",
+        "meaning": "top",
         "position": "root"
       }
     ],
     "search_terms": [
+      "aid",
       "and",
       "bag",
       "cloth",
@@ -60281,6 +59980,7 @@
       "fabric",
       "feather",
       "miudu",
+      "neck",
       "net",
       "pillow",
       "pillow, cushion",
@@ -60288,7 +59988,6 @@
       "silk",
       "stripe",
       "support",
-      "support + top",
       "top",
       "ye",
       "yemiudu"
@@ -60760,20 +60459,8 @@
         "bb_meaning": "garments"
       },
       {
-        "sound": "pu",
-        "meaning": "loss, sadness",
-        "bb_type": "root",
-        "bb_id": "bb-root-pu",
-        "bb_href": "building_blocks_reference.html#bb-root-pu",
-        "bb_meaning": "loss, sadness"
-      },
-      {
-        "sound": "li",
-        "meaning": "time",
-        "bb_type": "root",
-        "bb_id": "bb-root-li",
-        "bb_href": "building_blocks_reference.html#bb-root-li",
-        "bb_meaning": "time"
+        "sound": "puli",
+        "meaning": "socks"
       }
     ],
     "rel": [],
@@ -60789,26 +60476,12 @@
         "bb_meaning": "garments"
       },
       {
-        "sound": "pu",
-        "meaning": "loss, sadness",
-        "position": "root",
-        "bb_type": "root",
-        "bb_id": "bb-root-pu",
-        "bb_href": "building_blocks_reference.html#bb-root-pu",
-        "bb_meaning": "loss, sadness"
-      },
-      {
-        "sound": "li",
-        "meaning": "time",
-        "position": "root",
-        "bb_type": "root",
-        "bb_id": "bb-root-li",
-        "bb_href": "building_blocks_reference.html#bb-root-li",
-        "bb_meaning": "time"
+        "sound": "puli",
+        "meaning": "socks",
+        "position": "root"
       }
     ],
     "search_terms": [
-      "again",
       "cloth",
       "clothing",
       "dres",
@@ -60818,25 +60491,17 @@
       "jacket",
       "jean",
       "jeans",
-      "los",
-      "lose",
-      "loss",
-      "loss, sadness",
-      "now",
       "pant",
       "pants",
       "puli",
-      "sad",
-      "sadnes",
-      "sadness",
       "shirt",
       "shoe",
       "sock",
       "sock, stocking",
+      "socks",
       "stock",
       "stocking",
       "tie",
-      "time",
       "ye",
       "yes",
       "yespuli"
@@ -61400,8 +61065,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "Hay i none e yopoh vosyas.",
-        "e": "He has red hair.",
+        "o": "hay i none e yopoh vosyas.",
+        "e": "he has red hair.",
         "from_lesson": true
       }
     ],
@@ -61663,8 +61328,20 @@
         "bb_meaning": "colors"
       },
       {
-        "sound": "yodur",
-        "meaning": "color + hard"
+        "sound": "yo",
+        "meaning": "color",
+        "bb_type": "root",
+        "bb_id": "bb-root-yo",
+        "bb_href": "building_blocks_reference.html#bb-root-yo",
+        "bb_meaning": "colors"
+      },
+      {
+        "sound": "dur",
+        "meaning": "hardness",
+        "bb_type": "root",
+        "bb_id": "bb-root-dur",
+        "bb_href": "building_blocks_reference.html#bb-root-dur",
+        "bb_meaning": "hardness"
       }
     ],
     "rel": [],
@@ -61680,24 +61357,43 @@
         "bb_meaning": "colors"
       },
       {
-        "sound": "yodur",
-        "meaning": "color + hard",
-        "position": "root"
+        "sound": "yo",
+        "meaning": "color",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-yo",
+        "bb_href": "building_blocks_reference.html#bb-root-yo",
+        "bb_meaning": "colors"
+      },
+      {
+        "sound": "dur",
+        "meaning": "hardness",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-dur",
+        "bb_href": "building_blocks_reference.html#bb-root-dur",
+        "bb_meaning": "hardness"
       }
     ],
     "search_terms": [
       "blue",
+      "bone",
       "brown",
       "color",
-      "color + hard",
       "colorful",
       "colors",
       "dark",
       "diamond",
       "diamond, sparkle",
+      "garden",
       "hard",
+      "hardnes",
+      "hardness",
+      "metal",
+      "problem",
       "red",
       "sparkle",
+      "tooth",
       "white",
       "yellow",
       "yo",
@@ -61801,8 +61497,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "Noli i do i mo e yuba pomia maemiri!",
-        "e": "Now you can eat the delicious fried rice!",
+        "o": "noli i do i mo e yuba pomia maemiri!",
+        "e": "now you can eat the delicious fried rice!",
         "from_lesson": true
       }
     ],
@@ -62486,7 +62182,7 @@
     "c": "subjective qualities",
     "cs": "yu",
     "sc": "yun",
-    "r": "itam",
+    "r": "tam",
     "bd": [
       {
         "sound": "yun",
@@ -62497,8 +62193,12 @@
         "bb_meaning": "personal characteristics"
       },
       {
-        "sound": "itam",
-        "meaning": "special"
+        "sound": "tam",
+        "meaning": "one",
+        "bb_type": "root",
+        "bb_id": "bb-root-tam",
+        "bb_href": "building_blocks_reference.html#bb-root-tam",
+        "bb_meaning": "one"
       }
     ],
     "rel": [],
@@ -62520,20 +62220,28 @@
         "bb_meaning": "personal characteristics"
       },
       {
-        "sound": "itam",
-        "meaning": "special",
-        "position": "root"
+        "sound": "tam",
+        "meaning": "one",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-tam",
+        "bb_href": "building_blocks_reference.html#bb-root-tam",
+        "bb_meaning": "one"
       }
     ],
     "search_terms": [
       "beautiful",
       "characteristic",
       "characteristics",
+      "day",
       "especially",
       "exception",
       "exceptional",
-      "itam",
       "lazy",
+      "main",
+      "one",
+      "only",
+      "page",
       "particular",
       "personal",
       "personal characteristics",
@@ -62543,11 +62251,13 @@
       "qualities",
       "quality",
       "rich",
+      "single",
       "smart",
       "special",
       "special, especially, particular, exceptional, exception",
       "subjective",
       "subjective qualities",
+      "tam",
       "ugly",
       "yu",
       "yun",
@@ -62738,8 +62448,8 @@
     "rel": [],
     "ex": [
       {
-        "o": "En hay jensui en jenon, a nedas yunrani ciuseri de leipili i dami",
-        "e": "On his side of the path was a beautiful row of flowers.",
+        "o": "en hay jensui en jenon, a nedas yunrani ciuseri de leipili i dami",
+        "e": "on his side of the path was a beautiful row of flowers.",
         "from_lesson": false
       }
     ],
