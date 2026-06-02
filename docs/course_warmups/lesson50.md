@@ -115,6 +115,8 @@
     
     !!! info "🌍 Sound Connections"
         Lia means resonant, inspired by laya, rythym in Hindi and Sanskrit.
+        Mu is inspired by Swahili mdudu, which means bug.
+        Om is from Sanskrit and Hindi om, which is the primordial sound.
         
     Here are other words with this root:    
     **elelia** = poem (self-expression + resonant), just like omlia = sing (music + resonant).  

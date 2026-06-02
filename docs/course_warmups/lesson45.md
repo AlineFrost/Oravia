@@ -166,6 +166,10 @@
     
     This last version reads more poetic and less precise. It means both you and me are tall, not necessarily the exact same height. In casual speech, both work well and you may use whatever feels more natural to you.
   
+        !!! info "🌍 Sound Connections"
+    Ga is like English gauge.
+  
+  
     U run, a ce el a tam ganter? 
     
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
