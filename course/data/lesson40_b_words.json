@@ -1,0 +1,129 @@
+{
+  "lesson_id": "lesson40_b",
+  "cluster": "le",
+  "cluster_meaning": "earth",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "Round 1",
+      "buckets": [
+        "b",
+        "a",
+        "i"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 2,
+      "title": "Round 2",
+      "buckets": [
+        "b",
+        "a",
+        "i"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 3,
+      "title": "Round 3",
+      "buckets": [
+        "b",
+        "a",
+        "i"
+      ],
+      "words_per_bucket": 1,
+      "allow_repeats": true
+    },
+    {
+      "round": 4,
+      "title": "Round 4",
+      "buckets": [
+        "b",
+        "a",
+        "i"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    },
+    {
+      "round": 5,
+      "title": "Round 5",
+      "buckets": [
+        "b",
+        "a"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    },
+    {
+      "round": 6,
+      "title": "Round 6",
+      "buckets": [
+        "a",
+        "i"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    },
+    {
+      "round": 7,
+      "title": "Round 7",
+      "buckets": [
+        "b",
+        "i"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson40_b_b_1",
+      "oravia": "ledom",
+      "english": "land",
+      "bucket": "b"
+    },
+    {
+      "id": "lesson40_b_b_2",
+      "oravia": "lenodur",
+      "english": "rock",
+      "bucket": "b"
+    },
+    {
+      "id": "lesson40_b_b_3",
+      "oravia": "ganou",
+      "english": "low",
+      "bucket": "b"
+    },
+    {
+      "id": "lesson40_b_a_1",
+      "oravia": "leamoma",
+      "english": "farm",
+      "bucket": "a"
+    },
+    {
+      "id": "lesson40_b_a_2",
+      "oravia": "leayo",
+      "english": "garden",
+      "bucket": "a"
+    },
+    {
+      "id": "lesson40_b_a_3",
+      "oravia": "lealei",
+      "english": "forest",
+      "bucket": "a"
+    },
+    {
+      "id": "lesson40_b_i_1",
+      "oravia": "leirih",
+      "english": "tree",
+      "bucket": "i"
+    },
+    {
+      "id": "lesson40_b_i_2",
+      "oravia": "winou",
+      "english": "south",
+      "bucket": "i"
+    }
+  ]
+}

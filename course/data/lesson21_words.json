@@ -1,0 +1,111 @@
+{
+  "lesson_id": "lesson21",
+  "cluster": "be",
+  "cluster_meaning": "travel",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "Round 1",
+      "buckets": [
+        "g",
+        "i"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 2,
+      "title": "Round 2",
+      "buckets": [
+        "g",
+        "i"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 3,
+      "title": "Round 3",
+      "buckets": [
+        "i"
+      ],
+      "words_per_bucket": 2
+    },
+    {
+      "round": 4,
+      "title": "Round 4",
+      "buckets": [
+        "g"
+      ],
+      "words_per_bucket": 2
+    },
+    {
+      "round": 5,
+      "title": "Round 5",
+      "buckets": [
+        "g",
+        "i"
+      ],
+      "words_per_bucket": 1,
+      "allow_repeats": true
+    },
+    {
+      "round": 6,
+      "title": "Round 6",
+      "buckets": [
+        "g",
+        "i"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson21_g_1",
+      "oravia": "bejae",
+      "english": "luggage",
+      "bucket": "g"
+    },
+    {
+      "id": "lesson21_g_2",
+      "oravia": "bevio",
+      "english": "shop",
+      "bucket": "g"
+    },
+    {
+      "id": "lesson21_g_3",
+      "oravia": "jolem",
+      "english": "box",
+      "bucket": "g"
+    },
+    {
+      "id": "lesson21_g_4",
+      "oravia": "oines",
+      "english": "joke",
+      "bucket": "g"
+    },
+    {
+      "id": "lesson21_i_1",
+      "oravia": "beitor",
+      "english": "bicycle",
+      "bucket": "i"
+    },
+    {
+      "id": "lesson21_i_2",
+      "oravia": "yaljui",
+      "english": "temporary",
+      "bucket": "i"
+    },
+    {
+      "id": "lesson21_i_3",
+      "oravia": "oihi",
+      "english": "interest",
+      "bucket": "i"
+    },
+    {
+      "id": "lesson21_i_4",
+      "oravia": "oila",
+      "english": "happy",
+      "bucket": "i"
+    }
+  ]
+}

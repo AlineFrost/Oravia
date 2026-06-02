@@ -1,85 +1,97 @@
 {
   "lesson_id": "lesson07",
-  "cluster": "bo",
-  "cluster_meaning": "house",
+  "cluster": "eo",
+  "cluster_meaning": "community",
   "rounds": [
     {
       "round": 1,
       "title": "Round 1",
-      "buckets": ["r", "e", "d"],
-      "words_per_bucket": 1
+      "buckets": [
+        "all"
+      ],
+      "words_per_bucket": 3
     },
     {
       "round": 2,
       "title": "Round 2",
-      "buckets": ["n", "r", "e"],
-      "words_per_bucket": 1
+      "buckets": [
+        "all"
+      ],
+      "words_per_bucket": 3
     },
     {
       "round": 3,
       "title": "Round 3",
-      "buckets": ["n", "r", "e", "d"],
-      "words_per_bucket": 1,
+      "buckets": [
+        "all"
+      ],
+      "words_per_bucket": 3,
       "allow_repeats": true
     },
     {
       "round": 4,
       "title": "Round 4",
-      "buckets": ["n", "r", "e", "d"],
-      "words_per_bucket": 1,
+      "buckets": [
+        "all"
+      ],
+      "words_per_bucket": 3,
       "allow_repeats": true
     },
     {
       "round": 5,
       "title": "Round 5",
-      "buckets": ["n", "r", "e", "d"],
-      "words_per_bucket": 1,
+      "buckets": [
+        "all"
+      ],
+      "words_per_bucket": 4,
       "allow_repeats": true
     },
     {
       "round": 6,
       "title": "Round 6",
-      "buckets": ["r", "e", "d"],
-      "words_per_bucket": 1,
+      "buckets": [
+        "all"
+      ],
+      "words_per_bucket": 4,
       "allow_repeats": true
     }
   ],
   "words": [
     {
-      "id": "n_2",
-      "oravia": "eomsu",
-      "english": "party",
-      "bucket": "n"
-    },
-    {
-      "id": "r_2",
-      "oravia": "eori",
-      "english": "polite, please",
-      "bucket": "r"
-    },
-    {
-      "id": "r_3",
+      "id": "lesson15_lesson07_r_1",
       "oravia": "eon",
       "english": "hello",
-      "bucket": "r"
+      "bucket": "all"
     },
     {
-      "id": "e_1",
-      "oravia": "eomio",
-      "english": "support",
-      "bucket": "e"
+      "id": "lesson15_lesson07_r_2",
+      "oravia": "eori",
+      "english": "please",
+      "bucket": "all"
     },
     {
-      "id": "e_2",
-      "oravia": "eofa",
-      "english": "friend",
-      "bucket": "e"
+      "id": "lesson15_lesson07_n_1",
+      "oravia": "eomsu",
+      "english": "party",
+      "bucket": "all"
     },
     {
-      "id": "d_2",
+      "id": "lesson15_lesson07_e_1",
+      "oravia": "dofa",
+      "english": "inherit",
+      "bucket": "all"
+    },
+    {
+      "id": "lesson15_lesson07_d_1",
+      "oravia": "eodani",
+      "english": "meet",
+      "bucket": "all"
+    },
+    {
+      "id": "lesson15_lesson07_d_2",
       "oravia": "eodenbor",
       "english": "visit",
-      "bucket": "d"
+      "bucket": "all"
     }
   ]
 }

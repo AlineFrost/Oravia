@@ -1,0 +1,114 @@
+{
+  "lesson_id": "lesson06_exercise2",
+  "cluster": "fa",
+  "cluster_meaning": "family",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "Round 1",
+      "buckets": [
+        "fai",
+        "fal"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 2,
+      "title": "Round 2",
+      "buckets": [
+        "fae"
+      ],
+      "words_per_bucket": 2
+    },
+    {
+      "round": 3,
+      "title": "Round 3",
+      "buckets": [
+        "tr"
+      ],
+      "words_per_bucket": 3,
+      "allow_repeats": true
+    },
+    {
+      "round": 4,
+      "title": "Round 4",
+      "buckets": [
+        "fai",
+        "fal",
+        "fae",
+        "tr"
+      ],
+      "words_per_bucket": 1,
+      "allow_repeats": true
+    },
+    {
+      "round": 5,
+      "title": "Round 5",
+      "buckets": [
+        "fae",
+        "tr"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    },
+    {
+      "round": 6,
+      "title": "Round 6",
+      "buckets": [
+        "tr"
+      ],
+      "words_per_bucket": 4,
+      "allow_repeats": true
+    },
+    {
+      "round": 7,
+      "title": "Round 7",
+      "buckets": [
+        "fai",
+        "fal",
+        "fae",
+        "tr"
+      ],
+      "words_per_bucket": 1,
+      "allow_repeats": true
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson06_exercise2_fai_1",
+      "oravia": "bortal",
+      "english": "door",
+      "bucket": "fai"
+    },
+    {
+      "id": "lesson06_exercise2_fal_1",
+      "oravia": "bosvi",
+      "english": "toilet",
+      "bucket": "fal"
+    },
+    {
+      "id": "lesson06_exercise2_fae_1",
+      "oravia": "bontame",
+      "english": "table",
+      "bucket": "fae"
+    },
+    {
+      "id": "lesson06_exercise2_fae_2",
+      "oravia": "boelori",
+      "english": "room",
+      "bucket": "fae"
+    },
+    {
+      "id": "lesson06_exercise2_tr_1",
+      "oravia": "anolu",
+      "english": "out",
+      "bucket": "tr"
+    },
+    {
+      "id": "lesson06_exercise2_tr_2",
+      "oravia": "lupupi",
+      "english": "rain",
+      "bucket": "tr"
+    }
+  ]
+}

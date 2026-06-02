@@ -1,0 +1,159 @@
+{
+  "lesson_id": "lesson20_b",
+  "cluster": "be+oi",
+  "cluster_meaning": "travel and emotion",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "Round 1",
+      "buckets": [
+        "n",
+        "j"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 2,
+      "title": "Round 2",
+      "buckets": [
+        "n",
+        "j"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 3,
+      "title": "Round 3",
+      "buckets": [
+        "n",
+        "j"
+      ],
+      "words_per_bucket": 1,
+      "allow_repeats": true
+    },
+    {
+      "round": 4,
+      "title": "Round 4",
+      "buckets": [
+        "n",
+        "j"
+      ],
+      "words_per_bucket": 1,
+      "allow_repeats": true
+    },
+    {
+      "round": 5,
+      "title": "Round 5",
+      "buckets": [
+        "g"
+      ],
+      "words_per_bucket": 2
+    },
+    {
+      "round": 6,
+      "title": "Round 6",
+      "buckets": [
+        "g"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    },
+    {
+      "round": 7,
+      "title": "Round 7",
+      "buckets": [
+        "g"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    },
+    {
+      "round": 8,
+      "title": "Round 8",
+      "buckets": [
+        "n",
+        "j"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    },
+    {
+      "round": 9,
+      "title": "Round 9",
+      "buckets": [
+        "n",
+        "j"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    },
+    {
+      "round": 10,
+      "title": "Round 10",
+      "buckets": [
+        "g"
+      ],
+      "words_per_bucket": 3,
+      "allow_repeats": true
+    },
+    {
+      "round": 11,
+      "title": "Round 11",
+      "buckets": [
+        "g"
+      ],
+      "words_per_bucket": 3,
+      "allow_repeats": true
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson20_b_n_1",
+      "oravia": "bejae",
+      "english": "luggage",
+      "bucket": "n"
+    },
+    {
+      "id": "lesson20_b_n_2",
+      "oravia": "bevio",
+      "english": "shop",
+      "bucket": "n"
+    },
+    {
+      "id": "lesson20_b_n_3",
+      "oravia": "jolem",
+      "english": "box",
+      "bucket": "n"
+    },
+    {
+      "id": "lesson20_b_j_1",
+      "oravia": "beitor",
+      "english": "bicycle",
+      "bucket": "j"
+    },
+    {
+      "id": "lesson20_b_j_2",
+      "oravia": "yaljui",
+      "english": "temporary",
+      "bucket": "j"
+    },
+    {
+      "id": "lesson20_b_g_1",
+      "oravia": "oines",
+      "english": "joke",
+      "bucket": "g"
+    },
+    {
+      "id": "lesson20_b_g_2",
+      "oravia": "oihi",
+      "english": "interest",
+      "bucket": "g"
+    },
+    {
+      "id": "lesson20_b_g_3",
+      "oravia": "oila",
+      "english": "happy",
+      "bucket": "g"
+    }
+  ]
+}

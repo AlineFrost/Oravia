@@ -6,117 +6,125 @@
     {
       "round": 1,
       "title": "Round 1",
-      "buckets": ["r", "n"],
-      "words_per_bucket": 2
+      "buckets": [
+        "all"
+      ],
+      "words_per_bucket": 3
     },
     {
       "round": 2,
       "title": "Round 2",
-      "buckets": ["r", "m"],
-      "words_per_bucket": 2
+      "buckets": [
+        "all"
+      ],
+      "words_per_bucket": 3
     },
     {
       "round": 3,
       "title": "Round 3",
-      "buckets": ["r", "n"],
-      "words_per_bucket": 2
+      "buckets": [
+        "all"
+      ],
+      "words_per_bucket": 3,
+      "allow_repeats": true
     },
     {
       "round": 4,
       "title": "Round 4",
-      "buckets": ["r", "n"],
-      "words_per_bucket": 1
+      "buckets": [
+        "all"
+      ],
+      "words_per_bucket": 3,
+      "allow_repeats": true
     },
     {
       "round": 5,
       "title": "Round 5",
-      "buckets": ["r"],
-      "words_per_bucket": 4,
+      "buckets": [
+        "all"
+      ],
+      "words_per_bucket": 3,
       "allow_repeats": true
     },
     {
       "round": 6,
       "title": "Round 6",
-      "buckets": ["n"],
-      "words_per_bucket": 4,
+      "buckets": [
+        "all"
+      ],
+      "words_per_bucket": 3,
       "allow_repeats": true
     },
     {
       "round": 7,
       "title": "Round 7",
-      "buckets": ["m", "n"],
-      "words_per_bucket": 1,
+      "buckets": [
+        "all"
+      ],
+      "words_per_bucket": 3,
       "allow_repeats": true
     },
     {
       "round": 8,
       "title": "Round 8",
-      "buckets": ["r", "n"],
-      "words_per_bucket": 2,
+      "buckets": [
+        "all"
+      ],
+      "words_per_bucket": 4,
       "allow_repeats": true
     },
     {
       "round": 9,
       "title": "Round 9",
-      "buckets": ["r", "m"],
-      "words_per_bucket": 1,
+      "buckets": [
+        "all"
+      ],
+      "words_per_bucket": 4,
       "allow_repeats": true
     }
   ],
   "words": [
     {
-      "id": "va_r2",
+      "id": "lesson22_exercise2_r_1",
       "oravia": "vardei",
       "english": "eye",
-      "bucket": "r"
+      "bucket": "all"
     },
     {
-      "id": "va_r3",
+      "id": "lesson22_exercise2_r_2",
       "oravia": "varsus",
       "english": "ear",
-      "bucket": "r"
+      "bucket": "all"
     },
     {
-      "id": "va_r4",
-      "oravia": "varmo",
-      "english": "mouth",
-      "bucket": "r"
+      "id": "lesson22_exercise2_r_3",
+      "oravia": "anivari",
+      "english": "move back",
+      "bucket": "all"
     },
     {
-      "id": "va_r5",
-      "oravia": "varluan",
-      "english": "tongue",
-      "bucket": "r"
-    },
-    {
-      "id": "va_n1",
-      "oravia": "vano",
-      "english": "arm",
-      "bucket": "n"
-    },
-    {
-      "id": "va_n2",
-      "oravia": "vanta",
-      "english": "hand",
-      "bucket": "n"
-    },
-    {
-      "id": "va_n3",
-      "oravia": "vanpai",
-      "english": "foot",
-      "bucket": "n"
-    },
-    {
-      "id": "va_n4",
+      "id": "lesson22_exercise2_n_1",
       "oravia": "vanvu",
       "english": "leg",
-      "bucket": "n"
+      "bucket": "all"
     },
     {
-      "id": "va_m2",
-      "oravia": "vavari",
-      "english": "back",
-      "bucket": "m"
+      "id": "lesson22_exercise2_n_2",
+      "oravia": "vanta",
+      "english": "hand",
+      "bucket": "all"
+    },
+    {
+      "id": "lesson22_exercise2_n_3",
+      "oravia": "yespai",
+      "english": "shoe",
+      "bucket": "all"
+    },
+    {
+      "id": "lesson22_exercise2_m_1",
+      "oravia": "eomio",
+      "english": "support",
+      "bucket": "all"
     }
   ]
 }

@@ -7,9 +7,8 @@
       "round": 1,
       "title": "Round 1",
       "buckets": [
-        "n",
-        "p",
-        "l"
+        "l",
+        "n"
       ],
       "words_per_bucket": 1
     },
@@ -17,9 +16,8 @@
       "round": 2,
       "title": "Round 2",
       "buckets": [
-        "n",
-        "p",
-        "l"
+        "l",
+        "n"
       ],
       "words_per_bucket": 1
     },
@@ -27,9 +25,8 @@
       "round": 3,
       "title": "Round 3",
       "buckets": [
-        "n",
-        "p",
-        "l"
+        "l",
+        "n"
       ],
       "words_per_bucket": 1
     },
@@ -37,91 +34,117 @@
       "round": 4,
       "title": "Round 4",
       "buckets": [
-        "n",
-        "p",
+        "l",
+        "n"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 5,
+      "title": "Round 5",
+      "buckets": [
         "l"
       ],
-      "words_per_bucket": 2
+      "words_per_bucket": 3
+    },
+    {
+      "round": 6,
+      "title": "Round 6",
+      "buckets": [
+        "n"
+      ],
+      "words_per_bucket": 4,
+      "allow_repeats": true
+    },
+    {
+      "round": 7,
+      "title": "Round 7",
+      "buckets": [
+        "l",
+        "n"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
     }
   ],
   "words": [
     {
-      "id": "lu_n1",
-      "oravia": "lunsor",
-      "english": "autumn",
-      "bucket": "n"
-    },
-    {
-      "id": "lu_n2",
-      "oravia": "lunpili",
-      "english": "spring",
-      "bucket": "n"
-    },
-    {
-      "id": "lu_n3",
-      "oravia": "lunhem",
-      "english": "summer",
-      "bucket": "n"
-    },
-    {
-      "id": "lu_n4",
-      "oravia": "lunu",
-      "english": "winter",
-      "bucket": "n"
-    },
-    {
-      "id": "lu_p1",
-      "oravia": "lupupi",
-      "english": "rain",
-      "bucket": "p"
-    },
-    {
-      "id": "lu_p2",
-      "oravia": "luval",
-      "english": "snow",
-      "bucket": "p"
-    },
-    {
-      "id": "lu_p3",
-      "oravia": "lufu",
-      "english": "wind",
-      "bucket": "p"
-    },
-    {
-      "id": "lu_p4",
-      "oravia": "luyun",
-      "english": "mist",
-      "bucket": "p"
-    },
-    {
-      "id": "lu_p5",
-      "oravia": "lumbo",
-      "english": "cloud",
-      "bucket": "p"
-    },
-    {
-      "id": "lu_l1",
+      "id": "lesson30_l_1",
       "oravia": "lufiva",
       "english": "cold",
       "bucket": "l"
     },
     {
-      "id": "lu_l2",
+      "id": "lesson30_l_2",
       "oravia": "luyar",
       "english": "light",
       "bucket": "l"
     },
     {
-      "id": "lu_l3",
+      "id": "lesson30_l_3",
+      "oravia": "lupupi",
+      "english": "rain",
+      "bucket": "l"
+    },
+    {
+      "id": "lesson30_l_4",
+      "oravia": "luval",
+      "english": "snow",
+      "bucket": "l"
+    },
+    {
+      "id": "lesson30_l_5",
+      "oravia": "lufu",
+      "english": "wind",
+      "bucket": "l"
+    },
+    {
+      "id": "lesson30_l_6",
       "oravia": "lusari",
       "english": "sun",
       "bucket": "l"
     },
     {
-      "id": "lu_l4",
+      "id": "lesson30_l_7",
+      "oravia": "luyun",
+      "english": "mist",
+      "bucket": "l"
+    },
+    {
+      "id": "lesson30_l_8",
+      "oravia": "lumbo",
+      "english": "cloud",
+      "bucket": "l"
+    },
+    {
+      "id": "lesson30_l_9",
       "oravia": "luyol",
       "english": "sky",
       "bucket": "l"
+    },
+    {
+      "id": "lesson30_n_1",
+      "oravia": "lunsor",
+      "english": "autumn",
+      "bucket": "n"
+    },
+    {
+      "id": "lesson30_n_2",
+      "oravia": "lunpili",
+      "english": "spring",
+      "bucket": "n"
+    },
+    {
+      "id": "lesson30_n_3",
+      "oravia": "lunhem",
+      "english": "summer",
+      "bucket": "n"
+    },
+    {
+      "id": "lesson30_n_4",
+      "oravia": "lunu",
+      "english": "winter",
+      "bucket": "n"
     }
   ]
 }

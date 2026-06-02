@@ -1,0 +1,127 @@
+{
+  "lesson_id": "lesson36_b",
+  "cluster": "ye",
+  "cluster_meaning": "clothing",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "Round 1",
+      "buckets": [
+        "s",
+        "y"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 2,
+      "title": "Round 2",
+      "buckets": [
+        "s",
+        "y"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 3,
+      "title": "Round 3",
+      "buckets": [
+        "s",
+        "y"
+      ],
+      "words_per_bucket": 1,
+      "allow_repeats": true
+    },
+    {
+      "round": 4,
+      "title": "Round 4",
+      "buckets": [
+        "s",
+        "y"
+      ],
+      "words_per_bucket": 1,
+      "allow_repeats": true
+    },
+    {
+      "round": 5,
+      "title": "Round 5",
+      "buckets": [
+        "s",
+        "y"
+      ],
+      "words_per_bucket": 1,
+      "allow_repeats": true
+    },
+    {
+      "round": 6,
+      "title": "Round 6",
+      "buckets": [
+        "s",
+        "y"
+      ],
+      "words_per_bucket": 1,
+      "allow_repeats": true
+    },
+    {
+      "round": 7,
+      "title": "Round 7",
+      "buckets": [
+        "s",
+        "y"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    },
+    {
+      "round": 8,
+      "title": "Round 8",
+      "buckets": [
+        "s",
+        "y"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    },
+    {
+      "round": 9,
+      "title": "Round 9",
+      "buckets": [
+        "s",
+        "y"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson36_b_s_1",
+      "oravia": "yesrel",
+      "english": "jacket",
+      "bucket": "s"
+    },
+    {
+      "id": "lesson36_b_s_2",
+      "oravia": "yeswol",
+      "english": "shirt",
+      "bucket": "s"
+    },
+    {
+      "id": "lesson36_b_s_3",
+      "oravia": "yesnou",
+      "english": "pants",
+      "bucket": "s"
+    },
+    {
+      "id": "lesson36_b_y_1",
+      "oravia": "eleyel",
+      "english": "love",
+      "bucket": "y"
+    },
+    {
+      "id": "lesson36_b_y_2",
+      "oravia": "wilyel",
+      "english": "bridge",
+      "bucket": "y"
+    }
+  ]
+}
