@@ -1,0 +1,138 @@
+{
+  "lesson_id": "lesson26_b",
+  "cluster": "yu",
+  "cluster_meaning": "quality",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "Round 1",
+      "buckets": [
+        "y",
+        "n"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 2,
+      "title": "Round 2",
+      "buckets": [
+        "y",
+        "n"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 3,
+      "title": "Round 3",
+      "buckets": [
+        "y",
+        "n"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 4,
+      "title": "Round 4",
+      "buckets": [
+        "y",
+        "n"
+      ],
+      "words_per_bucket": 1,
+      "allow_repeats": true
+    },
+    {
+      "round": 5,
+      "title": "Round 5",
+      "buckets": [
+        "y",
+        "n"
+      ],
+      "words_per_bucket": 1,
+      "allow_repeats": true
+    },
+    {
+      "round": 6,
+      "title": "Round 6",
+      "buckets": [
+        "y",
+        "n"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    },
+    {
+      "round": 7,
+      "title": "Round 7",
+      "buckets": [
+        "y",
+        "n"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    },
+    {
+      "round": 8,
+      "title": "Round 8",
+      "buckets": [
+        "y",
+        "n"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    },
+    {
+      "round": 9,
+      "title": "Round 9",
+      "buckets": [
+        "y",
+        "n"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson26_b_y_1",
+      "oravia": "yuba",
+      "english": "good",
+      "bucket": "y"
+    },
+    {
+      "id": "lesson26_b_y_2",
+      "oravia": "roumir",
+      "english": "book",
+      "bucket": "y"
+    },
+    {
+      "id": "lesson26_b_y_3",
+      "oravia": "vidur",
+      "english": "bone",
+      "bucket": "y"
+    },
+    {
+      "id": "lesson26_b_n_1",
+      "oravia": "yunro",
+      "english": "smart",
+      "bucket": "n"
+    },
+    {
+      "id": "lesson26_b_n_2",
+      "oravia": "yunitam",
+      "english": "special",
+      "bucket": "n"
+    },
+    {
+      "id": "lesson26_b_n_3",
+      "oravia": "yunrani",
+      "english": "beautiful",
+      "bucket": "n"
+    },
+    {
+      "id": "lesson26_b_n_4",
+      "oravia": "joldur",
+      "english": "iron",
+      "bucket": "n"
+    }
+  ]
+}

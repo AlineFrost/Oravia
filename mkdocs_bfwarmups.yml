@@ -1,0 +1,139 @@
+site_name: Learn Oravia
+site_description: Learn Oravia — a free constructed language course built around sound and meaning.
+site_author: Aline
+site_url: https://learnoravia.com
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: en
+  favicon: flag.png
+
+  palette:
+    scheme: default
+    primary: light blue
+    accent: amber
+
+  
+  font:
+    text: Lora
+    code: Source Code Pro
+  
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tooltips
+
+nav:
+  - Home: index.md
+  - About:
+    - What is Oravia?: about/what-is-oravia.md
+    - 10-Minute Grammar: about/core-grammar.md
+    - About Me: about/about-me.md
+    - Get Involved: about/get-involved.md
+    - Vocabulary FAQ: about/vocab.md
+  - Content:
+    - Vocabulary: content/vocabulary.md
+    - Grammar: content/oravia-grammar.md
+    - Building Blocks: content/building_blocks.md
+    - Blocks Cheat Sheet: content/cheat.md
+    - Semantic Explorer: content/semantic_explorer.md
+    - Craft & Style: content/oravia-style.md
+    - Readings: content/readings.md
+    - Media: content/media.md
+    - A2 Proficiency Test: content/a2_test.md
+  - Course:
+    - L0 - Pronunciation & Structure: course/lesson00.md
+    - Core:
+      - L1 - Pronouns / MO Cluster: course/lesson01.md
+      - L2 - Markers: course/lesson02.md
+      - L3 - FA Cluster: course/lesson03.md
+      - L4 - Negation / Gender: course/lesson04.md
+      - L5 - BO Cluster: course/lesson05.md
+      - L6 - Questions: course/lesson06.md
+      - L7 - AN Cluster: course/lesson07.md
+      - L8 - Possessives: course/lesson08.md
+      - L9 - YA Cluster: course/lesson09.md
+      - L10 - u Marker: course/lesson10.md
+      - L11 - IL Cluster: course_warmups/lesson11.md
+      - L12 - Is/Are: course_warmups/lesson12.md
+      - L13 - EO Cluster: course_warmups/lesson13.md
+      - L14 - Connectors: course_warmups/lesson14.md
+      - L15 - Numbers: course_warmups/lesson15.md
+      - L16 - Exist and Like / GE: course_warmups/lesson16.md
+      - L17 - LI Cluster: course_warmups/lesson17.md
+      - L18 - CA Connector: course_warmups/lesson18.md
+      - L19 - OI Cluster: course_warmups/lesson19.md
+      - L20 - AR and IS / BE Cluster: course_warmups/lesson20.md
+      - Milestone: course_warmups/milestone1.md
+    - Expansion:
+      - L21 - VA Cluster: course_warmups/lesson21.md
+      - L22 - Time Units: course_warmups/lesson22.md
+      - L23 - NO Cluster: course_warmups/lesson23.md
+      - L24 - Hai & Hue: course_warmups/lesson24.md
+      - L25 - YU Cluster: course_warmups/lesson25.md
+      - L26 - Sequences: course_warmups/lesson26.md
+      - L27 - TO Cluster: course_warmups/lesson27.md
+      - L28 - Why & How: course_warmups/lesson28.md
+      - L29 - LU Cluster: course_warmups/lesson29.md
+      - L30 - Comparatives: course_warmups/lesson30.md
+      - L31 - APA Cluster: course_warmups/lesson31.md
+      - L32 - Should & Must / RO Cluster: course_warmups/lesson32.md
+      - L33 - MI Cluster: course_warmups/lesson33.md
+      - L34 - Conditionals: course_warmups/lesson34.md
+      - L35 - YE Cluster: course_warmups/lesson35.md
+      - L36 - Each Other & Self / Habit: course_warmups/lesson36.md
+      - L37 - NE Cluster: course_warmups/lesson37.md
+      - L38 - Relative Time / YO Cluster: course_warmups/lesson38.md
+      - L39 - LE Cluster: course_warmups/lesson39.md
+      - L40 - Gradation: course_warmups/lesson40.md
+      - Milestone 2: course/milestone2.md
+  - Worldbuilding:
+      - Script: world/script.md
+      - Locations: world/lusaria.md
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - footnotes
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search:
+      lang: en
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/AlineFrost/Oravia
+      name: GitHub Repository
+  generator: false
+
+copyright: Copyright &copy; 2026 Learn Oravia
+
+extra_css:
+  - css/custom.css
+
+extra_javascript:
+  - js/matching-game.js
+

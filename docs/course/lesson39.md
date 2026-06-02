@@ -116,7 +116,6 @@
     |--------|---------|
     | ledom | land |
     | leno | soil |
-    | leafou | desert |
     | leamo | farm |
     | leipili | flower |
     | leinou | grass |

@@ -6,37 +6,74 @@
     {
       "round": 1,
       "title": "Round 1",
-      "buckets": ["bor", "boe"],
-      "words_per_bucket": 1
+      "buckets": [
+        "all"
+      ],
+      "words_per_bucket": 3
     },
     {
       "round": 2,
       "title": "Round 2",
-      "buckets": ["bos", "bon"],
-      "words_per_bucket": 1
+      "buckets": [
+        "all"
+      ],
+      "words_per_bucket": 3
     },
     {
       "round": 3,
       "title": "Round 3",
-      "buckets": ["bor", "boe", "bos"],
-      "words_per_bucket": 1
+      "buckets": [
+        "all"
+      ],
+      "words_per_bucket": 3,
+      "allow_repeats": true
     },
     {
       "round": 4,
       "title": "Round 4",
-      "buckets": ["bon", "bor", "boe", "bos"],
-      "words_per_bucket": 1,
+      "buckets": [
+        "all"
+      ],
+      "words_per_bucket": 4,
       "allow_repeats": true
     }
   ],
   "words": [
-    {"id": "r_1", "oravia": "bortal",  "english": "door",    "bucket": "bor"},
-    {"id": "r_3", "oravia": "borlu",   "english": "window",  "bucket": "bor"},
-    {"id": "n_2", "oravia": "bonfene", "english": "bed",     "bucket": "bon"},
-    {"id": "n_3", "oravia": "bontame", "english": "table",   "bucket": "bon"},
-    {"id": "s_2", "oravia": "bospupi", "english": "shower",  "bucket": "bos"},
-    {"id": "s_3", "oravia": "bosvi",   "english": "toilet",  "bucket": "bos"},
-    {"id": "e_1", "oravia": "boelori", "english": "room",    "bucket": "boe"},
-    {"id": "e_3", "oravia": "boemo",   "english": "kitchen", "bucket": "boe"}
+    {
+      "id": "lesson07_r_1",
+      "oravia": "bortal",
+      "english": "door",
+      "bucket": "all"
+    },
+    {
+      "id": "lesson07_n_3",
+      "oravia": "bontame",
+      "english": "table",
+      "bucket": "all"
+    },
+    {
+      "id": "lesson07_s_3",
+      "oravia": "bosvi",
+      "english": "toilet",
+      "bucket": "all"
+    },
+    {
+      "id": "lesson07_e_1",
+      "oravia": "boelori",
+      "english": "room",
+      "bucket": "all"
+    },
+    {
+      "id": "lesson07_an_1",
+      "oravia": "anolu",
+      "english": "out",
+      "bucket": "all"
+    },
+    {
+      "id": "lesson07_lu_1",
+      "oravia": "lupupi",
+      "english": "rain",
+      "bucket": "all"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 # Lesson 10: Indirect Object
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into five sections: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order. After you finish, *try the Exercises and Review again* to see how much you’ve improved.
+    Every lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -145,39 +145,13 @@
         <p style="margin: 0;"> **YAL** is about **dimension/size**, and **YAH** is about **surface texture**</p>
     </div>
     
-    !!! info "🌍 Fun Fact"
+    !!! info "🌍 Sound Connections"
         Ci means sharp, like Mandarin 刺 cì (to stab, prick, sharp); Arabic سكين sikkīn (knife, sharp); Sanskrit छिद् chid (to cut, sharp action); Swahili kisu (knife, sharp).
         
         Tan comes from Greek Titan (giant).  
         
-    Here are the other words from the **YA** Cluster we saw last time:
-        
-    | Oravia | English |
-    |--------|---------|
-    | yasoi | fast, speed |
-    | yalgai | small, little |
-    | yani | new, innovation |
-    | yamirli | old, age |
-    | yavuson | slow, slowly |
-    
-    !!! tip "Sound Connections"
-        Did you notice that the word *yani*, new, has the same syllable as the word *falni*, baby? That's right! 
-    
-        ```
-        ya    +   ni = new
-         ↓         ↓       
-        quality + new
-        ```
-    
-        ```
-        fal    +    ni = new
-         ↓          ↓       
-        young  +   new  = baby
-        subcluster
-        ```
-    
-        This is just a reminder to keep a look out for sound connections! 
-        
+    That's why we have:  
+    **wiltan** = city (human-made geography + large), just like yaltan = big/large (objective quality dimension + large).  
         
     You are now ready for the Exercise!
 
@@ -185,10 +159,8 @@
 
     ## Matching Games
 
-    Time to practice! Match the Oravia words with their English meanings.
-
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
-
+    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
     Click one word from each column to match them. The game will check automatically when you select both words.
 
     ---
@@ -221,10 +193,8 @@
 
     ## Matching Games
 
-    Time to practice! Match the Oravia words with their English meanings.
-
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
-
+    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
     Click one word from each column to match them. The game will check automatically when you select both words.
 
     After completing the Exercises and Review, try it again to see how much you've improved.

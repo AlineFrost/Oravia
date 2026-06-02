@@ -1,7 +1,7 @@
 # Lesson 16: To Exist and To Like
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into five sections: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order. After you finish, *try the Exercises and Review again* to see how much you’ve improved.
+    Every lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -144,10 +144,14 @@
     <p style="margin: 0;"> **GE** is related to **money and finances**. </p>
     </div>
         
-    !!! info "🌍 Fun Fact"
+    !!! info "🌍 Sound Connections"
         Ge comes from Proto-Germanic *geldan (to pay); German Geld/gelten (to be worth, to trade); Dutch gelden (to be valid, trade value).  
         
         Dom means place, like Latin domus (house, place, domain); Russian дом dom (house, place); English dome/domain.  
+        
+    Here are other words that use these roots:  
+    **ledom** = land (environment + place), just like gedom = bank (money + place)  
+    **roedom** = school (formal knowledge/education + place), just like roesau = learn (formal knowledge/education + beginning)  
         
     You are now ready for the Exercise!
 
@@ -155,10 +159,8 @@
 
     ## Matching Games
 
-    Time to practice! Match the Oravia words with their English meanings.
-
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
-
+    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
     Click one word from each column to match them. The game will check automatically when you select both words.
 
     ---
@@ -185,10 +187,8 @@
 
     ## Matching Games
 
-    Time to practice! Match the Oravia words with their English meanings.
-
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
-
+    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
     Click one word from each column to match them. The game will check automatically when you select both words.
 
     After completing the Exercises and Review, try it again to see how much you've improved.

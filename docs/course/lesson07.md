@@ -1,7 +1,7 @@
 # Lesson 7: AN Cluster
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into four sections: **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order. After you finish, *try the Exercises and Review again* to see how much you’ve improved.
+    Every lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -17,7 +17,6 @@
     
     | Oravia | English |
     |--------|---------|
-    | bociu | decoration |
     | bortal | door |
     | borcai | wall |
     | bospupi | shower |
@@ -30,7 +29,6 @@
     
     | Oravia | English |
     |--------|---------|
-    | bociu | decoration, to decorate |
     | bortal | door, to enter |
     | borcai | wall, to separate |
     | bospupi | shower, to shower, to wash |
@@ -145,11 +143,7 @@
     |--------|---------|
     | anye | make |
     | anvu | move |
-    | anefe | put |
     | anifi | come |
-    | anidai | want |
-    | anifou | need |
-    | anefene | rest |
     | ansau | start |
     
     What do you think the AN cluster is about?
@@ -161,16 +155,16 @@
     </div>
     
     <div id="cluster5-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-        <p style="margin: 0;"> They are <strong>actions</strong>.</p>
+        <p style="margin: 0;"> They are primarily <strong>actions</strong>.</p>
     </div>
     
     There was no way for you to know this yet, but there are multiple clusters formed primarily by actions. Later, we will also see a cluster for bodily actions like snore and sneeze, and another for physical actions like jump and throw. For now, thinking about AN as action works fine.
     
-    Of course, even though these are primarily actions, these words can also be used as nouns or adjectives. You could say, for instance:
+    Of course, even though these are primarily actions, these words can also be used as nouns or adjectives. *Anidai* means to want, and *anifou* means to need. You could say, for instance:
     
     ```
-    anidai mocen
-    anifou bospupi
+    anidai mocen  
+    anifou bospupi  
     ```
     
     Recall that the word that comes before modifies the following one. What do you think these word combinations mean?
@@ -185,22 +179,24 @@
         <p style="margin: 0;">Possible translations: wanted chocolate, needed shower.</p>
     </div>
 
-    !!! info "🌍 Fun Fact"
+    !!! info "🌍 Sound Connections"
         Sau means start, like Hindi शुरू śurū (start, beginning).
         
         Vu means "movement", coming from Mandarin 步 bù (step, pace).  
         
         Fi is like Swahili -fika (to arrive, come).  
         
+     Here are other words with these roots:  
+     **beivu** = car (vehicle + move), just like anvu = movement (action + move).  
+     **bofi** = inside (house + come), just like anifi = come (movement towards + come)  
+     **roesau** = learn (formal knowledge + start/beginning), just like ansau = start (movement + start)  
 
 === "Exercise 1"
 
     ## Matching Games
     
-    Time to practice! Match the Oravia words with their English meanings.
-    
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
-    
+    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
     Click one word from each column to match them. The game will check automatically when you select both words.
     
     ---
@@ -228,10 +224,8 @@
 
     ## Matching Games
 
-    Time to practice! Match the Oravia words with their English meanings.
-
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
-
+    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
     Click one word from each column to match them. The game will check automatically when you select both words.
 
     After completing the Exercises and Review, try it again to see how much you've improved.

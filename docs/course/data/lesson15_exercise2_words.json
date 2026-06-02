@@ -1,0 +1,118 @@
+{
+  "lesson_id": "lesson07",
+  "cluster": "bo",
+  "cluster_meaning": "house",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "Round 1",
+      "buckets": [
+        "a",
+        "i",
+        "il",
+        "o"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 2,
+      "title": "Round 2",
+      "buckets": [
+        "a",
+        "i"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    },
+    {
+      "round": 3,
+      "title": "Round 3",
+      "buckets": [
+        "il",
+        "o"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    },
+    {
+      "round": 4,
+      "title": "Round 4",
+      "buckets": [
+        "o"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    },
+    {
+      "round": 5,
+      "title": "Round 5",
+      "buckets": [
+        "a"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    },
+    {
+      "round": 6,
+      "title": "Round 6",
+      "buckets": [
+        "il"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    },
+    {
+      "round": 7,
+      "title": "Round 7",
+      "buckets": [
+        "i"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson07_il_1",
+      "oravia": "ilhei",
+      "english": "people",
+      "bucket": "il"
+    },
+    {
+      "id": "lesson07_il_2",
+      "oravia": "sioce",
+      "english": "puzzle",
+      "bucket": "il"
+    },
+    {
+      "id": "lesson07_a_1",
+      "oravia": "ilace",
+      "english": "ask",
+      "bucket": "a"
+    },
+    {
+      "id": "lesson07_a_2",
+      "oravia": "ilaluan",
+      "english": "say",
+      "bucket": "a"
+    },
+    {
+      "id": "lesson07_i_1",
+      "oravia": "iliro",
+      "english": "think",
+      "bucket": "i"
+    },
+    {
+      "id": "lesson07_o_1",
+      "oravia": "sunya",
+      "english": "nothing",
+      "bucket": "o"
+    },
+    {
+      "id": "lesson07_o_2",
+      "oravia": "veito",
+      "english": "wound",
+      "bucket": "o"
+    }
+  ]
+}

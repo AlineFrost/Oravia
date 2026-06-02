@@ -1,9 +1,9 @@
 # Cheat Sheet - Building Blocks
 
-**A reference to Oravia's syllable-sound associations. The classes were discovered through word-embeddings of internet tokens.**
+**A reference to Oravia's syllable-meaning associations. The classes were discovered through word-embeddings of internet tokens.**
 
 <style>
-.cs-legend { display:flex; gap:16px; margin-bottom:18px; font-size:12px; color:#888; }
+.cs-legend { display:flex; gap:16px; margin-bottom:18px; font-size:12px; color:#555; }
 .cs-legend-item { display:flex; align-items:center; gap:5px; }
 .cs-dot { display:inline-block; width:7px; height:7px; border-radius:50%; flex-shrink:0; margin-top:4px; }
 .cs-entry .cs-dot + .cs-dot { margin-left:2px; }
@@ -12,12 +12,12 @@
 .cs-grid { columns:3; column-gap:18px; }
 @media(max-width:600px){ .cs-grid{ columns:2; } }
 @media(max-width:380px){ .cs-grid{ columns:1; } }
-.cs-letter { font-size:15px; font-weight:700; color:#0D7A60; border-top:1.5px solid #0D7A60; padding-top:5px; margin-top:10px; break-inside:avoid; opacity:0.75; }
+.cs-letter { font-size:15px; font-weight:700; color:#0D7A60; border-top:1.5px solid #0D7A60; padding-top:5px; margin-top:10px; break-inside:avoid;  }
 .cs-entry { display:flex; gap:5px; align-items:flex-start; padding:2px 0; border-bottom:0.5px solid #e8e8e4; break-inside:avoid; }
 .cs-sound { font-weight:700; font-size:12.5px; min-width:44px; flex-shrink:0; }
 .cs-body { display:flex; flex-direction:column; min-width:0; }
 .cs-mean { font-size:11.5px; font-weight:600; color:#444; }
-.cs-nl { font-size:10px; color:#aaa; font-style:italic; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.cs-nl { font-size:10px; color:#666; font-style:italic; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
 </style>
 
 <div class="cs-legend">

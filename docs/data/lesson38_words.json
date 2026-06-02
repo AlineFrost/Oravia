@@ -28,7 +28,8 @@
         "l",
         "b"
       ],
-      "words_per_bucket": 2
+      "words_per_bucket": 2,
+      "allow_repeats": true
     },
     {
       "round": 4,
@@ -60,79 +61,73 @@
   ],
   "words": [
     {
-      "id": "ne_l1",
+      "id": "lesson38_l_1",
       "oravia": "neloa",
-      "english": "elsewhere",
+      "english": "all",
       "bucket": "l"
     },
     {
-      "id": "ne_l2",
+      "id": "lesson38_l_2",
       "oravia": "neliu",
       "english": "other",
       "bucket": "l"
     },
     {
-      "id": "ne_l3",
+      "id": "lesson38_l_3",
       "oravia": "newol",
       "english": "another time",
       "bucket": "l"
     },
     {
-      "id": "ne_b1",
-      "oravia": "nepui",
-      "english": "few",
-      "bucket": "b"
-    },
-    {
-      "id": "ne_b2",
+      "id": "lesson38_b_1",
       "oravia": "nehen",
       "english": "half",
       "bucket": "b"
     },
     {
-      "id": "ne_b3",
+      "id": "lesson38_b_2",
       "oravia": "neron",
       "english": "more",
       "bucket": "b"
     },
     {
-      "id": "ne_b4",
+      "id": "lesson38_b_3",
       "oravia": "netam",
       "english": "only",
       "bucket": "b"
     },
     {
-      "id": "yo_c1",
+      "id": "lesson38_c_1",
       "oravia": "yoyol",
       "english": "blue",
       "bucket": "c"
     },
     {
-      "id": "yo_c2",
-      "oravia": "yohisa",
+      "id": "lesson38_c_2",
+      "oravia": "yopoh",
       "english": "red",
       "bucket": "c"
     },
     {
-      "id": "yo_c3",
+      "id": "lesson38_c_3",
       "oravia": "yosari",
       "english": "yellow",
       "bucket": "c"
     },
     {
-      "id": "yo_d1",
+      "id": "lesson38_d_1",
       "oravia": "yolimel",
       "english": "dark",
       "bucket": "d"
     },
     {
-      "id": "yo_d2",
+      "id": "lesson38_d_2",
       "oravia": "yoyar",
       "english": "white",
       "bucket": "d"
     },
     {
-      "id": "yo_d3",
+      "id": "lesson38_d_3",
       "oravia": "yogali",
       "english": "brown",
       "bucket": "d"

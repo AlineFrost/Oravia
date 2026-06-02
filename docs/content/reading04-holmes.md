@@ -1,6 +1,6 @@
 # Sherlock Holmes
 
-**Level:** Extension (Lesson 80)  
+**Level:** Advanced    
 **Topic:** Sherlock Holmes and Watson solve a case  
 **Characters:** Sherlock, Watson
 

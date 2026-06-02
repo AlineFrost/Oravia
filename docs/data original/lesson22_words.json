@@ -1,0 +1,148 @@
+{
+  "lesson_id": "lesson22",
+  "cluster": "va",
+  "cluster_meaning": "body",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "Round 1",
+      "buckets": [
+        "r",
+        "n",
+        "m"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 2,
+      "title": "Round 2",
+      "buckets": [
+        "r",
+        "n",
+        "m"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 3,
+      "title": "Round 3",
+      "buckets": [
+        "r",
+        "n"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 4,
+      "title": "Round 4",
+      "buckets": [
+        "r",
+        "n"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 5,
+      "title": "Round 5",
+      "buckets": [
+        "r",
+        "n"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 6,
+      "title": "Round 6",
+      "buckets": [
+        "r"
+      ],
+      "words_per_bucket": 2
+    }
+  ],
+  "words": [
+    {
+      "id": "va_r1",
+      "oravia": "varsi",
+      "english": "nose",
+      "bucket": "r"
+    },
+    {
+      "id": "va_r2",
+      "oravia": "vardei",
+      "english": "eye",
+      "bucket": "r"
+    },
+    {
+      "id": "va_r3",
+      "oravia": "varsus",
+      "english": "ear",
+      "bucket": "r"
+    },
+    {
+      "id": "va_r4",
+      "oravia": "varmo",
+      "english": "mouth",
+      "bucket": "r"
+    },
+    {
+      "id": "va_r5",
+      "oravia": "varluan",
+      "english": "tongue",
+      "bucket": "r"
+    },
+    {
+      "id": "va_r6",
+      "oravia": "varodu",
+      "english": "head",
+      "bucket": "r"
+    },
+    {
+      "id": "va_r7",
+      "oravia": "vardur",
+      "english": "tooth",
+      "bucket": "r"
+    },
+    {
+      "id": "va_n1",
+      "oravia": "vano",
+      "english": "arm",
+      "bucket": "n"
+    },
+    {
+      "id": "va_n2",
+      "oravia": "vanta",
+      "english": "hand",
+      "bucket": "n"
+    },
+    {
+      "id": "va_n3",
+      "oravia": "vanpai",
+      "english": "foot",
+      "bucket": "n"
+    },
+    {
+      "id": "va_n4",
+      "oravia": "vanvu",
+      "english": "leg",
+      "bucket": "n"
+    },
+    {
+      "id": "va_n5",
+      "oravia": "vandi",
+      "english": "finger",
+      "bucket": "n"
+    },
+    {
+      "id": "va_m1",
+      "oravia": "vamio",
+      "english": "neck",
+      "bucket": "m"
+    },
+    {
+      "id": "va_m2",
+      "oravia": "vavari",
+      "english": "back",
+      "bucket": "m"
+    }
+  ]
+}

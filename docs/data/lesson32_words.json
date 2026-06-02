@@ -77,97 +77,97 @@
   ],
   "words": [
     {
-      "id": "apa_m1",
+      "id": "lesson32_m_1",
       "oravia": "apasoi",
       "english": "hurry",
       "bucket": "m"
     },
     {
-      "id": "apa_m2",
+      "id": "lesson32_m_2",
       "oravia": "apanou",
       "english": "drop",
       "bucket": "m"
     },
     {
-      "id": "apa_m3",
+      "id": "lesson32_m_3",
       "oravia": "aparih",
       "english": "jump",
       "bucket": "m"
     },
     {
-      "id": "apa_m4",
+      "id": "lesson32_m_4",
       "oravia": "apahela",
       "english": "throw",
       "bucket": "m"
     },
     {
-      "id": "apa_s1",
+      "id": "lesson32_s_1",
       "oravia": "apaleno",
       "english": "dig",
       "bucket": "s"
     },
     {
-      "id": "apa_s2",
+      "id": "lesson32_s_2",
       "oravia": "apavu",
       "english": "run",
       "bucket": "s"
     },
     {
-      "id": "apa_s3",
+      "id": "lesson32_s_3",
       "oravia": "apafene",
       "english": "sit",
       "bucket": "s"
     },
     {
-      "id": "apa_s4",
+      "id": "lesson32_s_4",
       "oravia": "apani",
       "english": "pull",
       "bucket": "s"
     },
     {
-      "id": "ro_e1",
+      "id": "lesson32_e_1",
       "oravia": "roejo",
       "english": "exam",
       "bucket": "e"
     },
     {
-      "id": "ro_e2",
+      "id": "lesson32_e_2",
       "oravia": "roesau",
       "english": "study",
       "bucket": "e"
     },
     {
-      "id": "ro_e3",
+      "id": "lesson32_e_3",
       "oravia": "roedom",
       "english": "school",
       "bucket": "e"
     },
     {
-      "id": "ro_e4",
+      "id": "lesson32_e_4",
       "oravia": "roena",
       "english": "teach",
       "bucket": "e"
     },
     {
-      "id": "ro_e5",
+      "id": "lesson32_e_5",
       "oravia": "rovir",
       "english": "science",
       "bucket": "e"
     },
     {
-      "id": "ro_u1",
+      "id": "lesson32_u_1",
       "oravia": "roumir",
       "english": "book",
       "bucket": "u"
     },
     {
-      "id": "ro_u2",
+      "id": "lesson32_u_2",
       "oravia": "roudal",
       "english": "read",
       "bucket": "u"
     },
     {
-      "id": "ro_u3",
+      "id": "lesson32_u_3",
       "oravia": "roudi",
       "english": "write",
       "bucket": "u"

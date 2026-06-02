@@ -372,3 +372,312 @@ img {
 .md-content {
     margin-right: 0 !important;
 }
+
+/* ===== GRAMMAR REFERENCE EXPANDABLE SECTIONS ===== */
+
+/* Remove ALL Material admonition/details box styling */
+.md-typeset details.gr-part,
+.md-typeset details.gr-sec {
+    border: none !important;
+    border-left: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    padding: 0 !important;
+    margin: 0.3rem 0 !important;
+    color: inherit !important;
+    border-radius: 0 !important;
+}
+
+/* Part summary: clean heading style */
+.md-typeset details.gr-part > summary {
+    background: transparent !important;
+    font-size: 1.05rem !important;
+    font-weight: 700 !important;
+    color: #3a6a9a !important;
+    padding: 0.5rem 0.25rem !important;
+    border-bottom: 1px solid #d3e8f7 !important;
+    margin-bottom: 0.5rem !important;
+}
+
+/* Section summary: lighter style */
+.md-typeset details.gr-sec > summary {
+    background: transparent !important;
+    font-size: 0.95rem !important;
+    font-weight: 600 !important;
+    color: #444 !important;
+    padding: 0.35rem 0.25rem !important;
+    border-bottom: 1px solid #efefef !important;
+}
+
+/* Remove Material icon completely */
+.md-typeset details.gr-part > summary::before,
+.md-typeset details.gr-sec > summary::before {
+    display: none !important;
+    content: none !important;
+    background: none !important;
+}
+
+/* Keep only the arrow */
+.md-typeset details.gr-part > summary::after,
+.md-typeset details.gr-sec > summary::after {
+    color: #999 !important;
+}
+
+/* Indent section content */
+.md-typeset details.gr-sec {
+    margin-left: 1rem !important;
+}
+
+
+/* ─────────────────────────────────────────────
+   Oravia Dictionary  —  paste at bottom of docs/css/custom.css
+   ───────────────────────────────────────────── */
+
+.dict-controls { margin-bottom: 1.2rem; }
+
+.dict-search-row {
+  display: flex;
+  gap: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.dict-filter-row {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.dict-input {
+  flex: 1;
+  min-width: 0;
+  padding: 0.35rem 0.65rem;
+  font-family: var(--md-text-font-family, "Lora", serif);
+  font-size: 0.8rem;
+  border: 1px solid var(--md-default-fg-color--light);
+  border-radius: 4px;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+}
+
+.dict-select {
+  padding: 0.3rem 0.5rem;
+  font-family: var(--md-text-font-family, "Lora", serif);
+  font-size: 0.78rem;
+  border: 1px solid var(--md-default-fg-color--light);
+  border-radius: 4px;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  cursor: pointer;
+}
+
+.dict-mode-toggle { flex-shrink: 0; }
+
+.dict-core-label {
+  font-size: 0.78rem;
+  font-family: var(--md-text-font-family, "Lora", serif);
+  color: var(--md-default-fg-color);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.dict-count {
+  font-size: 0.75rem;
+  font-family: var(--md-text-font-family, "Lora", serif);
+  color: var(--md-default-fg-color);
+  margin-left: auto;
+}
+
+/* ── Grammar section ──────────────────────────── */
+
+.dict-section-header {
+  font-family: var(--md-text-font-family, "Lora", serif);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--md-default-fg-color);
+  margin-bottom: 0.4rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--md-default-fg-color);
+}
+
+.dict-section-divider {
+  border: none;
+  border-top: 1px solid var(--md-default-fg-color);
+  margin: 1rem 0 0.85rem;
+}
+
+.dict-entry-gram {
+  padding: 0.3rem 0 0.35rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lighter, rgba(0,0,0,0.1));
+  line-height: 1.45;
+}
+
+.dict-gram-usage {
+  font-family: var(--md-text-font-family, "Lora", serif);
+  font-size: 0.78rem;
+  color: var(--md-default-fg-color);
+}
+
+/* ── Regular entries ──────────────────────────── */
+
+.dict-entry {
+  padding: 0.5rem 0 0.55rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lighter, rgba(0,0,0,0.1));
+  line-height: 1.5;
+}
+
+.dict-entry:last-child,
+.dict-entry-gram:last-child { border-bottom: none; }
+
+.dict-entry-highlight {
+  background: var(--md-accent-fg-color--transparent, rgba(255,193,7,0.15));
+  border-radius: 3px;
+  transition: background 1.5s ease;
+}
+
+.dict-headword {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.02rem;
+}
+
+.dict-word {
+  font-family: var(--md-text-font-family, "Lora", serif);
+  font-weight: 700;
+  font-size: 0.88rem;
+  color: var(--md-default-fg-color);
+}
+
+/* outlined cluster badge */
+.dict-cluster-badge {
+  display: inline-block;
+  font-family: var(--md-text-font-family, "Lora", serif);
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 0 6px;
+  line-height: 1.6;
+  border-radius: 10px;
+  border: 1.5px solid;
+  background: transparent;
+  white-space: nowrap;
+}
+
+.dict-trans-primary {
+  font-family: var(--md-text-font-family, "Lora", serif);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--md-default-fg-color);
+}
+
+.dict-trans-all {
+  font-family: var(--md-text-font-family, "Lora", serif);
+  font-size: 0.78rem;
+  color: var(--md-default-fg-color);
+}
+
+.dict-breakdown {
+  font-family: var(--md-text-font-family, "Lora", serif);
+  font-size: 0.78rem;
+  font-weight: 400;
+  color: var(--md-default-fg-color);
+  margin-top: 0.1rem;
+}
+
+.dict-example {
+  font-family: var(--md-text-font-family, "Lora", serif);
+  font-size: 0.78rem;
+  color: var(--md-default-fg-color);
+  margin-top: 0.1rem;
+}
+
+.dict-ex-label {
+  font-family: var(--md-text-font-family, "Lora", serif);
+  font-size: 0.72rem;
+  font-style: italic;
+  color: var(--md-default-fg-color);
+  margin-right: 0.15rem;
+}
+
+.dict-ex-oravia {
+  font-style: italic;
+  color: var(--md-default-fg-color);
+}
+
+.dict-ex-gloss {
+  display: block;
+  font-family: var(--md-code-font-family, "Source Code Pro", monospace);
+  font-size: 0.72rem;
+  color: var(--md-default-fg-color);
+  margin: 0.05rem 0 0.1rem;
+}
+
+.dict-ex-sep,
+.dict-ex-english { color: var(--md-default-fg-color); }
+
+/* gram entry inline word + meaning on same line */
+.dict-trans-inline {
+  font-family: var(--md-text-font-family, "Lora", serif);
+  font-size: 0.78rem;
+  font-weight: 400;
+  color: var(--md-default-fg-color);
+}
+
+.dict-related {
+  font-family: var(--md-text-font-family, "Lora", serif);
+  font-size: 0.78rem;
+  color: var(--md-default-fg-color);
+  margin-top: 0.1rem;
+}
+
+.dict-rel-label {
+  font-family: var(--md-text-font-family, "Lora", serif);
+  font-size: 0.72rem;
+  font-style: italic;
+  color: var(--md-default-fg-color);
+  margin-right: 0.2rem;
+}
+
+.dict-related-item {
+  display: inline-block;
+  font-family: var(--md-code-font-family, "Source Code Pro", monospace);
+  font-size: 0.75rem;
+  background: var(--md-code-bg-color, rgba(0,0,0,0.05));
+  color: var(--md-default-fg-color);
+  border-radius: 3px;
+  padding: 0 4px;
+  margin: 0 2px 0 0;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 2px;
+}
+
+.dict-related-item:hover {
+  background: var(--md-accent-fg-color--transparent, rgba(0,0,0,0.08));
+}
+
+.dict-empty {
+  font-family: var(--md-text-font-family, "Lora", serif);
+  font-size: 0.8rem;
+  color: var(--md-default-fg-color);
+  font-style: italic;
+  padding: 0.75rem 0;
+}
+
+/* breakdown sound links → building blocks */
+.dict-bb-link {
+  color: var(--md-default-fg-color);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 2px;
+  font-weight: 400;
+}
+.dict-bb-link:hover {
+  color: #C8860A;
+}

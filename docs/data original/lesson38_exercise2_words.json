@@ -1,0 +1,171 @@
+{
+  "lesson_id": "lesson38_exercise2",
+  "cluster": "ne+yo",
+  "cluster_meaning": "reference and color",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "Round 1",
+      "buckets": [
+        "l",
+        "b"
+      ],
+      "words_per_bucket": 2
+    },
+    {
+      "round": 2,
+      "title": "Round 2",
+      "buckets": [
+        "l",
+        "b"
+      ],
+      "words_per_bucket": 2
+    },
+    {
+      "round": 3,
+      "title": "Round 3",
+      "buckets": [
+        "c",
+        "d"
+      ],
+      "words_per_bucket": 2
+    },
+    {
+      "round": 4,
+      "title": "Round 4",
+      "buckets": [
+        "c",
+        "d"
+      ],
+      "words_per_bucket": 1
+    },
+    {
+      "round": 5,
+      "title": "Round 5",
+      "buckets": [
+        "l"
+      ],
+      "words_per_bucket": 3,
+      "allow_repeats": true
+    },
+    {
+      "round": 6,
+      "title": "Round 6",
+      "buckets": [
+        "b"
+      ],
+      "words_per_bucket": 4,
+      "allow_repeats": true
+    },
+    {
+      "round": 7,
+      "title": "Round 7",
+      "buckets": [
+        "c",
+        "d"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    },
+    {
+      "round": 8,
+      "title": "Round 8",
+      "buckets": [
+        "l",
+        "b"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    },
+    {
+      "round": 9,
+      "title": "Round 9",
+      "buckets": [
+        "c",
+        "d"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    }
+  ],
+  "words": [
+    {
+      "id": "ne_l1",
+      "oravia": "neloa",
+      "english": "elsewhere",
+      "bucket": "l"
+    },
+    {
+      "id": "ne_l2",
+      "oravia": "neliu",
+      "english": "other",
+      "bucket": "l"
+    },
+    {
+      "id": "ne_l3",
+      "oravia": "newol",
+      "english": "another time",
+      "bucket": "l"
+    },
+    {
+      "id": "ne_b1",
+      "oravia": "nepui",
+      "english": "few",
+      "bucket": "b"
+    },
+    {
+      "id": "ne_b2",
+      "oravia": "nehen",
+      "english": "half",
+      "bucket": "b"
+    },
+    {
+      "id": "ne_b3",
+      "oravia": "neron",
+      "english": "more",
+      "bucket": "b"
+    },
+    {
+      "id": "ne_b4",
+      "oravia": "netam",
+      "english": "only",
+      "bucket": "b"
+    },
+    {
+      "id": "yo_c1",
+      "oravia": "yoyol",
+      "english": "blue",
+      "bucket": "c"
+    },
+    {
+      "id": "yo_c2",
+      "oravia": "yohisa",
+      "english": "red",
+      "bucket": "c"
+    },
+    {
+      "id": "yo_c3",
+      "oravia": "yosari",
+      "english": "yellow",
+      "bucket": "c"
+    },
+    {
+      "id": "yo_d1",
+      "oravia": "yolimel",
+      "english": "dark",
+      "bucket": "d"
+    },
+    {
+      "id": "yo_d2",
+      "oravia": "yoyar",
+      "english": "white",
+      "bucket": "d"
+    },
+    {
+      "id": "yo_d3",
+      "oravia": "yogali",
+      "english": "brown",
+      "bucket": "d"
+    }
+  ]
+}

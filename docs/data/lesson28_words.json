@@ -8,7 +8,6 @@
       "title": "Round 1",
       "buckets": [
         "h",
-        "u",
         "b"
       ],
       "words_per_bucket": 1
@@ -17,7 +16,6 @@
       "round": 2,
       "title": "Round 2",
       "buckets": [
-        "h",
         "u",
         "b"
       ],
@@ -37,9 +35,11 @@
       "title": "Round 4",
       "buckets": [
         "h",
-        "u"
+        "u",
+        "b"
       ],
-      "words_per_bucket": 1
+      "words_per_bucket": 1,
+      "allow_repeats": true
     },
     {
       "round": 5,
@@ -47,78 +47,109 @@
       "buckets": [
         "h"
       ],
-      "words_per_bucket": 2
+      "words_per_bucket": 3,
+      "allow_repeats": true
+    },
+    {
+      "round": 6,
+      "title": "Round 6",
+      "buckets": [
+        "u"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
+    },
+    {
+      "round": 7,
+      "title": "Round 7",
+      "buckets": [
+        "h",
+        "u",
+        "b"
+      ],
+      "words_per_bucket": 1,
+      "allow_repeats": true
+    },
+    {
+      "round": 8,
+      "title": "Round 8",
+      "buckets": [
+        "h",
+        "u"
+      ],
+      "words_per_bucket": 2,
+      "allow_repeats": true
     }
   ],
   "words": [
     {
-      "id": "to_h1",
+      "id": "lesson28_h_1",
       "oravia": "tohpu",
       "english": "sad",
       "bucket": "h"
     },
     {
-      "id": "to_h2",
-      "oravia": "tohnaru",
-      "english": "anger",
-      "bucket": "h"
-    },
-    {
-      "id": "to_h3",
+      "id": "lesson28_h_2",
       "oravia": "tohdin",
       "english": "sorry",
       "bucket": "h"
     },
     {
-      "id": "to_h4",
+      "id": "lesson28_h_3",
       "oravia": "toharou",
       "english": "anxious",
       "bucket": "h"
     },
     {
-      "id": "to_h5",
-      "oravia": "tohbian",
-      "english": "confused",
+      "id": "lesson28_h_4",
+      "oravia": "tohnaru",
+      "english": "anger",
       "bucket": "h"
     },
     {
-      "id": "to_h6",
+      "id": "lesson28_h_5",
+      "oravia": "tohbian",
+      "english": "confusion",
+      "bucket": "h"
+    },
+    {
+      "id": "lesson28_h_6",
       "oravia": "tohvor",
       "english": "fear",
       "bucket": "h"
     },
     {
-      "id": "to_u1",
-      "oravia": "tounir",
-      "english": "weak",
-      "bucket": "u"
-    },
-    {
-      "id": "to_u2",
-      "oravia": "toului",
-      "english": "tired",
-      "bucket": "u"
-    },
-    {
-      "id": "to_u3",
+      "id": "lesson28_u_1",
       "oravia": "toumo",
       "english": "hungry",
       "bucket": "u"
     },
     {
-      "id": "to_u4",
+      "id": "lesson28_u_2",
+      "oravia": "tounir",
+      "english": "weak",
+      "bucket": "u"
+    },
+    {
+      "id": "lesson28_u_3",
       "oravia": "tourou",
       "english": "tense",
       "bucket": "u"
     },
     {
-      "id": "to_b1",
+      "id": "lesson28_u_4",
+      "oravia": "toului",
+      "english": "tired",
+      "bucket": "u"
+    },
+    {
+      "id": "lesson28_b_1",
       "oravia": "towa",
       "english": "thirst",
       "bucket": "b"
     },
     {
-      "id": "to_b2",
+      "id": "lesson28_b_2",
       "oravia": "tovei",
       "english": "illness",
       "bucket": "b"

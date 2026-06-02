@@ -16,7 +16,6 @@
       "round": 2,
       "title": "Round 2",
       "buckets": [
-        "fai",
         "fal",
         "fae"
       ],
@@ -26,9 +25,8 @@
       "round": 3,
       "title": "Round 3",
       "buckets": [
-        "fae",
-        "fal",
-        "tr"
+        "fai",
+        "fae"
       ],
       "words_per_bucket": 1
     },
@@ -36,83 +34,65 @@
       "round": 4,
       "title": "Round 4",
       "buckets": [
-        "tr"
+        "fai",
+        "fal",
+        "fae"
       ],
-      "words_per_bucket": 4
+      "words_per_bucket": 1,
+      "allow_repeats": true
+    },
+    {
+      "round": 5,
+      "title": "Round 5",
+      "buckets": [
+        "fal"
+      ],
+      "words_per_bucket": 3,
+      "allow_repeats": true
     }
   ],
   "words": [
     {
-      "id": "i_1",
+      "id": "lesson04_i_1",
       "oravia": "faibor",
       "english": "spouse",
       "bucket": "fai"
     },
     {
-      "id": "i_2",
+      "id": "lesson04_i_2",
       "oravia": "faigel",
       "english": "marry",
       "bucket": "fai"
     },
     {
-      "id": "l_1",
+      "id": "lesson04_l_1",
       "oravia": "falte",
       "english": "young",
       "bucket": "fal"
     },
     {
-      "id": "l_2",
+      "id": "lesson04_l_2",
       "oravia": "falni",
       "english": "baby",
       "bucket": "fal"
     },
     {
-      "id": "l_3",
+      "id": "lesson04_l_3",
       "oravia": "falen",
       "english": "child",
       "bucket": "fal"
     },
     {
-      "id": "e_1",
+      "id": "lesson04_e_1",
       "oravia": "faejor",
       "english": "woman",
       "bucket": "fae"
     },
     {
-      "id": "e_2",
+      "id": "lesson04_e_2",
       "oravia": "faejal",
       "english": "man",
       "bucket": "fae"
-    },
-    {
-      "id": "m_1",
-      "oravia": "fare",
-      "english": "parent",
-      "bucket": "tr"
-    },
-    {
-      "id": "m_2",
-      "oravia": "fasu",
-      "english": "sibling",
-      "bucket": "tr"
-    },
-    {
-      "id": "m_3",
-      "oravia": "fano",
-      "english": "son/daughter",
-      "bucket": "tr"
-    },
-    {
-      "id": "m_4",
-      "oravia": "favi",
-      "english": "birth",
-      "bucket": "tr"
-    },
-    {
-      "id": "m_5",
-      "oravia": "famei",
-      "english": "family",
-      "bucket": "tr"
     }
   ]
 }

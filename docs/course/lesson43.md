@@ -1,7 +1,7 @@
-# Lesson 43:  Cluster
+# Lesson 43: EL Cluster
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into five sections: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order. After you finish, *try the Exercises and Review again* to see how much you've improved.
+    Every lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -40,64 +40,67 @@
 
     ## Compounds
     
-     Try to see if you can guess these compounds! Remember, this is not exact science. 
-    
+     What do you think these compounds mean? Remember, this is not exact science. 
 
+    
     ```
-    Hetam i do i boemo daehun 'roumo.
+    run beivu en bo beilem.
     ```
         
     ```
-    A suuma fare i tohpu.
+    i dami a limela muhpili.
     ```
     
     ```
-    Nim i fou i tohdina ilahai. 
-    ```
-    
-
---
-    
-    ```
-    Nesunya lirul a nim i bonfene a tohnaru u faibor.
+    Nim i fou i tohdin-ilahai. 
     ```
     
     ```
-    Nepar ilie i lupupi litamis. 
+    cali i neron e lufivaa lei en mouje, bi yuba.
     ```
     
     ```
-    Hay i boemo en bo nealui lirular.
+    notor be, notam i anifou e anelema bevio en yani wiltan.
     ```
-    
+        
+    ```
+    i do i boemo netam su 'roumo.
+    ```
     
     **Tips**
-    -ar = completed  
-    -is = yet to start   
-    (an)do = can  
-    anvu  = move, go   
-    bo  = house, home   
-    boemo  = cook   
-    bonfene  = bed, lie down   
-    en  = at, in (location)   
-    faibor  = partner   
-    ilie  = likelihood, maybe   
-    lirul  = habit (frequency)   
-    lirular  = used to (habit completed)   
-    litamis  = tomorrow (day yet to start)   
-    lufiva  = cold   
-    lupupi  = rain   
-    mai  = but   
-    nealui  = 5 out of 10   
-    nedas  = 10 out of 10   
-    nepar  = 3 out of 10   
-    nesunya  = 0 out of 10   
-    tohnaru  = angry   
-    toului  = tired   
-    toumo  = hungry   
+    
+    ' = coined or imported word, guess from its syllables!  
+    -a = compound modifier suffix (bonds modifier to noun as a single concept)
+    (an)do = can, ability  
+    -um = not, negative  
+    anelem = stay, remain  
+    be = travel  
+    beilem = vehicle station  
+    beivu = car  
+    bi yuba = how good! / wonderful!  
+    bo = house  
+    cali = when  
+    dom = place  
+    fou = need  
+    ilahai = speak, tell  
+    lei = plant  
+    limel = night  
+    lufiva = frost, cold  
+    mo = food / eating cluster  
+    muhpili = bird  
+    netam = only  
+    neron = more  
+    notam = first event  
+    notor = second event  
+    oi = fun / excitement cluster  
+    rou = written knowledge (sub)cluster  
+    roumir = book  
+    su = and, with  
+    tohdin = sorry, regret  
+    toului = tired  
+    wiltan = city  
+    yani = new 
 
-    
-    
     <div style="text-align: center; margin: 2rem 0;">
     <button onclick="document.getElementById('subcluster3-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
         Click to Reveal the Answer
@@ -106,35 +109,35 @@
     
     <div id="subcluster3-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
     <p style="margin: 0 0 0.5rem 0;">Possible translations:</p>
-    <p style="margin: 0 0 0.5rem 0;"> The shower is not cold at all. </p>
-    <p style="margin: 0 0 0.5rem 0;"> I'm extremely hungry! </p>
-    <p style="margin: 0 0 0.5rem 0;"> I am a little tired but we can go. </p>
-    <p style="margin: 0 0 0.5rem 0;"> I never go to bed angry at my partner. </p>
-    <p style="margin: 0 0 0.5rem 0;"> It might rain tomorrow. </p>
-    <p style="margin: 0 0 0.5rem 0;"> She used to cook at home half the time.  </p>
+    <p style="margin: 0 0 0.5rem 0;"> Your car is in the garage (house vehicle station). </p>
+    <p style="margin: 0 0 0.5rem 0;"> There is an owl (night bird). </p>
+    <p style="margin: 0 0 0.5rem 0;"> I need to apologize (sorry talk). </p>
+    <p style="margin: 0 0 0.5rem 0;"> When I add mint to the drink, it's good (cool plant). </p>
+    <p style="margin: 0 0 0.5rem 0;"> Second travel, first I need a hotel in the new city (stay commerce). </p>
+    <p style="margin: 0 0 0.5rem 0;"> I can cook only with a recipe (written knowledge food).  </p>
     </div>
+    
 
     
 === "Vocabulary"
 
-    ## JO CLUSTER
+    ## EL CLUSTER
     
-    Today we will learn the **JO** Cluster! Take a look at the words below:
+    Let's check the **EL** Cluster! Take a look at the words below:
     
     | Oravia | English |
     |--------|---------|
-    | joliri | glass |
-    | joleni | plastic |
-    | jolem | box |
-    | jovabo | cover |
-    | joldur | metal |
-    | joniu | piece |
-    | jomo | plate |
-    | jolace | rubber |
-    | jocal | sheet |
+    | elarih | divine |
+    | elaora | religion |
+    | elemi | life |
+    | eleyel | love |
+    | elireva | truth |
+    | elonor | calm, peace |
+    | eloan | thank, gratitude |
+    | elomio | help |
     
     
-    What do you think the **JO** Cluster is about?
+    What do you think the **EL** Cluster is about?
     
     <div style="text-align: center; margin: 2rem 0;">
     <button onclick="document.getElementById('subcluster4-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
@@ -143,38 +146,19 @@
     </div>
     
     <div id="subcluster4-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;"> It's about <strong>material objects</strong>.</p>
+    <p style="margin: 0;"> It's about <strong>virtue and wonder</strong>, what is elevated, transcedental.</p>
     </div>
     
-    We also have one subcluster, can you identify the sound and the meaning?
-    
-    <div style="text-align: center; margin: 2rem 0;">
-    <button onclick="document.getElementById('subcluster-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
-        Click to Reveal the Answer
-    </button>
-    </div>
-    
-    <div id="subcluster-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;"> <strong>JOL</strong> is for basic substances used to make objects.</p>
-    </div>
-    
-    Notice that *jolem* (box) is not part of the subcluster, it is formed by jo + lem. (Do you remember any other words with lem?).
-    
-    Notice that these words can also be used in other ways, for example:
-    
-    | Oravia | English |
-    |--------|---------|
-    | joliri | glass, transparent |
-    | jolem | box, rectangular |
-    | jovabo | cover, blanket |
-    | joldur | metal, metallic |
-    | joniu | piece, part |
-    | jomo | plate, to plate |
-    | jolace | rubber, malleable |
-    | jocal | sheet, flat |
-    
+    !!! info "🌍 Sound Connections"
+        Reva means accurate, correct, and it comes from Latin revelare (to reveal).  
+        Rih means higher, rising, like previous words aparih (jump) and leirih (tree).
+        Ora means idea, reason, lik eprevious words ceora (why) and iliora (idea).
+      
+    Here are other words with this root:    
+    **dareva** = correct (evaluate + correct, just like elireva = truth (elevated + correct)    
+        
    
-    Run i ilian canon i anye e ilwol de jo? 
+    E cei run i tane i eloan? Ceora? 
     
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
     
@@ -185,7 +169,7 @@
     </div>
     
     <div id="subcluster5-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;">Possible translation: Do you know how to build things out of materials?</p>
+    <p style="margin: 0;">Possible translation: Who should you thank? Why?</p>
     </div>
     
     <div style="text-align: center; margin: 2rem 0;">
@@ -195,7 +179,7 @@
     </div>
     
     <div id="subcluster6-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;">Example answer: Nim i do i anye e joliri ilwol. </p>
+    <p style="margin: 0;">Example answer: i tane i eloan e nim farejor caora nolili i elomio e nim. </p>
     </div>
     
     
