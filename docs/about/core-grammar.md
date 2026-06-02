@@ -1,42 +1,48 @@
-# 10-Minute Grammar
+# Oravia Core Grammar
 
-Learn the basics in 10 simple points and start making sentences right away. 
+Learn the basics in 10 simple points and start making sentences right away. If you'd like to learn it with more detail, please see the course Learn Oravia.
 
 ---
 
 !!! tip "Grammar at a Glance"
     **4 core markers:** a (subject), i (verb), e (direct object), u (indirect object)  
-    **Flexible word meaning and order**: markers show role  
+    **Flexible word order**: markers show role  
     **Simple negation**: add -um to any word  
-    **Prepositions**: use en (location) and de (source/possession)  
-    **Questions**: start the sentence with *ce* words  (what + person / place / ...)  
-    
 
 ---
 
-## Pronunciation
+## Overview
+
+Oravia is a simple, flexible language. Meaning is carried by short function markers and a compact vocabulary. Word order is flexible: you can use the order that feels natural to you.
+
+### Pronunciation
 
 
 **B C D F G H J L M N P R S T V W Y**
 
 All pronounced as you would expect in English or IPA, with the details of:
     
-- **C** /k/ as in *cake*
-- **H** /h/ as in *house* or soft rasp
-- **J** /dʒ/ as in *jello*
-- **R** /ɾ/ flap, like the tt in American English *butter*
-
-**Vowels: A E I O U**
-
-- **A** /ɑ/ as in *father* 
-- **E** /ɛ/ as in  *cellar* 
-- **I** /i/ as in *creek* 
-- **O** /ɔ/ as in *door*
-- **U** /u/ as in *flu*
-
+- **C** pronounced as in *cake* (IPA k)
+- **H** pronounced as in *house* (IPA h, ʁ or x)
+- **J** pronounced as in *jello* (IPA dʒ)
+- **R** pronounced as 'tt' in *butter* (IPA ɾ, r)
+    
+    
+**A E I O U:**
+    
+- **A** as in *father* (IPA ɑ)
+- **E** as in *cellar* (IPA ɛ)
+- **I** as in *creek* (IPA i)
+- **O** as in *door* (IPA ɔ)
+- **U** as in *flu* (IPA u)
+    
 If you pronounce E and O closed like in Spanish (IPA e and o), that's fine too!
 
-**Stress:** On the penultimate syllable, like i**LI**ru.
+**Stress:** On the penultimate syllable.
+
+**Example:**
+
+- i**LI**ru
 
 ---
 
@@ -50,19 +56,8 @@ If you pronounce E and O closed like in Spanish (IPA e and o), that's fine too!
 | run (you) | runa (you, pl) |
 | hay (he/she/they) | haya (they, pl) |
 
-Pronouns are often dropped when context is clear. Affirmative sentences default to *nim* and questions to *run*, so you don't repeat them as much as in English.
+**Possessive:** Add **-e** to the pronoun (nime = my, hayae = their, etc.)
 
-**Possessive:** Use the pronoun before the word 
-```
-nim bo 
-[I house] = my house
-```
-
-For nouns or to disambiguate, use **de**: 
-```
-bo de miwo  
-[house of dog] = dog's house  
-```
 ---
 
 ## 2. The Four Core Markers
@@ -75,9 +70,13 @@ Markers go before the word or phrase they mark:
     **e** = direct object (what the verb acts on)  
     **u** = indirect object (recipient, often English "to/for")
 
+**Pattern:**
+
 ```
 a [subject] i [verb] e [direct complement] u [indirect complement]
 ```
+
+**Example:**
 
 ```
 a nim i anona e mocen u run
@@ -85,28 +84,24 @@ a nim i anona e mocen u run
     I    give chocolate to you
 ```
 
-*More often (nim dropped in affirmative): i anona e mocen u run*
+Because roles are marked (a/e/u), word order is flexible and you can copy the natural order of your own language. 
 
-**Mnemonics:** **A**ctor [subject] · **I**nitiates [verb] · **E**ngaging [direct object] · **U**nto [indirect object]
-
-You may drop markers when context is clear. *a* drops the easiest, and then *e*.
-
-Because roles are marked, word order is flexible and you can copy the natural order of your own language. Since this website is in English, I will follow English word order in the core grammar examples. In natural language encounter, other orders such as *e mocen u run i anona* are also common.
-
-We also use **a...a** to say something is something. For example, *a nim a yalen* = I am tall · *a bo a yamirli* = the house is old.
+Since this website is in English, I will follow English word order in the core grammar examples.
 
 ---
 
-## 3. Describing Words
+## 3. Describing Words (Modifiers)
 
 A modifier goes right before the word it describes.
 
+**Examples:**
+
 ```
-mocen mouje   →  "chocolate drink"
-pohem mocen mouje   →  "hot chocolate drink"
+mocen mouje  =  "chocolate drink"
+pohem mocen mouje  =  "hot chocolate drink"
 ```
 
-Because of the markers, any word can go in any role. For example, if you say *a angi* this means "[subject] brave", if you say *i angi* this means "[verb] to dare". If you say *angi falen*, this means "bold child".
+Because of the markers, any word can go in any role. For example, if you say *a yungi* this means "[subject] brave", if you say *i yungi* this means "[verb] to dare". If you say *yungi falen*, this means "bold child".
 
 ---
 
@@ -132,6 +127,12 @@ Use these instead of a large set of prepositions:
      I come from the house 
 ```
 
+```
+a nim i anefe e sever en bontame
+  ↓       ↓      ↓         ↓ 
+  I   place the keys on the table
+```
+
 ---
 
 ## 5. Coordination and Contrast
@@ -142,42 +143,72 @@ Use these instead of a large set of prepositions:
     **dou** = or  
     **eta** = so, therefore
 
-```
-run i mo e moaria su mocen    
- ↓     ↓      ↓         ↓
-you   eat   apple and chocolate
-```
+**Example:**
 
+```
+a nim i vanvu su run
+    ↓     ↓        ↓         
+    I   walk  with  you
+```
 
 ---
 
 ## 6. Negation
 
-Add **-um** to the word you want to negate. For example, used with the word *dami*, meaning to exist or there is/are:
+Negate by adding **-um** to the word you want to negate.
+
+**Examples:**
 
 ```
-i dami a moaria
-  ↓         ↓                
-there is an apple
+a nim i dairan e mocen
+    ↓     ↓       ↓         
+    I   like   chocolate 
 ```
 
 ```
-i damium a moaria
-  ↓         ↓                
-there is no apple
+a nim i dairanum e mocen
+   ↓      ↓         ↓         
+   I  don't like   chocolate 
+```
+
+**Rule:** -um negates the word it attaches to.
+
+---
+
+## 7. Aspect (Optional)
+
+Generally, aspect is only used if you want to specify it. The default is just the bare verb (i + word).
+
+!!! info "Aspect Markers"
+    **-ar** = completed action  
+    **-is** = yet to start action  
+
+**Note:** If your language uses past and future tenses, *ar* may feel past-like and *is* may feel future-like. That intuition will serve you well most of the time! The key difference is that they mark completion relative to a context, not calendar time. There are a few cases in which they don't correspond exactly, but we will cover this in another opportunity.
+
+**Examples:**
+
+```
+a nim i anefear e sever en bontame
+  ↓       ↓        ↓          ↓ 
+  I   placed the keys on the table
+
+```
+
+```
+a nim i anefeis e sever en bontame
+  ↓        ↓        ↓         ↓ 
+  I will place the keys on the table
 ```
 
 ---
 
-## 7. Questions and "What/That" Clauses
+## 8. Questions and "What/That" Clauses
 
-Raise intonation for yes/no questions, no structural change needed:
+**ce** = what / general question
 
-```
-run i mo?            →   are you eating?
-```
+**ca** = what / that / which (clause link)
 
-**ce** = what (question) · **ca** = that / which (connector)
+**Examples:**
 
 ```
  ce  en   bo?
@@ -191,64 +222,70 @@ a nim i anye ca a run i dairan
   I      do  what you     like
 ```
 
-Build more question words with **ce** + a domain word:
+You can combine ca/ce with other words to form more connectors and questions. The version starting with "ce" is a question, and the one with "ca" is used in affirmatives and connecting clauses. 
 
-| Word | Meaning |
-|------|---------|
-| cei | who (what + person)|
-| cedom | where (what + place)|
-| celi | when (what + time)|
-| ceora | why (what + reason)|
-| cenon | how (what + way)|
+ceora / caora = why/because (ce/ca what + ora reason)  
+cei / caei = who (ce/ca what + ei person)  
+celi / cali = when (ce/ca what + li time)  
+cenon / canon = how (ce/ca what + non way)  
+cedom / cadom = where (ce/ca what + dom place)  
 
-In statements, swap **ce** → **ca**: ceora → caora (because), cedom → cadom (where), etc.
+---
+## 9. Verb Stacking
+
+When you want to complement a verb with another verb, you can put them in a sequence, repeating *i* before each one. Unlike English, there is no "to" connecting them.
+
+**ando** = can (able to)
+
+**anidai** = want
+
+**anifou** = need
+
+**dairan** = like
+
+**Examples:**
 
 ```
-run i ilianum cadom bo     
-  ↓       ↓     ↓    ↓ 
-  you know-not where the house
+a run i anidai i anelem en bo
+  ↓       ↓         ↓       ↓ 
+ you    want to   stay     home
+```
+
+```
+a haya i anifou i mo
+  ↓       ↓       ↓       
+ they   need to   eat
 ```
 
 ---
-## 8. Verb Stacking
 
-To chain two verbs, repeat **i** before each one:
-
-```
-run i dairan i anelem en bo      →   you like to stay home
-nim i do i mo                    →   I can eat
-haya i dai i anvu                →   they want to go
-hay i fou i mo                   →   she needs to eat
-```
-
-No "to" needed between verbs.
-
----
-
-## 9. Compounds
+## 10. Compounds
 
 Oravia has a small vocabulary, and as such, there is full creativity and flexibility to create new expressions.
 
-**-a suffix** bonds modifiers and noun into a single concept:
+To use multiple words to express a single concept, we attach -a at the end of the modifying words. 
 
+Here are some examples of compounds:
 ```
+lufua bei = air-vehicle = airplane
 waa jasru = ocean-bend = bay
 lufua yahlul = air-soft = fluffy
+waa garel = water-up = fountain
 yalgaia mus = small-bug = ant
-lia selyino = time-plan = schedule
+li selyino = time-plan = schedule
 waa dom = water-land = island
-lufua bei = air-vehicle = airplane
 ```
 
 Notice you can be as specific as you'd like by adding more descriptions to your compound. If you think lufua bei (air-vehicle) is not enough specificity for what you want to express as airplane, you can for example say jeluina lufua bei (winged-air-vehicle).
 
 
-**Hyphenated forms** fuse two words into one expression:
+To give flavors or fine-grained meaning to words, we can merge two of them together with an hyphen, like this:
 
 ```
 falen-li = child-time = childhood
 tohpu-vanvu = sad-walk = to trudge, move with sadness
 bo-bortal = house-enter = to enter a house
+elivon-ilaluan = wisdom-speak = to speak with wisdom
 ilofun-vardei = hesitant-look = to peek with doubt
 ```
 
@@ -257,124 +294,28 @@ If you are unsure whether you want a compound or hyphenated expression, just use
 ---
 
 
-## 10. Vocabulary
-
-Most Oravia words are formed as (sub)cluster + root.   
-
-A cluster is the first sound of the word, which signals its semantic domain. For example, MO for food and eating, FA for family, AN for actions, YA for qualities, and so on across 48 clusters.  
-
-Clusters are further divided into 0-4 subclusters, indicated by the third letter. 
-
-A root is a sound shared across multiple clusters that adds a second layer of meaning. 
-
-For example, *moalen*, banana, is formed by MO (food cluster) + A (fruit subcluster) + LEN (root for long).
-
-Together, the ~260 (sub)clusters and roots form the sound-meaning associations of Oravia. These classifications were not created by me; rather they were discovered by using word embeddings of how people associate concepts together.
-
-Because the sounds aren't arbitrary, once you know the associations, you can make educated guesses about words you haven't learned yet, remember words more easily, play around with word components, and learn words faster and faster. (Sub)clusters and roots also have associations with natural languages. For example, *vi* means internal body, similar to Latin's viscera. For more information, take a look at [What is Oravia? →](what-is-oravia.md).
-
-Now that you know a little of how the vocabulary works, you can explore:
-
-[Full vocabulary](../content/vocabulary.md)  
-[Building blocks](../content/building_blocks.md)  
-[Blocks Cheat Sheet](../content/cheat.md)  
-
----
-
 ## You've Got the Essentials of Grammar!
 
 **You now know:**
 
 - The 4 core markers (a/i/e/u)
 - How to negate with -um
+- How to mark aspect (optional)
 - How to ask questions (ce)
 - Prepositions (en/de)
 - Core connectors (ca) and coordinators (su/mai/dou/eta)
 - Verb stacking and creating new expressions
 
 You can start building sentences right away! 
+Why don't you search some words in the [Vocabulary](../content/vocabulary.md) and give it a try on [Discord](https://discord.com/invite/FWavWeG)?
 
-## Start Here — Starter Vocabulary
+**Next steps:**
 
-Pronouns and function words we've seen:  
-nim = I · run = you · hay = he/she/they · nima = we · runa = you plural · haya = they   
-de = of/from · en = at/in · su = and · mai = but · dou = or · eta = so  
-
-Other words:  
-mo = eat / food  
-mouje = drink  
-anye = make, do  
-anvu = go  
-anidai = want  
-ilaluan = speak / say  
-vardei = see / look  
-dami = exist / there is  
-dairan = like  
-ilian = know  
-elemi = live, life  
-boemo = kitchen, cook  
-ando = can  
-bonfene = lie down / bed  
-bo = house  
-fano = child  
-fare = parent  
-faejor = woman  
-faejal = man  
-mogali = coffee  
-moaria = apple  
-mouje = drink   
-mocen = chocolate  
-anifou = need  
-anona = give  
-leirih = tree  
-noi = here / this  
-ho noi = there / that (opposite + here)
-faibor = spouse  
-miau = cat  
-beivu = car  
-none = have  
-litam = day  
-nolili = always  
-eofa = friend  
-elihei = person  
-noli = now  
-yuba = good  
-ti = bad  
-one = tam  
-two = tor  
-three = par  
-four = balem  
-five = alui  
-elireva = true / really  
-yalen = long / tall  
-yaltan = big  
-yamirli = old  
-yunro = smart  
-yasoi = fast  
-tohpu = sad  
-gerina = money  
-roedom = school  
-liyar = morning  
-limel = night  
-bevio = store  
-oipoh = exciting  
-
-
----
-
-Try combining them now. *nim i dairan e mogali* · *i dami a yuba mo* · *a bo a yamirli* · *hay i anvu, mai nim i doum*
-
-Don't worry too much about perfect grammar, the goal is communication.
-
-**Ready to go further?**
-
-Why don't you search some words in the [Vocabulary](../content/vocabulary.md) and try creating some sentences on [Discord](https://discord.com/invite/FWavWeG)?
+[Start Learning →](../course/lesson00.md){ .md-button .md-button--primary }  
+[Get Involved →](get-involved.md){ .md-button }
 
 **20 Hours to Oravia!**  
 Complete the course: 60 lessons of ~15 minutes each.  
 Get immersed from day 1: chat on discord, watch videos, read and create.  
-
-[Start Learning →](../course/lesson00.md){ .md-button .md-button--primary }  
-[Get Involved →](get-involved.md){ .md-button }
 ---
 

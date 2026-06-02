@@ -7,68 +7,81 @@
       "round": 1,
       "title": "Round 1",
       "buckets": [
-        "all"
+        "h",
+        "n"
       ],
-      "words_per_bucket": 3
+      "words_per_bucket": 1
     },
     {
       "round": 2,
       "title": "Round 2",
       "buckets": [
-        "all"
+        "n",
+        "y"
       ],
-      "words_per_bucket": 3,
-      "allow_repeats": true
+      "words_per_bucket": 1
     },
     {
       "round": 3,
       "title": "Round 3",
       "buckets": [
-        "all"
+        "y"
       ],
-      "words_per_bucket": 3,
-      "allow_repeats": true
+      "words_per_bucket": 3
     },
     {
       "round": 4,
       "title": "Round 4",
       "buckets": [
-        "all"
+        "n",
+        "y"
       ],
-      "words_per_bucket": 4,
+      "words_per_bucket": 2,
       "allow_repeats": true
     }
   ],
   "words": [
     {
-      "id": "lesson12_exercise2_n_2",
+      "id": "h_2",
+      "oravia": "yahlul",
+      "english": "smooth",
+      "bucket": "h"
+    },
+    {
+      "id": "n_2",
       "oravia": "yalen",
       "english": "long",
-      "bucket": "all"
+      "bucket": "n"
     },
     {
-      "id": "lesson12_exercise2_n_3",
+      "id": "n_3",
       "oravia": "yaltan",
       "english": "big",
-      "bucket": "all"
+      "bucket": "n"
     },
     {
-      "id": "lesson12_exercise2_y_1",
+      "id": "y_1",
       "oravia": "yasoi",
       "english": "fast",
-      "bucket": "all"
+      "bucket": "y"
     },
     {
-      "id": "lesson12_exercise2_y_3",
+      "id": "y_3",
       "oravia": "yalgai",
       "english": "small",
-      "bucket": "all"
+      "bucket": "y"
     },
     {
-      "id": "lesson12_exercise2_y_5",
+      "id": "y_4",
+      "oravia": "yani",
+      "english": "new",
+      "bucket": "y"
+    },
+    {
+      "id": "y_5",
       "oravia": "yamirli",
       "english": "old",
-      "bucket": "all"
+      "bucket": "y"
     }
   ]
 }

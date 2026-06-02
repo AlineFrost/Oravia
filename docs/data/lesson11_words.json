@@ -7,73 +7,81 @@
       "round": 1,
       "title": "Round 1",
       "buckets": [
-        "all"
+        "h",
+        "n"
       ],
-      "words_per_bucket": 3
+      "words_per_bucket": 1
     },
     {
       "round": 2,
       "title": "Round 2",
       "buckets": [
-        "all"
+        "n",
+        "y"
       ],
-      "words_per_bucket": 3
+      "words_per_bucket": 1
     },
     {
       "round": 3,
       "title": "Round 3",
       "buckets": [
-        "all"
+        "y"
       ],
-      "words_per_bucket": 3,
-      "allow_repeats": true
+      "words_per_bucket": 3
     },
     {
       "round": 4,
       "title": "Round 4",
       "buckets": [
-        "all"
+        "n",
+        "y"
       ],
-      "words_per_bucket": 4,
+      "words_per_bucket": 2,
       "allow_repeats": true
     }
   ],
   "words": [
     {
-      "id": "lesson11_n_1",
-      "oravia": "yalnou",
-      "english": "deep",
-      "bucket": "all"
+      "id": "h_2",
+      "oravia": "yahlul",
+      "english": "smooth",
+      "bucket": "h"
     },
     {
-      "id": "lesson11_y_1",
+      "id": "n_2",
+      "oravia": "yalen",
+      "english": "long",
+      "bucket": "n"
+    },
+    {
+      "id": "n_3",
+      "oravia": "yaltan",
+      "english": "big",
+      "bucket": "n"
+    },
+    {
+      "id": "y_1",
       "oravia": "yasoi",
       "english": "fast",
-      "bucket": "all"
+      "bucket": "y"
     },
     {
-      "id": "lesson11_y_3",
+      "id": "y_3",
       "oravia": "yalgai",
       "english": "small",
-      "bucket": "all"
+      "bucket": "y"
     },
     {
-      "id": "lesson11_y_5",
+      "id": "y_4",
+      "oravia": "yani",
+      "english": "new",
+      "bucket": "y"
+    },
+    {
+      "id": "y_5",
       "oravia": "yamirli",
       "english": "old",
-      "bucket": "all"
-    },
-    {
-      "id": "lesson11_li_1",
-      "oravia": "litegai",
-      "english": "minute",
-      "bucket": "all"
-    },
-    {
-      "id": "lesson11_wi_1",
-      "oravia": "wiltan",
-      "english": "city",
-      "bucket": "all"
+      "bucket": "y"
     }
   ]
 }

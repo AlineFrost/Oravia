@@ -43,76 +43,109 @@
       "round": 5,
       "title": "Round 5",
       "buckets": [
-        "d"
+        "d",
+        "o"
       ],
-      "words_per_bucket": 2,
-      "allow_repeats": true
+      "words_per_bucket": 1
     },
     {
       "round": 6,
       "title": "Round 6",
       "buckets": [
-        "o"
+        "d"
       ],
-      "words_per_bucket": 2,
-      "allow_repeats": true
+      "words_per_bucket": 2
     },
     {
       "round": 7,
       "title": "Round 7",
       "buckets": [
-        "d",
-        "o"
+        "d"
       ],
-      "words_per_bucket": 2,
-      "allow_repeats": true
+      "words_per_bucket": 2
     }
   ],
   "words": [
     {
-      "id": "lesson34_d_1",
+      "id": "mi_d1",
       "oravia": "miau",
       "english": "cat",
       "bucket": "d"
     },
     {
-      "id": "lesson34_d_2",
+      "id": "mi_d2",
       "oravia": "micuc",
       "english": "chicken",
       "bucket": "d"
     },
     {
-      "id": "lesson34_d_3",
+      "id": "mi_d3",
       "oravia": "miwo",
       "english": "dog",
       "bucket": "d"
     },
     {
-      "id": "lesson34_d_7",
+      "id": "mi_d4",
+      "oravia": "mihie",
+      "english": "horse",
+      "bucket": "d"
+    },
+    {
+      "id": "mi_d5",
+      "oravia": "mibeh",
+      "english": "goat",
+      "bucket": "d"
+    },
+    {
+      "id": "mi_d6",
+      "oravia": "micea",
+      "english": "rabbit",
+      "bucket": "d"
+    },
+    {
+      "id": "mi_d7",
       "oravia": "mimu",
       "english": "cow",
       "bucket": "d"
     },
     {
-      "id": "lesson34_o_1",
+      "id": "mi_d8",
+      "oravia": "mius",
+      "english": "pig",
+      "bucket": "d"
+    },
+    {
+      "id": "mi_d9",
+      "oravia": "mime",
+      "english": "sheep",
+      "bucket": "d"
+    },
+    {
+      "id": "mi_o1",
       "oravia": "miogar",
       "english": "bear",
       "bucket": "o"
     },
     {
-      "id": "lesson34_o_2",
+      "id": "mi_o2",
       "oravia": "mioici",
       "english": "monkey",
       "bucket": "o"
     },
     {
-      "id": "lesson34_o_3",
+      "id": "mi_o3",
       "oravia": "miotan",
       "english": "elephant",
       "bucket": "o"
     },
     {
-      "id": "lesson34_o_5",
+      "id": "mi_o4",
+      "oravia": "miopi",
+      "english": "fox",
+      "bucket": "o"
+    },
+    {
+      "id": "mi_o5",
       "oravia": "miohou",
       "english": "wolf",
       "bucket": "o"

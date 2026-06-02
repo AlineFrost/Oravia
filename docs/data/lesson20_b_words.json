@@ -6,143 +6,147 @@
     {
       "round": 1,
       "title": "Round 1",
-      "buckets": [
-        "all"
-      ],
-      "words_per_bucket": 3
+      "buckets": ["n", "j"],
+      "words_per_bucket": 1
     },
     {
       "round": 2,
       "title": "Round 2",
-      "buckets": [
-        "all"
-      ],
-      "words_per_bucket": 3
+      "buckets": ["n", "j"],
+      "words_per_bucket": 1
     },
     {
       "round": 3,
       "title": "Round 3",
-      "buckets": [
-        "all"
-      ],
-      "words_per_bucket": 3,
-      "allow_repeats": true
+      "buckets": ["n", "j"],
+      "words_per_bucket": 1
     },
     {
       "round": 4,
       "title": "Round 4",
-      "buckets": [
-        "all"
-      ],
-      "words_per_bucket": 3,
-      "allow_repeats": true
+      "buckets": ["n", "j"],
+      "words_per_bucket": 1
     },
     {
       "round": 5,
       "title": "Round 5",
-      "buckets": [
-        "all"
-      ],
-      "words_per_bucket": 3,
-      "allow_repeats": true
+      "buckets": ["g"],
+      "words_per_bucket": 2
     },
     {
       "round": 6,
       "title": "Round 6",
-      "buckets": [
-        "all"
-      ],
-      "words_per_bucket": 3,
-      "allow_repeats": true
+      "buckets": ["g"],
+      "words_per_bucket": 2
     },
     {
       "round": 7,
       "title": "Round 7",
-      "buckets": [
-        "all"
-      ],
-      "words_per_bucket": 3,
+      "buckets": ["g"],
+      "words_per_bucket": 2,
       "allow_repeats": true
     },
     {
       "round": 8,
       "title": "Round 8",
-      "buckets": [
-        "all"
-      ],
-      "words_per_bucket": 3,
+      "buckets": ["n", "j"],
+      "words_per_bucket": 2,
       "allow_repeats": true
     },
     {
       "round": 9,
       "title": "Round 9",
-      "buckets": [
-        "all"
-      ],
-      "words_per_bucket": 3,
+      "buckets": ["n", "j"],
+      "words_per_bucket": 2,
       "allow_repeats": true
     },
     {
       "round": 10,
       "title": "Round 10",
-      "buckets": [
-        "all"
-      ],
-      "words_per_bucket": 4,
+      "buckets": ["g"],
+      "words_per_bucket": 3,
       "allow_repeats": true
     },
     {
       "round": 11,
       "title": "Round 11",
-      "buckets": [
-        "all"
-      ],
-      "words_per_bucket": 4,
+      "buckets": ["g"],
+      "words_per_bucket": 3,
       "allow_repeats": true
     }
   ],
   "words": [
     {
-      "id": "lesson20_b_n_1",
+      "id": "be_g1",
       "oravia": "bejae",
       "english": "luggage",
-      "bucket": "all"
+      "bucket": "n"
     },
     {
-      "id": "lesson20_b_n_2",
+      "id": "be_g2",
       "oravia": "bevio",
       "english": "shop",
-      "bucket": "all"
+      "bucket": "n"
     },
     {
-      "id": "lesson20_b_n_3",
-      "oravia": "jolem",
-      "english": "box",
-      "bucket": "all"
+      "id": "be_g3",
+      "oravia": "bedam",
+      "english": "square",
+      "bucket": "n"
     },
     {
-      "id": "lesson20_b_n_4",
+      "id": "be_g4",
+      "oravia": "bejui",
+      "english": "rent",
+      "bucket": "n"
+    },
+    {
+      "id": "be_i1",
+      "oravia": "beitor",
+      "english": "bicycle",
+      "bucket": "j"
+    },
+    {
+      "id": "be_i2",
       "oravia": "beivu",
       "english": "car",
-      "bucket": "all"
+      "bucket": "j"
     },
     {
-      "id": "lesson20_b_g_1",
+      "id": "be_i3",
+      "oravia": "beilem",
+      "english": "station",
+      "bucket": "j"
+    },
+    {
+      "id": "be_i4",
+      "oravia": "beitan",
+      "english": "bus",
+      "bucket": "j"
+    },
+    {
+      "id": "oi_g1",
+      "oravia": "oifu",
+      "english": "silly",
+      "bucket": "g"
+    },
+    {
+      "id": "oi_g2",
       "oravia": "oines",
       "english": "joke",
-      "bucket": "all"
+      "bucket": "g"
     },
     {
-      "id": "lesson20_b_g_2",
+      "id": "oi_g3",
       "oravia": "oihi",
       "english": "interest",
-      "bucket": "all"
+      "bucket": "g"
     },
     {
-      "id": "lesson20_b_g_3",
+      "id": "oi_g4",
       "oravia": "oila",
       "english": "happy",
-      "bucket": "all"
+      "bucket": "g"
     }
   ]
 }

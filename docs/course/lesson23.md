@@ -1,7 +1,7 @@
 # Lesson 23: Time & NO Cluster
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
+    Every lesson is divided into five sections: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order. After you finish, *try the Exercises and Review again* to see how much you've improved.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -176,11 +176,8 @@
     ho noi i dami a moaria = there is an apple there
     ho noi moaria = the there apple = that apple
     ```
-    !!! info "🌍 Sound Connections"
+    !!! info "🌍 Fun Fact"
         Mie comes from Mandarin 面 miàn (face, appearance).
-      
-    Here's another word that uses this root:    
-    **daemie** = estimate (evaluation + seem), just like nomie = seem like (function word + seem)  
         
     To sum it up:
     ```
@@ -201,8 +198,10 @@
 
     ## Matching Games
 
-    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
+    Time to practice! Match the Oravia words with their English meanings.
+
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
+
     Click one word from each column to match them. The game will check automatically when you select both words.
 
     ---
@@ -235,8 +234,10 @@
 
     ## Matching Games
 
-    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
+    Time to practice! Match the Oravia words with their English meanings.
+
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
+
     Click one word from each column to match them. The game will check automatically when you select both words.
 
     After completing the Exercises and Review, try it again to see how much you've improved.

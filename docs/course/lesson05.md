@@ -1,7 +1,7 @@
 # Lesson 5: BO Cluster
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
+    Every lesson is divided into four sections: **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order. After you finish, *try the Exercises and Review again* to see how much you’ve improved.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -112,10 +112,11 @@
     
     | Oravia | English |
     |--------|---------|
+    | bofin | inside |
+    | bontame | table |
     | bortal | door |
     | bospupi | shower |
     | boelori | room |
-    | bontame | table |
 
     
     What do you think the words that start in *BO* have in common?
@@ -130,14 +131,11 @@
         <p style="margin: 0;">They are all related to <strong>house</strong>. That's what *bo* means!</p>
     </div>
     
-    !!! info "🌍 Sound Connections"
+    !!! info "🌍 Fun Fact"
         Bo is like Arabic بيت (bayt = house, dwelling); Hebrew בית (bayit = house); Proto-Semitic *bayt- (house); Swahili boma (enclosed homestead); Russian бок (bok = side of a house).  
           
         And pupi is mimicking the sound of falling water :).  
     
-    Here's another word with this root:  
-    **lupupi** = rain (outside + falling water), just like bospupi = shower (bathroom + falling water).  
-        
     Now that we are learning **locations**, there is a word that is very useful for this! When we want to talk about location, we use *en*. This means on/at/in.
     For example,
     
@@ -160,8 +158,10 @@
 
     ## Matching Games
     
-    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
+    Time to practice! Match the Oravia words with their English meanings.
+    
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
+    
     Click one word from each column to match them. The game will check automatically when you select both words.
     
     ---
@@ -189,8 +189,10 @@
 
     ## Matching Games
 
-    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
+    Time to practice! Match the Oravia words with their English meanings.
+
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
+
     Click one word from each column to match them. The game will check automatically when you select both words.
 
     After completing the Exercises and Review, try it again to see how much you've improved.

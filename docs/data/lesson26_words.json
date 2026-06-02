@@ -55,94 +55,84 @@
         "y",
         "n"
       ],
-      "words_per_bucket": 2,
-      "allow_repeats": true
-    },
-    {
-      "round": 7,
-      "title": "Round 7",
-      "buckets": [
-        "n"
-      ],
-      "words_per_bucket": 3,
-      "allow_repeats": true
+      "words_per_bucket": 2
     }
   ],
   "words": [
     {
-      "id": "lesson26_y_1",
+      "id": "yu_y1",
       "oravia": "yuvabo",
       "english": "comfortable",
       "bucket": "y"
     },
     {
-      "id": "lesson26_y_2",
+      "id": "yu_y2",
       "oravia": "yugai",
       "english": "easy",
       "bucket": "y"
     },
     {
-      "id": "lesson26_y_3",
+      "id": "yu_y3",
       "oravia": "yuba",
       "english": "good",
       "bucket": "y"
     },
     {
-      "id": "lesson26_y_4",
+      "id": "yu_y4",
       "oravia": "yudur",
       "english": "hard",
       "bucket": "y"
     },
     {
-      "id": "lesson26_y_5",
+      "id": "yu_y5",
       "oravia": "yufer",
       "english": "dirty",
       "bucket": "y"
     },
     {
-      "id": "lesson26_y_6",
+      "id": "yu_y6",
       "oravia": "yuloa",
       "english": "perfect",
       "bucket": "y"
     },
     {
-      "id": "lesson26_n_1",
+      "id": "yu_n1",
       "oravia": "yunmir",
       "english": "rich",
       "bucket": "n"
     },
     {
-      "id": "lesson26_n_2",
+      "id": "yu_n2",
       "oravia": "yunro",
       "english": "smart",
       "bucket": "n"
     },
     {
-      "id": "lesson26_n_3",
+      "id": "yu_n3",
       "oravia": "yunpili",
       "english": "timid",
       "bucket": "n"
     },
     {
-      "id": "lesson26_n_4",
+      "id": "yu_n4",
       "oravia": "yunfou",
       "english": "poor",
       "bucket": "n"
     },
     {
-      "id": "lesson26_n_5",
+      "id": "yu_n5",
       "oravia": "yunitam",
       "english": "special",
       "bucket": "n"
     },
     {
-      "id": "lesson26_n_6",
+      "id": "yu_n6",
       "oravia": "yunmpou",
       "english": "lazy",
       "bucket": "n"
     },
     {
-      "id": "lesson26_n_7",
+      "id": "yu_n7",
       "oravia": "yunrani",
       "english": "beautiful",
       "bucket": "n"

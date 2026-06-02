@@ -1,7 +1,7 @@
 # Lesson 1: Personal Pronouns
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
+    Every lesson is divided into four sections: **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later! 
 
@@ -100,7 +100,7 @@
         <p style="font-size: 1.1rem; margin: 0;"><strong>That's right!</strong> It's about <strong>food: eating and drinking</strong>.</p>
     </div>
         
-    !!! info "🌍 Sound Connections"
+    !!! info "🌍 Fun Fact"
         Many languages use something similar to "mo" for food because it's a sound of lips together. For example, Hawaiian moku (to eat, archaic); Swahili mlo (meal); Korean 먹다 meokda (to eat); Japanese もぐもぐ mogu-mogu (onomatopoeia for eating/chewing); English yummy.
         
     ---
@@ -109,8 +109,10 @@
 
     ## Matching Games
     
-    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
+    Time to practice! Match the Oravia words with their English meanings.
+    
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
+    
     Click one word from each column to match them. The game will check automatically when you select both words.
     
     ---

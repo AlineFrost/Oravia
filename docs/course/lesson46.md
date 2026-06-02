@@ -67,8 +67,40 @@
     iron, gold, silver, calcium, oxygen
     ```
     
-    ORDINAL
+    We already know the markers *a* (subject), *e* (direct object), *i* (verb) and *u* (indirect object). This lesson we will learn our last marker, *o*. 
     
+    We use *o* to give emphasis to what comes after it. Here are some examples:
+    
+    ``` 
+    o nim! = it's me!  
+    o nima i anvu = WE will go  
+    run o faibor = you're the one  
+    o faejal = the man  
+    i anona o u run = I give it to YOU (and not someone else)
+    ```
+    
+    If we use it before the verb, we emphasize the action. Without a specific subject, it can be read as an order:
+    
+    ``` 
+    o i anona! = give it!
+    o yadetu! = stop!
+    ```
+    
+    If we use it before the verb complement, we emphasize the complement and de-emphasize the subject. This is how we build passive voice:
+    
+    ``` 
+    o e leirih i vonlu = the tree was touched
+    i yean o e yemiodu = the pillow was sewn
+    a eofa i vanpai o e falen = the kid was kicked by the friend
+    ```
+   
+    To sum up:
+  
+    ```     
+    o marker = emphasis
+    o i [verb] = imperative, orders (emphasis on the action)
+    o e [object] = passive (emphasis on the object)
+    ```
     
     Now try to create 3 sentences using *o*.
     

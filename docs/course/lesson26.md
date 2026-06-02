@@ -1,7 +1,7 @@
 # Lesson 26: Sequences
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
+    Every lesson is divided into five sections: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order. After you finish, *try the Exercises and Review again* to see how much you've improved.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -108,14 +108,11 @@
     <div id="subcluster5-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
     <p style="margin: 0;">The <strong>YUN</strong> subcluster is about <strong>personal characteristics</strong>!</p>
     </div>
-   
-    *Yunmir* means something like "having a lot", as in "rich culture". To specify rich as in wealthy, you may say *gerina yunmir*, but in practice many shorten this to *yunmir* as well.
-    
-    !!! info "🌍 Sound Connections"
+
+    !!! info "🌍 Fun Fact"
         Mir comes from Sanskrit मीर mīr (leader of many). 
-    
-    Here's another word that uses this root:    
-    **roumir** = book (writing + many), just like yunmir = rich (subjective quality + many)   
+        
+        
         
     Ce rune yun?
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
@@ -126,8 +123,10 @@
 
     ## Matching Games
 
-    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
+    Time to practice! Match the Oravia words with their English meanings.
+
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
+
     Click one word from each column to match them. The game will check automatically when you select both words.
 
     ---
@@ -154,8 +153,10 @@
 
     ## Matching Games
 
-    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
+    Time to practice! Match the Oravia words with their English meanings.
+
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
+
     Click one word from each column to match them. The game will check automatically when you select both words.
 
     After completing the Exercises and Review, try it again to see how much you've improved.

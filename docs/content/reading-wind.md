@@ -1,6 +1,6 @@
 # Wirel Lufu su Lusari
 
-**Level:** Expansion  
+**Level:** Fluency  
 **Topic:** A fable about strength and persuasion  
 
 ---

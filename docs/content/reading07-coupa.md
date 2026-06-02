@@ -1,6 +1,6 @@
 # The Tower Card
 
-**Level:** Expansion  
+**Level:** Fluency  
 **Topic:** The missing tower card from a tarot deck  
 
 ---

@@ -1,7 +1,6 @@
-# Vocabulary List
+# Vocabulary List (beta)
 
-Oravia is highly stable, any changes are made by community feedback or beta tester data.
-(Note: previous versions of "ciu" words were "cei").
+This is a beta version of the vocabulary list. Any changes such as deleted or edited words will ultimately depend on beta testers' feedback. At the moment, I think the total word list may get cut down to about 750 (keep only what is ultimately covered in the course, still in progress).  
 
 Search and filter all Oravia words. Click any column header to sort.  
 
@@ -17,14 +16,6 @@ Search and filter all Oravia words. Click any column header to sort.
     style="padding: 0.4rem 0.75rem; border: 2px solid #4a9cd6; border-radius: 6px; font-size: 0.9rem; font-family: inherit; background: white;">
     <option value="">All lessons</option>
   </select>
-  <select id="vocab-field"
-    style="padding: 0.4rem 0.75rem; border: 2px solid #4a9cd6; border-radius: 6px; font-size: 0.9rem; font-family: inherit; background: white;">
-    <option value="">All fields</option>
-    <option value="cluster">(Sub)cluster</option>
-    <option value="root">Root</option>
-    <option value="oravia">Oravia word</option>
-    <option value="english">English</option>
-  </select>
   <span id="vocab-count" style="color: #5a8bb8; font-size: 0.85rem;"></span>
 </div>
 
@@ -34,7 +25,7 @@ Search and filter all Oravia words. Click any column header to sort.
     <tr id="vocab-header" style="background:#e3f2fd; cursor:pointer; user-select:none;">
       <th data-col="cluster_name"  style="position:sticky;top:0;background:#e3f2fd;padding:0.35rem 0.5rem;text-align:left;  color:#3182bd;border-bottom:2px solid #4a9cd6;white-space:nowrap;z-index:1;">Cluster ↕</th>
       <th data-col="cluster_sound" style="position:sticky;top:0;background:#e3f2fd;padding:0.35rem 0.5rem;text-align:left;  color:#3182bd;border-bottom:2px solid #4a9cd6;white-space:nowrap;z-index:1;">Sound ↕</th>
-      <th data-col="subcluster"    style="position:sticky;top:0;background:#e3f2fd;padding:0.35rem 0.5rem;text-align:left;  color:#3182bd;border-bottom:2px solid #4a9cd6;white-space:nowrap;z-index:1;">(Sub)cluster ↕</th>
+      <th data-col="subcluster"    style="position:sticky;top:0;background:#e3f2fd;padding:0.35rem 0.5rem;text-align:left;  color:#3182bd;border-bottom:2px solid #4a9cd6;white-space:nowrap;z-index:1;">Subcluster ↕</th>
       <th data-col="root"          style="position:sticky;top:0;background:#e3f2fd;padding:0.35rem 0.5rem;text-align:left;  color:#3182bd;border-bottom:2px solid #4a9cd6;white-space:nowrap;z-index:1;">Root ↕</th>
       <th data-col="oravia"        style="position:sticky;top:0;background:#e3f2fd;padding:0.35rem 0.5rem;text-align:left;  color:#3182bd;border-bottom:2px solid #4a9cd6;white-space:nowrap;z-index:1;">Oravia ↕</th>
       <th data-col="english"       style="position:sticky;top:0;background:#e3f2fd;padding:0.35rem 0.5rem;text-align:left;  color:#3182bd;border-bottom:2px solid #4a9cd6;white-space:nowrap;z-index:1;">English ↕</th>
@@ -54,20 +45,9 @@ Search and filter all Oravia words. Click any column header to sort.
   let sortCol = null;
   let sortAsc = true;
 
-  let validRoots = new Set();
-  let validSubclusters = new Set();
-
   try {
-    const [vocabRes, bbRes] = await Promise.all([
-      fetch(baseUrl + '/data/vocabulary.json'),
-      fetch(baseUrl + '/data/building_blocks.json')
-    ]);
-    allData = await vocabRes.json();
-    const bbData = await bbRes.json();
-    bbData.forEach(r => {
-      if (r.type === 'root') validRoots.add(r.sound);
-      if (r.type === 'subcluster') validSubclusters.add(r.sound);
-    });
+    const res = await fetch(baseUrl + '/data/vocabulary.json');
+    allData = await res.json();
   } catch(e) {
     document.querySelector('div[style*="overflow-x"]').innerHTML =
       '<p style="color:#f44336;">Could not load vocabulary data.</p>';
@@ -108,12 +88,7 @@ Search and filter all Oravia words. Click any column header to sort.
       if (cl && r.cluster_name !== cl) return false;
       if (ls && r.lesson !== ls) return false;
       if (q) {
-        const field = document.getElementById('vocab-field').value;
-        const hay = field === 'cluster' ? ((r.cluster_name||'')+' '+(r.cluster_sound||'')+' '+(r.subcluster||'')).toLowerCase()
-                  : field === 'root'    ? (r.root||'').toLowerCase()
-                  : field === 'oravia'  ? (r.oravia||'').toLowerCase()
-                  : field === 'english' ? ((r.english||'')+' '+(r.english_all||'')).toLowerCase()
-                  : ((r.cluster_name||'')+' '+(r.cluster_sound||'')+' '+(r.subcluster||'')+' '+(r.root||'')+' '+r.oravia+' '+r.english+' '+(r.english_all||'')).toLowerCase();
+        const hay = (r.oravia+' '+r.english+' '+(r.english_all||'')).toLowerCase();
         if (!hay.includes(q)) return false;
       }
       return true;
@@ -143,23 +118,14 @@ Search and filter all Oravia words. Click any column header to sort.
       tr.addEventListener('mouseenter', ()=>tr.style.background='#e8f4fb');
       tr.addEventListener('mouseleave', ()=>tr.style.background=bg);
 
-      const subcl_raw = (r.subcluster && r.subcluster !== r.cluster_sound) ? r.subcluster : null;
-      const subcl = subcl_raw
-        ? (validSubclusters.has(subcl_raw)
-            ? '<a href="/content/building_blocks/" data-bb="' + subcl_raw + '" class="bb-link" style="color:#777;text-decoration:none;font-weight:600;">' + subcl_raw.toUpperCase() + '</a>'
-            : '<span style="color:#777;font-weight:600;">' + subcl_raw.toUpperCase() + '</span>')
-        : '<a href="/content/building_blocks/" data-bb="' + r.cluster_sound + '" class="bb-link" style="color:#777;text-decoration:none;font-weight:600;">' + r.cluster_sound.toUpperCase() + '</a>';
-      const root_cell = r.root
-        ? (validRoots.has(r.root)
-            ? '<a href="/content/building_blocks/" data-bb="' + r.root + '" class="bb-link" style="color:inherit;text-decoration:none;">' + r.root + '</a>'
-            : '<span style="color:#aaa;">' + r.root + '</span>')
-        : '—';
+      const subcl = (r.subcluster && r.subcluster !== r.cluster_sound)
+        ? r.subcluster.toUpperCase() : '—';
 
       tr.innerHTML =
         '<td style="padding:0.28rem 0.5rem;color:#555;">'+r.cluster_name+'</td>'+
         '<td style="padding:0.28rem 0.5rem;font-weight:600;color:#4a9cd6;">'+r.cluster_sound+'</td>'+
         '<td style="padding:0.28rem 0.5rem;color:#777;">'+subcl+'</td>'+
-        '<td style="padding:0.28rem 0.5rem;">'+root_cell+'</td>'+
+        '<td style="padding:0.28rem 0.5rem;color:#5a8bb8;">'+(r.root||'—')+'</td>'+
         '<td style="padding:0.28rem 0.5rem;font-weight:600;color:#2c6e9e;">'+r.oravia+'</td>'+
         '<td style="padding:0.28rem 0.5rem;">'+r.english+'</td>'+
         '<td style="padding:0.28rem 0.5rem;color:#6b7f8a;">'+(r.english_all||'—')+'</td>'+
@@ -181,22 +147,6 @@ Search and filter all Oravia words. Click any column header to sort.
   document.getElementById('vocab-search').addEventListener('input', render);
   clusterSel.addEventListener('change', render);
   lessonSel.addEventListener('change', render);
-  document.getElementById('vocab-field').addEventListener('change', render);
-
-  // Store exact sound for building blocks links
-  document.addEventListener('click', function(e) {
-    const link = e.target.closest('.bb-link');
-    if (link) {
-      sessionStorage.setItem('bb_exact', link.dataset.bb);
-    }
-  });
-
-  // Read exact word filter from building blocks
-  const vocabExact = sessionStorage.getItem('vocab_exact');
-  if (vocabExact) {
-    document.getElementById('vocab-search').value = vocabExact;
-    sessionStorage.removeItem('vocab_exact');
-  }
 
   render();
 })();

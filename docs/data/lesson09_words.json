@@ -6,74 +6,37 @@
     {
       "round": 1,
       "title": "Round 1",
-      "buckets": [
-        "all"
-      ],
-      "words_per_bucket": 3
+      "buckets": ["e", "o", "n"],
+      "words_per_bucket": 1
     },
     {
       "round": 2,
       "title": "Round 2",
-      "buckets": [
-        "all"
-      ],
-      "words_per_bucket": 3
+      "buckets": ["e", "i", "n"],
+      "words_per_bucket": 1
     },
     {
       "round": 3,
       "title": "Round 3",
-      "buckets": [
-        "all"
-      ],
-      "words_per_bucket": 3,
-      "allow_repeats": true
+      "buckets": ["i", "n"],
+      "words_per_bucket": 1
     },
     {
       "round": 4,
       "title": "Round 4",
-      "buckets": [
-        "all"
-      ],
-      "words_per_bucket": 4,
+      "buckets": ["e", "o", "i", "n"],
+      "words_per_bucket": 1,
       "allow_repeats": true
     }
   ],
   "words": [
-    {
-      "id": "lesson09_i_1",
-      "oravia": "anidai",
-      "english": "want",
-      "bucket": "all"
-    },
-    {
-      "id": "lesson09_i_2",
-      "oravia": "anifou",
-      "english": "need",
-      "bucket": "all"
-    },
-    {
-      "id": "lesson09_n_1",
-      "oravia": "anye",
-      "english": "make",
-      "bucket": "all"
-    },
-    {
-      "id": "lesson09_n_2",
-      "oravia": "ando",
-      "english": "can",
-      "bucket": "all"
-    },
-    {
-      "id": "lesson09_be_1",
-      "oravia": "beivu",
-      "english": "car",
-      "bucket": "all"
-    },
-    {
-      "id": "lesson09_ro_1",
-      "oravia": "roesau",
-      "english": "study",
-      "bucket": "all"
-    }
+    {"id": "e_1", "oravia": "anefene", "english": "rest", "bucket": "e"},
+    {"id": "e_2", "oravia": "anepou", "english": "stop", "bucket": "e"},
+    {"id": "i_1", "oravia": "anidai", "english": "want", "bucket": "i"},
+    {"id": "i_2", "oravia": "anifou", "english": "need", "bucket": "i"},
+    {"id": "o_1", "oravia": "anona", "english": "give", "bucket": "o"},
+    {"id": "n_1", "oravia": "anye", "english": "make", "bucket": "n"},
+    {"id": "n_2", "oravia": "ando", "english": "can", "bucket": "n"},
+    {"id": "n_3", "oravia": "anvu", "english": "move", "bucket": "n"}
   ]
 }

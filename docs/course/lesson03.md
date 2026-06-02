@@ -1,7 +1,7 @@
 # Lesson 3: FA Cluster
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
+    Every lesson is divided into four sections: **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order. After you finish, *try the Exercises and Review again* to see how much you’ve improved.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -125,10 +125,11 @@
     
     | Oravia | English |
     |--------|---------|
-    | faibor | romantic partner |
+    | faibor | spouse |
+    | faofa | cousin |
     | fare | parent |
     | falni | baby |
-    | fasu | sibling|
+    | falen | child |
     
     What do you think the words that start in *FA* have in common?
     
@@ -142,16 +143,11 @@
         <p style="margin: 0;">That's right! FA words are related to <strong>family</strong>.</p>
     </div>
     
-    !!! info "🌍 Sound Connections"
+    !!! info "🌍 Fun Fact"
         Fa is like Latin familia, which is where the English word family comes from.  
           
         Parent uses the root re(l), which comes from Latin relevare (to lift, raise up). This is because parents are one generation above!  
-        
-        The root ni in Falni (baby) comes from the Proto-Indo-European root newo, which shares Greek νέος neos (young, fresh, recent), and English new.
-        
-    Here are other word that use these roots:  
-    **yani** = new (quality + new), just like falni = baby (child + new).  
-    **wirel** = north (geography + up), just like fare = parent (family member + up).  
+
         
     Can you create 2 sentences using these words?  
     
@@ -165,8 +161,10 @@
 
     ## Matching Games
     
-    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
+    Time to practice! Match the Oravia words with their English meanings.
+    
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
+    
     Click one word from each column to match them. The game will check automatically when you select both words.
     
     After completing the Exercises and Review, try it again to see how much you've improved.

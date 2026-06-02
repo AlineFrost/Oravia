@@ -1,7 +1,7 @@
 # Lesson 25: YU Cluster
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
+    Every lesson is divided into five sections: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order. After you finish, *try the Exercises and Review again* to see how much you've improved.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -131,14 +131,10 @@
     
     The **YA** Cluster is for objective qualities, things that can be measured like tall, big, solid. The **YU** Cluster is for subjective qualities, like difficult, perfect and special. 
         
-    !!! info "🌍 Sound Connections"
-        Loa means all / complete and comes from Hawaiian loa (very much, extremely).
+    !!! info "🌍 Fun Fact"
+        Loa means complete and comes from Hawaiian loa (very much, extremely).
         
         Dur is like Latin durus (hard, tough), which is reflected in word such as Spanish duro, French dur, and Portuguese duro.
-    
-    Other words that use these roots:    
-    **vidur** = bone (internal body + hard), just like yudur = hard, difficult (subjective quality + hard)  
-    **joldur** = iron (material types + hard)
         
     !!! tip "Sound Connections"
         Any words in the table above have sounds you already know from other words? What do they mean?
@@ -158,8 +154,10 @@
 
     ## Matching Games
 
-    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
+    Time to practice! Match the Oravia words with their English meanings.
+
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
+
     Click one word from each column to match them. The game will check automatically when you select both words.
 
     ---
@@ -186,8 +184,10 @@
 
     ## Matching Games
 
-    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
+    Time to practice! Match the Oravia words with their English meanings.
+
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
+
     Click one word from each column to match them. The game will check automatically when you select both words.
 
     After completing the Exercises and Review, try it again to see how much you've improved.

@@ -1,7 +1,7 @@
 # Lesson 18: CA Connectors
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
+    Every lesson is divided into five sections: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order. After you finish, *try the Exercises and Review again* to see how much you’ve improved.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -117,7 +117,26 @@
     <p style="margin: 0;"> <strong>LITE</strong> is for <strong>Clock time!</strong> </p>
     </div>
 
-    There's something else here. We actually have:
+    
+    !!! info "🌍 Fun Fact"
+        Go means "half", coming from Japanese 五 go (five, half of ten).  
+        
+        Nu means "limit", like Greek νυ nu (particle marking limits in ancient poetry).  
+
+    There's something else here. Wait... *lite + gai*... Do we have any clues what *gai* may mean? Have you seen a word with *gai* before?
+    
+
+    <div style="text-align: center; margin: 2rem 0;">
+    <button onclick="document.getElementById('cluster-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+        Click to Reveal Answer
+    </button>
+    </div>
+    
+    <div id="cluster-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+    <p style="margin: 0;"> We've seen <strong>yangai</strong> before, and it means <strong>small, little</strong>. That's what <strong>gai</strong> means! </p>
+    </div>
+    
+    So *tan* from *tan* means... That's right! It means *big*. We actually have:
     
     ```
     lite + gai = clock time + small = minute
@@ -169,11 +188,6 @@
     lidastor = li + dastor (12) = year
     ```
     
-        !!! info "🌍 Sound Connections"
-        Go means "half", coming from Japanese 五 go (five, half of ten).  
-        
-        Nu means "limit", like Greek νυ nu (particle marking limits in ancient poetry).  
-    
     You got it! You are now ready for the Exercise!
 
 
@@ -181,8 +195,10 @@
 
     ## Matching Games
 
-    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
+    Time to practice! Match the Oravia words with their English meanings.
+
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
+
     Click one word from each column to match them. The game will check automatically when you select both words.
 
     ---
@@ -209,8 +225,10 @@
 
     ## Matching Games
 
-    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
+    Time to practice! Match the Oravia words with their English meanings.
+
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
+
     Click one word from each column to match them. The game will check automatically when you select both words.
 
     After completing the Exercises and Review, try it again to see how much you've improved.

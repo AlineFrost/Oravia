@@ -6,107 +6,98 @@
     {
       "round": 1,
       "title": "Round 1",
-      "buckets": [
-        "all"
-      ],
-      "words_per_bucket": 3
+      "buckets": ["a", "i", "il", "o"],
+      "words_per_bucket": 1
     },
     {
       "round": 2,
       "title": "Round 2",
-      "buckets": [
-        "all"
-      ],
-      "words_per_bucket": 3
+      "buckets": ["a", "i"],
+      "words_per_bucket": 2
     },
     {
       "round": 3,
       "title": "Round 3",
-      "buckets": [
-        "all"
-      ],
-      "words_per_bucket": 3,
-      "allow_repeats": true
+      "buckets": ["il", "o"],
+      "words_per_bucket": 2
     },
     {
       "round": 4,
       "title": "Round 4",
-      "buckets": [
-        "all"
-      ],
-      "words_per_bucket": 3,
+      "buckets": ["o"],
+      "words_per_bucket": 2,
       "allow_repeats": true
     },
     {
       "round": 5,
       "title": "Round 5",
-      "buckets": [
-        "all"
-      ],
-      "words_per_bucket": 3,
+      "buckets": ["a"],
+      "words_per_bucket": 2,
       "allow_repeats": true
     },
     {
       "round": 6,
       "title": "Round 6",
-      "buckets": [
-        "all"
-      ],
-      "words_per_bucket": 4,
+      "buckets": ["il"],
+      "words_per_bucket": 2,
       "allow_repeats": true
     },
     {
       "round": 7,
       "title": "Round 7",
-      "buckets": [
-        "all"
-      ],
-      "words_per_bucket": 4,
+      "buckets": ["i"],
+      "words_per_bucket": 2,
       "allow_repeats": true
     }
   ],
   "words": [
     {
-      "id": "lesson15_exercise2_lesson07_il_1",
-      "oravia": "ilhei",
-      "english": "people",
-      "bucket": "all"
-    },
-    {
-      "id": "lesson15_exercise2_lesson07_il_2",
-      "oravia": "sioce",
-      "english": "puzzle",
-      "bucket": "all"
-    },
-    {
-      "id": "lesson15_exercise2_lesson07_a_1",
+      "id": "a_1",
       "oravia": "ilace",
       "english": "ask",
-      "bucket": "all"
+      "bucket": "a"
     },
     {
-      "id": "lesson15_exercise2_lesson07_a_2",
+      "id": "a_2",
       "oravia": "ilaluan",
       "english": "say",
-      "bucket": "all"
+      "bucket": "a"
     },
     {
-      "id": "lesson15_exercise2_lesson07_i_1",
-      "oravia": "iliro",
-      "english": "think",
-      "bucket": "all"
+      "id": "i_1",
+      "oravia": "ilian",
+      "english": "know",
+      "bucket": "i"
     },
     {
-      "id": "lesson15_exercise2_lesson07_o_1",
-      "oravia": "sunya",
-      "english": "nothing",
-      "bucket": "all"
+      "id": "i_2",
+      "oravia": "ilie",
+      "english": "maybe",
+      "bucket": "i"
     },
     {
-      "id": "lesson15_exercise2_lesson07_o_2",
-      "oravia": "veito",
-      "english": "wound",
-      "bucket": "all"
+      "id": "o_1",
+      "oravia": "ilonya",
+      "english": "forget",
+      "bucket": "o"
+    },
+    {
+      "id": "o_2",
+      "oravia": "iloto",
+      "english": "worry",
+      "bucket": "o"
+    },
+    {
+      "id": "il_1",
+      "oravia": "ilwol",
+      "english": "thing",
+      "bucket": "il"
+    },
+    {
+      "id": "il_2",
+      "oravia": "ilhei",
+      "english": "people",
+      "bucket": "il"
     }
   ]
 }

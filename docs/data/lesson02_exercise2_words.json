@@ -6,66 +6,29 @@
     {
       "round": 1,
       "title": "Round 1",
-      "buckets": [
-        "singular"
-      ],
+      "buckets": ["singular"],
       "words_per_bucket": 3
     },
     {
       "round": 2,
       "title": "Round 2",
-      "buckets": [
-        "plural"
-      ],
+      "buckets": ["plural"],
       "words_per_bucket": 3
     },
     {
       "round": 3,
       "title": "Round 3",
-      "buckets": [
-        "singular",
-        "plural"
-      ],
+      "buckets": ["singular", "plural"],
       "words_per_bucket": 2,
       "allow_repeats": true
     }
   ],
   "words": [
-    {
-      "id": "lesson02_exercise2_pr_001",
-      "oravia": "nim",
-      "english": "I",
-      "bucket": "singular"
-    },
-    {
-      "id": "lesson02_exercise2_pr_002",
-      "oravia": "run",
-      "english": "you",
-      "bucket": "singular"
-    },
-    {
-      "id": "lesson02_exercise2_pr_003",
-      "oravia": "hay",
-      "english": "he/she/they (singular)",
-      "bucket": "singular"
-    },
-    {
-      "id": "lesson02_exercise2_pr_004",
-      "oravia": "nima",
-      "english": "we",
-      "bucket": "plural"
-    },
-    {
-      "id": "lesson02_exercise2_pr_005",
-      "oravia": "runa",
-      "english": "you (plural)",
-      "bucket": "plural"
-    },
-    {
-      "id": "lesson02_exercise2_pr_006",
-      "oravia": "haya",
-      "english": "they (plural)",
-      "bucket": "plural"
-    }
+    {"id": "pr_001", "oravia": "nim",  "english": "I",                      "bucket": "singular"},
+    {"id": "pr_002", "oravia": "run",  "english": "you",                    "bucket": "singular"},
+    {"id": "pr_003", "oravia": "hay",  "english": "he/she/they (singular)", "bucket": "singular"},
+    {"id": "pr_004", "oravia": "nima", "english": "we",                     "bucket": "plural"},
+    {"id": "pr_005", "oravia": "runa", "english": "you (plural)",           "bucket": "plural"},
+    {"id": "pr_006", "oravia": "haya", "english": "they (plural)",          "bucket": "plural"}
   ]
 }

@@ -1,7 +1,7 @@
 # Lesson 11: IL Cluster
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
+    Every lesson is divided into five sections: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order. After you finish, *try the Exercises and Review again* to see how much you’ve improved.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later! 
 
@@ -113,7 +113,7 @@
     | iliro | think |
     | iloto | worry |
     
-    The **IL** cluster has words related to inquiry and cognition, that is, the desire and need to **know**. It includes asking and sharing information, mental processes, and feelings that come from not knowing. 
+    The **IL** cluster has words related to inquiry, that is, the desire and need to **know**. It includes asking and sharing information, mental processes, and feelings that come from not knowing. 
     
     These words are very powerful to talk about a variety of things, because inquiry is essential to who we are as humans.  
     
@@ -127,26 +127,25 @@
     | ilaluan | to say, saying |
     | iliro | to think, thought, opinion |
     | iloto | worry, concern, to worry |
+    
+    You are ready for the Exercise now!
 
     
-    !!! info "🌍 Sound Connections"
+    !!! info "🌍 Fun Fact"
         Ce means "what", just like in many Romance languages que/ce.  
         
         Nya is empty, from Sanskrit शून्य śūnya (nothingness, emptiness).
         
         To is suffering, like Indonesian tobat (remorse, suffering from wrongdoing); Latin torquere (to twist, torture).  
-        
-    That's why we have:  
-    **sunya** = nothing, zero; just like ilonya = forget (uncertain cognition + nothing).  
-    **sioce** = puzzle (games cluster + what?), just like ilace = question, to ask (communication of cognition + what?)  
-    **veito** = wound (health issues + suffering), just like iloto = worry (cognition + suffering)  
 
 === "Exercise 1"
 
     ## Matching Games
     
-    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
+    Time to practice! Match the Oravia words with their English meanings.
+    
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
+    
     Click one word from each column to match them. The game will check automatically when you select both words.
     
     ---
@@ -174,8 +173,10 @@
 
     ## Matching Games
 
-    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
+    Time to practice! Match the Oravia words with their English meanings.
+
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
+
     Click one word from each column to match them. The game will check automatically when you select both words.
 
     After completing the Exercises and Review, try it again to see how much you've improved.

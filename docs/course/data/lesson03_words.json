@@ -1,79 +1,19 @@
 {
-  "lesson_id": "lesson03",
+  "lesson_id": "lesson02",
   "cluster": "mo",
   "cluster_meaning": "food and drink",
-  "rounds": [
-    {
-      "round": 1,
-      "title": "Round 1",
-      "buckets": [
-        "mol",
-        "mo_on"
-      ],
-      "words_per_bucket": 1
-    },
-    {
-      "round": 2,
-      "title": "Round 2",
-      "buckets": [
-        "moa"
-      ],
-      "words_per_bucket": 2
-    },
-    {
-      "round": 3,
-      "title": "Round 3",
-      "buckets": [
-        "mo_other"
-      ],
-      "words_per_bucket": 2
-    },
-    {
-      "round": 4,
-      "title": "Round 4",
-      "buckets": [
-        "mo_other"
-      ],
-      "words_per_bucket": 2,
-      "allow_repeats": true
-    }
-  ],
   "words": [
-    {
-      "id": "lesson03_moa_1",
-      "oravia": "moaria",
-      "english": "apple",
-      "bucket": "moa"
-    },
-    {
-      "id": "lesson03_moa_2",
-      "oravia": "yogali",
-      "english": "brown",
-      "bucket": "moa"
-    },
-    {
-      "id": "lesson03_mol_1",
-      "oravia": "molcui",
-      "english": "bowl",
-      "bucket": "mol"
-    },
-    {
-      "id": "lesson03_mo_on_1",
-      "oravia": "yalen",
-      "english": "long",
-      "bucket": "mo_on"
-    },
-    {
-      "id": "lesson03_mo_other_1",
-      "oravia": "mouje",
-      "english": "drink",
-      "bucket": "mo_other"
-    },
-    {
-      "id": "lesson03_mo_other_2",
-      "oravia": "mocen",
-      "english": "chocolate",
-      "bucket": "mo_other"
-    }
+    { "id": "mo_001", "oravia": "molban", "english": "cup", "round": 1 },
+    { "id": "mo_004", "oravia": "moaria", "english": "apple", "round": 1 },
+    { "id": "mo_007", "oravia": "moyi", "english": "sugar", "round": 1 },
+
+    { "id": "mo_008", "oravia": "moyam", "english": "spice", "round": 2 },
+    { "id": "mo_002", "oravia": "molcui", "english": "bowl", "round": 2 },
+    { "id": "mo_005", "oravia": "moalen", "english": "banana", "round": 2 },
+
+    { "id": "mo_009", "oravia": "moulu", "english": "milk", "round": 3 },
+    { "id": "mo_003", "oravia": "molvou", "english": "bottle", "round": 3 },
+    { "id": "mo_006", "oravia": "moanih", "english": "berry", "round": 3 }
   ]
 }
+

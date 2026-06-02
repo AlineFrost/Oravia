@@ -42,7 +42,7 @@ Lina i vardei e mo ca Ana i boemo. I varsi yuba.
 
 Haya i vardei e fene en litegai.
 
-“I miotan cali a nima a falen?" Ana i ansau i ilahai. " A nim a micear, mai a run i anidai a eofa. Notor i mo, lirular nima i apaleno en nime leayo, i aparih su nime fare, no mioici i anodu e leirih! Neron, nime farejal nedas lirul i ilahai…”
+“I miotan cali a nima a falen?" Ana i ansau i ilahai. " A nim a micear, mai a run i anidai a eofa. Notor i mo, lirular nima i apaleno en nime leayo, i apaluon su nime fare, no mioici i anodu e leirih! Neron, nime farejal nedas lirul i ilahai…”
 
 “...ca yesmel i tane yufer.” Lina i yadetu, a oimin. 
 
@@ -69,7 +69,7 @@ anivari = to be back, to come back
 anifi = to arrive, to come  
 anocari = leave  
 apaleno = dig  
-aparih = jump  
+apaluon = jump  
 anro = to decide  
 (an)sau = start  
 anodu = top, the most   
@@ -185,7 +185,7 @@ I miotan cali a nima a falen?
 A nim a micear, mai a run i anidai a eofa.  
 *I was a rabbit (shy), but you wanted to be friends.*
 
-Notor i mo, lirular nima i apaleno en nime leayo, i aparih su nime fare, no a mioci i anodu e leirih!  
+Notor i mo, lirular nima i apaleno en nime leayo, i apaluon su nime fare, no a mioci i anodu e leirih!  
 *Second we would eat, [first] we used to dig in my garden, jump with my parents, like monkeys go to the top of trees!*
 
 Bi ho yuvabo, roena hai i bortal.  
@@ -286,7 +286,7 @@ How was Ana and Lina's childhood? Write 3 sentences about it:
 <p style="margin: 0 0 0.5rem 0;">"Do you remember when we were children?" Ana starts to say, "I was shy, but you wanted to be friends. Before eating, we used to dig in my garden and jump with my parents, like monkeys we would climb trees! Also, my father always used to say…"</p>
 <p style="margin: 0 0 0.5rem 0;">"...that dresses should be dirty." Lina finishes [the sentence], amused.</p>
 <p style="margin: 0 0 0.5rem 0;">Uncomfortable: the teacher enters.</p>
-<p style="margin: 0 0 0.5rem 0;">"First you start cooking, Lina." [The teacher] says, fierce as a bear. "Then you two take the exam. You have the obligation not to talk."</p>
+<p style="margin: 0 0 0.5rem 0;">"First you start cooking, Lina." He says, fierce as a bear. "Then you two take the exam. You have the obligation not to talk."</p>
 <p style="margin: 0 0 0.5rem 0;">Lina starts cooking and thinks: today will be long. But when she decided to cook something from her childhood also, she was back in Ana's garden, and the light arrived again.</p>
 </div>
 
@@ -302,7 +302,7 @@ You can now:
 - Recognize extended meanings of words from their cluster roots
 - Express nuance, like what used to be true, what should happen, what would be different
 
-**Congratulations! You have reached the last third of the Course!**
+**Congratulations! You have reached the halfway point of Fluency!**
 
 <div style="text-align: center; padding: 2rem 0; background: #e0f2f1; border-radius: 8px; margin-top: 3rem;">
     <p style="font-size: 1.2rem; color: #4a9cd6; margin-bottom: 1rem;">

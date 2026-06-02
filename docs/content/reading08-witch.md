@@ -1,6 +1,6 @@
 # The Witch House
 
-**Level:** Expansion     
+**Level:** Extension   
 **Topic:** The character approaches a witch house  
 
 ---
