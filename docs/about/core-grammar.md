@@ -275,7 +275,7 @@ Because the sounds aren't arbitrary, once you know the associations, you can mak
 
 Now that you know a little of how the vocabulary works, you can explore:
 
-[Full vocabulary](../content/vocabulary.md)  
+[Full vocabulary](../content/dictionary.md)  
 [Building blocks](../content/building_blocks.md)  
 [Blocks Cheat Sheet](../content/cheat.md)  
 
@@ -368,7 +368,7 @@ Don't worry too much about perfect grammar, the goal is communication.
 
 **Ready to go further?**
 
-Why don't you search some words in the [Vocabulary](../content/vocabulary.md) and try creating some sentences on [Discord](https://discord.com/invite/FWavWeG)?
+Why don't you search some words in the [Vocabulary](../content/dictionary.md) and try creating some sentences on [Discord](https://discord.com/invite/FWavWeG)?
 
 **20 Hours to Oravia!**  
 Complete the course: 60 lessons of ~15 minutes each.  

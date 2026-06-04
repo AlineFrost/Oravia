@@ -311,4 +311,4 @@
 
 ---
 
-[← Back to Resources](resources.md)
+
