@@ -3213,7 +3213,7 @@
 <td>finger</td>
 </tr>
 <tr>
-<td>vano</td>
+<td>vanu</td>
 <td>arm</td>
 </tr>
 <tr>
@@ -3412,7 +3412,7 @@ function initWarmup() {
         html += '<div style="text-align:center; margin-top:1.5rem;">';
         html += '<button id="show-answers-btn" style="background:#4a9cd6; color:white; border:none; padding:0.75rem 2rem; border-radius:4px; cursor:pointer; font-size:1rem;">Show Answers</button>';
         html += '</div>';
-        html += `<div id="syllable-reminder" style="display:none; margin-top:1.25rem; padding:1rem; background:#eef7fb; border-left:4px solid #4a9cd6; border-radius:6px;"><p style="margin:0 0 0.5rem 0; font-weight:bold; color:#345;">Syllable reminders</p><p style="margin:0.25rem 0;"><strong>eo</strong> = social connection</p><p style="margin:0.25rem 0;"><strong>eom</strong> = gathering; Korean moim</p><p style="margin:0.25rem 0;"><strong>eod</strong> = meeting; Japanese deau</p><p style="margin:0.25rem 0; "><strong>ani</strong> = approach, movement towards; Japanese ni, Latin animus</p></div>`;
+        html += `<div id="syllable-reminder" style="display:none; margin-top:1.25rem; padding:1rem; background:#eef7fb; border-left:4px solid #4a9cd6; border-radius:6px;"><p style="margin:0 0 0.5rem 0; font-weight:bold; color:#345;">Syllable reminders</p><p style="margin:0.25rem 0;"><strong>eo</strong> = social connection</p><p style="margin:0.25rem 0;"><strong>eom</strong> = gathering; Korean moim</p><p style="margin:0.25rem 0;"><strong>eod</strong> = meeting; Japanese deau</p><p style="margin:0.25rem 0; "><strong>ani</strong> = approach, movement touwards; Japanese ni, Latin animus</p></div>`;
         container.innerHTML = html;
         document.getElementById('show-answers-btn').addEventListener('click', function() {
             document.querySelectorAll('.answer-col').forEach(col => col.style.display = 'table-cell');
