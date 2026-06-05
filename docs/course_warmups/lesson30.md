@@ -70,7 +70,7 @@
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
     <div style="text-align: right; margin-top: 0.5rem;">
     <button onclick="(function(btn){
-        const ta = btn.parentElement.previousElementSibling;
+        const prev = btn.parentElement.previousElementSibling; const ta = prev && prev.tagName === 'TEXTAREA' ? prev : prev ? prev.querySelector('textarea') : null;
         const text = ta ? ta.value.trim() : '';
         if (!text) { btn.textContent = 'Nothing to save!'; btn.style.background='#f57c00'; setTimeout(()=>{btn.textContent='Save My Answer';btn.style.background='#4a9cd6';},1500); return; }
         const log = JSON.parse(localStorage.getItem('oravia_log') || '[]');
@@ -150,7 +150,7 @@
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
     <div style="text-align: right; margin-top: 0.5rem;">
     <button onclick="(function(btn){
-        const ta = btn.parentElement.previousElementSibling;
+        const prev = btn.parentElement.previousElementSibling; const ta = prev && prev.tagName === 'TEXTAREA' ? prev : prev ? prev.querySelector('textarea') : null;
         const text = ta ? ta.value.trim() : '';
         if (!text) { btn.textContent = 'Nothing to save!'; btn.style.background='#f57c00'; setTimeout(()=>{btn.textContent='Save My Answer';btn.style.background='#4a9cd6';},1500); return; }
         const log = JSON.parse(localStorage.getItem('oravia_log') || '[]');
