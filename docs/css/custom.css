@@ -681,3 +681,19 @@ img {
 .dict-bb-link:hover {
   color: #C8860A;
 }
+
+/* ===== NAV SIDEBAR SCROLLING ===== */
+.md-sidebar--primary .md-sidebar__scrollwrap {
+    overflow-y: auto !important;
+}
+
+.md-nav--primary {
+    overflow-y: auto;
+}
+
+/* ===== SAVE WRITING BUTTON ===== */
+.save-writing-btn {
+    background: #4a9cd6 !important;
+    color: white !important;
+}
+
