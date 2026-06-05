@@ -40,7 +40,7 @@ Lina i vardei e mo ca Ana i boemo. I varpi yuba.
 
 “Ceora run no iloto? Norven a run a boemo hai. A run mo a anodu. Ga run, a nim a yunmpou.”
 
-Haya i vardei e fene en litegai.
+Haya i vardei e rein en litegai.
 
 “I miotan cali a nima a falen?" Ana i ansau i ilahai. " A nim a micear, mai a run i anidai a eofa. Notor i mo, lirular nima i apaleno en nim leayo, i apaluon su nim fare, no mioici i anodu e leirih! Neron, nim farejal nedas lirul i ilahai…”
 
@@ -82,7 +82,7 @@ bortal = door, enter
 ca = that, which (connector)  
 cali = when (connector)  
 canon = how (affirmative)  
-fene = each other  
+rein = each other  
 cenon = how?  
 ceora = why?  
 daehun = if, assuming  

@@ -35,7 +35,7 @@
     ```
     
     ```
-    Fani i vardur e fene.
+    Fani i vardur e rein.
     ```
     
     ```
@@ -64,7 +64,7 @@
     boelo = room  
     bonfene = bed, to lie down  
     bosvi = toilet  
-    fene = each other  
+    rein = each other  
     elihei = self  
     eompela = party  
     fare = parent  
