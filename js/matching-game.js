@@ -152,6 +152,34 @@ class MatchingGame {
                 statusMessage.textContent = 'Correct! ✓';
                 statusMessage.style.color = '#43a047';
             }
+            // Log correct answer
+            (function(word) {
+                const log = JSON.parse(localStorage.getItem('oravia_log') || '[]');
+                log.push({
+                    timestamp: new Date().toISOString(),
+                    lesson: word.id.split('_').slice(0,2).join('_'),
+                    word_id: word.id,
+                    oravia: word.oravia,
+                    english: word.english,
+                    type: 'matching',
+                    correct: true
+                });
+                localStorage.setItem('oravia_log', JSON.stringify(log));
+            })(this.allWords.find(w => w.id === oraviaId));
+            // Log correct answer
+            (function(word) {
+                const log = JSON.parse(localStorage.getItem('oravia_log') || '[]');
+                log.push({
+                    timestamp: new Date().toISOString(),
+                    lesson: word.id.split('_').slice(0,2).join('_'),
+                    word_id: word.id,
+                    oravia: word.oravia,
+                    english: word.english,
+                    type: 'matching',
+                    correct: true
+                });
+                localStorage.setItem('oravia_log', JSON.stringify(log));
+            })(this.allWords.find(w => w.id === oraviaId));
 
             const currentWords = this.getWordsForRound();
             if (this.matchedPairs === currentWords.length) {
@@ -185,6 +213,34 @@ class MatchingGame {
                 wrongIds.push(englishId);
             }
             localStorage.setItem('wrong_ids', JSON.stringify(wrongIds));
+            // Log incorrect answer
+            (function(word) {
+                const log = JSON.parse(localStorage.getItem('oravia_log') || '[]');
+                log.push({
+                    timestamp: new Date().toISOString(),
+                    lesson: word.id.split('_').slice(0,2).join('_'),
+                    word_id: word.id,
+                    oravia: word.oravia,
+                    english: word.english,
+                    type: 'matching',
+                    correct: false
+                });
+                localStorage.setItem('oravia_log', JSON.stringify(log));
+            })(this.allWords.find(w => w.id === oraviaId));
+            // Log incorrect answer
+            (function(word) {
+                const log = JSON.parse(localStorage.getItem('oravia_log') || '[]');
+                log.push({
+                    timestamp: new Date().toISOString(),
+                    lesson: word.id.split('_').slice(0,2).join('_'),
+                    word_id: word.id,
+                    oravia: word.oravia,
+                    english: word.english,
+                    type: 'matching',
+                    correct: false
+                });
+                localStorage.setItem('oravia_log', JSON.stringify(log));
+            })(this.allWords.find(w => w.id === oraviaId));
             console.log('Wrong answer recorded. Current wrong_ids:', wrongIds);
 
             this.selectedOravia = null;

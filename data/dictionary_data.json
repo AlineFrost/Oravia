@@ -18,7 +18,7 @@
   },
   {
     "w": "run",
-    "e": "You",
+    "e": "you",
     "usage": "pronoun; -a for plural: runa (you all)",
     "type": "gram",
     "search_terms": [
@@ -35,7 +35,7 @@
   },
   {
     "w": "hay",
-    "e": "He / she / they",
+    "e": "he / she / they",
     "usage": "gender-neutral singular pronoun; -a for plural: haya (they)",
     "type": "gram",
     "search_terms": [
@@ -56,7 +56,7 @@
   },
   {
     "w": "ca",
-    "e": "That / which / what",
+    "e": "that / which / what",
     "usage": "subordinate clause connector: i anidai ca run i mo = I like that you eat",
     "type": "gram",
     "search_terms": [
@@ -80,7 +80,7 @@
   },
   {
     "w": "ce",
-    "e": "What?",
+    "e": "what?",
     "usage": "question word, combine with other syllables to form other question words: ce i mo? = what are you eating?; cedom nim? = where (what + place) am I?",
     "type": "gram",
     "search_terms": [
@@ -113,7 +113,7 @@
   },
   {
     "w": "de",
-    "e": "Of / from / about / by",
+    "e": "of / from / about / by",
     "usage": "preposition: de nim = mine; de radom = from the country",
     "type": "gram",
     "search_terms": [
@@ -135,7 +135,7 @@
   },
   {
     "w": "dou",
-    "e": "Or",
+    "e": "or",
     "usage": "connector: i mo e mocen dou e moaria = eat chocolate or apple",
     "type": "gram",
     "search_terms": [
@@ -154,7 +154,7 @@
   },
   {
     "w": "su",
-    "e": "And / with / also",
+    "e": "and / with / also",
     "usage": "connector: i mo su i moje = eat and drink",
     "type": "gram",
     "search_terms": [
@@ -174,7 +174,7 @@
   },
   {
     "w": "eta",
-    "e": "Therefore / so / then",
+    "e": "therefore / so / then",
     "usage": "connector: nim i toumo, eta i mo = I'm hungry, so I eat",
     "type": "gram",
     "search_terms": [
@@ -196,7 +196,7 @@
   },
   {
     "w": "en",
-    "e": "In / on / at",
+    "e": "in / on / at",
     "usage": "preposition: en bo = at home; en litam = on this day",
     "type": "gram",
     "search_terms": [
@@ -218,7 +218,7 @@
   },
   {
     "w": "mai",
-    "e": "But",
+    "e": "but",
     "usage": "connector: i anidai mo, mai i moum = I like food but I'm not eating",
     "type": "gram",
     "search_terms": [
@@ -240,7 +240,7 @@
   },
   {
     "w": "rein",
-    "e": "Each other",
+    "e": "each other",
     "usage": "haya i vardei e rein = they look at each other",
     "type": "gram",
     "search_terms": [
@@ -259,7 +259,7 @@
   },
   {
     "w": "sutor",
-    "e": "Both",
+    "e": "both",
     "usage": "connector: sutor nim su run = both me and you",
     "type": "gram",
     "search_terms": [
@@ -278,7 +278,7 @@
   },
   {
     "w": "domvio",
-    "e": "Instead / in place of",
+    "e": "instead / in place of",
     "usage": "connector: i mo e moaria domvio e mocen = eat apple instead of chocolate",
     "type": "gram",
     "search_terms": [
@@ -301,7 +301,7 @@
   },
   {
     "w": "bi",
-    "e": "Speaker comment",
+    "e": "speaker comment",
     "usage": "comment or tag: bi oipoh = how exciting; bi tohpu = unfortunately",
     "type": "gram",
     "search_terms": [
@@ -323,7 +323,7 @@
   },
   {
     "w": "ho",
-    "e": "Opposite / reverse",
+    "e": "opposite / reverse",
     "usage": "ho yalen = short (opposite of tall); ho bonfene = stand up",
     "type": "gram",
     "search_terms": [
@@ -344,7 +344,7 @@
   },
   {
     "w": "hai",
-    "e": "Role / doer",
+    "e": "role / doer",
     "usage": "follows a noun to indicate the person who uses or does it: boemo hai = cook; roesau hai = student",
     "type": "gram",
     "search_terms": [
@@ -376,7 +376,7 @@
   },
   {
     "w": "hue",
-    "e": "Resultant state / recipient",
+    "e": "resultant state / recipient",
     "usage": "marks the recipient of an action: boemo hue = cooked",
     "type": "gram",
     "search_terms": [
@@ -400,7 +400,7 @@
   },
   {
     "w": "alui",
-    "e": "Five",
+    "e": "five",
     "search_terms": [
       "alui",
       "five"
@@ -408,7 +408,7 @@
   },
   {
     "w": "ancem",
-    "e": "Turn",
+    "e": "turn",
     "ea": "turn, gyrate, spin, whirl, rotate",
     "c": "volitional action",
     "cs": "an",
@@ -489,7 +489,7 @@
   },
   {
     "w": "ando",
-    "e": "Can",
+    "e": "can",
     "ea": "can, may, able, ability",
     "c": "volitional action",
     "cs": "an",
@@ -582,7 +582,7 @@
   },
   {
     "w": "anefe",
-    "e": "Put",
+    "e": "put",
     "ea": "put, lay, to place",
     "c": "volitional action",
     "cs": "an",
@@ -663,7 +663,7 @@
   },
   {
     "w": "anefene",
-    "e": "Rest",
+    "e": "rest",
     "ea": "rest",
     "c": "volitional action",
     "cs": "an",
@@ -742,7 +742,7 @@
   },
   {
     "w": "anelem",
-    "e": "Keep",
+    "e": "keep",
     "ea": "keep, stay, remain",
     "c": "volitional action",
     "cs": "an",
@@ -827,7 +827,7 @@
   },
   {
     "w": "aneoleo",
-    "e": "Contribute",
+    "e": "contribute",
     "ea": "contribute, collaboration",
     "c": "volitional action",
     "cs": "an",
@@ -922,7 +922,7 @@
   },
   {
     "w": "anepou",
-    "e": "Stop",
+    "e": "stop",
     "ea": "stop, halt, cancel",
     "c": "volitional action",
     "cs": "an",
@@ -989,7 +989,7 @@
   },
   {
     "w": "anever",
-    "e": "Secure",
+    "e": "secure",
     "ea": "secure, safe, safety, security",
     "c": "volitional action",
     "cs": "an",
@@ -1070,7 +1070,7 @@
   },
   {
     "w": "angi",
-    "e": "Dare",
+    "e": "dare",
     "ea": "dare, daring, bold, brave, to challenge, courage",
     "c": "volitional action",
     "cs": "an",
@@ -1167,7 +1167,7 @@
   },
   {
     "w": "anidai",
-    "e": "Want",
+    "e": "want",
     "ea": "want, desire",
     "c": "volitional action",
     "cs": "an",
@@ -1245,7 +1245,7 @@
   },
   {
     "w": "anifi",
-    "e": "Come",
+    "e": "come",
     "ea": "come",
     "c": "volitional action",
     "cs": "an",
@@ -1323,7 +1323,7 @@
   },
   {
     "w": "anifou",
-    "e": "Need",
+    "e": "need",
     "ea": "need, necessity, requirement, necessary",
     "c": "volitional action",
     "cs": "an",
@@ -1412,7 +1412,7 @@
   },
   {
     "w": "aniran",
-    "e": "Choose",
+    "e": "choose",
     "ea": "choose, select, choice",
     "c": "volitional action",
     "cs": "an",
@@ -1495,7 +1495,7 @@
   },
   {
     "w": "anisu",
-    "e": "Bring",
+    "e": "bring",
     "ea": "bring, carry, transport, transfer, port, cargo",
     "c": "volitional action",
     "cs": "an",
@@ -1593,7 +1593,7 @@
   },
   {
     "w": "anita",
-    "e": "Take",
+    "e": "take",
     "ea": "take, extract",
     "c": "volitional action",
     "cs": "an",
@@ -1676,7 +1676,7 @@
   },
   {
     "w": "anivari",
-    "e": "Back",
+    "e": "back",
     "ea": "back, bakwards, return",
     "c": "volitional action",
     "cs": "an",
@@ -1759,7 +1759,7 @@
   },
   {
     "w": "anja",
-    "e": "Use",
+    "e": "use",
     "ea": "use, tool",
     "c": "volitional action",
     "cs": "an",
@@ -1847,7 +1847,7 @@
   },
   {
     "w": "anlaro",
-    "e": "Continue",
+    "e": "continue",
     "ea": "continue, insist",
     "c": "volitional action",
     "cs": "an",
@@ -1935,7 +1935,7 @@
   },
   {
     "w": "anliulor",
-    "e": "Service",
+    "e": "service",
     "ea": "",
     "c": "volitional action",
     "cs": "an",
@@ -2024,7 +2024,7 @@
   },
   {
     "w": "anlor",
-    "e": "Benefit",
+    "e": "benefit",
     "ea": "benefit, advantage, perk, beneficial",
     "c": "volitional action",
     "cs": "an",
@@ -2104,7 +2104,7 @@
   },
   {
     "w": "anlorfi",
-    "e": "Privilege",
+    "e": "privilege",
     "ea": "privilege, prerogative",
     "c": "volitional action",
     "cs": "an",
@@ -2197,7 +2197,7 @@
   },
   {
     "w": "anocari",
-    "e": "Leave",
+    "e": "leave",
     "ea": "leave, quit, abandon, exit",
     "c": "volitional action",
     "cs": "an",
@@ -2265,99 +2265,8 @@
     ]
   },
   {
-    "w": "anodu",
-    "e": "Shut",
-    "ea": "shut, close, top, climb",
-    "c": "volitional action",
-    "cs": "an",
-    "sc": "an",
-    "r": "odu",
-    "bd": [
-      {
-        "sound": "an",
-        "meaning": "action",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-an",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-an",
-        "bb_meaning": "action"
-      },
-      {
-        "sound": "odu",
-        "meaning": "top",
-        "bb_type": "root",
-        "bb_id": "bb-root-odu",
-        "bb_href": "building_blocks_reference.html#bb-root-odu",
-        "bb_meaning": "top"
-      }
-    ],
-    "rel": [
-      "varodu"
-    ],
-    "ex": [
-      {
-        "o": "a run fano a anodu yalen",
-        "e": "your child is the tallest",
-        "from_lesson": true
-      }
-    ],
-    "syllable_meanings": [
-      {
-        "sound": "an",
-        "meaning": "action",
-        "position": "subcluster",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-an",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-an",
-        "bb_meaning": "action"
-      },
-      {
-        "sound": "odu",
-        "meaning": "top",
-        "position": "root",
-        "bb_type": "root",
-        "bb_id": "bb-root-odu",
-        "bb_href": "building_blocks_reference.html#bb-root-odu",
-        "bb_meaning": "top"
-      }
-    ],
-    "search_terms": [
-      "action",
-      "an",
-      "anodu",
-      "benefit",
-      "can",
-      "climb",
-      "close",
-      "continue",
-      "contribute",
-      "dare",
-      "decide",
-      "head",
-      "lead",
-      "make",
-      "move",
-      "odu",
-      "open",
-      "preparation",
-      "privilege",
-      "right",
-      "service",
-      "shut",
-      "shut, close, top, climb",
-      "spread",
-      "start",
-      "top",
-      "try",
-      "turn",
-      "use",
-      "volitional",
-      "volitional action",
-      "work"
-    ]
-  },
-  {
     "w": "anolu",
-    "e": "Out",
+    "e": "out",
     "ea": "out, ex-, external, outside",
     "c": "volitional action",
     "cs": "an",
@@ -2441,7 +2350,7 @@
   },
   {
     "w": "anomi",
-    "e": "Right",
+    "e": "right",
     "ea": "",
     "c": "volitional action",
     "cs": "an",
@@ -2556,7 +2465,7 @@
   },
   {
     "w": "anona",
-    "e": "Give",
+    "e": "give",
     "ea": "give, gift",
     "c": "volitional action",
     "cs": "an",
@@ -2639,7 +2548,7 @@
   },
   {
     "w": "anonuve",
-    "e": "Avoid",
+    "e": "avoid",
     "ea": "avoid, dodge, shun, avoidance",
     "c": "volitional action",
     "cs": "an",
@@ -2708,7 +2617,7 @@
   },
   {
     "w": "anopu",
-    "e": "Lose",
+    "e": "lose",
     "ea": "lose, loss, failure, fail",
     "c": "volitional action",
     "cs": "an",
@@ -2792,7 +2701,7 @@
   },
   {
     "w": "anore",
-    "e": "Let",
+    "e": "let",
     "ea": "let, allow, license, permission, licit",
     "c": "volitional action",
     "cs": "an",
@@ -2856,7 +2765,7 @@
   },
   {
     "w": "anparu",
-    "e": "Preparation",
+    "e": "preparation",
     "ea": "prepare, preparation",
     "c": "volitional action",
     "cs": "an",
@@ -2934,7 +2843,7 @@
   },
   {
     "w": "anro",
-    "e": "Decide",
+    "e": "decide",
     "ea": "decide, decision, adjudicate, resolve, settle",
     "c": "volitional action",
     "cs": "an",
@@ -3040,7 +2949,7 @@
   },
   {
     "w": "ansau",
-    "e": "Start",
+    "e": "start",
     "ea": "start, initial, beginning",
     "c": "volitional action",
     "cs": "an",
@@ -3131,7 +3040,7 @@
   },
   {
     "w": "anse",
-    "e": "Work",
+    "e": "work",
     "ea": "work, labor, job",
     "c": "volitional action",
     "cs": "an",
@@ -3156,7 +3065,7 @@
       }
     ],
     "rel": [
-      "sese",
+      "se",
       "sirose"
     ],
     "ex": [
@@ -3231,7 +3140,7 @@
   },
   {
     "w": "antai",
-    "e": "Lead",
+    "e": "lead",
     "ea": "lead, leader, direct, guide",
     "c": "volitional action",
     "cs": "an",
@@ -3327,7 +3236,7 @@
   },
   {
     "w": "antori",
-    "e": "Open",
+    "e": "open",
     "ea": "open",
     "c": "volitional action",
     "cs": "an",
@@ -3403,7 +3312,7 @@
   },
   {
     "w": "antufu",
-    "e": "Spread",
+    "e": "spread",
     "ea": "spread, diffuse, diffusion",
     "c": "volitional action",
     "cs": "an",
@@ -3475,84 +3384,8 @@
     ]
   },
   {
-    "w": "anun",
-    "e": "Try",
-    "ea": "try, attempt, experiment, trial, tentative, provisional",
-    "c": "volitional action",
-    "cs": "an",
-    "sc": "an",
-    "r": "nun",
-    "bd": [
-      {
-        "sound": "an",
-        "meaning": "action",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-an",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-an",
-        "bb_meaning": "action"
-      },
-      {
-        "sound": "nun",
-        "meaning": "try"
-      }
-    ],
-    "rel": [],
-    "ex": [],
-    "syllable_meanings": [
-      {
-        "sound": "an",
-        "meaning": "action",
-        "position": "subcluster",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-an",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-an",
-        "bb_meaning": "action"
-      },
-      {
-        "sound": "nun",
-        "meaning": "try",
-        "position": "root"
-      }
-    ],
-    "search_terms": [
-      "action",
-      "an",
-      "anun",
-      "attempt",
-      "benefit",
-      "can",
-      "continue",
-      "contribute",
-      "dare",
-      "decide",
-      "experiment",
-      "lead",
-      "make",
-      "move",
-      "nun",
-      "open",
-      "preparation",
-      "privilege",
-      "provisional",
-      "right",
-      "service",
-      "shut",
-      "spread",
-      "start",
-      "tentative",
-      "trial",
-      "try",
-      "try, attempt, experiment, trial, tentative, provisional",
-      "turn",
-      "use",
-      "volitional",
-      "volitional action",
-      "work"
-    ]
-  },
-  {
     "w": "anvu",
-    "e": "Move",
+    "e": "move",
     "ea": "move, movement, motion, movie, to go",
     "c": "volitional action",
     "cs": "an",
@@ -3649,7 +3482,7 @@
   },
   {
     "w": "anye",
-    "e": "Make",
+    "e": "make",
     "ea": "make, to do, create, to build, creative",
     "c": "volitional action",
     "cs": "an",
@@ -3752,7 +3585,7 @@
   },
   {
     "w": "apaen",
-    "e": "Activity",
+    "e": "activity",
     "ea": "activity",
     "c": "physical action",
     "cs": "apa",
@@ -3815,7 +3648,7 @@
   },
   {
     "w": "apafene",
-    "e": "Sit",
+    "e": "sit",
     "ea": "sit, seat, chair, bench",
     "c": "physical action",
     "cs": "apa",
@@ -3903,7 +3736,7 @@
   },
   {
     "w": "apahela",
-    "e": "Throw",
+    "e": "throw",
     "ea": "throw, shot, shoot, hit, pass",
     "c": "physical action",
     "cs": "apa",
@@ -3987,7 +3820,7 @@
   },
   {
     "w": "apahotai",
-    "e": "Wander",
+    "e": "wander",
     "ea": "wander, roam, rove",
     "c": "physical action",
     "cs": "apa",
@@ -4075,7 +3908,7 @@
   },
   {
     "w": "apaima",
-    "e": "Vertical",
+    "e": "vertical",
     "ea": "vertical, column, stack, to stand up",
     "c": "physical action",
     "cs": "apa",
@@ -4144,7 +3977,7 @@
   },
   {
     "w": "apaleno",
-    "e": "Dig",
+    "e": "dig",
     "ea": "dig, bury",
     "c": "physical action",
     "cs": "apa",
@@ -4227,7 +4060,7 @@
   },
   {
     "w": "apani",
-    "e": "Pull",
+    "e": "pull",
     "ea": "pull, tug, influence, sway",
     "c": "physical action",
     "cs": "apa",
@@ -4314,7 +4147,7 @@
   },
   {
     "w": "apanou",
-    "e": "Drop",
+    "e": "drop",
     "ea": "drop,  drip, to leak, fall",
     "c": "physical action",
     "cs": "apa",
@@ -4417,7 +4250,7 @@
   },
   {
     "w": "aparih",
-    "e": "Jump",
+    "e": "jump",
     "ea": "jump, bounce, leap, hop, skip",
     "c": "physical action",
     "cs": "apa",
@@ -4518,7 +4351,7 @@
   },
   {
     "w": "apasar",
-    "e": "Hang",
+    "e": "hang",
     "ea": "hang, hanging, suspension, suspense",
     "c": "physical action",
     "cs": "apa",
@@ -4604,7 +4437,7 @@
   },
   {
     "w": "apasoi",
-    "e": "Hurry",
+    "e": "hurry",
     "ea": "hurry, rush, haste, busy",
     "c": "physical action",
     "cs": "apa",
@@ -4694,7 +4527,7 @@
   },
   {
     "w": "apavu",
-    "e": "Run",
+    "e": "run",
     "ea": "run, sprint, jog",
     "c": "physical action",
     "cs": "apa",
@@ -4781,7 +4614,7 @@
   },
   {
     "w": "asano",
-    "e": "Move away",
+    "e": "move away",
     "ea": "press, move away, shove",
     "c": "bodily actions",
     "cs": "as",
@@ -4872,7 +4705,7 @@
   },
   {
     "w": "asela",
-    "e": "Smile",
+    "e": "smile",
     "ea": "smile",
     "c": "bodily actions",
     "cs": "as",
@@ -4951,7 +4784,7 @@
   },
   {
     "w": "aselano",
-    "e": "Hug",
+    "e": "hug",
     "ea": "hug, embrace",
     "c": "bodily actions",
     "cs": "as",
@@ -5027,7 +4860,7 @@
   },
   {
     "w": "asensau",
-    "e": "Awake",
+    "e": "awake",
     "ea": "awake, wake, aware",
     "c": "bodily actions",
     "cs": "as",
@@ -5095,7 +4928,7 @@
   },
   {
     "w": "asetowa",
-    "e": "Tears",
+    "e": "tears",
     "ea": "tears, to cry",
     "c": "bodily actions",
     "cs": "as",
@@ -5196,7 +5029,7 @@
   },
   {
     "w": "aseyel",
-    "e": "Kiss",
+    "e": "kiss",
     "ea": "kiss",
     "c": "bodily actions",
     "cs": "as",
@@ -5274,7 +5107,7 @@
   },
   {
     "w": "asfe",
-    "e": "Pause",
+    "e": "pause",
     "ea": "pause, break, interruption",
     "c": "bodily actions",
     "cs": "as",
@@ -5359,7 +5192,7 @@
   },
   {
     "w": "asfene",
-    "e": "Sleep",
+    "e": "sleep",
     "ea": "sleep, to fall asleep",
     "c": "bodily actions",
     "cs": "as",
@@ -5441,7 +5274,7 @@
   },
   {
     "w": "asilin",
-    "e": "Prick",
+    "e": "prick",
     "ea": "prick, pierce, sting",
     "c": "bodily actions",
     "cs": "as",
@@ -5504,7 +5337,7 @@
   },
   {
     "w": "asivi",
-    "e": "Suck",
+    "e": "suck",
     "ea": "suck, suction",
     "c": "bodily actions",
     "cs": "as",
@@ -5588,7 +5421,7 @@
   },
   {
     "w": "asivufi",
-    "e": "Swallow",
+    "e": "swallow",
     "ea": "",
     "c": "bodily actions",
     "cs": "as",
@@ -5680,7 +5513,7 @@
   },
   {
     "w": "asiwa",
-    "e": "Pee",
+    "e": "pee",
     "ea": "pee, urinate",
     "c": "bodily actions",
     "cs": "as",
@@ -5767,7 +5600,7 @@
   },
   {
     "w": "aslufu",
-    "e": "Breathe",
+    "e": "breathe",
     "ea": "breathe, breath",
     "c": "bodily actions",
     "cs": "as",
@@ -5848,7 +5681,7 @@
   },
   {
     "w": "asoyo",
-    "e": "Shake",
+    "e": "shake",
     "ea": "shake",
     "c": "bodily actions",
     "cs": "as",
@@ -5922,7 +5755,7 @@
   },
   {
     "w": "asubu",
-    "e": "Drown",
+    "e": "drown",
     "ea": "drown, submerge, a drowning",
     "c": "bodily actions",
     "cs": "as",
@@ -5988,7 +5821,7 @@
   },
   {
     "w": "asucin",
-    "e": "Sneeze",
+    "e": "sneeze",
     "ea": "sneeze",
     "c": "bodily actions",
     "cs": "as",
@@ -6050,7 +5883,7 @@
   },
   {
     "w": "asugar",
-    "e": "Yell",
+    "e": "yell",
     "ea": "yell, scream, shout, exclaim",
     "c": "bodily actions",
     "cs": "as",
@@ -6127,7 +5960,7 @@
   },
   {
     "w": "asuifi",
-    "e": "Whistle",
+    "e": "whistle",
     "ea": "whistle, hiss, fizzle",
     "c": "bodily actions",
     "cs": "as",
@@ -6193,7 +6026,7 @@
   },
   {
     "w": "asular",
-    "e": "Laugh",
+    "e": "laugh",
     "ea": "to laugh, laughter",
     "c": "bodily actions",
     "cs": "as",
@@ -6264,7 +6097,7 @@
   },
   {
     "w": "asuor",
-    "e": "Snore",
+    "e": "snore",
     "ea": "snore, grunt",
     "c": "bodily actions",
     "cs": "as",
@@ -6328,7 +6161,7 @@
   },
   {
     "w": "asusu",
-    "e": "Whisper",
+    "e": "whisper",
     "ea": "whisper, rustle, murmur",
     "c": "bodily actions",
     "cs": "as",
@@ -6394,7 +6227,7 @@
   },
   {
     "w": "auta",
-    "e": "Eight",
+    "e": "eight",
     "search_terms": [
       "auta",
       "eight"
@@ -6402,7 +6235,7 @@
   },
   {
     "w": "bale",
-    "e": "Four",
+    "e": "four",
     "search_terms": [
       "bale",
       "four"
@@ -6410,7 +6243,7 @@
   },
   {
     "w": "bedam",
-    "e": "Square",
+    "e": "square",
     "ea": "square, plaza",
     "c": "travel",
     "cs": "be",
@@ -6471,7 +6304,7 @@
   },
   {
     "w": "beilem",
-    "e": "Station",
+    "e": "station",
     "ea": "station, deposit, storage",
     "c": "travel",
     "cs": "be",
@@ -6552,7 +6385,7 @@
   },
   {
     "w": "beimete",
-    "e": "Wagon",
+    "e": "wagon",
     "ea": "wagon, van, cart, bus, truck",
     "c": "travel",
     "cs": "be",
@@ -6611,7 +6444,7 @@
   },
   {
     "w": "beitor",
-    "e": "Bicycle",
+    "e": "bicycle",
     "ea": "bicycle",
     "c": "travel",
     "cs": "be",
@@ -6671,7 +6504,7 @@
   },
   {
     "w": "beivu",
-    "e": "Car",
+    "e": "car",
     "ea": "car, drive",
     "c": "travel",
     "cs": "be",
@@ -6749,7 +6582,7 @@
   },
   {
     "w": "bejae",
-    "e": "Luggage",
+    "e": "luggage",
     "ea": "luggage, baggage, gear, equipment, to pack",
     "c": "travel",
     "cs": "be",
@@ -6830,7 +6663,7 @@
   },
   {
     "w": "bejui",
-    "e": "Rent",
+    "e": "rent",
     "ea": "rent, borrow, loan",
     "c": "travel",
     "cs": "be",
@@ -6904,7 +6737,7 @@
   },
   {
     "w": "betal",
-    "e": "Lobby",
+    "e": "lobby",
     "ea": "reception, lobby, secretary",
     "c": "travel",
     "cs": "be",
@@ -6973,7 +6806,7 @@
   },
   {
     "w": "bevas",
-    "e": "Private",
+    "e": "private",
     "ea": "private, privacy",
     "c": "travel",
     "cs": "be",
@@ -7040,7 +6873,7 @@
   },
   {
     "w": "bevio",
-    "e": "Shop",
+    "e": "shop",
     "ea": "shop, commerce",
     "c": "travel",
     "cs": "be",
@@ -7121,7 +6954,7 @@
   },
   {
     "w": "bociu",
-    "e": "Decorate",
+    "e": "decorate",
     "ea": "decorate, ornamentation, adorn, fancy",
     "c": "house",
     "cs": "bo",
@@ -7201,7 +7034,7 @@
   },
   {
     "w": "boelori",
-    "e": "Room",
+    "e": "room",
     "ea": "chamber, room, partition, enclosure",
     "c": "house",
     "cs": "bo",
@@ -7266,7 +7099,7 @@
   },
   {
     "w": "boelulo",
-    "e": "Patio",
+    "e": "patio",
     "ea": "patio, courtyard, yard",
     "c": "house",
     "cs": "bo",
@@ -7347,7 +7180,7 @@
   },
   {
     "w": "boemo",
-    "e": "Kitchen",
+    "e": "kitchen",
     "ea": "kitchen, to cook",
     "c": "house",
     "cs": "bo",
@@ -7432,7 +7265,7 @@
   },
   {
     "w": "boetale",
-    "e": "Hall",
+    "e": "hall",
     "ea": "hall, corridor",
     "c": "house",
     "cs": "bo",
@@ -7512,7 +7345,7 @@
   },
   {
     "w": "bofi",
-    "e": "Inside",
+    "e": "inside",
     "ea": "inside, interior, internal, indoors",
     "c": "house",
     "cs": "bo",
@@ -7581,7 +7414,7 @@
   },
   {
     "w": "bogor",
-    "e": "Building",
+    "e": "building",
     "ea": "building, to build",
     "c": "house",
     "cs": "bo",
@@ -7651,7 +7484,7 @@
   },
   {
     "w": "bonfene",
-    "e": "Bed",
+    "e": "bed",
     "ea": "bed, to lie down",
     "c": "house",
     "cs": "bo",
@@ -7728,7 +7561,7 @@
   },
   {
     "w": "bonjae",
-    "e": "Cabinet",
+    "e": "cabinet",
     "ea": "cabinet, hutch, wardrobe",
     "c": "house",
     "cs": "bo",
@@ -7805,7 +7638,7 @@
   },
   {
     "w": "bontame",
-    "e": "Table",
+    "e": "table",
     "ea": "table",
     "c": "house",
     "cs": "bo",
@@ -7863,7 +7696,7 @@
   },
   {
     "w": "borcai",
-    "e": "Wall",
+    "e": "wall",
     "ea": "wall",
     "c": "house",
     "cs": "bo",
@@ -7939,7 +7772,7 @@
   },
   {
     "w": "borel",
-    "e": "Ceiling",
+    "e": "ceiling",
     "ea": "ceiling, roof",
     "c": "house",
     "cs": "bo",
@@ -8019,7 +7852,7 @@
   },
   {
     "w": "borlu",
-    "e": "Window",
+    "e": "window",
     "ea": "window, mirror, screen",
     "c": "house",
     "cs": "bo",
@@ -8100,7 +7933,7 @@
   },
   {
     "w": "borniu",
-    "e": "Brick",
+    "e": "brick",
     "ea": "brick, cube, block",
     "c": "house",
     "cs": "bo",
@@ -8176,7 +8009,7 @@
   },
   {
     "w": "bortal",
-    "e": "Door",
+    "e": "door",
     "ea": "door, gate, passage",
     "c": "house",
     "cs": "bo",
@@ -8254,7 +8087,7 @@
   },
   {
     "w": "bospupi",
-    "e": "Bath",
+    "e": "bath",
     "ea": "bath, bathe, wash, shower",
     "c": "house",
     "cs": "bo",
@@ -8333,7 +8166,7 @@
   },
   {
     "w": "bosvi",
-    "e": "Toilet",
+    "e": "toilet",
     "ea": "toilet, urinal, restroom, WC, use bathroom",
     "c": "house",
     "cs": "bo",
@@ -8421,7 +8254,7 @@
   },
   {
     "w": "ciuan",
-    "e": "Project",
+    "e": "project",
     "ea": "project, endeavor, enterprise",
     "c": "create",
     "cs": "ciu",
@@ -8508,7 +8341,7 @@
   },
   {
     "w": "ciudal",
-    "e": "Design",
+    "e": "design",
     "ea": "design, blueprint, framework, outline",
     "c": "create",
     "cs": "ciu",
@@ -8591,7 +8424,7 @@
   },
   {
     "w": "ciude",
-    "e": "Theme",
+    "e": "theme",
     "ea": "theme, subject, topic, to be about, to concern",
     "c": "create",
     "cs": "ciu",
@@ -8680,7 +8513,7 @@
   },
   {
     "w": "ciudon",
-    "e": "Demonstration",
+    "e": "demonstration",
     "ea": "demonstration, indicate, show",
     "c": "create",
     "cs": "ciu",
@@ -8765,7 +8598,7 @@
   },
   {
     "w": "ciugai",
-    "e": "Detail",
+    "e": "detail",
     "ea": "detail, detailed, meticulous",
     "c": "create",
     "cs": "ciu",
@@ -8868,7 +8701,7 @@
   },
   {
     "w": "ciumar",
-    "e": "Art",
+    "e": "art",
     "ea": "art, artistic",
     "c": "create",
     "cs": "ciu",
@@ -8935,7 +8768,7 @@
   },
   {
     "w": "ciupa",
-    "e": "Paper",
+    "e": "paper",
     "ea": "paper",
     "c": "create",
     "cs": "ciu",
@@ -9011,7 +8844,7 @@
   },
   {
     "w": "ciureva",
-    "e": "Photo",
+    "e": "photo",
     "ea": "photo, picture",
     "c": "create",
     "cs": "ciu",
@@ -9092,7 +8925,7 @@
   },
   {
     "w": "ciuro",
-    "e": "Abstract",
+    "e": "abstract",
     "ea": "abstract, abstraction, -ness, -ity",
     "c": "create",
     "cs": "ciu",
@@ -9187,7 +9020,7 @@
   },
   {
     "w": "ciurul",
-    "e": "Rhyme",
+    "e": "rhyme",
     "ea": "rhyme, rhyming, pattern, regular",
     "c": "create",
     "cs": "ciu",
@@ -9271,7 +9104,7 @@
   },
   {
     "w": "ciuseri",
-    "e": "Horizontal",
+    "e": "horizontal",
     "ea": "horizontal, series, order, row, horizon",
     "c": "create",
     "cs": "ciu",
@@ -9362,7 +9195,7 @@
   },
   {
     "w": "ciusiu",
-    "e": "Document",
+    "e": "document",
     "ea": "document, file",
     "c": "create",
     "cs": "ciu",
@@ -9443,7 +9276,7 @@
   },
   {
     "w": "ciutel",
-    "e": "Image",
+    "e": "image",
     "ea": "image",
     "c": "create",
     "cs": "ciu",
@@ -9519,7 +9352,7 @@
   },
   {
     "w": "ciuyen",
-    "e": "Print",
+    "e": "print",
     "ea": "print, publish, publication, magazine, journal",
     "c": "create",
     "cs": "ciu",
@@ -9601,7 +9434,7 @@
   },
   {
     "w": "cohela",
-    "e": "Send",
+    "e": "send",
     "ea": "send, transmit, dispatch, broadcast, a post",
     "c": "communication",
     "cs": "co",
@@ -9679,7 +9512,7 @@
   },
   {
     "w": "cohua",
-    "e": "Receive",
+    "e": "receive",
     "ea": "receive, get, receipt, acknowledge, reception",
     "c": "communication",
     "cs": "co",
@@ -9742,7 +9575,7 @@
   },
   {
     "w": "colira",
-    "e": "Sign",
+    "e": "sign",
     "ea": "sign, mark, symbol, signal, token, logo",
     "c": "communication",
     "cs": "co",
@@ -9823,7 +9656,7 @@
   },
   {
     "w": "coman",
-    "e": "Information",
+    "e": "information",
     "ea": "information, inform, informative",
     "c": "communication",
     "cs": "co",
@@ -9884,7 +9717,7 @@
   },
   {
     "w": "conala",
-    "e": "Emergency",
+    "e": "emergency",
     "ea": "emergency, urgent, to urge, press for",
     "c": "communication",
     "cs": "co",
@@ -9963,7 +9796,7 @@
   },
   {
     "w": "conehui",
-    "e": "Request",
+    "e": "request",
     "ea": "request, ask, invocation, plea, petition",
     "c": "communication",
     "cs": "co",
@@ -10026,7 +9859,7 @@
   },
   {
     "w": "conodo",
-    "e": "Office",
+    "e": "office",
     "ea": "office, workplace, agency",
     "c": "communication",
     "cs": "co",
@@ -10087,7 +9920,7 @@
   },
   {
     "w": "copei",
-    "e": "Search",
+    "e": "search",
     "ea": "search, hunt, pursuit, seek, quest",
     "c": "communication",
     "cs": "co",
@@ -10156,7 +9989,7 @@
   },
   {
     "w": "copen",
-    "e": "Ticket",
+    "e": "ticket",
     "ea": "ticket, a pass, bill, banknote",
     "c": "communication",
     "cs": "co",
@@ -10219,7 +10052,7 @@
   },
   {
     "w": "corior",
-    "e": "Phone",
+    "e": "phone",
     "ea": "phone, smartphone, call",
     "c": "communication",
     "cs": "co",
@@ -10280,7 +10113,7 @@
   },
   {
     "w": "coter",
-    "e": "Number",
+    "e": "number",
     "ea": "number, count, times",
     "c": "communication",
     "cs": "co",
@@ -10359,7 +10192,7 @@
   },
   {
     "w": "couhai",
-    "e": "Message",
+    "e": "message",
     "ea": "message, notification, notify",
     "c": "communication",
     "cs": "co",
@@ -10431,7 +10264,7 @@
   },
   {
     "w": "couno",
-    "e": "Sentence",
+    "e": "sentence",
     "ea": "sentence, phrase, proposition, verdict, comment",
     "c": "communication",
     "cs": "co",
@@ -10518,7 +10351,7 @@
   },
   {
     "w": "coupa",
-    "e": "Card",
+    "e": "card",
     "ea": "card, placard, cardboard, charter",
     "c": "communication",
     "cs": "co",
@@ -10597,7 +10430,7 @@
   },
   {
     "w": "cousiu",
-    "e": "Letter",
+    "e": "letter",
     "ea": "letter, character, to spell, literature, literary",
     "c": "communication",
     "cs": "co",
@@ -10674,7 +10507,7 @@
   },
   {
     "w": "coutam",
-    "e": "Page",
+    "e": "page",
     "ea": "",
     "c": "communication",
     "cs": "co",
@@ -10748,7 +10581,7 @@
   },
   {
     "w": "couvar",
-    "e": "Cover",
+    "e": "cover",
     "ea": "",
     "c": "communication",
     "cs": "co",
@@ -10818,7 +10651,7 @@
   },
   {
     "w": "couya",
-    "e": "Name",
+    "e": "name",
     "ea": "name, word",
     "c": "communication",
     "cs": "co",
@@ -10898,7 +10731,7 @@
   },
   {
     "w": "couyen",
-    "e": "Mail",
+    "e": "mail",
     "ea": "mail, letter, post",
     "c": "communication",
     "cs": "co",
@@ -10970,7 +10803,7 @@
   },
   {
     "w": "daca",
-    "e": "Refer",
+    "e": "refer",
     "ea": "mention, metaphor, allusion, allude",
     "c": "evaluate",
     "cs": "da",
@@ -11051,7 +10884,7 @@
   },
   {
     "w": "daciu",
-    "e": "Figure",
+    "e": "figure",
     "ea": "figure, form, shape, structure, statue",
     "c": "evaluate",
     "cs": "da",
@@ -11148,7 +10981,7 @@
   },
   {
     "w": "daco",
-    "e": "Answer",
+    "e": "answer",
     "ea": "answer, response, reaction",
     "c": "evaluate",
     "cs": "da",
@@ -11245,7 +11078,7 @@
   },
   {
     "w": "dade",
-    "e": "Origin",
+    "e": "origin",
     "ea": "origin, source, original, cause, explanation",
     "c": "evaluate",
     "cs": "da",
@@ -11337,7 +11170,7 @@
   },
   {
     "w": "daedon",
-    "e": "Reveal",
+    "e": "reveal",
     "ea": "reveal, disclose, revelation, disclosure",
     "c": "evaluate",
     "cs": "da",
@@ -11411,7 +11244,7 @@
   },
   {
     "w": "daefei",
-    "e": "Criticize",
+    "e": "criticize",
     "ea": "criticize, complain",
     "c": "evaluate",
     "cs": "da",
@@ -11483,7 +11316,7 @@
   },
   {
     "w": "daegor",
-    "e": "Convince",
+    "e": "convince",
     "ea": "to convince, convincent, prove",
     "c": "evaluate",
     "cs": "da",
@@ -11560,7 +11393,7 @@
   },
   {
     "w": "daehun",
-    "e": "Assumption",
+    "e": "assumption",
     "ea": "assumption, presume",
     "c": "evaluate",
     "cs": "da",
@@ -11626,7 +11459,7 @@
   },
   {
     "w": "dael",
-    "e": "Correct",
+    "e": "correct",
     "ea": "correct, just, right (moral), justice",
     "c": "evaluate",
     "cs": "da",
@@ -11703,7 +11536,7 @@
   },
   {
     "w": "daelan",
-    "e": "Evaluate",
+    "e": "evaluate",
     "ea": "evaluate, analyze, asses, judge",
     "c": "evaluate",
     "cs": "da",
@@ -11787,7 +11620,7 @@
   },
   {
     "w": "daelipo",
-    "e": "Predict",
+    "e": "predict",
     "ea": "predict, prophecy, prediction, prophetic",
     "c": "evaluate",
     "cs": "da",
@@ -11893,7 +11726,7 @@
   },
   {
     "w": "daemie",
-    "e": "Estimate",
+    "e": "estimate",
     "ea": "guess, estimate, approximation",
     "c": "evaluate",
     "cs": "da",
@@ -11967,7 +11800,7 @@
   },
   {
     "w": "daeniu",
-    "e": "Evidence",
+    "e": "evidence",
     "ea": "evidence, testimony, witness",
     "c": "evaluate",
     "cs": "da",
@@ -12052,7 +11885,7 @@
   },
   {
     "w": "daereva",
-    "e": "Verify",
+    "e": "verify",
     "ea": "verify, check, verification",
     "c": "evaluate",
     "cs": "da",
@@ -12127,7 +11960,7 @@
   },
   {
     "w": "daeta",
-    "e": "Conclusion",
+    "e": "conclusion",
     "ea": "conclude, conclusion, infer",
     "c": "evaluate",
     "cs": "da",
@@ -12194,7 +12027,7 @@
   },
   {
     "w": "dahau",
-    "e": "Responsible",
+    "e": "responsible",
     "ea": "responsible, liable, liability, responsibility",
     "c": "evaluate",
     "cs": "da",
@@ -12274,7 +12107,7 @@
   },
   {
     "w": "dairan",
-    "e": "Favor",
+    "e": "favor",
     "ea": "favor, like, favorite, preference, prefer",
     "c": "evaluate",
     "cs": "da",
@@ -12368,7 +12201,7 @@
   },
   {
     "w": "dama",
-    "e": "Matter",
+    "e": "matter",
     "ea": "matter, material, substance",
     "c": "evaluate",
     "cs": "da",
@@ -12452,7 +12285,7 @@
   },
   {
     "w": "damai",
-    "e": "Argue",
+    "e": "argue",
     "ea": "argue, debate, dispute, argument, discussion",
     "c": "evaluate",
     "cs": "da",
@@ -12534,7 +12367,7 @@
   },
   {
     "w": "dameo",
-    "e": "Relate",
+    "e": "relate",
     "ea": "relate, relation, relationship",
     "c": "evaluate",
     "cs": "da",
@@ -12607,7 +12440,7 @@
   },
   {
     "w": "dami",
-    "e": "Exist",
+    "e": "exist",
     "ea": "exist, existence, existent, to be",
     "c": "evaluate",
     "cs": "da",
@@ -12706,7 +12539,7 @@
   },
   {
     "w": "damura",
-    "e": "Meaning",
+    "e": "meaning",
     "ea": "meaning, to mean, sense, significance, significant",
     "c": "evaluate",
     "cs": "da",
@@ -12786,7 +12619,7 @@
   },
   {
     "w": "danala",
-    "e": "Attention",
+    "e": "attention",
     "ea": "attention, warn, caution, warning, alert, notification",
     "c": "evaluate",
     "cs": "da",
@@ -12868,7 +12701,7 @@
   },
   {
     "w": "dandao",
-    "e": "Serious",
+    "e": "serious",
     "ea": "serious, earnest, seriousness",
     "c": "evaluate",
     "cs": "da",
@@ -12939,7 +12772,7 @@
   },
   {
     "w": "danmir",
-    "e": "Important",
+    "e": "important",
     "ea": "important, importance, to matter",
     "c": "evaluate",
     "cs": "da",
@@ -13020,7 +12853,7 @@
   },
   {
     "w": "dano",
-    "e": "Represent",
+    "e": "represent",
     "ea": "represent, stand for, representative, agent, envoy",
     "c": "evaluate",
     "cs": "da",
@@ -13120,7 +12953,7 @@
   },
   {
     "w": "danvandi",
-    "e": "Point",
+    "e": "point",
     "ea": "point, dot, spot, indicate",
     "c": "evaluate",
     "cs": "da",
@@ -13181,7 +13014,7 @@
   },
   {
     "w": "das",
-    "e": "Ten",
+    "e": "ten",
     "search_terms": [
       "das",
       "ten"
@@ -13189,7 +13022,7 @@
   },
   {
     "w": "dasora",
-    "e": "Purpose",
+    "e": "purpose",
     "ea": "purpose, goal, objective, aim, intend, target",
     "c": "evaluate",
     "cs": "da",
@@ -13271,7 +13104,7 @@
   },
   {
     "w": "dasu",
-    "e": "Accept",
+    "e": "accept",
     "ea": "accept, consent, agree, agreement, accord, pact",
     "c": "evaluate",
     "cs": "da",
@@ -13378,7 +13211,7 @@
   },
   {
     "w": "datava",
-    "e": "Sense",
+    "e": "sense",
     "ea": "sense, feel, touch, feeling, experience",
     "c": "evaluate",
     "cs": "da",
@@ -13494,7 +13327,7 @@
   },
   {
     "w": "dateli",
-    "e": "Situation",
+    "e": "situation",
     "ea": "situation, circunstance, to happen",
     "c": "evaluate",
     "cs": "da",
@@ -13585,7 +13418,7 @@
   },
   {
     "w": "davio",
-    "e": "Change",
+    "e": "change",
     "ea": "change, modify, modification, mutation, transform, become",
     "c": "evaluate",
     "cs": "da",
@@ -13687,7 +13520,7 @@
   },
   {
     "w": "davir",
-    "e": "Exact",
+    "e": "exact",
     "ea": "exact, precise, precision, exactly",
     "c": "evaluate",
     "cs": "da",
@@ -13785,7 +13618,7 @@
   },
   {
     "w": "dayar",
-    "e": "Obvious",
+    "e": "obvious",
     "ea": "obvious, clear, explicit",
     "c": "evaluate",
     "cs": "da",
@@ -13883,7 +13716,7 @@
   },
   {
     "w": "dodo",
-    "e": "Mimic",
+    "e": "mimic",
     "ea": "mimic, copy, imitation",
     "c": "regulations",
     "cs": "do",
@@ -13935,7 +13768,7 @@
   },
   {
     "w": "dofa",
-    "e": "Inherit",
+    "e": "inherit",
     "ea": "inherit, inheritance, genetic, gene, hereditary",
     "c": "regulations",
     "cs": "do",
@@ -14017,7 +13850,7 @@
   },
   {
     "w": "dohcu",
-    "e": "Obey",
+    "e": "obey",
     "ea": "obey, compliance, obedient",
     "c": "regulations",
     "cs": "do",
@@ -14075,7 +13908,7 @@
   },
   {
     "w": "dohtar",
-    "e": "Regulate",
+    "e": "regulate",
     "ea": "regulate, regulation, control",
     "c": "regulations",
     "cs": "do",
@@ -14143,7 +13976,7 @@
   },
   {
     "w": "dohtei",
-    "e": "Expel",
+    "e": "expel",
     "ea": "expel, exile",
     "c": "regulations",
     "cs": "do",
@@ -14200,7 +14033,7 @@
   },
   {
     "w": "dohti",
-    "e": "Punish",
+    "e": "punish",
     "ea": "punish, punishment",
     "c": "regulations",
     "cs": "do",
@@ -14274,7 +14107,7 @@
   },
   {
     "w": "dohvil",
-    "e": "Obligation",
+    "e": "obligation",
     "ea": "obligation",
     "c": "regulations",
     "cs": "do",
@@ -14329,7 +14162,7 @@
   },
   {
     "w": "dolal",
-    "e": "Adhere",
+    "e": "adhere",
     "ea": "adhere, stick, cling, sticky, glue, attach",
     "c": "regulations",
     "cs": "do",
@@ -14392,7 +14225,7 @@
   },
   {
     "w": "donen",
-    "e": "Enable",
+    "e": "enable",
     "ea": "enable, empower, facilitate, catalyze, prompt, cause",
     "c": "regulations",
     "cs": "do",
@@ -14476,7 +14309,7 @@
   },
   {
     "w": "donu",
-    "e": "Tendency",
+    "e": "tendency",
     "ea": "tendency, bias, inclination, inclined to, steep",
     "c": "regulations",
     "cs": "do",
@@ -14555,7 +14388,7 @@
   },
   {
     "w": "dorel",
-    "e": "Tolerate",
+    "e": "tolerate",
     "ea": "tolerate, tolerance, tolerant, accepting",
     "c": "regulations",
     "cs": "do",
@@ -14640,7 +14473,7 @@
   },
   {
     "w": "doro",
-    "e": "Invent",
+    "e": "invent",
     "ea": "invent, invention, inventive, innovation",
     "c": "regulations",
     "cs": "do",
@@ -14726,7 +14559,7 @@
   },
   {
     "w": "dovea",
-    "e": "Divide",
+    "e": "divide",
     "ea": "divide, split, division",
     "c": "regulations",
     "cs": "do",
@@ -14786,7 +14619,7 @@
   },
   {
     "w": "dowowo",
-    "e": "Oscillate",
+    "e": "oscillate",
     "ea": "oscillate, swing, a swing, alternate, turn",
     "c": "regulations",
     "cs": "do",
@@ -14862,7 +14695,7 @@
   },
   {
     "w": "elanato",
-    "e": "Sacrifice",
+    "e": "sacrifice",
     "ea": "sacrifice, offering",
     "c": "wonder",
     "cs": "el",
@@ -14956,7 +14789,7 @@
   },
   {
     "w": "elano",
-    "e": "Worship",
+    "e": "worship",
     "ea": "worship, praise, adore, adoration, prayer",
     "c": "wonder",
     "cs": "el",
@@ -15042,7 +14875,7 @@
   },
   {
     "w": "elaora",
-    "e": "Religion",
+    "e": "religion",
     "ea": "religion, religious",
     "c": "wonder",
     "cs": "el",
@@ -15115,7 +14948,7 @@
   },
   {
     "w": "elaren",
-    "e": "Holy",
+    "e": "holy",
     "ea": "holy, spiritual",
     "c": "wonder",
     "cs": "el",
@@ -15185,7 +15018,7 @@
   },
   {
     "w": "elarih",
-    "e": "God",
+    "e": "god",
     "ea": "god, divine",
     "c": "wonder",
     "cs": "el",
@@ -15277,7 +15110,7 @@
   },
   {
     "w": "elarul",
-    "e": "Rite",
+    "e": "rite",
     "ea": "rite, ceremony, ceremonial, formal",
     "c": "wonder",
     "cs": "el",
@@ -15352,7 +15185,7 @@
   },
   {
     "w": "elasu",
-    "e": "Faith",
+    "e": "faith",
     "ea": "faith, to trust, loyal",
     "c": "wonder",
     "cs": "el",
@@ -15444,7 +15277,7 @@
   },
   {
     "w": "eledora",
-    "e": "Fate",
+    "e": "fate",
     "ea": "fate, destiny",
     "c": "wonder",
     "cs": "el",
@@ -15521,7 +15354,7 @@
   },
   {
     "w": "elefo",
-    "e": "Wonder",
+    "e": "wonder",
     "ea": "wonder, miracle, marvel, wonderful",
     "c": "wonder",
     "cs": "el",
@@ -15588,7 +15421,7 @@
   },
   {
     "w": "elehui",
-    "e": "Soul",
+    "e": "soul",
     "ea": "soul, spirit",
     "c": "wonder",
     "cs": "el",
@@ -15665,7 +15498,7 @@
   },
   {
     "w": "elelia",
-    "e": "Poem",
+    "e": "poem",
     "ea": "poem, poetry, poetic",
     "c": "wonder",
     "cs": "el",
@@ -15739,7 +15572,7 @@
   },
   {
     "w": "elemi",
-    "e": "Life",
+    "e": "life",
     "ea": "life, live (opp. to die)",
     "c": "wonder",
     "cs": "el",
@@ -15826,7 +15659,7 @@
   },
   {
     "w": "elenon",
-    "e": "Journey",
+    "e": "journey",
     "ea": "journey, voyage, trip, travel, adventure, adventurous",
     "c": "wonder",
     "cs": "el",
@@ -15909,7 +15742,7 @@
   },
   {
     "w": "elepan",
-    "e": "Accomplish",
+    "e": "accomplish",
     "ea": "accomplish, accomplishment, success, succeed, victory",
     "c": "wonder",
     "cs": "el",
@@ -15991,7 +15824,7 @@
   },
   {
     "w": "eleyel",
-    "e": "Love",
+    "e": "love",
     "ea": "love, dear",
     "c": "wonder",
     "cs": "el",
@@ -16075,7 +15908,7 @@
   },
   {
     "w": "eleyus",
-    "e": "Dream",
+    "e": "dream",
     "ea": "dream",
     "c": "wonder",
     "cs": "el",
@@ -16133,7 +15966,7 @@
   },
   {
     "w": "elihei",
-    "e": "Self",
+    "e": "self",
     "ea": "self, own (adj)",
     "c": "wonder",
     "cs": "el",
@@ -16216,7 +16049,7 @@
   },
   {
     "w": "elileo",
-    "e": "Kind",
+    "e": "kind",
     "ea": "kind, humane, humaneness, solidarity",
     "c": "wonder",
     "cs": "el",
@@ -16294,7 +16127,7 @@
   },
   {
     "w": "elireva",
-    "e": "Truth",
+    "e": "truth",
     "ea": "true, truth, really, reality, fact",
     "c": "wonder",
     "cs": "el",
@@ -16374,7 +16207,7 @@
   },
   {
     "w": "elirota",
-    "e": "Moral",
+    "e": "moral",
     "ea": "moral, morality, moralize, morale, virtue",
     "c": "wonder",
     "cs": "el",
@@ -16473,7 +16306,7 @@
   },
   {
     "w": "elives",
-    "e": "Humble",
+    "e": "humble",
     "ea": "humble, modest, humility",
     "c": "wonder",
     "cs": "el",
@@ -16532,7 +16365,7 @@
   },
   {
     "w": "eliyuli",
-    "e": "Wise",
+    "e": "wise",
     "ea": "wise, wisdom",
     "c": "wonder",
     "cs": "el",
@@ -16593,7 +16426,7 @@
   },
   {
     "w": "eloan",
-    "e": "Thanks",
+    "e": "thanks",
     "ea": "thanks, to thank, thankful, gratitude",
     "c": "wonder",
     "cs": "el",
@@ -16675,7 +16508,7 @@
   },
   {
     "w": "elodao",
-    "e": "Promise",
+    "e": "promise",
     "ea": "promise, vow, pledge, swear",
     "c": "wonder",
     "cs": "el",
@@ -16757,7 +16590,7 @@
   },
   {
     "w": "eloele",
-    "e": "Freedom",
+    "e": "freedom",
     "ea": "freedom, free, liberate",
     "c": "wonder",
     "cs": "el",
@@ -16837,7 +16670,7 @@
   },
   {
     "w": "elojer",
-    "e": "Pardon",
+    "e": "pardon",
     "ea": "pardon, forgive, condone, an excuse",
     "c": "wonder",
     "cs": "el",
@@ -16902,7 +16735,7 @@
   },
   {
     "w": "eloliuto",
-    "e": "Pity",
+    "e": "pity",
     "ea": "pity, mercy, compassion, sympathy, sympathize",
     "c": "wonder",
     "cs": "el",
@@ -16998,7 +16831,7 @@
   },
   {
     "w": "elomiu",
-    "e": "Aid",
+    "e": "aid",
     "ea": "aid, help",
     "c": "wonder",
     "cs": "el",
@@ -17073,7 +16906,7 @@
   },
   {
     "w": "elonemi",
-    "e": "Save",
+    "e": "save",
     "ea": "save, rescue, salvation, salvage, retrieve",
     "c": "wonder",
     "cs": "el",
@@ -17138,7 +16971,7 @@
   },
   {
     "w": "elonevi",
-    "e": "Deserve",
+    "e": "deserve",
     "ea": "deserve, merit, -worthy",
     "c": "wonder",
     "cs": "el",
@@ -17201,7 +17034,7 @@
   },
   {
     "w": "elonor",
-    "e": "Peace",
+    "e": "peace",
     "ea": "peace, peaceful, calm",
     "c": "wonder",
     "cs": "el",
@@ -17281,7 +17114,7 @@
   },
   {
     "w": "elori",
-    "e": "Act",
+    "e": "act",
     "ea": "act, performance, behavior, active",
     "c": "wonder",
     "cs": "el",
@@ -17364,7 +17197,7 @@
   },
   {
     "w": "eoco",
-    "e": "Announce",
+    "e": "announce",
     "ea": "announce, announcement, declare, declaration",
     "c": "social",
     "cs": "eo",
@@ -17448,7 +17281,7 @@
   },
   {
     "w": "eodani",
-    "e": "Meet",
+    "e": "meet",
     "ea": "meet, encounter, meeting",
     "c": "social",
     "cs": "eo",
@@ -17532,7 +17365,7 @@
   },
   {
     "w": "eodenbor",
-    "e": "Visit",
+    "e": "visit",
     "ea": "visit",
     "c": "social",
     "cs": "eo",
@@ -17615,7 +17448,7 @@
   },
   {
     "w": "eodomai",
-    "e": "Negotiation",
+    "e": "negotiation",
     "ea": "negotiation, negotiate",
     "c": "social",
     "cs": "eo",
@@ -17698,7 +17531,7 @@
   },
   {
     "w": "eodya",
-    "e": "Invite",
+    "e": "invite",
     "ea": "invite, invitation",
     "c": "social",
     "cs": "eo",
@@ -17774,7 +17607,7 @@
   },
   {
     "w": "eodyel",
-    "e": "Join",
+    "e": "join",
     "ea": "join, group, together, club, coalition",
     "c": "social",
     "cs": "eo",
@@ -17859,7 +17692,7 @@
   },
   {
     "w": "eofa",
-    "e": "Friend",
+    "e": "friend",
     "ea": "friend, acquaintance, befriend, friendly",
     "c": "social",
     "cs": "eo",
@@ -17945,7 +17778,7 @@
   },
   {
     "w": "eojun",
-    "e": "Race",
+    "e": "race",
     "ea": "race, competition, compete",
     "c": "social",
     "cs": "eo",
@@ -18010,7 +17843,7 @@
   },
   {
     "w": "eoleo",
-    "e": "Member",
+    "e": "member",
     "ea": "member, adherent",
     "c": "social",
     "cs": "eo",
@@ -18091,7 +17924,7 @@
   },
   {
     "w": "eomanse",
-    "e": "Meeting",
+    "e": "meeting",
     "ea": "work meeting",
     "c": "social",
     "cs": "eo",
@@ -18151,7 +17984,7 @@
   },
   {
     "w": "eomfel",
-    "e": "Event",
+    "e": "event",
     "ea": "event, case (instance), occurrence, phenomenon, times",
     "c": "social",
     "cs": "eo",
@@ -18222,7 +18055,7 @@
   },
   {
     "w": "eomiu",
-    "e": "Support",
+    "e": "support",
     "ea": "support, backing, advocacy, bolster",
     "c": "social",
     "cs": "eo",
@@ -18302,7 +18135,7 @@
   },
   {
     "w": "eomseri",
-    "e": "Parade",
+    "e": "parade",
     "ea": "parade, march, procession",
     "c": "social",
     "cs": "eo",
@@ -18379,7 +18212,7 @@
   },
   {
     "w": "eomsu",
-    "e": "Party",
+    "e": "party",
     "ea": "party, celebrate",
     "c": "social",
     "cs": "eo",
@@ -18464,7 +18297,7 @@
   },
   {
     "w": "eon",
-    "e": "Hello",
+    "e": "hello",
     "ea": "hello, goodbye, greet, greeting",
     "c": "social",
     "cs": "eo",
@@ -18536,7 +18369,7 @@
   },
   {
     "w": "eopan",
-    "e": "Win",
+    "e": "win",
     "ea": "win, gain, earn, earnings, profit, prize",
     "c": "social",
     "cs": "eo",
@@ -18623,7 +18456,7 @@
   },
   {
     "w": "eoras",
-    "e": "Association",
+    "e": "association",
     "ea": "association, organization",
     "c": "social",
     "cs": "eo",
@@ -18704,7 +18537,7 @@
   },
   {
     "w": "eoren",
-    "e": "Honor",
+    "e": "honor",
     "ea": "honor, honorable, reputation, respect, mr, mrs",
     "c": "social",
     "cs": "eo",
@@ -18789,7 +18622,7 @@
   },
   {
     "w": "eori",
-    "e": "Polite",
+    "e": "polite",
     "ea": "polite, gentle, gracious, courteous, please",
     "c": "social",
     "cs": "eo",
@@ -18877,7 +18710,7 @@
   },
   {
     "w": "fadevi",
-    "e": "Birth",
+    "e": "birth",
     "ea": "birth, give birth",
     "c": "family",
     "cs": "fa",
@@ -18976,7 +18809,7 @@
   },
   {
     "w": "faejal",
-    "e": "Man",
+    "e": "man",
     "ea": "man, male",
     "c": "family",
     "cs": "fa",
@@ -19035,7 +18868,7 @@
   },
   {
     "w": "faejor",
-    "e": "Woman",
+    "e": "woman",
     "ea": "woman, female",
     "c": "family",
     "cs": "fa",
@@ -19094,7 +18927,7 @@
   },
   {
     "w": "faibor",
-    "e": "Companion",
+    "e": "companion",
     "ea": "companion, spouse, partner, comrade",
     "c": "family",
     "cs": "fa",
@@ -19176,7 +19009,7 @@
   },
   {
     "w": "faigel",
-    "e": "Marry",
+    "e": "marry",
     "ea": "marry, marriage, in-laws",
     "c": "family",
     "cs": "fa",
@@ -19254,7 +19087,7 @@
   },
   {
     "w": "falen",
-    "e": "Child",
+    "e": "child",
     "ea": "child (age stage), kid, children",
     "c": "family",
     "cs": "fa",
@@ -19319,7 +19152,7 @@
   },
   {
     "w": "falni",
-    "e": "Baby",
+    "e": "baby",
     "ea": "baby",
     "c": "family",
     "cs": "fa",
@@ -19396,7 +19229,7 @@
   },
   {
     "w": "falte",
-    "e": "Young",
+    "e": "young",
     "ea": "young, youth, a youth",
     "c": "family",
     "cs": "fa",
@@ -19458,7 +19291,7 @@
   },
   {
     "w": "fano",
-    "e": "Son, daughter",
+    "e": "son, daughter",
     "ea": "son, daughter, offspring",
     "c": "family",
     "cs": "fa",
@@ -19546,7 +19379,7 @@
   },
   {
     "w": "fare",
-    "e": "Parent",
+    "e": "parent",
     "ea": "parent",
     "c": "family",
     "cs": "fa",
@@ -19609,7 +19442,7 @@
   },
   {
     "w": "fasu",
-    "e": "Sibling",
+    "e": "sibling",
     "ea": "sibling, brother, sister",
     "c": "family",
     "cs": "fa",
@@ -19699,7 +19532,7 @@
   },
   {
     "w": "gaet",
-    "e": "Effect",
+    "e": "effect",
     "ea": "effect, result, to effect, effective",
     "c": "compare",
     "cs": "ga",
@@ -19759,7 +19592,7 @@
   },
   {
     "w": "gafei",
-    "e": "Less",
+    "e": "less",
     "ea": "less, minus, reduce",
     "c": "compare",
     "cs": "ga",
@@ -19830,7 +19663,7 @@
   },
   {
     "w": "gahoh",
-    "e": "Extreme",
+    "e": "extreme",
     "ea": "extreme, radical",
     "c": "compare",
     "cs": "ga",
@@ -19899,7 +19732,7 @@
   },
   {
     "w": "ganou",
-    "e": "Low",
+    "e": "low",
     "ea": "low, short (height)",
     "c": "compare",
     "cs": "ga",
@@ -19985,7 +19818,7 @@
   },
   {
     "w": "ganrih",
-    "e": "Above",
+    "e": "above",
     "ea": "above, over, up, height, minimun, at least",
     "c": "compare",
     "cs": "ga",
@@ -20072,7 +19905,7 @@
   },
   {
     "w": "ganter",
-    "e": "Rank",
+    "e": "rank",
     "ea": "rank, status, ordering, -th (ordinal), row",
     "c": "compare",
     "cs": "ga",
@@ -20151,7 +19984,7 @@
   },
   {
     "w": "ganyu",
-    "e": "Average",
+    "e": "average",
     "ea": "average, medium, normal, usual, standard, norm, common",
     "c": "compare",
     "cs": "ga",
@@ -20235,7 +20068,7 @@
   },
   {
     "w": "gaocao",
-    "e": "Ratio",
+    "e": "ratio",
     "ea": "ratio, rate, proportion, fraction",
     "c": "compare",
     "cs": "ga",
@@ -20295,7 +20128,7 @@
   },
   {
     "w": "gaohei",
-    "e": "Neutral",
+    "e": "neutral",
     "ea": "neutral, neuter,impartial",
     "c": "compare",
     "cs": "ga",
@@ -20373,7 +20206,7 @@
   },
   {
     "w": "gaolan",
-    "e": "Balance",
+    "e": "balance",
     "ea": "balance, equilibrium, a scale, balanced, fair",
     "c": "compare",
     "cs": "ga",
@@ -20450,7 +20283,7 @@
   },
   {
     "w": "gaoleo",
-    "e": "Value",
+    "e": "value",
     "ea": "value, worth, to appreciate",
     "c": "compare",
     "cs": "ga",
@@ -20528,7 +20361,7 @@
   },
   {
     "w": "gaomem",
-    "e": "Equal",
+    "e": "equal",
     "ea": "equal, equality, equation, equally, same, (me) too",
     "c": "compare",
     "cs": "ga",
@@ -20597,7 +20430,7 @@
   },
   {
     "w": "gaone",
-    "e": "Degree",
+    "e": "degree",
     "ea": "degree, level, floor",
     "c": "compare",
     "cs": "ga",
@@ -20669,7 +20502,7 @@
   },
   {
     "w": "garel",
-    "e": "Rise",
+    "e": "rise",
     "ea": "elevate, rise, lift, raise",
     "c": "compare",
     "cs": "ga",
@@ -20759,7 +20592,7 @@
   },
   {
     "w": "gavio",
-    "e": "Vary",
+    "e": "vary",
     "ea": "vary, variety, various, variation, variance, different",
     "c": "compare",
     "cs": "ga",
@@ -20848,7 +20681,7 @@
   },
   {
     "w": "gavir",
-    "e": "Limit",
+    "e": "limit",
     "ea": "limit, limited, restriction, boundary, border, edge",
     "c": "compare",
     "cs": "ga",
@@ -20928,7 +20761,7 @@
   },
   {
     "w": "gavol",
-    "e": "Measure",
+    "e": "measure",
     "ea": "measure, measurement, size (clothing), dimension",
     "c": "compare",
     "cs": "ga",
@@ -20996,7 +20829,7 @@
   },
   {
     "w": "gedom",
-    "e": "Bank",
+    "e": "bank",
     "ea": "bank, financial institution",
     "c": "finances",
     "cs": "ge",
@@ -21080,7 +20913,7 @@
   },
   {
     "w": "gefou",
-    "e": "Debt",
+    "e": "debt",
     "ea": "",
     "c": "finances",
     "cs": "ge",
@@ -21155,7 +20988,7 @@
   },
   {
     "w": "gehdove",
-    "e": "Sell",
+    "e": "sell",
     "ea": "sell, sale",
     "c": "finances",
     "cs": "ge",
@@ -21203,7 +21036,7 @@
   },
   {
     "w": "gehna",
-    "e": "Buy",
+    "e": "buy",
     "ea": "buy, a purchase",
     "c": "finances",
     "cs": "ge",
@@ -21267,7 +21100,7 @@
   },
   {
     "w": "gehsar",
-    "e": "Charge",
+    "e": "charge",
     "ea": "charge, bill",
     "c": "finances",
     "cs": "ge",
@@ -21328,7 +21161,7 @@
   },
   {
     "w": "gehvio",
-    "e": "Exchange",
+    "e": "exchange",
     "ea": "exchange, trade, barter",
     "c": "finances",
     "cs": "ge",
@@ -21397,7 +21230,7 @@
   },
   {
     "w": "geloa",
-    "e": "Sum",
+    "e": "sum",
     "ea": "sum, total, calculate, score",
     "c": "finances",
     "cs": "ge",
@@ -21475,7 +21308,7 @@
   },
   {
     "w": "gerina",
-    "e": "Money",
+    "e": "money",
     "ea": "money",
     "c": "finances",
     "cs": "ge",
@@ -21567,7 +21400,7 @@
   },
   {
     "w": "gerou",
-    "e": "Account",
+    "e": "account",
     "ea": "account, ledger, report, to recount, to record",
     "c": "finances",
     "cs": "ge",
@@ -21645,7 +21478,7 @@
   },
   {
     "w": "geyavu",
-    "e": "Invest",
+    "e": "invest",
     "ea": "invest, investment",
     "c": "finances",
     "cs": "ge",
@@ -21739,7 +21572,7 @@
   },
   {
     "w": "geyelu",
-    "e": "Collect",
+    "e": "collect",
     "ea": "collect, collection, gather, assembly",
     "c": "finances",
     "cs": "ge",
@@ -21830,7 +21663,7 @@
   },
   {
     "w": "geyosa",
-    "e": "Bet",
+    "e": "bet",
     "ea": "bet, wager, gamble, risk",
     "c": "finances",
     "cs": "ge",
@@ -21891,7 +21724,7 @@
   },
   {
     "w": "hehma",
-    "e": "Monster",
+    "e": "monster",
     "ea": "monster, beast, beastly",
     "c": "fiction trope",
     "cs": "he",
@@ -21968,7 +21801,7 @@
   },
   {
     "w": "hehou",
-    "e": "Shadow",
+    "e": "shadow",
     "ea": "shadow, shade, obscure, hide, hidden",
     "c": "fiction trope",
     "cs": "he",
@@ -22047,7 +21880,7 @@
   },
   {
     "w": "hehti",
-    "e": "Devil",
+    "e": "devil",
     "ea": "devil, demon, diabolical, evil",
     "c": "fiction trope",
     "cs": "he",
@@ -22131,7 +21964,7 @@
   },
   {
     "w": "hehui",
-    "e": "Ghost",
+    "e": "ghost",
     "ea": "ghost, spirit, phantom",
     "c": "fiction trope",
     "cs": "he",
@@ -22203,7 +22036,7 @@
   },
   {
     "w": "heimir",
-    "e": "Awesome",
+    "e": "awesome",
     "ea": "",
     "c": "fiction trope",
     "cs": "he",
@@ -22287,7 +22120,7 @@
   },
   {
     "w": "heipili",
-    "e": "Fairy",
+    "e": "fairy",
     "ea": "fairy, sprite, pixie",
     "c": "fiction trope",
     "cs": "he",
@@ -22368,7 +22201,7 @@
   },
   {
     "w": "heirih",
-    "e": "Angel",
+    "e": "angel",
     "ea": "angel, angelic",
     "c": "fiction trope",
     "cs": "he",
@@ -22454,7 +22287,7 @@
   },
   {
     "w": "heivio",
-    "e": "Magic",
+    "e": "magic",
     "ea": "magic, magical, conjure",
     "c": "fiction trope",
     "cs": "he",
@@ -22540,7 +22373,7 @@
   },
   {
     "w": "helufu",
-    "e": "Air",
+    "e": "air",
     "ea": "air, atmosphere, gas, fly",
     "c": "fiction trope",
     "cs": "he",
@@ -22619,7 +22452,7 @@
   },
   {
     "w": "heodom",
-    "e": "Planet",
+    "e": "planet",
     "ea": "planet, planetary",
     "c": "fiction trope",
     "cs": "he",
@@ -22701,7 +22534,7 @@
   },
   {
     "w": "heohodetu",
-    "e": "Infinity",
+    "e": "infinity",
     "ea": "infinity, infinite",
     "c": "fiction trope",
     "cs": "he",
@@ -22782,7 +22615,7 @@
   },
   {
     "w": "heoloa",
-    "e": "Universe",
+    "e": "universe",
     "ea": "universe, universal",
     "c": "fiction trope",
     "cs": "he",
@@ -22863,7 +22696,7 @@
   },
   {
     "w": "heosu",
-    "e": "Moon",
+    "e": "moon",
     "ea": "moon",
     "c": "fiction trope",
     "cs": "he",
@@ -22944,7 +22777,7 @@
   },
   {
     "w": "heoyar",
-    "e": "Ray",
+    "e": "ray",
     "ea": "ray, beam, radiate, radius",
     "c": "fiction trope",
     "cs": "he",
@@ -23037,7 +22870,7 @@
   },
   {
     "w": "hevas",
-    "e": "Secret",
+    "e": "secret",
     "ea": "secret, mystery",
     "c": "fiction trope",
     "cs": "he",
@@ -23104,7 +22937,7 @@
   },
   {
     "w": "ilace",
-    "e": "Ask",
+    "e": "ask",
     "ea": "ask, question",
     "c": "inquire",
     "cs": "il",
@@ -23182,7 +23015,7 @@
   },
   {
     "w": "ilahai",
-    "e": "Talk",
+    "e": "talk",
     "ea": "talk, speech, lecture",
     "c": "inquire",
     "cs": "il",
@@ -23259,7 +23092,7 @@
   },
   {
     "w": "ilaluan",
-    "e": "Say",
+    "e": "say",
     "ea": "say, tell, utter, recite, utterance, saying",
     "c": "inquire",
     "cs": "il",
@@ -23339,7 +23172,7 @@
   },
   {
     "w": "ilayayu",
-    "e": "Describe",
+    "e": "describe",
     "ea": "",
     "c": "inquire",
     "cs": "il",
@@ -23442,7 +23275,7 @@
   },
   {
     "w": "ilhei",
-    "e": "People",
+    "e": "people",
     "ea": "people, population, populate, populous",
     "c": "inquire",
     "cs": "il",
@@ -23527,7 +23360,7 @@
   },
   {
     "w": "ilian",
-    "e": "Know",
+    "e": "know",
     "ea": "know, knowledge",
     "c": "inquire",
     "cs": "il",
@@ -23613,7 +23446,7 @@
   },
   {
     "w": "iliciu",
-    "e": "Imagine",
+    "e": "imagine",
     "ea": "imagine, suppose",
     "c": "inquire",
     "cs": "il",
@@ -23696,7 +23529,7 @@
   },
   {
     "w": "ilie",
-    "e": "Maybe",
+    "e": "maybe",
     "ea": "maybe, possibility, possible, option",
     "c": "inquire",
     "cs": "il",
@@ -23756,7 +23589,7 @@
   },
   {
     "w": "ilinou",
-    "e": "Understand",
+    "e": "understand",
     "ea": "understand",
     "c": "inquire",
     "cs": "il",
@@ -23845,7 +23678,7 @@
   },
   {
     "w": "iliora",
-    "e": "Idea",
+    "e": "idea",
     "ea": "idea, concept, conceptual, ideal, visionary",
     "c": "inquire",
     "cs": "il",
@@ -23930,7 +23763,7 @@
   },
   {
     "w": "iliro",
-    "e": "Think",
+    "e": "think",
     "ea": "think, thought, opinion",
     "c": "inquire",
     "cs": "il",
@@ -24023,7 +23856,7 @@
   },
   {
     "w": "iliroyar",
-    "e": "Conscience",
+    "e": "conscience",
     "ea": "conscience, awareness, conscious, consciousness, mind, mental",
     "c": "inquire",
     "cs": "il",
@@ -24137,7 +23970,7 @@
   },
   {
     "w": "ilisu",
-    "e": "Believe",
+    "e": "believe",
     "ea": "believe, belief, creed",
     "c": "inquire",
     "cs": "il",
@@ -24225,7 +24058,7 @@
   },
   {
     "w": "ilivargor",
-    "e": "Recognize",
+    "e": "recognize",
     "ea": "recognize, recognition",
     "c": "inquire",
     "cs": "il",
@@ -24289,7 +24122,7 @@
   },
   {
     "w": "iloani",
-    "e": "To care about",
+    "e": "to care about",
     "ea": "to care about, to mind",
     "c": "inquire",
     "cs": "il",
@@ -24370,7 +24203,7 @@
   },
   {
     "w": "ilofun",
-    "e": "Doubt",
+    "e": "doubt",
     "ea": "doubt, hesitant",
     "c": "inquire",
     "cs": "il",
@@ -24434,7 +24267,7 @@
   },
   {
     "w": "iloi",
-    "e": "Hope",
+    "e": "hope",
     "ea": "hope, wait for, expectation, wish",
     "c": "inquire",
     "cs": "il",
@@ -24498,7 +24331,7 @@
   },
   {
     "w": "ilonya",
-    "e": "Forget",
+    "e": "forget",
     "ea": "forget",
     "c": "inquire",
     "cs": "il",
@@ -24576,13 +24409,13 @@
     ]
   },
   {
-    "w": "ilotanu",
-    "e": "Surprise",
+    "w": "iloram",
+    "e": "surprise",
     "ea": "surprise, astonish, shock, unexpected",
     "c": "inquire",
     "cs": "il",
     "sc": "ilo",
-    "r": "tanu",
+    "r": "ram",
     "bd": [
       {
         "sound": "ilo",
@@ -24657,7 +24490,7 @@
       "hope",
       "il",
       "ilo",
-      "ilotanu",
+      "iloram",
       "inquire",
       "is",
       "knowledge",
@@ -24682,7 +24515,7 @@
   },
   {
     "w": "iloto",
-    "e": "Worry",
+    "e": "worry",
     "ea": "worry, concern",
     "c": "inquire",
     "cs": "il",
@@ -24764,7 +24597,7 @@
   },
   {
     "w": "ilteli",
-    "e": "Moment",
+    "e": "moment",
     "ea": "moment, instant, instantaneous, immediate",
     "c": "inquire",
     "cs": "il",
@@ -24835,7 +24668,7 @@
   },
   {
     "w": "ilwol",
-    "e": "Thing",
+    "e": "thing",
     "ea": "thing, stuff",
     "c": "inquire",
     "cs": "il",
@@ -24915,7 +24748,7 @@
   },
   {
     "w": "jacati",
-    "e": "Chain",
+    "e": "chain",
     "ea": "chain, fetters",
     "c": "tools",
     "cs": "ja",
@@ -24996,7 +24829,7 @@
   },
   {
     "w": "jadoe",
-    "e": "Rack",
+    "e": "rack",
     "ea": "rack, shelf, ledge",
     "c": "tools",
     "cs": "ja",
@@ -25071,7 +24904,7 @@
   },
   {
     "w": "jadun",
-    "e": "Fork",
+    "e": "fork",
     "ea": "fork",
     "c": "tools",
     "cs": "ja",
@@ -25137,7 +24970,7 @@
   },
   {
     "w": "jahci",
-    "e": "Knife",
+    "e": "knife",
     "ea": "knife, dagger, stab",
     "c": "tools",
     "cs": "ja",
@@ -25208,7 +25041,7 @@
   },
   {
     "w": "jahgo",
-    "e": "Ax",
+    "e": "ax",
     "ea": "ax, hatchet, machete, to chop",
     "c": "tools",
     "cs": "ja",
@@ -25285,7 +25118,7 @@
   },
   {
     "w": "jahpapa",
-    "e": "Hammer",
+    "e": "hammer",
     "ea": "hammer, mallet",
     "c": "tools",
     "cs": "ja",
@@ -25344,7 +25177,7 @@
   },
   {
     "w": "jajol",
-    "e": "Pocket",
+    "e": "pocket",
     "ea": "pocket, to put away",
     "c": "tools",
     "cs": "ja",
@@ -25435,7 +25268,7 @@
   },
   {
     "w": "jalano",
-    "e": "Ball",
+    "e": "ball",
     "ea": "ball, a spherical object, roll, sphere, globe, inflate",
     "c": "tools",
     "cs": "ja",
@@ -25535,7 +25368,7 @@
   },
   {
     "w": "jalei",
-    "e": "Stick",
+    "e": "stick",
     "ea": "stick, rod",
     "c": "tools",
     "cs": "ja",
@@ -25616,7 +25449,7 @@
   },
   {
     "w": "jalen",
-    "e": "Pen",
+    "e": "pen",
     "ea": "pencil, stylus, to draw",
     "c": "tools",
     "cs": "ja",
@@ -25701,7 +25534,7 @@
   },
   {
     "w": "jalia",
-    "e": "Bell",
+    "e": "bell",
     "ea": "bell, siren, alarm, to chime, handbell, doorbell",
     "c": "tools",
     "cs": "ja",
@@ -25788,7 +25621,7 @@
   },
   {
     "w": "james",
-    "e": "Ring",
+    "e": "ring",
     "ea": "ring, loop, hoop, circuit, halo",
     "c": "tools",
     "cs": "ja",
@@ -25860,7 +25693,7 @@
   },
   {
     "w": "janos",
-    "e": "Oar",
+    "e": "oar",
     "ea": "oar, rudder, to row, plank, board",
     "c": "tools",
     "cs": "ja",
@@ -25933,7 +25766,7 @@
   },
   {
     "w": "janou",
-    "e": "Hole",
+    "e": "hole",
     "ea": "hole, gap, aperture, to drill",
     "c": "tools",
     "cs": "ja",
@@ -26034,7 +25867,7 @@
   },
   {
     "w": "jarih",
-    "e": "Ladder",
+    "e": "ladder",
     "ea": "ladder, escalator, stairs, steps, climb",
     "c": "tools",
     "cs": "ja",
@@ -26134,7 +25967,7 @@
   },
   {
     "w": "jasar",
-    "e": "Hook",
+    "e": "hook",
     "ea": "hook, hanger, crook",
     "c": "tools",
     "cs": "ja",
@@ -26216,7 +26049,7 @@
   },
   {
     "w": "jashur",
-    "e": "Rip",
+    "e": "rip",
     "ea": "rip, tear",
     "c": "tools",
     "cs": "ja",
@@ -26277,7 +26110,7 @@
   },
   {
     "w": "jasrec",
-    "e": "Cut",
+    "e": "cut",
     "ea": "cut, incision, slice, chop",
     "c": "tools",
     "cs": "ja",
@@ -26340,7 +26173,7 @@
   },
   {
     "w": "jasru",
-    "e": "Bend",
+    "e": "bend",
     "ea": "bend, curve, flex",
     "c": "tools",
     "cs": "ja",
@@ -26413,7 +26246,7 @@
   },
   {
     "w": "jasvao",
-    "e": "Fold",
+    "e": "fold",
     "ea": "fold, crease",
     "c": "tools",
     "cs": "ja",
@@ -26474,7 +26307,7 @@
   },
   {
     "w": "jati",
-    "e": "Whip",
+    "e": "whip",
     "ea": "whip, lash",
     "c": "tools",
     "cs": "ja",
@@ -26559,7 +26392,7 @@
   },
   {
     "w": "javari",
-    "e": "Tail",
+    "e": "tail",
     "ea": "tail, rope",
     "c": "tools",
     "cs": "ja",
@@ -26639,7 +26472,7 @@
   },
   {
     "w": "javer",
-    "e": "Lock",
+    "e": "lock",
     "ea": "lock, to lock, latch, bolt, clasp",
     "c": "tools",
     "cs": "ja",
@@ -26729,7 +26562,7 @@
   },
   {
     "w": "javin",
-    "e": "Pin",
+    "e": "pin",
     "ea": "pin, needle",
     "c": "tools",
     "cs": "ja",
@@ -26797,7 +26630,7 @@
   },
   {
     "w": "javoa",
-    "e": "Cage",
+    "e": "cage",
     "ea": "cage, ribcage",
     "c": "tools",
     "cs": "ja",
@@ -26883,7 +26716,7 @@
   },
   {
     "w": "jecai",
-    "e": "Fence",
+    "e": "fence",
     "ea": "fence, barrier, partition, hedge, fence off",
     "c": "geometrics",
     "cs": "je",
@@ -26963,7 +26796,7 @@
   },
   {
     "w": "jeciuta",
-    "e": "Line",
+    "e": "line",
     "ea": "line, direct, summary, concise",
     "c": "geometrics",
     "cs": "je",
@@ -27063,7 +26896,7 @@
   },
   {
     "w": "jegai",
-    "e": "Narrow",
+    "e": "narrow",
     "ea": "narrow, thin, strait",
     "c": "geometrics",
     "cs": "je",
@@ -27155,7 +26988,7 @@
   },
   {
     "w": "jelano",
-    "e": "Circle",
+    "e": "circle",
     "ea": "circle, round, around, wheel",
     "c": "geometrics",
     "cs": "je",
@@ -27233,7 +27066,7 @@
   },
   {
     "w": "jele",
-    "e": "Field",
+    "e": "field",
     "ea": "field, camp, to camp, countryside, meadow, rural",
     "c": "geometrics",
     "cs": "je",
@@ -27311,7 +27144,7 @@
   },
   {
     "w": "jeluin",
-    "e": "Wing",
+    "e": "wing",
     "ea": "wing, brim",
     "c": "geometrics",
     "cs": "je",
@@ -27374,7 +27207,7 @@
   },
   {
     "w": "jenai",
-    "e": "Corner",
+    "e": "corner",
     "ea": "corner, angle",
     "c": "geometrics",
     "cs": "je",
@@ -27434,7 +27267,7 @@
   },
   {
     "w": "jenmue",
-    "e": "Left",
+    "e": "left",
     "ea": "left",
     "c": "geometrics",
     "cs": "je",
@@ -27492,7 +27325,7 @@
   },
   {
     "w": "jenon",
-    "e": "Path",
+    "e": "path",
     "ea": "path, way, road",
     "c": "geometrics",
     "cs": "je",
@@ -27575,7 +27408,7 @@
   },
   {
     "w": "jenparo",
-    "e": "Front",
+    "e": "front",
     "ea": "front, forehead, forward",
     "c": "geometrics",
     "cs": "je",
@@ -27653,7 +27486,7 @@
   },
   {
     "w": "jenpur",
-    "e": "Under",
+    "e": "under",
     "ea": "under, below, down",
     "c": "geometrics",
     "cs": "je",
@@ -27714,7 +27547,7 @@
   },
   {
     "w": "jenrein",
-    "e": "Between",
+    "e": "between",
     "ea": "between, among",
     "c": "geometrics",
     "cs": "je",
@@ -27780,7 +27613,7 @@
   },
   {
     "w": "jensu",
-    "e": "Side",
+    "e": "side",
     "ea": "side, adjacent, beside",
     "c": "geometrics",
     "cs": "je",
@@ -27872,7 +27705,7 @@
   },
   {
     "w": "jentale",
-    "e": "Through",
+    "e": "through",
     "ea": "through, across, trans-",
     "c": "geometrics",
     "cs": "je",
@@ -27952,7 +27785,7 @@
   },
   {
     "w": "jenya",
-    "e": "Empty",
+    "e": "empty",
     "ea": "empty, vacuum, outer space, vacuous",
     "c": "geometrics",
     "cs": "je",
@@ -28033,7 +27866,7 @@
   },
   {
     "w": "jeodeh",
-    "e": "Base",
+    "e": "base",
     "ea": "base, foundation",
     "c": "geometrics",
     "cs": "je",
@@ -28091,7 +27924,7 @@
   },
   {
     "w": "jeolan",
-    "e": "Center",
+    "e": "center",
     "ea": "center",
     "c": "geometrics",
     "cs": "je",
@@ -28162,7 +27995,7 @@
   },
   {
     "w": "jeonim",
-    "e": "Middle",
+    "e": "middle",
     "ea": "",
     "c": "geometrics",
     "cs": "je",
@@ -28218,7 +28051,7 @@
   },
   {
     "w": "jerih",
-    "e": "Tower",
+    "e": "tower",
     "ea": "tower, steeple, minaret",
     "c": "geometrics",
     "cs": "je",
@@ -28315,7 +28148,7 @@
   },
   {
     "w": "jetai",
-    "e": "Direction",
+    "e": "direction",
     "ea": "direction, orientation, guidance, instructions, course",
     "c": "geometrics",
     "cs": "je",
@@ -28405,7 +28238,7 @@
   },
   {
     "w": "jetaletor",
-    "e": "Cross",
+    "e": "cross",
     "ea": "cross, intersect, intersection",
     "c": "geometrics",
     "cs": "je",
@@ -28472,7 +28305,7 @@
   },
   {
     "w": "jevar",
-    "e": "Arch",
+    "e": "arch",
     "ea": "arch, vault, bow (weapon)",
     "c": "geometrics",
     "cs": "je",
@@ -28549,7 +28382,7 @@
   },
   {
     "w": "jevoi",
-    "e": "Rail",
+    "e": "rail",
     "ea": "rail, train, bar, track",
     "c": "geometrics",
     "cs": "je",
@@ -28614,7 +28447,7 @@
   },
   {
     "w": "jobos",
-    "e": "Pipe",
+    "e": "pipe",
     "ea": "pipe, tube, tunnel",
     "c": "materials",
     "cs": "jo",
@@ -28697,7 +28530,7 @@
   },
   {
     "w": "jocai",
-    "e": "Sheet",
+    "e": "sheet",
     "ea": "sheet, leaf, flat, flatten, plane",
     "c": "materials",
     "cs": "jo",
@@ -28773,7 +28606,7 @@
   },
   {
     "w": "jociuwa",
-    "e": "Paint",
+    "e": "paint",
     "ea": "paint, painting, painted",
     "c": "materials",
     "cs": "jo",
@@ -28874,7 +28707,7 @@
   },
   {
     "w": "jojae",
-    "e": "Basket",
+    "e": "basket",
     "ea": "basket, braid, tangle",
     "c": "materials",
     "cs": "jo",
@@ -28951,7 +28784,7 @@
   },
   {
     "w": "jolace",
-    "e": "Rubber",
+    "e": "rubber",
     "ea": "rubber, rubbery",
     "c": "materials",
     "cs": "jo",
@@ -29013,7 +28846,7 @@
   },
   {
     "w": "jolbo",
-    "e": "Cement",
+    "e": "cement",
     "ea": "cement, concrete, pave",
     "c": "materials",
     "cs": "jo",
@@ -29092,7 +28925,7 @@
   },
   {
     "w": "jolceyo",
-    "e": "Foam",
+    "e": "foam",
     "ea": "foam, froth, suds, mousse, lather",
     "c": "materials",
     "cs": "jo",
@@ -29166,7 +28999,7 @@
   },
   {
     "w": "joldur",
-    "e": "Metal",
+    "e": "metal",
     "ea": "metal, metallic",
     "c": "materials",
     "cs": "jo",
@@ -29247,7 +29080,7 @@
   },
   {
     "w": "jolem",
-    "e": "Box",
+    "e": "box",
     "ea": "box, rectangular prism, container",
     "c": "materials",
     "cs": "jo",
@@ -29327,7 +29160,7 @@
   },
   {
     "w": "joleni",
-    "e": "Plastic",
+    "e": "plastic",
     "ea": "plastic, plastics, malleable",
     "c": "materials",
     "cs": "jo",
@@ -29422,7 +29255,7 @@
   },
   {
     "w": "joliri",
-    "e": "Glass",
+    "e": "glass",
     "ea": "glass, crystal, a transparent material",
     "c": "materials",
     "cs": "jo",
@@ -29491,7 +29324,7 @@
   },
   {
     "w": "jolrer",
-    "e": "Fiber",
+    "e": "fiber",
     "ea": "fiber, string, thread, wire, strand, cable",
     "c": "materials",
     "cs": "jo",
@@ -29558,7 +29391,7 @@
   },
   {
     "w": "jolufu",
-    "e": "Bubble",
+    "e": "bubble",
     "ea": "bubble, boil",
     "c": "materials",
     "cs": "jo",
@@ -29640,7 +29473,7 @@
   },
   {
     "w": "jomo",
-    "e": "Plate",
+    "e": "plate",
     "ea": "plate, dish, disc, tray, to plate",
     "c": "materials",
     "cs": "jo",
@@ -29724,7 +29557,7 @@
   },
   {
     "w": "joniu",
-    "e": "Piece",
+    "e": "piece",
     "ea": "piece, part, component",
     "c": "materials",
     "cs": "jo",
@@ -29808,7 +29641,7 @@
   },
   {
     "w": "jopopo",
-    "e": "Shell",
+    "e": "shell",
     "ea": "shell",
     "c": "materials",
     "cs": "jo",
@@ -29877,7 +29710,7 @@
   },
   {
     "w": "jovabo",
-    "e": "Cover",
+    "e": "cover",
     "ea": "cover, covering, conceal, blanket, cloak, shawl",
     "c": "materials",
     "cs": "jo",
@@ -29962,7 +29795,7 @@
   },
   {
     "w": "leafou",
-    "e": "Desert",
+    "e": "desert",
     "ea": "desert, to lack",
     "c": "environment",
     "cs": "le",
@@ -30036,7 +29869,7 @@
   },
   {
     "w": "lealei",
-    "e": "Forest",
+    "e": "forest",
     "ea": "forest",
     "c": "environment",
     "cs": "le",
@@ -30109,7 +29942,7 @@
   },
   {
     "w": "leamoma",
-    "e": "Farm",
+    "e": "farm",
     "ea": "farm, cultivate, agricultural",
     "c": "environment",
     "cs": "le",
@@ -30200,7 +30033,7 @@
   },
   {
     "w": "leawa",
-    "e": "Fen",
+    "e": "fen",
     "ea": "fen, swamp, bog, marsh",
     "c": "environment",
     "cs": "le",
@@ -30283,7 +30116,7 @@
   },
   {
     "w": "leayo",
-    "e": "Garden",
+    "e": "garden",
     "ea": "garden, a park, recreation area",
     "c": "environment",
     "cs": "le",
@@ -30360,7 +30193,7 @@
   },
   {
     "w": "ledom",
-    "e": "Land",
+    "e": "land",
     "ea": "land, territory, domain, state",
     "c": "environment",
     "cs": "le",
@@ -30439,7 +30272,7 @@
   },
   {
     "w": "leide",
-    "e": "Root",
+    "e": "root",
     "ea": "root, rooted, rhizome, tuber",
     "c": "environment",
     "cs": "le",
@@ -30517,7 +30350,7 @@
   },
   {
     "w": "leigai",
-    "e": "Shrub",
+    "e": "shrub",
     "ea": "shrub, bush",
     "c": "environment",
     "cs": "le",
@@ -30604,7 +30437,7 @@
   },
   {
     "w": "leini",
-    "e": "Seed",
+    "e": "seed",
     "ea": "seed",
     "c": "environment",
     "cs": "le",
@@ -30678,7 +30511,7 @@
   },
   {
     "w": "leinou",
-    "e": "Grass",
+    "e": "grass",
     "ea": "grass, herb, lawn",
     "c": "environment",
     "cs": "le",
@@ -30773,7 +30606,7 @@
   },
   {
     "w": "leipili",
-    "e": "Flower",
+    "e": "flower",
     "ea": "flower",
     "c": "environment",
     "cs": "le",
@@ -30857,7 +30690,7 @@
   },
   {
     "w": "leirih",
-    "e": "Tree",
+    "e": "tree",
     "ea": "tree, wood",
     "c": "environment",
     "cs": "le",
@@ -30949,7 +30782,7 @@
   },
   {
     "w": "leno",
-    "e": "Soil",
+    "e": "soil",
     "ea": "soil, dirt, clay, mud, ground, floor",
     "c": "environment",
     "cs": "le",
@@ -31036,7 +30869,7 @@
   },
   {
     "w": "lenodur",
-    "e": "Rock",
+    "e": "rock",
     "ea": "rock, rough, stone",
     "c": "environment",
     "cs": "le",
@@ -31139,7 +30972,7 @@
   },
   {
     "w": "levi",
-    "e": "Production",
+    "e": "production",
     "ea": "production, produce, productive",
     "c": "environment",
     "cs": "le",
@@ -31215,7 +31048,7 @@
   },
   {
     "w": "lidastor",
-    "e": "Year",
+    "e": "year",
     "ea": "year, annual",
     "c": "time",
     "cs": "li",
@@ -31287,7 +31120,7 @@
   },
   {
     "w": "ligo",
-    "e": "Half",
+    "e": "half",
     "ea": "half, partial, incompletely",
     "c": "time",
     "cs": "li",
@@ -31370,7 +31203,7 @@
   },
   {
     "w": "lilaro",
-    "e": "Permanent",
+    "e": "permanent",
     "ea": "",
     "c": "time",
     "cs": "li",
@@ -31473,7 +31306,7 @@
   },
   {
     "w": "lili",
-    "e": "Again",
+    "e": "again",
     "ea": "again, repeat, repetition",
     "c": "time",
     "cs": "li",
@@ -31537,7 +31370,7 @@
   },
   {
     "w": "lilon",
-    "e": "While",
+    "e": "while",
     "ea": "while, during",
     "c": "time",
     "cs": "li",
@@ -31609,7 +31442,7 @@
   },
   {
     "w": "limel",
-    "e": "Evening",
+    "e": "evening",
     "ea": "evening, night",
     "c": "time",
     "cs": "li",
@@ -31680,7 +31513,7 @@
   },
   {
     "w": "linu",
-    "e": "Until",
+    "e": "until",
     "ea": "until, reach, span, threshold",
     "c": "time",
     "cs": "li",
@@ -31767,7 +31600,7 @@
   },
   {
     "w": "lipardas",
-    "e": "Month",
+    "e": "month",
     "ea": "month, monthly",
     "c": "time",
     "cs": "li",
@@ -31841,7 +31674,7 @@
   },
   {
     "w": "liperi",
-    "e": "Week",
+    "e": "week",
     "ea": "week, weekly",
     "c": "time",
     "cs": "li",
@@ -31912,7 +31745,7 @@
   },
   {
     "w": "lirson",
-    "e": "Late",
+    "e": "late",
     "ea": "late, delay",
     "c": "time",
     "cs": "li",
@@ -31955,7 +31788,7 @@
   },
   {
     "w": "lirul",
-    "e": "Custom",
+    "e": "custom",
     "ea": "custom, habit, customary, tradition, traditional",
     "c": "time",
     "cs": "li",
@@ -32042,7 +31875,7 @@
   },
   {
     "w": "lises",
-    "e": "Early",
+    "e": "early",
     "ea": "early, too soon",
     "c": "time",
     "cs": "li",
@@ -32108,7 +31941,7 @@
   },
   {
     "w": "lisoi",
-    "e": "Soon",
+    "e": "soon",
     "ea": "soon",
     "c": "time",
     "cs": "li",
@@ -32194,7 +32027,7 @@
   },
   {
     "w": "litam",
-    "e": "Day",
+    "e": "day",
     "ea": "day, date",
     "c": "time",
     "cs": "li",
@@ -32281,7 +32114,7 @@
   },
   {
     "w": "litegai",
-    "e": "Minute",
+    "e": "minute",
     "ea": "minute",
     "c": "time",
     "cs": "li",
@@ -32369,7 +32202,7 @@
   },
   {
     "w": "litemi",
-    "e": "Second (time)",
+    "e": "second (time)",
     "ea": "",
     "c": "time",
     "cs": "li",
@@ -32440,7 +32273,7 @@
   },
   {
     "w": "litetan",
-    "e": "Hour",
+    "e": "hour",
     "ea": "hour, o'clock, clock time",
     "c": "time",
     "cs": "li",
@@ -32518,7 +32351,7 @@
   },
   {
     "w": "liyar",
-    "e": "Morning",
+    "e": "morning",
     "ea": "morning",
     "c": "time",
     "cs": "li",
@@ -32612,7 +32445,7 @@
   },
   {
     "w": "lubur",
-    "e": "Thunder",
+    "e": "thunder",
     "ea": "thunder",
     "c": "weather",
     "cs": "lu",
@@ -32674,7 +32507,7 @@
   },
   {
     "w": "lufiva",
-    "e": "Cool",
+    "e": "cool",
     "ea": "cool, cold",
     "c": "weather",
     "cs": "lu",
@@ -32783,7 +32616,7 @@
   },
   {
     "w": "lufu",
-    "e": "Wind",
+    "e": "wind",
     "ea": "wind, windy",
     "c": "weather",
     "cs": "lu",
@@ -32866,7 +32699,7 @@
   },
   {
     "w": "luhue",
-    "e": "Mist",
+    "e": "mist",
     "ea": "mist, fog, foggy, nebulous",
     "c": "weather",
     "cs": "lu",
@@ -32945,7 +32778,7 @@
   },
   {
     "w": "lumbo",
-    "e": "Cloud",
+    "e": "cloud",
     "ea": "cloud, cloudy",
     "c": "weather",
     "cs": "lu",
@@ -33015,7 +32848,7 @@
   },
   {
     "w": "lumirwa",
-    "e": "Flood",
+    "e": "flood",
     "ea": "flood, torrent, inundate",
     "c": "weather",
     "cs": "lu",
@@ -33123,7 +32956,7 @@
   },
   {
     "w": "lunhem",
-    "e": "Summer",
+    "e": "summer",
     "ea": "summer",
     "c": "weather",
     "cs": "lu",
@@ -33198,7 +33031,7 @@
   },
   {
     "w": "lunpili",
-    "e": "Spring",
+    "e": "spring",
     "ea": "spring",
     "c": "weather",
     "cs": "lu",
@@ -33273,7 +33106,7 @@
   },
   {
     "w": "lunsor",
-    "e": "Autumn",
+    "e": "autumn",
     "ea": "autumn",
     "c": "weather",
     "cs": "lu",
@@ -33328,7 +33161,7 @@
   },
   {
     "w": "lunu",
-    "e": "Winter",
+    "e": "winter",
     "ea": "winter",
     "c": "weather",
     "cs": "lu",
@@ -33380,7 +33213,7 @@
   },
   {
     "w": "lupupi",
-    "e": "Rain",
+    "e": "rain",
     "ea": "rain, rainy",
     "c": "weather",
     "cs": "lu",
@@ -33465,7 +33298,7 @@
   },
   {
     "w": "lusari",
-    "e": "Sun",
+    "e": "sun",
     "ea": "sun",
     "c": "weather",
     "cs": "lu",
@@ -33544,7 +33377,7 @@
   },
   {
     "w": "luswa",
-    "e": "Wave",
+    "e": "wave",
     "ea": "wave, undulation",
     "c": "weather",
     "cs": "lu",
@@ -33625,7 +33458,7 @@
   },
   {
     "w": "luval",
-    "e": "Snow",
+    "e": "snow",
     "ea": "snow",
     "c": "weather",
     "cs": "lu",
@@ -33704,7 +33537,7 @@
   },
   {
     "w": "luyar",
-    "e": "Light",
+    "e": "light",
     "ea": "light, illumination, bright",
     "c": "weather",
     "cs": "lu",
@@ -33801,7 +33634,7 @@
   },
   {
     "w": "luyol",
-    "e": "Sky",
+    "e": "sky",
     "ea": "sky",
     "c": "weather",
     "cs": "lu",
@@ -33883,7 +33716,7 @@
   },
   {
     "w": "madi",
-    "e": "Noodle",
+    "e": "noodle",
     "ea": "noodle",
     "c": "cooking food",
     "cs": "ma",
@@ -33960,7 +33793,7 @@
   },
   {
     "w": "maede",
-    "e": "Potato",
+    "e": "potato",
     "ea": "potato",
     "c": "cooking food",
     "cs": "ma",
@@ -34039,7 +33872,7 @@
   },
   {
     "w": "maemiri",
-    "e": "Rice",
+    "e": "rice",
     "ea": "rice",
     "c": "cooking food",
     "cs": "ma",
@@ -34107,7 +33940,7 @@
   },
   {
     "w": "maemopi",
-    "e": "Corn",
+    "e": "corn",
     "ea": "corn",
     "c": "cooking food",
     "cs": "ma",
@@ -34169,7 +34002,7 @@
   },
   {
     "w": "maeni",
-    "e": "Bean",
+    "e": "bean",
     "ea": "bean, legume, pea, lentil",
     "c": "cooking food",
     "cs": "ma",
@@ -34258,7 +34091,7 @@
   },
   {
     "w": "maeyalo",
-    "e": "Soy",
+    "e": "soy",
     "ea": "",
     "c": "cooking food",
     "cs": "ma",
@@ -34320,7 +34153,7 @@
   },
   {
     "w": "mahem",
-    "e": "Fry",
+    "e": "fry",
     "ea": "",
     "c": "cooking food",
     "cs": "ma",
@@ -34395,7 +34228,7 @@
   },
   {
     "w": "mahon",
-    "e": "Spoon",
+    "e": "spoon",
     "ea": "spoon, to scoop",
     "c": "cooking food",
     "cs": "ma",
@@ -34465,7 +34298,7 @@
   },
   {
     "w": "malil",
-    "e": "Meat",
+    "e": "meat",
     "ea": "meat, flesh",
     "c": "cooking food",
     "cs": "ma",
@@ -34539,7 +34372,7 @@
   },
   {
     "w": "malvae",
-    "e": "Bread",
+    "e": "bread",
     "ea": "bread",
     "c": "cooking food",
     "cs": "ma",
@@ -34598,7 +34431,7 @@
   },
   {
     "w": "malveni",
-    "e": "Flour",
+    "e": "flour",
     "ea": "flour, dust, a granulated substance, sand, grind, powder",
     "c": "cooking food",
     "cs": "ma",
@@ -34665,7 +34498,7 @@
   },
   {
     "w": "malvesi",
-    "e": "Cheese",
+    "e": "cheese",
     "ea": "cheese",
     "c": "cooking food",
     "cs": "ma",
@@ -34724,7 +34557,7 @@
   },
   {
     "w": "malvou",
-    "e": "Butter",
+    "e": "butter",
     "ea": "butter, buttery",
     "c": "cooking food",
     "cs": "ma",
@@ -34785,7 +34618,7 @@
   },
   {
     "w": "mamini",
-    "e": "Egg",
+    "e": "egg",
     "ea": "egg",
     "c": "cooking food",
     "cs": "ma",
@@ -34886,7 +34719,7 @@
   },
   {
     "w": "mamol",
-    "e": "Pot",
+    "e": "pot",
     "ea": "pot, pan, cauldron, saucepan",
     "c": "cooking food",
     "cs": "ma",
@@ -34978,7 +34811,7 @@
   },
   {
     "w": "marira",
-    "e": "Grill",
+    "e": "grill",
     "ea": "grill, grid, grate, broiler, gridiron",
     "c": "cooking food",
     "cs": "ma",
@@ -35044,7 +34877,7 @@
   },
   {
     "w": "mascur",
-    "e": "Garlic",
+    "e": "garlic",
     "ea": "garlic",
     "c": "cooking food",
     "cs": "ma",
@@ -35111,7 +34944,7 @@
   },
   {
     "w": "masha",
-    "e": "Salt",
+    "e": "salt",
     "ea": "salt, salty, seasoning, savory",
     "c": "cooking food",
     "cs": "ma",
@@ -35182,7 +35015,7 @@
   },
   {
     "w": "masloma",
-    "e": "Onion",
+    "e": "onion",
     "ea": "onion, bulb",
     "c": "cooking food",
     "cs": "ma",
@@ -35245,7 +35078,7 @@
   },
   {
     "w": "masnam",
-    "e": "Pepper",
+    "e": "pepper",
     "ea": "pepper, spicy",
     "c": "cooking food",
     "cs": "ma",
@@ -35314,7 +35147,7 @@
   },
   {
     "w": "matal",
-    "e": "Oven",
+    "e": "oven",
     "ea": "oven, furnace, bake, heater",
     "c": "cooking food",
     "cs": "ma",
@@ -35392,7 +35225,7 @@
   },
   {
     "w": "matira",
-    "e": "Mushroom",
+    "e": "mushroom",
     "ea": "mushroom",
     "c": "cooking food",
     "cs": "ma",
@@ -35465,7 +35298,7 @@
   },
   {
     "w": "mavoci",
-    "e": "Wheat",
+    "e": "wheat",
     "ea": "cereal, wheat, oat",
     "c": "cooking food",
     "cs": "ma",
@@ -35529,7 +35362,7 @@
   },
   {
     "w": "mawa",
-    "e": "Soup",
+    "e": "soup",
     "ea": "soup, porridge, gruel",
     "c": "cooking food",
     "cs": "ma",
@@ -35618,7 +35451,7 @@
   },
   {
     "w": "miau",
-    "e": "Cat",
+    "e": "cat",
     "ea": "cat, feline, graceful, stealthy",
     "c": "bigger animals",
     "cs": "mi",
@@ -35687,7 +35520,7 @@
   },
   {
     "w": "mibeh",
-    "e": "Goat",
+    "e": "goat",
     "ea": "goat, ibex, a caprine, stubborn",
     "c": "bigger animals",
     "cs": "mi",
@@ -35750,7 +35583,7 @@
   },
   {
     "w": "micea",
-    "e": "Rabbit",
+    "e": "rabbit",
     "ea": "rabbit, hare, bunny, shy, timid",
     "c": "bigger animals",
     "cs": "mi",
@@ -35820,7 +35653,7 @@
   },
   {
     "w": "micuc",
-    "e": "Chicken",
+    "e": "chicken",
     "ea": "chicken, fowl, coward",
     "c": "bigger animals",
     "cs": "mi",
@@ -35888,7 +35721,7 @@
   },
   {
     "w": "mihie",
-    "e": "Horse",
+    "e": "horse",
     "ea": "horse, donkey, mule, ride, endurance",
     "c": "bigger animals",
     "cs": "mi",
@@ -35958,7 +35791,7 @@
   },
   {
     "w": "mime",
-    "e": "Sheep",
+    "e": "sheep",
     "ea": "sheep, wool, to herd, to follow, innocent",
     "c": "bigger animals",
     "cs": "mi",
@@ -36023,7 +35856,7 @@
   },
   {
     "w": "mimu",
-    "e": "Cow",
+    "e": "cow",
     "ea": "cow, bovine, ox, bison, buffalo, docile",
     "c": "bigger animals",
     "cs": "mi",
@@ -36105,7 +35938,7 @@
   },
   {
     "w": "mioban",
-    "e": "Deer",
+    "e": "deer",
     "ea": "deer",
     "c": "bigger animals",
     "cs": "mi",
@@ -36164,7 +35997,7 @@
   },
   {
     "w": "miogar",
-    "e": "Bear",
+    "e": "bear",
     "ea": "bear, fierce, strong",
     "c": "bigger animals",
     "cs": "mi",
@@ -36243,7 +36076,7 @@
   },
   {
     "w": "miohou",
-    "e": "Wolf",
+    "e": "wolf",
     "ea": "wolf, predatory",
     "c": "bigger animals",
     "cs": "mi",
@@ -36315,7 +36148,7 @@
   },
   {
     "w": "mioici",
-    "e": "Monkey",
+    "e": "monkey",
     "ea": "monkey, gorilla, chimpanzee, mischievous",
     "c": "bigger animals",
     "cs": "mi",
@@ -36385,7 +36218,7 @@
   },
   {
     "w": "miopi",
-    "e": "Fox",
+    "e": "fox",
     "ea": "fox, cunning",
     "c": "bigger animals",
     "cs": "mi",
@@ -36453,7 +36286,7 @@
   },
   {
     "w": "miotan",
-    "e": "Elephant",
+    "e": "elephant",
     "ea": "elephant, good memory, remember",
     "c": "bigger animals",
     "cs": "mi",
@@ -36538,7 +36371,7 @@
   },
   {
     "w": "misumu",
-    "e": "Animal",
+    "e": "animal",
     "ea": "animal",
     "c": "bigger animals",
     "cs": "mi",
@@ -36643,7 +36476,7 @@
   },
   {
     "w": "mius",
-    "e": "Pig",
+    "e": "pig",
     "ea": "pig, boar, glutonous",
     "c": "bigger animals",
     "cs": "mi",
@@ -36713,7 +36546,7 @@
   },
   {
     "w": "miwo",
-    "e": "Dog",
+    "e": "dog",
     "ea": "dog",
     "c": "bigger animals",
     "cs": "mi",
@@ -36778,7 +36611,7 @@
   },
   {
     "w": "moalen",
-    "e": "Banana",
+    "e": "banana",
     "ea": "banana",
     "c": "eating and drinking",
     "cs": "mo",
@@ -36850,7 +36683,7 @@
   },
   {
     "w": "moanih",
-    "e": "Berry",
+    "e": "berry",
     "ea": "berry, grape, olive",
     "c": "eating and drinking",
     "cs": "mo",
@@ -36912,7 +36745,7 @@
   },
   {
     "w": "moaria",
-    "e": "Apple",
+    "e": "apple",
     "ea": "apple",
     "c": "eating and drinking",
     "cs": "mo",
@@ -36977,7 +36810,7 @@
   },
   {
     "w": "moawena",
-    "e": "Lemon",
+    "e": "lemon",
     "ea": "lemon, lime, citrus, sour",
     "c": "eating and drinking",
     "cs": "mo",
@@ -37041,7 +36874,7 @@
   },
   {
     "w": "mocen",
-    "e": "Chocolate",
+    "e": "chocolate",
     "ea": "chocolate",
     "c": "eating and drinking",
     "cs": "mo",
@@ -37107,7 +36940,7 @@
   },
   {
     "w": "mogali",
-    "e": "Coffee",
+    "e": "coffee",
     "ea": "coffee, café",
     "c": "eating and drinking",
     "cs": "mo",
@@ -37186,7 +37019,7 @@
   },
   {
     "w": "molbai",
-    "e": "Cup",
+    "e": "cup",
     "ea": "cup, drinking vessel, chalice, mug",
     "c": "eating and drinking",
     "cs": "mo",
@@ -37257,7 +37090,7 @@
   },
   {
     "w": "molcui",
-    "e": "Bowl",
+    "e": "bowl",
     "ea": "bowl",
     "c": "eating and drinking",
     "cs": "mo",
@@ -37324,7 +37157,7 @@
   },
   {
     "w": "molvou",
-    "e": "Bottle",
+    "e": "bottle",
     "ea": "bottle, flask",
     "c": "eating and drinking",
     "cs": "mo",
@@ -37393,7 +37226,7 @@
   },
   {
     "w": "molwa",
-    "e": "Jar",
+    "e": "jar",
     "ea": "jar, pitcher, jug, beaker, vase",
     "c": "eating and drinking",
     "cs": "mo",
@@ -37484,7 +37317,7 @@
   },
   {
     "w": "mouje",
-    "e": "Drink",
+    "e": "drink",
     "ea": "drink",
     "c": "eating and drinking",
     "cs": "mo",
@@ -37558,7 +37391,7 @@
   },
   {
     "w": "moulu",
-    "e": "Milk",
+    "e": "milk",
     "ea": "milk, milky",
     "c": "eating and drinking",
     "cs": "mo",
@@ -37626,7 +37459,7 @@
   },
   {
     "w": "moval",
-    "e": "Ice",
+    "e": "ice",
     "ea": "ice, freeze",
     "c": "eating and drinking",
     "cs": "mo",
@@ -37705,7 +37538,7 @@
   },
   {
     "w": "moyame",
-    "e": "Spice",
+    "e": "spice",
     "ea": "spice, curry, spiced, spicy",
     "c": "eating and drinking",
     "cs": "mo",
@@ -37770,7 +37603,7 @@
   },
   {
     "w": "moyi",
-    "e": "Sugar",
+    "e": "sugar",
     "ea": "sugar, sweet, dessert",
     "c": "eating and drinking",
     "cs": "mo",
@@ -37848,7 +37681,7 @@
   },
   {
     "w": "mufis",
-    "e": "Snake",
+    "e": "snake",
     "ea": "snake, slither, treacherous",
     "c": "smaller animals",
     "cs": "mu",
@@ -37910,7 +37743,7 @@
   },
   {
     "w": "mufiva",
-    "e": "Reptile",
+    "e": "reptile",
     "ea": "reptile, crawl, creep",
     "c": "smaller animals",
     "cs": "mu",
@@ -37992,7 +37825,7 @@
   },
   {
     "w": "muhcar",
-    "e": "Eagle",
+    "e": "eagle",
     "ea": "eagle, hawk, a bird of prey",
     "c": "smaller animals",
     "cs": "mu",
@@ -38055,7 +37888,7 @@
   },
   {
     "w": "muhin",
-    "e": "Bee",
+    "e": "bee",
     "ea": "bee, hornet, wasp, industrious",
     "c": "smaller animals",
     "cs": "mu",
@@ -38118,7 +37951,7 @@
   },
   {
     "w": "muhpili",
-    "e": "Bird",
+    "e": "bird",
     "ea": "bird",
     "c": "smaller animals",
     "cs": "mu",
@@ -38202,7 +38035,7 @@
   },
   {
     "w": "muhpili",
-    "e": "Butterfly",
+    "e": "butterfly",
     "ea": "butterfly, moth",
     "c": "smaller animals",
     "cs": "mu",
@@ -38288,7 +38121,7 @@
   },
   {
     "w": "muhsis",
-    "e": "Mosquito",
+    "e": "mosquito",
     "ea": "mosquito, fly, annoying",
     "c": "smaller animals",
     "cs": "mu",
@@ -38356,7 +38189,7 @@
   },
   {
     "w": "muvardur",
-    "e": "Mouse",
+    "e": "mouse",
     "ea": "mouse, rodent, gnaw",
     "c": "smaller animals",
     "cs": "mu",
@@ -38431,7 +38264,7 @@
   },
   {
     "w": "muliwa",
-    "e": "Frog",
+    "e": "frog",
     "ea": "frog, toad",
     "c": "smaller animals",
     "cs": "mu",
@@ -38527,7 +38360,7 @@
   },
   {
     "w": "mus",
-    "e": "Insect",
+    "e": "insect",
     "ea": "insect, bug",
     "c": "smaller animals",
     "cs": "mu",
@@ -38577,7 +38410,7 @@
   },
   {
     "w": "muvuson",
-    "e": "Snail",
+    "e": "snail",
     "ea": "snail, slug, a mollusk",
     "c": "smaller animals",
     "cs": "mu",
@@ -38650,7 +38483,7 @@
   },
   {
     "w": "muwos",
-    "e": "Squid",
+    "e": "squid",
     "ea": "squid, tentacle",
     "c": "smaller animals",
     "cs": "mu",
@@ -38710,7 +38543,7 @@
   },
   {
     "w": "nehen",
-    "e": "Each",
+    "e": "each",
     "ea": "each, respectively",
     "c": "quantifiers",
     "cs": "ne",
@@ -38775,7 +38608,7 @@
   },
   {
     "w": "neiden",
-    "e": "Develop",
+    "e": "develop",
     "ea": "develop, grow, growth, development, progression, expand",
     "c": "quantifiers",
     "cs": "ne",
@@ -38844,7 +38677,7 @@
   },
   {
     "w": "nelem",
-    "e": "Leftover",
+    "e": "leftover",
     "ea": "leftover, left, excess, remainder",
     "c": "quantifiers",
     "cs": "ne",
@@ -38924,7 +38757,7 @@
   },
   {
     "w": "neliu",
-    "e": "Other",
+    "e": "other",
     "ea": "other, different, alternative",
     "c": "quantifiers",
     "cs": "ne",
@@ -39001,7 +38834,7 @@
   },
   {
     "w": "neloa",
-    "e": "All",
+    "e": "all",
     "ea": "all, everything",
     "c": "quantifiers",
     "cs": "ne",
@@ -39084,7 +38917,7 @@
   },
   {
     "w": "nepui",
-    "e": "Any",
+    "e": "any",
     "ea": "any, whatever",
     "c": "quantifiers",
     "cs": "ne",
@@ -39143,7 +38976,7 @@
   },
   {
     "w": "neron",
-    "e": "More",
+    "e": "more",
     "ea": "more, plus, add, anymore",
     "c": "quantifiers",
     "cs": "ne",
@@ -39211,7 +39044,7 @@
   },
   {
     "w": "newol",
-    "e": "Beyond",
+    "e": "beyond",
     "ea": "beyond, exceed, surpass, bonus",
     "c": "quantifiers",
     "cs": "ne",
@@ -39292,7 +39125,7 @@
   },
   {
     "w": "noan",
-    "e": "Verb",
+    "e": "verb",
     "ea": "",
     "c": "function words",
     "cs": "no",
@@ -39375,7 +39208,7 @@
   },
   {
     "w": "noder",
-    "e": "Yet",
+    "e": "yet",
     "ea": "yet, even, still",
     "c": "function words",
     "cs": "no",
@@ -39448,7 +39281,7 @@
   },
   {
     "w": "nohei",
-    "e": "Pronoun",
+    "e": "pronoun",
     "ea": "",
     "c": "function words",
     "cs": "no",
@@ -39531,7 +39364,7 @@
   },
   {
     "w": "noi",
-    "e": "This",
+    "e": "this",
     "ea": "here",
     "c": "function words",
     "cs": "no",
@@ -39593,7 +39426,7 @@
   },
   {
     "w": "noli",
-    "e": "Now",
+    "e": "now",
     "ea": "now, present",
     "c": "function words",
     "cs": "no",
@@ -39677,7 +39510,7 @@
   },
   {
     "w": "nolili",
-    "e": "Always",
+    "e": "always",
     "ea": "always, often, consistently, constantly",
     "c": "function words",
     "cs": "no",
@@ -39778,7 +39611,7 @@
   },
   {
     "w": "nomie",
-    "e": "Seem",
+    "e": "seem",
     "ea": "seem, appear, apparent, appearance",
     "c": "function words",
     "cs": "no",
@@ -39863,7 +39696,7 @@
   },
   {
     "w": "none",
-    "e": "Have",
+    "e": "have",
     "ea": "have, possession",
     "c": "function words",
     "cs": "no",
@@ -39948,7 +39781,7 @@
   },
   {
     "w": "noniu",
-    "e": "Some",
+    "e": "some",
     "ea": "some, an indefinite amount, somewhat",
     "c": "function words",
     "cs": "no",
@@ -40040,7 +39873,7 @@
   },
   {
     "w": "nordau",
-    "e": "Far",
+    "e": "far",
     "ea": "far, distance, remote",
     "c": "function words",
     "cs": "no",
@@ -40118,7 +39951,7 @@
   },
   {
     "w": "norfih",
-    "e": "Enough",
+    "e": "enough",
     "ea": "enough, sufficient, suffice",
     "c": "function words",
     "cs": "no",
@@ -40179,7 +40012,7 @@
   },
   {
     "w": "norocu",
-    "e": "Almost",
+    "e": "almost",
     "ea": "almost",
     "c": "function words",
     "cs": "no",
@@ -40237,7 +40070,7 @@
   },
   {
     "w": "norven",
-    "e": "Already",
+    "e": "already",
     "ea": "already, by now/then",
     "c": "function words",
     "cs": "no",
@@ -40310,7 +40143,7 @@
   },
   {
     "w": "notane",
-    "e": "Should",
+    "e": "should",
     "ea": "suggest, suggestion, hint, insinuation, recommendation",
     "c": "function words",
     "cs": "no",
@@ -40387,7 +40220,7 @@
   },
   {
     "w": "oico",
-    "e": "Gossip",
+    "e": "gossip",
     "ea": "gossip, rumor, rumored",
     "c": "fun",
     "cs": "oi",
@@ -40474,7 +40307,7 @@
   },
   {
     "w": "oidajo",
-    "e": "Scene",
+    "e": "scene",
     "ea": "scene, stage",
     "c": "fun",
     "cs": "oi",
@@ -40536,7 +40369,7 @@
   },
   {
     "w": "oifen",
-    "e": "Attract",
+    "e": "attract",
     "ea": "attract, attraction, draw, appeal, magnetic",
     "c": "fun",
     "cs": "oi",
@@ -40601,7 +40434,7 @@
   },
   {
     "w": "oifu",
-    "e": "Silly",
+    "e": "silly",
     "ea": "silly, trivial, triviality",
     "c": "fun",
     "cs": "oi",
@@ -40683,7 +40516,7 @@
   },
   {
     "w": "oihi",
-    "e": "Interest",
+    "e": "interest",
     "ea": "interest, interesting",
     "c": "fun",
     "cs": "oi",
@@ -40751,7 +40584,7 @@
   },
   {
     "w": "oila",
-    "e": "Happy",
+    "e": "happy",
     "ea": "happy, joy, frolic, enjoy",
     "c": "fun",
     "cs": "oi",
@@ -40834,7 +40667,7 @@
   },
   {
     "w": "oimel",
-    "e": "Story",
+    "e": "story",
     "ea": "story, narrate, fictional",
     "c": "fun",
     "cs": "oi",
@@ -40903,7 +40736,7 @@
   },
   {
     "w": "oimin",
-    "e": "Amuse",
+    "e": "amuse",
     "ea": "amuse, entertainment, pleasure",
     "c": "fun",
     "cs": "oi",
@@ -40984,7 +40817,7 @@
   },
   {
     "w": "oines",
-    "e": "Joke",
+    "e": "joke",
     "ea": "joke, jest, comedy, humor, funny",
     "c": "fun",
     "cs": "oi",
@@ -41056,7 +40889,7 @@
   },
   {
     "w": "oipili",
-    "e": "Cute",
+    "e": "cute",
     "ea": "cute, adorable, loveable",
     "c": "fun",
     "cs": "oi",
@@ -41146,7 +40979,7 @@
   },
   {
     "w": "oipoh",
-    "e": "Excite",
+    "e": "excite",
     "ea": "excite, excited",
     "c": "fun",
     "cs": "oi",
@@ -41229,7 +41062,7 @@
   },
   {
     "w": "oiyar",
-    "e": "Star",
+    "e": "star",
     "ea": "star, to highlight, celebrity",
     "c": "fun",
     "cs": "oi",
@@ -41325,7 +41158,7 @@
   },
   {
     "w": "omapa",
-    "e": "Dance",
+    "e": "dance",
     "ea": "dance",
     "c": "music",
     "cs": "om",
@@ -41397,7 +41230,7 @@
   },
   {
     "w": "ombun",
-    "e": "Horn",
+    "e": "horn",
     "ea": "",
     "c": "music",
     "cs": "om",
@@ -41451,7 +41284,7 @@
   },
   {
     "w": "omco",
-    "e": "Voice",
+    "e": "voice",
     "ea": "voice, call, call out, summon, roar",
     "c": "music",
     "cs": "om",
@@ -41528,7 +41361,7 @@
   },
   {
     "w": "omja",
-    "e": "Guitar",
+    "e": "guitar",
     "ea": "guitar, violin, a stringed instrument",
     "c": "music",
     "cs": "om",
@@ -41596,7 +41429,7 @@
   },
   {
     "w": "omlia",
-    "e": "Sing",
+    "e": "sing",
     "ea": "sing, song, tune, melody",
     "c": "music",
     "cs": "om",
@@ -41674,7 +41507,7 @@
   },
   {
     "w": "ompili",
-    "e": "Piano",
+    "e": "piano",
     "ea": "piano",
     "c": "music",
     "cs": "om",
@@ -41735,7 +41568,7 @@
   },
   {
     "w": "omtuci",
-    "e": "Drum",
+    "e": "drum",
     "ea": "drum",
     "c": "music",
     "cs": "om",
@@ -41789,7 +41622,7 @@
   },
   {
     "w": "par",
-    "e": "Three",
+    "e": "three",
     "search_terms": [
       "par",
       "three"
@@ -41797,7 +41630,7 @@
   },
   {
     "w": "peri",
-    "e": "Seven",
+    "e": "seven",
     "search_terms": [
       "peri",
       "seven"
@@ -41805,7 +41638,7 @@
   },
   {
     "w": "poadou",
-    "e": "Acid",
+    "e": "acid",
     "ea": "acid, acidic, corrosion",
     "c": "components",
     "cs": "po",
@@ -41861,7 +41694,7 @@
   },
   {
     "w": "poamase",
-    "e": "Dependence",
+    "e": "dependence",
     "ea": "dependence, to rely, to depend",
     "c": "components",
     "cs": "po",
@@ -41930,7 +41763,7 @@
   },
   {
     "w": "poarofei",
-    "e": "Alcohol",
+    "e": "alcohol",
     "ea": "alcohol, liquor",
     "c": "components",
     "cs": "po",
@@ -42024,7 +41857,7 @@
   },
   {
     "w": "pocan",
-    "e": "Mass",
+    "e": "mass",
     "ea": "mass, kilogram, weight",
     "c": "components",
     "cs": "po",
@@ -42089,7 +41922,7 @@
   },
   {
     "w": "pocor",
-    "e": "Waste",
+    "e": "waste",
     "ea": "waste, trash, garbage, to throw away",
     "c": "components",
     "cs": "po",
@@ -42151,7 +41984,7 @@
   },
   {
     "w": "podau",
-    "e": "Meter",
+    "e": "meter",
     "ea": "centimeter, distance",
     "c": "components",
     "cs": "po",
@@ -42227,7 +42060,7 @@
   },
   {
     "w": "poelve",
-    "e": "Pure",
+    "e": "pure",
     "ea": "pure, clean, cleanse",
     "c": "components",
     "cs": "po",
@@ -42286,7 +42119,7 @@
   },
   {
     "w": "pogai",
-    "e": "Atom",
+    "e": "atom",
     "ea": "atom, atomic",
     "c": "components",
     "cs": "po",
@@ -42378,7 +42211,7 @@
   },
   {
     "w": "pohcavo",
-    "e": "Fuel",
+    "e": "fuel",
     "ea": "fuel, gasoline, benzene",
     "c": "components",
     "cs": "po",
@@ -42443,7 +42276,7 @@
   },
   {
     "w": "pohem",
-    "e": "Heat",
+    "e": "heat",
     "ea": "heat, hot, calorie",
     "c": "components",
     "cs": "po",
@@ -42522,7 +42355,7 @@
   },
   {
     "w": "pohivi",
-    "e": "Electric",
+    "e": "electric",
     "ea": "electric, electricity, agitated, frantic",
     "c": "components",
     "cs": "po",
@@ -42603,7 +42436,7 @@
   },
   {
     "w": "pohnen",
-    "e": "Power",
+    "e": "power",
     "ea": "power, force, strong, intense, impose, trigger",
     "c": "components",
     "cs": "po",
@@ -42692,7 +42525,7 @@
   },
   {
     "w": "pohpoh",
-    "e": "Fire",
+    "e": "fire",
     "ea": "fire, flame, burn",
     "c": "components",
     "cs": "po",
@@ -42761,7 +42594,7 @@
   },
   {
     "w": "pohufu",
-    "e": "Steam",
+    "e": "steam",
     "ea": "steam, vapor",
     "c": "components",
     "cs": "po",
@@ -42832,7 +42665,7 @@
   },
   {
     "w": "pohyaro",
-    "e": "Energy",
+    "e": "energy",
     "ea": "energy, energize, energetic, charger",
     "c": "components",
     "cs": "po",
@@ -42908,7 +42741,7 @@
   },
   {
     "w": "poiena",
-    "e": "Filter",
+    "e": "filter",
     "ea": "filter, sieve, colander",
     "c": "components",
     "cs": "po",
@@ -42966,7 +42799,7 @@
   },
   {
     "w": "poilua",
-    "e": "Flow",
+    "e": "flow",
     "ea": "flow, current, rhythm",
     "c": "components",
     "cs": "po",
@@ -43037,7 +42870,7 @@
   },
   {
     "w": "poilumo",
-    "e": "Oil",
+    "e": "oil",
     "ea": "oil, gasoline",
     "c": "components",
     "cs": "po",
@@ -43130,7 +42963,7 @@
   },
   {
     "w": "poiwa",
-    "e": "Liquid",
+    "e": "liquid",
     "ea": "liquid, density, concentration",
     "c": "components",
     "cs": "po",
@@ -43213,7 +43046,7 @@
   },
   {
     "w": "poiyal",
-    "e": "Liter",
+    "e": "liter",
     "ea": "liter, volume",
     "c": "components",
     "cs": "po",
@@ -43286,7 +43119,7 @@
   },
   {
     "w": "pomia",
-    "e": "Mixture",
+    "e": "mixture",
     "ea": "mixture, mix",
     "c": "components",
     "cs": "po",
@@ -43362,7 +43195,7 @@
   },
   {
     "w": "pomuvu",
-    "e": "Motor",
+    "e": "motor",
     "ea": "motor, engine",
     "c": "components",
     "cs": "po",
@@ -43420,7 +43253,7 @@
   },
   {
     "w": "radom",
-    "e": "Nation",
+    "e": "nation",
     "ea": "nation, country, national",
     "c": "society",
     "cs": "ra",
@@ -43495,7 +43328,7 @@
   },
   {
     "w": "rafa",
-    "e": "Community",
+    "e": "community",
     "ea": "community, public",
     "c": "society",
     "cs": "ra",
@@ -43565,7 +43398,7 @@
   },
   {
     "w": "rage",
-    "e": "Economy",
+    "e": "economy",
     "ea": "economy, economic, thrifty",
     "c": "society",
     "cs": "ra",
@@ -43633,7 +43466,7 @@
   },
   {
     "w": "raidana",
-    "e": "Surrender",
+    "e": "surrender",
     "ea": "surrender, submit, yield, give in, submission, colony, protectorate",
     "c": "government",
     "cs": "ra",
@@ -43760,7 +43593,7 @@
   },
   {
     "w": "raidoi",
-    "e": "Rebel",
+    "e": "rebel",
     "ea": "rebel, rebellion, revolution, rebellious",
     "c": "government",
     "cs": "ra",
@@ -43838,7 +43671,7 @@
   },
   {
     "w": "raihei",
-    "e": "Citizen",
+    "e": "citizen",
     "ea": "citizen, civilian, civil, civilize",
     "c": "government",
     "cs": "ra",
@@ -43921,7 +43754,7 @@
   },
   {
     "w": "railem",
-    "e": "Asylum",
+    "e": "asylum",
     "ea": "asylum, refugee, shelter",
     "c": "government",
     "cs": "ra",
@@ -44002,7 +43835,7 @@
   },
   {
     "w": "railiu",
-    "e": "Foreign",
+    "e": "foreign",
     "ea": "foreign, alien",
     "c": "government",
     "cs": "ra",
@@ -44075,7 +43908,7 @@
   },
   {
     "w": "rainen",
-    "e": "Police",
+    "e": "police",
     "ea": "police",
     "c": "government",
     "cs": "ra",
@@ -44156,7 +43989,7 @@
   },
   {
     "w": "raipuni",
-    "e": "Government",
+    "e": "government",
     "ea": "government, govern",
     "c": "government",
     "cs": "ra",
@@ -44229,7 +44062,7 @@
   },
   {
     "w": "rairan",
-    "e": "Elect",
+    "e": "elect",
     "ea": "elect, election",
     "c": "society",
     "cs": "ra",
@@ -44298,7 +44131,7 @@
   },
   {
     "w": "raisoi",
-    "e": "Flee",
+    "e": "flee",
     "ea": "flee, escape, run away",
     "c": "government",
     "cs": "ra",
@@ -44385,7 +44218,7 @@
   },
   {
     "w": "raitar",
-    "e": "Law",
+    "e": "law",
     "ea": "law, rule",
     "c": "government",
     "cs": "ra",
@@ -44464,7 +44297,7 @@
   },
   {
     "w": "raitu",
-    "e": "Military",
+    "e": "military",
     "ea": "military, army",
     "c": "government",
     "cs": "ra",
@@ -44539,7 +44372,7 @@
   },
   {
     "w": "raiver",
-    "e": "Defend",
+    "e": "defend",
     "ea": "defend, guard, protect, protection, defense",
     "c": "government",
     "cs": "ra",
@@ -44630,7 +44463,7 @@
   },
   {
     "w": "raivoa",
-    "e": "Prison",
+    "e": "prison",
     "ea": "prison, jail, imprison",
     "c": "government",
     "cs": "ra",
@@ -44705,7 +44538,7 @@
   },
   {
     "w": "raleo",
-    "e": "Race",
+    "e": "race",
     "ea": "race, ethnicity",
     "c": "society",
     "cs": "ra",
@@ -44779,7 +44612,7 @@
   },
   {
     "w": "ralua",
-    "e": "Environment",
+    "e": "environment",
     "ea": "environment, habitat, milieu",
     "c": "society",
     "cs": "ra",
@@ -44849,7 +44682,7 @@
   },
   {
     "w": "ranco",
-    "e": "Media",
+    "e": "media",
     "ea": "media, communication, press",
     "c": "society",
     "cs": "ra",
@@ -44928,7 +44761,7 @@
   },
   {
     "w": "rani",
-    "e": "Resource",
+    "e": "resource",
     "ea": "resource, supply, merchandise, commodity, goods, item",
     "c": "society",
     "cs": "ra",
@@ -45006,7 +44839,7 @@
   },
   {
     "w": "ranlevi",
-    "e": "Industry",
+    "e": "industry",
     "ea": "industry, industrial, factory, mill, production",
     "c": "society",
     "cs": "ra",
@@ -45073,7 +44906,7 @@
   },
   {
     "w": "ranodo",
-    "e": "Business",
+    "e": "business",
     "ea": "business, company",
     "c": "society",
     "cs": "ra",
@@ -45133,7 +44966,7 @@
   },
   {
     "w": "ranvio",
-    "e": "Market",
+    "e": "market",
     "ea": "market, fair, to shop, supermarket",
     "c": "society",
     "cs": "ra",
@@ -45215,7 +45048,7 @@
   },
   {
     "w": "ranvir",
-    "e": "Technology",
+    "e": "technology",
     "ea": "technology, technological",
     "c": "society",
     "cs": "ra",
@@ -45293,7 +45126,7 @@
   },
   {
     "w": "ranyar",
-    "e": "Marketing",
+    "e": "marketing",
     "ea": "marketing, ad, advertisement",
     "c": "society",
     "cs": "ra",
@@ -45379,7 +45212,7 @@
   },
   {
     "w": "rasluo",
-    "e": "Sport",
+    "e": "sport",
     "ea": "sport, athletic, physical exercise",
     "c": "society",
     "cs": "ra",
@@ -45438,7 +45271,7 @@
   },
   {
     "w": "rasora",
-    "e": "Culture",
+    "e": "culture",
     "ea": "culture, cultural",
     "c": "society",
     "cs": "ra",
@@ -45510,7 +45343,7 @@
   },
   {
     "w": "rastai",
-    "e": "Politics",
+    "e": "politics",
     "ea": "politics, political, politicize",
     "c": "society",
     "cs": "ra",
@@ -45584,7 +45417,7 @@
   },
   {
     "w": "rasuir",
-    "e": "History",
+    "e": "history",
     "ea": "history, historical",
     "c": "society",
     "cs": "ra",
@@ -45647,7 +45480,7 @@
   },
   {
     "w": "rodel",
-    "e": "Philosophy",
+    "e": "philosophy",
     "ea": "philosophy, principle, doctrine, worldview, perspective",
     "c": "knowledge",
     "cs": "ro",
@@ -45713,7 +45546,7 @@
   },
   {
     "w": "roedom",
-    "e": "School",
+    "e": "school",
     "ea": "school",
     "c": "knowledge",
     "cs": "ro",
@@ -45792,7 +45625,7 @@
   },
   {
     "w": "roejo",
-    "e": "Exam",
+    "e": "exam",
     "ea": "exam, test, interview, examination, investigation",
     "c": "knowledge",
     "cs": "ro",
@@ -45870,7 +45703,7 @@
   },
   {
     "w": "roena",
-    "e": "Teach",
+    "e": "teach",
     "ea": "teach, educate, education, explain",
     "c": "knowledge",
     "cs": "ro",
@@ -45950,7 +45783,7 @@
   },
   {
     "w": "roesau",
-    "e": "Learn",
+    "e": "learn",
     "ea": "learn, study",
     "c": "knowledge",
     "cs": "ro",
@@ -46024,7 +45857,7 @@
   },
   {
     "w": "rora",
-    "e": "Theory",
+    "e": "theory",
     "ea": "theory, theorize",
     "c": "knowledge",
     "cs": "ro",
@@ -46091,7 +45924,7 @@
   },
   {
     "w": "roucou",
-    "e": "Article",
+    "e": "article",
     "ea": "article, essay",
     "c": "knowledge",
     "cs": "ro",
@@ -46165,7 +45998,7 @@
   },
   {
     "w": "roudal",
-    "e": "Read",
+    "e": "read",
     "ea": "read, a reading, well-read",
     "c": "knowledge",
     "cs": "ro",
@@ -46242,7 +46075,7 @@
   },
   {
     "w": "roudi",
-    "e": "Write",
+    "e": "write",
     "ea": "write, a writing, text",
     "c": "knowledge",
     "cs": "ro",
@@ -46322,7 +46155,7 @@
   },
   {
     "w": "roumir",
-    "e": "Book",
+    "e": "book",
     "ea": "book",
     "c": "knowledge",
     "cs": "ro",
@@ -46403,7 +46236,7 @@
   },
   {
     "w": "rovir",
-    "e": "Science",
+    "e": "science",
     "ea": "science, scientific, -ology, research",
     "c": "knowledge",
     "cs": "ro",
@@ -46475,7 +46308,7 @@
   },
   {
     "w": "sebom",
-    "e": "Button",
+    "e": "button",
     "ea": "button, knob, stud",
     "c": "machine",
     "cs": "se",
@@ -46534,7 +46367,7 @@
   },
   {
     "w": "sedel",
-    "e": "Logic",
+    "e": "logic",
     "ea": "logic, logical",
     "c": "machine",
     "cs": "se",
@@ -46603,7 +46436,7 @@
   },
   {
     "w": "selcio",
-    "e": "Error",
+    "e": "error",
     "ea": "error, mistake, err, accident",
     "c": "machine",
     "cs": "se",
@@ -46661,7 +46494,7 @@
   },
   {
     "w": "seldal",
-    "e": "Code",
+    "e": "code",
     "ea": "code, cipher, program code",
     "c": "machine",
     "cs": "se",
@@ -46731,7 +46564,7 @@
   },
   {
     "w": "selota",
-    "e": "Fix",
+    "e": "fix",
     "ea": "fix, correction, improvement, repair, mend",
     "c": "machine",
     "cs": "se",
@@ -46790,7 +46623,7 @@
   },
   {
     "w": "selyino",
-    "e": "Program",
+    "e": "program",
     "ea": "program, agenda, plan, computer program",
     "c": "machine",
     "cs": "se",
@@ -46854,7 +46687,7 @@
   },
   {
     "w": "semiru",
-    "e": "Type",
+    "e": "type",
     "ea": "type, classification, categorization",
     "c": "machine",
     "cs": "se",
@@ -46908,7 +46741,7 @@
   },
   {
     "w": "semtela",
-    "e": "System",
+    "e": "system",
     "ea": "system, systematic, systematize, organize",
     "c": "machine",
     "cs": "se",
@@ -46969,7 +46802,7 @@
   },
   {
     "w": "semvir",
-    "e": "Method",
+    "e": "method",
     "ea": "method, procedure, technique, means, methodical",
     "c": "machine",
     "cs": "se",
@@ -47044,7 +46877,7 @@
   },
   {
     "w": "sepopo",
-    "e": "Echo",
+    "e": "echo",
     "ea": "echo, reflection",
     "c": "machine",
     "cs": "se",
@@ -47113,7 +46946,7 @@
   },
   {
     "w": "sepuni",
-    "e": "Command",
+    "e": "command",
     "ea": "command, imperative, to rule, empire, imperial",
     "c": "machine",
     "cs": "se",
@@ -47186,7 +47019,7 @@
   },
   {
     "w": "sero",
-    "e": "Memory",
+    "e": "memory",
     "ea": "memory, remember, familiar",
     "c": "machine",
     "cs": "se",
@@ -47269,62 +47102,8 @@
     ]
   },
   {
-    "w": "sese",
-    "e": "Machine",
-    "ea": "machine, apparatus, mechanic",
-    "c": "machine",
-    "cs": "se",
-    "sc": "se",
-    "r": "se",
-    "bd": [
-      {
-        "sound": "se",
-        "meaning": "machines",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-se",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-se",
-        "bb_meaning": "machines"
-      }
-    ],
-    "rel": [
-      "anse",
-      "sirose"
-    ],
-    "ex": [],
-    "syllable_meanings": [
-      {
-        "sound": "se",
-        "meaning": "machines",
-        "position": "subcluster",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-se",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-se",
-        "bb_meaning": "machines"
-      }
-    ],
-    "search_terms": [
-      "apparatu",
-      "apparatus",
-      "button",
-      "command",
-      "echo",
-      "key",
-      "logic",
-      "machine",
-      "machine, apparatus, mechanic",
-      "machines",
-      "mechanic",
-      "memory",
-      "menu",
-      "package",
-      "sa",
-      "se",
-      "sese"
-    ]
-  },
-  {
     "w": "seseri",
-    "e": "Menu",
+    "e": "menu",
     "ea": "menu, contents, list, enumerate",
     "c": "machine",
     "cs": "se",
@@ -47401,7 +47180,7 @@
   },
   {
     "w": "setin",
-    "e": "Package",
+    "e": "package",
     "ea": "package, parcel, packet, bundle",
     "c": "machine",
     "cs": "se",
@@ -47461,7 +47240,7 @@
   },
   {
     "w": "sever",
-    "e": "Key",
+    "e": "key",
     "ea": "key, unlock",
     "c": "machine",
     "cs": "se",
@@ -47539,7 +47318,7 @@
   },
   {
     "w": "sigai",
-    "e": "Virus",
+    "e": "virus",
     "ea": "virus, viral",
     "c": "process",
     "cs": "si",
@@ -47628,7 +47407,7 @@
   },
   {
     "w": "simei",
-    "e": "Spy",
+    "e": "spy",
     "ea": "",
     "c": "process",
     "cs": "si",
@@ -47688,7 +47467,7 @@
   },
   {
     "w": "simia",
-    "e": "Random",
+    "e": "random",
     "ea": "random, arbitrary, caprice, luck",
     "c": "process",
     "cs": "si",
@@ -47765,7 +47544,7 @@
   },
   {
     "w": "sihei",
-    "e": "Robot",
+    "e": "robot",
     "ea": "robot",
     "c": "process",
     "cs": "si",
@@ -47849,7 +47628,7 @@
   },
   {
     "w": "sioce",
-    "e": "Puzzle",
+    "e": "puzzle",
     "ea": "puzzle, enigma, riddle",
     "c": "process",
     "cs": "si",
@@ -47921,7 +47700,7 @@
   },
   {
     "w": "sioer",
-    "e": "Game",
+    "e": "game",
     "ea": "game, play",
     "c": "process",
     "cs": "si",
@@ -47985,7 +47764,7 @@
   },
   {
     "w": "siojai",
-    "e": "Solve",
+    "e": "solve",
     "ea": "solve, solution, decipher",
     "c": "process",
     "cs": "si",
@@ -48044,7 +47823,7 @@
   },
   {
     "w": "sioju",
-    "e": "Trick",
+    "e": "trick",
     "ea": "trick, hoax, ruse, fraud, scam, tricky",
     "c": "process",
     "cs": "si",
@@ -48118,7 +47897,7 @@
   },
   {
     "w": "simir",
-    "e": "Complex",
+    "e": "complex",
     "ea": "complex, complicated, tangle",
     "c": "process",
     "cs": "si",
@@ -48205,7 +47984,7 @@
   },
   {
     "w": "siram",
-    "e": "Flash",
+    "e": "flash",
     "ea": "flash, lightning, bolt",
     "c": "process",
     "cs": "si",
@@ -48281,7 +48060,7 @@
   },
   {
     "w": "sirose",
-    "e": "Computer",
+    "e": "computer",
     "ea": "computer, compute",
     "c": "process",
     "cs": "si",
@@ -48315,7 +48094,7 @@
     ],
     "rel": [
       "anse",
-      "sese"
+      "se"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -48371,7 +48150,7 @@
   },
   {
     "w": "sita",
-    "e": "Capture",
+    "e": "capture",
     "ea": "capture, catch, seize, grasp, captive, grab, restrain",
     "c": "process",
     "cs": "si",
@@ -48458,7 +48237,7 @@
   },
   {
     "w": "siur",
-    "e": "Erase",
+    "e": "erase",
     "ea": "erase, erasure, remove, wipe away",
     "c": "process",
     "cs": "si",
@@ -48529,7 +48308,7 @@
   },
   {
     "w": "siyal",
-    "e": "Detect",
+    "e": "detect",
     "ea": "detect, find, notice, discovery",
     "c": "process",
     "cs": "si",
@@ -48615,7 +48394,7 @@
   },
   {
     "w": "sunya",
-    "e": "Zero, empty",
+    "e": "zero, empty",
     "search_terms": [
       "empty",
       "sunya",
@@ -48625,7 +48404,7 @@
   },
   {
     "w": "tam",
-    "e": "One",
+    "e": "one",
     "search_terms": [
       "one",
       "tam"
@@ -48633,7 +48412,7 @@
   },
   {
     "w": "tenda",
-    "e": "Nine",
+    "e": "nine",
     "search_terms": [
       "nine",
       "tenda"
@@ -48641,7 +48420,7 @@
   },
   {
     "w": "teva",
-    "e": "Six",
+    "e": "six",
     "search_terms": [
       "six",
       "teva"
@@ -48649,7 +48428,7 @@
   },
   {
     "w": "ticati",
-    "e": "Slave",
+    "e": "slave",
     "ea": "slave, servant, serf, enslave",
     "c": "harm",
     "cs": "ti",
@@ -48735,7 +48514,7 @@
   },
   {
     "w": "tidaca",
-    "e": "Beat",
+    "e": "beat",
     "ea": "beat, fight, battle",
     "c": "harm",
     "cs": "ti",
@@ -48802,7 +48581,7 @@
   },
   {
     "w": "tidetu",
-    "e": "Die",
+    "e": "die",
     "ea": "death, dead, die",
     "c": "harm",
     "cs": "ti",
@@ -48888,7 +48667,7 @@
   },
   {
     "w": "tidoi",
-    "e": "Against",
+    "e": "against",
     "ea": "against, anti-, opposing, oppose",
     "c": "harm",
     "cs": "ti",
@@ -48968,7 +48747,7 @@
   },
   {
     "w": "tiju",
-    "e": "Lie",
+    "e": "lie",
     "ea": "lie, false",
     "c": "harm",
     "cs": "ti",
@@ -49045,7 +48824,7 @@
   },
   {
     "w": "tila",
-    "e": "Curse",
+    "e": "curse",
     "ea": "",
     "c": "harm",
     "cs": "ti",
@@ -49127,7 +48906,7 @@
   },
   {
     "w": "tilira",
-    "e": "Blame",
+    "e": "blame",
     "ea": "blame, fault, guilt, shame",
     "c": "harm",
     "cs": "ti",
@@ -49213,7 +48992,7 @@
   },
   {
     "w": "timu",
-    "e": "Venom",
+    "e": "venom",
     "ea": "venom, poison, to poison",
     "c": "harm",
     "cs": "ti",
@@ -49298,7 +49077,7 @@
   },
   {
     "w": "tinen",
-    "e": "Break",
+    "e": "break",
     "ea": "break, rupture, smash, disrupt",
     "c": "harm",
     "cs": "ti",
@@ -49393,7 +49172,7 @@
   },
   {
     "w": "tiriju",
-    "e": "Deceive",
+    "e": "deceive",
     "ea": "deceive, deception",
     "c": "harm",
     "cs": "ti",
@@ -49461,7 +49240,7 @@
   },
   {
     "w": "titata",
-    "e": "Steal",
+    "e": "steal",
     "ea": "steal, theft",
     "c": "harm",
     "cs": "ti",
@@ -49556,7 +49335,7 @@
   },
   {
     "w": "titi",
-    "e": "Mean",
+    "e": "mean",
     "ea": "mean, cruel, sadistic",
     "c": "harm",
     "cs": "ti",
@@ -49636,7 +49415,7 @@
   },
   {
     "w": "titodom",
-    "e": "Hell",
+    "e": "hell",
     "ea": "hell, to damn, hellish",
     "c": "harm",
     "cs": "ti",
@@ -49739,7 +49518,7 @@
   },
   {
     "w": "tiuan",
-    "e": "Crime",
+    "e": "crime",
     "ea": "crime, offense, sin, offensive, criminal",
     "c": "harm",
     "cs": "ti",
@@ -49820,7 +49599,7 @@
   },
   {
     "w": "tiuhu",
-    "e": "Kill",
+    "e": "kill",
     "ea": "murder, kill",
     "c": "harm",
     "cs": "ti",
@@ -49879,7 +49658,7 @@
   },
   {
     "w": "tiunala",
-    "e": "Threat",
+    "e": "threat",
     "ea": "threat, menace, menacing, threaten",
     "c": "harm",
     "cs": "ti",
@@ -49955,7 +49734,7 @@
   },
   {
     "w": "tiuri",
-    "e": "Abuse",
+    "e": "abuse",
     "ea": "abuse, violate, assault, abusive",
     "c": "harm",
     "cs": "ti",
@@ -50029,7 +49808,7 @@
   },
   {
     "w": "tiuvor",
-    "e": "Danger",
+    "e": "danger",
     "ea": "danger, dangerous",
     "c": "harm",
     "cs": "ti",
@@ -50100,7 +49879,7 @@
   },
   {
     "w": "tivaru",
-    "e": "Hate",
+    "e": "hate",
     "ea": "hate, hatred, enmity",
     "c": "harm",
     "cs": "ti",
@@ -50168,7 +49947,7 @@
   },
   {
     "w": "tivonpu",
-    "e": "Accuse",
+    "e": "accuse",
     "ea": "accuse, accusation, charge (legal)",
     "c": "harm",
     "cs": "ti",
@@ -50236,7 +50015,7 @@
   },
   {
     "w": "todur",
-    "e": "Problem",
+    "e": "problem",
     "ea": "problem, trouble, to struggle",
     "c": "suffer",
     "cs": "to",
@@ -50317,7 +50096,7 @@
   },
   {
     "w": "togei",
-    "e": "Disgust",
+    "e": "disgust",
     "ea": "disgust, disgusting, revulsion, sicken, gross",
     "c": "suffer",
     "cs": "to",
@@ -50376,7 +50155,7 @@
   },
   {
     "w": "toharou",
-    "e": "Anxious",
+    "e": "anxious",
     "ea": "anxious, anxiety, nervous",
     "c": "suffer",
     "cs": "to",
@@ -50449,7 +50228,7 @@
   },
   {
     "w": "tohbian",
-    "e": "Confusion",
+    "e": "confusion",
     "ea": "confusion, confuse, confusing, perplex",
     "c": "suffer",
     "cs": "to",
@@ -50523,7 +50302,7 @@
   },
   {
     "w": "tohdin",
-    "e": "Sorry",
+    "e": "sorry",
     "ea": "sorry, to be sorry, contrition, remorse, regret",
     "c": "suffer",
     "cs": "to",
@@ -50597,7 +50376,7 @@
   },
   {
     "w": "tohlel",
-    "e": "Miss",
+    "e": "miss",
     "ea": "miss, absence, longing, nostalgia",
     "c": "suffer",
     "cs": "to",
@@ -50665,7 +50444,7 @@
   },
   {
     "w": "tohlora",
-    "e": "Crazy",
+    "e": "crazy",
     "ea": "crazy, mad, insane, madden",
     "c": "suffer",
     "cs": "toh",
@@ -50731,7 +50510,7 @@
   },
   {
     "w": "tohnaru",
-    "e": "Anger",
+    "e": "anger",
     "ea": "anger, angry",
     "c": "suffer",
     "cs": "to",
@@ -50834,7 +50613,7 @@
   },
   {
     "w": "tohpu",
-    "e": "Sad",
+    "e": "sad",
     "ea": "sad, melancholy, mourn",
     "c": "suffer",
     "cs": "to",
@@ -50922,7 +50701,7 @@
   },
   {
     "w": "tohsum",
-    "e": "Envy",
+    "e": "envy",
     "ea": "envy, jealous",
     "c": "suffer",
     "cs": "to",
@@ -50988,7 +50767,7 @@
   },
   {
     "w": "tohvi",
-    "e": "Emotion",
+    "e": "emotion",
     "ea": "emotion, emotional, passionate, emote",
     "c": "suffer",
     "cs": "to",
@@ -51082,7 +50861,7 @@
   },
   {
     "w": "tohvor",
-    "e": "Fear",
+    "e": "fear",
     "ea": "fear, horror, fearful, scary",
     "c": "suffer",
     "cs": "to",
@@ -51161,7 +50940,7 @@
   },
   {
     "w": "tolenu",
-    "e": "Taboo",
+    "e": "taboo",
     "ea": "taboo, forbid, forbidden",
     "c": "suffer",
     "cs": "to",
@@ -51253,7 +51032,7 @@
   },
   {
     "w": "toleu",
-    "e": "Rejection",
+    "e": "rejection",
     "ea": "reject, rejection, exclude, excluded",
     "c": "suffer",
     "cs": "to",
@@ -51317,7 +51096,7 @@
   },
   {
     "w": "tonan",
-    "e": "Sudden",
+    "e": "sudden",
     "ea": "sudden, suddenly, abrupt, to precipitate",
     "c": "suffer",
     "cs": "to",
@@ -51376,7 +51155,7 @@
   },
   {
     "w": "tonul",
-    "e": "Suffer",
+    "e": "suffer",
     "ea": "suffer, pain, suffering, hurt, painful",
     "c": "suffer",
     "cs": "to",
@@ -51439,7 +51218,7 @@
   },
   {
     "w": "tor",
-    "e": "Two",
+    "e": "two",
     "search_terms": [
       "tor",
       "two"
@@ -51447,7 +51226,7 @@
   },
   {
     "w": "tosleva",
-    "e": "Betrayal",
+    "e": "betrayal",
     "ea": "betrayal, treason",
     "c": "suffer",
     "cs": "to",
@@ -51510,7 +51289,7 @@
   },
   {
     "w": "tosnar",
-    "e": "Revenge",
+    "e": "revenge",
     "ea": "revenge, vengeful, to seek revenge",
     "c": "suffer",
     "cs": "to",
@@ -51568,7 +51347,7 @@
   },
   {
     "w": "tosrei",
-    "e": "Bitter",
+    "e": "bitter",
     "ea": "bitter (taste), resentful",
     "c": "suffer",
     "cs": "to",
@@ -51632,7 +51411,7 @@
   },
   {
     "w": "tostale",
-    "e": "Offend",
+    "e": "offend",
     "ea": "",
     "c": "suffer",
     "cs": "to",
@@ -51704,7 +51483,7 @@
   },
   {
     "w": "toului",
-    "e": "Tired",
+    "e": "tired",
     "ea": "tire, tired",
     "c": "suffer",
     "cs": "to",
@@ -51768,7 +51547,7 @@
   },
   {
     "w": "toumo",
-    "e": "Hungry",
+    "e": "hungry",
     "ea": "hungry, hunger, famine",
     "c": "suffer",
     "cs": "to",
@@ -51854,7 +51633,7 @@
   },
   {
     "w": "tounir",
-    "e": "Weak",
+    "e": "weak",
     "ea": "weak, weakness, feeble",
     "c": "suffer",
     "cs": "to",
@@ -51914,7 +51693,7 @@
   },
   {
     "w": "touros",
-    "e": "Tense",
+    "e": "tense",
     "ea": "tense, tight, squeeze",
     "c": "suffer",
     "cs": "to",
@@ -51974,7 +51753,7 @@
   },
   {
     "w": "touvei",
-    "e": "Illness",
+    "e": "illness",
     "ea": "illness, disease",
     "c": "suffer",
     "cs": "tou",
@@ -52064,7 +51843,7 @@
   },
   {
     "w": "touwa",
-    "e": "Thirst",
+    "e": "thirst",
     "ea": "thirst, thirsty",
     "c": "suffer",
     "cs": "tou",
@@ -52150,7 +51929,7 @@
   },
   {
     "w": "tugom",
-    "e": "Barrage",
+    "e": "barrage",
     "ea": "barrage, dam, block, impede, obstruct, hinder",
     "c": "conflict",
     "cs": "tu",
@@ -52207,7 +51986,7 @@
   },
   {
     "w": "tuldac",
-    "e": "Crash",
+    "e": "crash",
     "ea": "crash, collision, collide",
     "c": "conflict",
     "cs": "tu",
@@ -52261,7 +52040,7 @@
   },
   {
     "w": "tulhue",
-    "e": "Smoke",
+    "e": "smoke",
     "ea": "smoke",
     "c": "conflict",
     "cs": "tu",
@@ -52324,7 +52103,7 @@
   },
   {
     "w": "tulram",
-    "e": "Explode",
+    "e": "explode",
     "ea": "",
     "c": "conflict",
     "cs": "tu",
@@ -52387,7 +52166,7 @@
   },
   {
     "w": "tumjeh",
-    "e": "Weapon",
+    "e": "weapon",
     "ea": "",
     "c": "conflict",
     "cs": "tu",
@@ -52439,7 +52218,7 @@
   },
   {
     "w": "tumjum",
-    "e": "Gun",
+    "e": "gun",
     "ea": "gun, rifle, shoot",
     "c": "conflict",
     "cs": "tu",
@@ -52494,7 +52273,7 @@
   },
   {
     "w": "tumlovi",
-    "e": "Arrow",
+    "e": "arrow",
     "ea": "arrow, dart",
     "c": "conflict",
     "cs": "tu",
@@ -52548,7 +52327,7 @@
   },
   {
     "w": "tunen",
-    "e": "Violence",
+    "e": "violence",
     "ea": "",
     "c": "conflict",
     "cs": "tu",
@@ -52620,7 +52399,7 @@
   },
   {
     "w": "turai",
-    "e": "War",
+    "e": "war",
     "ea": "",
     "c": "conflict",
     "cs": "tu",
@@ -52672,7 +52451,7 @@
   },
   {
     "w": "vamiu",
-    "e": "Spine",
+    "e": "spine",
     "ea": "spine, backbone",
     "c": "body parts",
     "cs": "va",
@@ -52747,7 +52526,7 @@
   },
   {
     "w": "vanci",
-    "e": "Elbow",
+    "e": "elbow",
     "ea": "elbow, nudge",
     "c": "body parts",
     "cs": "va",
@@ -52823,7 +52602,7 @@
   },
   {
     "w": "vandi",
-    "e": "Finger",
+    "e": "finger",
     "ea": "finger, toe, skillful",
     "c": "body parts",
     "cs": "va",
@@ -52909,7 +52688,7 @@
   },
   {
     "w": "vanen",
-    "e": "Fist",
+    "e": "fist",
     "ea": "fist, punch, knob, hilt, handgrip",
     "c": "body parts",
     "cs": "va",
@@ -52996,7 +52775,7 @@
   },
   {
     "w": "vanu",
-    "e": "Arm",
+    "e": "arm",
     "ea": "arm, limb, branch",
     "c": "body parts",
     "cs": "va",
@@ -53082,7 +52861,7 @@
   },
   {
     "w": "vanou",
-    "e": "Butt",
+    "e": "butt",
     "ea": "butt, bottom",
     "c": "body parts",
     "cs": "va",
@@ -53178,7 +52957,7 @@
   },
   {
     "w": "vanpai",
-    "e": "Foot",
+    "e": "foot",
     "ea": "foot, by foot, stomp, step",
     "c": "body parts",
     "cs": "va",
@@ -53260,7 +53039,7 @@
   },
   {
     "w": "vanru",
-    "e": "Knee",
+    "e": "knee",
     "ea": "knee, joints, node",
     "c": "body parts",
     "cs": "va",
@@ -53342,7 +53121,7 @@
   },
   {
     "w": "vanta",
-    "e": "Hand",
+    "e": "hand",
     "ea": "hand, paw, hold, grasp, cling to",
     "c": "body parts",
     "cs": "va",
@@ -53429,7 +53208,7 @@
   },
   {
     "w": "vanvu",
-    "e": "Leg",
+    "e": "leg",
     "ea": "leg, to walk, to stroll, to kick",
     "c": "body parts",
     "cs": "va",
@@ -53517,7 +53296,7 @@
   },
   {
     "w": "vardei",
-    "e": "Eye",
+    "e": "eye",
     "ea": "eye, glance, one's sight, see, look, watch",
     "c": "body parts",
     "cs": "va",
@@ -53591,7 +53370,7 @@
   },
   {
     "w": "vardur",
-    "e": "Tooth",
+    "e": "tooth",
     "ea": "tooth, bite",
     "c": "body parts",
     "cs": "va",
@@ -53678,7 +53457,7 @@
   },
   {
     "w": "varluan",
-    "e": "Tongue",
+    "e": "tongue",
     "ea": "tongue, taste, language",
     "c": "body parts",
     "cs": "va",
@@ -53758,7 +53537,7 @@
   },
   {
     "w": "varmo",
-    "e": "Mouth",
+    "e": "mouth",
     "ea": "mouth, to articulate",
     "c": "body parts",
     "cs": "va",
@@ -53842,7 +53621,7 @@
   },
   {
     "w": "varodu",
-    "e": "Head",
+    "e": "head",
     "ea": "head",
     "c": "body parts",
     "cs": "va",
@@ -53920,7 +53699,7 @@
   },
   {
     "w": "varon",
-    "e": "Cheek",
+    "e": "cheek",
     "ea": "cheek, jowl",
     "c": "body parts",
     "cs": "va",
@@ -53982,7 +53761,7 @@
   },
   {
     "w": "varparo",
-    "e": "Face",
+    "e": "face",
     "ea": "face, to face someone",
     "c": "body parts",
     "cs": "va",
@@ -54056,7 +53835,7 @@
   },
   {
     "w": "varpi",
-    "e": "Nose",
+    "e": "nose",
     "ea": "nose, smell, to smell, meddlesome, prying",
     "c": "body parts",
     "cs": "va",
@@ -54142,7 +53921,7 @@
   },
   {
     "w": "varsus",
-    "e": "Ear",
+    "e": "ear",
     "ea": "ear, to hear, to listen",
     "c": "body parts",
     "cs": "va",
@@ -54214,7 +53993,7 @@
   },
   {
     "w": "vavari",
-    "e": "Back",
+    "e": "back",
     "ea": "back, backwards",
     "c": "body parts",
     "cs": "va",
@@ -54287,7 +54066,7 @@
   },
   {
     "w": "vavi",
-    "e": "Pelvis",
+    "e": "pelvis",
     "ea": "pelvis, genital",
     "c": "body parts",
     "cs": "va",
@@ -54367,7 +54146,7 @@
   },
   {
     "w": "vawe",
-    "e": "Shoulder",
+    "e": "shoulder",
     "ea": "shoulder, shrug",
     "c": "body parts",
     "cs": "va",
@@ -54427,7 +54206,7 @@
   },
   {
     "w": "vawol",
-    "e": "Chest",
+    "e": "chest",
     "ea": "chest, torso",
     "c": "body parts",
     "cs": "va",
@@ -54504,7 +54283,7 @@
   },
   {
     "w": "veihoh",
-    "e": "Severe",
+    "e": "severe",
     "ea": "severe, strict",
     "c": "health",
     "cs": "ve",
@@ -54575,7 +54354,7 @@
   },
   {
     "w": "veimigai",
-    "e": "Bacteria",
+    "e": "bacteria",
     "ea": "bacteria, bacillus, germ, microbe",
     "c": "health",
     "cs": "ve",
@@ -54682,7 +54461,7 @@
   },
   {
     "w": "veinal",
-    "e": "Condition",
+    "e": "condition",
     "ea": "condition, state",
     "c": "health",
     "cs": "ve",
@@ -54742,7 +54521,7 @@
   },
   {
     "w": "veiti",
-    "e": "Tumor",
+    "e": "tumor",
     "ea": "tumor, swell, swelling, bulge",
     "c": "health",
     "cs": "ve",
@@ -54821,7 +54600,7 @@
   },
   {
     "w": "veitira",
-    "e": "Fungus",
+    "e": "fungus",
     "ea": "fungus, mold, mildew",
     "c": "health",
     "cs": "ve",
@@ -54893,7 +54672,7 @@
   },
   {
     "w": "veito",
-    "e": "Wound",
+    "e": "wound",
     "ea": "wound, injure, injury",
     "c": "health",
     "cs": "ve",
@@ -54967,7 +54746,7 @@
   },
   {
     "w": "velan",
-    "e": "Therapy",
+    "e": "therapy",
     "ea": "therapy, treatment, treat, cure, therapeutic",
     "c": "health",
     "cs": "ve",
@@ -55041,7 +54820,7 @@
   },
   {
     "w": "velmo",
-    "e": "Pill",
+    "e": "pill",
     "ea": "pill, pellet, bullet",
     "c": "health",
     "cs": "ve",
@@ -55120,7 +54899,7 @@
   },
   {
     "w": "veluo",
-    "e": "Exercise",
+    "e": "exercise",
     "ea": "exercise, training, practice, drill",
     "c": "health",
     "cs": "ve",
@@ -55180,7 +54959,7 @@
   },
   {
     "w": "vidur",
-    "e": "Bone",
+    "e": "bone",
     "ea": "bone",
     "c": "interior body",
     "cs": "vi",
@@ -55256,7 +55035,7 @@
   },
   {
     "w": "vigai",
-    "e": "Cell",
+    "e": "cell",
     "ea": "cell, to wrap",
     "c": "interior body",
     "cs": "vi",
@@ -55344,7 +55123,7 @@
   },
   {
     "w": "vilam",
-    "e": "Fat",
+    "e": "fat",
     "ea": "fat, thick",
     "c": "interior body",
     "cs": "vi",
@@ -55403,7 +55182,7 @@
   },
   {
     "w": "vilil",
-    "e": "Muscle",
+    "e": "muscle",
     "ea": "muscle, muscular",
     "c": "interior body",
     "cs": "vi",
@@ -55473,7 +55252,7 @@
   },
   {
     "w": "visfiyur",
-    "e": "Heart",
+    "e": "heart",
     "ea": "heart, pump",
     "c": "interior body",
     "cs": "vi",
@@ -55518,7 +55297,7 @@
   },
   {
     "w": "viso",
-    "e": "Feces",
+    "e": "feces",
     "ea": "feces",
     "c": "interior body",
     "cs": "vi",
@@ -55575,10 +55354,10 @@
   },
   {
     "w": "visomo",
-    "e": "Stomach",
+    "e": "stomach",
     "ea": "stomach, belly, abdomen",
     "c": "interior body",
-    "cs": "interior body",
+    "cs": "vi",
     "sc": "vis",
     "r": "mo",
     "bd": [
@@ -55644,10 +55423,10 @@
   },
   {
     "w": "visro",
-    "e": "Brain",
+    "e": "brain",
     "ea": "brain, nuts",
     "c": "interior body",
-    "cs": "interior body",
+    "cs": "vi",
     "sc": "vis",
     "r": "ro",
     "bd": [
@@ -55723,7 +55502,7 @@
   },
   {
     "w": "visuva",
-    "e": "Body",
+    "e": "body",
     "ea": "body, physical",
     "c": "interior body",
     "cs": "vi",
@@ -55828,7 +55607,7 @@
   },
   {
     "w": "visyala",
-    "e": "Organ",
+    "e": "organ",
     "ea": "",
     "c": "interior body",
     "cs": "vi",
@@ -55905,7 +55684,7 @@
   },
   {
     "w": "viwa",
-    "e": "Blood",
+    "e": "blood",
     "ea": "blood, bleed",
     "c": "interior body",
     "cs": "vi",
@@ -55990,7 +55769,7 @@
   },
   {
     "w": "viyur",
-    "e": "Breast",
+    "e": "breast",
     "ea": "breast, tit, mammal",
     "c": "interior body",
     "cs": "vi",
@@ -56050,7 +55829,7 @@
   },
   {
     "w": "vonici",
-    "e": "Nail",
+    "e": "nail",
     "ea": "nail, hoof, claw",
     "c": "hygiene",
     "cs": "vo",
@@ -56141,7 +55920,7 @@
   },
   {
     "w": "vonlu",
-    "e": "Skin",
+    "e": "skin",
     "ea": "skin, surface, peel, hide (animal)",
     "c": "hygiene",
     "cs": "vo",
@@ -56223,7 +56002,7 @@
   },
   {
     "w": "vonmo",
-    "e": "Lip",
+    "e": "lip",
     "ea": "lip, rim, brim",
     "c": "hygiene",
     "cs": "vo",
@@ -56302,7 +56081,7 @@
   },
   {
     "w": "vonyas",
-    "e": "Hair",
+    "e": "hair",
     "ea": "hair, fur, hairy, furry",
     "c": "hygiene",
     "cs": "vo",
@@ -56368,7 +56147,7 @@
   },
   {
     "w": "vosfan",
-    "e": "Brush",
+    "e": "brush",
     "ea": "to brush, comb, sweep",
     "c": "hygiene",
     "cs": "vo",
@@ -56432,7 +56211,7 @@
   },
   {
     "w": "vosfou",
-    "e": "Dry",
+    "e": "dry",
     "ea": "dry, dryness",
     "c": "hygiene",
     "cs": "vo",
@@ -56513,7 +56292,7 @@
   },
   {
     "w": "vosjam",
-    "e": "Gel",
+    "e": "gel",
     "ea": "gel, jelly, paste, cream",
     "c": "hygiene",
     "cs": "vo",
@@ -56577,7 +56356,7 @@
   },
   {
     "w": "vosrol",
-    "e": "Curl",
+    "e": "curl",
     "ea": "curl, coil, elastic, springy",
     "c": "hygiene",
     "cs": "vo",
@@ -56641,7 +56420,7 @@
   },
   {
     "w": "vosvo",
-    "e": "Soap",
+    "e": "soap",
     "ea": "soap, detergent",
     "c": "hygiene",
     "cs": "vo",
@@ -56702,7 +56481,7 @@
   },
   {
     "w": "vosvosi",
-    "e": "Rub",
+    "e": "rub",
     "ea": "rub, friction, massage, caress, to pet",
     "c": "hygiene",
     "cs": "vo",
@@ -56769,7 +56548,7 @@
   },
   {
     "w": "vosyec",
-    "e": "Shave",
+    "e": "shave",
     "ea": "shave, scrape, graze",
     "c": "hygiene",
     "cs": "vo",
@@ -56832,7 +56611,7 @@
   },
   {
     "w": "wagavir",
-    "e": "Shore",
+    "e": "shore",
     "ea": "shore, beach, coast, litoral",
     "c": "water",
     "cs": "wa",
@@ -56919,7 +56698,7 @@
   },
   {
     "w": "wamitan",
-    "e": "Whale",
+    "e": "whale",
     "ea": "whale",
     "c": "water",
     "cs": "wa",
@@ -57011,7 +56790,7 @@
   },
   {
     "w": "walufu",
-    "e": "Sail",
+    "e": "sail",
     "ea": "sail",
     "c": "water",
     "cs": "wa",
@@ -57086,7 +56865,7 @@
   },
   {
     "w": "wamon",
-    "e": "Cave",
+    "e": "cave",
     "ea": "cave, cavern",
     "c": "water",
     "cs": "wa",
@@ -57147,7 +56926,7 @@
   },
   {
     "w": "wamu",
-    "e": "Fish",
+    "e": "fish",
     "ea": "fish",
     "c": "water",
     "cs": "wa",
@@ -57224,7 +57003,7 @@
   },
   {
     "w": "wanenou",
-    "e": "Dive",
+    "e": "dive",
     "ea": "dive, plunge, submerge, dip, dunk",
     "c": "water",
     "cs": "wa",
@@ -57331,7 +57110,7 @@
   },
   {
     "w": "wanon",
-    "e": "Swim",
+    "e": "swim",
     "ea": "swim",
     "c": "water",
     "cs": "wa",
@@ -57403,7 +57182,7 @@
   },
   {
     "w": "warel",
-    "e": "Cliff",
+    "e": "cliff",
     "ea": "cliff, edge",
     "c": "water",
     "cs": "wa",
@@ -57487,7 +57266,7 @@
   },
   {
     "w": "wawowo",
-    "e": "Float",
+    "e": "float",
     "ea": "float, buoy, buoyant, a float",
     "c": "water",
     "cs": "wa",
@@ -57564,7 +57343,7 @@
   },
   {
     "w": "wayol",
-    "e": "Ocean",
+    "e": "ocean",
     "ea": "ocean, sea, marine",
     "c": "water",
     "cs": "wa",
@@ -57640,7 +57419,7 @@
   },
   {
     "w": "widuo",
-    "e": "Near",
+    "e": "near",
     "ea": "near, neighborhood, close by, approach, nearly, close",
     "c": "geography",
     "cs": "wi",
@@ -57709,7 +57488,7 @@
   },
   {
     "w": "wile",
-    "e": "Area",
+    "e": "area",
     "ea": "area, region, zone, domain, extent, size",
     "c": "geography",
     "cs": "wi",
@@ -57783,7 +57562,7 @@
   },
   {
     "w": "wilwatai",
-    "e": "Canal",
+    "e": "canal",
     "ea": "canal",
     "c": "geography",
     "cs": "wi",
@@ -57872,7 +57651,7 @@
   },
   {
     "w": "wilgai",
-    "e": "Village",
+    "e": "village",
     "ea": "village, town",
     "c": "geography",
     "cs": "wi",
@@ -57963,7 +57742,7 @@
   },
   {
     "w": "wilimel",
-    "e": "West",
+    "e": "west",
     "ea": "west",
     "c": "geography",
     "cs": "wi",
@@ -58033,7 +57812,7 @@
   },
   {
     "w": "wiltan",
-    "e": "City",
+    "e": "city",
     "ea": "city",
     "c": "geography",
     "cs": "wi",
@@ -58104,7 +57883,7 @@
   },
   {
     "w": "wilyel",
-    "e": "Bridge",
+    "e": "bridge",
     "ea": "bridge, connect",
     "c": "geography",
     "cs": "wi",
@@ -58180,7 +57959,7 @@
   },
   {
     "w": "wimlua",
-    "e": "River",
+    "e": "river",
     "ea": "river, stream",
     "c": "geography",
     "cs": "wi",
@@ -58255,7 +58034,7 @@
   },
   {
     "w": "wimrih",
-    "e": "Mountain",
+    "e": "mountain",
     "ea": "mountain, hill, bump, protrusion, protrude, bumpy",
     "c": "geography",
     "cs": "wi",
@@ -58342,7 +58121,7 @@
   },
   {
     "w": "wimuru",
-    "e": "Valley",
+    "e": "valley",
     "ea": "valley",
     "c": "geography",
     "cs": "wi",
@@ -58396,7 +58175,7 @@
   },
   {
     "w": "wimwa",
-    "e": "Lake",
+    "e": "lake",
     "ea": "lake, loch, pond",
     "c": "geography",
     "cs": "wi",
@@ -58478,7 +58257,7 @@
   },
   {
     "w": "winou",
-    "e": "South",
+    "e": "south",
     "ea": "south",
     "c": "geography",
     "cs": "wi",
@@ -58565,7 +58344,7 @@
   },
   {
     "w": "wirel",
-    "e": "North",
+    "e": "north",
     "ea": "north",
     "c": "geography",
     "cs": "wi",
@@ -58651,7 +58430,7 @@
   },
   {
     "w": "witel",
-    "e": "Map",
+    "e": "map",
     "ea": "map, chart",
     "c": "geography",
     "cs": "wi",
@@ -58721,7 +58500,7 @@
   },
   {
     "w": "wiyar",
-    "e": "East",
+    "e": "east",
     "ea": "east",
     "c": "geography",
     "cs": "wi",
@@ -58804,7 +58583,7 @@
   },
   {
     "w": "yadetu",
-    "e": "Finish",
+    "e": "finish",
     "ea": "finish, final, end, tip",
     "c": "objective qualities",
     "cs": "ya",
@@ -58895,7 +58674,7 @@
   },
   {
     "w": "yahci",
-    "e": "Sharp",
+    "e": "sharp",
     "ea": "sharp, acute, keen",
     "c": "objective qualities",
     "cs": "ya",
@@ -58975,7 +58754,7 @@
   },
   {
     "w": "yahgor",
-    "e": "Solid",
+    "e": "solid",
     "ea": "solid, firm",
     "c": "objective qualities",
     "cs": "ya",
@@ -59055,7 +58834,7 @@
   },
   {
     "w": "yahlul",
-    "e": "Smooth",
+    "e": "smooth",
     "ea": "smooth, soft, sleek, even",
     "c": "objective qualities",
     "cs": "ya",
@@ -59123,7 +58902,7 @@
   },
   {
     "w": "yahsun",
-    "e": "Limp",
+    "e": "limp",
     "ea": "limp, flaccid, floppy, to limp, lax",
     "c": "objective qualities",
     "cs": "ya",
@@ -59186,7 +58965,7 @@
   },
   {
     "w": "yaldih",
-    "e": "Full",
+    "e": "full",
     "ea": "full, to fill, whole, complete",
     "c": "objective qualities",
     "cs": "ya",
@@ -59258,7 +59037,7 @@
   },
   {
     "w": "yalen",
-    "e": "Long",
+    "e": "long",
     "ea": "long, length, longitude",
     "c": "objective qualities",
     "cs": "ya",
@@ -59341,7 +59120,7 @@
   },
   {
     "w": "yalgai",
-    "e": "Small",
+    "e": "small",
     "ea": "small, little",
     "c": "objective qualities",
     "cs": "ya",
@@ -59438,7 +59217,7 @@
   },
   {
     "w": "yaljui",
-    "e": "Short",
+    "e": "short",
     "ea": "short, temporary",
     "c": "objective qualities",
     "cs": "ya",
@@ -59512,7 +59291,7 @@
   },
   {
     "w": "yalnou",
-    "e": "Deep",
+    "e": "deep",
     "ea": "",
     "c": "objective qualities",
     "cs": "ya",
@@ -59603,7 +59382,7 @@
   },
   {
     "w": "yaltan",
-    "e": "Big",
+    "e": "big",
     "ea": "big, great, large",
     "c": "objective qualities",
     "cs": "ya",
@@ -59689,7 +59468,7 @@
   },
   {
     "w": "yalwol",
-    "e": "Wide",
+    "e": "wide",
     "ea": "wide, width, latitude, broad, vague",
     "c": "objective qualities",
     "cs": "ya",
@@ -59772,7 +59551,7 @@
   },
   {
     "w": "yamirhei",
-    "e": "Famous",
+    "e": "famous",
     "ea": "famous, fame, well-known, iconic",
     "c": "objective qualities",
     "cs": "ya",
@@ -59875,7 +59654,7 @@
   },
   {
     "w": "yamirli",
-    "e": "Age",
+    "e": "age",
     "ea": "age, to age, old, antique, ancient",
     "c": "objective qualities",
     "cs": "ya",
@@ -59982,7 +59761,7 @@
   },
   {
     "w": "yani",
-    "e": "New",
+    "e": "new",
     "ea": "new, innovation",
     "c": "objective qualities",
     "cs": "ya",
@@ -60066,7 +59845,7 @@
   },
   {
     "w": "yasoi",
-    "e": "Fast",
+    "e": "fast",
     "ea": "fast, speed, quickly",
     "c": "objective qualities",
     "cs": "ya",
@@ -60150,7 +59929,7 @@
   },
   {
     "w": "yavuson",
-    "e": "Slow",
+    "e": "slow",
     "ea": "slow, slowly",
     "c": "objective qualities",
     "cs": "ya",
@@ -60230,7 +60009,7 @@
   },
   {
     "w": "yedi",
-    "e": "Stripe",
+    "e": "stripe",
     "ea": "stripe, band, strip, ribbon, tape",
     "c": "clothing",
     "cs": "ye",
@@ -60310,7 +60089,7 @@
   },
   {
     "w": "yejae",
-    "e": "Bag",
+    "e": "bag",
     "ea": "bag, sack, burden",
     "c": "clothing",
     "cs": "ye",
@@ -60388,7 +60167,7 @@
   },
   {
     "w": "yeleno",
-    "e": "Cotton",
+    "e": "cotton",
     "ea": "cotton",
     "c": "clothing",
     "cs": "ye",
@@ -60459,7 +60238,7 @@
   },
   {
     "w": "yemiudu",
-    "e": "Pillow",
+    "e": "pillow",
     "ea": "pillow, cushion",
     "c": "clothing",
     "cs": "ye",
@@ -60541,7 +60320,7 @@
   },
   {
     "w": "yemu",
-    "e": "Silk",
+    "e": "silk",
     "ea": "silk",
     "c": "clothing",
     "cs": "ye",
@@ -60618,7 +60397,7 @@
   },
   {
     "w": "yesdora",
-    "e": "Tie",
+    "e": "tie",
     "ea": "tie, bind, knot, league, link, connection",
     "c": "clothing",
     "cs": "ye",
@@ -60698,7 +60477,7 @@
   },
   {
     "w": "yesjin",
-    "e": "Jeans",
+    "e": "jeans",
     "ea": "",
     "c": "clothing",
     "cs": "ye",
@@ -60760,7 +60539,7 @@
   },
   {
     "w": "yesmel",
-    "e": "Dress",
+    "e": "dress",
     "ea": "dress, robe",
     "c": "clothing",
     "cs": "ye",
@@ -60824,7 +60603,7 @@
   },
   {
     "w": "yesnou",
-    "e": "Pants",
+    "e": "pants",
     "ea": "pants, trousers",
     "c": "clothing",
     "cs": "ye",
@@ -60918,7 +60697,7 @@
   },
   {
     "w": "yespai",
-    "e": "Shoe",
+    "e": "shoe",
     "ea": "shoe, suitable",
     "c": "clothing",
     "cs": "ye",
@@ -60993,7 +60772,7 @@
   },
   {
     "w": "yespuli",
-    "e": "Sock",
+    "e": "sock",
     "ea": "sock, stocking",
     "c": "clothing",
     "cs": "ye",
@@ -61059,7 +60838,7 @@
   },
   {
     "w": "yesrel",
-    "e": "Jacket",
+    "e": "jacket",
     "ea": "jacket, coat, sweater",
     "c": "clothing",
     "cs": "ye",
@@ -61153,7 +60932,7 @@
   },
   {
     "w": "yeswol",
-    "e": "Shirt",
+    "e": "shirt",
     "ea": "shirt",
     "c": "clothing",
     "cs": "ye",
@@ -61232,7 +61011,7 @@
   },
   {
     "w": "yewamus",
-    "e": "Net",
+    "e": "net",
     "ea": "net, network, web, internet, catch, trap",
     "c": "clothing",
     "cs": "ye",
@@ -61319,7 +61098,7 @@
   },
   {
     "w": "yeyel",
-    "e": "Sew",
+    "e": "sew",
     "ea": "sew, stich, seam, weave, knit",
     "c": "clothing",
     "cs": "ye",
@@ -61402,7 +61181,7 @@
   },
   {
     "w": "yemuh",
-    "e": "Feather",
+    "e": "feather",
     "ea": "feather",
     "c": "clothing",
     "cs": "ye",
@@ -61469,7 +61248,7 @@
   },
   {
     "w": "yogali",
-    "e": "Brown",
+    "e": "brown",
     "ea": "brown",
     "c": "colors",
     "cs": "yo",
@@ -61536,7 +61315,7 @@
   },
   {
     "w": "yolimel",
-    "e": "Dark",
+    "e": "dark",
     "ea": "dark, black",
     "c": "colors",
     "cs": "yo",
@@ -61613,7 +61392,7 @@
   },
   {
     "w": "yopoh",
-    "e": "Red",
+    "e": "red",
     "ea": "red",
     "c": "colors",
     "cs": "yo",
@@ -61689,7 +61468,7 @@
   },
   {
     "w": "yosari",
-    "e": "Yellow",
+    "e": "yellow",
     "ea": "yellow",
     "c": "colors",
     "cs": "yo",
@@ -61762,7 +61541,7 @@
   },
   {
     "w": "yoyar",
-    "e": "White",
+    "e": "white",
     "ea": "white",
     "c": "colors",
     "cs": "yo",
@@ -61844,7 +61623,7 @@
   },
   {
     "w": "yoyo",
-    "e": "Colorful",
+    "e": "colorful",
     "ea": "color, colorful",
     "c": "colors",
     "cs": "yo",
@@ -61893,7 +61672,7 @@
   },
   {
     "w": "yoyodur",
-    "e": "Diamond",
+    "e": "diamond",
     "ea": "diamond, sparkle",
     "c": "colors",
     "cs": "yo",
@@ -61984,7 +61763,7 @@
   },
   {
     "w": "yoyol",
-    "e": "Blue",
+    "e": "blue",
     "ea": "blue",
     "c": "colors",
     "cs": "yo",
@@ -62055,7 +61834,7 @@
   },
   {
     "w": "yuba",
-    "e": "Good",
+    "e": "good",
     "ea": "good",
     "c": "subjective qualities",
     "cs": "yu",
@@ -62121,7 +61900,7 @@
   },
   {
     "w": "yudur",
-    "e": "Hard",
+    "e": "hard",
     "ea": "hard, difficult",
     "c": "subjective qualities",
     "cs": "yu",
@@ -62208,7 +61987,7 @@
   },
   {
     "w": "yufer",
-    "e": "Dirty",
+    "e": "dirty",
     "ea": "dirty, grime, filth, to taint, corruption",
     "c": "subjective qualities",
     "cs": "yu",
@@ -62280,7 +62059,7 @@
   },
   {
     "w": "yugai",
-    "e": "Easy",
+    "e": "easy",
     "ea": "easy, ease, simple, straightforward, plain",
     "c": "subjective qualities",
     "cs": "yu",
@@ -62379,7 +62158,7 @@
   },
   {
     "w": "yuloa",
-    "e": "Perfect",
+    "e": "perfect",
     "ea": "perfect, complete",
     "c": "subjective qualities",
     "cs": "yu",
@@ -62464,7 +62243,7 @@
   },
   {
     "w": "yumin",
-    "e": "Satisfaction",
+    "e": "satisfaction",
     "ea": "",
     "c": "subjective qualities",
     "cs": "yu",
@@ -62537,7 +62316,7 @@
   },
   {
     "w": "yunfou",
-    "e": "Poor",
+    "e": "poor",
     "ea": "poor, poverty",
     "c": "subjective qualities",
     "cs": "yu",
@@ -62621,7 +62400,7 @@
   },
   {
     "w": "yungei",
-    "e": "Ugly",
+    "e": "ugly",
     "ea": "ugly",
     "c": "subjective qualities",
     "cs": "yu",
@@ -62685,7 +62464,7 @@
   },
   {
     "w": "yungi",
-    "e": "Proud",
+    "e": "proud",
     "ea": "proud, pride, arrogant",
     "c": "subjective qualities",
     "cs": "yu",
@@ -62765,7 +62544,7 @@
   },
   {
     "w": "yunitam",
-    "e": "Special",
+    "e": "special",
     "ea": "special, especially, particular, exceptional, exception",
     "c": "subjective qualities",
     "cs": "yu",
@@ -62857,7 +62636,7 @@
   },
   {
     "w": "yunmir",
-    "e": "Rich",
+    "e": "rich",
     "ea": "rich, wealth",
     "c": "subjective qualities",
     "cs": "yu",
@@ -62944,7 +62723,7 @@
   },
   {
     "w": "yunmpou",
-    "e": "Lazy",
+    "e": "lazy",
     "ea": "lazy, indolence, inactivity",
     "c": "subjective qualities",
     "cs": "yu",
@@ -63017,7 +62796,7 @@
   },
   {
     "w": "yunrani",
-    "e": "Beautiful",
+    "e": "beautiful",
     "ea": "beautiful, beauty, beautify, pretty",
     "c": "subjective qualities",
     "cs": "yu",
@@ -63091,7 +62870,7 @@
   },
   {
     "w": "yunro",
-    "e": "Smart",
+    "e": "smart",
     "ea": "smart, intelligence",
     "c": "subjective qualities",
     "cs": "yu",
@@ -63188,7 +62967,7 @@
   },
   {
     "w": "yuparde",
-    "e": "Ironic",
+    "e": "ironic",
     "ea": "irony, ironic, sarcasm",
     "c": "subjective qualities",
     "cs": "yu",
@@ -63251,7 +63030,7 @@
   },
   {
     "w": "yuniu",
-    "e": "Rare",
+    "e": "rare",
     "ea": "rare, unusual, weird, strange",
     "c": "subjective qualities",
     "cs": "yu",
@@ -63328,7 +63107,7 @@
   },
   {
     "w": "yuvabo",
-    "e": "Comfortable",
+    "e": "comfortable",
     "ea": "comfortable, cozy",
     "c": "subjective qualities",
     "cs": "yu",
@@ -63410,7 +63189,7 @@
   },
   {
     "w": "anu",
-    "e": "Close",
+    "e": "close",
     "ea": "close, shut",
     "c": "volitional action",
     "cs": "an",
@@ -63473,7 +63252,7 @@
   },
   {
     "w": "anilie",
-    "e": "Maybe",
+    "e": "maybe",
     "ea": "maybe, try, attempt",
     "c": "volitional action",
     "cs": "an",
@@ -63524,7 +63303,7 @@
   },
   {
     "w": "vatale",
-    "e": "Neck",
+    "e": "neck",
     "ea": "neck, throat",
     "c": "body parts",
     "cs": "va",
@@ -63587,7 +63366,7 @@
   },
   {
     "w": "oivamin",
-    "e": "Sex",
+    "e": "sex",
     "ea": "sex, sensual pleasure",
     "c": "fun",
     "cs": "oi",
