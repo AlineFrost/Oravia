@@ -697,3 +697,12 @@ img {
     color: white !important;
 }
 
+
+/* ===== SAVE WRITING BUTTON ===== */
+button.save-writing-btn {
+    background: #4a9cd6 !important;
+    color: white !important;
+    font-size: 1rem !important;
+    padding: 0.5rem 1.5rem !important;
+    min-width: 140px;
+}
