@@ -3438,7 +3438,7 @@
 <p><strong>Do not try to memorize!</strong> Just read through the content attentively. We will have plenty of exercises and reviews later!</p>
 </div>
 <hr />
-<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Warm-Up</label><label for="__tabbed_1_2">Grammar</label><label for="__tabbed_1_3">Vocabulary</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:6"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><input id="__tabbed_1_5" name="__tabbed_1" type="radio" /><input id="__tabbed_1_6" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Warm-Up</label><label for="__tabbed_1_2">Grammar</label><label for="__tabbed_1_3">Vocabulary</label><label for="__tabbed_1_4">Exercise 1</label><label for="__tabbed_1_5">Exercise 2</label><label for="__tabbed_1_6">Review</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <h2 id="how-much-do-you-remember">How much do you remember?</h2>
@@ -3590,10 +3590,7 @@ vardur = tooth, bite  </p>
 <p>So for example, if one says "I'm elephant", it means "I have a good memory". Or, if they say "I cat into the house", it would mean something like "I enter gracefully in the house"!</p>
 <p>There is another cluster for animals that we will learn later. Today's <strong>MI</strong> cluster is for <strong>bigger animals</strong>, and the other cluster is for smaller animals like insects and rodents. </p>
 <p>Run i vanta e mi?</p>
-<p><textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea></p>
-</div>
-</div>
-</div>
+<p><textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
 <div style="text-align: right; margin-top: 0.5rem;">
 <button onclick="(function(btn){
     const ta = btn.parentElement.previousElementSibling;
@@ -3605,34 +3602,27 @@ vardur = tooth, bite  </p>
     log.push({ timestamp: new Date().toISOString(), lesson: lessonId, word_id: 'writing_' + promptNum, oravia: text, english: '', type: 'writing', correct: null });
     localStorage.setItem('oravia_log', JSON.stringify(log));
     btn.textContent = 'Saved! ✓'; btn.style.background='#43a047';
-    setTimeout(()=>{btn.textContent='Save My Answer';btn.style.background='#4a9cd6';},2000);
-})(this)" class="save-writing-btn" style="background:#4a9cd6; color:white; border:none; padding:0.4rem 1.2rem; border-radius:4px; cursor:pointer; font-size:0.9rem;">Save My Answer</button>
-</div>
-
-<div class="highlight"><pre><span></span><code>&lt;div style=&quot;text-align: center; margin: 2rem 0;&quot;&gt;
-&lt;button onclick=&quot;document.getElementById(&#39;subcluster5-answer&#39;).style.display=&#39;block&#39;; this.style.display=&#39;none&#39;;&quot; style=&quot;background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;&quot;&gt;
+    setTimeout(()=&gt;{btn.textContent='Save My Answer';btn.style.background='#4a9cd6';},2000);
+})(this)" class="save-writing-btn" style="background:#4a9cd6; color:white; border:none; padding:0.4rem 1.2rem; border-radius:4px; cursor:pointer; font-size:0.9rem;"&gt;Save My Answer</button>
+</div></p>
+<p><div style="text-align: center; margin: 2rem 0;">
+<button onclick="document.getElementById('subcluster5-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
     Click to Reveal Translation
-&lt;/button&gt;
-&lt;/div&gt;
-
-&lt;div id=&quot;subcluster5-answer&quot; style=&quot;display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;&quot;&gt;
-&lt;p style=&quot;margin: 0;&quot;&gt;Possible translation: Do you have any (bigger) animals?&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;div style=&quot;text-align: center; margin: 2rem 0;&quot;&gt;
-&lt;button onclick=&quot;document.getElementById(&#39;subcluster6-answer&#39;).style.display=&#39;block&#39;; this.style.display=&#39;none&#39;;&quot; style=&quot;background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;&quot;&gt;
+</button>
+</div></p>
+<p><div id="subcluster5-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+<p style="margin: 0;">Possible translation: Do you have any (bigger) animals?</p>
+</div></p>
+<p><div style="text-align: center; margin: 2rem 0;">
+<button onclick="document.getElementById('subcluster6-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
     Click to Reveal Answer
-&lt;/button&gt;
-&lt;/div&gt;
-
-&lt;div id=&quot;subcluster6-answer&quot; style=&quot;display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;&quot;&gt;
-&lt;p style=&quot;margin: 0;&quot;&gt;Example answers: I vanta e miwo, mai i dairan e miau su. Fare i anona u nim e micea, bi oipili! &lt;/p&gt;
-&lt;/div&gt;
-
-You are ready for the exercise now!
-</code></pre></div>
-<div class="tabbed-set tabbed-alternate" data-tabs="2:3"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><input id="__tabbed_2_3" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Exercise 1</label><label for="__tabbed_2_2">Exercise 2</label><label for="__tabbed_2_3">Review</label></div>
-<div class="tabbed-content">
+</button>
+</div></p>
+<p><div id="subcluster6-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+<p style="margin: 0;">Example answers: I vanta e miwo, mai i dairan e miau su. Fare i anona u nim e micea, bi oipili! </p>
+</div></p>
+<p>You are ready for the exercise now!</p>
+</div>
 <div class="tabbed-block">
 <h2 id="matching-games">Matching Games</h2>
 <p>Time to practice! Match the Oravia words with their English meanings. <strong>Use sound-meaning associations as clues</strong>. For example, the subcluster sound tells you the category, even for words you haven't seen before.<br />

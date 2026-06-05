@@ -3460,7 +3460,7 @@
 <p><strong>Do not try to memorize!</strong> Just read through the content attentively. We will have plenty of exercises and reviews later!</p>
 </div>
 <hr />
-<div class="tabbed-set tabbed-alternate" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Grammar</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:5"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><input id="__tabbed_1_5" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Grammar</label><label for="__tabbed_1_2">Vocabulary</label><label for="__tabbed_1_3">Exercise 1</label><label for="__tabbed_1_4">Exercise 2</label><label for="__tabbed_1_5">Review</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <h2 id="questions">Questions</h2>
@@ -3611,10 +3611,7 @@ bo = house</p>
     <p style="margin: 0;"> Possible translations: Where is the toilet/bathroom? What are you cooking? Who enters the house? Where do I wash the child? Where is this table from? Who is lying down in the room? </p>
 </div></p>
 <p>Now try to create 3 questions:</p>
-<p><textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea></p>
-</div>
-</div>
-</div>
+<p><textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
 <div style="text-align: right; margin-top: 0.5rem;">
 <button onclick="(function(btn){
     const ta = btn.parentElement.previousElementSibling;
@@ -3626,12 +3623,10 @@ bo = house</p>
     log.push({ timestamp: new Date().toISOString(), lesson: lessonId, word_id: 'writing_' + promptNum, oravia: text, english: '', type: 'writing', correct: null });
     localStorage.setItem('oravia_log', JSON.stringify(log));
     btn.textContent = 'Saved! ✓'; btn.style.background='#43a047';
-    setTimeout(()=>{btn.textContent='Save My Answer';btn.style.background='#4a9cd6';},2000);
-})(this)" class="save-writing-btn" style="background:#4a9cd6; color:white; border:none; padding:0.4rem 1.2rem; border-radius:4px; cursor:pointer; font-size:0.9rem;">Save My Answer</button>
+    setTimeout(()=&gt;{btn.textContent='Save My Answer';btn.style.background='#4a9cd6';},2000);
+})(this)" class="save-writing-btn" style="background:#4a9cd6; color:white; border:none; padding:0.4rem 1.2rem; border-radius:4px; cursor:pointer; font-size:0.9rem;"&gt;Save My Answer</button>
+</div></p>
 </div>
-
-<div class="tabbed-set tabbed-alternate" data-tabs="2:4"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><input id="__tabbed_2_3" name="__tabbed_2" type="radio" /><input id="__tabbed_2_4" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Vocabulary</label><label for="__tabbed_2_2">Exercise 1</label><label for="__tabbed_2_3">Exercise 2</label><label for="__tabbed_2_4">Review</label></div>
-<div class="tabbed-content">
 <div class="tabbed-block">
 <h2 id="the-an-cluster">The AN Cluster</h2>
 <p>Today we will learn our fourth cluster, <strong>AN</strong>! Take a look at these words.</p>
@@ -3700,7 +3695,7 @@ bo = house</p>
     <p style="margin: 0;">Possible translations: wanted chocolate, needed shower.</p>
 </div></p>
 <div class="admonition info">
-<p class="admonition-title">🌍 Fun Fact</p>
+<p class="admonition-title">🌍 Sound Connections</p>
 <p>Sau means start, like Hindi शुरू śurū (start, beginning).</p>
 <p>Vu means "movement", coming from Mandarin 步 bù (step, pace).  </p>
 <p>Fi is like Swahili -fika (to arrive, come).  </p>
