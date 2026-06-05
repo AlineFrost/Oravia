@@ -97,7 +97,7 @@
         localStorage.setItem('oravia_log', JSON.stringify(log));
         btn.textContent = 'Saved! ✓'; btn.style.background='#43a047';
         setTimeout(()=>{btn.textContent='Save My Answer';btn.style.background='#4a9cd6';},2000);
-    })(this)" class="save-writing-btn" style="background:#4a9cd6 !important; color:white !important; border:none; padding:0.5rem 1.5rem; border-radius:4px; cursor:pointer; font-size:1rem; font-weight:500;">Save My Answer</button>
+    })(this)" class="save-writing-btn" style="background:#4a9cd6 !important; color:white !important; border:none; padding:0.5rem 1.5rem; border-radius:4px; cursor:pointer; font-size:1rem; font-weight:500;"><span>Save My Answer</span></button>
     </div>
     
 
@@ -170,7 +170,7 @@
         localStorage.setItem('oravia_log', JSON.stringify(log));
         btn.textContent = 'Saved! ✓'; btn.style.background='#43a047';
         setTimeout(()=>{btn.textContent='Save My Answer';btn.style.background='#4a9cd6';},2000);
-    })(this)" class="save-writing-btn" style="background:#4a9cd6 !important; color:white !important; border:none; padding:0.5rem 1.5rem; border-radius:4px; cursor:pointer; font-size:1rem; font-weight:500;">Save My Answer</button>
+    })(this)" class="save-writing-btn" style="background:#4a9cd6 !important; color:white !important; border:none; padding:0.5rem 1.5rem; border-radius:4px; cursor:pointer; font-size:1rem; font-weight:500;"><span>Save My Answer</span></button>
     </div>
     
     <div style="text-align: center; margin: 2rem 0;">
