@@ -144,7 +144,7 @@
     
     **ANE** is about neither movement towards nor away: it's for **being static**. It's for things like rest, stop, put, and stay.  
     
-    !!! info "🌍 Fun Fact"
+    !!! info "🌍 Sound Connections"
         Ani is movement toward like Japanese に ni (toward, directional particle).  
         
         Ane is static movement like Latin manere (to remain/stay).  

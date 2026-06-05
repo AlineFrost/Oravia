@@ -100,7 +100,7 @@
         <p style="font-size: 1.1rem; margin: 0;"><strong>That's right!</strong> It's about <strong>food: eating and drinking</strong>.</p>
     </div>
         
-    !!! info "🌍 Fun Fact"
+    !!! info "🌍 Sound Connections"
         Many languages use something similar to "mo" for food because it's a sound of lips together. For example, Hawaiian moku (to eat, archaic); Swahili mlo (meal); Korean 먹다 meokda (to eat); Japanese もぐもぐ mogu-mogu (onomatopoeia for eating/chewing); English yummy.
         
     ---

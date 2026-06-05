@@ -175,7 +175,7 @@
         <p style="margin: 0;">*BON* is used for <strong>furniture</strong>.</p>
     </div>
     
-    !!! info "🌍 Fun Fact"
+    !!! info "🌍 Sound Connections"
         Tal means "door", coming from Persian طاق ṭāq (arch, doorway) and Hindi ताला tālā (lock, door mechanism).  
         
         Lu means "outside", coming from Latin lux (light, sky phenomenon); Italian luce; French lumière; Portuguese/Spanish luz; and Proto-Indo-European *lewk- (to shine).  

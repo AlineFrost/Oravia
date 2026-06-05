@@ -153,7 +153,7 @@
     
     *MOA* and *MOL* are subclusters! They indicate subdivisions within the *MO cluster*. Subclusters are indicated by the third letter. Clusters can have between 0–4 subclusters.
     
-    !!! info "🌍 Fun Fact"
+    !!! info "🌍 Sound Connections"
         Moa means banana plant in Polynesian roots, and indicates all fruits in Oravia.  
           
         Banana is Moalen (moa + len). Len is like Latin longus (long), which is the root of the word longitude in English.  

@@ -91,20 +91,20 @@
     Now try to create 3 questions:
     
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
-<div style="text-align: right; margin-top: 0.5rem;">
-<button onclick="(function(btn){
-    const ta = btn.parentElement.previousElementSibling;
-    const text = ta ? ta.value.trim() : '';
-    if (!text) { btn.textContent = 'Nothing to save!'; btn.style.background='#f57c00'; setTimeout(()=>{btn.textContent='Save My Answer';btn.style.background='#4a9cd6';},1500); return; }
-    const log = JSON.parse(localStorage.getItem('oravia_log') || '[]');
-    const lessonId = window.location.pathname.split('/').filter(Boolean).pop().replace('.html','');
-    const promptNum = Array.from(document.querySelectorAll('.save-writing-btn')).indexOf(btn) + 1;
-    log.push({ timestamp: new Date().toISOString(), lesson: lessonId, word_id: 'writing_' + promptNum, oravia: text, english: '', type: 'writing', correct: null });
-    localStorage.setItem('oravia_log', JSON.stringify(log));
-    btn.textContent = 'Saved! ✓'; btn.style.background='#43a047';
-    setTimeout(()=>{btn.textContent='Save My Answer';btn.style.background='#4a9cd6';},2000);
-})(this)" class="save-writing-btn" style="background:#4a9cd6; color:white; border:none; padding:0.4rem 1.2rem; border-radius:4px; cursor:pointer; font-size:0.9rem;">Save My Answer</button>
-</div>
+    <div style="text-align: right; margin-top: 0.5rem;">
+    <button onclick="(function(btn){
+        const ta = btn.parentElement.previousElementSibling;
+        const text = ta ? ta.value.trim() : '';
+        if (!text) { btn.textContent = 'Nothing to save!'; btn.style.background='#f57c00'; setTimeout(()=>{btn.textContent='Save My Answer';btn.style.background='#4a9cd6';},1500); return; }
+        const log = JSON.parse(localStorage.getItem('oravia_log') || '[]');
+        const lessonId = window.location.pathname.split('/').filter(Boolean).pop().replace('.html','');
+        const promptNum = Array.from(document.querySelectorAll('.save-writing-btn')).indexOf(btn) + 1;
+        log.push({ timestamp: new Date().toISOString(), lesson: lessonId, word_id: 'writing_' + promptNum, oravia: text, english: '', type: 'writing', correct: null });
+        localStorage.setItem('oravia_log', JSON.stringify(log));
+        btn.textContent = 'Saved! ✓'; btn.style.background='#43a047';
+        setTimeout(()=>{btn.textContent='Save My Answer';btn.style.background='#4a9cd6';},2000);
+    })(this)" class="save-writing-btn" style="background:#4a9cd6; color:white; border:none; padding:0.4rem 1.2rem; border-radius:4px; cursor:pointer; font-size:0.9rem;">Save My Answer</button>
+    </div>
 
 === "Vocabulary"
 
@@ -189,7 +189,7 @@
         <p style="margin: 0;">*BON* is used for <strong>furniture</strong>.</p>
     </div>
     
-    !!! info "🌍 Fun Fact"
+    !!! info "🌍 Sound Connections"
         Tal means "door", coming from Persian طاق ṭāq (arch, doorway) and Hindi ताला tālā (lock, door mechanism).  
         
         Lu means "outside", coming from Latin lux (light, sky phenomenon); Italian luce; French lumière; Portuguese/Spanish luz; and Proto-Indo-European *lewk- (to shine).  

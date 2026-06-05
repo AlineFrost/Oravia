@@ -185,7 +185,7 @@
         <p style="margin: 0;">Possible translations: wanted chocolate, needed shower.</p>
     </div>
 
-    !!! info "🌍 Fun Fact"
+    !!! info "🌍 Sound Connections"
         Sau means start, like Hindi शुरू śurū (start, beginning).
         
         Vu means "movement", coming from Mandarin 步 bù (step, pace).  

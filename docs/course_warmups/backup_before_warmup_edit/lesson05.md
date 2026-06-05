@@ -131,7 +131,7 @@
         <p style="margin: 0;">They are all related to <strong>house</strong>. That's what *bo* means!</p>
     </div>
     
-    !!! info "🌍 Fun Fact"
+    !!! info "🌍 Sound Connections"
         Bo is like Arabic بيت (bayt = house, dwelling); Hebrew בית (bayit = house); Proto-Semitic *bayt- (house); Swahili boma (enclosed homestead); Russian бок (bok = side of a house).  
           
         And pupi is mimicking the sound of falling water :).  

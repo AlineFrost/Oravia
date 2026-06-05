@@ -57,6 +57,8 @@ To navigate the Lesson, please click the tabs below: "About the Course", "Pronun
     
     Pronouncing E and O closed like in Spanish (IPA e and o) is fine too!
     
+    These are also the names of the letters! When spelling something, just use consonant + a, or the vowel sound, just like the recording.
+    
     ### Important: Similar-Sounding Pairs
     
     This system is meant to accommodate different pronunciations and similar sounding pairs (l-r, m-n, p-b, t-d, c-g, f-v, w-v). 

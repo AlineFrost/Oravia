@@ -125,7 +125,7 @@
     
     It all depends on how you use the word in each sentence! In future lessons we will take a look at some sentences we can make with these words in various roles. 
 
-    !!! info "🌍 Fun Fact"
+    !!! info "🌍 Sound Connections"
         Gai means small and comes from English and French grain.  
         
 

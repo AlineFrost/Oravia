@@ -143,7 +143,7 @@
         <p style="margin: 0;">That's right! FA words are related to <strong>family</strong>.</p>
     </div>
     
-    !!! info "🌍 Fun Fact"
+    !!! info "🌍 Sound Connections"
         Fa is like Latin familia, which is where the English word family comes from.  
           
         Parent uses the root re(l), which comes from Latin relevare (to lift, raise up). This is because parents are one generation above!  

@@ -158,7 +158,7 @@
     | fare | parent |
     | fano | daughter, son |
     
-    !!! info "🌍 Fun Fact"
+    !!! info "🌍 Sound Connections"
         Fano uses the no(u) root, which means low, falling. It comes from Arabic نَوْم naw  (sleep, falling into sleep). We use it  because daughters and sons are one generation below! 
         
         The root ni in Falni (baby) comes from the Proto-Indo-European root newo, which shares Greek νέος neos (young, fresh, recent), and English new.
