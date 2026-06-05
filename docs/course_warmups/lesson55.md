@@ -1,7 +1,7 @@
 # Lesson 55: TI / CIU Cluster
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into five sections: **Warm-Up**, **Vocabulary**, **Reading**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
+    Every lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Vocabulary**, **Reading**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -64,7 +64,7 @@
     </div>
     
     
-        !!! info "🌍 Sound Connections"
+    !!! info "🌍 Sound Connections"
         Ju comes from Hindi jhūṭh, which means deception.  
       
     Here is another word with this root:    
@@ -313,8 +313,8 @@ function initWarmup() {
         html += '<th class="answer-col" style="display:none; text-align:left; padding:0.5rem; border-bottom:2px solid #4a9cd6;">English</th>';
         html += '</tr></thead><tbody>';
         warmupWords.forEach((word, i) => {
-            const bg = i % 2 === 0 ? '#f9f9f9' : 'white';
-            html += `<tr style="background:${bg};"><td style="text-align:center; padding:0.4rem;"><input type="checkbox" id="check-${word.id}" data-id="${word.id}" style="width:1.1rem; height:1.1rem; cursor:pointer;"></td><td style="font-weight:bold; padding:0.4rem 0.5rem;">${word.oravia}</td><td class="answer-col" style="display:none; padding:0.4rem 0.5rem; color:#43a047;">${word.english}</td></tr>`;
+        const bg = i % 2 === 0 ? '#f9f9f9' : 'white';
+        html += `<tr style="background:${bg};"><td style="text-align:center; padding:0.4rem;"><input type="checkbox" id="check-${word.id}" data-id="${word.id}" style="width:1.1rem; height:1.1rem; cursor:pointer;"></td><td style="font-weight:bold; padding:0.4rem 0.5rem;">${word.oravia}</td><td class="answer-col" style="display:none; padding:0.4rem 0.5rem; color:#43a047;">${word.english}</td></tr>`;
         });
         html += '</tbody></table>';
         html += '<div style="text-align:center; margin-top:1.5rem;">';
@@ -322,24 +322,24 @@ function initWarmup() {
         html += '</div>';
         container.innerHTML = html;
         document.getElementById('show-answers-btn').addEventListener('click', function() {
-            document.querySelectorAll('.answer-col').forEach(col => col.style.display = 'table-cell');
-            this.style.display = 'none';
-            // Log warm-up self-assessment
-            const log = JSON.parse(localStorage.getItem('oravia_log') || '[]');
-            const lessonId = window.location.pathname.split('/').filter(Boolean).pop().replace('.html','');
-            warmupWords.forEach(function(word) {
-                const checked = document.getElementById('check-' + word.id);
-                log.push({
-                    timestamp: new Date().toISOString(),
-                    lesson: lessonId,
-                    word_id: word.id,
-                    oravia: word.oravia,
-                    english: word.english,
-                    type: 'warmup',
-                    correct: checked ? checked.checked : false
-                });
+        document.querySelectorAll('.answer-col').forEach(col => col.style.display = 'table-cell');
+        this.style.display = 'none';
+        // Log warm-up self-assessment
+        const log = JSON.parse(localStorage.getItem('oravia_log') || '[]');
+        const lessonId = window.location.pathname.split('/').filter(Boolean).pop().replace('.html','');
+        warmupWords.forEach(function(word) {
+            const checked = document.getElementById('check-' + word.id);
+            log.push({
+                timestamp: new Date().toISOString(),
+                lesson: lessonId,
+                word_id: word.id,
+                oravia: word.oravia,
+                english: word.english,
+                type: 'warmup',
+                correct: checked ? checked.checked : false
             });
-            localStorage.setItem('oravia_log', JSON.stringify(log));
+        });
+        localStorage.setItem('oravia_log', JSON.stringify(log));
         });
     }
     const backBtn = document.getElementById('back-to-assessment-btn');
@@ -368,35 +368,35 @@ async function initReview() {
     }
     try {
         const lessonIds = [...new Set(
-            [...document.querySelectorAll('[data-lesson]')]
-                .map(el => el.dataset.lesson)
+        [...document.querySelectorAll('[data-lesson]')]
+            .map(el => el.dataset.lesson)
         )];
         const baseUrl = window.location.origin;
         const responses = await Promise.all(
-            lessonIds.map(id => fetch(baseUrl + '/data/' + id + '_words.json').then(r => r.json()))
+        lessonIds.map(id => fetch(baseUrl + '/data/' + id + '_words.json').then(r => r.json()))
         );
         const allWords = responses.flatMap(data => data.words);
         const seen = new Set();
         const uniqueWords = allWords.filter(w => {
-            if (seen.has(w.id)) return false;
-            seen.add(w.id);
-            return true;
+        if (seen.has(w.id)) return false;
+        seen.add(w.id);
+        return true;
         });
         const wrongWords = uniqueWords.filter(word => wrongIds.includes(word.id));
         if (wrongWords.length === 0) {
-            container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p></div>';
-            return;
+        container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p></div>';
+        return;
         }
         container.innerHTML = '<p style="text-align: center; margin-bottom: 2rem; color: #5a8bb8;">Practice these ' + wrongWords.length + ' word(s) you found challenging:</p><div id="review-game-wrapper"></div><div style="text-align: center; margin-top: 2rem;"><button id="clear-review" style="padding: 0.5rem 1.5rem; background: #f57c00; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.95rem;">Clear Review List</button></div>';
         new MatchingGame('review-game-wrapper', wrongWords, 'review', null, []);
         document.getElementById('clear-review').addEventListener('click', function() {
-            if (confirm('Clear all review words? This will reset your wrong words list for this lesson.')) {
-                const allWrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-                const lessonWordIds = uniqueWords.map(w => w.id);
-                const remainingWrongIds = allWrongIds.filter(id => !lessonWordIds.includes(id));
-                localStorage.setItem('wrong_ids', JSON.stringify(remainingWrongIds));
-                location.reload();
-            }
+        if (confirm('Clear all review words? This will reset your wrong words list for this lesson.')) {
+            const allWrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
+            const lessonWordIds = uniqueWords.map(w => w.id);
+            const remainingWrongIds = allWrongIds.filter(id => !lessonWordIds.includes(id));
+            localStorage.setItem('wrong_ids', JSON.stringify(remainingWrongIds));
+            location.reload();
+        }
         });
     } catch (error) {
         console.error('Error loading words:', error);
@@ -407,7 +407,7 @@ document.addEventListener('DOMContentLoaded', initReview);
 document.querySelectorAll('.tabbed-labels label').forEach(label => {
     if (label.textContent.trim() === 'Review') {
         label.addEventListener('click', function() {
-            setTimeout(initReview, 50);
+        setTimeout(initReview, 50);
         });
     }
 });

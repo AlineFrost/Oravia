@@ -1,7 +1,7 @@
 # Lesson 50: MU / OM Clusters
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into five sections: **Warm-Up**, **Vocabulary**, **Reading**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
+    Every lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Vocabulary**, **Reading**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -114,13 +114,13 @@
     
     
     !!! info "🌍 Sound Connections"
-        Lia means resonant, inspired by laya, rythym in Hindi and Sanskrit.
-        Mu is inspired by Swahili mdudu, which means bug.
-        Om is from Sanskrit and Hindi om, which is the primordial sound.
+        Lia means resonant, inspired by laya, rythym in Hindi and Sanskrit.  
+        Mu is inspired by Swahili mdudu, which means bug.  
+        Om is from Sanskrit and Hindi om, which is the primordial sound.  
         
     Here are other words with this root:    
     **elelia** = poem (self-expression + resonant), just like omlia = sing (music + resonant).  
-    **jalia** = bell (self-expression + resonant).  
+    **jalia** = bell (tools + resonant).  
 
     
     You are ready for the reading now!

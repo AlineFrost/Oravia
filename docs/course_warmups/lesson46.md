@@ -1,7 +1,7 @@
 # Lesson 46: WA / DO
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into five sections: **Warm-Up**, **Vocabulary**, **Reading**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
+    Every lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Vocabulary**, **Reading**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -59,7 +59,7 @@
     | Oravia | English |
     |--------|---------|
     | wayol | ocean |
-    | wayoyo | float |
+    | wawowo | float |
     | wanon | swim |
     | wami | fish |
     | wayurtan | whale |
