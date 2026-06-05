@@ -1,4 +1,6 @@
-# Lesson 56: SE Cluster
+**This lesson is still being finalized.**
+
+# Lesson 57: VI / TU Clusters
 
 !!! info "How to Use This Lesson"
     Every lesson is divided into five sections: **Warm-Up**, **Vocabulary**, **Reading**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
