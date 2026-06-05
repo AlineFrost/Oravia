@@ -513,7 +513,9 @@
         "bb_meaning": "regulations"
       }
     ],
-    "rel": [],
+    "rel": [
+      "dodo"
+    ],
     "ex": [
       {
         "o": "noder nim i ando",
@@ -833,19 +835,23 @@
     "r": "leo",
     "bd": [
       {
-        "sound": "ane",
-        "meaning": "static movement",
+        "sound": "an",
+        "meaning": "action",
         "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-ane",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-ane",
-        "bb_meaning": "static movement"
+        "bb_id": "bb-subcluster-an",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-an",
+        "bb_meaning": "action"
+      },
+      {
+        "sound": "e",
+        "meaning": ""
       },
       {
         "sound": "leo",
-        "meaning": "belong",
-        "bb_type": "root",
-        "bb_id": "bb-root-leo",
-        "bb_href": "building_blocks_reference.html#bb-root-leo",
+        "meaning": "belonging",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-leo",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-leo",
         "bb_meaning": "belonging"
       }
     ],
@@ -858,17 +864,22 @@
     ],
     "syllable_meanings": [
       {
-        "sound": "ane",
-        "meaning": "static movement",
+        "sound": "an",
+        "meaning": "action",
         "position": "subcluster",
         "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-ane",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-ane",
-        "bb_meaning": "static movement"
+        "bb_id": "bb-subcluster-an",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-an",
+        "bb_meaning": "action"
+      },
+      {
+        "sound": "e",
+        "meaning": "",
+        "position": "root"
       },
       {
         "sound": "leo",
-        "meaning": "belong",
+        "meaning": "belonging",
         "position": "root",
         "bb_type": "root",
         "bb_id": "bb-root-leo",
@@ -901,6 +912,12 @@
       "value",
       "volitional",
       "volitional action"
+    ],
+    "rel": [
+      "elileo",
+      "eoleo",
+      "gaoleo",
+      "raleo"
     ]
   },
   {
@@ -1253,9 +1270,7 @@
       }
     ],
     "rel": [
-      "asefi",
-      "bofi",
-      "gafi"
+      "bofi"
     ],
     "ex": [
       {
@@ -1333,6 +1348,7 @@
       }
     ],
     "rel": [
+      "gefou",
       "leafou",
       "vosfou",
       "yunfou"
@@ -1420,7 +1436,10 @@
         "bb_meaning": "favor"
       }
     ],
-    "rel": [],
+    "rel": [
+      "dairan",
+      "rairan"
+    ],
     "ex": [
       {
         "o": "i aniran e anodu yuba jenon",
@@ -1506,7 +1525,8 @@
       "eomsu",
       "fasu",
       "heosu",
-      "ilisu"
+      "ilisu",
+      "jensu"
     ],
     "ex": [
       {
@@ -2245,97 +2265,6 @@
     ]
   },
   {
-    "w": "anodu",
-    "e": "shut",
-    "ea": "shut, close, top, climb",
-    "c": "volitional action",
-    "cs": "an",
-    "sc": "an",
-    "r": "odu",
-    "bd": [
-      {
-        "sound": "an",
-        "meaning": "action",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-an",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-an",
-        "bb_meaning": "action"
-      },
-      {
-        "sound": "odu",
-        "meaning": "top",
-        "bb_type": "root",
-        "bb_id": "bb-root-odu",
-        "bb_href": "building_blocks_reference.html#bb-root-odu",
-        "bb_meaning": "top"
-      }
-    ],
-    "rel": [
-      "varodu"
-    ],
-    "ex": [
-      {
-        "o": "a run fano a anodu yalen",
-        "e": "your child is the tallest",
-        "from_lesson": true
-      }
-    ],
-    "syllable_meanings": [
-      {
-        "sound": "an",
-        "meaning": "action",
-        "position": "subcluster",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-an",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-an",
-        "bb_meaning": "action"
-      },
-      {
-        "sound": "odu",
-        "meaning": "top",
-        "position": "root",
-        "bb_type": "root",
-        "bb_id": "bb-root-odu",
-        "bb_href": "building_blocks_reference.html#bb-root-odu",
-        "bb_meaning": "top"
-      }
-    ],
-    "search_terms": [
-      "action",
-      "an",
-      "anodu",
-      "benefit",
-      "can",
-      "climb",
-      "close",
-      "continue",
-      "contribute",
-      "dare",
-      "decide",
-      "head",
-      "lead",
-      "make",
-      "move",
-      "odu",
-      "open",
-      "preparation",
-      "privilege",
-      "right",
-      "service",
-      "shut",
-      "shut, close, top, climb",
-      "spread",
-      "start",
-      "top",
-      "try",
-      "turn",
-      "use",
-      "volitional",
-      "volitional action",
-      "work"
-    ]
-  },
-  {
     "w": "anolu",
     "e": "out",
     "ea": "out, ex-, external, outside",
@@ -2362,7 +2291,10 @@
       }
     ],
     "rel": [
-      "borlu"
+      "boelulo",
+      "borlu",
+      "geyelu",
+      "vonlu"
     ],
     "ex": [
       {
@@ -2558,7 +2490,8 @@
       }
     ],
     "rel": [
-      "gelna",
+      "gehna",
+      "gerina",
       "roena"
     ],
     "ex": [
@@ -2939,8 +2872,8 @@
       "doro",
       "iliro",
       "sero",
-      "siro",
-      "viro"
+      "visro",
+      "yunro"
     ],
     "ex": [
       {
@@ -3041,7 +2974,6 @@
       }
     ],
     "rel": [
-      "asau",
       "roesau"
     ],
     "ex": [
@@ -3132,7 +3064,10 @@
         "bb_meaning": "machines"
       }
     ],
-    "rel": [],
+    "rel": [
+      "se",
+      "sirose"
+    ],
     "ex": [
       {
         "o": "celi run i anepou e anse?",
@@ -3230,7 +3165,10 @@
       }
     ],
     "rel": [
-      "jetai"
+      "apahotai",
+      "jetai",
+      "rastai",
+      "wilwatai"
     ],
     "ex": [
       {
@@ -3438,82 +3376,6 @@
       "start",
       "try",
       "tufu",
-      "turn",
-      "use",
-      "volitional",
-      "volitional action",
-      "work"
-    ]
-  },
-  {
-    "w": "anun",
-    "e": "try",
-    "ea": "try, attempt, experiment, trial, tentative, provisional",
-    "c": "volitional action",
-    "cs": "an",
-    "sc": "an",
-    "r": "nun",
-    "bd": [
-      {
-        "sound": "an",
-        "meaning": "action",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-an",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-an",
-        "bb_meaning": "action"
-      },
-      {
-        "sound": "nun",
-        "meaning": "try"
-      }
-    ],
-    "rel": [],
-    "ex": [],
-    "syllable_meanings": [
-      {
-        "sound": "an",
-        "meaning": "action",
-        "position": "subcluster",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-an",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-an",
-        "bb_meaning": "action"
-      },
-      {
-        "sound": "nun",
-        "meaning": "try",
-        "position": "root"
-      }
-    ],
-    "search_terms": [
-      "action",
-      "an",
-      "anun",
-      "attempt",
-      "benefit",
-      "can",
-      "continue",
-      "contribute",
-      "dare",
-      "decide",
-      "experiment",
-      "lead",
-      "make",
-      "move",
-      "nun",
-      "open",
-      "preparation",
-      "privilege",
-      "provisional",
-      "right",
-      "service",
-      "shut",
-      "spread",
-      "start",
-      "tentative",
-      "trial",
-      "try",
-      "try, attempt, experiment, trial, tentative, provisional",
       "turn",
       "use",
       "volitional",
@@ -3963,7 +3825,7 @@
     "c": "physical action",
     "cs": "apa",
     "sc": "apa",
-    "r": "hotai",
+    "r": "tai",
     "bd": [
       {
         "sound": "apa",
@@ -3974,11 +3836,24 @@
         "bb_meaning": "physical movement"
       },
       {
-        "sound": "hotai",
-        "meaning": "wander"
+        "sound": "ho",
+        "meaning": "opposite"
+      },
+      {
+        "sound": "tai",
+        "meaning": "guide",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-tai",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-tai",
+        "bb_meaning": "guide"
       }
     ],
-    "rel": [],
+    "rel": [
+      "antai",
+      "jetai",
+      "rastai",
+      "wilwatai"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -3991,9 +3866,18 @@
         "bb_meaning": "physical movement"
       },
       {
-        "sound": "hotai",
-        "meaning": "wander",
+        "sound": "ho",
+        "meaning": "opposite",
         "position": "root"
+      },
+      {
+        "sound": "tai",
+        "meaning": "guide",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-tai",
+        "bb_href": "building_blocks_reference.html#bb-root-tai",
+        "bb_meaning": "guide"
       }
     ],
     "search_terms": [
@@ -4201,7 +4085,8 @@
       }
     ],
     "rel": [
-      "eodani"
+      "eodani",
+      "iloani"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -4288,11 +4173,13 @@
     ],
     "rel": [
       "ganou",
+      "ilinou",
       "janou",
       "leinou",
       "vanou",
-      "wanou",
-      "winou"
+      "winou",
+      "yalnou",
+      "yesnou"
     ],
     "ex": [
       {
@@ -4390,10 +4277,11 @@
     "rel": [
       "elarih",
       "ganrih",
-      "ganrih",
       "heirih",
       "jarih",
-      "jerih"
+      "jerih",
+      "leirih",
+      "wimrih"
     ],
     "ex": [
       {
@@ -4488,7 +4376,7 @@
       }
     ],
     "rel": [
-      "gelsar",
+      "gehsar",
       "jasar"
     ],
     "ex": [
@@ -4920,7 +4808,10 @@
         "bb_meaning": "around"
       }
     ],
-    "rel": [],
+    "rel": [
+      "jalano",
+      "jelano"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -5472,8 +5363,8 @@
     ],
     "rel": [
       "bosvi",
-      "favi",
       "levi",
+      "pohivi",
       "tohvi",
       "vavi"
     ],
@@ -5648,9 +5539,11 @@
     ],
     "rel": [
       "leawa",
+      "luswa",
       "mawa",
+      "molwa",
       "poiwa",
-      "towa",
+      "touwa",
       "viwa",
       "wimwa"
     ],
@@ -5734,6 +5627,7 @@
     "rel": [
       "helufu",
       "jolufu",
+      "pohufu",
       "walufu"
     ],
     "ex": [],
@@ -5792,37 +5686,48 @@
     "c": "bodily actions",
     "cs": "as",
     "sc": "as",
-    "r": "oyo",
+    "r": "wowo",
     "bd": [
       {
         "sound": "as",
-        "meaning": "involuntary bodily functions",
+        "meaning": "bodily functions",
         "bb_type": "subcluster",
         "bb_id": "bb-subcluster-as",
         "bb_href": "building_blocks_reference.html#bb-subcluster-as",
-        "bb_meaning": "involuntary bodily functions"
+        "bb_meaning": "bodily functions"
       },
       {
-        "sound": "oyo",
-        "meaning": "shake"
+        "sound": "wowo",
+        "meaning": "oscillate",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-wowo",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-wowo",
+        "bb_meaning": "oscillate"
       }
     ],
-    "rel": [],
+    "rel": [
+      "dowowo",
+      "wawowo"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
         "sound": "as",
-        "meaning": "involuntary bodily functions",
+        "meaning": "bodily functions",
         "position": "subcluster",
         "bb_type": "subcluster",
         "bb_id": "bb-subcluster-as",
         "bb_href": "building_blocks_reference.html#bb-subcluster-as",
-        "bb_meaning": "involuntary bodily functions"
+        "bb_meaning": "bodily functions"
       },
       {
-        "sound": "oyo",
-        "meaning": "shake",
-        "position": "root"
+        "sound": "wowo",
+        "meaning": "oscillate",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-wowo",
+        "bb_href": "building_blocks_reference.html#bb-root-wowo",
+        "bb_meaning": "oscillate"
       }
     ],
     "search_terms": [
@@ -6002,7 +5907,9 @@
         "bb_meaning": "bear"
       }
     ],
-    "rel": [],
+    "rel": [
+      "miogar"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -6854,7 +6761,10 @@
         "bb_meaning": "door"
       }
     ],
-    "rel": [],
+    "rel": [
+      "bortal",
+      "matal"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -6920,7 +6830,9 @@
         "bb_meaning": "private"
       }
     ],
-    "rel": [],
+    "rel": [
+      "hevas"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -6988,7 +6900,7 @@
     "rel": [
       "davio",
       "gavio",
-      "gelvio",
+      "gehvio",
       "heivio",
       "ranvio"
     ],
@@ -7192,7 +7104,7 @@
     "c": "house",
     "cs": "bo",
     "sc": "boe",
-    "r": "lulo",
+    "r": "lu",
     "bd": [
       {
         "sound": "boe",
@@ -7203,11 +7115,24 @@
         "bb_meaning": "house spaces"
       },
       {
-        "sound": "lulo",
-        "meaning": "outside"
+        "sound": "lu",
+        "meaning": "outside",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-lu",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-lu",
+        "bb_meaning": "outside"
+      },
+      {
+        "sound": "lo",
+        "meaning": ""
       }
     ],
-    "rel": [],
+    "rel": [
+      "anolu",
+      "borlu",
+      "geyelu",
+      "vonlu"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -7220,8 +7145,17 @@
         "bb_meaning": "house spaces"
       },
       {
-        "sound": "lulo",
+        "sound": "lu",
         "meaning": "outside",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-lu",
+        "bb_href": "building_blocks_reference.html#bb-root-lu",
+        "bb_meaning": "outside"
+      },
+      {
+        "sound": "lo",
+        "meaning": "",
         "position": "root"
       }
     ],
@@ -7274,7 +7208,9 @@
       "jomo",
       "toumo",
       "varmo",
-      "velmo"
+      "velmo",
+      "visomo",
+      "vonmo"
     ],
     "ex": [
       {
@@ -7354,7 +7290,9 @@
       }
     ],
     "rel": [
-      "jentale"
+      "jentale",
+      "tostale",
+      "vatale"
     ],
     "ex": [
       {
@@ -7432,9 +7370,7 @@
       }
     ],
     "rel": [
-      "anifi",
-      "asefi",
-      "gafi"
+      "anifi"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -7502,7 +7438,10 @@
         "bb_meaning": "firm"
       }
     ],
-    "rel": [],
+    "rel": [
+      "daegor",
+      "yahgor"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -7938,7 +7877,10 @@
       }
     ],
     "rel": [
-      "anolu"
+      "anolu",
+      "boelulo",
+      "geyelu",
+      "vonlu"
     ],
     "ex": [
       {
@@ -8015,7 +7957,12 @@
         "bb_meaning": "some"
       }
     ],
-    "rel": [],
+    "rel": [
+      "daeniu",
+      "joniu",
+      "noniu",
+      "yuniu"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -8087,6 +8034,7 @@
       }
     ],
     "rel": [
+      "betal",
       "matal"
     ],
     "ex": [
@@ -8244,8 +8192,8 @@
     ],
     "rel": [
       "asivi",
-      "favi",
       "levi",
+      "pohivi",
       "tohvi",
       "vavi"
     ],
@@ -8330,7 +8278,12 @@
         "bb_meaning": "action"
       }
     ],
-    "rel": [],
+    "rel": [
+      "eloan",
+      "ilian",
+      "noan",
+      "tiuan"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -8675,7 +8628,10 @@
       "litegai",
       "pogai",
       "sigai",
-      "vigai"
+      "vigai",
+      "wilgai",
+      "yalgai",
+      "yugai"
     ],
     "ex": [
       {
@@ -8912,7 +8868,10 @@
         "bb_meaning": "accurate"
       }
     ],
-    "rel": [],
+    "rel": [
+      "daereva",
+      "elireva"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -8995,8 +8954,8 @@
       "doro",
       "iliro",
       "sero",
-      "siro",
-      "viro"
+      "visro",
+      "yunro"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -9085,7 +9044,10 @@
         "bb_meaning": "habit"
       }
     ],
-    "rel": [],
+    "rel": [
+      "elarul",
+      "lirul"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -9257,7 +9219,9 @@
         "bb_meaning": "written record"
       }
     ],
-    "rel": [],
+    "rel": [
+      "cousiu"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -10325,9 +10289,10 @@
       }
     ],
     "rel": [
+      "dano",
+      "elano",
       "fano",
-      "leno",
-      "vano"
+      "leno"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -10489,7 +10454,9 @@
         "bb_meaning": "written record"
       }
     ],
-    "rel": [],
+    "rel": [
+      "ciusiu"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -10564,7 +10531,10 @@
         "bb_meaning": "one"
       }
     ],
-    "rel": [],
+    "rel": [
+      "litam",
+      "yunitam"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -10635,7 +10605,9 @@
         "bb_meaning": "face"
       }
     ],
-    "rel": [],
+    "rel": [
+      "jevar"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -10704,8 +10676,6 @@
       }
     ],
     "rel": [
-      "daya",
-      "elaya",
       "eodya"
     ],
     "ex": [
@@ -11298,7 +11268,9 @@
         "bb_meaning": "less"
       }
     ],
-    "rel": [],
+    "rel": [
+      "gafei"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -11368,7 +11340,10 @@
         "bb_meaning": "firm"
       }
     ],
-    "rel": [],
+    "rel": [
+      "bogor",
+      "yahgor"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -11587,7 +11562,8 @@
     ],
     "rel": [
       "gaolan",
-      "jeolan"
+      "jeolan",
+      "velan"
     ],
     "ex": [
       {
@@ -11849,8 +11825,10 @@
       }
     ],
     "rel": [
+      "borniu",
       "joniu",
-      "noniu"
+      "noniu",
+      "yuniu"
     ],
     "ex": [
       {
@@ -11931,7 +11909,10 @@
         "bb_meaning": "accurate"
       }
     ],
-    "rel": [],
+    "rel": [
+      "ciureva",
+      "elireva"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -12150,7 +12131,10 @@
         "bb_meaning": "favor"
       }
     ],
-    "rel": [],
+    "rel": [
+      "aniran",
+      "rairan"
+    ],
     "ex": [
       {
         "o": "i dairan e moaria",
@@ -12482,7 +12466,8 @@
     ],
     "rel": [
       "elemi",
-      "litemi"
+      "litemi",
+      "mamini"
     ],
     "ex": [
       {
@@ -12814,6 +12799,7 @@
     "rel": [
       "heimir",
       "roumir",
+      "simir",
       "yunmir"
     ],
     "ex": [],
@@ -12891,7 +12877,12 @@
         "bb_meaning": "downward, extension below"
       }
     ],
-    "rel": [],
+    "rel": [
+      "couno",
+      "elano",
+      "fano",
+      "leno"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -13143,7 +13134,8 @@
       "eomsu",
       "fasu",
       "heosu",
-      "ilisu"
+      "ilisu",
+      "jensu"
     ],
     "ex": [
       {
@@ -13453,7 +13445,7 @@
     "rel": [
       "bevio",
       "gavio",
-      "gelvio",
+      "gehvio",
       "heivio",
       "ranvio"
     ],
@@ -13556,7 +13548,8 @@
       "gavir",
       "ranvir",
       "rovir",
-      "semvir"
+      "semvir",
+      "wagavir"
     ],
     "ex": [
       {
@@ -13649,7 +13642,15 @@
         "bb_meaning": "light"
       }
     ],
-    "rel": [],
+    "rel": [
+      "heoyar",
+      "liyar",
+      "luyar",
+      "oiyar",
+      "ranyar",
+      "wiyar",
+      "yoyar"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -13731,7 +13732,9 @@
         "bb_meaning": "regulations"
       }
     ],
-    "rel": [],
+    "rel": [
+      "ando"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -14057,6 +14060,7 @@
     "rel": [
       "hehti",
       "jati",
+      "titi",
       "veiti"
     ],
     "ex": [],
@@ -14245,7 +14249,13 @@
         "bb_meaning": "power and violence"
       }
     ],
-    "rel": [],
+    "rel": [
+      "pohnen",
+      "rainen",
+      "tinen",
+      "tunen",
+      "vanen"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -14324,7 +14334,9 @@
       }
     ],
     "rel": [
-      "linu"
+      "anu",
+      "linu",
+      "vanu"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -14490,8 +14502,8 @@
       "ciuro",
       "iliro",
       "sero",
-      "siro",
-      "viro"
+      "visro",
+      "yunro"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -14631,7 +14643,10 @@
         "bb_meaning": "back-and-forth motion"
       }
     ],
-    "rel": [],
+    "rel": [
+      "asoyo",
+      "wawowo"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -14798,7 +14813,12 @@
         "bb_meaning": "downward, extension below"
       }
     ],
-    "rel": [],
+    "rel": [
+      "couno",
+      "dano",
+      "fano",
+      "leno"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -14881,7 +14901,8 @@
     ],
     "rel": [
       "iliora",
-      "rasora"
+      "rasora",
+      "rora"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -15024,10 +15045,11 @@
     "rel": [
       "aparih",
       "ganrih",
-      "ganrih",
       "heirih",
       "jarih",
-      "jerih"
+      "jerih",
+      "leirih",
+      "wimrih"
     ],
     "ex": [
       {
@@ -15113,6 +15135,7 @@
       }
     ],
     "rel": [
+      "ciurul",
       "lirul"
     ],
     "ex": [],
@@ -15192,7 +15215,8 @@
       "eomsu",
       "fasu",
       "heosu",
-      "ilisu"
+      "ilisu",
+      "jensu"
     ],
     "ex": [
       {
@@ -15574,7 +15598,8 @@
     ],
     "rel": [
       "dami",
-      "litemi"
+      "litemi",
+      "mamini"
     ],
     "ex": [
       {
@@ -15741,7 +15766,9 @@
         "bb_meaning": "achievement"
       }
     ],
-    "rel": [],
+    "rel": [
+      "eopan"
+    ],
     "ex": [
       {
         "o": "nim i oiyar ca suum nim, run i doum i elepan",
@@ -15964,9 +15991,11 @@
       }
     ],
     "rel": [
-      "dahei",
       "gaohei",
-      "ilhei"
+      "ilhei",
+      "nohei",
+      "raihei",
+      "sihei"
     ],
     "ex": [
       {
@@ -16044,7 +16073,12 @@
         "bb_meaning": "belonging"
       }
     ],
-    "rel": [],
+    "rel": [
+      "aneoleo",
+      "eoleo",
+      "gaoleo",
+      "raleo"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -16118,7 +16152,8 @@
       }
     ],
     "rel": [
-      "dareva"
+      "ciureva",
+      "daereva"
     ],
     "ex": [
       {
@@ -16415,7 +16450,12 @@
         "bb_meaning": "action"
       }
     ],
-    "rel": [],
+    "rel": [
+      "ciuan",
+      "ilian",
+      "noan",
+      "tiuan"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -16815,7 +16855,10 @@
         "bb_meaning": "support"
       }
     ],
-    "rel": [],
+    "rel": [
+      "eomiu",
+      "vamiu"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -17008,11 +17051,7 @@
       },
       {
         "sound": "nor",
-        "meaning": "peace",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-nor",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-nor",
-        "bb_meaning": "relation to reference"
+        "meaning": "peace"
       }
     ],
     "rel": [],
@@ -17036,11 +17075,7 @@
       {
         "sound": "nor",
         "meaning": "peace",
-        "position": "root",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-nor",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-nor",
-        "bb_meaning": "relation to reference"
+        "position": "root"
       }
     ],
     "search_terms": [
@@ -17103,7 +17138,10 @@
         "bb_meaning": "act"
       }
     ],
-    "rel": [],
+    "rel": [
+      "eori",
+      "tiuri"
+    ],
     "ex": [
       {
         "o": "i pohem su i lufiva, i tourou su notor i anefene, i elonor-anelem su i anivari-elori.",
@@ -17268,7 +17306,8 @@
       }
     ],
     "rel": [
-      "apani"
+      "apani",
+      "iloani"
     ],
     "ex": [
       {
@@ -17331,7 +17370,7 @@
     "c": "social",
     "cs": "eo",
     "sc": "eod",
-    "r": "enbor",
+    "r": "bor",
     "bd": [
       {
         "sound": "eod",
@@ -17342,11 +17381,21 @@
         "bb_meaning": "social interactions"
       },
       {
-        "sound": "enbor",
-        "meaning": "in house"
+        "sound": "en",
+        "meaning": "location"
+      },
+      {
+        "sound": "bor",
+        "meaning": "house structure",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-bor",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-bor",
+        "bb_meaning": "house structure"
       }
     ],
-    "rel": [],
+    "rel": [
+      "faibor"
+    ],
     "ex": [
       {
         "o": "a eodenbor i vilum i gerina.",
@@ -17365,9 +17414,18 @@
         "bb_meaning": "social interactions"
       },
       {
-        "sound": "enbor",
-        "meaning": "in house",
+        "sound": "en",
+        "meaning": "location",
         "position": "root"
+      },
+      {
+        "sound": "bor",
+        "meaning": "house structure",
+        "position": "root",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-bor",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-bor",
+        "bb_meaning": "house structure"
       }
     ],
     "search_terms": [
@@ -17395,19 +17453,23 @@
     "c": "social",
     "cs": "eo",
     "sc": "eo",
-    "r": "odomai",
+    "r": "mai",
     "bd": [
       {
-        "sound": "eo",
-        "meaning": "social",
+        "sound": "eod",
+        "meaning": "social interactions",
         "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-eo",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-eo",
-        "bb_meaning": "social"
+        "bb_id": "bb-subcluster-eod",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-eod",
+        "bb_meaning": "social interactions"
       },
       {
-        "sound": "odomai",
-        "meaning": "business + however"
+        "sound": "odo",
+        "meaning": "business"
+      },
+      {
+        "sound": "mai",
+        "meaning": "however"
       }
     ],
     "rel": [],
@@ -17420,17 +17482,22 @@
     ],
     "syllable_meanings": [
       {
-        "sound": "eo",
-        "meaning": "social",
+        "sound": "eod",
+        "meaning": "social interactions",
         "position": "subcluster",
         "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-eo",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-eo",
-        "bb_meaning": "social"
+        "bb_id": "bb-subcluster-eod",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-eod",
+        "bb_meaning": "social interactions"
       },
       {
-        "sound": "odomai",
-        "meaning": "business + however",
+        "sound": "odo",
+        "meaning": "business",
+        "position": "root"
+      },
+      {
+        "sound": "mai",
+        "meaning": "however",
         "position": "root"
       }
     ],
@@ -17489,9 +17556,7 @@
       }
     ],
     "rel": [
-      "couya",
-      "daya",
-      "elaya"
+      "couya"
     ],
     "ex": [
       {
@@ -17802,7 +17867,12 @@
         "bb_meaning": "belonging"
       }
     ],
-    "rel": [],
+    "rel": [
+      "aneoleo",
+      "elileo",
+      "gaoleo",
+      "raleo"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -18009,7 +18079,10 @@
         "bb_meaning": "support"
       }
     ],
-    "rel": [],
+    "rel": [
+      "elomiu",
+      "vamiu"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -18169,7 +18242,8 @@
       "elasu",
       "fasu",
       "heosu",
-      "ilisu"
+      "ilisu",
+      "jensu"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -18319,7 +18393,9 @@
         "bb_meaning": "achievement"
       }
     ],
-    "rel": [],
+    "rel": [
+      "elepan"
+    ],
     "ex": [
       {
         "o": "a lis a yaldih de elefo eopan",
@@ -18563,14 +18639,17 @@
       },
       {
         "sound": "ri",
-        "meaning": "polite",
-        "bb_type": "root",
-        "bb_id": "bb-root-ri",
-        "bb_href": "building_blocks_reference.html#bb-root-ri",
+        "meaning": "act",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-ri",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-ri",
         "bb_meaning": "act"
       }
     ],
-    "rel": [],
+    "rel": [
+      "elori",
+      "tiuri"
+    ],
     "ex": [
       {
         "o": "e mogali, eori.",
@@ -18590,7 +18669,7 @@
       },
       {
         "sound": "ri",
-        "meaning": "polite",
+        "meaning": "act",
         "position": "root",
         "bb_type": "root",
         "bb_id": "bb-root-ri",
@@ -18865,14 +18944,16 @@
       },
       {
         "sound": "bor",
-        "meaning": "companion",
+        "meaning": "house structure",
         "bb_type": "subcluster",
         "bb_id": "bb-subcluster-bor",
         "bb_href": "building_blocks_reference.html#bb-subcluster-bor",
         "bb_meaning": "house structure"
       }
     ],
-    "rel": [],
+    "rel": [
+      "eodenbor"
+    ],
     "ex": [
       {
         "o": "de nim faibor",
@@ -18892,7 +18973,7 @@
       },
       {
         "sound": "bor",
-        "meaning": "companion",
+        "meaning": "house structure",
         "position": "root",
         "bb_type": "subcluster",
         "bb_id": "bb-subcluster-bor",
@@ -19096,7 +19177,6 @@
       }
     ],
     "rel": [
-      "jani",
       "leini",
       "maeni",
       "rani",
@@ -19237,8 +19317,9 @@
     ],
     "rel": [
       "couno",
-      "leno",
-      "vano"
+      "dano",
+      "elano",
+      "leno"
     ],
     "ex": [
       {
@@ -19315,7 +19396,7 @@
       },
       {
         "sound": "re",
-        "meaning": "parent"
+        "meaning": "up, one generation up"
       }
     ],
     "rel": [],
@@ -19338,7 +19419,7 @@
       },
       {
         "sound": "re",
-        "meaning": "parent",
+        "meaning": "up, one generation up",
         "position": "root"
       }
     ],
@@ -19391,7 +19472,8 @@
       "elasu",
       "eomsu",
       "heosu",
-      "ilisu"
+      "ilisu",
+      "jensu"
     ],
     "ex": [
       {
@@ -19534,7 +19616,9 @@
         "bb_meaning": "less"
       }
     ],
-    "rel": [],
+    "rel": [
+      "daefei"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -19603,7 +19687,9 @@
         "bb_meaning": "extreme"
       }
     ],
-    "rel": [],
+    "rel": [
+      "veihoh"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -19672,11 +19758,13 @@
     ],
     "rel": [
       "apanou",
+      "ilinou",
       "janou",
       "leinou",
       "vanou",
-      "wanou",
-      "winou"
+      "winou",
+      "yalnou",
+      "yesnou"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -19760,7 +19848,8 @@
       "heirih",
       "jarih",
       "jerih",
-      "leirih"
+      "leirih",
+      "wimrih"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -19919,7 +20008,9 @@
         "bb_meaning": "subjective qualities"
       }
     ],
-    "rel": [],
+    "rel": [
+      "ilayayu"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -20062,9 +20153,11 @@
       }
     ],
     "rel": [
-      "dahei",
       "elihei",
-      "ilhei"
+      "ilhei",
+      "nohei",
+      "raihei",
+      "sihei"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -20139,7 +20232,8 @@
     ],
     "rel": [
       "daelan",
-      "jeolan"
+      "jeolan",
+      "velan"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -20213,7 +20307,12 @@
         "bb_meaning": "belonging"
       }
     ],
-    "rel": [],
+    "rel": [
+      "aneoleo",
+      "elileo",
+      "eoleo",
+      "raleo"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -20355,7 +20454,9 @@
         "bb_meaning": "quantifiers"
       }
     ],
-    "rel": [],
+    "rel": [
+      "none"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -20518,7 +20619,7 @@
     "rel": [
       "bevio",
       "davio",
-      "gelvio",
+      "gehvio",
       "heivio",
       "ranvio"
     ],
@@ -20608,7 +20709,8 @@
       "davir",
       "ranvir",
       "rovir",
-      "semvir"
+      "semvir",
+      "wagavir"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -20835,7 +20937,12 @@
         "bb_meaning": "lack"
       }
     ],
-    "rel": [],
+    "rel": [
+      "anifou",
+      "leafou",
+      "vosfou",
+      "yunfou"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -20890,7 +20997,11 @@
     "bd": [
       {
         "sound": "geh",
-        "meaning": "sell"
+        "meaning": "sell",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-ge",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-ge",
+        "bb_meaning": "finances"
       },
       {
         "sound": "dove",
@@ -20934,7 +21045,11 @@
     "bd": [
       {
         "sound": "geh",
-        "meaning": "buy"
+        "meaning": "buy",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-ge",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-ge",
+        "bb_meaning": "finances"
       },
       {
         "sound": "na",
@@ -20945,7 +21060,11 @@
         "bb_meaning": "giving"
       }
     ],
-    "rel": [],
+    "rel": [
+      "anona",
+      "gerina",
+      "roena"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -20990,7 +21109,11 @@
     "bd": [
       {
         "sound": "geh",
-        "meaning": "charge"
+        "meaning": "charge",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-ge",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-ge",
+        "bb_meaning": "finances"
       },
       {
         "sound": "sar",
@@ -21001,7 +21124,10 @@
         "bb_meaning": "hang"
       }
     ],
-    "rel": [],
+    "rel": [
+      "apasar",
+      "jasar"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -21044,7 +21170,11 @@
     "bd": [
       {
         "sound": "geh",
-        "meaning": "exchange"
+        "meaning": "exchange",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-ge",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-ge",
+        "bb_meaning": "finances"
       },
       {
         "sound": "vio",
@@ -21055,7 +21185,13 @@
         "bb_meaning": "change, exchange"
       }
     ],
-    "rel": [],
+    "rel": [
+      "bevio",
+      "davio",
+      "gavio",
+      "heivio",
+      "ranvio"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -21177,7 +21313,7 @@
     "c": "finances",
     "cs": "ge",
     "sc": "ge",
-    "r": "rina",
+    "r": "na",
     "bd": [
       {
         "sound": "ge",
@@ -21188,11 +21324,27 @@
         "bb_meaning": "finances"
       },
       {
-        "sound": "rina",
-        "meaning": "money"
+        "sound": "ri",
+        "meaning": "act",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-ri",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-ri",
+        "bb_meaning": "act"
+      },
+      {
+        "sound": "na",
+        "meaning": "giving",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-na",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-na",
+        "bb_meaning": "giving"
       }
     ],
-    "rel": [],
+    "rel": [
+      "anona",
+      "gehna",
+      "roena"
+    ],
     "ex": [
       {
         "o": "i anvu en bevio sora i gerina e omja",
@@ -21211,9 +21363,22 @@
         "bb_meaning": "finances"
       },
       {
-        "sound": "rina",
-        "meaning": "money",
-        "position": "root"
+        "sound": "ri",
+        "meaning": "act",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-ri",
+        "bb_href": "building_blocks_reference.html#bb-root-ri",
+        "bb_meaning": "act"
+      },
+      {
+        "sound": "na",
+        "meaning": "giving",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-na",
+        "bb_href": "building_blocks_reference.html#bb-root-na",
+        "bb_meaning": "giving"
       }
     ],
     "search_terms": [
@@ -21412,7 +21577,7 @@
     "c": "finances",
     "cs": "ge",
     "sc": "ge",
-    "r": "yelu",
+    "r": "lu",
     "bd": [
       {
         "sound": "ge",
@@ -21423,11 +21588,28 @@
         "bb_meaning": "finances"
       },
       {
-        "sound": "yelu",
-        "meaning": "collect"
+        "sound": "yel",
+        "meaning": "joining",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-yel",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-yel",
+        "bb_meaning": "joining"
+      },
+      {
+        "sound": "lu",
+        "meaning": "outside",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-lu",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-lu",
+        "bb_meaning": "outside"
       }
     ],
-    "rel": [],
+    "rel": [
+      "anolu",
+      "boelulo",
+      "borlu",
+      "vonlu"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -21440,9 +21622,22 @@
         "bb_meaning": "finances"
       },
       {
-        "sound": "yelu",
-        "meaning": "collect",
-        "position": "root"
+        "sound": "yel",
+        "meaning": "joining",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-yel",
+        "bb_href": "building_blocks_reference.html#bb-root-yel",
+        "bb_meaning": "joining"
+      },
+      {
+        "sound": "lu",
+        "meaning": "outside",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-lu",
+        "bb_href": "building_blocks_reference.html#bb-root-lu",
+        "bb_meaning": "outside"
       }
     ],
     "search_terms": [
@@ -21712,6 +21907,7 @@
     "rel": [
       "dohti",
       "jati",
+      "titi",
       "veiti"
     ],
     "ex": [
@@ -21867,6 +22063,7 @@
     "rel": [
       "danmir",
       "roumir",
+      "simir",
       "yunmir"
     ],
     "ex": [
@@ -21952,8 +22149,7 @@
       "lunpili",
       "muhpili",
       "muhpili",
-      "oipili",
-      "ompili"
+      "oipili"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -22033,9 +22229,10 @@
       "aparih",
       "elarih",
       "ganrih",
-      "ganrih",
       "jarih",
-      "jerih"
+      "jerih",
+      "leirih",
+      "wimrih"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -22118,7 +22315,7 @@
       "bevio",
       "davio",
       "gavio",
-      "gelvio",
+      "gehvio",
       "ranvio"
     ],
     "ex": [
@@ -22203,6 +22400,7 @@
     "rel": [
       "aslufu",
       "jolufu",
+      "pohufu",
       "walufu"
     ],
     "ex": [
@@ -22341,7 +22539,7 @@
     "c": "fiction trope",
     "cs": "he",
     "sc": "heo",
-    "r": "hodetu",
+    "r": "detu",
     "bd": [
       {
         "sound": "heo",
@@ -22352,11 +22550,22 @@
         "bb_meaning": "background"
       },
       {
-        "sound": "hodetu",
-        "meaning": "opposite + end"
+        "sound": "ho",
+        "meaning": "opposite"
+      },
+      {
+        "sound": "detu",
+        "meaning": "end",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-detu",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-detu",
+        "bb_meaning": "end"
       }
     ],
-    "rel": [],
+    "rel": [
+      "tidetu",
+      "yadetu"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -22369,9 +22578,18 @@
         "bb_meaning": "background"
       },
       {
-        "sound": "hodetu",
-        "meaning": "opposite + end",
+        "sound": "ho",
+        "meaning": "opposite",
         "position": "root"
+      },
+      {
+        "sound": "detu",
+        "meaning": "end",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-detu",
+        "bb_href": "building_blocks_reference.html#bb-root-detu",
+        "bb_meaning": "end"
       }
     ],
     "search_terms": [
@@ -22508,7 +22726,8 @@
       "elasu",
       "eomsu",
       "fasu",
-      "ilisu"
+      "ilisu",
+      "jensu"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -22583,10 +22802,11 @@
       }
     ],
     "rel": [
-      "iliyar",
+      "dayar",
       "liyar",
       "luyar",
       "oiyar",
+      "ranyar",
       "wiyar",
       "yoyar"
     ],
@@ -22674,7 +22894,9 @@
         "bb_meaning": "private"
       }
     ],
-    "rel": [],
+    "rel": [
+      "bevas"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -22955,7 +23177,7 @@
     "c": "inquire",
     "cs": "il",
     "sc": "ila",
-    "r": "yayu",
+    "r": "yu",
     "bd": [
       {
         "sound": "ila",
@@ -22967,11 +23189,11 @@
       },
       {
         "sound": "ya",
-        "meaning": "representation, invitation",
-        "bb_type": "root",
-        "bb_id": "bb-root-ya",
-        "bb_href": "building_blocks_reference.html#bb-root-ya",
-        "bb_meaning": "representation, invitation"
+        "meaning": "objective qualities",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-ya",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-ya",
+        "bb_meaning": "objective qualities"
       },
       {
         "sound": "yu",
@@ -22982,7 +23204,9 @@
         "bb_meaning": "subjective qualities"
       }
     ],
-    "rel": [],
+    "rel": [
+      "ganyu"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -22996,12 +23220,12 @@
       },
       {
         "sound": "ya",
-        "meaning": "representation, invitation",
+        "meaning": "objective qualities",
         "position": "root",
-        "bb_type": "root",
-        "bb_id": "bb-root-ya",
-        "bb_href": "building_blocks_reference.html#bb-root-ya",
-        "bb_meaning": "representation, invitation"
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-ya",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-ya",
+        "bb_meaning": "objective qualities"
       },
       {
         "sound": "yu",
@@ -23076,9 +23300,11 @@
       }
     ],
     "rel": [
-      "dahei",
       "elihei",
-      "gaohei"
+      "gaohei",
+      "nohei",
+      "raihei",
+      "sihei"
     ],
     "ex": [
       {
@@ -23151,14 +23377,19 @@
       },
       {
         "sound": "an",
-        "meaning": "know",
-        "bb_type": "root",
-        "bb_id": "bb-root-an",
-        "bb_href": "building_blocks_reference.html#bb-root-an",
+        "meaning": "action",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-an",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-an",
         "bb_meaning": "action"
       }
     ],
-    "rel": [],
+    "rel": [
+      "ciuan",
+      "eloan",
+      "noan",
+      "tiuan"
+    ],
     "ex": [
       {
         "o": "i dai i ilian cadom run i anvu",
@@ -23178,7 +23409,7 @@
       },
       {
         "sound": "an",
-        "meaning": "know",
+        "meaning": "action",
         "position": "root",
         "bb_type": "root",
         "bb_id": "bb-root-an",
@@ -23303,7 +23534,7 @@
     "c": "inquire",
     "cs": "il",
     "sc": "ili",
-    "r": "e",
+    "r": "",
     "bd": [
       {
         "sound": "ili",
@@ -23312,10 +23543,6 @@
         "bb_id": "bb-subcluster-ili",
         "bb_href": "building_blocks_reference.html#bb-subcluster-ili",
         "bb_meaning": "cognition"
-      },
-      {
-        "sound": "e",
-        "meaning": "maybe"
       }
     ],
     "rel": [],
@@ -23335,11 +23562,6 @@
         "bb_id": "bb-subcluster-ili",
         "bb_href": "building_blocks_reference.html#bb-subcluster-ili",
         "bb_meaning": "cognition"
-      },
-      {
-        "sound": "e",
-        "meaning": "maybe",
-        "position": "root"
       }
     ],
     "search_terms": [
@@ -23391,7 +23613,16 @@
         "bb_meaning": "low, falling"
       }
     ],
-    "rel": [],
+    "rel": [
+      "apanou",
+      "ganou",
+      "janou",
+      "leinou",
+      "vanou",
+      "winou",
+      "yalnou",
+      "yesnou"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -23473,7 +23704,8 @@
     ],
     "rel": [
       "elaora",
-      "rasora"
+      "rasora",
+      "rora"
     ],
     "ex": [
       {
@@ -23560,8 +23792,8 @@
       "ciuro",
       "doro",
       "sero",
-      "siro",
-      "viro"
+      "visro",
+      "yunro"
     ],
     "ex": [
       {
@@ -23768,7 +24000,8 @@
       "elasu",
       "eomsu",
       "fasu",
-      "heosu"
+      "heosu",
+      "jensu"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -23913,7 +24146,10 @@
         "bb_meaning": "directed pull, toward"
       }
     ],
-    "rel": [],
+    "rel": [
+      "apani",
+      "eodani"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -24036,7 +24272,7 @@
     "c": "inquire",
     "cs": "il",
     "sc": "ilo",
-    "r": "i",
+    "r": "",
     "bd": [
       {
         "sound": "ilo",
@@ -24045,10 +24281,6 @@
         "bb_id": "bb-subcluster-ilo",
         "bb_href": "building_blocks_reference.html#bb-subcluster-ilo",
         "bb_meaning": "when knowledge is uncertain"
-      },
-      {
-        "sound": "i",
-        "meaning": "hope"
       }
     ],
     "rel": [],
@@ -24068,11 +24300,6 @@
         "bb_id": "bb-subcluster-ilo",
         "bb_href": "building_blocks_reference.html#bb-subcluster-ilo",
         "bb_meaning": "when knowledge is uncertain"
-      },
-      {
-        "sound": "i",
-        "meaning": "hope",
-        "position": "root"
       }
     ],
     "search_terms": [
@@ -24182,13 +24409,13 @@
     ]
   },
   {
-    "w": "ilotanu",
+    "w": "iloram",
     "e": "surprise",
     "ea": "surprise, astonish, shock, unexpected",
     "c": "inquire",
     "cs": "il",
     "sc": "ilo",
-    "r": "tanu",
+    "r": "ram",
     "bd": [
       {
         "sound": "ilo",
@@ -24263,7 +24490,7 @@
       "hope",
       "il",
       "ilo",
-      "ilotanu",
+      "iloram",
       "inquire",
       "is",
       "knowledge",
@@ -24313,7 +24540,6 @@
       }
     ],
     "rel": [
-      "eloto",
       "veito"
     ],
     "ex": [
@@ -24768,7 +24994,10 @@
         "bb_meaning": "sharp"
       }
     ],
-    "rel": [],
+    "rel": [
+      "vanci",
+      "yahci"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -24905,20 +25134,8 @@
         "bb_meaning": "cutting tools"
       },
       {
-        "sound": "pa",
-        "meaning": "paper",
-        "bb_type": "root",
-        "bb_id": "bb-root-pa",
-        "bb_href": "building_blocks_reference.html#bb-root-pa",
-        "bb_meaning": "paper"
-      },
-      {
-        "sound": "pa",
-        "meaning": "paper",
-        "bb_type": "root",
-        "bb_id": "bb-root-pa",
-        "bb_href": "building_blocks_reference.html#bb-root-pa",
-        "bb_meaning": "paper"
+        "sound": "papa",
+        "meaning": "hammer"
       }
     ],
     "rel": [],
@@ -24934,22 +25151,9 @@
         "bb_meaning": "cutting tools"
       },
       {
-        "sound": "pa",
-        "meaning": "paper",
-        "position": "root",
-        "bb_type": "root",
-        "bb_id": "bb-root-pa",
-        "bb_href": "building_blocks_reference.html#bb-root-pa",
-        "bb_meaning": "paper"
-      },
-      {
-        "sound": "pa",
-        "meaning": "paper",
-        "position": "root",
-        "bb_type": "root",
-        "bb_id": "bb-root-pa",
-        "bb_href": "building_blocks_reference.html#bb-root-pa",
-        "bb_meaning": "paper"
+        "sound": "papa",
+        "meaning": "hammer",
+        "position": "root"
       }
     ],
     "search_terms": [
@@ -25080,23 +25284,18 @@
         "bb_meaning": "tools"
       },
       {
-        "sound": "la",
-        "meaning": "happiness",
-        "bb_type": "root",
-        "bb_id": "bb-root-la",
-        "bb_href": "building_blocks_reference.html#bb-root-la",
-        "bb_meaning": "happiness"
-      },
-      {
-        "sound": "no",
-        "meaning": "downward, extension below",
-        "bb_type": "root",
-        "bb_id": "bb-root-no",
-        "bb_href": "building_blocks_reference.html#bb-root-no",
-        "bb_meaning": "downward, extension below"
+        "sound": "lano",
+        "meaning": "around",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-lano",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-lano",
+        "bb_meaning": "around"
       }
     ],
-    "rel": [],
+    "rel": [
+      "aselano",
+      "jelano"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -25109,22 +25308,13 @@
         "bb_meaning": "tools"
       },
       {
-        "sound": "la",
-        "meaning": "happiness",
+        "sound": "lano",
+        "meaning": "around",
         "position": "root",
         "bb_type": "root",
-        "bb_id": "bb-root-la",
-        "bb_href": "building_blocks_reference.html#bb-root-la",
-        "bb_meaning": "happiness"
-      },
-      {
-        "sound": "no",
-        "meaning": "downward, extension below",
-        "position": "root",
-        "bb_type": "root",
-        "bb_id": "bb-root-no",
-        "bb_href": "building_blocks_reference.html#bb-root-no",
-        "bb_meaning": "downward, extension below"
+        "bb_id": "bb-root-lano",
+        "bb_href": "building_blocks_reference.html#bb-root-lano",
+        "bb_meaning": "around"
       }
     ],
     "search_terms": [
@@ -25195,14 +25385,16 @@
       },
       {
         "sound": "lei",
-        "meaning": "stick",
-        "bb_type": "root",
-        "bb_id": "bb-root-lei",
-        "bb_href": "building_blocks_reference.html#bb-root-lei",
+        "meaning": "plants",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-lei",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-lei",
         "bb_meaning": "plants"
       }
     ],
-    "rel": [],
+    "rel": [
+      "lealei"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -25216,7 +25408,7 @@
       },
       {
         "sound": "lei",
-        "meaning": "stick",
+        "meaning": "plants",
         "position": "root",
         "bb_type": "root",
         "bb_id": "bb-root-lei",
@@ -25601,10 +25793,12 @@
     "rel": [
       "apanou",
       "ganou",
+      "ilinou",
       "leinou",
       "vanou",
-      "wanou",
-      "winou"
+      "winou",
+      "yalnou",
+      "yesnou"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -25701,9 +25895,10 @@
       "aparih",
       "elarih",
       "ganrih",
-      "ganrih",
       "heirih",
-      "jerih"
+      "jerih",
+      "leirih",
+      "wimrih"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -25798,7 +25993,7 @@
     ],
     "rel": [
       "apasar",
-      "gelsar"
+      "gehsar"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -26139,6 +26334,7 @@
     "rel": [
       "dohti",
       "hehti",
+      "titi",
       "veiti"
     ],
     "ex": [],
@@ -26730,7 +26926,10 @@
       "litegai",
       "pogai",
       "sigai",
-      "vigai"
+      "vigai",
+      "wilgai",
+      "yalgai",
+      "yugai"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -26813,7 +27012,10 @@
         "bb_meaning": "around"
       }
     ],
-    "rel": [],
+    "rel": [
+      "aselano",
+      "jalano"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -27435,7 +27637,15 @@
         "bb_meaning": "alongside"
       }
     ],
-    "rel": [],
+    "rel": [
+      "anisu",
+      "dasu",
+      "elasu",
+      "eomsu",
+      "fasu",
+      "heosu",
+      "ilisu"
+    ],
     "ex": [
       {
         "o": "i asano e maemiri en jensu, su i tinen e 2 mamini.",
@@ -27520,7 +27730,9 @@
       }
     ],
     "rel": [
-      "boetale"
+      "boetale",
+      "tostale",
+      "vatale"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -27738,7 +27950,8 @@
     ],
     "rel": [
       "daelan",
-      "gaolan"
+      "gaolan",
+      "velan"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -27866,9 +28079,10 @@
       "aparih",
       "elarih",
       "ganrih",
-      "ganrih",
       "heirih",
-      "jarih"
+      "jarih",
+      "leirih",
+      "wimrih"
     ],
     "ex": [
       {
@@ -27959,7 +28173,10 @@
       }
     ],
     "rel": [
-      "antai"
+      "antai",
+      "apahotai",
+      "rastai",
+      "wilwatai"
     ],
     "ex": [
       {
@@ -28112,7 +28329,9 @@
         "bb_meaning": "face"
       }
     ],
-    "rel": [],
+    "rel": [
+      "couvar"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -28245,7 +28464,7 @@
       },
       {
         "sound": "bos",
-        "meaning": "pipe",
+        "meaning": "hygiene fixtures",
         "bb_type": "subcluster",
         "bb_id": "bb-subcluster-bos",
         "bb_href": "building_blocks_reference.html#bb-subcluster-bos",
@@ -28272,7 +28491,7 @@
       },
       {
         "sound": "bos",
-        "meaning": "pipe",
+        "meaning": "hygiene fixtures",
         "position": "root",
         "bb_type": "subcluster",
         "bb_id": "bb-subcluster-bos",
@@ -28651,9 +28870,7 @@
         "bb_meaning": "home interior"
       }
     ],
-    "rel": [
-      "molbo"
-    ],
+    "rel": [],
     "ex": [],
     "syllable_meanings": [
       {
@@ -28724,20 +28941,8 @@
         "bb_meaning": "material types"
       },
       {
-        "sound": "ce",
-        "meaning": "what?",
-        "bb_type": "root",
-        "bb_id": "bb-root-ce",
-        "bb_href": "building_blocks_reference.html#bb-root-ce",
-        "bb_meaning": "what?"
-      },
-      {
-        "sound": "yo",
-        "meaning": "colors",
-        "bb_type": "root",
-        "bb_id": "bb-root-yo",
-        "bb_href": "building_blocks_reference.html#bb-root-yo",
-        "bb_meaning": "colors"
+        "sound": "ceyo",
+        "meaning": "foam"
       }
     ],
     "rel": [],
@@ -28753,22 +28958,9 @@
         "bb_meaning": "material types"
       },
       {
-        "sound": "ce",
-        "meaning": "what?",
-        "position": "root",
-        "bb_type": "root",
-        "bb_id": "bb-root-ce",
-        "bb_href": "building_blocks_reference.html#bb-root-ce",
-        "bb_meaning": "what?"
-      },
-      {
-        "sound": "yo",
-        "meaning": "colors",
-        "position": "root",
-        "bb_type": "root",
-        "bb_id": "bb-root-yo",
-        "bb_href": "building_blocks_reference.html#bb-root-yo",
-        "bb_meaning": "colors"
+        "sound": "ceyo",
+        "meaning": "foam",
+        "position": "root"
       }
     ],
     "search_terms": [
@@ -28832,9 +29024,9 @@
       }
     ],
     "rel": [
+      "todur",
       "vardur",
       "vidur",
-      "yodur",
       "yudur"
     ],
     "ex": [],
@@ -29226,6 +29418,7 @@
     "rel": [
       "aslufu",
       "helufu",
+      "pohufu",
       "walufu"
     ],
     "ex": [
@@ -29308,7 +29501,9 @@
       "boemo",
       "toumo",
       "varmo",
-      "velmo"
+      "velmo",
+      "visomo",
+      "vonmo"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -29387,8 +29582,10 @@
       }
     ],
     "rel": [
+      "borniu",
       "daeniu",
-      "noniu"
+      "noniu",
+      "yuniu"
     ],
     "ex": [
       {
@@ -29624,6 +29821,7 @@
     ],
     "rel": [
       "anifou",
+      "gefou",
       "vosfou",
       "yunfou"
     ],
@@ -29695,7 +29893,9 @@
         "bb_meaning": "plants"
       }
     ],
-    "rel": [],
+    "rel": [
+      "jalei"
+    ],
     "ex": [
       {
         "o": "en lealei i elemi a yalgai su mioici faejal.",
@@ -29859,9 +30059,11 @@
     ],
     "rel": [
       "asiwa",
+      "luswa",
       "mawa",
+      "molwa",
       "poiwa",
-      "towa",
+      "touwa",
       "viwa",
       "wimwa"
     ],
@@ -29931,14 +30133,16 @@
       },
       {
         "sound": "yo",
-        "meaning": "garden",
-        "bb_type": "root",
-        "bb_id": "bb-root-yo",
-        "bb_href": "building_blocks_reference.html#bb-root-yo",
+        "meaning": "colors",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-yo",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-yo",
         "bb_meaning": "colors"
       }
     ],
-    "rel": [],
+    "rel": [
+      "yoyo"
+    ],
     "ex": [
       {
         "o": "a bo a no leayo",
@@ -29958,7 +30162,7 @@
       },
       {
         "sound": "yo",
-        "meaning": "garden",
+        "meaning": "colors",
         "position": "root",
         "bb_type": "root",
         "bb_id": "bb-root-yo",
@@ -30176,7 +30380,10 @@
       "litegai",
       "pogai",
       "sigai",
-      "vigai"
+      "vigai",
+      "wilgai",
+      "yalgai",
+      "yugai"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -30256,7 +30463,6 @@
     ],
     "rel": [
       "falni",
-      "jani",
       "maeni",
       "rani",
       "yani"
@@ -30332,10 +30538,12 @@
     "rel": [
       "apanou",
       "ganou",
+      "ilinou",
       "janou",
       "vanou",
-      "wanou",
-      "winou"
+      "winou",
+      "yalnou",
+      "yesnou"
     ],
     "ex": [
       {
@@ -30427,8 +30635,7 @@
       "lunpili",
       "muhpili",
       "muhpili",
-      "oipili",
-      "ompili"
+      "oipili"
     ],
     "ex": [
       {
@@ -30511,9 +30718,10 @@
       "aparih",
       "elarih",
       "ganrih",
-      "ganrih",
       "heirih",
-      "jarih"
+      "jarih",
+      "jerih",
+      "wimrih"
     ],
     "ex": [
       {
@@ -30600,8 +30808,9 @@
     ],
     "rel": [
       "couno",
-      "fano",
-      "vano"
+      "dano",
+      "elano",
+      "fano"
     ],
     "ex": [
       {
@@ -30768,7 +30977,7 @@
     "c": "environment",
     "cs": "le",
     "sc": "le",
-    "r": "levi",
+    "r": "vi",
     "bd": [
       {
         "sound": "le",
@@ -30780,17 +30989,17 @@
       },
       {
         "sound": "vi",
-        "meaning": "production",
-        "bb_type": "root",
-        "bb_id": "bb-root-vi",
-        "bb_href": "building_blocks_reference.html#bb-root-vi",
+        "meaning": "internal body",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-vi",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-vi",
         "bb_meaning": "internal body"
       }
     ],
     "rel": [
       "asivi",
       "bosvi",
-      "favi",
+      "pohivi",
       "tohvi",
       "vavi"
     ],
@@ -30807,12 +31016,12 @@
       },
       {
         "sound": "vi",
-        "meaning": "production",
+        "meaning": "internal body (uterus)",
         "position": "root",
         "bb_type": "root",
         "bb_id": "bb-root-vi",
         "bb_href": "building_blocks_reference.html#bb-root-vi",
-        "bb_meaning": "internal body"
+        "bb_meaning": "internal body (uterus)"
       }
     ],
     "search_terms": [
@@ -31329,7 +31538,9 @@
       }
     ],
     "rel": [
-      "donu"
+      "anu",
+      "donu",
+      "vanu"
     ],
     "ex": [
       {
@@ -31480,7 +31691,7 @@
       },
       {
         "sound": "peri",
-        "meaning": "week"
+        "meaning": "seven"
       }
     ],
     "rel": [],
@@ -31503,7 +31714,7 @@
       },
       {
         "sound": "peri",
-        "meaning": "week",
+        "meaning": "seven",
         "position": "root"
       }
     ],
@@ -31602,6 +31813,7 @@
       }
     ],
     "rel": [
+      "ciurul",
       "elarul"
     ],
     "ex": [
@@ -31840,7 +32052,8 @@
       }
     ],
     "rel": [
-      "netam"
+      "coutam",
+      "yunitam"
     ],
     "ex": [
       {
@@ -31931,7 +32144,10 @@
       "leigai",
       "pogai",
       "sigai",
-      "vigai"
+      "vigai",
+      "wilgai",
+      "yalgai",
+      "yugai"
     ],
     "ex": [
       {
@@ -32012,7 +32228,8 @@
     ],
     "rel": [
       "dami",
-      "elemi"
+      "elemi",
+      "mamini"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -32082,6 +32299,7 @@
     ],
     "rel": [
       "miotan",
+      "wamitan",
       "wiltan",
       "yaltan"
     ],
@@ -32158,10 +32376,11 @@
       }
     ],
     "rel": [
+      "dayar",
       "heoyar",
-      "iliyar",
       "luyar",
       "oiyar",
+      "ranyar",
       "wiyar",
       "yoyar"
     ],
@@ -32504,7 +32723,9 @@
         "bb_meaning": "haze"
       }
     ],
-    "rel": [],
+    "rel": [
+      "tulhue"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -32839,8 +33060,7 @@
       "leipili",
       "muhpili",
       "muhpili",
-      "oipili",
-      "ompili"
+      "oipili"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -32946,7 +33166,7 @@
     "c": "weather",
     "cs": "lu",
     "sc": "lun",
-    "r": "u",
+    "r": "",
     "bd": [
       {
         "sound": "lun",
@@ -32955,10 +33175,6 @@
         "bb_id": "bb-subcluster-lun",
         "bb_href": "building_blocks_reference.html#bb-subcluster-lun",
         "bb_meaning": "seasons"
-      },
-      {
-        "sound": "u",
-        "meaning": "winter"
       }
     ],
     "rel": [],
@@ -32978,11 +33194,6 @@
         "bb_id": "bb-subcluster-lun",
         "bb_href": "building_blocks_reference.html#bb-subcluster-lun",
         "bb_meaning": "seasons"
-      },
-      {
-        "sound": "u",
-        "meaning": "winter",
-        "position": "root"
       }
     ],
     "search_terms": [
@@ -33171,7 +33382,7 @@
     "c": "weather",
     "cs": "lu",
     "sc": "lu",
-    "r": "swa",
+    "r": "wa",
     "bd": [
       {
         "sound": "lu",
@@ -33182,11 +33393,24 @@
         "bb_meaning": "weather and atmosphere"
       },
       {
-        "sound": "swa",
-        "meaning": "wave"
+        "sound": "wa",
+        "meaning": "water",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-wa",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-wa",
+        "bb_meaning": "water"
       }
     ],
-    "rel": [],
+    "rel": [
+      "asiwa",
+      "leawa",
+      "mawa",
+      "molwa",
+      "poiwa",
+      "touwa",
+      "viwa",
+      "wimwa"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -33199,9 +33423,13 @@
         "bb_meaning": "weather and atmosphere"
       },
       {
-        "sound": "swa",
-        "meaning": "wave",
-        "position": "root"
+        "sound": "wa",
+        "meaning": "water",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-wa",
+        "bb_href": "building_blocks_reference.html#bb-root-wa",
+        "bb_meaning": "water"
       }
     ],
     "search_terms": [
@@ -33334,10 +33562,11 @@
       }
     ],
     "rel": [
+      "dayar",
       "heoyar",
-      "iliyar",
       "liyar",
       "oiyar",
+      "ranyar",
       "wiyar",
       "yoyar"
     ],
@@ -33799,7 +34028,6 @@
     ],
     "rel": [
       "falni",
-      "jani",
       "leini",
       "rani",
       "yani"
@@ -34395,7 +34623,7 @@
     "c": "cooking food",
     "cs": "ma",
     "sc": "ma",
-    "r": "mini",
+    "r": "mi",
     "bd": [
       {
         "sound": "ma",
@@ -34408,21 +34636,21 @@
       {
         "sound": "mi",
         "meaning": "existence, being",
-        "bb_type": "root",
-        "bb_id": "bb-root-mi",
-        "bb_href": "building_blocks_reference.html#bb-root-mi",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-mi",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-mi",
         "bb_meaning": "existence, being"
       },
       {
         "sound": "ni",
-        "meaning": "new",
-        "bb_type": "root",
-        "bb_id": "bb-root-ni",
-        "bb_href": "building_blocks_reference.html#bb-root-ni",
-        "bb_meaning": "new"
+        "meaning": "new"
       }
     ],
-    "rel": [],
+    "rel": [
+      "dami",
+      "elemi",
+      "litemi"
+    ],
     "ex": [
       {
         "o": "i pomia e mamini lisoi notor i pomia e maemiri.",
@@ -34452,11 +34680,7 @@
       {
         "sound": "ni",
         "meaning": "new",
-        "position": "root",
-        "bb_type": "root",
-        "bb_id": "bb-root-ni",
-        "bb_href": "building_blocks_reference.html#bb-root-ni",
-        "bb_meaning": "new"
+        "position": "root"
       }
     ],
     "search_terms": [
@@ -34948,6 +35172,7 @@
       }
     ],
     "rel": [
+      "betal",
       "bortal"
     ],
     "ex": [],
@@ -35164,8 +35389,10 @@
     "rel": [
       "asiwa",
       "leawa",
+      "luswa",
+      "molwa",
       "poiwa",
-      "towa",
+      "touwa",
       "viwa",
       "wimwa"
     ],
@@ -35653,7 +35880,11 @@
         "bb_meaning": "small animal"
       }
     ],
-    "rel": [],
+    "rel": [
+      "timu",
+      "wamu",
+      "yemu"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -35790,7 +36021,9 @@
         "bb_meaning": "bear"
       }
     ],
-    "rel": [],
+    "rel": [
+      "asugar"
+    ],
     "ex": [
       {
         "o": "hay i ilahai, a miogar.",
@@ -36079,6 +36312,7 @@
     ],
     "rel": [
       "litetan",
+      "wamitan",
       "wiltan",
       "yaltan"
     ],
@@ -37016,7 +37250,16 @@
         "bb_meaning": "water"
       }
     ],
-    "rel": [],
+    "rel": [
+      "asiwa",
+      "leawa",
+      "luswa",
+      "mawa",
+      "poiwa",
+      "touwa",
+      "viwa",
+      "wimwa"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -37516,20 +37759,12 @@
         "bb_meaning": "smaller animals"
       },
       {
-        "sound": "fi",
-        "meaning": "inside",
-        "bb_type": "root",
-        "bb_id": "bb-root-fi",
-        "bb_href": "building_blocks_reference.html#bb-root-fi",
-        "bb_meaning": "inside"
-      },
-      {
-        "sound": "va",
-        "meaning": "core",
+        "sound": "fiva",
+        "meaning": "cold",
         "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-va",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-va",
-        "bb_meaning": "core"
+        "bb_id": "bb-subcluster-fiva",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-fiva",
+        "bb_meaning": "cold"
       }
     ],
     "rel": [],
@@ -37545,22 +37780,13 @@
         "bb_meaning": "smaller animals"
       },
       {
-        "sound": "fi",
-        "meaning": "inside",
+        "sound": "fiva",
+        "meaning": "cold",
         "position": "root",
         "bb_type": "root",
-        "bb_id": "bb-root-fi",
-        "bb_href": "building_blocks_reference.html#bb-root-fi",
-        "bb_meaning": "inside"
-      },
-      {
-        "sound": "va",
-        "meaning": "core",
-        "position": "root",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-va",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-va",
-        "bb_meaning": "core"
+        "bb_id": "bb-root-fiva",
+        "bb_href": "building_blocks_reference.html#bb-root-fiva",
+        "bb_meaning": "cold"
       }
     ],
     "search_terms": [
@@ -37753,8 +37979,7 @@
       "heipili",
       "leipili",
       "lunpili",
-      "oipili",
-      "ompili"
+      "oipili"
     ],
     "ex": [
       {
@@ -37788,7 +38013,6 @@
       "animals",
       "bee",
       "bird",
-      "butterfly",
       "cute",
       "delicate",
       "eagle",
@@ -37839,8 +38063,7 @@
       "heipili",
       "leipili",
       "lunpili",
-      "oipili",
-      "ompili"
+      "oipili"
     ],
     "ex": [
       {
@@ -37965,13 +38188,13 @@
     ]
   },
   {
-    "w": "mujas",
+    "w": "muvardur",
     "e": "mouse",
-    "ea": "mouse, rat, rodent, sneaky",
+    "ea": "mouse, rodent, gnaw",
     "c": "smaller animals",
     "cs": "mu",
     "sc": "mu",
-    "r": "jas",
+    "r": "vardur",
     "bd": [
       {
         "sound": "mu",
@@ -37982,12 +38205,8 @@
         "bb_meaning": "smaller animals"
       },
       {
-        "sound": "jas",
-        "meaning": "mouse",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-jas",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-jas",
-        "bb_meaning": "gripping and fastening tools"
+        "sound": "vardur",
+        "meaning": "teeth, bite, gnaw"
       }
     ],
     "rel": [],
@@ -38003,47 +38222,44 @@
         "bb_meaning": "smaller animals"
       },
       {
-        "sound": "jas",
-        "meaning": "mouse",
-        "position": "root",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-jas",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-jas",
-        "bb_meaning": "gripping and fastening tools"
+        "sound": "vardur",
+        "meaning": "teeth, bite, gnaw",
+        "position": "root"
       }
     ],
     "search_terms": [
-      "and",
-      "animal",
-      "animals",
-      "bend",
-      "cut",
-      "fasten",
-      "fastening",
-      "fold",
       "frog",
-      "gripp",
-      "gripping",
-      "gripping and fastening tools",
-      "insect",
-      "jas",
-      "mouse",
-      "mouse, rat, rodent, sneaky",
-      "mu",
-      "muja",
-      "mujas",
-      "rat",
       "reptile",
-      "rip",
-      "rodent",
+      "sneaky",
+      "fasten",
+      "squid",
+      "animal",
+      "insect",
+      "and",
+      "mouse, rat, rodent, sneaky",
+      "jas",
+      "muvardur",
       "smaller",
+      "rat",
+      "mu",
+      "gripping",
+      "tool",
+      "bend",
+      "snake",
+      "fold",
+      "rip",
+      "tools",
+      "cut",
       "smaller animals",
       "snail",
-      "snake",
-      "sneaky",
-      "squid",
-      "tool",
-      "tools"
+      "animals",
+      "mouse",
+      "fastening",
+      "muja",
+      "gripping and fastening tools",
+      "rodent",
+      "gripp",
+      "gnaw"
     ]
   },
   {
@@ -38149,7 +38365,7 @@
     "c": "smaller animals",
     "cs": "mu",
     "sc": "mu",
-    "r": "s",
+    "r": "",
     "bd": [
       {
         "sound": "mu",
@@ -38158,10 +38374,6 @@
         "bb_id": "bb-subcluster-mu",
         "bb_href": "building_blocks_reference.html#bb-subcluster-mu",
         "bb_meaning": "smaller animals"
-      },
-      {
-        "sound": "s",
-        "meaning": "insect"
       }
     ],
     "rel": [],
@@ -38175,11 +38387,6 @@
         "bb_id": "bb-subcluster-mu",
         "bb_href": "building_blocks_reference.html#bb-subcluster-mu",
         "bb_meaning": "smaller animals"
-      },
-      {
-        "sound": "s",
-        "meaning": "insect",
-        "position": "root"
       }
     ],
     "search_terms": [
@@ -38942,7 +39149,12 @@
         "bb_meaning": "action"
       }
     ],
-    "rel": [],
+    "rel": [
+      "ciuan",
+      "eloan",
+      "ilian",
+      "tiuan"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -39093,7 +39305,13 @@
         "bb_meaning": "person"
       }
     ],
-    "rel": [],
+    "rel": [
+      "elihei",
+      "gaohei",
+      "ilhei",
+      "raihei",
+      "sihei"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -39151,7 +39369,7 @@
     "c": "function words",
     "cs": "no",
     "sc": "no",
-    "r": "i",
+    "r": "",
     "bd": [
       {
         "sound": "no",
@@ -39160,10 +39378,6 @@
         "bb_id": "bb-subcluster-no",
         "bb_href": "building_blocks_reference.html#bb-subcluster-no",
         "bb_meaning": "function words"
-      },
-      {
-        "sound": "i",
-        "meaning": "this"
       }
     ],
     "rel": [],
@@ -39183,11 +39397,6 @@
         "bb_id": "bb-subcluster-no",
         "bb_href": "building_blocks_reference.html#bb-subcluster-no",
         "bb_meaning": "function words"
-      },
-      {
-        "sound": "i",
-        "meaning": "this",
-        "position": "root"
       }
     ],
     "search_terms": [
@@ -39511,7 +39720,9 @@
         "bb_meaning": "quantifiers"
       }
     ],
-    "rel": [],
+    "rel": [
+      "gaone"
+    ],
     "ex": [
       {
         "o": "hay i none e yopoh vosyas.",
@@ -39595,8 +39806,10 @@
       }
     ],
     "rel": [
+      "borniu",
       "daeniu",
-      "joniu"
+      "joniu",
+      "yuniu"
     ],
     "ex": [
       {
@@ -39861,19 +40074,19 @@
     "ea": "already, by now/then",
     "c": "function words",
     "cs": "no",
-    "sc": "no",
-    "r": "rven",
+    "sc": "nor",
+    "r": "nor",
     "bd": [
       {
-        "sound": "no",
-        "meaning": "function words",
+        "sound": "nor",
+        "meaning": "relation to reference",
         "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-no",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-no",
-        "bb_meaning": "function words"
+        "bb_id": "bb-subcluster-nor",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-nor",
+        "bb_meaning": "relation to reference"
       },
       {
-        "sound": "rven",
+        "sound": "ven",
         "meaning": "already"
       }
     ],
@@ -39887,16 +40100,16 @@
     ],
     "syllable_meanings": [
       {
-        "sound": "no",
-        "meaning": "function words",
+        "sound": "nor",
+        "meaning": "relation to reference",
         "position": "subcluster",
         "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-no",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-no",
-        "bb_meaning": "function words"
+        "bb_id": "bb-subcluster-nor",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-nor",
+        "bb_meaning": "relation to reference"
       },
       {
-        "sound": "rven",
+        "sound": "ven",
         "meaning": "already",
         "position": "root"
       }
@@ -39946,20 +40159,8 @@
         "bb_meaning": "function words"
       },
       {
-        "sound": "ta",
-        "meaning": "hand",
-        "bb_type": "root",
-        "bb_id": "bb-root-ta",
-        "bb_href": "building_blocks_reference.html#bb-root-ta",
-        "bb_meaning": "hand"
-      },
-      {
-        "sound": "ne",
-        "meaning": "quantifiers",
-        "bb_type": "root",
-        "bb_id": "bb-root-ne",
-        "bb_href": "building_blocks_reference.html#bb-root-ne",
-        "bb_meaning": "quantifiers"
+        "sound": "tane",
+        "meaning": "should"
       }
     ],
     "rel": [],
@@ -39975,22 +40176,9 @@
         "bb_meaning": "function words"
       },
       {
-        "sound": "ta",
-        "meaning": "hand",
-        "position": "root",
-        "bb_type": "root",
-        "bb_id": "bb-root-ta",
-        "bb_href": "building_blocks_reference.html#bb-root-ta",
-        "bb_meaning": "hand"
-      },
-      {
-        "sound": "ne",
-        "meaning": "quantifiers",
-        "position": "root",
-        "bb_type": "root",
-        "bb_id": "bb-root-ne",
-        "bb_href": "building_blocks_reference.html#bb-root-ne",
-        "bb_meaning": "quantifiers"
+        "sound": "tane",
+        "meaning": "should",
+        "position": "root"
       }
     ],
     "search_terms": [
@@ -40572,7 +40760,10 @@
         "bb_meaning": "pleasure"
       }
     ],
-    "rel": [],
+    "rel": [
+      "oivamin",
+      "yumin"
+    ],
     "ex": [
       {
         "o": "neron oimin en ho noi",
@@ -40727,8 +40918,7 @@
       "leipili",
       "lunpili",
       "muhpili",
-      "muhpili",
-      "ompili"
+      "muhpili"
     ],
     "ex": [
       {
@@ -40813,7 +41003,10 @@
         "bb_meaning": "energy"
       }
     ],
-    "rel": [],
+    "rel": [
+      "pohpoh",
+      "yopoh"
+    ],
     "ex": [
       {
         "o": "i faigel, bi oipoh!",
@@ -40868,69 +41061,6 @@
     ]
   },
   {
-    "w": "oivaira",
-    "e": "sex",
-    "ea": "sex, sexy, copulate",
-    "c": "fun",
-    "cs": "oi",
-    "sc": "oi",
-    "r": "vaira",
-    "bd": [
-      {
-        "sound": "oi",
-        "meaning": "fun",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-oi",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-oi",
-        "bb_meaning": "fun"
-      },
-      {
-        "sound": "vaira",
-        "meaning": "sex"
-      }
-    ],
-    "rel": [],
-    "ex": [],
-    "syllable_meanings": [
-      {
-        "sound": "oi",
-        "meaning": "fun",
-        "position": "subcluster",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-oi",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-oi",
-        "bb_meaning": "fun"
-      },
-      {
-        "sound": "vaira",
-        "meaning": "sex",
-        "position": "root"
-      }
-    ],
-    "search_terms": [
-      "amuse",
-      "attract",
-      "copulate",
-      "cute",
-      "excite",
-      "fun",
-      "gossip",
-      "happy",
-      "interest",
-      "joke",
-      "oi",
-      "oivaira",
-      "scene",
-      "sex",
-      "sex, sexy, copulate",
-      "sexy",
-      "silly",
-      "star",
-      "story",
-      "vaira"
-    ]
-  },
-  {
     "w": "oiyar",
     "e": "star",
     "ea": "star, to highlight, celebrity",
@@ -40957,10 +41087,11 @@
       }
     ],
     "rel": [
+      "dayar",
       "heoyar",
-      "iliyar",
       "liyar",
       "luyar",
+      "ranyar",
       "wiyar",
       "yoyar"
     ],
@@ -41044,10 +41175,10 @@
       },
       {
         "sound": "apa",
-        "meaning": "dance",
-        "bb_type": "root",
-        "bb_id": "bb-root-apa",
-        "bb_href": "building_blocks_reference.html#bb-root-apa",
+        "meaning": "physical movement",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-apa",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-apa",
         "bb_meaning": "physical movement"
       }
     ],
@@ -41071,7 +41202,7 @@
       },
       {
         "sound": "apa",
-        "meaning": "dance",
+        "meaning": "physical movement",
         "position": "root",
         "bb_type": "root",
         "bb_id": "bb-root-apa",
@@ -41247,11 +41378,7 @@
       },
       {
         "sound": "ja",
-        "meaning": "guitar",
-        "bb_type": "root",
-        "bb_id": "bb-root-ja",
-        "bb_href": "building_blocks_reference.html#bb-root-ja",
-        "bb_meaning": "tools"
+        "meaning": "guitar sound"
       }
     ],
     "rel": [],
@@ -41274,12 +41401,8 @@
       },
       {
         "sound": "ja",
-        "meaning": "guitar",
-        "position": "root",
-        "bb_type": "root",
-        "bb_id": "bb-root-ja",
-        "bb_href": "building_blocks_reference.html#bb-root-ja",
-        "bb_meaning": "tools"
+        "meaning": "guitar sound",
+        "position": "root"
       }
     ],
     "search_terms": [
@@ -41401,21 +41524,10 @@
       },
       {
         "sound": "pili",
-        "meaning": "delicate",
-        "bb_type": "root",
-        "bb_id": "bb-root-pili",
-        "bb_href": "building_blocks_reference.html#bb-root-pili",
-        "bb_meaning": "delicate"
+        "meaning": "piano sound"
       }
     ],
-    "rel": [
-      "heipili",
-      "leipili",
-      "lunpili",
-      "muhpili",
-      "muhpili",
-      "oipili"
-    ],
+    "rel": [],
     "ex": [],
     "syllable_meanings": [
       {
@@ -41429,12 +41541,8 @@
       },
       {
         "sound": "pili",
-        "meaning": "delicate",
-        "position": "root",
-        "bb_type": "root",
-        "bb_id": "bb-root-pili",
-        "bb_href": "building_blocks_reference.html#bb-root-pili",
-        "bb_meaning": "delicate"
+        "meaning": "piano sound",
+        "position": "root"
       }
     ],
     "search_terms": [
@@ -41602,20 +41710,8 @@
         "bb_meaning": "chemical"
       },
       {
-        "sound": "ma",
-        "meaning": "matter",
-        "bb_type": "root",
-        "bb_id": "bb-root-ma",
-        "bb_href": "building_blocks_reference.html#bb-root-ma",
-        "bb_meaning": "matter"
-      },
-      {
-        "sound": "se",
-        "meaning": "machines",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-se",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-se",
-        "bb_meaning": "machines"
+        "sound": "mase",
+        "meaning": "dependence"
       }
     ],
     "rel": [],
@@ -41631,22 +41727,9 @@
         "bb_meaning": "chemical"
       },
       {
-        "sound": "ma",
-        "meaning": "matter",
-        "position": "root",
-        "bb_type": "root",
-        "bb_id": "bb-root-ma",
-        "bb_href": "building_blocks_reference.html#bb-root-ma",
-        "bb_meaning": "matter"
-      },
-      {
-        "sound": "se",
-        "meaning": "machines",
-        "position": "root",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-se",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-se",
-        "bb_meaning": "machines"
+        "sound": "mase",
+        "meaning": "dependence",
+        "position": "root"
       }
     ],
     "search_terms": [
@@ -42066,7 +42149,10 @@
       "leigai",
       "litegai",
       "sigai",
-      "vigai"
+      "vigai",
+      "wilgai",
+      "yalgai",
+      "yugai"
     ],
     "ex": [
       {
@@ -42270,41 +42356,64 @@
   {
     "w": "pohivi",
     "e": "electric",
-    "ea": "electric, electricity",
+    "ea": "electric, electricity, agitated, frantic",
     "c": "components",
     "cs": "po",
     "sc": "poh",
-    "r": "ivi",
+    "r": "vi",
     "bd": [
       {
         "sound": "poh",
-        "meaning": "energy",
+        "meaning": "energy, fire",
         "bb_type": "subcluster",
         "bb_id": "bb-subcluster-poh",
         "bb_href": "building_blocks_reference.html#bb-subcluster-poh",
-        "bb_meaning": "energy"
+        "bb_meaning": "energy, fire"
       },
       {
-        "sound": "ivi",
-        "meaning": "electric"
+        "sound": "i",
+        "meaning": "verb marker"
+      },
+      {
+        "sound": "vi",
+        "meaning": "internal body",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-vi",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-vi",
+        "bb_meaning": "internal body"
       }
     ],
-    "rel": [],
+    "rel": [
+      "asivi",
+      "bosvi",
+      "levi",
+      "tohvi",
+      "vavi"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
         "sound": "poh",
-        "meaning": "energy",
+        "meaning": "energy, fire",
         "position": "subcluster",
         "bb_type": "subcluster",
         "bb_id": "bb-subcluster-poh",
         "bb_href": "building_blocks_reference.html#bb-subcluster-poh",
-        "bb_meaning": "energy"
+        "bb_meaning": "energy, fire"
       },
       {
-        "sound": "ivi",
-        "meaning": "electric",
+        "sound": "i",
+        "meaning": "verb marker",
         "position": "root"
+      },
+      {
+        "sound": "vi",
+        "meaning": "internal body",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-vi",
+        "bb_href": "building_blocks_reference.html#bb-root-vi",
+        "bb_meaning": "internal body"
       }
     ],
     "search_terms": [
@@ -42352,6 +42461,7 @@
       }
     ],
     "rel": [
+      "donen",
       "rainen",
       "tinen",
       "tunen",
@@ -42424,6 +42534,14 @@
     "bd": [
       {
         "sound": "poh",
+        "meaning": "energy, fire",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-poh",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-poh",
+        "bb_meaning": "energy, fire"
+      },
+      {
+        "sound": "poh",
         "meaning": "energy",
         "bb_type": "subcluster",
         "bb_id": "bb-subcluster-poh",
@@ -42431,17 +42549,29 @@
         "bb_meaning": "energy"
       }
     ],
-    "rel": [],
+    "rel": [
+      "oipoh",
+      "yopoh"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
         "sound": "poh",
-        "meaning": "energy",
+        "meaning": "energy, fire",
         "position": "subcluster",
         "bb_type": "subcluster",
         "bb_id": "bb-subcluster-poh",
         "bb_href": "building_blocks_reference.html#bb-subcluster-poh",
-        "bb_meaning": "energy"
+        "bb_meaning": "energy, fire"
+      },
+      {
+        "sound": "poh",
+        "meaning": "energy, fire",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-poh",
+        "bb_href": "building_blocks_reference.html#bb-root-poh",
+        "bb_meaning": "energy, fire"
       }
     ],
     "search_terms": [
@@ -42469,37 +42599,50 @@
     "c": "components",
     "cs": "po",
     "sc": "poh",
-    "r": "ufu",
+    "r": "lufu",
     "bd": [
       {
         "sound": "poh",
-        "meaning": "energy",
+        "meaning": "energy, fire",
         "bb_type": "subcluster",
         "bb_id": "bb-subcluster-poh",
         "bb_href": "building_blocks_reference.html#bb-subcluster-poh",
-        "bb_meaning": "energy"
+        "bb_meaning": "energy, fire"
       },
       {
-        "sound": "ufu",
-        "meaning": "steam"
+        "sound": "lufu",
+        "meaning": "air",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-lufu",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-lufu",
+        "bb_meaning": "air"
       }
     ],
-    "rel": [],
+    "rel": [
+      "aslufu",
+      "helufu",
+      "jolufu",
+      "walufu"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
         "sound": "poh",
-        "meaning": "energy",
+        "meaning": "energy, fire",
         "position": "subcluster",
         "bb_type": "subcluster",
         "bb_id": "bb-subcluster-poh",
         "bb_href": "building_blocks_reference.html#bb-subcluster-poh",
-        "bb_meaning": "energy"
+        "bb_meaning": "energy, fire"
       },
       {
-        "sound": "ufu",
-        "meaning": "steam",
-        "position": "root"
+        "sound": "lufu",
+        "meaning": "air",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-lufu",
+        "bb_href": "building_blocks_reference.html#bb-root-lufu",
+        "bb_meaning": "air"
       }
     ],
     "search_terms": [
@@ -42531,27 +42674,15 @@
     "bd": [
       {
         "sound": "poh",
-        "meaning": "energy",
+        "meaning": "energy, fire",
         "bb_type": "subcluster",
         "bb_id": "bb-subcluster-poh",
         "bb_href": "building_blocks_reference.html#bb-subcluster-poh",
-        "bb_meaning": "energy"
+        "bb_meaning": "energy, fire"
       },
       {
-        "sound": "ya",
-        "meaning": "representation, invitation",
-        "bb_type": "root",
-        "bb_id": "bb-root-ya",
-        "bb_href": "building_blocks_reference.html#bb-root-ya",
-        "bb_meaning": "representation, invitation"
-      },
-      {
-        "sound": "ro",
-        "meaning": "thinking, reasoning",
-        "bb_type": "root",
-        "bb_id": "bb-root-ro",
-        "bb_href": "building_blocks_reference.html#bb-root-ro",
-        "bb_meaning": "thinking, reasoning"
+        "sound": "yaro",
+        "meaning": "energy"
       }
     ],
     "rel": [],
@@ -42559,30 +42690,17 @@
     "syllable_meanings": [
       {
         "sound": "poh",
-        "meaning": "energy",
+        "meaning": "energy, fire",
         "position": "subcluster",
         "bb_type": "subcluster",
         "bb_id": "bb-subcluster-poh",
         "bb_href": "building_blocks_reference.html#bb-subcluster-poh",
-        "bb_meaning": "energy"
+        "bb_meaning": "energy, fire"
       },
       {
-        "sound": "ya",
-        "meaning": "representation, invitation",
-        "position": "root",
-        "bb_type": "root",
-        "bb_id": "bb-root-ya",
-        "bb_href": "building_blocks_reference.html#bb-root-ya",
-        "bb_meaning": "representation, invitation"
-      },
-      {
-        "sound": "ro",
-        "meaning": "thinking, reasoning",
-        "position": "root",
-        "bb_type": "root",
-        "bb_id": "bb-root-ro",
-        "bb_href": "building_blocks_reference.html#bb-root-ro",
-        "bb_meaning": "thinking, reasoning"
+        "sound": "yaro",
+        "meaning": "energy",
+        "position": "root"
       }
     ],
     "search_terms": [
@@ -42872,8 +42990,10 @@
     "rel": [
       "asiwa",
       "leawa",
+      "luswa",
       "mawa",
-      "towa",
+      "molwa",
+      "touwa",
       "viwa",
       "wimwa"
     ],
@@ -42950,7 +43070,9 @@
         "bb_meaning": "size qualities"
       }
     ],
-    "rel": [],
+    "rel": [
+      "siyal"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -43021,7 +43143,9 @@
         "bb_meaning": "mixing"
       }
     ],
-    "rel": [],
+    "rel": [
+      "simia"
+    ],
     "ex": [
       {
         "o": "noli i do i mo e yuba pomia maemiri!",
@@ -43291,10 +43415,10 @@
       },
       {
         "sound": "ge",
-        "meaning": "economy",
-        "bb_type": "root",
-        "bb_id": "bb-root-ge",
-        "bb_href": "building_blocks_reference.html#bb-root-ge",
+        "meaning": "finances",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-ge",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-ge",
         "bb_meaning": "finances"
       }
     ],
@@ -43312,7 +43436,7 @@
       },
       {
         "sound": "ge",
-        "meaning": "economy",
+        "meaning": "finances",
         "position": "root",
         "bb_type": "root",
         "bb_id": "bb-root-ge",
@@ -43571,7 +43695,13 @@
         "bb_meaning": "person"
       }
     ],
-    "rel": [],
+    "rel": [
+      "elihei",
+      "gaohei",
+      "ilhei",
+      "nohei",
+      "sihei"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -43803,6 +43933,7 @@
       }
     ],
     "rel": [
+      "donen",
       "pohnen",
       "tinen",
       "tunen",
@@ -43955,7 +44086,10 @@
         "bb_meaning": "favor"
       }
     ],
-    "rel": [],
+    "rel": [
+      "aniran",
+      "dairan"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -44428,7 +44562,12 @@
         "bb_meaning": "belonging"
       }
     ],
-    "rel": [],
+    "rel": [
+      "aneoleo",
+      "elileo",
+      "eoleo",
+      "gaoleo"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -44648,7 +44787,6 @@
     ],
     "rel": [
       "falni",
-      "jani",
       "leini",
       "maeni",
       "yani"
@@ -44702,7 +44840,7 @@
   {
     "w": "ranlevi",
     "e": "industry",
-    "ea": "industry, industrial, factory, mill",
+    "ea": "industry, industrial, factory, mill, production",
     "c": "society",
     "cs": "ra",
     "sc": "ran",
@@ -44718,7 +44856,11 @@
       },
       {
         "sound": "levi",
-        "meaning": "production"
+        "meaning": "fertile",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-le",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-le",
+        "bb_meaning": "environment"
       }
     ],
     "rel": [],
@@ -44735,7 +44877,7 @@
       },
       {
         "sound": "levi",
-        "meaning": "production",
+        "meaning": "fertile",
         "position": "root"
       }
     ],
@@ -44852,7 +44994,7 @@
       "bevio",
       "davio",
       "gavio",
-      "gelvio",
+      "gehvio",
       "heivio"
     ],
     "ex": [],
@@ -44934,7 +45076,8 @@
       "davir",
       "gavir",
       "rovir",
-      "semvir"
+      "semvir",
+      "wagavir"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -45007,7 +45150,15 @@
         "bb_meaning": "light"
       }
     ],
-    "rel": [],
+    "rel": [
+      "dayar",
+      "heoyar",
+      "liyar",
+      "luyar",
+      "oiyar",
+      "wiyar",
+      "yoyar"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -45146,7 +45297,8 @@
     ],
     "rel": [
       "elaora",
-      "iliora"
+      "iliora",
+      "rora"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -45215,7 +45367,12 @@
         "bb_meaning": "guide"
       }
     ],
-    "rel": [],
+    "rel": [
+      "antai",
+      "apahotai",
+      "jetai",
+      "wilwatai"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -45485,11 +45642,7 @@
       },
       {
         "sound": "jo",
-        "meaning": "exam",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-jo",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-jo",
-        "bb_meaning": "materials"
+        "meaning": "exam"
       }
     ],
     "rel": [],
@@ -45513,11 +45666,7 @@
       {
         "sound": "jo",
         "meaning": "exam",
-        "position": "root",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-jo",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-jo",
-        "bb_meaning": "materials"
+        "position": "root"
       }
     ],
     "search_terms": [
@@ -45580,7 +45729,8 @@
     ],
     "rel": [
       "anona",
-      "gelna"
+      "gehna",
+      "gerina"
     ],
     "ex": [
       {
@@ -45658,8 +45808,7 @@
       }
     ],
     "rel": [
-      "ansau",
-      "asau"
+      "ansau"
     ],
     "ex": [
       {
@@ -45732,7 +45881,11 @@
         "bb_meaning": "idea"
       }
     ],
-    "rel": [],
+    "rel": [
+      "elaora",
+      "iliora",
+      "rasora"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -45870,7 +46023,6 @@
       }
     ],
     "rel": [
-      "ciudal",
       "ciudal",
       "seldal"
     ],
@@ -46030,6 +46182,7 @@
     "rel": [
       "danmir",
       "heimir",
+      "simir",
       "yunmir"
     ],
     "ex": [
@@ -46111,7 +46264,8 @@
       "davir",
       "gavir",
       "ranvir",
-      "semvir"
+      "semvir",
+      "wagavir"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -46365,7 +46519,6 @@
       }
     ],
     "rel": [
-      "ciudal",
       "ciudal",
       "roudal"
     ],
@@ -46677,7 +46830,8 @@
       "davir",
       "gavir",
       "ranvir",
-      "rovir"
+      "rovir",
+      "wagavir"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -46894,8 +47048,8 @@
       "ciuro",
       "doro",
       "iliro",
-      "siro",
-      "viro"
+      "visro",
+      "yunro"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -46945,66 +47099,6 @@
       "think",
       "thinking",
       "thinking, reasoning"
-    ]
-  },
-  {
-    "w": "sesa",
-    "e": "machine",
-    "ea": "machine, apparatus, mechanic",
-    "c": "machine",
-    "cs": "se",
-    "sc": "se",
-    "r": "sa",
-    "bd": [
-      {
-        "sound": "se",
-        "meaning": "machines",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-se",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-se",
-        "bb_meaning": "machines"
-      },
-      {
-        "sound": "sa",
-        "meaning": "machine"
-      }
-    ],
-    "rel": [],
-    "ex": [],
-    "syllable_meanings": [
-      {
-        "sound": "se",
-        "meaning": "machines",
-        "position": "subcluster",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-se",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-se",
-        "bb_meaning": "machines"
-      },
-      {
-        "sound": "sa",
-        "meaning": "machine",
-        "position": "root"
-      }
-    ],
-    "search_terms": [
-      "apparatu",
-      "apparatus",
-      "button",
-      "command",
-      "echo",
-      "key",
-      "logic",
-      "machine",
-      "machine, apparatus, mechanic",
-      "machines",
-      "mechanic",
-      "memory",
-      "menu",
-      "package",
-      "sa",
-      "se",
-      "sesa"
     ]
   },
   {
@@ -47254,7 +47348,10 @@
       "leigai",
       "litegai",
       "pogai",
-      "vigai"
+      "vigai",
+      "wilgai",
+      "yalgai",
+      "yugai"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -47394,7 +47491,9 @@
         "bb_meaning": "mixing"
       }
     ],
-    "rel": [],
+    "rel": [
+      "pomia"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -47469,7 +47568,13 @@
         "bb_meaning": "person"
       }
     ],
-    "rel": [],
+    "rel": [
+      "elihei",
+      "gaohei",
+      "ilhei",
+      "nohei",
+      "raihei"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -47816,7 +47921,12 @@
         "bb_meaning": "lots of"
       }
     ],
-    "rel": [],
+    "rel": [
+      "danmir",
+      "heimir",
+      "roumir",
+      "yunmir"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -47949,13 +48059,13 @@
     ]
   },
   {
-    "w": "sirosa",
+    "w": "sirose",
     "e": "computer",
     "ea": "computer, compute",
     "c": "process",
     "cs": "si",
     "sc": "si",
-    "r": "rosa",
+    "r": "se",
     "bd": [
       {
         "sound": "si",
@@ -47966,11 +48076,26 @@
         "bb_meaning": "processes"
       },
       {
-        "sound": "rosa",
-        "meaning": "computer"
+        "sound": "ro",
+        "meaning": "thinking, reasoning",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-ro",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-ro",
+        "bb_meaning": "thinking, reasoning"
+      },
+      {
+        "sound": "se",
+        "meaning": "machines",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-se",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-se",
+        "bb_meaning": "machines"
       }
     ],
-    "rel": [],
+    "rel": [
+      "anse",
+      "se"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -47983,9 +48108,22 @@
         "bb_meaning": "processes"
       },
       {
-        "sound": "rosa",
-        "meaning": "computer",
-        "position": "root"
+        "sound": "ro",
+        "meaning": "thinking, reasoning",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-ro",
+        "bb_href": "building_blocks_reference.html#bb-root-ro",
+        "bb_meaning": "thinking, reasoning"
+      },
+      {
+        "sound": "se",
+        "meaning": "machines",
+        "position": "root",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-se",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-se",
+        "bb_meaning": "machines"
       }
     ],
     "search_terms": [
@@ -48004,7 +48142,7 @@
       "robot",
       "rosa",
       "si",
-      "sirosa",
+      "sirose",
       "spy",
       "viru",
       "virus"
@@ -48194,7 +48332,9 @@
         "bb_meaning": "size qualities"
       }
     ],
-    "rel": [],
+    "rel": [
+      "poiyal"
+    ],
     "ex": [
       {
         "o": "i doum i siyal",
@@ -48465,7 +48605,10 @@
         "bb_meaning": "end"
       }
     ],
-    "rel": [],
+    "rel": [
+      "heohodetu",
+      "yadetu"
+    ],
     "ex": [
       {
         "o": "o i apavu-raisoi de tidetu",
@@ -48874,6 +49017,8 @@
       }
     ],
     "rel": [
+      "mimu",
+      "wamu",
       "yemu"
     ],
     "ex": [],
@@ -48957,6 +49102,7 @@
       }
     ],
     "rel": [
+      "donen",
       "pohnen",
       "rainen",
       "tunen",
@@ -49194,7 +49340,7 @@
     "c": "harm",
     "cs": "ti",
     "sc": "ti",
-    "r": "hoti",
+    "r": "ti",
     "bd": [
       {
         "sound": "ti",
@@ -49205,11 +49351,20 @@
         "bb_meaning": "harm, damage"
       },
       {
-        "sound": "hoti",
-        "meaning": "mean"
+        "sound": "ti",
+        "meaning": "bad",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-ti",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-ti",
+        "bb_meaning": "bad"
       }
     ],
-    "rel": [],
+    "rel": [
+      "dohti",
+      "hehti",
+      "jati",
+      "veiti"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -49222,9 +49377,13 @@
         "bb_meaning": "harm, damage"
       },
       {
-        "sound": "hoti",
-        "meaning": "mean",
-        "position": "root"
+        "sound": "ti",
+        "meaning": "bad",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-ti",
+        "bb_href": "building_blocks_reference.html#bb-root-ti",
+        "bb_meaning": "bad"
       }
     ],
     "search_terms": [
@@ -49376,14 +49535,19 @@
       },
       {
         "sound": "an",
-        "meaning": "crime",
-        "bb_type": "root",
-        "bb_id": "bb-root-an",
-        "bb_href": "building_blocks_reference.html#bb-root-an",
+        "meaning": "action",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-an",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-an",
         "bb_meaning": "action"
       }
     ],
-    "rel": [],
+    "rel": [
+      "ciuan",
+      "eloan",
+      "ilian",
+      "noan"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -49397,7 +49561,7 @@
       },
       {
         "sound": "an",
-        "meaning": "crime",
+        "meaning": "action",
         "position": "root",
         "bb_type": "root",
         "bb_id": "bb-root-an",
@@ -49587,14 +49751,17 @@
       },
       {
         "sound": "ri",
-        "meaning": "abuse",
-        "bb_type": "root",
-        "bb_id": "bb-root-ri",
-        "bb_href": "building_blocks_reference.html#bb-root-ri",
+        "meaning": "act",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-ri",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-ri",
         "bb_meaning": "act"
       }
     ],
-    "rel": [],
+    "rel": [
+      "elori",
+      "eori"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -49608,7 +49775,7 @@
       },
       {
         "sound": "ri",
-        "meaning": "abuse",
+        "meaning": "act",
         "position": "root",
         "bb_type": "root",
         "bb_id": "bb-root-ri",
@@ -49872,7 +50039,12 @@
         "bb_meaning": "hardness"
       }
     ],
-    "rel": [],
+    "rel": [
+      "joldur",
+      "vardur",
+      "vidur",
+      "yudur"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -49923,13 +50095,13 @@
     ]
   },
   {
-    "w": "toge",
+    "w": "togei",
     "e": "disgust",
     "ea": "disgust, disgusting, revulsion, sicken, gross",
     "c": "suffer",
     "cs": "to",
     "sc": "to",
-    "r": "ge",
+    "r": "",
     "bd": [
       {
         "sound": "to",
@@ -49938,14 +50110,6 @@
         "bb_id": "bb-subcluster-to",
         "bb_href": "building_blocks_reference.html#bb-subcluster-to",
         "bb_meaning": "suffering, distress"
-      },
-      {
-        "sound": "ge",
-        "meaning": "disgust",
-        "bb_type": "root",
-        "bb_id": "bb-root-ge",
-        "bb_href": "building_blocks_reference.html#bb-root-ge",
-        "bb_meaning": "finances"
       }
     ],
     "rel": [],
@@ -49959,15 +50123,6 @@
         "bb_id": "bb-subcluster-to",
         "bb_href": "building_blocks_reference.html#bb-subcluster-to",
         "bb_meaning": "suffering, distress"
-      },
-      {
-        "sound": "ge",
-        "meaning": "disgust",
-        "position": "root",
-        "bb_type": "root",
-        "bb_id": "bb-root-ge",
-        "bb_href": "building_blocks_reference.html#bb-root-ge",
-        "bb_meaning": "finances"
       }
     ],
     "search_terms": [
@@ -49995,7 +50150,7 @@
       "taboo",
       "thirst",
       "to",
-      "toge"
+      "togei"
     ]
   },
   {
@@ -50639,8 +50794,8 @@
     "rel": [
       "asivi",
       "bosvi",
-      "favi",
       "levi",
+      "pohivi",
       "vavi"
     ],
     "ex": [
@@ -51280,7 +51435,11 @@
         "bb_meaning": "passage"
       }
     ],
-    "rel": [],
+    "rel": [
+      "boetale",
+      "jentale",
+      "vatale"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -51416,7 +51575,9 @@
       "boemo",
       "jomo",
       "varmo",
-      "velmo"
+      "velmo",
+      "visomo",
+      "vonmo"
     ],
     "ex": [
       {
@@ -51591,25 +51752,25 @@
     ]
   },
   {
-    "w": "tovei",
-    "e": "ilness",
-    "ea": "malady, sickness, ill, disease",
+    "w": "touvei",
+    "e": "illness",
+    "ea": "illness, disease",
     "c": "suffer",
-    "cs": "to",
-    "sc": "to",
+    "cs": "tou",
+    "sc": "tou",
     "r": "vei",
     "bd": [
       {
-        "sound": "to",
-        "meaning": "suffering, distress",
+        "sound": "tou",
+        "meaning": "physical depletion",
         "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-to",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-to",
-        "bb_meaning": "suffering, distress"
+        "bb_id": "bb-subcluster-tou",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-tou",
+        "bb_meaning": "physical depletion"
       },
       {
         "sound": "vei",
-        "meaning": "ilness",
+        "meaning": "health issues",
         "bb_type": "subcluster",
         "bb_id": "bb-subcluster-vei",
         "bb_href": "building_blocks_reference.html#bb-subcluster-vei",
@@ -51626,17 +51787,17 @@
     ],
     "syllable_meanings": [
       {
-        "sound": "to",
-        "meaning": "suffering, distress",
+        "sound": "tou",
+        "meaning": "physical depletion",
         "position": "subcluster",
         "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-to",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-to",
-        "bb_meaning": "suffering, distress"
+        "bb_id": "bb-subcluster-tou",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-tou",
+        "bb_meaning": "physical depletion"
       },
       {
         "sound": "vei",
-        "meaning": "ilness",
+        "meaning": "health issues",
         "position": "root",
         "bb_type": "subcluster",
         "bb_id": "bb-subcluster-vei",
@@ -51674,19 +51835,19 @@
       "taboo",
       "thirst",
       "to",
-      "tovei",
+      "touvei",
       "tumor",
       "vei",
       "wound"
     ]
   },
   {
-    "w": "towa",
+    "w": "touwa",
     "e": "thirst",
     "ea": "thirst, thirsty",
     "c": "suffer",
-    "cs": "to",
-    "sc": "to",
+    "cs": "tou",
+    "sc": "tou",
     "r": "wa",
     "bd": [
       {
@@ -51709,7 +51870,9 @@
     "rel": [
       "asiwa",
       "leawa",
+      "luswa",
       "mawa",
+      "molwa",
       "poiwa",
       "viwa",
       "wimwa"
@@ -51759,7 +51922,7 @@
       "thirst, thirsty",
       "thirsty",
       "to",
-      "towa",
+      "touwa",
       "wa",
       "water"
     ]
@@ -51901,7 +52064,9 @@
         "bb_meaning": "haze"
       }
     ],
-    "rel": [],
+    "rel": [
+      "luhue"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -52187,6 +52352,7 @@
       }
     ],
     "rel": [
+      "donen",
       "pohnen",
       "rainen",
       "tinen",
@@ -52285,8 +52451,8 @@
   },
   {
     "w": "vamiu",
-    "e": "neck",
-    "ea": "neck, throat, to cough",
+    "e": "spine",
+    "ea": "spine, backbone",
     "c": "body parts",
     "cs": "va",
     "sc": "va",
@@ -52302,14 +52468,17 @@
       },
       {
         "sound": "miu",
-        "meaning": "neck",
-        "bb_type": "root",
-        "bb_id": "bb-root-miu",
-        "bb_href": "building_blocks_reference.html#bb-root-miu",
+        "meaning": "support",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-miu",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-miu",
         "bb_meaning": "support"
       }
     ],
-    "rel": [],
+    "rel": [
+      "elomiu",
+      "eomiu"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -52323,7 +52492,7 @@
       },
       {
         "sound": "miu",
-        "meaning": "neck",
+        "meaning": "support",
         "position": "root",
         "bb_type": "root",
         "bb_id": "bb-root-miu",
@@ -52382,6 +52551,7 @@
       }
     ],
     "rel": [
+      "jahci",
       "yahci"
     ],
     "ex": [],
@@ -52543,6 +52713,7 @@
       }
     ],
     "rel": [
+      "donen",
       "pohnen",
       "rainen",
       "tinen",
@@ -52603,13 +52774,13 @@
     ]
   },
   {
-    "w": "vano",
+    "w": "vanu",
     "e": "arm",
     "ea": "arm, limb, branch",
     "c": "body parts",
     "cs": "va",
     "sc": "van",
-    "r": "no",
+    "r": "nu",
     "bd": [
       {
         "sound": "van",
@@ -52620,18 +52791,18 @@
         "bb_meaning": "limbs"
       },
       {
-        "sound": "no",
-        "meaning": "downward, extension below",
-        "bb_type": "root",
-        "bb_id": "bb-root-no",
-        "bb_href": "building_blocks_reference.html#bb-root-no",
-        "bb_meaning": "downward, extension below"
+        "sound": "nu",
+        "meaning": "limit",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-nu",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-nu",
+        "bb_meaning": "limit"
       }
     ],
     "rel": [
-      "couno",
-      "fano",
-      "leno"
+      "anu",
+      "donu",
+      "linu"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -52645,13 +52816,13 @@
         "bb_meaning": "limbs"
       },
       {
-        "sound": "no",
-        "meaning": "downward, extension below",
+        "sound": "nu",
+        "meaning": "limit (reach)",
         "position": "root",
         "bb_type": "root",
-        "bb_id": "bb-root-no",
-        "bb_href": "building_blocks_reference.html#bb-root-no",
-        "bb_meaning": "downward, extension below"
+        "bb_id": "bb-root-nu",
+        "bb_href": "building_blocks_reference.html#bb-root-nu",
+        "bb_meaning": "limit (reach)"
       }
     ],
     "search_terms": [
@@ -52684,7 +52855,7 @@
       "son, daughter",
       "va",
       "van",
-      "vano",
+      "vanu",
       "worship"
     ]
   },
@@ -52717,10 +52888,12 @@
     "rel": [
       "apanou",
       "ganou",
+      "ilinou",
       "janou",
       "leinou",
-      "wanou",
-      "winou"
+      "winou",
+      "yalnou",
+      "yesnou"
     ],
     "ex": [
       {
@@ -53223,8 +53396,8 @@
     ],
     "rel": [
       "joldur",
+      "todur",
       "vidur",
-      "yodur",
       "yudur"
     ],
     "ex": [
@@ -53392,7 +53565,9 @@
       "boemo",
       "jomo",
       "toumo",
-      "velmo"
+      "velmo",
+      "visomo",
+      "vonmo"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -53659,13 +53834,13 @@
     ]
   },
   {
-    "w": "varsi",
+    "w": "varpi",
     "e": "nose",
     "ea": "nose, smell, to smell, meddlesome, prying",
     "c": "body parts",
     "cs": "va",
     "sc": "var",
-    "r": "si",
+    "r": "pi",
     "bd": [
       {
         "sound": "var",
@@ -53676,12 +53851,8 @@
         "bb_meaning": "face"
       },
       {
-        "sound": "si",
-        "meaning": "nose",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-si",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-si",
-        "bb_meaning": "processes"
+        "sound": "pi",
+        "meaning": "nose"
       }
     ],
     "rel": [],
@@ -53703,13 +53874,9 @@
         "bb_meaning": "face"
       },
       {
-        "sound": "si",
+        "sound": "pi",
         "meaning": "nose",
-        "position": "root",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-si",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-si",
-        "bb_meaning": "processes"
+        "position": "root"
       }
     ],
     "search_terms": [
@@ -53747,7 +53914,7 @@
       "tooth",
       "va",
       "var",
-      "varsi",
+      "varpi",
       "viru",
       "virus"
     ]
@@ -53771,12 +53938,10 @@
       },
       {
         "sound": "sus",
-        "meaning": "hearing"
+        "meaning": "sound"
       }
     ],
-    "rel": [
-      "omsus"
-    ],
+    "rel": [],
     "ex": [
       {
         "o": "cali i varsus ca a wa i jolufu, i gafi e pohem.",
@@ -53796,7 +53961,7 @@
       },
       {
         "sound": "sus",
-        "meaning": "hearing",
+        "meaning": "sound",
         "position": "root"
       }
     ],
@@ -53928,8 +54093,8 @@
     "rel": [
       "asivi",
       "bosvi",
-      "favi",
       "levi",
+      "pohivi",
       "tohvi"
     ],
     "ex": [],
@@ -54142,7 +54307,9 @@
         "bb_meaning": "extreme"
       }
     ],
-    "rel": [],
+    "rel": [
+      "gahoh"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -54381,7 +54548,8 @@
     "rel": [
       "dohti",
       "hehti",
-      "jati"
+      "jati",
+      "titi"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -54529,7 +54697,6 @@
       }
     ],
     "rel": [
-      "eloto",
       "iloto"
     ],
     "ex": [],
@@ -54603,7 +54770,11 @@
         "bb_meaning": "balance"
       }
     ],
-    "rel": [],
+    "rel": [
+      "daelan",
+      "gaolan",
+      "jeolan"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -54677,7 +54848,9 @@
       "boemo",
       "jomo",
       "toumo",
-      "varmo"
+      "varmo",
+      "visomo",
+      "vonmo"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -54731,7 +54904,7 @@
     "c": "health",
     "cs": "ve",
     "sc": "vel",
-    "r": "uo",
+    "r": "luo",
     "bd": [
       {
         "sound": "vel",
@@ -54742,7 +54915,7 @@
         "bb_meaning": "medical treatments"
       },
       {
-        "sound": "uo",
+        "sound": "luo",
         "meaning": "exercise"
       }
     ],
@@ -54759,7 +54932,7 @@
         "bb_meaning": "medical treatments"
       },
       {
-        "sound": "uo",
+        "sound": "luo",
         "meaning": "exercise",
         "position": "root"
       }
@@ -54812,8 +54985,8 @@
     ],
     "rel": [
       "joldur",
+      "todur",
       "vardur",
-      "yodur",
       "yudur"
     ],
     "ex": [],
@@ -54892,7 +55065,10 @@
       "leigai",
       "litegai",
       "pogai",
-      "sigai"
+      "sigai",
+      "wilgai",
+      "yalgai",
+      "yugai"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -55183,29 +55359,52 @@
     "c": "interior body",
     "cs": "vi",
     "sc": "vis",
-    "r": "omo",
+    "r": "mo",
     "bd": [
       {
         "sound": "vis",
-        "meaning": "stomach"
+        "meaning": "organs",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-vis",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-vis",
+        "bb_meaning": "organs"
       },
       {
-        "sound": "omo",
-        "meaning": "stomach"
+        "sound": "mo",
+        "meaning": "eat",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-mo",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-mo",
+        "bb_meaning": "eat"
       }
     ],
-    "rel": [],
+    "rel": [
+      "boemo",
+      "jomo",
+      "toumo",
+      "varmo",
+      "velmo",
+      "vonmo"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
         "sound": "vis",
-        "meaning": "stomach",
-        "position": "subcluster"
+        "meaning": "organs",
+        "position": "subcluster",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-vis",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-vis",
+        "bb_meaning": "organs"
       },
       {
-        "sound": "omo",
-        "meaning": "stomach",
-        "position": "root"
+        "sound": "mo",
+        "meaning": "eat",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-mo",
+        "bb_href": "building_blocks_reference.html#bb-root-mo",
+        "bb_meaning": "eat"
       }
     ],
     "search_terms": [
@@ -55233,24 +55432,39 @@
     "bd": [
       {
         "sound": "vis",
-        "meaning": "brain"
+        "meaning": "organs",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-vis",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-vis",
+        "bb_meaning": "organs"
       },
       {
         "sound": "ro",
         "meaning": "thinking, reasoning",
-        "bb_type": "root",
-        "bb_id": "bb-root-ro",
-        "bb_href": "building_blocks_reference.html#bb-root-ro",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-ro",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-ro",
         "bb_meaning": "thinking, reasoning"
       }
     ],
-    "rel": [],
+    "rel": [
+      "anro",
+      "ciuro",
+      "doro",
+      "iliro",
+      "sero",
+      "yunro"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
         "sound": "vis",
-        "meaning": "brain",
-        "position": "subcluster"
+        "meaning": "organs",
+        "position": "subcluster",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-vis",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-vis",
+        "bb_meaning": "organs"
       },
       {
         "sound": "ro",
@@ -55497,9 +55711,11 @@
     "rel": [
       "asiwa",
       "leawa",
+      "luswa",
       "mawa",
+      "molwa",
       "poiwa",
-      "towa",
+      "touwa",
       "wimwa"
     ],
     "ex": [],
@@ -55728,7 +55944,12 @@
         "bb_meaning": "outside"
       }
     ],
-    "rel": [],
+    "rel": [
+      "anolu",
+      "boelulo",
+      "borlu",
+      "geyelu"
+    ],
     "ex": [
       {
         "o": "ce yo rune vonlu, vonyas, su vardei?",
@@ -55805,7 +56026,14 @@
         "bb_meaning": "eat"
       }
     ],
-    "rel": [],
+    "rel": [
+      "boemo",
+      "jomo",
+      "toumo",
+      "varmo",
+      "velmo",
+      "visomo"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -56009,6 +56237,7 @@
     ],
     "rel": [
       "anifou",
+      "gefou",
       "leafou",
       "yunfou"
     ],
@@ -56387,7 +56616,7 @@
     "c": "water",
     "cs": "wa",
     "sc": "wa",
-    "r": "gavir",
+    "r": "vir",
     "bd": [
       {
         "sound": "wa",
@@ -56400,9 +56629,23 @@
       {
         "sound": "gavir",
         "meaning": "limit"
+      },
+      {
+        "sound": "vir",
+        "meaning": "method",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-vir",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-vir",
+        "bb_meaning": "method"
       }
     ],
-    "rel": [],
+    "rel": [
+      "davir",
+      "gavir",
+      "ranvir",
+      "rovir",
+      "semvir"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -56418,6 +56661,15 @@
         "sound": "gavir",
         "meaning": "limit",
         "position": "root"
+      },
+      {
+        "sound": "vir",
+        "meaning": "method",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-vir",
+        "bb_href": "building_blocks_reference.html#bb-root-vir",
+        "bb_meaning": "method"
       }
     ],
     "search_terms": [
@@ -56445,13 +56697,13 @@
     ]
   },
   {
-    "w": "waimi",
+    "w": "wamitan",
     "e": "whale",
-    "ea": "whale, dolphin, cetacean",
+    "ea": "whale",
     "c": "water",
     "cs": "wa",
     "sc": "wa",
-    "r": "imi",
+    "r": "tan",
     "bd": [
       {
         "sound": "wa",
@@ -56462,11 +56714,28 @@
         "bb_meaning": "water, sea"
       },
       {
-        "sound": "imi",
-        "meaning": "whale"
+        "sound": "mi",
+        "meaning": "bigger animals",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-mi",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-mi",
+        "bb_meaning": "bigger animals"
+      },
+      {
+        "sound": "tan",
+        "meaning": "big",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-tan",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-tan",
+        "bb_meaning": "big"
       }
     ],
-    "rel": [],
+    "rel": [
+      "litetan",
+      "miotan",
+      "wiltan",
+      "yaltan"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -56479,31 +56748,44 @@
         "bb_meaning": "water, sea"
       },
       {
-        "sound": "imi",
-        "meaning": "whale",
-        "position": "root"
+        "sound": "mi",
+        "meaning": "bigger animals",
+        "position": "root",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-mi",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-mi",
+        "bb_meaning": "bigger animals"
+      },
+      {
+        "sound": "tan",
+        "meaning": "big",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-tan",
+        "bb_href": "building_blocks_reference.html#bb-root-tan",
+        "bb_meaning": "big"
       }
     ],
     "search_terms": [
-      "cave",
-      "cetacean",
-      "cliff",
+      "whale",
+      "shore",
       "dive",
-      "dolphin",
-      "fish",
-      "float",
-      "imi",
-      "ocean",
+      "whale, dolphin, cetacean",
+      "water, sea",
       "sail",
       "sea",
-      "shore",
-      "swim",
-      "wa",
-      "waimi",
+      "float",
+      "fish",
+      "imi",
+      "wamitan",
       "water",
-      "water, sea",
-      "whale",
-      "whale, dolphin, cetacean"
+      "cliff",
+      "dolphin",
+      "cetacean",
+      "cave",
+      "wa",
+      "ocean",
+      "swim"
     ]
   },
   {
@@ -56535,7 +56817,8 @@
     "rel": [
       "aslufu",
       "helufu",
-      "jolufu"
+      "jolufu",
+      "pohufu"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -56667,7 +56950,11 @@
         "bb_meaning": "small animal"
       }
     ],
-    "rel": [],
+    "rel": [
+      "mimu",
+      "timu",
+      "yemu"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -56996,14 +57283,17 @@
       },
       {
         "sound": "wowo",
-        "meaning": "float",
-        "bb_type": "root",
-        "bb_id": "bb-root-wowo",
-        "bb_href": "building_blocks_reference.html#bb-root-wowo",
-        "bb_meaning": "back-and-forth motion"
+        "meaning": "oscillate",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-wowo",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-wowo",
+        "bb_meaning": "oscillate"
       }
     ],
-    "rel": [],
+    "rel": [
+      "asoyo",
+      "dowowo"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -57017,12 +57307,12 @@
       },
       {
         "sound": "wowo",
-        "meaning": "float",
+        "meaning": "oscillate",
         "position": "root",
         "bb_type": "root",
         "bb_id": "bb-root-wowo",
         "bb_href": "building_blocks_reference.html#bb-root-wowo",
-        "bb_meaning": "back-and-forth motion"
+        "bb_meaning": "oscillate"
       }
     ],
     "search_terms": [
@@ -57215,11 +57505,11 @@
       },
       {
         "sound": "le",
-        "meaning": "area",
-        "bb_type": "root",
-        "bb_id": "bb-root-le",
-        "bb_href": "building_blocks_reference.html#bb-root-le",
-        "bb_meaning": "area"
+        "meaning": "environment",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-le",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-le",
+        "bb_meaning": "environment"
       }
     ],
     "rel": [
@@ -57238,12 +57528,12 @@
       },
       {
         "sound": "le",
-        "meaning": "area",
+        "meaning": "environment",
         "position": "root",
         "bb_type": "root",
         "bb_id": "bb-root-le",
         "bb_href": "building_blocks_reference.html#bb-root-le",
-        "bb_meaning": "area"
+        "bb_meaning": "environment"
       }
     ],
     "search_terms": [
@@ -57271,13 +57561,13 @@
     ]
   },
   {
-    "w": "wileon",
+    "w": "wilwatai",
     "e": "canal",
-    "ea": "canal, channel, gutter, moat",
+    "ea": "canal",
     "c": "geography",
     "cs": "wi",
     "sc": "wil",
-    "r": "eon",
+    "r": "tai",
     "bd": [
       {
         "sound": "wil",
@@ -57288,11 +57578,28 @@
         "bb_meaning": "human made geography"
       },
       {
-        "sound": "eon",
-        "meaning": "canal"
+        "sound": "wa",
+        "meaning": "water",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-wa",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-wa",
+        "bb_meaning": "water"
+      },
+      {
+        "sound": "tai",
+        "meaning": "guide",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-tai",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-tai",
+        "bb_meaning": "guide"
       }
     ],
-    "rel": [],
+    "rel": [
+      "antai",
+      "apahotai",
+      "jetai",
+      "rastai"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -57305,28 +57612,41 @@
         "bb_meaning": "human made geography"
       },
       {
-        "sound": "eon",
-        "meaning": "canal",
-        "position": "root"
+        "sound": "wa",
+        "meaning": "water",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-wa",
+        "bb_href": "building_blocks_reference.html#bb-root-wa",
+        "bb_meaning": "water"
+      },
+      {
+        "sound": "tai",
+        "meaning": "guide",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-tai",
+        "bb_href": "building_blocks_reference.html#bb-root-tai",
+        "bb_meaning": "guide"
       }
     ],
     "search_terms": [
-      "bridge",
-      "canal",
-      "canal, channel, gutter, moat",
-      "channel",
-      "city",
-      "eon",
-      "geography",
       "gutter",
       "human",
-      "human made geography",
-      "made",
-      "moat",
-      "village",
       "wi",
+      "city",
+      "bridge",
       "wil",
-      "wileon"
+      "canal",
+      "village",
+      "moat",
+      "made",
+      "geography",
+      "channel",
+      "canal, channel, gutter, moat",
+      "eon",
+      "human made geography",
+      "wilwatai"
     ]
   },
   {
@@ -57361,7 +57681,10 @@
       "leigai",
       "litegai",
       "pogai",
-      "sigai"
+      "sigai",
+      "vigai",
+      "yalgai",
+      "yugai"
     ],
     "ex": [
       {
@@ -57516,6 +57839,7 @@
     "rel": [
       "litetan",
       "miotan",
+      "wamitan",
       "yaltan"
     ],
     "ex": [],
@@ -57738,9 +58062,10 @@
       "aparih",
       "elarih",
       "ganrih",
-      "ganrih",
       "heirih",
-      "jarih"
+      "jarih",
+      "jerih",
+      "leirih"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -57877,9 +58202,11 @@
     "rel": [
       "asiwa",
       "leawa",
+      "luswa",
       "mawa",
+      "molwa",
       "poiwa",
-      "towa",
+      "touwa",
       "viwa"
     ],
     "ex": [],
@@ -57957,10 +58284,12 @@
     "rel": [
       "apanou",
       "ganou",
+      "ilinou",
       "janou",
       "leinou",
       "vanou",
-      "wanou"
+      "yalnou",
+      "yesnou"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -58196,11 +58525,12 @@
       }
     ],
     "rel": [
+      "dayar",
       "heoyar",
-      "iliyar",
       "liyar",
       "luyar",
       "oiyar",
+      "ranyar",
       "yoyar"
     ],
     "ex": [],
@@ -58269,23 +58599,18 @@
         "bb_meaning": "objective qualities"
       },
       {
-        "sound": "de",
-        "meaning": "origin, from",
-        "bb_type": "root",
-        "bb_id": "bb-root-de",
-        "bb_href": "building_blocks_reference.html#bb-root-de",
-        "bb_meaning": "origin, from"
-      },
-      {
-        "sound": "tu",
-        "meaning": "conflict",
+        "sound": "detu",
+        "meaning": "end",
         "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-tu",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-tu",
-        "bb_meaning": "conflict"
+        "bb_id": "bb-subcluster-detu",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-detu",
+        "bb_meaning": "end"
       }
     ],
-    "rel": [],
+    "rel": [
+      "heohodetu",
+      "tidetu"
+    ],
     "ex": [
       {
         "o": "lunu yadetu i iloi a lusari",
@@ -58304,22 +58629,13 @@
         "bb_meaning": "objective qualities"
       },
       {
-        "sound": "de",
-        "meaning": "origin, from",
+        "sound": "detu",
+        "meaning": "end",
         "position": "root",
         "bb_type": "root",
-        "bb_id": "bb-root-de",
-        "bb_href": "building_blocks_reference.html#bb-root-de",
-        "bb_meaning": "origin, from"
-      },
-      {
-        "sound": "tu",
-        "meaning": "conflict",
-        "position": "root",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-tu",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-tu",
-        "bb_meaning": "conflict"
+        "bb_id": "bb-root-detu",
+        "bb_href": "building_blocks_reference.html#bb-root-detu",
+        "bb_meaning": "end"
       }
     ],
     "search_terms": [
@@ -58383,6 +58699,7 @@
       }
     ],
     "rel": [
+      "jahci",
       "vanci"
     ],
     "ex": [
@@ -58461,7 +58778,10 @@
         "bb_meaning": "firm"
       }
     ],
-    "rel": [],
+    "rel": [
+      "bogor",
+      "daegor"
+    ],
     "ex": [
       {
         "o": "a nim anidai a yahgor.",
@@ -58830,7 +59150,10 @@
       "leigai",
       "litegai",
       "pogai",
-      "sigai"
+      "sigai",
+      "vigai",
+      "wilgai",
+      "yugai"
     ],
     "ex": [
       {
@@ -58995,10 +59318,12 @@
     "rel": [
       "apanou",
       "ganou",
+      "ilinou",
       "janou",
       "leinou",
       "vanou",
-      "wanou"
+      "winou",
+      "yesnou"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -59084,6 +59409,7 @@
     "rel": [
       "litetan",
       "miotan",
+      "wamitan",
       "wiltan"
     ],
     "ex": [
@@ -59461,7 +59787,6 @@
     ],
     "rel": [
       "falni",
-      "jani",
       "leini",
       "maeni",
       "rani"
@@ -60020,7 +60345,9 @@
       }
     ],
     "rel": [
-      "timu"
+      "mimu",
+      "timu",
+      "wamu"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -60303,10 +60630,12 @@
     "rel": [
       "apanou",
       "ganou",
+      "ilinou",
       "janou",
       "leinou",
       "vanou",
-      "wanou"
+      "winou",
+      "yalnou"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -60687,7 +61016,7 @@
     "c": "clothing",
     "cs": "ye",
     "sc": "ye",
-    "r": "wamus",
+    "r": "mus",
     "bd": [
       {
         "sound": "ye",
@@ -60698,8 +61027,16 @@
         "bb_meaning": "clothing and fabric"
       },
       {
-        "sound": "wamus",
-        "meaning": "water + bug"
+        "sound": "wa",
+        "meaning": "water",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-wa",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-wa",
+        "bb_meaning": "water"
+      },
+      {
+        "sound": "mus",
+        "meaning": "bug"
       }
     ],
     "rel": [],
@@ -60715,8 +61052,17 @@
         "bb_meaning": "clothing and fabric"
       },
       {
-        "sound": "wamus",
-        "meaning": "water + bug",
+        "sound": "wa",
+        "meaning": "water",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-wa",
+        "bb_href": "building_blocks_reference.html#bb-root-wa",
+        "bb_meaning": "water"
+      },
+      {
+        "sound": "mus",
+        "meaning": "bug",
         "position": "root"
       }
     ],
@@ -60834,13 +61180,13 @@
     ]
   },
   {
-    "w": "yeyul",
+    "w": "yemuh",
     "e": "feather",
     "ea": "feather",
     "c": "clothing",
     "cs": "ye",
     "sc": "ye",
-    "r": "yul",
+    "r": "muh",
     "bd": [
       {
         "sound": "ye",
@@ -60851,8 +61197,12 @@
         "bb_meaning": "clothing and fabric"
       },
       {
-        "sound": "yul",
-        "meaning": "feather"
+        "sound": "muh",
+        "meaning": "flying animals",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-muh",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-muh",
+        "bb_meaning": "flying animals"
       }
     ],
     "rel": [],
@@ -60868,9 +61218,13 @@
         "bb_meaning": "clothing and fabric"
       },
       {
-        "sound": "yul",
-        "meaning": "feather",
-        "position": "root"
+        "sound": "muh",
+        "meaning": "flying animals",
+        "position": "root",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-muh",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-muh",
+        "bb_meaning": "flying animals"
       }
     ],
     "search_terms": [
@@ -60888,7 +61242,7 @@
       "silk",
       "stripe",
       "ye",
-      "yeyul",
+      "yemuh",
       "yul"
     ]
   },
@@ -61055,14 +61409,17 @@
       },
       {
         "sound": "poh",
-        "meaning": "red",
-        "bb_type": "root",
-        "bb_id": "bb-root-poh",
-        "bb_href": "building_blocks_reference.html#bb-root-poh",
-        "bb_meaning": "energy"
+        "meaning": "energy, fire",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-poh",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-poh",
+        "bb_meaning": "energy, fire"
       }
     ],
-    "rel": [],
+    "rel": [
+      "oipoh",
+      "pohpoh"
+    ],
     "ex": [
       {
         "o": "hay i none e yopoh vosyas.",
@@ -61082,12 +61439,12 @@
       },
       {
         "sound": "poh",
-        "meaning": "red",
+        "meaning": "energy, fire",
         "position": "root",
         "bb_type": "root",
         "bb_id": "bb-root-poh",
         "bb_href": "building_blocks_reference.html#bb-root-poh",
-        "bb_meaning": "energy"
+        "bb_meaning": "energy, fire"
       }
     ],
     "search_terms": [
@@ -61209,11 +61566,12 @@
       }
     ],
     "rel": [
+      "dayar",
       "heoyar",
-      "iliyar",
       "liyar",
       "luyar",
       "oiyar",
+      "ranyar",
       "wiyar"
     ],
     "ex": [],
@@ -61281,7 +61639,9 @@
         "bb_meaning": "colors"
       }
     ],
-    "rel": [],
+    "rel": [
+      "leayo"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -61566,9 +61926,9 @@
     ],
     "rel": [
       "joldur",
+      "todur",
       "vardur",
-      "vidur",
-      "yodur"
+      "vidur"
     ],
     "ex": [
       {
@@ -61729,7 +62089,10 @@
       "leigai",
       "litegai",
       "pogai",
-      "sigai"
+      "sigai",
+      "vigai",
+      "wilgai",
+      "yalgai"
     ],
     "ex": [
       {
@@ -61897,14 +62260,17 @@
       },
       {
         "sound": "min",
-        "meaning": "satisfaction",
-        "bb_type": "root",
-        "bb_id": "bb-root-min",
-        "bb_href": "building_blocks_reference.html#bb-root-min",
+        "meaning": "pleasure",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-min",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-min",
         "bb_meaning": "pleasure"
       }
     ],
-    "rel": [],
+    "rel": [
+      "oimin",
+      "oivamin"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -61918,7 +62284,7 @@
       },
       {
         "sound": "min",
-        "meaning": "satisfaction",
+        "meaning": "pleasure",
         "position": "root",
         "bb_type": "root",
         "bb_id": "bb-root-min",
@@ -61976,6 +62342,7 @@
     ],
     "rel": [
       "anifou",
+      "gefou",
       "leafou",
       "vosfou"
     ],
@@ -62201,7 +62568,10 @@
         "bb_meaning": "one"
       }
     ],
-    "rel": [],
+    "rel": [
+      "coutam",
+      "litam"
+    ],
     "ex": [
       {
         "o": "en bo i dami a yunitam mo",
@@ -62293,7 +62663,8 @@
     "rel": [
       "danmir",
       "heimir",
-      "roumir"
+      "roumir",
+      "simir"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -62529,7 +62900,7 @@
       "doro",
       "iliro",
       "sero",
-      "siro"
+      "visro"
     ],
     "ex": [
       {
@@ -62658,13 +63029,13 @@
     ]
   },
   {
-    "w": "yurya",
+    "w": "yuniu",
     "e": "rare",
     "ea": "rare, unusual, weird, strange",
     "c": "subjective qualities",
     "cs": "yu",
     "sc": "yu",
-    "r": "rya",
+    "r": "niu",
     "bd": [
       {
         "sound": "yu",
@@ -62675,11 +63046,20 @@
         "bb_meaning": "subjective qualities"
       },
       {
-        "sound": "rya",
-        "meaning": "rare"
+        "sound": "niu",
+        "meaning": "some",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-niu",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-niu",
+        "bb_meaning": "some"
       }
     ],
-    "rel": [],
+    "rel": [
+      "borniu",
+      "daeniu",
+      "joniu",
+      "noniu"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -62692,9 +63072,13 @@
         "bb_meaning": "subjective qualities"
       },
       {
-        "sound": "rya",
-        "meaning": "rare",
-        "position": "root"
+        "sound": "niu",
+        "meaning": "some (few)",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-niu",
+        "bb_href": "building_blocks_reference.html#bb-root-niu",
+        "bb_meaning": "some (few)"
       }
     ],
     "search_terms": [
@@ -62718,7 +63102,7 @@
       "unusual",
       "weird",
       "yu",
-      "yurya"
+      "yuniu"
     ]
   },
   {
@@ -62801,6 +63185,263 @@
       "vabo",
       "yu",
       "yuvabo"
+    ]
+  },
+  {
+    "w": "anu",
+    "e": "close",
+    "ea": "close, shut",
+    "c": "volitional action",
+    "cs": "an",
+    "sc": "an",
+    "r": "nu",
+    "bd": [
+      {
+        "sound": "an",
+        "meaning": "action",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-an",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-an",
+        "bb_meaning": "action"
+      },
+      {
+        "sound": "nu",
+        "meaning": "limit",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-nu",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-nu",
+        "bb_meaning": "limit"
+      }
+    ],
+    "rel": [
+      "donu",
+      "linu",
+      "vanu"
+    ],
+    "ex": [],
+    "syllable_meanings": [
+      {
+        "sound": "an",
+        "meaning": "action",
+        "position": "subcluster",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-an",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-an",
+        "bb_meaning": "action"
+      },
+      {
+        "sound": "nu",
+        "meaning": "limit (reach)",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-nu",
+        "bb_href": "building_blocks_reference.html#bb-root-nu",
+        "bb_meaning": "limit (reach)"
+      }
+    ],
+    "search_terms": [
+      "action",
+      "an",
+      "anu",
+      "close",
+      "limit",
+      "nu",
+      "shut",
+      "volitional action"
+    ]
+  },
+  {
+    "w": "anilie",
+    "e": "maybe",
+    "ea": "maybe, try, attempt",
+    "c": "volitional action",
+    "cs": "an",
+    "sc": "an",
+    "r": "ilie",
+    "bd": [
+      {
+        "sound": "an",
+        "meaning": "action",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-an",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-an",
+        "bb_meaning": "action"
+      },
+      {
+        "sound": "ilie",
+        "meaning": "maybe"
+      }
+    ],
+    "rel": [],
+    "ex": [],
+    "syllable_meanings": [
+      {
+        "sound": "an",
+        "meaning": "action",
+        "position": "subcluster",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-an",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-an",
+        "bb_meaning": "action"
+      },
+      {
+        "sound": "ilie",
+        "meaning": "maybe",
+        "position": "root"
+      }
+    ],
+    "search_terms": [
+      "action",
+      "an",
+      "anilie",
+      "attempt",
+      "ilie",
+      "maybe",
+      "try",
+      "volitional action"
+    ]
+  },
+  {
+    "w": "vatale",
+    "e": "neck",
+    "ea": "neck, throat",
+    "c": "body parts",
+    "cs": "va",
+    "sc": "va",
+    "r": "tale",
+    "bd": [
+      {
+        "sound": "va",
+        "meaning": "core",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-va",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-va",
+        "bb_meaning": "core"
+      },
+      {
+        "sound": "tale",
+        "meaning": "through",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-tale",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-tale",
+        "bb_meaning": "through"
+      }
+    ],
+    "rel": [
+      "boetale",
+      "jentale",
+      "tostale"
+    ],
+    "ex": [],
+    "syllable_meanings": [
+      {
+        "sound": "va",
+        "meaning": "core",
+        "position": "subcluster",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-va",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-va",
+        "bb_meaning": "core"
+      },
+      {
+        "sound": "tale",
+        "meaning": "through",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-tale",
+        "bb_href": "building_blocks_reference.html#bb-root-tale",
+        "bb_meaning": "through"
+      }
+    ],
+    "search_terms": [
+      "body",
+      "body parts",
+      "neck",
+      "tale",
+      "throat",
+      "through",
+      "va",
+      "vatale"
+    ]
+  },
+  {
+    "w": "oivamin",
+    "e": "sex",
+    "ea": "sex, sensual pleasure",
+    "c": "fun",
+    "cs": "oi",
+    "sc": "oi",
+    "r": "min",
+    "bd": [
+      {
+        "sound": "oi",
+        "meaning": "fun",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-oi",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-oi",
+        "bb_meaning": "fun"
+      },
+      {
+        "sound": "va",
+        "meaning": "core",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-va",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-va",
+        "bb_meaning": "core"
+      },
+      {
+        "sound": "min",
+        "meaning": "pleasure",
+        "bb_type": "root",
+        "bb_id": "bb-root-min",
+        "bb_href": "building_blocks_reference.html#bb-root-min",
+        "bb_meaning": "pleasure"
+      }
+    ],
+    "rel": [
+      "oimin",
+      "yumin"
+    ],
+    "ex": [],
+    "syllable_meanings": [
+      {
+        "sound": "oi",
+        "meaning": "fun",
+        "position": "subcluster",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-oi",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-oi",
+        "bb_meaning": "fun"
+      },
+      {
+        "sound": "va",
+        "meaning": "body parts",
+        "position": "root",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-va",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-va",
+        "bb_meaning": "body parts"
+      },
+      {
+        "sound": "min",
+        "meaning": "pleasure",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-min",
+        "bb_href": "building_blocks_reference.html#bb-root-min",
+        "bb_meaning": "pleasure"
+      }
+    ],
+    "search_terms": [
+      "body",
+      "fun",
+      "min",
+      "oi",
+      "oivamin",
+      "pleasure",
+      "sensual",
+      "sex",
+      "va"
     ]
   }
 ]

@@ -15,8 +15,6 @@
       "anlor",
       "anlorfi",
       "anomi",
-      "anun",
-      "anodu",
       "anparu",
       "anro",
       "ansau",
@@ -25,7 +23,9 @@
       "antori",
       "antufu",
       "anvu",
-      "anye"
+      "anye",
+      "anilie",
+      "anu"
     ],
     "english": [
       "turn",
@@ -38,8 +38,6 @@
       "benefit",
       "privilege",
       "right",
-      "try",
-      "shut",
       "preparation",
       "decide",
       "start",
@@ -48,7 +46,9 @@
       "open",
       "spread",
       "move",
-      "make"
+      "make",
+      "maybe",
+      "close, shut"
     ],
     "natural_language": "PIE *h₂en- (to breathe/live)"
   },
@@ -160,7 +160,7 @@
     "type": "subcluster",
     "sound": "as",
     "cluster": "bodily actions",
-    "meaning": "involuntary bodily functions",
+    "meaning": "bodily functions",
     "oravia": [
       "asano",
       "asensau",
@@ -223,7 +223,7 @@
     "type": "subcluster",
     "sound": "asu",
     "cluster": "bodily actions",
-    "meaning": "involuntary vocal acts",
+    "meaning": "vocal acts",
     "oravia": [
       "asucin",
       "asuifi",
@@ -629,7 +629,7 @@
     "type": "subcluster",
     "sound": "ela",
     "cluster": "wonder",
-    "meaning": "religious",
+    "meaning": "sacred",
     "oravia": [
       "elanato",
       "elano",
@@ -970,14 +970,14 @@
   },
   {
     "type": "subcluster",
-    "sound": "gel",
+    "sound": "geh",
     "cluster": "finances",
-    "meaning": "trading",
+    "meaning": "sales",
     "oravia": [
-      "geldove",
-      "gelna",
-      "gelsar",
-      "gelvio"
+      "gehdove",
+      "gehna",
+      "gehsar",
+      "gehvio"
     ],
     "english": [
       "sell",
@@ -985,7 +985,7 @@
       "charge",
       "exchange"
     ],
-    "natural_language": "German Geld/gelten (to be worth, to trade); Dutch gelden (to be valid, trade value)"
+    "natural_language": "German gelten (to be worth, to trade)"
   },
   {
     "type": "subcluster",
@@ -1140,7 +1140,6 @@
       "ilofun",
       "iloi",
       "ilonya",
-      "ilotanu",
       "iloto"
     ],
     "english": [
@@ -1148,7 +1147,6 @@
       "doubt",
       "hope",
       "forget",
-      "surprise",
       "worry"
     ],
     "natural_language": "English illusion"
@@ -1763,7 +1761,7 @@
     "oravia": [
       "mufis",
       "mufiva",
-      "mujas",
+      "muvardur",
       "muliwa",
       "mus",
       "muvuson",
@@ -1794,7 +1792,7 @@
     "english": [
       "eagle",
       "bee",
-      "butterfly",
+      "bird",
       "mosquito"
     ],
     "natural_language": "Persian morgh (bird); Hindi murgā (rooster)"
@@ -1897,7 +1895,7 @@
       "oines",
       "oipili",
       "oipoh",
-      "oivaira",
+      "oivamin",
       "oiyar"
     ],
     "english": [
@@ -1915,7 +1913,7 @@
       "sex",
       "star"
     ],
-    "natural_language": "Yiddish/English oy (exclamation of feeling)"
+    "natural_language": "English joy"
   },
   {
     "type": "subcluster",
@@ -1984,13 +1982,13 @@
       "alcohol",
       "chemical"
     ],
-    "natural_language": "Mandarin 泡 (pào = bubble, chemical reaction); Japanese 泡 (awa/poa = bubble, chemical foam)"
+    "natural_language": ""
   },
   {
     "type": "subcluster",
     "sound": "poh",
     "cluster": "components",
-    "meaning": "energy",
+    "meaning": "energy, fire",
     "oravia": [
       "pohcavo",
       "pohem",
@@ -2138,7 +2136,7 @@
     "type": "subcluster",
     "sound": "ro",
     "cluster": "knowledge",
-    "meaning": "knowledge",
+    "meaning": "knowledge, thinking",
     "oravia": [
       "rora",
       "rodel",
@@ -2200,7 +2198,6 @@
       "sepopo",
       "sepuni",
       "sero",
-      "sesa",
       "seseri",
       "setin",
       "sever"
@@ -2211,7 +2208,6 @@
       "echo",
       "command",
       "memory",
-      "machine",
       "menu",
       "package",
       "key"
@@ -2265,7 +2261,7 @@
       "simia",
       "simira",
       "siram",
-      "sirosa",
+      "sirose",
       "sita",
       "siur",
       "siyal"
@@ -2375,13 +2371,13 @@
     "meaning": "suffering, distress",
     "oravia": [
       "todur",
-      "toge",
+      "togei",
       "tolenu",
       "toleu",
       "tonan",
       "tonul",
-      "tovei",
-      "towa"
+      "touvei",
+      "touwa"
     ],
     "english": [
       "problem",
@@ -2454,13 +2450,17 @@
       "toului",
       "toumo",
       "tounir",
-      "touros"
+      "touros",
+      "touvei",
+      "touwa"
     ],
     "english": [
       "tired",
       "hungry",
       "weak",
-      "tense"
+      "tense",
+      "illness",
+      "thirst"
     ],
     "natural_language": ""
   },
@@ -2528,15 +2528,17 @@
       "vavari",
       "vavi",
       "vawe",
-      "vawol"
+      "vawol",
+      "vatale"
     ],
     "english": [
-      "neck",
+      "spine",
       "butt",
       "back",
       "pelvis",
       "shoulder",
-      "chest"
+      "chest",
+      "neck"
     ],
     "natural_language": "Sanskrit वायु (vāyu = vital wind/breath)"
   },
@@ -2549,7 +2551,7 @@
       "vanci",
       "vandi",
       "vanen",
-      "vano",
+      "vanu",
       "vanpai",
       "vanru",
       "vanta",
@@ -2580,7 +2582,7 @@
       "varodu",
       "varon",
       "varparo",
-      "varsi",
+      "varpi",
       "varsus"
     ],
     "english": [
@@ -2661,13 +2663,13 @@
       "blood",
       "breast"
     ],
-    "natural_language": "Proto-Bantu *-vim- (becoming thick); Latin vita (life force, interior body)"
+    "natural_language": "Latin vita (life force, interior body)"
   },
   {
     "type": "subcluster",
     "sound": "vir",
     "cluster": "interior body",
-    "meaning": "organs",
+    "meaning": "method",
     "oravia": [
       "virfiyur",
       "viro",
@@ -2680,7 +2682,26 @@
       "stomach",
       "organ"
     ],
-    "natural_language": ""
+    "natural_language": "Sanskrit vṛt (to proceed, method, procedure)"
+  },
+  {
+    "type": "subcluster",
+    "sound": "vis",
+    "cluster": "interior body",
+    "meaning": "organs",
+    "oravia": [
+      "visomo",
+      "visro",
+      "visgai",
+      "visvir"
+    ],
+    "english": [
+      "stomach",
+      "brain",
+      "cell tissue",
+      "organ"
+    ],
+    "natural_language": "Latin viscera (internal organs)"
   },
   {
     "type": "subcluster",
@@ -2733,7 +2754,7 @@
     "meaning": "water, sea",
     "oravia": [
       "wagavir",
-      "waimi",
+      "wamitan",
       "walufu",
       "wamon",
       "wamu",
@@ -2790,7 +2811,7 @@
     "cluster": "geography",
     "meaning": "human made geography",
     "oravia": [
-      "wileon",
+      "wilwatai",
       "wilgai",
       "wiltan",
       "wilyel"
@@ -2845,7 +2866,7 @@
       "fast",
       "slow"
     ],
-    "natural_language": "Swahili -a (Bantu adjectival linker)"
+    "natural_language": ""
   },
   {
     "type": "subcluster",
@@ -2904,7 +2925,7 @@
       "yemu",
       "yewamus",
       "yeyel",
-      "yeyul"
+      "yemuh"
     ],
     "english": [
       "stripe",
@@ -2985,7 +3006,7 @@
       "yuloa",
       "yumin",
       "yuparde",
-      "yurya",
+      "yuniu",
       "yuvabo"
     ],
     "english": [
@@ -3580,7 +3601,7 @@
     "meaning": "finances",
     "oravia": [
       "rage",
-      "toge"
+      "togei"
     ],
     "english": [
       "economy",
@@ -3893,7 +3914,7 @@
   {
     "type": "root",
     "sound": "le",
-    "meaning": "area",
+    "meaning": "environment",
     "oravia": [
       "jele",
       "wile"
@@ -4258,7 +4279,7 @@
     "english": [
       "aid",
       "support",
-      "neck"
+      "spine"
     ],
     "natural_language": ""
   },
@@ -4316,7 +4337,7 @@
       "buy",
       "teach"
     ],
-    "natural_language": "Proto-Bantu *-nab-/*-na (to give); Hindi देना/ना denā (to give); Latin donare (to give, donate)"
+    "natural_language": "Hindi देना/ना denā (to give); Latin donare (to give, donate)"
   },
   {
     "type": "root",
@@ -4418,7 +4439,7 @@
       "elano",
       "fano",
       "leno",
-      "vano"
+      "vanu"
     ],
     "english": [
       "sentence",
@@ -4507,11 +4528,9 @@
     "sound": "odu",
     "meaning": "top",
     "oravia": [
-      "anodu",
       "varodu"
     ],
     "english": [
-      "shut",
       "head"
     ],
     "natural_language": ""
@@ -4606,7 +4625,7 @@
       "fairy",
       "flower",
       "spring",
-      "butterfly",
+      "bird",
       "cute",
       "piano"
     ],
@@ -4690,11 +4709,15 @@
     "meaning": "sudden",
     "oravia": [
       "siram",
-      "tulram"
+      "tulram",
+      "toram",
+      "iloram"
     ],
     "english": [
       "flash",
-      "explode"
+      "explode",
+      "sudden",
+      "surprise"
     ],
     "natural_language": "Latin raptim (suddenly, rapidly)"
   },
@@ -4989,12 +5012,14 @@
     "oravia": [
       "rastai",
       "antai",
-      "jetai"
+      "jetai",
+      "wilwatai"
     ],
     "english": [
       "politics",
       "lead",
-      "direction"
+      "direction",
+      "canal"
     ],
     "natural_language": "Mandarin 带 dài (lead)"
   },
@@ -5017,7 +5042,7 @@
   {
     "type": "root",
     "sound": "tale",
-    "meaning": "passage",
+    "meaning": "through",
     "oravia": [
       "tostale",
       "boetale",
@@ -5280,7 +5305,7 @@
       "emotion",
       "pelvis"
     ],
-    "natural_language": "Proto-Bantu *-vim- (becoming thick); Latin vita (life force, interior body)"
+    "natural_language": "Latin vita (life force, interior body)"
   },
   {
     "type": "root",
@@ -5396,7 +5421,8 @@
       "poiwa",
       "towa",
       "viwa",
-      "wimwa"
+      "wimwa",
+      "wilwatai"
     ],
     "english": [
       "jar",
@@ -5406,7 +5432,8 @@
       "liquid",
       "thirst",
       "blood",
-      "lake"
+      "lake",
+      "canal"
     ],
     "natural_language": "Polynesian root wai (water)"
   },
@@ -5433,7 +5460,7 @@
   {
     "type": "root",
     "sound": "wowo",
-    "meaning": "back-and-forth motion",
+    "meaning": "oscillate",
     "oravia": [
       "dowowo",
       "wawowo"
@@ -5456,7 +5483,7 @@
       "name",
       "invite"
     ],
-    "natural_language": "Swahili -a (Bantu adjectival linker)"
+    "natural_language": ""
   },
   {
     "type": "root",
@@ -5573,6 +5600,22 @@
       "sky",
       "ocean",
       "blue"
+    ],
+    "natural_language": ""
+  },
+  {
+    "type": "root",
+    "sound": "lor",
+    "meaning": "benefit",
+    "oravia": [
+      "anlor",
+      "anliulor",
+      "anlorfi"
+    ],
+    "english": [
+      "benefit",
+      "service",
+      "privilege"
     ],
     "natural_language": ""
   }

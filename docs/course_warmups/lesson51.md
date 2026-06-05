@@ -312,6 +312,22 @@ function initWarmup() {
         document.getElementById('show-answers-btn').addEventListener('click', function() {
             document.querySelectorAll('.answer-col').forEach(col => col.style.display = 'table-cell');
             this.style.display = 'none';
+            // Log warm-up self-assessment
+            const log = JSON.parse(localStorage.getItem('oravia_log') || '[]');
+            const lessonId = window.location.pathname.split('/').filter(Boolean).pop().replace('.html','');
+            warmupWords.forEach(function(word) {
+                const checked = document.getElementById('check-' + word.id);
+                log.push({
+                    timestamp: new Date().toISOString(),
+                    lesson: lessonId,
+                    word_id: word.id,
+                    oravia: word.oravia,
+                    english: word.english,
+                    type: 'warmup',
+                    correct: checked ? checked.checked : false
+                });
+            });
+            localStorage.setItem('oravia_log', JSON.stringify(log));
         });
     }
     const backBtn = document.getElementById('back-to-assessment-btn');

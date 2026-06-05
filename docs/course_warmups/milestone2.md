@@ -32,7 +32,7 @@ Lina i anifi en roedom. Hay i anvuis en bortal cali i vardei norven Ana en borlu
 
 “Ga lidastorar, yudur. A roena hai a anodu yahci.”
 
-Lina i vardei e mo ca Ana i boemo. I varsi yuba.
+Lina i vardei e mo ca Ana i boemo. I varpi yuba.
 
 “Ce hoi?”
 
@@ -152,7 +152,7 @@ tevaen = Friday
 toharou = anxious  
 toului = tired  
 vardei = eye, see, look  
-varsi = nose, smell  
+varpi = nose, smell  
 vil = obligation, must  
 yahci = sharp  
 yadetu = finish  

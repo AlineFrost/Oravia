@@ -56,7 +56,7 @@ This grammar document aims to be comprehensive, and as such has more advanced or
 <p><em>Root</em> - typically the rest of the word after subtracting the (sub)cluster, creating cross-cluster associations (e.g., LEM = remain, like BEILEM = vehicle + remain = station).</p>
 <p><em>Building Blocks</em> - all the clusters, subclusters and roots, which form the syllable-meaning associations of Oravia (e.g., ANE = static movement, LEM = remain, BEI = vehicle).</p>
 <p><em>Marker</em> - they indicate the syntactic role of a word in a sentence by introducing blocks (e.g., [SUBJECT my mom and I] [VERB give freely] [DIRECT OBJECT homemade food] [INDIRECT OBJECT to people in need]). The markers are a (subject), i (verb), e (direct object), u (indirect object, to, for), o (emphasis).</p>
-<p><em>Compounds</em> - two or more words indicating together a concept (e.g., yedia yaltana miau = striped-big-cat = tiger). When a preceding word is a compound rather than an adjective, you attach -a to the end of it. </p>
+<p><em>Compounds</em> - two or more words indicating together a concept (e.g., yedigu yaltangu miau = striped-big-cat = tiger). When a preceding word is a compound rather than an adjective, you attach -gu to the end of it. </p>
 <p><em>Hyphenated </em>- two words joined together for flavor or fine-grained meaning (e.g., ilofun-vardei = to hesitant-look).</p>
 </div>
 </details>
@@ -686,21 +686,21 @@ en bo i dami a yunitam mo   → in the house there is a special dish</pre>
 <table>
 <tr><th>Phrase</th><th>Reading</th></tr>
 <tr><td>yaltan miau</td><td>a big cat (any big cat, descriptive)</td></tr>
-<tr><td>yaltana miau</td><td>big-cat as a type = lion or tiger</td></tr>
-<tr><td>yedia yaltana miau</td><td>striped-big-cat = tiger specifically</td></tr>
+<tr><td>yaltangu miau</td><td>big-cat as a type = lion or tiger</td></tr>
+<tr><td>yedigu yaltangu miau</td><td>striped-big-cat = tiger specifically</td></tr>
 <tr><td>yahlul yaltan apafene</td><td>a seat that is soft and big</td></tr>
-<tr><td>yahlula yaltana apafene</td><td>soft-big-seat = couch (concept)</td></tr>
+<tr><td>yahlulgu yaltangu apafene</td><td>soft-big-seat = couch (concept)</td></tr>
 </table>
 <p>If there is ambiguity, rephrase or add more descriptors.</p>
 <p>Here are a few more examples:</p>
-<p><em>lufua bei</em> = air-vehicle = airplane</p>
-<p><em>waa jasru</em> = ocean-bend = bay</p>
-<p><em>lufua yahlul</em> = air-soft = fluffy</p>
-<p><em>waa garel</em> = water-up = fountain</p>
-<p><em>yalgaia mus</em> = small-bug = ant</p>
-<p><em>selyinoa li</em> = plan-time = schedule</p>
-<p><em>waa dom</em> = water-land = island</p>
-<p>Notice you can be as specific as you&#x27;d like by adding more descriptions to your compound. If you think lufua bei (air-vehicle) is not enough specificity for what you want to express as airplane, you can for example say jeluina lufua bei (winged-air-vehicle).</p>
+<p><em>lufugu bei</em> = air-vehicle = airplane</p>
+<p><em>wagu jasru</em> = ocean-bend = bay</p>
+<p><em>lufugu yahlul</em> = air-soft = fluffy</p>
+<p><em>wagu garel</em> = water-up = fountain</p>
+<p><em>yalgaigu mus</em> = small-bug = ant</p>
+<p><em>selyinogu li</em> = plan-time = schedule</p>
+<p><em>wagu dom</em> = water-land = island</p>
+<p>Notice you can be as specific as you&#x27;d like by adding more descriptions to your compound. If you think lufugu bei (air-vehicle) is not enough specificity for what you want to express as airplane, you can for example say jeluingu lufugu bei (winged-air-vehicle).</p>
 <h4>22.2 Hyphenated Combinations</h4>
 <p>Combine words freely. The hyphen signals is different from the compound because its main function is not to describe a single concept using multiple words. Instead, it is giving flavor and color to the second word. </p>
 <pre>i ilofun-vardei   → to hesitant-look, to peek with doubt
@@ -719,7 +719,7 @@ mirli-elivon   → much time + wisdom, understanding that comes with time</pre>
 <p>	c) Coined or created words: new words invented by a speaker for style or a concept not in the official list</p>
 <p>For species and coined words, define the word at its first use with a compound:</p>
 <pre>En borlu, i vardei e &#x27;miautan.
-*miautan = yedia yaltana miau, *panthera tigris*</pre>
+*miautan = yedigu yaltangu miau, *panthera tigris*</pre>
 <p>The ' signals to the reader: this word is not in the core vocabulary. Imported and coined words never enter the core vocabulary. </p>
 </div>
 </details>
@@ -1577,8 +1577,8 @@ yesterday  I  V drink-COMP  OBJ coffee        ✗   (listeners will expect a sec
 <p>. Use -ar when you want to specify an action has been completed or happened/will happen before another action</p>
 <p>. Use -is when you want to specify an action will yet to start or happened/will happen after another action</p>
 <p><strong>Compound nouns without -a</strong></p>
-<p>The -a suffix on the first element of a compound signals that the two words are forming a single concept rather than an adjective modifying a noun. </p>
-<pre>yaltana miau
+<p>The -gu suffix on the first element of a compound signals that the two words are forming a single concept rather than an adjective modifying a noun. </p>
+<pre>yaltangu miau
 big-cat = tiger, lion
 
 yaltan miau

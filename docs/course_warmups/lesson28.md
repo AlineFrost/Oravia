@@ -78,9 +78,23 @@
     mir = many, plural
     ```
     
-    Now try to create 3 sentences using these new question words:
+    Now try to create a sentence using these new question words, or 3 if you're up for a challenge!
     
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
+<div style="text-align: right; margin-top: 0.5rem;">
+<button onclick="(function(btn){
+    const ta = btn.parentElement.previousElementSibling;
+    const text = ta ? ta.value.trim() : '';
+    if (!text) { btn.textContent = 'Nothing to save!'; btn.style.background='#f57c00'; setTimeout(()=>{btn.textContent='Save My Answer';btn.style.background='#4a9cd6';},1500); return; }
+    const log = JSON.parse(localStorage.getItem('oravia_log') || '[]');
+    const lessonId = window.location.pathname.split('/').filter(Boolean).pop().replace('.html','');
+    const promptNum = Array.from(document.querySelectorAll('.save-writing-btn')).indexOf(btn) + 1;
+    log.push({ timestamp: new Date().toISOString(), lesson: lessonId, word_id: 'writing_' + promptNum, oravia: text, english: '', type: 'writing', correct: null });
+    localStorage.setItem('oravia_log', JSON.stringify(log));
+    btn.textContent = 'Saved! ✓'; btn.style.background='#43a047';
+    setTimeout(()=>{btn.textContent='Save My Answer';btn.style.background='#4a9cd6';},2000);
+})(this)" class="save-writing-btn" style="background:#4a9cd6; color:white; border:none; padding:0.4rem 1.2rem; border-radius:4px; cursor:pointer; font-size:0.9rem;">Save My Answer</button>
+</div>
 
 === "Vocabulary"
 
@@ -90,8 +104,8 @@
     
     | Oravia | English |
     |--------|---------|
-    | towa | thirst |
-    | tovei | ilness |
+    | touwa | thirst |
+    | touvei | illness |
     | tohpu | sad |
     | tohdin | sorry |
     | toharou | anxious |
@@ -119,6 +133,20 @@
     Cali run i anopuar e yunitam, cenon run i to?
     
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
+<div style="text-align: right; margin-top: 0.5rem;">
+<button onclick="(function(btn){
+    const ta = btn.parentElement.previousElementSibling;
+    const text = ta ? ta.value.trim() : '';
+    if (!text) { btn.textContent = 'Nothing to save!'; btn.style.background='#f57c00'; setTimeout(()=>{btn.textContent='Save My Answer';btn.style.background='#4a9cd6';},1500); return; }
+    const log = JSON.parse(localStorage.getItem('oravia_log') || '[]');
+    const lessonId = window.location.pathname.split('/').filter(Boolean).pop().replace('.html','');
+    const promptNum = Array.from(document.querySelectorAll('.save-writing-btn')).indexOf(btn) + 1;
+    log.push({ timestamp: new Date().toISOString(), lesson: lessonId, word_id: 'writing_' + promptNum, oravia: text, english: '', type: 'writing', correct: null });
+    localStorage.setItem('oravia_log', JSON.stringify(log));
+    btn.textContent = 'Saved! ✓'; btn.style.background='#43a047';
+    setTimeout(()=>{btn.textContent='Save My Answer';btn.style.background='#4a9cd6';},2000);
+})(this)" class="save-writing-btn" style="background:#4a9cd6; color:white; border:none; padding:0.4rem 1.2rem; border-radius:4px; cursor:pointer; font-size:0.9rem;">Save My Answer</button>
+</div>
     
     <div style="text-align: center; margin: 2rem 0;">
     <button onclick="document.getElementById('subcluster5-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
@@ -137,7 +165,7 @@
     </div>
     
     <div id="subcluster6-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;">Example answers: Cali i anopuar e yunitam, a nim a tohpu. Nim i tohnaru. I nomie no tovei.</p>
+    <p style="margin: 0;">Example answers: Cali i anopuar e yunitam, a nim a tohpu. Nim i tohnaru. I nomie no touvei.</p>
     </div>
     
     You are ready for the exercise now!
@@ -254,6 +282,22 @@ function initWarmup() {
             const reminder = document.getElementById('syllable-reminder');
             if (reminder) reminder.style.display = 'block';
             this.style.display = 'none';
+            // Log warm-up self-assessment
+            const log = JSON.parse(localStorage.getItem('oravia_log') || '[]');
+            const lessonId = window.location.pathname.split('/').filter(Boolean).pop().replace('.html','');
+            warmupWords.forEach(function(word) {
+                const checked = document.getElementById('check-' + word.id);
+                log.push({
+                    timestamp: new Date().toISOString(),
+                    lesson: lessonId,
+                    word_id: word.id,
+                    oravia: word.oravia,
+                    english: word.english,
+                    type: 'warmup',
+                    correct: checked ? checked.checked : false
+                });
+            });
+            localStorage.setItem('oravia_log', JSON.stringify(log));
         });
     }
     renderSelfAssessment();

@@ -74,6 +74,20 @@
     Celi run favi litam?
     
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
+<div style="text-align: right; margin-top: 0.5rem;">
+<button onclick="(function(btn){
+    const ta = btn.parentElement.previousElementSibling;
+    const text = ta ? ta.value.trim() : '';
+    if (!text) { btn.textContent = 'Nothing to save!'; btn.style.background='#f57c00'; setTimeout(()=>{btn.textContent='Save My Answer';btn.style.background='#4a9cd6';},1500); return; }
+    const log = JSON.parse(localStorage.getItem('oravia_log') || '[]');
+    const lessonId = window.location.pathname.split('/').filter(Boolean).pop().replace('.html','');
+    const promptNum = Array.from(document.querySelectorAll('.save-writing-btn')).indexOf(btn) + 1;
+    log.push({ timestamp: new Date().toISOString(), lesson: lessonId, word_id: 'writing_' + promptNum, oravia: text, english: '', type: 'writing', correct: null });
+    localStorage.setItem('oravia_log', JSON.stringify(log));
+    btn.textContent = 'Saved! ✓'; btn.style.background='#43a047';
+    setTimeout(()=>{btn.textContent='Save My Answer';btn.style.background='#4a9cd6';},2000);
+})(this)" class="save-writing-btn" style="background:#4a9cd6; color:white; border:none; padding:0.4rem 1.2rem; border-radius:4px; cursor:pointer; font-size:0.9rem;">Save My Answer</button>
+</div>
     
     <div style="text-align: center; margin: 2rem 0;">
     <button onclick="document.getElementById('subcluster5-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
@@ -122,7 +136,7 @@
     |--------|---------|
     | vamio | neck, throat |
     | vandi | finger |
-    | vano | arm |
+    | vanu | arm |
     | vanta | hand |
     | vanpai | foot |
     | vanvu | leg |
@@ -182,9 +196,23 @@
     We also have:  
     **yespai** = shoe (clothing + feet), just like vanpai = foot, kick (limb body part + foot)  
     
-    Now try to create 3 sentences using **VA** words:
+    Now try to create a sentence using **VA** words, or 3 if you're up for a challenge!
     
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
+<div style="text-align: right; margin-top: 0.5rem;">
+<button onclick="(function(btn){
+    const ta = btn.parentElement.previousElementSibling;
+    const text = ta ? ta.value.trim() : '';
+    if (!text) { btn.textContent = 'Nothing to save!'; btn.style.background='#f57c00'; setTimeout(()=>{btn.textContent='Save My Answer';btn.style.background='#4a9cd6';},1500); return; }
+    const log = JSON.parse(localStorage.getItem('oravia_log') || '[]');
+    const lessonId = window.location.pathname.split('/').filter(Boolean).pop().replace('.html','');
+    const promptNum = Array.from(document.querySelectorAll('.save-writing-btn')).indexOf(btn) + 1;
+    log.push({ timestamp: new Date().toISOString(), lesson: lessonId, word_id: 'writing_' + promptNum, oravia: text, english: '', type: 'writing', correct: null });
+    localStorage.setItem('oravia_log', JSON.stringify(log));
+    btn.textContent = 'Saved! ✓'; btn.style.background='#43a047';
+    setTimeout(()=>{btn.textContent='Save My Answer';btn.style.background='#4a9cd6';},2000);
+})(this)" class="save-writing-btn" style="background:#4a9cd6; color:white; border:none; padding:0.4rem 1.2rem; border-radius:4px; cursor:pointer; font-size:0.9rem;">Save My Answer</button>
+</div>
     
     You are ready for the exercise now!
 
@@ -306,13 +334,29 @@ function initWarmup() {
         html += '<div style="text-align:center; margin-top:1.5rem;">';
         html += '<button id="show-answers-btn" style="background:#4a9cd6; color:white; border:none; padding:0.75rem 2rem; border-radius:4px; cursor:pointer; font-size:1rem;">Show Answers</button>';
         html += '</div>';
-        html += `<div id="syllable-reminder" style="display:none; margin-top:1.25rem; padding:1rem; background:#eef7fb; border-left:4px solid #4a9cd6; border-radius:6px;"><p style="margin:0 0 0.5rem 0; font-weight:bold; color:#345;">Syllable reminders</p><p style="margin:0.25rem 0;"><strong>eo</strong> = social connection</p><p style="margin:0.25rem 0;"><strong>eom</strong> = gathering; Korean moim</p><p style="margin:0.25rem 0;"><strong>eod</strong> = meeting; Japanese deau</p><p style="margin:0.25rem 0; "><strong>ani</strong> = approach, movement towards; Japanese ni, Latin animus</p></div>`;
+        html += `<div id="syllable-reminder" style="display:none; margin-top:1.25rem; padding:1rem; background:#eef7fb; border-left:4px solid #4a9cd6; border-radius:6px;"><p style="margin:0 0 0.5rem 0; font-weight:bold; color:#345;">Syllable reminders</p><p style="margin:0.25rem 0;"><strong>eo</strong> = social connection</p><p style="margin:0.25rem 0;"><strong>eom</strong> = gathering; Korean moim</p><p style="margin:0.25rem 0;"><strong>eod</strong> = meeting; Japanese deau</p><p style="margin:0.25rem 0; "><strong>ani</strong> = approach, movement touwards; Japanese ni, Latin animus</p></div>`;
         container.innerHTML = html;
         document.getElementById('show-answers-btn').addEventListener('click', function() {
             document.querySelectorAll('.answer-col').forEach(col => col.style.display = 'table-cell');
             const reminder = document.getElementById('syllable-reminder');
             if (reminder) reminder.style.display = 'block';
             this.style.display = 'none';
+            // Log warm-up self-assessment
+            const log = JSON.parse(localStorage.getItem('oravia_log') || '[]');
+            const lessonId = window.location.pathname.split('/').filter(Boolean).pop().replace('.html','');
+            warmupWords.forEach(function(word) {
+                const checked = document.getElementById('check-' + word.id);
+                log.push({
+                    timestamp: new Date().toISOString(),
+                    lesson: lessonId,
+                    word_id: word.id,
+                    oravia: word.oravia,
+                    english: word.english,
+                    type: 'warmup',
+                    correct: checked ? checked.checked : false
+                });
+            });
+            localStorage.setItem('oravia_log', JSON.stringify(log));
         });
     }
     renderSelfAssessment();

@@ -91,7 +91,7 @@
     | Oravia | English |
     |--------|---------|
     | towa | thirst |
-    | tovei | ilness |
+    | tovei | illness |
     | tohpu | sad |
     | tohdin | sorry |
     | toharou | anxious |
