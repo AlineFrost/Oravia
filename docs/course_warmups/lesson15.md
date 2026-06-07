@@ -115,8 +115,8 @@
     M: "I anidai, mai i anifoum... Nim i moum e moyi, eta ilie i anita e ho yaltan mocen."  
     L: "Nim i do i anona e moyium mocen u run."  
     M: "Eloan!"    
-    L: "Su rune fano, hay i anidai moulu?"  
-    M: "Oi, nim i iliro oi. A nim a ilonya, eta anitaum e mo u hay. Su, i bontame e mogali su mocen u nime faibor, eori. Hay en bosvi."  
+    L: "Su run fano, hay i anidai moulu?"  
+    M: "Oi, nim i iliro oi. A nim a ilonya, eta anitaum e mo u hay. Su, i bontame e mogali su mocen u nim faibor, eori. Hay en bosvi."  
 
     
     <div style="text-align: center; margin: 2rem 0;">

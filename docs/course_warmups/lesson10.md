@@ -78,7 +78,7 @@
     </div>
     
     <div id="grammar-answer1" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-        <p style="margin: 0;"> Possible answers: hay i anona e mogali u nime fasu / a hayjor i anona e mogali u nime fasu. </p>
+        <p style="margin: 0;"> Possible answers: hay i anona e mogali u nim fasu / a hayjor i anona e mogali u nim fasu. </p>
     </div>
     
     Now, *u* pairs naturally with these verbs we've already seen:

@@ -166,8 +166,13 @@
         Fa is like Latin familia, which is where the English word family comes from.  
           
         Parent uses the root re(l), which comes from Latin relevare (to lift, raise up). This is because parents are one generation above!  
-
         
+        The root ni in Falni (baby) comes from the Proto-Indo-European root newo, which shares Greek νέος neos (young, fresh, recent), and English new.
+
+    Here are other word that use these roots:  
+    **yani** = new (quality + new), just like falni = baby (child + new).  
+    **wirel** = north (geography + up), just like fare = parent (family member + up). 
+    
     Can you create 2 sentences using these words?  
     
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>

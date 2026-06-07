@@ -41,11 +41,11 @@
     ```
     
     ```
-    A runae fasuno a yalenis.
+    A runa fasuno a yalenis.
     ```
     
     ```
-    A nime mo beviois a yaltan.
+    A nim mo beviois a yaltan.
     ```
     
     ```
@@ -82,7 +82,7 @@
     faibor = spouse, partner  
     fasuno = niece/nephew  
     hay = he/she/they (singular)  
-    haye = their (singular)  
+    hay = their (singular)  
     litam = day  
     mai = but  
     mo = food, eat  
@@ -90,7 +90,7 @@
     mocen = chocolate  
     nim = I  
     nima = we  
-    nime = my  
+    nim = my  
     run = you  
     yalen = long  
     yaltan = big
@@ -207,7 +207,7 @@
     
     1) Run i iran i varpi e mo, dou i varsus e bospupi?  
     
-    2) A rune va a yasoi dou a yavuson? A falte dou a yamirli? A yalgai dou a yaltan? A yalen dou a ho yalen?  
+    2) A run va a yasoi dou a yavuson? A falte dou a yamirli? A yalgai dou a yaltan? A yalen dou a ho yalen?  
         
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
     <div style="text-align: right; margin-top: 0.5rem;">
@@ -235,7 +235,7 @@
     <p style="margin: 0;">1) Do you prefer to smell food or listen to the shower? </p>
     <p style="margin: 0;">Possible answer: i varsus e bospupi. </p>
     <p style="margin: 0;">2) Is your body fast or slow? Young or old? Small or big? Long (tall) or short? </p>
-    <p style="margin: 0;">Possible answer: A nime va a yasoi, a yamirli, a yalgai su a yalen. </p>
+    <p style="margin: 0;">Possible answer: A nim va a yasoi, a yamirli, a yalgai su a yalen. </p>
     </div>
     
     You are ready for the exercise now!

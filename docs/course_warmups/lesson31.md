@@ -35,7 +35,7 @@
     ```
     
     ```
-    A nime bo a yaltan ga rune, mai a rune bo a yuvabo ga nime.  
+    A nim bo a yaltan ga run, mai a run bo a yuvabo ga nim.  
     ```
     
     ```

@@ -161,7 +161,7 @@
     <p style="margin: 0;"> <strong>VON</strong> is for <strong>external body surfaces</strong> and <strong>VOS</strong> is for <strong>grooming</strong>.</p>
     </div>
         
-    Ce yo rune vonlu, vonyas, su vardei? 
+    Ce yo run vonlu, vonyas, su vardei? 
     
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
     <div style="text-align: right; margin-top: 0.5rem;">

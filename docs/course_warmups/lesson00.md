@@ -100,6 +100,8 @@ To navigate the Lesson, please click the tabs below: "About the Course", "Pronun
     </audio>
     
     iliru, mouje, moujeum, liria
+    
+    Recordings may sound Romance-influenced because of my accent. Try to repeat for mutual intelligibility rather than to copy an exact accent. There is no "right"" accent in Oravia.
 
 === "Vocabulary Structure"
 
@@ -157,7 +159,7 @@ To navigate the Lesson, please click the tabs below: "About the Course", "Pronun
     
     ### Subclusters
     
-    Many clusters are further subdivided into 0-3 subclusters, which are indicated by the **third letter**.
+    Many clusters are further subdivided into 0-4 subclusters, which are indicated by the **third letter**.
     
     | Oravia | English |
     |--------|---------|

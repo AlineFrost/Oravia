@@ -19,19 +19,19 @@
 
     
     ```
-    cedom rune faibor i bortal?
+    cedom run faibor i bortal?
     ```
     
     ```
-    ce haye falen i dai i boemo?
+    ce hay falen i dai i boemo?
     ```
     
     ```
-    cei hayae fare?
+    cei haya fare?
     ```
     
     ```
-    de cedom runae bontame?
+    de cedom runa bontame?
     ```
     
     ```
@@ -39,7 +39,7 @@
     ```
     
     ```
-    nime fano i do i boemo.
+    nim fano i do i boemo.
     ```
     
     **Tips**
@@ -47,7 +47,7 @@
     ce = what  
     cedom = where (what place)?  
     cei = who (what person)?  
-    de = of/from/about  
+    de = of/from  
     -e = possessive  
     faibor = partner  
     falen = child  
@@ -142,6 +142,8 @@
     !!! info "🌍 Sound Connections"
         Gai means small and comes from English and French grain.  
         
+    Here are other words with this root:  
+    **litegai** = minute (clock time + small; hour is the big unit), just like yalgai = small (objective quality + small).          
 
 === "Exercise 1"
 

@@ -179,11 +179,13 @@
           
         Banana is Moalen (moa + len). Len is like Latin longus (long), which is the root of the word longitude in English.  
         
+    So let's take a look at some other words:  
+    **yalen** = long (quality + long), just like moalen = banana (fruit + long).  
+    **yogali** = brown (color + coffee), just like mogali = coffee (food + coffee). 
+    
       ---  
       
-    We will now move on to the Matching Game Exercise. Sometimes, the game is about recognizing the meanings behind certain syllables, rather than learning words. On the next page, you will see many different words you do not need to memorize. Instead, try using the subcluster sounds we just learned to figure out which word corresponds to which meaning.  
-    
-    Since the purpose is to learn the subcluster sounds, many of these words will not appear much again. On future matching games, you will see a different version of the MO cluster with fewer words repeating more times. The same is true of matching games covering most of other clusters as well.      
+    We will now move on to the Matching Game Exercise. Sometimes, the game is about recognizing the meanings behind certain syllables, rather than learning words. On the next page, you will see many different words you do not need to memorize. Instead, try using the subcluster sounds we just learned to figure out which word corresponds to which meaning.    
     
       ---  
 

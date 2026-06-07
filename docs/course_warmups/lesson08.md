@@ -10,11 +10,20 @@
 === "Grammar"
 
 
-    Before our lesson, let's watch this 1-minute video to practice some of what we've learned in context!
+    Before our lesson, let's watch this 1-minute video to practice some of what we've learned in context! There is a new word in the video, *su*, which means *and*.
     
-    <video controls width="720">
-        <source src="/videos/lesson5.mp4" type="video/mp4">
-    </video>
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 2rem 0;">
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/7W2rn3yxaxA?si="
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+        </iframe>
+    </div>
 
     ## Possessive
     
@@ -39,35 +48,21 @@
         <p style="margin: 0;"> Nim, run, hay, nima, runa, haya </p>
     </div>
     
-    The **possessive** is very simple, we just add **e** to the end of the pronoun. Try to complete this table now:
+    The **possessive** is very simple, we just use the pronoun before the noun. Like this:
     
-    | Oravia | English |
-    |--------|---------|
-    | | my, mine |
-    | | your, yours |
-    | | his, her, hers... (singular) |
-    | | our, ours |
-    | | your, yours (plural) |
-    | | their, theirs (plural) |
+    ```
+    nim faibor = my spouse
+    ```
     
-    <div style="text-align: center; margin: 2rem 0;">
-        <button onclick="document.getElementById('subcluster-answer2').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
-            Click to Reveal the Answer
-        </button>
-    </div>
     
-    <div id="subcluster-answer2" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-        <p style="margin: 0;"> Nime, rune, haye, nimae, runae, hayae </p>
-    </div>
-    
-    Great, we have learned possessive for personal pronouns. But how about other words? For example, if I want to say it's my spouse's? In that case, we use **de**.
+    But how about other words? For example, if I want to say it's my spouse's? In that case, we use **de**.
     
     ```
     de faibor = spouse's
     ```
     
-    Or you could also say, *de nime faibor*. 
-    **De** is very versatile. It means of, about, from. For example, one could ask:
+    Or you could also say, *de nim faibor*. 
+    **De** is very versatile. It means of, from. For example, one could ask:
     
     ```
     de cedom run?
@@ -76,7 +71,7 @@
     ```
     
     This means *where are you from?*. 
-    Can you guess the meaning of *de cedom rune faibor*?
+    Can you guess the meaning of *de cedom run faibor*?
     
     <div style="text-align: center; margin: 2rem 0;">
         <button onclick="document.getElementById('subcluster-answer3').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
@@ -87,24 +82,6 @@
     <div id="subcluster-answer3" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
         <p style="margin: 0;"> Where is your spouse from? </p>
     </div>
-    
-    Take a look at the possessive table again:
-    
-    | Oravia | English |
-    |--------|---------|
-    | nime | my, mine |
-    | rune | your, yours |
-    | haye | his, her, hers... (singular) |
-    | nimae | our, ours |
-    | runae | your, yours (plural) |
-    | hayae | their, theirs (plural) |
-    
-    In sum, we have:
-    
-    ```
-    *e* in the end - for pronouns
-    *de* before the word - for everything else
-    ```
     
     Now try to create a sentence using possessives, or 3 if you're up for a challenge!
     
@@ -168,20 +145,20 @@
     Some of these verbs are special. They can take not only *things* as complements, but *other verbs* too. Take for example the verb *to want*, or *anidai*. How would you say "my parent wants a bed?"
     
     ```
-    nime fare i anidai e bonfene.
+    nim fare i anidai e bonfene.
     ```
     
     But what if your parent wanted to do an action instead? For example, *to lie down*. How would we say that?
     Step 1: How to make *e bonfene* a verb instead of a noun? That's right, we use *i* instead of *e*:
     
     ```
-    nime fare i anidai i bonfene.
+    nim fare i anidai i bonfene.
     ```
     
     Step 2: now, we drop the subcluster sound of the first verb. What remains is what we call the root, like this:
     
     ```
-    nime fare i dai i bonfene.
+    nim fare i dai i bonfene.
     ```
     
     Done! There are a few reasons we use just the root of the first verb for a construction like *to want to do*. First, it sounds more distinct from the noun option, so listeners can tell the difference easily. Second, it's shorter, and these verb stacks come up a lot! You can use many verbs in the first verb role - ando, anifou, anidai, anepou, anelem... These are all verbs that take another action as a complement.

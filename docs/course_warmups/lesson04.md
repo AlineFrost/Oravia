@@ -176,6 +176,18 @@
         
         The root ni in Falni (baby) comes from the Proto-Indo-European root newo, which shares Greek νέος neos (young, fresh, recent), and English new.
     
+    In this case, *no* is the root of *fano*. The word can be understood like this:
+    fa (family) + no (down, one generation down) = offspring, daughter, son
+    
+    
+    Most Oravia words are built in a similar way:
+    (sub)cluster + root
+    
+    The initial sounds (clusters and subclusters) tell you the word's broad domain.
+    Roots often give helpful clues across clusters.
+    Treat roots as hints about the full word's meaning, not strict rules. 
+    As you learn more words, keep a look out for root connections. When you spot one that makes sense to you, use it. It may help you remember the word. 
+    
     You're ready for the exercise now!
     
     ---

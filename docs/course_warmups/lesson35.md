@@ -31,7 +31,7 @@
     ```
     
     ```
-    Iliciu a nime miwo a fani. Bi oipili!
+    Iliciu a nim miwo a fani. Bi oipili!
     ```
     
     ```

@@ -110,10 +110,10 @@
     cei = who (what + person)?  
     cedom = where (what + place)?  
     en = in/at/on  
-    de = from/of/about  
-    falen = child
-    boelori = room
-    bo = house
+    de = from/of  
+    falen = child  
+    boelori = room  
+    bo = house  
     
     **Answers**
     <div style="text-align: center; margin: 2rem 0;">
@@ -197,14 +197,19 @@
     <div id="cluste-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
         <p style="margin: 0;">Possible translations: wanted chocolate, needed shower.</p>
     </div>
-
+    
     !!! info "🌍 Sound Connections"
         Sau means start, like Hindi शुरू śurū (start, beginning).
         
         Vu means "movement", coming from Mandarin 步 bù (step, pace).  
         
         Fi is like Swahili -fika (to arrive, come).  
-        
+                
+    Here are other words with these roots:  
+    **beivu** = car (vehicle + move), just like anvu = movement (action + move).  
+    **bofi** = inside (house + come), just like anifi = come (movement towards + come)  
+    **roesau** = learn (formal knowledge + start/beginning), just like ansau = start (movement + start)
+     
 
 === "Exercise 1"
 

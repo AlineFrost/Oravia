@@ -70,7 +70,7 @@
     ```
     
     ```
-    "ceidom rune fano?" = where is your son?
+    "ceidom run fano?" = where is your son?
     "i ilianum, mai ilotoum" = I don't know, but I am not worried.
     ```
     

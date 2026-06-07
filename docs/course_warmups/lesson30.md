@@ -28,7 +28,7 @@
     For that, we use *ga*, which means *compared to*:
     
     ```
-    Ga nime fano, a rune fano a yalen.
+    Ga nim fano, a run fano a yalen.
     Compared to my child, your child is tall.  
     ```
     
@@ -46,10 +46,10 @@
     
     The second type of comparison is when you say one thing is the most amongst others. For that, we use *anodu*, which means *top*:
     ```
-    A rune fano a anodu yalen.
+    A run fano a anodu yalen.
     Your child is the tallest.
     
-    A nime fatore a anodu yunro de fatore.
+    A nim fatore a anodu yunro de fatore.
     My grandpa is the smartest of grandpas.
     
     A hoi mo a anodu yuba en boemo.
@@ -64,8 +64,8 @@
     a [y] a anodu [adjective] de [z] = [y] is the most [adjective] among [z]
     ```
 
-    Ce yun a run a anodu de rune famei?
-    Ce ya a run ga rune fasu?
+    Ce yun a run a anodu de run famei?
+    Ce ya a run ga run fasu?
     
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
     <div style="text-align: right; margin-top: 0.5rem;">
@@ -100,7 +100,7 @@
     </div>
     
     <div id="subcluster6a-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;">Example answers: A nim a anodu yunmpou de nime famei. Ga nime fasujal, a nim a yamirli. </p>
+    <p style="margin: 0;">Example answers: A nim a anodu yunmpou de nim famei. Ga nim fasujal, a nim a yamirli. </p>
     </div>
     
 === "Vocabulary"

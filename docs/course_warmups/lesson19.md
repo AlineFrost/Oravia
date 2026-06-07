@@ -196,7 +196,7 @@
 
     **6. Kai:** I dai i bevio en yani bedam,<br>a ilhei i ilaluan ca oipili.<br>En limel, i dai i mo.
 
-    **7. Ana:** A bevio a oi!<br>Nim i geldovear nime beivu,<br>eta nim i do i gerina.<br>Mai, i iranum i mo en limel.
+    **7. Ana:** A bevio a oi!<br>Nim i geldovear nim beivu,<br>eta nim i do i gerina.<br>Mai, i iranum i mo en limel.
 
     *bevio = shop · bedam = square · beivu = car · geldovear = sold*
 

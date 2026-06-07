@@ -48,7 +48,7 @@
     ```
     
     ```
-    I anidaium e varpu ilhei, mai i anidai cali hay i anisu e oico!
+    I anidaium e varpi ilhei, mai i anidai cali hay i anisu e oico!
     ```
     
     ```
@@ -89,7 +89,7 @@
     vanpai = foot, kick  
     vardur = tooth, bite  
     varluan = tongue, taste  
-    varpu = nose, meddlesome  
+    varpi = nose, meddlesome  
     varsus = ear, listen  
     vanta = hand, hold  
     

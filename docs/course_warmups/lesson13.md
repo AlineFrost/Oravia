@@ -39,7 +39,7 @@
     ```
     
     ```
-    a haye fasu a yalen.
+    a hay fasu a yalen.
     ```
     
     ```
@@ -51,7 +51,7 @@
     ```
     
     ```
-    a nime anidai a yahgor.
+    a nim anidai a yahgor.
     ```
     
     **Tips**

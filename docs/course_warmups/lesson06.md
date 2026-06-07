@@ -27,6 +27,15 @@
     
     ```
     
+    To answer, you can say *um* (no) or *ia* (yes). You can also add those to the end to make it more explicitly a question, like this: 
+    
+    ```
+    fasu i mouje en bo, ia? 
+     ↓       ↓        ↓       
+    sibling  drinks  at home, yes?    
+    
+    ```
+    
     For other types of questions, we add words in the beginning. The first one, and most important, is **ce**, which means **what**.
     
     ```
@@ -195,6 +204,9 @@
         Lu means "outside", coming from Latin lux (light, sky phenomenon); Italian luce; French lumière; Portuguese/Spanish luz; and Proto-Indo-European *lewk- (to shine).  
         
         Vi is for "internal body", like Latin viscera.  
+        
+    That's why we have:  
+    **anolu** = out (movement away + outside), just like borlu = window (house structure + outside).  
     
     Great job!
             

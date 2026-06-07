@@ -35,7 +35,7 @@
     ```
     
     ```
-    Eodenbor i tane i anisum e fani u nime faigel eomfel. 
+    Eodenbor i tane i anisum e fani u nim faigel eomfel. 
     ```
     
     ```

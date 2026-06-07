@@ -103,6 +103,9 @@
     !!! info "🌍 Sound Connections"
         Many languages use something similar to "mo" for food because it's a sound of lips together. For example, Hawaiian moku (to eat, archaic); Swahili mlo (meal); Korean 먹다 meokda (to eat); Japanese もぐもぐ mogu-mogu (onomatopoeia for eating/chewing); English yummy.
         
+        
+    Sound connections create associations between Oravia's syllable-meanings and real world languages. This is not about strict etymology, its main purpose is helping learning. Read these boxes attentively and think about how the syllables relate in sound and meaning. This may help you remember words.  
+    
     ---
 
 === "Exercise"

@@ -149,6 +149,9 @@
         Bo is like Arabic بيت (bayt = house, dwelling); Hebrew בית (bayit = house); Proto-Semitic *bayt- (house); Swahili boma (enclosed homestead); Russian бок (bok = side of a house).  
           
         And pupi is mimicking the sound of falling water :).  
+        
+    Here's another word with this root:  
+    **lupupi** = rain (outside + falling water), just like bospupi = shower (bathroom + falling water).  
     
     Now that we are learning **locations**, there is a word that is very useful for this! When we want to talk about location, we use *en*. This means on/at/in.
     For example,

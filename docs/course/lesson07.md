@@ -185,11 +185,11 @@
         Vu means "movement", coming from Mandarin 步 bù (step, pace).  
         
         Fi is like Swahili -fika (to arrive, come).  
-        
-     Here are other words with these roots:  
-     **beivu** = car (vehicle + move), just like anvu = movement (action + move).  
-     **bofi** = inside (house + come), just like anifi = come (movement towards + come)  
-     **roesau** = learn (formal knowledge + start/beginning), just like ansau = start (movement + start)  
+            
+    Here are other words with these roots:  
+    **beivu** = car (vehicle + move), just like anvu = movement (action + move).  
+    **bofi** = inside (house + come), just like anifi = come (movement towards + come)  
+    **roesau** = learn (formal knowledge + start/beginning), just like ansau = start (movement + start)  
 
 === "Exercise 1"
 

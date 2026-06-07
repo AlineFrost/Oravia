@@ -25,9 +25,18 @@
 
     Before our lesson, let's watch this 1-minute video to practice some of what we've learned in context!
     
-    <video controls width="720">
-        <source src="/videos/lesson10.mp4" type="video/mp4">
-    </video>
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 2rem 0;">
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/D78Xnn_p0m4?si="
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+        </iframe>
+    </div>
 
     ## Adjectives
     
@@ -59,7 +68,7 @@
     
     "*Cei faejor?*" How would you reply *the woman is my mother*?  
     ```
-    a faljor a nime fare
+    a faljor a nim fare
     ```  
     
     How would you say: "I am Mary"?  

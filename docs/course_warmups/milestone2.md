@@ -302,7 +302,7 @@ You can now:
 - Recognize extended meanings of words from their cluster roots
 - Express nuance, like what used to be true, what should happen, what would be different
 
-**Congratulations! You have reached the halfway point of Fluency!**
+**Congratulations! You have reached the halfway point of the Expansion Course!**
 
 <div style="text-align: center; padding: 2rem 0; background: #e0f2f1; border-radius: 8px; margin-top: 3rem;">
     <p style="font-size: 1.2rem; color: #4a9cd6; margin-bottom: 1rem;">
