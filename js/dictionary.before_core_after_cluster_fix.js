@@ -1,7 +1,7 @@
 (function () {
   'use strict';
 
-  console.log('Oravia dictionary.js loaded: 2026-05-31 restored original visible formatting');
+  console.log('Oravia dictionary.js loaded: 2026-06-08 core filter and search scopes');
 
   var CLUSTER_COLORS = {
     "volitional action": "#5b6af0", "physical action": "#f07a5b", "bodily actions": "#e8a857",
@@ -66,6 +66,7 @@
         bindDelegation();
         renderAll();
         updateCount();
+        applyIncomingWordTarget();
       })
       .catch(function (err) {
         console.error(err);
@@ -73,6 +74,18 @@
           '<p style="font-size:0.8rem">Tried: <code>' + esc(dataUrl) + '</code></p>' +
           '<p style="font-size:0.8rem">Details: ' + esc(err.message || String(err)) + '</p>';
       });
+  }
+
+
+  function applyIncomingWordTarget() {
+    var target = sessionStorage.getItem('dict_exact') || '';
+    if (!target && window.location.hash && window.location.hash.indexOf('#entry-') === 0) {
+      target = decodeURIComponent(window.location.hash.slice(7));
+    }
+    if (target) {
+      sessionStorage.removeItem('dict_exact');
+      setTimeout(function () { jumpToWord(target); }, 80);
+    }
   }
 
   function computeStats(data) {
@@ -117,13 +130,15 @@
       '<div class="dict-controls">' +
         '<div class="dict-search-row">' +
           '<select id="dict-mode" class="dict-select dict-mode-toggle">' +
-            '<option value="oravia">Oravia ›</option>' +
-            '<option value="english">‹ English</option>' +
+            '<option value="both">Both</option>' +
+            '<option value="oravia">Oravia</option>' +
+            '<option value="english">English</option>' +
           '</select>' +
           '<input id="dict-search" type="text" class="dict-input" placeholder="Search…" autocomplete="off" />' +
         '</div>' +
         '<div class="dict-filter-row">' +
           '<select id="dict-cluster" class="dict-select">' + clusterOpts + '</select>' +
+          '<label class="dict-core-label"><input id="dict-core-only" type="checkbox" /> Core only</label>' +
           '<span id="dict-count" class="dict-count"></span>' +
         '</div>' +
         '<div class="dict-syllable-stats" style="font-size:0.72rem; margin-top:0.35rem; color:var(--md-default-fg-color);">' +
@@ -144,21 +159,23 @@
       var search = document.getElementById('dict-search');
       var modeEl = document.getElementById('dict-mode');
       var clusterEl = document.getElementById('dict-cluster');
+      var coreEl = document.getElementById('dict-core-only');
       var q = (search.value || '').toLowerCase().trim();
       var mode = modeEl.value;
       var cluster = clusterEl.value;
+      var coreOnly = !!(coreEl && coreEl.checked);
 
       filteredGram = allGram.filter(function (w) {
+        if (coreOnly && !w.core) return false;
         if (!q) return true;
-        if (mode === 'oravia') return (w.w || '').toLowerCase().indexOf(q) !== -1;
-        return searchableText(w).indexOf(q) !== -1;
+        return matchesSearch(w, q, mode);
       });
 
       filteredRegular = allRegular.filter(function (w) {
+        if (coreOnly && !w.core) return false;
         if (cluster !== 'all' && (w.c || '').trim() !== cluster) return false;
         if (!q) return true;
-        if (mode === 'oravia') return (w.w || '').toLowerCase().indexOf(q) !== -1;
-        return searchableText(w).indexOf(q) !== -1;
+        return matchesSearch(w, q, mode);
       });
 
       renderAll();
@@ -168,6 +185,29 @@
     document.getElementById('dict-search').addEventListener('input', update);
     document.getElementById('dict-mode').addEventListener('change', update);
     document.getElementById('dict-cluster').addEventListener('change', update);
+    var coreOnly = document.getElementById('dict-core-only');
+    if (coreOnly) coreOnly.addEventListener('change', update);
+  }
+
+  function matchesSearch(w, q, mode) {
+    if (mode === 'oravia') return (w.w || '').toLowerCase().indexOf(q) !== -1;
+    if (mode === 'english') return englishSearchText(w).indexOf(q) !== -1;
+    return (w.w || '').toLowerCase().indexOf(q) !== -1 || searchableText(w).indexOf(q) !== -1;
+  }
+
+  function englishSearchText(w) {
+    var parts = [];
+    parts.push(w.e, w.ea, w.usage, w.c);
+    (w.bd || []).forEach(function (p) {
+      parts.push(p.meaning, p.bb_meaning, p.bb_type);
+    });
+    (w.syllable_meanings || []).forEach(function (p) {
+      parts.push(p.meaning, p.bb_meaning, p.position);
+    });
+    (w.ex || []).forEach(function (ex) {
+      parts.push(ex.e, ex.g);
+    });
+    return parts.filter(Boolean).join(' ').toLowerCase();
   }
 
   function searchableText(w) {
@@ -240,11 +280,16 @@
     }
   }
 
+  function coreBadge(w) {
+    return w && w.core ? '<span class="dict-core-badge" title="Core word">core</span>' : '';
+  }
+
   function renderGramEntry(w) {
     var html = '<div class="dict-entry dict-entry-gram" id="entry-' + escAttr(w.w) + '">';
     html += '<span class="dict-word">' + esc(w.w) + '</span>';
     html += ' <span class="dict-trans-inline">' + esc(w.e) + '</span>';
     if (w.usage) html += '<div class="dict-gram-usage">' + esc(w.usage) + '</div>';
+    html += coreBadge(w);
     html += '</div>';
     return html;
   }
@@ -254,7 +299,7 @@
     var html = '<div class="dict-entry" id="entry-' + escAttr(w.w) + '">';
 
     html += '<div class="dict-headword">';
-    html += '<span class="dict-word">' + esc(w.w) + '</span>';
+    html += '<span class="dict-word">' + esc(w.w) + '</span>' + coreBadge(w);
     if (w.c && w.c.trim()) {
       html += '<span class="dict-cluster-badge" style="border-color:' + escAttr(color) + ';color:' + escAttr(color) + '">' + esc(w.c.trim()) + '</span>';
     }
@@ -285,7 +330,7 @@
     var sound = esc(p.sound || '');
     var meaning = esc(p.meaning || '');
     if (p.bb_id || p.bb_href || p.bb_type) {
-      var href = buildingBlocksPageUrl;
+      var href = buildingBlocksPageUrl + (p.bb_id ? '#' + encodeURIComponent(p.bb_id) : '');
       return '<a href="' + escAttr(href) + '" data-bb="' + escAttr(p.sound || '') + '" data-bb-id="' + escAttr(p.bb_id || '') + '" data-bb-type="' + escAttr(p.bb_type || '') + '" class="dict-bb-link">' + sound + '</a> (' + meaning + ')';
     }
     return sound + ' (' + meaning + ')';
@@ -312,8 +357,10 @@
     var search = document.getElementById('dict-search');
     var mode = document.getElementById('dict-mode');
     var cluster = document.getElementById('dict-cluster');
+    var coreOnly = document.getElementById('dict-core-only');
     mode.value = 'oravia';
     cluster.value = 'all';
+    if (coreOnly) coreOnly.checked = false;
     search.value = word;
     search.dispatchEvent(new Event('input'));
     setTimeout(function () {

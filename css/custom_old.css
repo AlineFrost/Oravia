@@ -706,23 +706,3 @@ button.save-writing-btn {
     padding: 0.5rem 1.5rem !important;
     min-width: 140px;
 }
-
-
-/* ===== DICTIONARY CORE BADGE =====
-   Small grey outline badge, quieter than cluster badges. */
-.dict-core-badge {
-  display: inline-block;
-  padding: 0.04rem 0.28rem;
-  border: 1px solid #9aa6b2;
-  border-radius: 999px;
-  background: transparent;
-  color: #5f6b77;
-  font-size: 0.62rem;
-  font-weight: 500;
-  line-height: 1.15;
-  letter-spacing: 0;
-  text-transform: none;
-  font-family: inherit;
-  white-space: nowrap;
-  vertical-align: middle;
-}

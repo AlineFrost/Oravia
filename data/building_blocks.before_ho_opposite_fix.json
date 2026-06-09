@@ -4293,11 +4293,13 @@
     "sound": "mu",
     "meaning": "small animal",
     "oravia": [
+      "mimu",
       "timu",
       "wamu",
       "yemus"
     ],
     "english": [
+      "cow",
       "venom",
       "fish",
       "silk"
@@ -5621,18 +5623,6 @@
     ],
     "english": [
       "silk"
-    ],
-    "natural_language": ""
-  },
-  {
-    "type": "root",
-    "sound": "ho",
-    "meaning": "opposite",
-    "oravia": [
-      "dohogao"
-    ],
-    "english": [
-      "tendency"
     ],
     "natural_language": ""
   }
