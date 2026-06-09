@@ -63,7 +63,7 @@ To navigate the Lesson, please click the tabs below: "About the Course", "Pronun
     
     This system is meant to accommodate different pronunciations and similar sounding pairs (l-r, m-n, p-b, t-d, c-g, f-v, w-v). 
     
-    **For example:** There is never a situation where you would need to disambiguate between an **l** and **r** sound. If there is a word "dala", there is no word "dara". This means that in practice, you can use a similar pronunciation for l and r.
+    **For example:** There is never a situation where you would need to disambiguate between an **l** and **r** sound. If there is a word "dala", there is no word "dara". This means that in practice, you can use a similar pronunciation for l and r. 
     
     ### Consonant Endings
     
@@ -92,8 +92,9 @@ To navigate the Lesson, please click the tabs below: "About the Course", "Pronun
     
     **Examples:**
     
-    - **LI**ria (preferred)
-    - li**RI**a (also acceptable)
+    - **LI**-ria (preferred)
+    - **LI**-ri-a (also acceptable)
+    - li-**RI**-a (unstandard, but may be understandable)
     
     <audio controls style="width:100%">
       <source src="../audio/wordexamples.mp3" type="audio/wav">

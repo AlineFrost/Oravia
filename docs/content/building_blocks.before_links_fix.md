@@ -69,10 +69,6 @@ Use the filters to explore.
     return;
   }
 
-  function bbId(r) {
-    return 'bb-' + (r.type || '') + '-' + String(r.sound || '').toLowerCase();
-  }
-
   function render() {
     const q = document.getElementById('bb-search').value.toLowerCase().trim();
     const tp = document.getElementById('bb-type').value;
@@ -109,7 +105,6 @@ Use the filters to explore.
     tbody.innerHTML = '';
     filtered.forEach((r, i) => {
       const tr = document.createElement('tr');
-      tr.id = bbId(r);
       const isSub = r.type === 'subcluster';
       const bg = isSub
         ? (i%2===0 ? '#f0f7ff' : '#e8f4fb')
@@ -124,7 +119,7 @@ Use the filters to explore.
       const soundColor = isSub ? '#1a6aa8' : '#9B7700';
 
       const oraviaLinks = r.oravia.map(w =>
-        '<a href="/content/dictionary/#entry-'+encodeURIComponent(w)+'" data-vw="'+w+'" class="dict-word-link" style="color:#2c6e9e;text-decoration:none;">'+w+'</a>'
+        '<a href="/content/vocabulary/" data-vw="'+w+'" class="vocab-link" style="color:#2c6e9e;text-decoration:none;">'+w+'</a>'
       ).join(', ');
       tr.innerHTML =
         '<td style="padding:0.28rem 0.5rem;width:90px;min-width:90px;">'+typeLabel+'</td>'+
@@ -151,30 +146,26 @@ Use the filters to explore.
   document.getElementById('bb-type').addEventListener('change', render);
   document.getElementById('bb-field').addEventListener('change', render);
 
-  // Click on oravia word → go to dictionary filtered to that word
+  // Click on oravia word → go to vocabulary filtered to that word
   document.addEventListener('click', function(e) {
-    const link = e.target.closest('.dict-word-link');
+    const link = e.target.closest('.vocab-link');
     if (link) {
-      sessionStorage.setItem('dict_exact', link.dataset.vw);
+      sessionStorage.setItem('vocab_exact', link.dataset.vw);
     }
   });
 
-  // Exact sound match from dictionary page
+  // Exact sound match from vocabulary page
   function applyExactMatch() {
     const exact = sessionStorage.getItem('bb_exact');
-    const targetId = sessionStorage.getItem('bb_id') || (window.location.hash ? decodeURIComponent(window.location.hash.slice(1)) : '');
-    if (exact || targetId) {
+    if (exact) {
       sessionStorage.removeItem('bb_exact');
-      sessionStorage.removeItem('bb_id');
-      sessionStorage.removeItem('bb_type');
       // Filter allData to exact sound match only
       const tbody = document.getElementById('bb-body');
       tbody.innerHTML = '';
-      const matches = targetId ? allData.filter(r => bbId(r) === targetId) : allData.filter(r => r.sound === exact);
+      const matches = allData.filter(r => r.sound === exact);
       document.getElementById('bb-count').textContent = matches.length + ' entries';
       matches.forEach((r, i) => {
         const tr = document.createElement('tr');
-        tr.id = bbId(r);
         const isSub = r.type === 'subcluster';
         const bg = isSub ? '#f0f7ff' : '#fffef0';
         tr.style.background = bg;
@@ -183,7 +174,7 @@ Use the filters to explore.
           : '<span style="color:#9B7700;font-weight:600;">root</span>';
         const soundColor = isSub ? '#1a6aa8' : '#9B7700';
         const oraviaLinks = r.oravia.map(w =>
-          '<a href="/content/dictionary/#entry-'+encodeURIComponent(w)+'" data-vw="'+w+'" class="dict-word-link" style="color:#2c6e9e;text-decoration:none;">'+w+'</a>'
+          '<a href="/content/vocabulary/" data-vw="'+w+'" class="vocab-link" style="color:#2c6e9e;text-decoration:none;">'+w+'</a>'
         ).join(', ');
         tr.innerHTML =
           '<td style="padding:0.28rem 0.5rem;width:90px;min-width:90px;">'+typeLabel+'</td>'+

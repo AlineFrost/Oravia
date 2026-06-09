@@ -162,9 +162,9 @@
     | ilhei | people |
     | ilteli | moment |
     
-    Combined with sunya (nothing, none, zero), we have:
+    Combined with sunya (nothing, none, zero), we have:  
     **sunya ilhei** = nobody, no one (sunya + ilhei)  
-    **sunya ilwol** = nothing (sunya + ilwol)
+    **sunya ilwol** = nothing (sunya + ilwol)  
     
     So, to sum it up:
     ```

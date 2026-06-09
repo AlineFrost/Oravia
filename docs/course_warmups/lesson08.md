@@ -12,19 +12,18 @@
 
     Before our lesson, let's watch this 1-minute video to practice some of what we've learned in context! There is a new word in the video, *su*, which means *and*.
     
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 2rem 0;">
-        <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/7W2rn3yxaxA?si="
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen>
-        </iframe>
-    </div>
-
+    <iframe
+        width="100%"
+        height="315"
+        src="https://www.youtube.com/embed/7W2rn3yxaxA?si="
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+    </iframe>
+    
+    
     ## Possessive
     
     Remember the personal pronouns? Try to complete the table:
