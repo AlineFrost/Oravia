@@ -6051,7 +6051,7 @@
     ],
     "ex": [
       {
-        "o": "celi i anifi en beilem?",
+        "o": "celi i aniyel en beilem?",
         "e": "when will you arrive at the station?",
         "from_lesson": false
       }
@@ -10880,7 +10880,7 @@
     ],
     "ex": [
       {
-        "o": "hay i anifiar, bi daeniu",
+        "o": "hay i anocari, bi daeniu",
         "e": "she left — I witnessed this",
         "from_lesson": true
       }
@@ -24690,7 +24690,7 @@
     ],
     "ex": [
       {
-        "o": "mai cali jetai bo i anivari-anifi, a tinen molbo a nealui jenya",
+        "o": "mai cali jetai bo i anivari-aniyel, a tinen molbo a nealui jenya",
         "e": "but by the time he got back to his home, the cracked pot would be half empty",
         "from_lesson": false
       }
@@ -50248,10 +50248,7 @@
       }
     ],
     "rel": [
-      "davir",
-      "ranvir",
-      "rovir",
-      "semvir"
+      "malveni"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -51801,7 +51798,7 @@
     ],
     "ex": [
       {
-        "o": "wirel Lufu su Lusari i damai cai a pohnen, cali be hai i anifi su vilan jovabo.",
+        "o": "wirel Lufu su Lusari i damai cai a pohnen, cali be hai i aniyel su vilan jovabo.",
         "e": "north Wind and Sun argued about who was stronger, when a traveler arrived wearing a thick cloak.",
         "from_lesson": false
       }
