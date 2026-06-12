@@ -1,6 +1,6 @@
-site_name: Learn Oravia
-site_description: Learn Oravia — a free constructed language course built around sound and meaning.
+site_name: Oravia
 site_author: Aline
+site_description: A unique vocabulary system with syllable-meaning associations and a cluster structure based on data
 site_url: https://learnoravia.com
 
 theme:
