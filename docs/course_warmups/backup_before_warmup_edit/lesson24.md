@@ -1,4 +1,4 @@
-# Lesson 24: Hai & Hue
+# Lesson 24: Dia & Hue
 
 !!! info "How to Use This Lesson"
     Every lesson is divided into five sections: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, and **Review**. Please move through these tabs in order. After you finish, *try the Exercises and Review again* to see how much you've improved.
@@ -22,7 +22,7 @@
     
 === "Grammar"
     
-    ## Hai & Hue
+    ## Dia & Hue
     
     When you use certain words as adjectives, you may be a bit confused about what they mean. For example:
     
@@ -30,18 +30,18 @@
     anye ilhei = is this person creator or created?
     ```
     
-    Enter *hai* and *hue*! **Hai** is used to indicate an **agent or role**, while **hue** is used to indicate a **recipient**, like this:
+    Enter *dia* and *hue*! **Dia** is used to indicate an **agent or role**, while **hue** is used to indicate a **recipient**, like this:
     
     ```
-    anye hai = maker, creator
+    anye dia = maker, creator
     anye hue = made, created
     ```
     
-    If you have trouble remembering which is which, notice their sounds are the same as the markers! That is, hai has a + i (actor), and hue has u + e (receiver).
+    If you have trouble remembering which is which, notice their sounds are the same as the markers! That is, dia has i + a (actor), and hue has u + e (receiver).
     
     Here are some words and what they mean with each:
     
-    | Oravia | English | + Hai | + Hue |
+    | Oravia | English | + Dia | + Hue |
     |--------|---------|--------|---------|
     | anye | to make | maker | made |
     | anita | to take | taker | taken |
@@ -52,13 +52,13 @@
     | eomio | support | supporter | supported |
     | mo | eat | eater | eaten |
 
-    *Hai* may be used to derive words about roles or professions. For example:
+    *Dia* may be used to derive words about roles or professions. For example:
     
     ```
     i boemo = to cook
-    boemo hai = a cook
+    boemo dia = a cook
     i roweir = to teach
-    roweir hai = teacher
+    roweir dia = teacher
     ```
     
     Finally, *hue* may be used to create passive voice. To do this, you use it on the verb and indicate the doer with *de*, like this:
@@ -81,12 +81,12 @@
     
     To sum it up:
     ```
-    hai = agent, role
+    dia = agent, role
     hue = receiver
     i [verb] hue de [actor] = passive voice
     ```
     
-    Now, try to create 3 sentences using *hai* and *hue*:
+    Now, try to create 3 sentences using *dia* and *hue*:
     
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
    

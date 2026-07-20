@@ -1,7 +1,7 @@
 # Lesson 6: Questions
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into four sections. Please move through them in this order: **Grammar**, **Vocabulary**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
+    This lesson is divided into five sections. Please move through them in this order: **Grammar**, **Vocabulary**, **Practice**, **Review**, **Flashcards**.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -54,7 +54,7 @@
     
     If he is drinking milk, one may reply something like *moulu*, *e moulu*, *i mouje moulu*, or *hay i mouje e moulu*.
     
-    Notice that sometimes you may want to specify whther you are asking about who is doing something, or who something is being done to. In that case, you use the marker before the questions, like this:
+    Notice that sometimes you may want to specify whether you are asking about who is doing something, or who something is being done to. In that case, you use the marker before the questions, like this:
     
     ```
     e ce i mouje? = what is being drunk?
@@ -234,7 +234,7 @@
         Ps. Other words you've already learned are also composed of sounds that have meaning in Oravia, just like *boemo*. You knew what MO means, but you may not know what the meanings of these other sounds are yet. As you learn more words, these syllable-meaning associations will become intuitive. I won't be telling you what these associations are: this is for you to discover as you learn more vocabulary. Happy exploration!
 
 
-=== "Exercise 1"
+=== "Practice"
 
     ## Matching Games
 
@@ -270,50 +270,6 @@
 
 
 
-=== "Exercise 2"
-
-    ## Matching Games
-
-    Time to practice! Match the Oravia words with their English meanings.
-
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
-
-    Click one word from each column to match them. The game will check automatically when you select both words.
-
-    After completing the Exercises and Review, try it again to see how much you've improved.
-
-    ---
-
-    ### Round 1
-
-    <div id="matching-game-5" data-lesson="lesson06_exercise2" data-round="1"></div>
-
-    ---
-
-    ### Round 2
-
-    <div id="matching-game-6" data-lesson="lesson06_exercise2" data-round="2"></div>
-
-    ---
-
-    ### Round 3
-
-    <div id="matching-game-7" data-lesson="lesson06_exercise2" data-round="3"></div>
-
-    ---
-
-    ### Round 4
-
-    <div id="matching-game-8" data-lesson="lesson06_exercise2" data-round="4"></div>
-
-    ---
-
-    ### Round 5
-
-    <div id="matching-game-9" data-lesson="lesson06_exercise2" data-round="5"></div>
-
-
-
 === "Review"
 
     ## Review Missed Words
@@ -323,31 +279,34 @@
     ---
     
     <div id="review-game-container"></div>
-  
+      
 
----
+    ---
+=== "Flashcards"
+
+    <div id="flashcard-container" data-lesson="6"></div>
 
 <div style="text-align: center; padding: 2rem 0; background: #e0f2f1; border-radius: 8px; margin-top: 3rem;">
-    <p style="font-size: 1.2rem; color: #4a9cd6; margin-bottom: 1rem;">
+<p style="font-size: 1.2rem; color: #4a9cd6; margin-bottom: 1rem;">
         🎉 <strong>Lesson 6 Complete!</strong>
     </p>
-    <p style="color: #5a8bb8; margin-bottom: 0.5rem;">
+<p style="color: #5a8bb8; margin-bottom: 0.5rem;">
         If you missed any words, check the <strong>Review</strong> tab to practice them again.
     </p>
-    <p style="color: #5a8bb8; margin-bottom: 1.5rem;">
+<p style="color: #5a8bb8; margin-bottom: 1.5rem;">
         Come back tomorrow for Lesson 7.
     </p>
 </div>
 
 <script>
-async function initReview() {
+    async function initReview() {
     const wrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
     const container = document.getElementById('review-game-container');
     if (!container) return;
     if (wrongIds.length === 0) {
         container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p><p style="color: #5a8bb8; margin-top: 0.5rem;">You did not miss any words. Excellent work!</p></div>';
         return;
-    }
+}
     try {
         const lessonIds = [...new Set(
             [...document.querySelectorAll('[data-lesson]')]
@@ -380,17 +339,38 @@ async function initReview() {
                 location.reload();
             }
         });
-    } catch (error) {
+} catch (error) {
         console.error('Error loading words:', error);
         container.innerHTML = '<p style="color: #f44336;">Error loading review words. Please refresh the page.</p>';
-    }
+}
 }
 document.addEventListener('DOMContentLoaded', initReview);
-document.querySelectorAll('.tabbed-labels label').forEach(label => {
+    document.querySelectorAll('.tabbed-labels label').forEach(label => {
     if (label.textContent.trim() === 'Review') {
         label.addEventListener('click', function() {
             setTimeout(initReview, 50);
         });
-    }
+}
 });
+</script>
+
+<script>
+(function() {
+    var ENDPOINT = 'https://script.google.com/macros/s/AKfycbyK1kWJRcXZ9tHqLGYZP8ZG90OcMj8ld3zUSNjvyOhHiSJyr5GIep0tdCxF9xMBamia/exec';
+    function sendData() {
+        var userId = localStorage.getItem('oravia_user_id') || 'anonymous';
+        var log = JSON.parse(localStorage.getItem('oravia_log') || '[]');
+        var wrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
+        if (log.length === 0 && wrongIds.length === 0) return;
+        var lessonId = window.location.pathname.split('/').filter(Boolean).pop().replace('.html', '');
+        navigator.sendBeacon(ENDPOINT, JSON.stringify({
+            tester_id: userId,
+            lesson: lessonId,
+            log: log,
+            wrong_ids: wrongIds
+        }));
+    }
+    window.addEventListener('pagehide', sendData);
+    window.addEventListener('beforeunload', sendData);
+})();
 </script>

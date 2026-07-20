@@ -27,11 +27,11 @@
      See if you can understand these sentences. Some words or uses may be new. Try to read them first, and then scroll down for tips, and then answers. 
     
     ```
-    Roena hai i vil i roena.  
+    Roena dia i vil i roena.  
     ```
         
     ```
-    Roesau hai i tane i roesau mir. 
+    Roesau dia i tane i roesau mir. 
     ```
     
     ```
@@ -39,7 +39,7 @@
     ```
     
     ```
-    A beivu hai i vil i moujeum notam.
+    A beivu dia i vil i moujeum notam.
     ```
     
     ```
@@ -62,22 +62,22 @@
     (dae)tane = recommendation, should   
     (no)vil = obligation, must    
     beivu = car  
-    beivu hai = driver  
+    beivu dia = driver  
     ca = that, which    
     eodenbor = visit, guest  
     eomfel = event  
     eta = therefore  
     faigel = marriage, spouse    
     fani = baby  
-    hai = agent (doer)  
+    dia = agent (doer)  
     mir = a lot, much  
     mouje = drink  
     nim = I  
     notam = first, before  
     roena = teach  
-    roena hai = teacher  
+    roena dia = teacher  
     roesau = learn, study  
-    roesau hai = student  
+    roesau dia = student  
     run = you  
     u = to, for  
     vardur = tooth, bite  
@@ -164,7 +164,7 @@
     </div>
     
     <div id="subcluster6-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;">Example answers: I vanta e miwo, mai i dairan e miau su. Fare i anona u nim e micea, bi oipili! </p>
+    <p style="margin: 0;">Example answers: I vanta e miwo, mai i dapas e miau su. Fare i anona u nim e micea, bi oipili! </p>
     </div>
     
     You are ready for the exercise now!

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "D1_nim",
+    "front": "nim",
+    "back": "I",
+    "breakdown": []
+  },
+  {
+    "id": "D1_run",
+    "front": "run",
+    "back": "you",
+    "breakdown": []
+  },
+  {
+    "id": "D1_hay",
+    "front": "hay",
+    "back": "he / she / they",
+    "breakdown": []
+  },
+  {
+    "id": "D1_molcui",
+    "front": "molcui",
+    "back": "bowl, container",
+    "breakdown": [
+      {
+        "sound": "mol",
+        "meaning": "food containers"
+      },
+      {
+        "sound": "cui",
+        "meaning": "bowl"
+      }
+    ]
+  },
+  {
+    "id": "D1_moaria",
+    "front": "moaria",
+    "back": "apple",
+    "breakdown": [
+      {
+        "sound": "moa",
+        "meaning": "fruits"
+      },
+      {
+        "sound": "ria",
+        "meaning": "apple"
+      }
+    ]
+  }
+]

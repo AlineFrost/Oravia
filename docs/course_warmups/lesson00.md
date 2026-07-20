@@ -8,6 +8,46 @@ To navigate the Lesson, please click the tabs below: "About the Course", "Pronun
 
 === "About the Course"
 
+    <div id="user-id-prompt" style="background:#e8f4fb;border-radius:8px;padding:1.5rem;margin-bottom:1.5rem;border:1px solid #4a9cd6">
+        <p style="font-weight:600;color:#2a4a6b;margin-bottom:0.75rem">Before you begin</p>
+        <p style="color:#5a8bb8;margin-bottom:1rem;font-size:0.95rem">Please enter your name or email so we can track your progress through the course.</p>
+        <div style="display:flex;gap:0.75rem;flex-wrap:wrap">
+            <input id="user-id-input" type="text" placeholder="Your name or email"
+                style="flex:1;min-width:200px;padding:0.5rem 0.75rem;border:1px solid #4a9cd6;border-radius:6px;font-size:0.95rem">
+            <button id="user-id-save" style="padding:0.5rem 1.25rem;background:#4a9cd6;color:white;border:none;border-radius:6px;font-size:0.95rem;cursor:pointer;font-weight:600">
+                Save
+            </button>
+        </div>
+        <p id="user-id-saved" style="display:none;color:#43a047;margin-top:0.75rem;font-size:0.9rem">✓ Saved! You're all set.</p>
+    </div>
+
+    <script>
+    (function() {
+        const input = document.getElementById('user-id-input');
+        const btn = document.getElementById('user-id-save');
+        const saved = document.getElementById('user-id-saved');
+        const prompt = document.getElementById('user-id-prompt');
+
+        // If already set, show confirmation and hide input
+        const existing = localStorage.getItem('oravia_user_id');
+        if (existing) {
+            input.value = existing;
+            saved.textContent = '✓ Saved as: ' + existing + '. Click Save to change.';
+            saved.style.display = 'block';
+        }
+
+        btn.addEventListener('click', function() {
+            const val = input.value.trim();
+            if (!val) return;
+            localStorage.setItem('oravia_user_id', val);
+            saved.textContent = '✓ Saved as: ' + val;
+            saved.style.display = 'block';
+            btn.textContent = 'Updated ✓';
+            setTimeout(() => { btn.textContent = 'Save'; }, 2000);
+        });
+    })();
+    </script>
+    
     The Complete Course is divided into two sections: Core and Expansion. The Course is called complete not because it covers everything there is about Oravia, but because it has grammar, vocabulary, listening, reading, and writing.
 
     The **Core Course** covers everything you need to get started. After completing it, you will be able to understand a lot of Oravia with the help of the vocabulary list. The Core Course takes about 5-8h, so technically it could be done over a weekend. However, most learners find a slower pace more enjoyable.
@@ -39,7 +79,8 @@ To navigate the Lesson, please click the tabs below: "About the Course", "Pronun
     - **C** pronounced as in *cake* (IPA k)
     - **H** pronounced as in *house* (IPA h, ʁ or x)
     - **J** pronounced as in *jello* (IPA dʒ)
-    - **R** pronounced as 'tt' in *butter* (IPA ɾ, r)
+    - **R** pronounced as 'tt' in American English *butter* (IPA ɾ, r)
+    - **Y** pronounced as 'y' in *yes* (IPA j)
     
     ### Vowels
     
@@ -106,7 +147,7 @@ To navigate the Lesson, please click the tabs below: "About the Course", "Pronun
 
 === "Vocabulary Structure"
 
-    The part of language learning that takes the longest is vocabulary. This is true even with Oravia, which has a small vocabulary and ways to make acquiring it easier. Remembering words requires exposure and repetition, and this course takes a light approach: no long writing exercises, no spaced repetition decks. This means that especially in the beginning, before you know the syllable-meaning associations, learning words may not be as easy. But, as your progress through the course, it gets easier and easier! Because of the vocabulary structure, the more words you know, the easier it becomes to learn more. So don't worry if you forget or confuse words, it will come naturally to you as you progres. 
+    The part of language learning that takes the longest is vocabulary. This is true even with Oravia, which has a small vocabulary and ways to make acquiring it easier. Remembering words requires exposure and repetition. This means that especially in the beginning, before you know the syllable-meaning associations, learning words may not be as easy. But, as your progress through the course, it gets easier and easier! Because of the vocabulary structure, the more words you know, the easier it becomes to learn more. So don't worry if you forget or confuse words, it will come naturally to you as you progres. 
     
     ## How Vocabulary Works
     

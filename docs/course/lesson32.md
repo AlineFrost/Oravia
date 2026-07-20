@@ -45,7 +45,7 @@
     Next, let's take a look at *must*. We use **novil**, which means **obligation**.
     
     ```
-    Gelna hai i vil i gerina.
+    Gelna dia i vil i gerina.
     The buyer must pay.  
     ```
     

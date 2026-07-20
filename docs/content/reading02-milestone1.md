@@ -20,15 +20,15 @@
 
 6\. **Kai:** I dai i bevio en yani bedam,<br>a ilhei i ilaluan ca oipili.<br>En limel, i dai i mo.
 
-7\. **Ana:** A bevio a oi!<br>Nim i geldovear nime beivu,<br>eta nim i do i gerina.<br>Mai, i iranum i mo en limel.
+7\. **Ana:** A bevio a oi!<br>Nim i geldovear nime beivu,<br>eta nim i do i gerina.<br>Mai, i pasum i mo en limel.
 
 8\. **Kai:** Nima i do i mo yalgai.<br>Ce run i iliro, moa?
 
 9\. **Ana:** Oila.<br>Nima i do i mo e moa en bedam.<br>Su i anvu en mo bevio litamis.
 
-10\. **Kai:** Celi run i anocari?<br>Nim i iran i eodya e run,<br>liperis, i dami a eompela u falte.
+10\. **Kai:** Celi run i anocari?<br>Nim i pas i eodya e run,<br>liperis, i dami a eompela u falte.
 
-11\. **Ana:** Nim i anelem en ligo lipardas,<br>eta i do i eompela su run.<br>Oi!<br>I iran i eodani e yani ilhei,<br>su i do i anefene cali en bo.
+11\. **Ana:** Nim i anelem en ligo lipardas,<br>eta i do i eompela su run.<br>Oi!<br>I pas i eodani e yani ilhei,<br>su i do i anefene cali en bo.
 
 12\. **Kai:** Ia, nim i do i anefene cali faigel.<br>Su cedom run?
 
@@ -100,7 +100,7 @@ In two weeks: <textarea style="width: 100%; min-height: 50px; padding: 0.5rem; b
 | ce | what? |
 | celi | when? |
 | cedom | where? |
-| dairan | like |
+| dapas | like |
 | dami | exist, there is |
 | eodani | meet |
 | eodya | invite |

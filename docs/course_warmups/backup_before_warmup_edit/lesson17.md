@@ -22,7 +22,7 @@
     
 === "Grammar"
     
-    ## Dami, Dairan
+    ## Dami, Dapas
     
      Now, see if you can understand these sentences. If you scroll bellow, you will see tips, and then answers. 
      
@@ -31,19 +31,19 @@
     </audio>
     
     ```
-    nim i dairan e moulu.
+    nim i dapas e moulu.
     ```
     
     ```
-    fasuno i dairanum e moa mai hay i mo.
+    fasuno i dapasum e moa mai hay i mo.
     ```
     
     ```
-    run i iran i bospupi.
+    run i pas i bospupi.
     ```
     
     ```
-    ce run i iran i anye?
+    ce run i pas i anye?
     ```
     
     ```
@@ -91,7 +91,7 @@
     </div>
     
     
-    Now try to create 3 sentences using *dami* and *dairan*:
+    Now try to create 3 sentences using *dami* and *dapas*:
     
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
 

@@ -120,14 +120,14 @@
     
     You can say many new things now. For example:
     ```
-    No neloa hoi, nim netam i iran i geldove. 
+    No neloa hoi, nim netam i pas i geldove. 
     Like everyone around here, I only like to sell.
     ```
     
     Also, notice we have the word *neron* as *more*. Remember we use *ga* when comparing two things. *Neron* is used for addition, like this:
     
     ```
-    I iran i gelsar. Neron, i vanta e gerina. 
+    I pas i gelsar. Neron, i vanta e gerina. 
     I like to buy. Furthermore, I have money.
     
     Neron, eori.

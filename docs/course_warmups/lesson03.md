@@ -1,7 +1,7 @@
 # Lesson 3: FA Cluster
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into four sections. Please move through them in this order: **Grammar**, **Vocabulary**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
+    This lesson is divided into five sections. Please move through them in this order: **Grammar**, **Vocabulary**, **Practice**, **Review**, **Flashcards**.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -195,7 +195,7 @@
     
     ---
 
-=== "Exercise"
+=== "Practice"
 
     ## Matching Games
     
@@ -242,18 +242,20 @@
     ---
     
     <div id="review-game-container"></div>
-  
+=== "Flashcards"
+
+    <div id="flashcard-container" data-lesson="3"></div>
 
 ---
 
 <div style="text-align: center; padding: 2rem 0; background: #e0f2f1; border-radius: 8px; margin-top: 3rem;">
-    <p style="font-size: 1.2rem; color: #4a9cd6; margin-bottom: 1rem;">
+<p style="font-size: 1.2rem; color: #4a9cd6; margin-bottom: 1rem;">
         🎉 <strong>Lesson 3 Complete!</strong>
     </p>
-    <p style="color: #5a8bb8; margin-bottom: 0.5rem;">
+<p style="color: #5a8bb8; margin-bottom: 0.5rem;">
         If you missed any words, check the <strong>Review</strong> tab to practice them again.
     </p>
-    <p style="color: #5a8bb8; margin-bottom: 1.5rem;">
+<p style="color: #5a8bb8; margin-bottom: 1.5rem;">
         Come back tomorrow for Lesson 4.
     </p>
 </div>
@@ -266,7 +268,7 @@ async function initReview() {
     if (wrongIds.length === 0) {
         container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p><p style="color: #5a8bb8; margin-top: 0.5rem;">You did not miss any words. Excellent work!</p></div>';
         return;
-    }
+}
     try {
         const lessonIds = [...new Set(
             [...document.querySelectorAll('[data-lesson]')]
@@ -299,10 +301,10 @@ async function initReview() {
                 location.reload();
             }
         });
-    } catch (error) {
+} catch (error) {
         console.error('Error loading words:', error);
         container.innerHTML = '<p style="color: #f44336;">Error loading review words. Please refresh the page.</p>';
-    }
+}
 }
 document.addEventListener('DOMContentLoaded', initReview);
 document.querySelectorAll('.tabbed-labels label').forEach(label => {
@@ -310,6 +312,27 @@ document.querySelectorAll('.tabbed-labels label').forEach(label => {
         label.addEventListener('click', function() {
             setTimeout(initReview, 50);
         });
-    }
+}
 });
+</script>
+
+<script>
+(function() {
+    var ENDPOINT = 'https://script.google.com/macros/s/AKfycbyK1kWJRcXZ9tHqLGYZP8ZG90OcMj8ld3zUSNjvyOhHiSJyr5GIep0tdCxF9xMBamia/exec';
+    function sendData() {
+        var userId = localStorage.getItem('oravia_user_id') || 'anonymous';
+        var log = JSON.parse(localStorage.getItem('oravia_log') || '[]');
+        var wrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
+        if (log.length === 0 && wrongIds.length === 0) return;
+        var lessonId = window.location.pathname.split('/').filter(Boolean).pop().replace('.html', '');
+        navigator.sendBeacon(ENDPOINT, JSON.stringify({
+            tester_id: userId,
+            lesson: lessonId,
+            log: log,
+            wrong_ids: wrongIds
+        }));
+    }
+    window.addEventListener('pagehide', sendData);
+    window.addEventListener('beforeunload', sendData);
+})();
 </script>

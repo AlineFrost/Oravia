@@ -38,13 +38,13 @@
     ```
     This means *there is no apple*. 
     
-    The second verb from the *DA* cluster we will learn today is **dairan**. *dairan* means **to like**.
+    The second verb from the *DA* cluster we will learn today is **dapas**. *dapas* means **to like**.
     ```
-    nim i dairan e moaria  = I like apples
-    nim i dairanum e moaria = I don't like apples
-    nim i iran i mo = I like to eat 
+    nim i dapas e moaria  = I like apples
+    nim i dapasum e moaria = I don't like apples
+    nim i pas i mo = I like to eat 
     ```
-    The usage of *dami* and *dairan* is the same as any other verb.
+    The usage of *dami* and *dapas* is the same as any other verb.
     
     ## Extended family
     
@@ -102,7 +102,7 @@
     To sum up:
     ```
     dami = to exist
-    dairan = to like
+    dapas = to like
     (fa) re = going up in the family tree
     (fa) no = going down in the family tree
     (fa) su = going sideways in the family tree

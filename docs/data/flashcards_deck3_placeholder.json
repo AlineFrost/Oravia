@@ -1,0 +1,77 @@
+[
+  {
+    "id": "D3_dami",
+    "front": "dami",
+    "back": "to exist, there is",
+    "breakdown": [
+      {
+        "sound": "da",
+        "meaning": "mental stance"
+      },
+      {
+        "sound": "mi",
+        "meaning": "existence"
+      }
+    ]
+  },
+  {
+    "id": "D3_dasora",
+    "front": "dasora",
+    "back": "purpose, goal",
+    "breakdown": [
+      {
+        "sound": "da",
+        "meaning": "mental stance"
+      },
+      {
+        "sound": "sora",
+        "meaning": "direction"
+      }
+    ]
+  },
+  {
+    "id": "D3_davio",
+    "front": "davio",
+    "back": "change, to change",
+    "breakdown": [
+      {
+        "sound": "da",
+        "meaning": "mental stance"
+      },
+      {
+        "sound": "vio",
+        "meaning": "shift"
+      }
+    ]
+  },
+  {
+    "id": "D3_dasu",
+    "front": "dasu",
+    "back": "accept, to accept",
+    "breakdown": [
+      {
+        "sound": "da",
+        "meaning": "mental stance"
+      },
+      {
+        "sound": "su",
+        "meaning": "with"
+      }
+    ]
+  },
+  {
+    "id": "D3_danala",
+    "front": "danala",
+    "back": "attention",
+    "breakdown": [
+      {
+        "sound": "dan",
+        "meaning": "significance"
+      },
+      {
+        "sound": "ala",
+        "meaning": "focus"
+      }
+    ]
+  }
+]

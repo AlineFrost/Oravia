@@ -20,8 +20,8 @@
       "ansau",
       "anse",
       "antai",
-      "antori",
-      "antufu",
+      "anbas",
+      "anpul",
       "anvu",
       "anye",
       "anilie",
@@ -82,7 +82,7 @@
       "anidai",
       "aniyel",
       "anifou",
-      "aniran",
+      "anipas",
       "anisu",
       "anita",
       "anivari"
@@ -185,7 +185,7 @@
     "type": "subcluster",
     "sound": "ase",
     "cluster": "bodily actions",
-    "meaning": "affectionate contact",
+    "meaning": "affective expression",
     "oravia": [
       "asela",
       "aselano",
@@ -223,7 +223,7 @@
     "type": "subcluster",
     "sound": "asu",
     "cluster": "bodily actions",
-    "meaning": "vocal acts",
+    "meaning": "vocal expressions",
     "oravia": [
       "asucin",
       "asuifi",
@@ -422,7 +422,7 @@
       "cohua",
       "colira",
       "coman",
-      "conala",
+      "cojim",
       "conehui",
       "conodo",
       "copei",
@@ -484,7 +484,7 @@
       "dade",
       "dael",
       "dahau",
-      "dairan",
+      "dapas",
       "dama",
       "damai",
       "dameo",
@@ -533,7 +533,7 @@
       "daeta",
       "daefei",
       "daegor",
-      "daehun",
+      "daefer",
       "daelan",
       "daelipo",
       "daemie",
@@ -562,7 +562,7 @@
     "oravia": [
       "dandao",
       "danmir",
-      "danala",
+      "dajim",
       "dantam",
       "danvandi",
       "jeodan"
@@ -586,8 +586,8 @@
       "dodo",
       "dofa",
       "dolal",
-      "donen",
-      "dohogao",
+      "dosaba",
+      "dogue",
       "dorel",
       "doro",
       "dovea",
@@ -928,7 +928,7 @@
       "gaoleo",
       "gaomem",
       "gaone",
-      "dohogao"
+      "dogue"
     ],
     "english": [
       "ratio",
@@ -1355,7 +1355,7 @@
     "meaning": "material types",
     "oravia": [
       "jolbo",
-      "jolceyo",
+      "jolfus",
       "joldur",
       "joliri",
       "jolace",
@@ -1560,7 +1560,7 @@
       "mamol",
       "marira",
       "matal",
-      "matira",
+      "magaira",
       "mavoci",
       "mawa"
     ],
@@ -1919,15 +1919,15 @@
     "type": "subcluster",
     "sound": "om",
     "cluster": "music",
-    "meaning": "music",
+    "meaning": "sound, music",
     "oravia": [
       "omapa",
-      "ombun",
+      "omlufu",
       "omco",
       "omja",
       "omlia",
       "ompili",
-      "omtuci"
+      "ombum"
     ],
     "english": [
       "dance",
@@ -1952,7 +1952,7 @@
       "poelve",
       "pogai",
       "pomia",
-      "pomuvu"
+      "povu"
     ],
     "english": [
       "mass",
@@ -2037,7 +2037,7 @@
       "radom",
       "rafa",
       "rage",
-      "rairan",
+      "rapas",
       "raleo",
       "ralua",
       "rani"
@@ -2065,7 +2065,7 @@
       "railem",
       "railiu",
       "rainen",
-      "raipuni",
+      "raihucu",
       "raisoi",
       "raitar",
       "raitu",
@@ -2094,7 +2094,7 @@
     "type": "subcluster",
     "sound": "ran",
     "cluster": "society",
-    "meaning": "media, public discourse",
+    "meaning": "public institutions",
     "oravia": [
       "ranco",
       "ranlevi",
@@ -2157,12 +2157,14 @@
     "oravia": [
       "roedom",
       "roejo",
+      "roeluo",
       "roena",
       "roesau"
     ],
     "english": [
       "school",
       "exam",
+      "study",
       "teach",
       "learn"
     ],
@@ -2196,7 +2198,7 @@
       "sebom",
       "sedel",
       "sepopo",
-      "sepuni",
+      "sehucu",
       "sero",
       "seseri",
       "setin",
@@ -2321,7 +2323,7 @@
       "tiriju",
       "titata",
       "titodom",
-      "tivaru",
+      "tigim",
       "tivonpu"
     ],
     "english": [
@@ -2351,7 +2353,7 @@
     "oravia": [
       "tiuan",
       "tiuhu",
-      "tiunala",
+      "tiujim",
       "tiuri",
       "tiuvor"
     ],
@@ -2608,7 +2610,7 @@
       "veinal",
       "veiti",
       "veimigai",
-      "veitira",
+      "veigaira",
       "veito"
     ],
     "english": [
@@ -2648,7 +2650,7 @@
       "vigai",
       "vilam",
       "vilil",
-      "viso",
+      "vipuo",
       "visuva",
       "viwa",
       "viyur"
@@ -2705,7 +2707,7 @@
     "type": "subcluster",
     "sound": "vos",
     "cluster": "hygiene",
-    "meaning": "cleaning actions",
+    "meaning": "grooming",
     "oravia": [
       "vosfan",
       "vosfou",
@@ -2827,7 +2829,7 @@
     "meaning": "objective qualities",
     "oravia": [
       "yadetu",
-      "yamiran",
+      "yamirpas",
       "yamirhei",
       "yamirli",
       "yani",
@@ -2893,7 +2895,7 @@
     "type": "subcluster",
     "sound": "ye",
     "cluster": "clothing",
-    "meaning": "clothing and fabric",
+    "meaning": "textiles",
     "oravia": [
       "yedi",
       "yejae",
@@ -2927,7 +2929,7 @@
       "yesmel",
       "yesnou",
       "yespai",
-      "yespuli",
+      "yespolo",
       "yesrel",
       "yeswol"
     ],
@@ -3756,12 +3758,12 @@
   },
   {
     "type": "root",
-    "sound": "iran",
+    "sound": "pas",
     "meaning": "favor",
     "oravia": [
-      "aniran",
-      "dairan",
-      "rairan"
+      "anipas",
+      "dapas",
+      "rapas"
     ],
     "english": [
       "choose",
@@ -4077,7 +4079,7 @@
   {
     "type": "root",
     "sound": "loa",
-    "meaning": "completeness",
+    "meaning": "totality",
     "oravia": [
       "geloa",
       "heoloa",
@@ -4155,6 +4157,22 @@
       "sail"
     ],
     "natural_language": "German Luft (air)"
+  },
+  {
+    "type": "root",
+    "sound": "luo",
+    "meaning": "practice",
+    "oravia": [
+      "rasluo",
+      "roeluo",
+      "veluo"
+    ],
+    "english": [
+      "sport",
+      "study",
+      "exercise"
+    ],
+    "natural_language": ""
   },
   {
     "type": "root",
@@ -4238,7 +4256,7 @@
       "roumir",
       "simir",
       "yunmir",
-      "yamiran"
+      "yamirpas"
     ],
     "english": [
       "important",
@@ -4322,19 +4340,19 @@
   },
   {
     "type": "root",
-    "sound": "nala",
+    "sound": "jim",
     "meaning": "urgency",
     "oravia": [
-      "conala",
-      "danala",
-      "tiunala"
+      "cojim",
+      "dajim",
+      "tiujim"
     ],
     "english": [
       "emergency",
       "attention",
       "threat"
     ],
-    "natural_language": "Arabic نَفَر nafara (urgent flight, alarm)"
+    "natural_language": "Mandarin 急 jí (urgent, anxious, rapid)"
   },
   {
     "type": "root",
@@ -4355,7 +4373,7 @@
     "sound": "nen",
     "meaning": "power and violence",
     "oravia": [
-      "donen",
+      "dosaba",
       "pohnen",
       "rainen",
       "tinen",
@@ -4395,7 +4413,7 @@
   {
     "type": "root",
     "sound": "niu",
-    "meaning": "some",
+    "meaning": "indefinite quantity",
     "oravia": [
       "daeniu",
       "joniu",
@@ -4413,7 +4431,7 @@
   {
     "type": "root",
     "sound": "no",
-    "meaning": "downward, extension below",
+    "meaning": "declaration",
     "oravia": [
       "couno",
       "dano",
@@ -4656,17 +4674,17 @@
   },
   {
     "type": "root",
-    "sound": "puni",
+    "sound": "hucu",
     "meaning": "command",
     "oravia": [
-      "raipuni",
-      "sepuni"
+      "raihucu",
+      "sehucu"
     ],
     "english": [
       "law",
       "command"
     ],
-    "natural_language": "Latin punire (to punish, command obedience); English punish (puni- root)"
+    "natural_language": "Indonesian hukum (law); Arabic/Hindi/Urdu ḥukm (command, ruling)"
   },
   {
     "type": "root",
@@ -4739,7 +4757,7 @@
   {
     "type": "root",
     "sound": "reva",
-    "meaning": "accurate",
+    "meaning": "real",
     "oravia": [
       "ciureva",
       "daereva",
@@ -4833,7 +4851,7 @@
   {
     "type": "root",
     "sound": "rul",
-    "meaning": "habit",
+    "meaning": "recurrence",
     "oravia": [
       "ciurul",
       "elarul",
@@ -5129,7 +5147,7 @@
   {
     "type": "root",
     "sound": "ti",
-    "meaning": "bad",
+    "meaning": "bad, harm",
     "oravia": [
       "dohti",
       "hehti",
@@ -5148,11 +5166,11 @@
   },
   {
     "type": "root",
-    "sound": "tira",
+    "sound": "gaira",
     "meaning": "fungus",
     "oravia": [
-      "matira",
-      "veitira"
+      "magaira",
+      "veigaira"
     ],
     "english": [
       "mushroom",
@@ -5289,7 +5307,7 @@
   {
     "type": "root",
     "sound": "vio",
-    "meaning": "change, exchange",
+    "meaning": "change, transformation",
     "oravia": [
       "bevio",
       "davio",
@@ -5629,7 +5647,7 @@
     "sound": "ho",
     "meaning": "opposite",
     "oravia": [
-      "dohogao"
+      "dogue"
     ],
     "english": [
       "tendency"

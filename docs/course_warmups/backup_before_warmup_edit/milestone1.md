@@ -22,15 +22,15 @@ This dialogue is more challenging and contains a few words you haven't learned y
 
 6\. **Kai:** I dai i bevio en yani bedam,<br>a ilhei i ilaluan ca oipili.<br>En limel, i dai i mo.
 
-7\. **Ana:** A bevio a oi!<br>Nim i geldovear nime beivu,<br>eta nim i do i gerina.<br>Mai, i iranum i mo en limel.
+7\. **Ana:** A bevio a oi!<br>Nim i geldovear nime beivu,<br>eta nim i do i gerina.<br>Mai, i pasum i mo en limel.
 
 8\. **Kai:** Nima i do i mo yalgai.<br>Ce run i iliro, moa?
 
 9\. **Ana:** Oila.<br>Nima i do i mo e moa en bedam.<br>Su i anvu en mo bevio litamis.
 
-10\. **Kai:** Celi run i anocari?<br>Nim i iran i eodya e run,<br>liperis, i dami a eompela u falte.
+10\. **Kai:** Celi run i anocari?<br>Nim i pas i eodya e run,<br>liperis, i dami a eompela u falte.
 
-11\. **Ana:** Nim i anelem en ligo lipardas, <br>eta i do i eompela su run.<br>Oi!<br>I iran i eodani e yani ilhei,<br>su i do i anefene cali en bo.
+11\. **Ana:** Nim i anelem en ligo lipardas, <br>eta i do i eompela su run.<br>Oi!<br>I pas i eodani e yani ilhei,<br>su i do i anefene cali en bo.
 
 12\. **Kai:** Ia, nim i do i anefene cali faigel.<br>Su cedom run?
 
@@ -106,7 +106,7 @@ cali = when (connector)
 ce = what?  
 celi = when?  
 cedom = where?  
-(da)iran = like  
+(da)pas = like  
 dami = exist, there is  
 e = direct complement marker  
 en = in/at/on  
@@ -167,7 +167,7 @@ A ilhei i ilaluan ca oipili.
 Liperis, i dami a eompela u falte.  
 *There is a party for young people next week.*
 
-I iran i eodani e yani ilhei, su i do i anefene cali en bo.  
+I pas i eodani e yani ilhei, su i do i anefene cali en bo.  
 *I like to meet new people, and I can rest when I am home.*
 
 Eori beitan, i yasoi anvu!  
@@ -213,7 +213,7 @@ d) Meet at the station
 *3. Open Questions*  
 Answer these questions in Oravia:
 
-a) Ce a Ana i iranum?  
+a) Ce a Ana i pasum?  
 b) Cedom a bosvi i dami?  
 
 <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write the answers here..."></textarea>
@@ -265,8 +265,8 @@ Now write 2 sentences about Ana and Kai:
 </div>
 
 <div id="answer3" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-<p style="margin: 0 0 0.5rem 0;">a) Ce a Ana i iranum?</p>
-<p style="margin: 0 0 0.5rem 0;">Possible answer: A Ana i iranum i mo en limel.</p>
+<p style="margin: 0 0 0.5rem 0;">a) Ce a Ana i pasum?</p>
+<p style="margin: 0 0 0.5rem 0;">Possible answer: A Ana i pasum i mo en limel.</p>
 <p style="margin: 0 0 0.5rem 0;">b) Cedom a bosvi i dami?</p>
 <p style="margin: 0;">Possible answer: A bosvi i dami en beilem cadom bortal.</p>
 </div>

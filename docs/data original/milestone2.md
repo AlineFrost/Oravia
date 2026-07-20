@@ -20,7 +20,7 @@ Tamen en liyar en lunu. A luyol a lumbo, a lufu a lufiva.
 
 Notam Lina i asau, notor i yes. I vardei e elihei, hay I nomie no toului su toharou.
 
-I anocari yasoi su ho miau. A roedom a nordaum, eta i vanpai lilon i mo. Anolu, mir ilhei: a geldove hai i ilaluan, a falen i apavu.
+I anocari yasoi su ho miau. A roedom a nordaum, eta i vanpai lilon i mo. Anolu, mir ilhei: a geldove dia i ilaluan, a falen i apavu.
 
 Lina i anifi en roedom. Hay i anvuis en bortal cali i vardei norven Ana en borlu. Ana i boemo e noniu, su i nomie no iloto. Lina i bortal, su Ana i eon lisoi.
 
@@ -30,15 +30,15 @@ Lina i anifi en roedom. Hay i anvuis en bortal cali i vardei norven Ana en borlu
 
 “Mihie run! Run i iliro ca a roejois a yudur?”
 
-“Ga lidastorar, yudur. A roena hai a anodu yahci.”
+“Ga lidastorar, yudur. A roena dia a anodu yahci.”
 
 Lina i vardei e mo ca Ana i boemo. I varsi yuba.
 
 “Ce hoi?”
 
-“Micuc. No farejor. Lirular a hay i boemo e micuc neauta lirul perien. Daehun nim i anye no yuba, nedas ilie a roena hai i dairan. Ilicei a nim a nime farejor, i ilian canon…”
+“Micuc. No farejor. Lirular a hay i boemo e micuc neauta lirul perien. Daefer nim i anye no yuba, nedas ilie a roena dia i dapas. Ilicei a nim a nime farejor, i ilian canon…”
 
-“Ceora run no iloto? Norven a run a boemo hai. A rune mo a anodu. Ga run, a nim a yunmpou.”
+“Ceora run no iloto? Norven a run a boemo dia. A rune mo a anodu. Ga run, a nim a yunmpou.”
 
 Haya i vardei e cemi en litegai.
 
@@ -46,7 +46,7 @@ Haya i vardei e cemi en litegai.
 
 “...ca yesmel i tane yufer.” Lina i yadetu, a oimin. 
 
-Bi ho yuvabo, roena hai i bortal.
+Bi ho yuvabo, roena dia i bortal.
 
 “Notam run i ansau i boemo, Lina.” Hay i ilahai, a miogar. “Notor runa i roejo. Runa i vil i ilahaium.”
 
@@ -88,8 +88,8 @@ canon = how (affirmative)
 cemi = each other
 cenon = how?
 ceora = why?
-daehun = if, assuming
-dairan = like, to like
+daefer = if, assuming
+dapas = like, to like
 dami = exist, there is
 elihei = self
 eon = hello
@@ -102,7 +102,7 @@ farejor = mother
 falen = child
 ga = compared to, than
 geldove = sell
-hai = agent, role
+dia = agent, role
 ho = opposite
 hoi = this
 ilace = ask
@@ -157,7 +157,7 @@ oila = happy
 oimin = amuse
 perien = Sunday
 roejo = exam
-roena hai = teacher
+roena dia = teacher
 roesau = study, learn
 roedom = school
 runa = you all (plural)
@@ -188,7 +188,7 @@ yuvabo = comfortable
 Lirular a farejor i boemo e micuc neauta lirul perien.  
 *My mother used to cook chicken often on Sundays.*  
 
-Daehun nim i anye no yuba, nedas ilie a roena hai i dairan.  
+Daefer nim i anye no yuba, nedas ilie a roena dia i dapas.  
 *Assume: if I make it well like that, 10/10 likelihood the teacher will like it.*  
 
 Ilicei a nim a nime farejor, i ilian canon.  
@@ -206,7 +206,7 @@ A nim a micear, mai a run i anidai a eofa.
 Notor i mo, lirular nima i apaleno en nime leayo, i apaluon su nime fare, no a mioci i anodu e leirih!  
 *Second we would eat, [first] we used to dig in my garden, jump with my parents, like monkeys go to the top of trees!*
 
-Bi ho yuvabo, roena hai i bortal.  
+Bi ho yuvabo, roena dia i bortal.  
 *(Narrator: how uncomfortable), the teacher enters.*
 
 Mai cali hay i anroar i boemo e mo de falen su, i anivari en leayo de Ana, su a luyar i anifi lili.  

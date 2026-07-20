@@ -1,7 +1,7 @@
 # Lesson 51: DA Cluster
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Vocabulary**, **Reading**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
+    This lesson is divided into six sections. Please move through them in this order: **Warm-Up**, **Vocabulary**, **Reading**, **Practice**, **Review**, **Flashcards**.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -53,7 +53,7 @@
     
     **DA** words are about evaluation. They cover meanings related to assesment and analysis.
     
-    A couple of DA words are very important. We've already seen dami and dairan. Let's take a look at two more: *dasora* and *davio*.
+    A couple of DA words are very important. We've already seen dami and dapas. Let's take a look at two more: *dasora* and *davio*.
     
     First, dasora means purpose. Since this is such a common word, we frequently use just the root, *sora*. Take a look at some examples:
     
@@ -67,7 +67,7 @@
     The second word is davio, which means become. We use this word when we want to say something turns into something else, and is usually accompanied by *no*. For example: 
     
     ```
-    hay i dai i davio no omapa hai = he wants to become a dancer
+    hay i dai i davio no omapa dia = he wants to become a dancer
     falen i davio no yalen = the child is becoming tall
     falen i yalen-davio = the child is becoming tall
     ```
@@ -106,15 +106,15 @@
 
     En lealei a yalgai su mioici faejal i elemi. Hay e yopoh vosyas su e ancem hue vanpai i none. O e hay no Curupira i couya.
     Eofa de le, hay lirul en yaltan mio mius. Curupira e lei su misumu i eover. Cali a neauta lupupi i widuo, notam hay u misumu i ilahai. Eta, neloa de lufu su 'lusiram  i do i raiver. 
-    Lar, a copei hai e fano sioerar mioici i copei. A curupira noi i vardei, su i ansau i vanvu. A vanpai colira de curupira a ancem hue. 
-    Cali a sita hai e colira en leno i vardei, i copei. Mai, a colira en ho jetai i antai. Eta, a sita hai e jenon en lealei i ilianum, su a jenon-tohbian. Notor, hay en janou i apanou: o yewamus de curupira. 
-    A raiver hai de lealei e asur de sita hai i varsus:
+    Lar, a copei dia e fano sioerar mioici i copei. A curupira noi i vardei, su i ansau i vanvu. A vanpai colira de curupira a ancem hue. 
+    Cali a sita dia e colira en leno i vardei, i copei. Mai, a colira en ho jetai i antai. Eta, a sita dia e jenon en lealei i ilianum, su a jenon-tohbian. Notor, hay en janou i apanou: o yewamus de curupira. 
+    A raiver dia de lealei e asur de sita dia i varsus:
     "Eori, elomiu! E nim o i elodan !"
     "Run e miocici i dai i javoa. Noli, o run a javoa!"
-    A sita hai no tilira su tohpu i davio. Eta, a curupira i eloliuto.
+    A sita dia no tilira su tohpu i davio. Eta, a curupira i eloliuto.
     "O i asetowaum. A nim e run i elodan. Notam u nim o i elodao ca lis, run e fano de misumu i eoren."
     "A nim i elodao!"
-    A curupira e hay i eomio. A sita hai, ca a elireva tohdin, no raiver hai de fano de misumu i davio. Su caora a faejal u elodao i elasu, a curupira a oila. 
+    A curupira e hay i eomio. A sita dia, ca a elireva tohdin, no raiver dia de fano de misumu i davio. Su caora a faejal u elodao i elasu, a curupira a oila. 
 
 
     **Tips**
@@ -202,7 +202,7 @@
     How was it?
  
 
-=== "Exercise 1"
+=== "Practice"
 
     ## Matching Games
 
@@ -232,44 +232,6 @@
 
 
 
-=== "Exercise 2"
-
-    ## Matching Games
-
-    Time to practice! Match the Oravia words with their English meanings.
-
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
-
-    Click one word from each column to match them. The game will check automatically when you select both words.
-
-    After completing the Exercises and Review, try it again to see how much you've improved.
-
-    ---
-
-    ### Round 1
-
-    <div id="matching-game-4" data-lesson="lesson36_exercise2" data-round="1"></div>
-
-    ---
-
-    ### Round 2
-
-    <div id="matching-game-5" data-lesson="lesson36_exercise2" data-round="2"></div>
-
-    ---
-
-    ### Round 3
-
-    <div id="matching-game-6" data-lesson="lesson36_exercise2" data-round="3"></div>
-
-    ---
-
-    ### Round 4
-
-    <div id="matching-game-7" data-lesson="lesson36_exercise2" data-round="4"></div>
-
-
-
 === "Review"
 
     ## Review Missed Words
@@ -277,10 +239,12 @@
     This section shows words you got wrong during practice. If you didn't miss any, this will be empty - great job! 🎉
     
     <div id="review-game-container"></div>
+=== "Flashcards"
 
+    <div id="flashcard-container" data-lesson="51"></div>
 
 <script>
-function initWarmup() {
+    function initWarmup() {
         const warmupWords = [
     {id: "lu_1", oravia: "lufiva", english: "cold"},
     {id: "lu_2", oravia: "luyar",  english: "light"},
@@ -329,31 +293,31 @@ function initWarmup() {
             });
             localStorage.setItem('oravia_log', JSON.stringify(log));
         });
-    }
+}
     const backBtn = document.getElementById('back-to-assessment-btn');
     if (backBtn) backBtn.addEventListener('click', function() {
         document.getElementById('matching-section').style.display = 'none';
         document.getElementById('self-assessment-section').style.display = 'block';
-    });
+});
     renderSelfAssessment();
 }
 if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initWarmup);
+document.addEventListener('DOMContentLoaded', initWarmup);
 } else {
-    initWarmup();
+initWarmup();
 }
 </script>
 
 
 <script>
-async function initReview() {
+    async function initReview() {
     const wrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
     const container = document.getElementById('review-game-container');
     if (!container) return;
     if (wrongIds.length === 0) {
         container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p><p style="color: #5a8bb8; margin-top: 0.5rem;">You did not miss any words. Excellent work!</p></div>';
         return;
-    }
+}
     try {
         const lessonIds = [...new Set(
             [...document.querySelectorAll('[data-lesson]')]
@@ -386,29 +350,50 @@ async function initReview() {
                 location.reload();
             }
         });
-    } catch (error) {
+} catch (error) {
         console.error('Error loading words:', error);
         container.innerHTML = '<p style="color: #f44336;">Error loading review words. Please refresh the page.</p>';
-    }
+}
 }
 document.addEventListener('DOMContentLoaded', initReview);
-document.querySelectorAll('.tabbed-labels label').forEach(label => {
+    document.querySelectorAll('.tabbed-labels label').forEach(label => {
     if (label.textContent.trim() === 'Review') {
         label.addEventListener('click', function() {
             setTimeout(initReview, 50);
         });
-    }
+}
 });
 </script>
 
 <div style="text-align: center; padding: 2rem 0; background: #e0f2f1; border-radius: 8px; margin-top: 3rem;">
-    <p style="font-size: 1.2rem; color: #4a9cd6; margin-bottom: 1rem;">
-        🎉 <strong>Lesson 47 Complete!</strong>
-    </p>
-    <p style="color: #5a8bb8; margin-bottom: 0.5rem;">
-        If you missed any words, check the <strong>Review</strong> tab to practice them again.
-    </p>
-    <p style="color: #5a8bb8; margin-bottom: 1.5rem;">
-        Come back tomorrow for Lesson 48.
-    </p>
+        <p style="font-size: 1.2rem; color: #4a9cd6; margin-bottom: 1rem;">
+            🎉 <strong>Lesson 47 Complete!</strong>
+        </p>
+        <p style="color: #5a8bb8; margin-bottom: 0.5rem;">
+            If you missed any words, check the <strong>Review</strong> tab to practice them again.
+        </p>
+        <p style="color: #5a8bb8; margin-bottom: 1.5rem;">
+            Come back tomorrow for Lesson 48.
+        </p>
 </div>
+
+<script>
+(function() {
+    var ENDPOINT = 'https://script.google.com/macros/s/AKfycbyK1kWJRcXZ9tHqLGYZP8ZG90OcMj8ld3zUSNjvyOhHiSJyr5GIep0tdCxF9xMBamia/exec';
+    function sendData() {
+        var userId = localStorage.getItem('oravia_user_id') || 'anonymous';
+        var log = JSON.parse(localStorage.getItem('oravia_log') || '[]');
+        var wrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
+        if (log.length === 0 && wrongIds.length === 0) return;
+        var lessonId = window.location.pathname.split('/').filter(Boolean).pop().replace('.html', '');
+        navigator.sendBeacon(ENDPOINT, JSON.stringify({
+            tester_id: userId,
+            lesson: lessonId,
+            log: log,
+            wrong_ids: wrongIds
+        }));
+    }
+    window.addEventListener('pagehide', sendData);
+    window.addEventListener('beforeunload', sendData);
+})();
+</script>

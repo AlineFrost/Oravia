@@ -44,7 +44,7 @@
     
 
     ```
-    Hetam i do i boemo daehun 'roumo.
+    Hetam i do i boemo daefer 'roumo.
     ```
         
     ```

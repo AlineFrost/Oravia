@@ -7,13 +7,13 @@
 
 ## Reading
 
-Wirel Lufu su Lusari i damai cai a pohnen, cali be hai i anifi su vilan jovabo.
+Wirel Lufu su Lusari i damai cai a pohnen, cali be dia i anifi su vilan jovabo.
 
-Haya i dasu cai tam ganter i do i pohnen ca a be hai i siur e jovabo, i daca hue no pohnen.
+Haya i dasu cai tam ganter i do i pohnen ca a be dia i siur e jovabo, i daca hue no pohnen.
 
-Eta Wirel Lufu i 'asufu cane pohnen ca hay i ando, mai neron hay i 'asufu, neron be hai i vanta e jovabo en hay.
+Eta Wirel Lufu i 'asufu cane pohnen ca hay i ando, mai neron hay i 'asufu, neron be dia i vanta e jovabo en hay.
 
-Yadetu, a Wirel Lufu i toului-asfe. Notor, Lusari i luyar en neauta pohem non, su ilteli a be hai i siur e jovabo.
+Yadetu, a Wirel Lufu i toului-asfe. Notor, Lusari i luyar en neauta pohem non, su ilteli a be dia i siur e jovabo.
 
 Eta Wirel Lufu i raidana-ilaluan ca a Lusari a pohnen.
 

@@ -27,7 +27,7 @@
      See if you can understand these sentences. Some words or uses may be new. Try to read them first, and then scroll down for tips, and then answers. 
     
     ```
-    Daehun en yunu, eta lufiva.   
+    Daefer en yunu, eta lufiva.   
     ```
     
     ```
@@ -35,7 +35,7 @@
     ```
     
     ```
-    Daehun falen i roudi, eta hay i do i roudal.
+    Daefer falen i roudi, eta hay i do i roudal.
     ```
     
     ```
@@ -43,11 +43,11 @@
     ```
     
     ```
-    Daehun a hay a toumo, i mo.
+    Daefer a hay a toumo, i mo.
     ```
     
     ```
-    Ilicei a nim a roena hai, eta i ilian e roejo.   
+    Ilicei a nim a roena dia, eta i ilian e roejo.   
     ```
     
     ```
@@ -71,10 +71,10 @@
     bi = speaker comment  
     bontame = table, to put on a table  
     cadom = where  
-    daehun = assume, if...then   
+    daefer = assume, if...then   
     eta = therefore  
     falen = child  
-    hai = agent, role  
+    dia = agent, role  
     ilicei = imagine, counterfactual  
     lufiva = cold  
     miwo = dog  
@@ -84,7 +84,7 @@
     roudal = read  
     roejo = exam  
     roena = teach  
-    roena hai = teacher  
+    roena dia = teacher  
     roesau = learn, study  
     toumo = hungry  
     yugai = easy  

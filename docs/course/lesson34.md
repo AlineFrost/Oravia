@@ -35,7 +35,7 @@
     This means the speaker is **not** tall in reality.
     
     ```
-    Iliciu a hay a yuba, nim i dairan e hay. 
+    Iliciu a hay a yuba, nim i dapas e hay. 
     Imagine: he is good, I like him. / If he were good, I would like him. 
     ```
     
@@ -47,10 +47,10 @@
     
     This would be translated to English as: *If I had gone, I would not have lost the luggage*. Notice that we skip a lot of complicated verb forms just by using *iliciu*!
     
-    The second type of conditional is for ordinary *if, then* reasoning. We use this to state simple truths and causal relations. For that, we use *daehun*, which means *assume, suppose*: 
+    The second type of conditional is for ordinary *if, then* reasoning. We use this to state simple truths and causal relations. For that, we use *daefer*, which means *assume, suppose*: 
     
     ```
-    Daehun nim i apanou e moria, (eta) a moria i apanou. 
+    Daefer nim i apanou e moria, (eta) a moria i apanou. 
     Assume: I drop the apple, (then) the apple falls. / If I drop the apple, it falls.
     ```
     
@@ -60,10 +60,10 @@
     To sum up:
     ```
     iliciu = imagine, counterfactual  
-    daehun = assume, if then  
+    daefer = assume, if then  
     ```
 
-    Now try to create 3 sentences using **iliciu** and **daehun**:
+    Now try to create 3 sentences using **iliciu** and **daefer**:
     
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
     
@@ -128,7 +128,7 @@
     | miohou | wolf, predatory |
     
     
-    Ce a mi a anodu dairan u run?
+    Ce a mi a anodu dapas u run?
     
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
     
@@ -149,7 +149,7 @@
     </div>
     
     <div id="subcluster6-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;">Example answers: Nim i dairan e mimu caora a haye a mimu (I prefer cows because they are docile). A miopi a anodu caora a nim a miopi su (Foxes are the best because I am cunning too). </p>
+    <p style="margin: 0;">Example answers: Nim i dapas e mimu caora a haye a mimu (I prefer cows because they are docile). A miopi a anodu caora a nim a miopi su (Foxes are the best because I am cunning too). </p>
     </div>
     
     You are ready for the exercise now!

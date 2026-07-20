@@ -22,12 +22,12 @@
     
 === "Grammar"
 
-    ## Hai / Hue
+    ## Dia / Hue
     
      See if you can understand these sentences. Some words or uses may be new. Try to read them first, and then scroll down for tips, and then answers. 
     
     ```
-    A nime fare a boemo hai.
+    A nime fare a boemo dia.
     ```
     
     ```
@@ -35,7 +35,7 @@
     ```
     
     ```
-    A anye hai eofa i ansau e yani bevio. 
+    A anye dia eofa i ansau e yani bevio. 
     ```
     
     ```
@@ -47,7 +47,7 @@
     ```
     
     ```
-    Nolili a nime faibor a eomio hai. A faiborar a anocari hai. 
+    Nolili a nime faibor a eomio dia. A faiborar a anocari dia. 
     ```
     
     ```
@@ -72,7 +72,7 @@
     eofa = friend  
     fare = parent  
     faibor = partner, spouse  
-    hai = agent, role  
+    dia = agent, role  
     hue = recipient, result  
     mai = but  
     mo = food, eat  

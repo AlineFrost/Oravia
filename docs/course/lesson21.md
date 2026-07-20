@@ -191,7 +191,7 @@
     
     Now, try to answer:  
     
-    1) Run i iran i varsi e mo, dou i varsus e bospupi?  
+    1) Run i pas i varsi e mo, dou i varsus e bospupi?  
     
     2) A rune va a yasoi dou a yavuson? A falte dou a yamirli? A yalgai dou a yaltan? A yalen dou a ho yalen?  
         

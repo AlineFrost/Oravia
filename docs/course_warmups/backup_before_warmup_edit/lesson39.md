@@ -28,11 +28,11 @@
     
 
     ```
-    Nim i roudal lilon roena hai i roudi.
+    Nim i roudal lilon roena dia i roudi.
     ```
         
     ```
-    Nim i roudal ca roena hai i roudiar en roumir.  
+    Nim i roudal ca roena dia i roudiar en roumir.  
     ```
     
     ```
@@ -72,7 +72,7 @@
     suum = without  
     be = travel  
     fare = parent  
-    hai = the  
+    dia = agent (doer)  
     ilaluan = said, told  
     lupupi = rain (verb)  
     mo = eat  

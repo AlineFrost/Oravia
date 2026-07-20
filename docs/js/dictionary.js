@@ -367,8 +367,6 @@
       var el = document.getElementById('entry-' + word);
       if (el) {
         el.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        el.classList.add('dict-entry-highlight');
-        setTimeout(function () { el.classList.remove('dict-entry-highlight'); }, 1800);
       }
     }, 50);
   }

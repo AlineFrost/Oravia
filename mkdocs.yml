@@ -48,6 +48,9 @@ nav:
     - Readings: content/readings.md
     - Media: content/media.md
     - A2 Proficiency Test: content/a2_test.md
+    - Common Imported Words: content/imported-words.md
+    - Flashcards (beta): content/flashcards.md
+    - Daily Wordle Game: games/oravia-wordle.html
   - Course:
     - L0 - Pronunciation & Structure: course_warmups/lesson00.md
     - Core:
@@ -114,9 +117,6 @@ nav:
       - L58 - JE Cluster: course_warmups/lesson58.md
       - L59 - RA Cluster: course_warmups/lesson59.md
       - L60 - Wi / He Clusters: course_warmups/lesson60.md
-  - Worldbuilding:
-      - Script: world/script.md
-      - Locations: world/lusaria.md
 
 markdown_extensions:
   - attr_list

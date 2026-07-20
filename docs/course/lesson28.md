@@ -34,10 +34,10 @@
     For example:
     
     ```
-    Ceora run i dairan e nim?
+    Ceora run i dapas e nim?
     Why do you like me?
     
-    I ilianum e caora mai i dairan.
+    I ilianum e caora mai i dapas.
     I don't know why, but I do.
     ```
     

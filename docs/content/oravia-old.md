@@ -312,25 +312,25 @@ litam torpar = the 23rd (day 23)
 
 ---
 
-## Hai & Hue `L24`
+## Dia & Hue `L24`
 
-**Hai** = agent / role 
+**Dia** = agent / role 
 **Hue** = recipient / result 
 
 ```
 anye = make
-anye hai = maker
+anye dia = maker
 anye hue = made, created
 ```
 
-Memory aid: *hai* shares sounds with **a + i** (actor markers); *hue* shares sounds with **u + e** (receiver markers).
+Memory aid: *dia* shares sounds with **a + i** (actor markers); *hue* shares sounds with **u + e** (receiver markers).
 
-**Professions** — add *hai* to an action:
+**Professions** — add *dia* to an action:
 
 ```
-boemo hai = cook
-roena hai = teacher
-geldove hai = seller
+boemo dia = cook
+roena dia = teacher
+geldove dia = seller
 ```
 
 ---
@@ -369,8 +369,8 @@ This is frequently translated in English as before and after.
 As before, ce is used for questions and ca for affirmatives/connectors.
 
 ```
-ceora run i dairan e nim? = why do you like me?
-i ilianum e caora mai i dairan = I don't know why, but I do
+ceora run i dapas e nim? = why do you like me?
+i ilianum e caora mai i dapas = I don't know why, but I do
 
 cenon run i anvu en bedam? = how are you going to the plaza?  
 
@@ -428,7 +428,7 @@ fano i tane i moum = it's recommended that the child not eat
 **(Doh)vil** = obligation (*must*):
 
 ```
-gelna hai i vil i gerina = the buyer must pay
+gelna dia i vil i gerina = the buyer must pay
 fare i vil i ilonosum e fano = parents must not forget their children
 ```
 
@@ -452,23 +452,23 @@ Two types of conditional:
 ```
 iliciu a nim a yalen = imagine: I am tall (I am not)  
 
-iliciu a hay a yuba, nim i dairan e hay
+iliciu a hay a yuba, nim i dapas e hay
 If he were good, I would like him.  
 
 iliciu nim i anvuar, i anopum e bejae
 If I had gone, I would not have lost the luggage.
 ```
 
-**Daehun** = assume / if-then (neutral hypothesis):
+**Daefer** = assume / if-then (neutral hypothesis):
 
 ```
-daehun nim i apanou e moria, a moria i apanou
+daefer nim i apanou e moria, a moria i apanou
 If I drop the apple, it falls.
 ```
 
-*Daehun* makes no claim about whether the condition is true, it just asks you to consider the consequence.
+*Daefer* makes no claim about whether the condition is true, it just asks you to consider the consequence.
 
-Notice that using *iliciu* and *daehun* skips a lot of complicated verb tenses in languages like English.
+Notice that using *iliciu* and *daefer* skips a lot of complicated verb tenses in languages like English.
 
 ---
 

@@ -151,7 +151,7 @@
         
         Lea comes from English lea, which is a type of landscape.  
              
-    Ce yo leipili run i dairan?
+    Ce yo leipili run i dapas?
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
     
     <div style="text-align: center; margin: 2rem 0;">

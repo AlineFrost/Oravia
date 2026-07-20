@@ -46,7 +46,7 @@
     </audio>
     
     ```
-    nim i dairanum ca hay i anye.
+    nim i dapasum ca hay i anye.
     ```
     
     ```
@@ -58,7 +58,7 @@
     ```
     
     ```
-    i dairanum cali run i mouje en liyar, mai nim i doum i anepou e run. 
+    i dapasum cali run i mouje en liyar, mai nim i doum i anepou e run. 
     ```
     
     ```

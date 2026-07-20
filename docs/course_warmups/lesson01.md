@@ -1,7 +1,7 @@
 # Lesson 1: Personal Pronouns
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into four sections. Please move through them in this order: **Grammar**, **Vocabulary**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
+    This lesson is divided into five sections. Please move through them in this order: **Grammar**, **Vocabulary**, **Practice**, **Review**, **Flashcards**.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later! 
 
@@ -9,6 +9,46 @@
 
 === "Grammar"
 
+    <div id="user-id-prompt" style="background:#e8f4fb;border-radius:8px;padding:1.5rem;margin-bottom:1.5rem;border:1px solid #4a9cd6">
+        <p style="font-weight:600;color:#2a4a6b;margin-bottom:0.75rem">Before you begin</p>
+        <p style="color:#5a8bb8;margin-bottom:1rem;font-size:0.95rem">Please enter your name or email so we can track your progress through the course.</p>
+        <div style="display:flex;gap:0.75rem;flex-wrap:wrap">
+            <input id="user-id-input" type="text" placeholder="Your name or email"
+                style="flex:1;min-width:200px;padding:0.5rem 0.75rem;border:1px solid #4a9cd6;border-radius:6px;font-size:0.95rem">
+            <button id="user-id-save" style="padding:0.5rem 1.25rem;background:#4a9cd6;color:white;border:none;border-radius:6px;font-size:0.95rem;cursor:pointer;font-weight:600">
+                Save
+            </button>
+        </div>
+        <p id="user-id-saved" style="display:none;color:#43a047;margin-top:0.75rem;font-size:0.9rem">✓ Saved! You're all set.</p>
+    </div>
+
+    <script>
+    (function() {
+        const input = document.getElementById('user-id-input');
+        const btn = document.getElementById('user-id-save');
+        const saved = document.getElementById('user-id-saved');
+        const prompt = document.getElementById('user-id-prompt');
+
+        // If already set, show confirmation and hide input
+        const existing = localStorage.getItem('oravia_user_id');
+        if (existing) {
+            input.value = existing;
+            saved.textContent = '✓ Saved as: ' + existing + '. Click Save to change.';
+            saved.style.display = 'block';
+        }
+
+        btn.addEventListener('click', function() {
+            const val = input.value.trim();
+            if (!val) return;
+            localStorage.setItem('oravia_user_id', val);
+            saved.textContent = '✓ Saved as: ' + val;
+            saved.style.display = 'block';
+            btn.textContent = 'Updated ✓';
+            setTimeout(() => { btn.textContent = 'Save'; }, 2000);
+        });
+    })();
+    </script>
+    
     ## Personal Pronouns
     
     Let's get started with grammar first!
@@ -108,7 +148,7 @@
     
     ---
 
-=== "Exercise"
+=== "Practice"
 
     ## Matching Games
     
@@ -145,18 +185,20 @@
     ---
     
     <div id="review-game-container"></div>
-    
+=== "Flashcards"
+
+    <div id="flashcard-container" data-lesson="1"></div>
 
 ---
 
 <div style="text-align: center; padding: 2rem 0; background: #e0f2f1; border-radius: 8px; margin-top: 3rem;">
-    <p style="font-size: 1.2rem; color: #4a9cd6; margin-bottom: 1rem;">
+<p style="font-size: 1.2rem; color: #4a9cd6; margin-bottom: 1rem;">
         🎉 <strong>Lesson 1 Complete!</strong>
     </p>
-    <p style="color: #5a8bb8; margin-bottom: 0.5rem;">
+<p style="color: #5a8bb8; margin-bottom: 0.5rem;">
         If you missed any words, check the <strong>Review</strong> tab to practice them again.
     </p>
-    <p style="color: #5a8bb8; margin-bottom: 1.5rem;">
+<p style="color: #5a8bb8; margin-bottom: 1.5rem;">
         Come back tomorrow for Lesson 2.
     </p>
 </div>
@@ -169,7 +211,7 @@ async function initReview() {
     if (wrongIds.length === 0) {
         container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p><p style="color: #5a8bb8; margin-top: 0.5rem;">You did not miss any words. Excellent work!</p></div>';
         return;
-    }
+}
     try {
         const lessonIds = [...new Set(
             [...document.querySelectorAll('[data-lesson]')]
@@ -202,10 +244,10 @@ async function initReview() {
                 location.reload();
             }
         });
-    } catch (error) {
+} catch (error) {
         console.error('Error loading words:', error);
         container.innerHTML = '<p style="color: #f44336;">Error loading review words. Please refresh the page.</p>';
-    }
+}
 }
 document.addEventListener('DOMContentLoaded', initReview);
 document.querySelectorAll('.tabbed-labels label').forEach(label => {
@@ -213,6 +255,7 @@ document.querySelectorAll('.tabbed-labels label').forEach(label => {
         label.addEventListener('click', function() {
             setTimeout(initReview, 50);
         });
-    }
+}
 });
 </script>
+

@@ -73,7 +73,7 @@
     
     ```
     cei i bortal en bo? = who is entering the house?
-    i iran caei i bortal en bo = I like who is entering the house
+    i pas caei i bortal en bo = I like who is entering the house
     ```
     
     Now try to create 3 sentences using **ca**:

@@ -1,7 +1,7 @@
 # Lesson 14: Connectors
 
 !!! info "How to Use This Lesson"
-    Every lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Exercise**, **Review**, and then **Exercise** and **Review** once more to see how much you've improved.
+    This lesson is divided into six sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Practice**, **Review**, **Flashcards**.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -28,7 +28,7 @@
     We already know how to create many kinds of sentences.
     ```
     a [subject] i [verb] e [direct complement] u [indirect complement]
-    ce/ceidom/cei...?
+    ce/cedom/cei...?
     a [subject] a [something]
     ```
     
@@ -70,7 +70,7 @@
     ```
     
     ```
-    "ceidom run fano?" = where is your son?
+    "cedom run fano?" = where is your son?
     "i ilianum, mai ilotoum" = I don't know, but I am not worried.
     ```
     
@@ -193,7 +193,7 @@
     Ps. Two words in the list were inspired by the sounds for *into house* and *social approach*. Can you identify them and their meaning?
     
 
-=== "Exercise 1"
+=== "Practice"
 
     ## Matching Games
 
@@ -221,48 +221,6 @@
 
 
 
-=== "Exercise 2"
-
-    ## Matching Games
-
-    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
-    Click one word from each column to match them. The game will check automatically when you select both words.
-
-    After completing the Exercises and Review, try it again to see how much you've improved.
-
-    ---
-
-    ### Round 1
-
-    <div id="matching-game-4" data-lesson="lesson14_exercise2" data-round="1"></div>
-
-    ---
-
-    ### Round 2
-
-    <div id="matching-game-5" data-lesson="lesson14_exercise2" data-round="2"></div>
-
-    ---
-
-    ### Round 3
-
-    <div id="matching-game-6" data-lesson="lesson14_exercise2" data-round="3"></div>
-
-    ---
-
-    ### Round 4
-
-    <div id="matching-game-7" data-lesson="lesson14_exercise2" data-round="4"></div>
-
-    ---
-
-    ### Round 5
-
-    <div id="matching-game-8" data-lesson="lesson14_exercise2" data-round="5"></div>
-
-
-
 === "Review"
 
     ## Review Missed Words
@@ -273,10 +231,13 @@
     
     <div id="review-game-container"></div>
 
----
+    ---
+=== "Flashcards"
+
+    <div id="flashcard-container" data-lesson="14"></div>
 
 <script>
-function initWarmup() {
+    function initWarmup() {
     const warmupWords = [
     {id: "wu_bortal_1", oravia: "bortal", english: "enter"},
     {id: "wu_bosvi_2", oravia: "bosvi", english: "toilet"},
@@ -326,37 +287,37 @@ function initWarmup() {
             });
             localStorage.setItem('oravia_log', JSON.stringify(log));
         });
-    }
+}
     renderSelfAssessment();
 }
 if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initWarmup);
+document.addEventListener('DOMContentLoaded', initWarmup);
 } else {
-    initWarmup();
+initWarmup();
 }
 </script>
 
 <div style="text-align: center; padding: 2rem 0; background: #e0f2f1; border-radius: 8px; margin-top: 3rem;">
-    <p style="font-size: 1.2rem; color: #4a9cd6; margin-bottom: 1rem;">
+<p style="font-size: 1.2rem; color: #4a9cd6; margin-bottom: 1rem;">
         🎉 <strong>Lesson 14 Complete!</strong>
     </p>
-    <p style="color: #5a8bb8; margin-bottom: 0.5rem;">
+<p style="color: #5a8bb8; margin-bottom: 0.5rem;">
         If you missed any words, check the <strong>Review</strong> tab to practice them again.
     </p>
-    <p style="color: #5a8bb8; margin-bottom: 1.5rem;">
+<p style="color: #5a8bb8; margin-bottom: 1.5rem;">
         Come back tomorrow for Lesson 15.
     </p>
 </div>
 
 <script>
-async function initReview() {
+    async function initReview() {
     const wrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
     const container = document.getElementById('review-game-container');
     if (!container) return;
     if (wrongIds.length === 0) {
         container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p><p style="color: #5a8bb8; margin-top: 0.5rem;">You did not miss any words. Excellent work!</p></div>';
         return;
-    }
+}
     try {
         const lessonIds = [...new Set(
             [...document.querySelectorAll('[data-lesson]')]
@@ -389,17 +350,38 @@ async function initReview() {
                 location.reload();
             }
         });
-    } catch (error) {
+} catch (error) {
         console.error('Error loading words:', error);
         container.innerHTML = '<p style="color: #f44336;">Error loading review words. Please refresh the page.</p>';
-    }
+}
 }
 document.addEventListener('DOMContentLoaded', initReview);
-document.querySelectorAll('.tabbed-labels label').forEach(label => {
+    document.querySelectorAll('.tabbed-labels label').forEach(label => {
     if (label.textContent.trim() === 'Review') {
         label.addEventListener('click', function() {
             setTimeout(initReview, 50);
         });
-    }
+}
 });
+</script>
+
+<script>
+(function() {
+    var ENDPOINT = 'https://script.google.com/macros/s/AKfycbyK1kWJRcXZ9tHqLGYZP8ZG90OcMj8ld3zUSNjvyOhHiSJyr5GIep0tdCxF9xMBamia/exec';
+    function sendData() {
+        var userId = localStorage.getItem('oravia_user_id') || 'anonymous';
+        var log = JSON.parse(localStorage.getItem('oravia_log') || '[]');
+        var wrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
+        if (log.length === 0 && wrongIds.length === 0) return;
+        var lessonId = window.location.pathname.split('/').filter(Boolean).pop().replace('.html', '');
+        navigator.sendBeacon(ENDPOINT, JSON.stringify({
+            tester_id: userId,
+            lesson: lessonId,
+            log: log,
+            wrong_ids: wrongIds
+        }));
+    }
+    window.addEventListener('pagehide', sendData);
+    window.addEventListener('beforeunload', sendData);
+})();
 </script>

@@ -128,7 +128,7 @@
     <p style="margin: 0;"> Season. </p>
     </div>
 
-    Ce lun a anodu dairan u run?
+    Ce lun a anodu dapas u run?
     
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
     
@@ -149,7 +149,7 @@
     </div>
     
     <div id="subcluster6-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;">Example answer: A lunu a anodu dairan caora nim i dairan e lufiva. A lunhem a anodu dairan caora a litam a yalten ga yunu. </p>
+    <p style="margin: 0;">Example answer: A lunu a anodu dapas caora nim i dapas e lufiva. A lunhem a anodu dapas caora a litam a yalten ga yunu. </p>
     </div>
     
     

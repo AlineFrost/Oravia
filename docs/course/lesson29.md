@@ -35,7 +35,7 @@
     ```
     
     ```
-    Ceora runa i dairanum e bociu?
+    Ceora runa i dapasum e bociu?
     ```
     
     ```
@@ -63,7 +63,7 @@
     anepou = stop
     (ani)dai = want  
     (ani)fou = need
-    dairan = like, enjoy  
+    dapas = like, enjoy  
     bociu = decoration  
     borlu = window  
     boemo = cook  

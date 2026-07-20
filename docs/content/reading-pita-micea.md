@@ -33,13 +33,13 @@ a Pita i nedas tohpu. hay i apavu neloa en leayo, caora hay i siyal-um e anivari
 
 hay i anopu e haye tam yespai en leayo mo, su haye tor yespai en maede.
 
-notor anoluhar, hay i apavu en alem apavu su neiden yasoi. ilie hay i raisoi neloa daehun hay i anvu-um en moaniha jecai, su hay i anelu hue de yaltan yesrel antori. a yesrel a yoyol su yosari antori, yamirli-um.
+notor anoluhar, hay i apavu en alem apavu su neiden yasoi. ilie hay i raisoi neloa daefer hay i anvu-um en moaniha jecai, su hay i anelu hue de yaltan yesrel antori. a yesrel a yoyol su yosari antori, yamirli-um.
 
 a Pita i daelan-um de neiden. hay i asetowa yaltan. mai noniu yuba muhpili i varsus e haye asetowa, i anifi su i copei-ilaluan u hay i anvu.
 
 a Byasye McGregor i anifi su haye ja, caei hay i anidai i bontame en Pita jetai ganrih. mai a Pita i jasru anolu ilteli, hay i anopu e haye yesrel.
 
-su i apavu en bo-janou, i aparih en molbo. a molbo i do i hehou noi, daehun hay a nedas moje en hay.
+su i apavu en bo-janou, i aparih en molbo. a molbo i do i hehou noi, daefer hay a nedas moje en hay.
 
 a Byasye McGregor i daelan ca a Pita a hehou-dami en bo-janou, ilie jenpur leayo luyar. hay i ansautar i ancem e haya ilteli ilteli, i vardei jenpur haye.
 
@@ -63,7 +63,7 @@ a Pita i anolu en anvu-jojae yasoi-um, i ansautar i apavu yasoi ca hay i do, jen
 
 a Byasye McGregor i siyal e hay en jele jeluin, mai a Pita i ti-um. hay i jasru jenpur lea bortal, su hay i elemi yuba yadetu en leirih anolu de leayo.
 
-a Byasye McGregor i apaimai e yalgai yesrel su yespai u muhpili-tohpu-hai, i tohpu-anvu e yolimel muhpili.
+a Byasye McGregor i apaimai e yalgai yesrel su yespai u muhpili-tohpu-dia, i tohpu-anvu e yolimel muhpili.
 
 a Pita i apavu-um su vardei-um jetai haye ho, notam hay i anifi en haye bo en yaltana leirih.
 
@@ -106,7 +106,7 @@ mai a Flopsy, Mopsy, su Cotton-tail i none e malvae su moulu su yolimel moaniha 
 | caei | connector (who, for people) |
 | couya | name, word |
 | daelan | judge, evaluate |
-| daehun | if, suppose |
+| daefer | if, suppose |
 | elemi | live, reside |
 | farejor | mother (parent + female) |
 | farejal | father (parent + male) |
@@ -147,7 +147,7 @@ mai a Flopsy, Mopsy, su Cotton-tail i none e malvae su moulu su yolimel moaniha 
 | molbo | jar, jug, can |
 | moaniha | berry |
 | muhpili | bird |
-| muhpili-tohpu-hai | scarecrow (bird-fear-agent, compound) |
+| muhpili-tohpu-dia | scarecrow (bird-fear-agent, compound) |
 | mujas | mouse, rat |
 | neiden | fast, quickly |
 | neloa | all, everything |

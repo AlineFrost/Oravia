@@ -25,6 +25,7 @@ All pronounced as you would expect in English or IPA, with the details of:
 - **H** /h/ as in *house* or soft rasp
 - **J** /dʒ/ as in *jello*
 - **R** /ɾ/ flap, like the tt in American English *butter*
+- **Y** /j/ as in *yes*  
 
 **Vowels: A E I O U**
 
@@ -186,7 +187,7 @@ what in the house?
 ```
 
 ```
-a nim i anye ca a run i dairan
+a nim i anye ca a run i dapas
   ↓       ↓         ↓       ↓ 
   I      do  what you     like
 ```
@@ -215,7 +216,7 @@ run i ilianum cadom bo
 To chain two verbs, repeat **i** before each one:
 
 ```
-run i dairan i anelem en bo      →   you like to stay home
+run i dapas i anelem en bo      →   you like to stay home
 nim i do i mo                    →   I can eat
 haya i dai i anvu                →   they want to go
 hay i fou i mo                   →   she needs to eat
@@ -309,7 +310,7 @@ anidai = want
 ilaluan = speak / say  
 vardei = see / look  
 dami = exist / there is  
-dairan = like  
+dapas = like  
 ilian = know  
 elemi = live, life  
 boemo = kitchen, cook  
@@ -336,7 +337,7 @@ none = have
 litam = day  
 nolili = always  
 eofa = friend  
-elihei = person  
+ilhei = person  
 noli = now  
 yuba = good  
 ti = bad  
@@ -362,7 +363,7 @@ oipoh = exciting
 
 ---
 
-Try combining them now. *nim i dairan e mogali* · *i dami a yuba mo* · *a bo a yamirli* · *hay i anvu, mai nim i doum*
+Try combining them now. *nim i dapas e mogali* · *i dami a yuba mo* · *a bo a yamirli* · *hay i anvu, mai nim i doum*
 
 Don't worry too much about perfect grammar, the goal is communication.
 
