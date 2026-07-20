@@ -15,7 +15,7 @@
         <link rel="canonical" href="https://learnoravia.com/course_warmups/lesson00/">
       
       
-        <link rel="prev" href="../../content/a2_test/">
+        <link rel="prev" href="../../games/oravia-wordle.html">
       
       
         <link rel="next" href="../lesson01/">
@@ -610,6 +610,12 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
     
@@ -805,6 +811,90 @@
     
   
     A2 Proficiency Test
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../content/imported-words/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Common Imported Words
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../content/flashcards/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Flashcards (beta)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../games/oravia-wordle.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Daily Wordle Game
   
 
     
@@ -3077,122 +3167,6 @@
   
 
     
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
-        
-          
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Worldbuilding
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Worldbuilding
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../world/script/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Script
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../world/lusaria/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Locations
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
   </ul>
 </nav>
                   </div>
@@ -3382,6 +3356,44 @@
 <div class="tabbed-set tabbed-alternate" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">About the Course</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
+<p><div id="user-id-prompt" style="background:#e8f4fb;border-radius:8px;padding:1.5rem;margin-bottom:1.5rem;border:1px solid #4a9cd6">
+    <p style="font-weight:600;color:#2a4a6b;margin-bottom:0.75rem">Before you begin</p>
+    <p style="color:#5a8bb8;margin-bottom:1rem;font-size:0.95rem">Please enter your name or email so we can track your progress through the course.</p>
+    <div style="display:flex;gap:0.75rem;flex-wrap:wrap">
+        <input id="user-id-input" type="text" placeholder="Your name or email"
+            style="flex:1;min-width:200px;padding:0.5rem 0.75rem;border:1px solid #4a9cd6;border-radius:6px;font-size:0.95rem">
+        <button id="user-id-save" style="padding:0.5rem 1.25rem;background:#4a9cd6;color:white;border:none;border-radius:6px;font-size:0.95rem;cursor:pointer;font-weight:600">
+            Save
+        </button>
+    </div>
+    <p id="user-id-saved" style="display:none;color:#43a047;margin-top:0.75rem;font-size:0.9rem">✓ Saved! You're all set.</p>
+</div></p>
+<p><script>
+(function() {
+    const input = document.getElementById('user-id-input');
+    const btn = document.getElementById('user-id-save');
+    const saved = document.getElementById('user-id-saved');
+    const prompt = document.getElementById('user-id-prompt');</p>
+<div class="highlight"><pre><span></span><code>// If already set, show confirmation and hide input
+const existing = localStorage.getItem(&#39;oravia_user_id&#39;);
+if (existing) {
+    input.value = existing;
+    saved.textContent = &#39;✓ Saved as: &#39; + existing + &#39;. Click Save to change.&#39;;
+    saved.style.display = &#39;block&#39;;
+}
+
+btn.addEventListener(&#39;click&#39;, function() {
+    const val = input.value.trim();
+    if (!val) return;
+    localStorage.setItem(&#39;oravia_user_id&#39;, val);
+    saved.textContent = &#39;✓ Saved as: &#39; + val;
+    saved.style.display = &#39;block&#39;;
+    btn.textContent = &#39;Updated ✓&#39;;
+    setTimeout(() =&gt; { btn.textContent = &#39;Save&#39;; }, 2000);
+});
+</code></pre></div>
+<p>})();
+</script></p>
 <p>The Complete Course is divided into two sections: Core and Expansion. The Course is called complete not because it covers everything there is about Oravia, but because it has grammar, vocabulary, listening, reading, and writing.</p>
 <p>The <strong>Core Course</strong> covers everything you need to get started. After completing it, you will be able to understand a lot of Oravia with the help of the vocabulary list. The Core Course takes about 5-8h, so technically it could be done over a weekend. However, most learners find a slower pace more enjoyable.</p>
 <p>The <strong>Expansion Course</strong> finishes most of the grammar, allowing you to express more nuance. After completing it, you will be able to have conversations and consume media more easily. As with any language, becoming fluent requires more than studying: talking and reading/listening are essential steps. Lucky for us, this tends to be the most fun part! And after Expansion, you will have little problem diving in. </p>
@@ -3406,7 +3418,8 @@
 <li><strong>C</strong> pronounced as in <em>cake</em> (IPA k)</li>
 <li><strong>H</strong> pronounced as in <em>house</em> (IPA h, ʁ or x)</li>
 <li><strong>J</strong> pronounced as in <em>jello</em> (IPA dʒ)</li>
-<li><strong>R</strong> pronounced as 'tt' in <em>butter</em> (IPA ɾ, r)</li>
+<li><strong>R</strong> pronounced as 'tt' in American English <em>butter</em> (IPA ɾ, r)</li>
+<li><strong>Y</strong> pronounced as 'y' in <em>yes</em> (IPA j)</li>
 </ul>
 <h3 id="vowels">Vowels</h3>
 <p><audio controls style="width:100%">
@@ -3455,7 +3468,7 @@
 <p>Recordings may sound Romance-influenced because of my accent. Try to repeat for mutual intelligibility rather than to copy an exact accent. There is no "right"" accent in Oravia.</p>
 </div>
 <div class="tabbed-block">
-<p>The part of language learning that takes the longest is vocabulary. This is true even with Oravia, which has a small vocabulary and ways to make acquiring it easier. Remembering words requires exposure and repetition, and this course takes a light approach: no long writing exercises, no spaced repetition decks. This means that especially in the beginning, before you know the syllable-meaning associations, learning words may not be as easy. But, as your progress through the course, it gets easier and easier! Because of the vocabulary structure, the more words you know, the easier it becomes to learn more. So don't worry if you forget or confuse words, it will come naturally to you as you progres. </p>
+<p>The part of language learning that takes the longest is vocabulary. This is true even with Oravia, which has a small vocabulary and ways to make acquiring it easier. Remembering words requires exposure and repetition. This means that especially in the beginning, before you know the syllable-meaning associations, learning words may not be as easy. But, as your progress through the course, it gets easier and easier! Because of the vocabulary structure, the more words you know, the easier it becomes to learn more. So don't worry if you forget or confuse words, it will come naturally to you as you progres. </p>
 <h2 id="how-vocabulary-works">How Vocabulary Works</h2>
 <p>Now, let's talk about how the vocabulary is structured. <strong>No need to memorize any of that</strong>, it's just to give you an idea of how it works!</p>
 <h3 id="semantic-clusters">Semantic Clusters</h3>

@@ -1,0 +1,1471 @@
+<!--
+  Oravia Daily Word — wordle-style game
+  ─────────────────────────────────────
+  HOW IT WORKS
+  • Deterministic per UTC calendar date: everyone gets the same word each day,
+    no server needed. Rollover happens at midnight UTC.
+  • Word LENGTH also changes daily (4–7 letters); the board is built dynamically.
+  • Beginner clue: the English gloss is shown before guessing.
+  • After finishing, a reveal card shows the word, its meaning, the
+    cluster/subcluster/root breakdown, and a dictionary link.
+  • localStorage keeps today's guesses (resume on reload) and lifetime stats.
+
+  DICTIONARY SOURCE
+  • The page tries to fetch dictionary_data.json (also data/… and ../data/…),
+    the same file used by the site. If none is reachable, it falls back to the
+    embedded copy and shows an "embedded vocabulary" badge.
+  • IMPORTANT: the daily word is picked from an alphabetically sorted pool, so
+    fetched and embedded data agree as long as the word list is the same.
+    Editing the dictionary (adding/removing words) will shift future answers.
+
+  EMBEDDING IN MKDOCS MATERIAL
+  Save into docs/ (e.g. docs/games/wordle.html) and link, or iframe it:
+      <iframe src="../wordle.html" style="width:100%;height:1000px;border:0"></iframe>
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Oravia Daily Word</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FBFAF6;
+    --ink:#23324D;
+    --ink-soft:#5A6478;
+    --line:#C9CDD6;
+    --teal:#2E7D74;
+    --teal-soft:#E3F0EE;
+    --gold:#C9A227;
+    --gold-soft:#F6ECC9;
+    --good:#DDF0DE;
+    --good-ink:#2F6B3A;
+    --bad:#F7DCDC;
+    --bad-ink:#8C3B3B;
+    --absent:#E5E4DF;
+    --absent-ink:#8B8A84;
+    --radius:10px;
+    --tile:58px;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:"Atkinson Hyperlegible",system-ui,sans-serif;
+    line-height:1.45;
+    padding:28px 16px 64px;
+  }
+  .wrap{max-width:560px;margin:0 auto}
+
+  header{margin-bottom:14px}
+  .eyebrow{
+    font-size:13px;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--teal);font-weight:700;margin:0 0 2px;
+  }
+  h1{font-size:30px;margin:0;font-weight:700}
+  .meta{color:var(--ink-soft);font-size:15px;margin-top:4px}
+  .badge{
+    display:inline-block;margin-left:8px;padding:1px 8px;border-radius:999px;
+    background:var(--bad);color:var(--bad-ink);font-size:12px;font-weight:700;
+    vertical-align:2px;
+  }
+
+  /* ── clue ─────────────────────────────── */
+  .clue-card{
+    background:var(--teal-soft);border-radius:var(--radius);
+    padding:10px 16px;margin:0 0 18px;font-size:17px;
+  }
+  .clue-card .lbl{
+    font-size:12px;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--teal);font-weight:700;display:block;
+  }
+  .clue-card .len{color:var(--ink-soft);font-size:14px}
+  .clue-card .tip{border-top:1px solid rgba(46,125,116,.25);margin-top:8px;padding-top:6px}
+  .clue-card .tip-sound{
+    font-weight:700;text-transform:lowercase;background:#fff;
+    border:2px solid var(--teal);border-radius:6px;padding:0 8px;margin-right:4px;
+  }
+
+  /* ── board ────────────────────────────── */
+  #board{display:grid;gap:6px;justify-content:center;margin-bottom:20px}
+  .row{display:grid;gap:6px}
+  .tile{
+    width:var(--tile);height:var(--tile);
+    border:2px solid var(--line);border-radius:8px;background:#fff;
+    display:flex;align-items:center;justify-content:center;
+    font-size:26px;font-weight:700;text-transform:lowercase;
+    transition:transform .08s ease;
+  }
+  .tile.filled{border-color:var(--ink-soft);transform:scale(1.04)}
+  .tile.hit    {background:var(--good);  border-color:var(--good-ink);  color:var(--good-ink)}
+  .tile.near   {background:var(--gold-soft);border-color:var(--gold);   color:#7A6215}
+  .tile.miss   {background:var(--absent);border-color:var(--absent);    color:var(--absent-ink)}
+  @media (prefers-reduced-motion:no-preference){
+    .tile.reveal{animation:flip .45s ease}
+    @keyframes flip{0%{transform:rotateX(0)}50%{transform:rotateX(90deg)}100%{transform:rotateX(0)}}
+    .row.shake{animation:shake .35s ease}
+    @keyframes shake{0%,100%{transform:translateX(0)}25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+  }
+
+  /* ── keyboard ─────────────────────────── */
+  #kb{display:flex;flex-direction:column;gap:6px;align-items:center}
+  .kb-row{display:flex;gap:5px;justify-content:center;width:100%}
+  .key{
+    flex:1;max-width:46px;min-width:0;height:52px;
+    border:2px solid var(--line);border-radius:8px;background:#fff;color:var(--ink);
+    font-family:inherit;font-weight:700;font-size:16px;text-transform:lowercase;
+    cursor:pointer;padding:0;
+  }
+  .key.wide{max-width:76px;font-size:13px;text-transform:none}
+  .key:hover{border-color:var(--teal)}
+  .key:focus-visible{outline:3px solid var(--gold-soft);outline-offset:1px}
+  .key.hit  {background:var(--good);  border-color:var(--good-ink); color:var(--good-ink)}
+  .key.near {background:var(--gold-soft);border-color:var(--gold);  color:#7A6215}
+  .key.miss {background:var(--absent);border-color:var(--absent);   color:var(--absent-ink)}
+  .kb-row.vowels .key{background:var(--paper)}
+
+  #msg{
+    text-align:center;min-height:24px;margin:12px 0 0;
+    font-weight:700;color:var(--bad-ink);
+  }
+
+  /* ── reveal card ──────────────────────── */
+  #reveal{
+    display:none;margin-top:22px;border:2px solid var(--teal);
+    border-radius:var(--radius);background:#fff;overflow:hidden;
+  }
+  #reveal.show{display:block}
+  #reveal .head{
+    background:var(--teal-soft);padding:12px 18px;
+  }
+  #reveal .head .word{font-size:28px;font-weight:700}
+  #reveal .head .gloss{color:var(--ink-soft)}
+  #reveal .body{padding:14px 18px 18px}
+  #reveal h3{
+    font-size:12px;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--ink-soft);margin:12px 0 6px;font-weight:700;
+  }
+  #reveal h3:first-child{margin-top:0}
+  .bb{
+    display:inline-flex;flex-direction:column;align-items:center;
+    border:2px solid var(--line);border-radius:8px;padding:6px 12px;margin:0 6px 6px 0;
+    background:var(--paper);
+  }
+  .bb .sound{font-weight:700;font-size:18px}
+  .bb .kind{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--teal)}
+  .bb .mean{font-size:13px;color:var(--ink-soft)}
+  .bb.plus{border:none;background:none;padding:6px 2px;font-size:20px;color:var(--ink-soft);align-self:center}
+  #reveal a{color:var(--teal);font-weight:700}
+
+  /* ── stats ────────────────────────────── */
+  #stats{margin-top:14px;display:none}
+  #stats.show{display:block}
+  #stats .nums{display:flex;gap:18px;margin-bottom:10px}
+  #stats .nums div{text-align:center}
+  #stats .nums .v{font-size:24px;font-weight:700}
+  #stats .nums .l{font-size:12px;color:var(--ink-soft)}
+  .dist-row{display:flex;align-items:center;gap:8px;font-size:14px;margin:2px 0}
+  .dist-row .bar{
+    background:var(--teal);color:#fff;border-radius:4px;
+    padding:1px 8px;min-width:24px;text-align:right;font-weight:700;
+  }
+
+  #btn-again{
+    display:block;width:100%;margin-top:14px;
+    font-family:inherit;font-size:15px;font-weight:700;
+    padding:10px 18px;border-radius:999px;cursor:pointer;
+    border:2px solid var(--ink);background:var(--ink);color:#fff;
+  }
+  #btn-again:hover{background:var(--teal);border-color:var(--teal)}
+  #btn-again:focus-visible{outline:3px solid var(--gold-soft);outline-offset:2px}
+
+  footer{margin-top:28px;color:var(--ink-soft);font-size:13px;text-align:center}
+
+  @media (max-width:480px){
+    :root{--tile:calc((100vw - 32px - 6*6px)/7)}
+    body{padding:18px 10px 48px}
+    h1{font-size:24px}
+    .key{height:48px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <p class="eyebrow">Oravia daily</p>
+    <h1>Daily Word</h1>
+    <p class="meta"><span id="meta-date"></span> · Puzzle #<span id="meta-num"></span><span id="vocab-badge" class="badge" hidden>embedded vocabulary</span></p>
+  </header>
+
+  <div class="clue-card">
+    <span class="lbl">Today's meaning</span>
+    <span id="clue-gloss"></span>
+    <span class="len" id="clue-len"></span>
+    <div class="tip"><span class="lbl">Cluster tip</span>
+      <span class="tip-sound" id="tip-sound"></span> <span id="tip-mean"></span>
+    </div>
+  </div>
+
+  <div id="board" aria-label="Guess grid"></div>
+  <p id="msg" role="status" aria-live="polite"></p>
+  <div id="kb" aria-label="Keyboard"></div>
+
+  <div id="reveal">
+    <div class="head">
+      <div class="word" id="rv-word"></div>
+      <div class="gloss" id="rv-gloss"></div>
+    </div>
+    <div class="body">
+      <div id="rv-bd-wrap">
+        <h3>Building blocks</h3>
+        <div id="rv-bd"></div>
+      </div>
+      <h3>Dictionary</h3>
+      <a id="rv-link" target="_blank" rel="noopener">Open in the Oravia dictionary →</a>
+      <button id="btn-again">Play another word</button>
+      <div id="stats">
+        <h3>Your statistics</h3>
+        <div class="nums">
+          <div><div class="v" id="st-played">0</div><div class="l">played</div></div>
+          <div><div class="v" id="st-winpct">0</div><div class="l">win %</div></div>
+          <div><div class="v" id="st-streak">0</div><div class="l">streak</div></div>
+          <div><div class="v" id="st-max">0</div><div class="l">best streak</div></div>
+        </div>
+        <div id="st-dist"></div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    A new word appears every day at midnight UTC. Guesses can be any letter combination.
+  </footer>
+</div>
+
+<script>
+const DICT_WORDS = [
+  {"w": "nim", "e": "I"},
+  {"w": "run", "e": "you"},
+  {"w": "hay", "e": "he / she / they"},
+  {"w": "ca", "e": "that / which / what"},
+  {"w": "ce", "e": "what?"},
+  {"w": "de", "e": "of / from / about / by"},
+  {"w": "dou", "e": "or"},
+  {"w": "su", "e": "and / with / also"},
+  {"w": "eta", "e": "therefore / so / then"},
+  {"w": "en", "e": "in / on / at"},
+  {"w": "mai", "e": "but"},
+  {"w": "rein", "e": "each other"},
+  {"w": "sutor", "e": "both"},
+  {"w": "domvio", "e": "instead / in place of"},
+  {"w": "bi", "e": "speaker comment"},
+  {"w": "ho", "e": "opposite / reverse"},
+  {"w": "dia", "e": "role / doer"},
+  {"w": "hue", "e": "resultant state / recipient"},
+  {"w": "alui", "e": "five"},
+  {"w": "ancem", "e": "turn", "ea": "turn, gyrate, spin, whirl, rotate", "bd": [["an", "action", "subcluster"], ["cem", "turn", ""]]},
+  {"w": "ando", "e": "can", "ea": "can, may, able, ability", "bd": [["an", "action", "subcluster"], ["do", "can", "root"]]},
+  {"w": "anefe", "e": "put", "ea": "put, lay, to place", "bd": [["ane", "static movement", "subcluster"], ["fe", "halting", "root"]]},
+  {"w": "anefene", "e": "rest", "bd": [["ane", "static movement", "subcluster"], ["fene", "rest", "root"]]},
+  {"w": "anelem", "e": "keep", "ea": "keep, stay, remain", "bd": [["ane", "static movement", "subcluster"], ["lem", "keeping", "root"]]},
+  {"w": "aneoleo", "e": "contribute", "ea": "contribute, collaboration", "bd": [["an", "action", "subcluster"], ["e", "", ""], ["leo", "belonging", "subcluster"]]},
+  {"w": "anepou", "e": "stop", "ea": "stop, halt, cancel", "bd": [["ane", "static movement", "subcluster"], ["pou", "stop", ""]]},
+  {"w": "anever", "e": "secure", "ea": "secure, safe, safety, security", "bd": [["ane", "static movement", "subcluster"], ["ver", "safety", "root"]]},
+  {"w": "angi", "e": "dare", "ea": "dare, daring, bold, brave, to challenge, courage", "bd": [["an", "action", "subcluster"], ["gi", "boldness", "root"]]},
+  {"w": "anidai", "e": "want", "ea": "want, desire", "bd": [["ani", "movement towards", "subcluster"], ["dai", "want", "root"]]},
+  {"w": "anifi", "e": "come", "bd": [["ani", "movement towards", "subcluster"], ["fi", "inside", "root"]]},
+  {"w": "anifou", "e": "need", "ea": "need, necessity, requirement, necessary", "bd": [["ani", "movement towards", "subcluster"], ["fou", "lack", "root"]]},
+  {"w": "aniran", "e": "choose", "ea": "choose, select, choice", "bd": [["ani", "movement towards", "subcluster"], ["iran", "favor", "root"]]},
+  {"w": "anisu", "e": "bring", "ea": "bring, carry, transport, transfer, port, cargo", "bd": [["ani", "movement towards", "subcluster"], ["su", "alongside", "root"]]},
+  {"w": "anita", "e": "take", "ea": "take, extract", "bd": [["ani", "movement towards", "subcluster"], ["ta", "hand", "root"]]},
+  {"w": "anivari", "e": "back", "ea": "back, bakwards, return", "bd": [["ani", "movement towards", "subcluster"], ["vari", "back", "root"]]},
+  {"w": "anja", "e": "use", "ea": "use, tool", "bd": [["an", "action", "subcluster"], ["ja", "use", "root"]]},
+  {"w": "anlaro", "e": "continue", "ea": "continue, insist", "bd": [["an", "action", "subcluster"], ["laro", "continue", "root"]]},
+  {"w": "anliulor", "e": "service", "bd": [["an", "action", "subcluster"], ["liu", "other", "root"], ["lor", "benefit", ""]]},
+  {"w": "anlor", "e": "benefit", "ea": "benefit, advantage, perk, beneficial", "bd": [["an", "action", "subcluster"], ["lor", "benefit", ""]]},
+  {"w": "anlorfi", "e": "privilege", "ea": "privilege, prerogative", "bd": [["an", "action", "subcluster"], ["lor", "benefit", ""], ["fi", "inside, intrinsic", "root"]]},
+  {"w": "anocari", "e": "leave", "ea": "leave, quit, abandon, exit", "bd": [["ano", "movement away", "subcluster"], ["cari", "leave", ""]]},
+  {"w": "anolu", "e": "out", "ea": "out, ex-, external, outside", "bd": [["ano", "movement away", "subcluster"], ["lu", "outside", "root"]]},
+  {"w": "anomi", "e": "right", "bd": [["an", "action", "subcluster"], ["no", "downward, extension below", "root"], ["mi", "existence, being", "root"]]},
+  {"w": "anona", "e": "give", "ea": "give, gift", "bd": [["ano", "movement away", "subcluster"], ["na", "giving", "root"]]},
+  {"w": "anonuve", "e": "avoid", "ea": "avoid, dodge, shun, avoidance", "bd": [["ano", "movement away", "subcluster"], ["nuve", "avoid", ""]]},
+  {"w": "anopu", "e": "lose", "ea": "lose, loss, failure, fail", "bd": [["ano", "movement away", "subcluster"], ["pu", "loss, sadness", "root"]]},
+  {"w": "anore", "e": "let", "ea": "let, allow, license, permission, licit", "bd": [["ano", "movement away", "subcluster"], ["re", "let", ""]]},
+  {"w": "anparu", "e": "preparation", "ea": "prepare, preparation", "bd": [["an", "action", "subcluster"], ["paru", "preparation", ""]]},
+  {"w": "anro", "e": "decide", "ea": "decide, decision, adjudicate, resolve, settle", "bd": [["an", "action", "subcluster"], ["ro", "thinking, reasoning", "root"]]},
+  {"w": "ansau", "e": "start", "ea": "start, initial, beginning", "bd": [["an", "action", "subcluster"], ["sau", "start", "root"]]},
+  {"w": "anse", "e": "work", "ea": "work, labor, job", "bd": [["an", "action", "subcluster"], ["se", "work", "subcluster"]]},
+  {"w": "antai", "e": "lead", "ea": "lead, leader, direct, guide", "bd": [["an", "action", "subcluster"], ["tai", "guide", "root"]]},
+  {"w": "antori", "e": "open", "bd": [["an", "action", "subcluster"], ["tori", "open", ""]]},
+  {"w": "antufu", "e": "spread", "ea": "spread, diffuse, diffusion", "bd": [["an", "action", "subcluster"], ["tufu", "spread", ""]]},
+  {"w": "anvu", "e": "move", "ea": "move, movement, motion, movie, to go", "bd": [["an", "action", "subcluster"], ["vu", "movement", "root"]]},
+  {"w": "anye", "e": "make", "ea": "make, to do, create, to build, creative", "bd": [["an", "action", "subcluster"], ["ye", "make", "subcluster"]]},
+  {"w": "apaen", "e": "activity", "bd": [["apa", "physical movement", "subcluster"], ["en", "activity", ""]]},
+  {"w": "apafene", "e": "sit", "ea": "sit, seat, chair, bench", "bd": [["apa", "physical movement", "subcluster"], ["fene", "rest", "root"]]},
+  {"w": "apahela", "e": "throw", "ea": "throw, shot, shoot, hit, pass", "bd": [["apa", "physical movement", "subcluster"], ["hela", "projecting outward", "root"]]},
+  {"w": "apahotai", "e": "wander", "ea": "wander, roam, rove", "bd": [["apa", "physical movement", "subcluster"], ["ho", "opposite", ""], ["tai", "guide", "subcluster"]]},
+  {"w": "apaima", "e": "vertical", "ea": "vertical, column, stack, to stand up", "bd": [["apa", "physical movement", "subcluster"], ["ima", "vertical", ""]]},
+  {"w": "apaleno", "e": "dig", "ea": "dig, bury", "bd": [["apa", "physical movement", "subcluster"], ["leno", "ground", "root"]]},
+  {"w": "apani", "e": "pull", "ea": "pull, tug, influence, sway", "bd": [["apa", "physical movement", "subcluster"], ["ani", "directed pull, toward", "root"]]},
+  {"w": "apanou", "e": "drop", "ea": "drop,  drip, to leak, fall", "bd": [["apa", "physical movement", "subcluster"], ["nou", "low, falling", "root"]]},
+  {"w": "aparih", "e": "jump", "ea": "jump, bounce, leap, hop, skip", "bd": [["apa", "physical movement", "subcluster"], ["rih", "higher, rising", "root"]]},
+  {"w": "apasar", "e": "hang", "ea": "hang, hanging, suspension, suspense", "bd": [["apa", "physical movement", "subcluster"], ["sar", "hang", "root"]]},
+  {"w": "apasoi", "e": "hurry", "ea": "hurry, rush, haste, busy", "bd": [["apa", "physical movement", "subcluster"], ["soi", "speed", "root"]]},
+  {"w": "apavu", "e": "run", "ea": "run, sprint, jog", "bd": [["apa", "physical movement", "subcluster"], ["vu", "movement", "root"]]},
+  {"w": "asano", "e": "move away", "ea": "press, move away, shove", "bd": [["as", "involuntary bodily functions", "subcluster"], ["ano", "movement away", "subcluster"]]},
+  {"w": "asela", "e": "smile", "bd": [["ase", "affectionate contact", "subcluster"], ["la", "happiness", "root"]]},
+  {"w": "aselano", "e": "hug", "ea": "hug, embrace", "bd": [["ase", "affectionate contact", "subcluster"], ["lano", "around", "root"]]},
+  {"w": "asensau", "e": "awake", "ea": "awake, wake, aware", "bd": [["as", "involuntary bodily functions", "subcluster"], ["ensau", "action start", ""]]},
+  {"w": "asetowa", "e": "tears", "ea": "tears, to cry", "bd": [["ase", "affectionate contact", "subcluster"], ["to", "suffering", "root"], ["wa", "water", "root"]]},
+  {"w": "aseyel", "e": "kiss", "bd": [["ase", "affectionate contact", "subcluster"], ["yel", "joining", "root"]]},
+  {"w": "asfe", "e": "pause", "ea": "pause, break, interruption", "bd": [["as", "involuntary bodily functions", "subcluster"], ["fe", "halting", "root"]]},
+  {"w": "asfene", "e": "sleep", "ea": "sleep, to fall asleep", "bd": [["as", "involuntary bodily functions", "subcluster"], ["fene", "rest", "root"]]},
+  {"w": "asilin", "e": "prick", "ea": "prick, pierce, sting", "bd": [["asi", "orifice intake and expulsion", "subcluster"], ["lin", "prick", ""]]},
+  {"w": "asivi", "e": "suck", "ea": "suck, suction", "bd": [["asi", "orifice intake and expulsion", "subcluster"], ["vi", "internal body", "root"]]},
+  {"w": "asivufi", "e": "swallow", "bd": [["asi", "orifice intake and expulsion", "subcluster"], ["vu", "movement", "root"], ["fi", "inside", "root"]]},
+  {"w": "asiwa", "e": "pee", "ea": "pee, urinate", "bd": [["asi", "orifice intake and expulsion", "subcluster"], ["wa", "water", "root"]]},
+  {"w": "aslufu", "e": "breathe", "ea": "breathe, breath", "bd": [["as", "involuntary bodily functions", "subcluster"], ["lufu", "air", "root"]]},
+  {"w": "asoyo", "e": "shake", "bd": [["as", "bodily functions", "subcluster"], ["wowo", "oscillate", "subcluster"]]},
+  {"w": "asubu", "e": "drown", "ea": "drown, submerge, a drowning", "bd": [["as", "involuntary bodily functions", "subcluster"], ["ubu", "drown", ""]]},
+  {"w": "asucin", "e": "sneeze", "bd": [["asu", "involuntary vocal acts", "subcluster"], ["cin", "sneeze", ""]]},
+  {"w": "asugar", "e": "yell", "ea": "yell, scream, shout, exclaim", "bd": [["asu", "involuntary vocal acts", "subcluster"], ["gar", "yell", "root"]]},
+  {"w": "asuifi", "e": "whistle", "ea": "whistle, hiss, fizzle", "bd": [["asu", "involuntary vocal acts", "subcluster"], ["ifi", "whistle", ""]]},
+  {"w": "asular", "e": "laugh", "ea": "to laugh, laughter", "bd": [["asu", "involuntary vocal acts", "subcluster"], ["lar", "laugh", ""]]},
+  {"w": "asuor", "e": "snore", "ea": "snore, grunt", "bd": [["asu", "involuntary vocal acts", "subcluster"], ["or", "snore", ""]]},
+  {"w": "asusu", "e": "whisper", "ea": "whisper, rustle, murmur", "bd": [["asu", "involuntary vocal acts", "subcluster"], ["sus", "sound", ""]]},
+  {"w": "auta", "e": "eight"},
+  {"w": "bale", "e": "four"},
+  {"w": "bedam", "e": "square", "ea": "square, plaza", "bd": [["be", "travel", "subcluster"], ["dam", "square", ""]]},
+  {"w": "beilem", "e": "station", "ea": "station, deposit, storage", "bd": [["bei", "vehicles", "subcluster"], ["lem", "keeping", "root"]]},
+  {"w": "beimete", "e": "wagon", "ea": "wagon, van, cart, bus, truck", "bd": [["bei", "vehicles", "subcluster"], ["mete", "wagon", ""]]},
+  {"w": "beitor", "e": "bicycle", "bd": [["bei", "vehicles", "subcluster"], ["tor", "bicycle", ""]]},
+  {"w": "beivu", "e": "car", "ea": "car, drive", "bd": [["bei", "vehicles", "subcluster"], ["vu", "movement", "root"]]},
+  {"w": "bejae", "e": "luggage", "ea": "luggage, baggage, gear, equipment, to pack", "bd": [["be", "travel", "subcluster"], ["jae", "container", "root"]]},
+  {"w": "bejui", "e": "rent", "ea": "rent, borrow, loan", "bd": [["be", "travel", "subcluster"], ["jui", "temporary", "root"]]},
+  {"w": "betal", "e": "lobby", "ea": "reception, lobby, secretary", "bd": [["be", "travel", "subcluster"], ["tal", "door", "root"]]},
+  {"w": "bevas", "e": "private", "ea": "private, privacy", "bd": [["be", "travel", "subcluster"], ["vas", "private", "root"]]},
+  {"w": "bevio", "e": "shop", "ea": "shop, commerce", "bd": [["be", "travel", "subcluster"], ["vio", "change, exchange", "root"]]},
+  {"w": "bociu", "e": "decorate", "ea": "decorate, ornamentation, adorn, fancy", "bd": [["bo", "home interior", "subcluster"], ["ciu", "creative product", "root"]]},
+  {"w": "boelori", "e": "room", "ea": "chamber, room, partition, enclosure", "bd": [["boe", "house spaces", "subcluster"], ["lori", "room", ""]]},
+  {"w": "boelulo", "e": "patio", "ea": "patio, courtyard, yard", "bd": [["boe", "house spaces", "subcluster"], ["lu", "outside", "subcluster"], ["lo", "", ""]]},
+  {"w": "boemo", "e": "kitchen", "ea": "kitchen, to cook", "bd": [["boe", "house spaces", "subcluster"], ["mo", "eat", "root"]]},
+  {"w": "boetale", "e": "hall", "ea": "hall, corridor", "bd": [["boe", "house spaces", "subcluster"], ["tale", "cross", "root"]]},
+  {"w": "bofi", "e": "inside", "ea": "inside, interior, internal, indoors", "bd": [["bo", "home interior", "subcluster"], ["fi", "inside", "root"]]},
+  {"w": "bogor", "e": "building", "ea": "building, to build", "bd": [["bo", "home interior", "subcluster"], ["gor", "building", "root"]]},
+  {"w": "bonfene", "e": "bed", "ea": "bed, to lie down", "bd": [["bon", "furniture", "subcluster"], ["fene", "rest", "root"]]},
+  {"w": "bonjae", "e": "cabinet", "ea": "cabinet, hutch, wardrobe", "bd": [["bon", "furniture", "subcluster"], ["jae", "container", "root"]]},
+  {"w": "bontame", "e": "table", "bd": [["bon", "furniture", "subcluster"], ["tame", "table", ""]]},
+  {"w": "borcai", "e": "wall", "bd": [["bor", "house structure", "subcluster"], ["cai", "flat", "root"]]},
+  {"w": "borel", "e": "ceiling", "ea": "ceiling, roof", "bd": [["bor", "house structure", "subcluster"], ["rel", "up, high", "root"]]},
+  {"w": "borlu", "e": "window", "ea": "window, mirror, screen", "bd": [["bor", "house structure", "subcluster"], ["lu", "outside", "root"]]},
+  {"w": "borniu", "e": "brick", "ea": "brick, cube, block", "bd": [["bor", "house structure", "subcluster"], ["niu", "some, piece", "root"]]},
+  {"w": "bortal", "e": "door", "ea": "door, gate, passage", "bd": [["bor", "house structure", "subcluster"], ["tal", "door", "root"]]},
+  {"w": "bospupi", "e": "bath", "ea": "bath, bathe, wash, shower", "bd": [["bos", "hygiene fixtures", "subcluster"], ["pupi", "water falling", "root"]]},
+  {"w": "bosvi", "e": "toilet", "ea": "toilet, urinal, restroom, WC, use bathroom", "bd": [["bos", "hygiene fixtures", "subcluster"], ["vi", "internal body", "root"]]},
+  {"w": "ciuan", "e": "project", "ea": "project, endeavor, enterprise", "bd": [["ciu", "creative products", "subcluster"], ["an", "project", "root"]]},
+  {"w": "ciudal", "e": "design", "ea": "design, blueprint, framework, outline", "bd": [["ciu", "creative products", "subcluster"], ["dal", "pattern", "root"]]},
+  {"w": "ciude", "e": "theme", "ea": "theme, subject, topic, to be about, to concern", "bd": [["ciu", "creative products", "subcluster"], ["de", "origin, from", "root"]]},
+  {"w": "ciudon", "e": "demonstration", "ea": "demonstration, indicate, show", "bd": [["ciu", "creative products", "subcluster"], ["don", "show", "root"]]},
+  {"w": "ciugai", "e": "detail", "ea": "detail, detailed, meticulous", "bd": [["ciu", "creative products", "subcluster"], ["gai", "small", "root"]]},
+  {"w": "ciumar", "e": "art", "ea": "art, artistic", "bd": [["ciu", "creative products", "subcluster"], ["mar", "art", ""]]},
+  {"w": "ciupa", "e": "paper", "bd": [["ciu", "creative products", "subcluster"], ["pa", "paper", "root"]]},
+  {"w": "ciureva", "e": "photo", "ea": "photo, picture", "bd": [["ciu", "creative products", "subcluster"], ["reva", "accurate", "root"]]},
+  {"w": "ciuro", "e": "abstract", "ea": "abstract, abstraction, -ness, -ity", "bd": [["ciu", "creative products", "subcluster"], ["ro", "thinking, reasoning", "root"]]},
+  {"w": "ciurul", "e": "rhyme", "ea": "rhyme, rhyming, pattern, regular", "bd": [["ciu", "creative products", "subcluster"], ["rul", "habit", "root"]]},
+  {"w": "ciuseri", "e": "horizontal", "ea": "horizontal, series, order, row, horizon", "bd": [["ciu", "creative products", "subcluster"], ["seri", "series", "root"]]},
+  {"w": "ciusiu", "e": "document", "ea": "document, file", "bd": [["ciu", "creative products", "subcluster"], ["siu", "document", "root"]]},
+  {"w": "ciutel", "e": "image", "bd": [["ciu", "creative products", "subcluster"], ["tel", "image", "root"]]},
+  {"w": "ciuyen", "e": "print", "ea": "print, publish, publication, magazine, journal", "bd": [["ciu", "creative products", "subcluster"], ["yen", "printed", "root"]]},
+  {"w": "cohela", "e": "send", "ea": "send, transmit, dispatch, broadcast, a post", "bd": [["co", "communication", "subcluster"], ["hela", "projecting outward", "root"]]},
+  {"w": "cohua", "e": "receive", "ea": "receive, get, receipt, acknowledge, reception", "bd": [["co", "communication", "subcluster"], ["hua", "receive", ""]]},
+  {"w": "colira", "e": "sign", "ea": "sign, mark, symbol, signal, token, logo", "bd": [["co", "communication", "subcluster"], ["lira", "mark", "root"]]},
+  {"w": "coman", "e": "information", "ea": "information, inform, informative", "bd": [["co", "communication", "subcluster"], ["man", "information", ""]]},
+  {"w": "conala", "e": "emergency", "ea": "emergency, urgent, to urge, press for", "bd": [["co", "communication", "subcluster"], ["nala", "urgency", "root"]]},
+  {"w": "conehui", "e": "request", "ea": "request, ask, invocation, plea, petition", "bd": [["co", "communication", "subcluster"], ["nehui", "request", ""]]},
+  {"w": "conodo", "e": "office", "ea": "office, workplace, agency", "bd": [["co", "communication", "subcluster"], ["nodo", "office", ""]]},
+  {"w": "copei", "e": "search", "ea": "search, hunt, pursuit, seek, quest", "bd": [["co", "communication", "subcluster"], ["pei", "search", ""]]},
+  {"w": "copen", "e": "ticket", "ea": "ticket, a pass, bill, banknote", "bd": [["co", "communication", "subcluster"], ["pen", "ticket", ""]]},
+  {"w": "corior", "e": "phone", "ea": "phone, smartphone, call", "bd": [["co", "communication", "subcluster"], ["rior", "phone", ""]]},
+  {"w": "coter", "e": "number", "ea": "number, count, times", "bd": [["co", "communication", "subcluster"], ["ter", "count", "root"]]},
+  {"w": "couhai", "e": "message", "ea": "message, notification, notify", "bd": [["cou", "written communication", "subcluster"], ["dia", "message", "root"]]},
+  {"w": "couno", "e": "sentence", "ea": "sentence, phrase, proposition, verdict, comment", "bd": [["cou", "written communication", "subcluster"], ["no", "downward, extension below", "root"]]},
+  {"w": "coupa", "e": "card", "ea": "card, placard, cardboard, charter", "bd": [["cou", "written communication", "subcluster"], ["pa", "paper", "root"]]},
+  {"w": "cousiu", "e": "letter", "ea": "letter, character, to spell, literature, literary", "bd": [["cou", "written communication", "subcluster"], ["siu", "document", "root"]]},
+  {"w": "coutam", "e": "page", "bd": [["cou", "written communication", "subcluster"], ["tam", "one", "root"]]},
+  {"w": "couvar", "e": "cover", "bd": [["cou", "written communication", "subcluster"], ["var", "face", "root"]]},
+  {"w": "couya", "e": "name", "ea": "name, word", "bd": [["cou", "written communication", "subcluster"], ["ya", "representation, invitation", "root"]]},
+  {"w": "couyen", "e": "mail", "ea": "mail, letter, post", "bd": [["cou", "written communication", "subcluster"], ["yen", "printed", "root"]]},
+  {"w": "daca", "e": "refer", "ea": "mention, metaphor, allusion, allude", "bd": [["da", "evaluation", "subcluster"], ["ca", "refer", ""]]},
+  {"w": "daciu", "e": "figure", "ea": "figure, form, shape, structure, statue", "bd": [["da", "evaluation", "subcluster"], ["ciu", "creative product", "root"]]},
+  {"w": "daco", "e": "answer", "ea": "answer, response, reaction", "bd": [["da", "evaluation", "subcluster"], ["co", "communication", "root"]]},
+  {"w": "dade", "e": "origin", "ea": "origin, source, original, cause, explanation", "bd": [["da", "evaluation", "subcluster"], ["de", "origin, from", "root"]]},
+  {"w": "daedon", "e": "reveal", "ea": "reveal, disclose, revelation, disclosure", "bd": [["dae", "epistemic", "subcluster"], ["don", "show", "root"]]},
+  {"w": "daefei", "e": "criticize", "ea": "criticize, complain", "bd": [["dae", "epistemic", "subcluster"], ["fei", "less", "root"]]},
+  {"w": "daegor", "e": "convince", "ea": "to convince, convincent, prove", "bd": [["dae", "epistemic", "subcluster"], ["gor", "firm", "root"]]},
+  {"w": "daefer", "e": "assumption", "ea": "assumption, presume", "bd": [["dae", "epistemic", "subcluster"], ["hun", "assumption", ""]]},
+  {"w": "dael", "e": "correct", "ea": "correct, just, right (moral), justice", "bd": [["da", "evaluation", "subcluster"], ["el", "elevated", ""]]},
+  {"w": "daelan", "e": "evaluate", "ea": "evaluate, analyze, asses, judge", "bd": [["dae", "epistemic", "subcluster"], ["lan", "balance", "root"]]},
+  {"w": "daelipo", "e": "predict", "ea": "predict, prophecy, prediction, prophetic", "bd": [["dae", "epistemic", "subcluster"], ["li", "time", "root"], ["po", "components", "subcluster"]]},
+  {"w": "daemie", "e": "estimate", "ea": "guess, estimate, approximation", "bd": [["dae", "epistemic", "subcluster"], ["mie", "appearance", "root"]]},
+  {"w": "daeniu", "e": "evidence", "ea": "evidence, testimony, witness", "bd": [["dae", "epistemic", "subcluster"], ["niu", "some, piece", "root"]]},
+  {"w": "daereva", "e": "verify", "ea": "verify, check, verification", "bd": [["dae", "epistemic", "subcluster"], ["reva", "accurate", "root"]]},
+  {"w": "daeta", "e": "conclusion", "ea": "conclude, conclusion, infer", "bd": [["dae", "epistemic", "subcluster"], ["eta", "conclusion", ""]]},
+  {"w": "dahau", "e": "responsible", "ea": "responsible, liable, liability, responsibility", "bd": [["da", "evaluation", "subcluster"], ["hau", "responsible", ""]]},
+  {"w": "dairan", "e": "favor", "ea": "favor, like, favorite, preference, prefer", "bd": [["da", "evaluation", "subcluster"], ["iran", "favor", "root"]]},
+  {"w": "dama", "e": "matter", "ea": "matter, material, substance", "bd": [["da", "evaluation", "subcluster"], ["ma", "matter", "root"]]},
+  {"w": "damai", "e": "argue", "ea": "argue, debate, dispute, argument, discussion", "bd": [["da", "evaluation", "subcluster"], ["mai", "however", ""]]},
+  {"w": "dameo", "e": "relate", "ea": "relate, relation, relationship", "bd": [["da", "evaluation", "subcluster"], ["meo", "relate", ""]]},
+  {"w": "dami", "e": "exist", "ea": "exist, existence, existent, to be", "bd": [["da", "evaluation", "subcluster"], ["mi", "existence, being", "root"]]},
+  {"w": "damura", "e": "meaning", "ea": "meaning, to mean, sense, significance, significant", "bd": [["da", "evaluation", "subcluster"], ["mura", "meaning", ""]]},
+  {"w": "danala", "e": "attention", "ea": "attention, warn, caution, warning, alert, notification", "bd": [["dan", "emphasis", "subcluster"], ["nala", "urgency", "root"]]},
+  {"w": "dandao", "e": "serious", "ea": "serious, earnest, seriousness", "bd": [["dan", "emphasis", "subcluster"], ["dao", "serious", "root"]]},
+  {"w": "danmir", "e": "important", "ea": "important, importance, to matter", "bd": [["dan", "emphasis", "subcluster"], ["mir", "lots of", "root"]]},
+  {"w": "dano", "e": "represent", "ea": "represent, stand for, representative, agent, envoy", "bd": [["da", "evaluation", "subcluster"], ["no", "downward, extension below", "root"]]},
+  {"w": "danvandi", "e": "point", "ea": "point, dot, spot, indicate", "bd": [["dan", "emphasis", "subcluster"], ["vandi", "finger", ""]]},
+  {"w": "das", "e": "ten"},
+  {"w": "dasora", "e": "purpose", "ea": "purpose, goal, objective, aim, intend, target", "bd": [["da", "evaluation", "subcluster"], ["sora", "purpose", ""]]},
+  {"w": "dasu", "e": "accept", "ea": "accept, consent, agree, agreement, accord, pact", "bd": [["da", "evaluation", "subcluster"], ["su", "alongside", "root"]]},
+  {"w": "datava", "e": "sense", "ea": "sense, feel, touch, feeling, experience", "bd": [["da", "evaluation", "subcluster"], ["ta", "hand", "root"], ["va", "core", "subcluster"]]},
+  {"w": "dateli", "e": "situation", "ea": "situation, circunstance, to happen", "bd": [["da", "evaluation", "subcluster"], ["teli", "moment", "root"]]},
+  {"w": "davio", "e": "change", "ea": "change, modify, modification, mutation, transform, become", "bd": [["da", "evaluation", "subcluster"], ["vio", "change, exchange", "root"]]},
+  {"w": "davir", "e": "exact", "ea": "exact, precise, precision, exactly", "bd": [["da", "evaluation", "subcluster"], ["vir", "method", "root"]]},
+  {"w": "dayar", "e": "obvious", "ea": "obvious, clear, explicit", "bd": [["da", "evaluation", "subcluster"], ["yar", "light", "root"]]},
+  {"w": "dodo", "e": "mimic", "ea": "mimic, copy, imitation", "bd": [["do", "regulations", "subcluster"]]},
+  {"w": "dofa", "e": "inherit", "ea": "inherit, inheritance, genetic, gene, hereditary", "bd": [["do", "regulations", "subcluster"], ["fa", "family", "root"]]},
+  {"w": "dohcu", "e": "obey", "ea": "obey, compliance, obedient", "bd": [["doh", "enforcement", "subcluster"], ["cu", "obey", ""]]},
+  {"w": "dohtar", "e": "regulate", "ea": "regulate, regulation, control", "bd": [["doh", "enforcement", "subcluster"], ["tar", "regulate", "root"]]},
+  {"w": "dohtei", "e": "expel", "ea": "expel, exile", "bd": [["doh", "enforcement", "subcluster"], ["tei", "expel", ""]]},
+  {"w": "dohti", "e": "punish", "ea": "punish, punishment", "bd": [["doh", "enforcement", "subcluster"], ["ti", "bad", "root"]]},
+  {"w": "dohvil", "e": "obligation", "bd": [["doh", "enforcement", "subcluster"], ["vil", "obligation", ""]]},
+  {"w": "dolal", "e": "adhere", "ea": "adhere, stick, cling, sticky, glue, attach", "bd": [["do", "regulations", "subcluster"], ["lal", "adhere", ""]]},
+  {"w": "donen", "e": "enable", "ea": "enable, empower, facilitate, catalyze, prompt, cause", "bd": [["do", "regulations", "subcluster"], ["nen", "power and violence", "root"]]},
+  {"w": "donu", "e": "tendency", "ea": "tendency, bias, inclination, inclined to, steep", "bd": [["do", "regulations", "subcluster"], ["nu", "limit", "root"]]},
+  {"w": "dorel", "e": "tolerate", "ea": "tolerate, tolerance, tolerant, accepting", "bd": [["do", "regulations", "subcluster"], ["rel", "up, high", "root"]]},
+  {"w": "doro", "e": "invent", "ea": "invent, invention, inventive, innovation", "bd": [["do", "regulations", "subcluster"], ["ro", "thinking, reasoning", "root"]]},
+  {"w": "dovea", "e": "divide", "ea": "divide, split, division", "bd": [["do", "regulations", "subcluster"], ["vea", "divide", ""]]},
+  {"w": "dowowo", "e": "oscillate", "ea": "oscillate, swing, a swing, alternate, turn", "bd": [["do", "regulations", "subcluster"], ["wowo", "oscillate", "root"]]},
+  {"w": "elanato", "e": "sacrifice", "ea": "sacrifice, offering", "bd": [["ela", "religious", "subcluster"], ["na", "giving", "root"], ["to", "suffering", "root"]]},
+  {"w": "elano", "e": "worship", "ea": "worship, praise, adore, adoration, prayer", "bd": [["ela", "religious", "subcluster"], ["no", "downward, extension below", "root"]]},
+  {"w": "elaora", "e": "religion", "ea": "religion, religious", "bd": [["ela", "religious", "subcluster"], ["ora", "idea", "root"]]},
+  {"w": "elaren", "e": "holy", "ea": "holy, spiritual", "bd": [["ela", "religious", "subcluster"], ["ren", "honor", "root"]]},
+  {"w": "elarih", "e": "god", "ea": "god, divine", "bd": [["ela", "religious", "subcluster"], ["rih", "higher, rising", "root"]]},
+  {"w": "elarul", "e": "rite", "ea": "rite, ceremony, ceremonial, formal", "bd": [["ela", "religious", "subcluster"], ["rul", "habit", "root"]]},
+  {"w": "elasu", "e": "faith", "ea": "faith, to trust, loyal", "bd": [["ela", "religious", "subcluster"], ["su", "alongside", "root"]]},
+  {"w": "eledora", "e": "fate", "ea": "fate, destiny", "bd": [["ele", "self-expansion", "subcluster"], ["dora", "bond", "root"]]},
+  {"w": "elefo", "e": "wonder", "ea": "wonder, miracle, marvel, wonderful", "bd": [["ele", "self-expansion", "subcluster"], ["fo", "wonder", ""]]},
+  {"w": "elehui", "e": "soul", "ea": "soul, spirit", "bd": [["ele", "self-expansion", "subcluster"], ["hui", "ethereal", "root"]]},
+  {"w": "elelia", "e": "poem", "ea": "poem, poetry, poetic", "bd": [["ele", "self-expansion", "subcluster"], ["lia", "resonant", "root"]]},
+  {"w": "elemi", "e": "life", "ea": "life, live (opp. to die)", "bd": [["ele", "self-expansion", "subcluster"], ["mi", "existence, being", "root"]]},
+  {"w": "elenon", "e": "journey", "ea": "journey, voyage, trip, travel, adventure, adventurous", "bd": [["ele", "self-expansion", "subcluster"], ["non", "path", "root"]]},
+  {"w": "elepan", "e": "accomplish", "ea": "accomplish, accomplishment, success, succeed, victory", "bd": [["ele", "self-expansion", "subcluster"], ["pan", "accomplish", "root"]]},
+  {"w": "eleyel", "e": "love", "ea": "love, dear", "bd": [["ele", "self-expansion", "subcluster"], ["yel", "joining", "root"]]},
+  {"w": "eleyus", "e": "dream", "bd": [["ele", "self-expansion", "subcluster"], ["yus", "dream", ""]]},
+  {"w": "elihei", "e": "self", "ea": "self, own (adj)", "bd": [["eli", "virtue", "subcluster"], ["hei", "person", "root"]]},
+  {"w": "elileo", "e": "kind", "ea": "kind, humane, humaneness, solidarity", "bd": [["eli", "virtue", "subcluster"], ["leo", "belong", "root"]]},
+  {"w": "elireva", "e": "truth", "ea": "true, truth, really, reality, fact", "bd": [["eli", "virtue", "subcluster"], ["reva", "accurate", "root"]]},
+  {"w": "elirota", "e": "moral", "ea": "moral, morality, moralize, morale, virtue", "bd": [["eli", "virtue", "subcluster"], ["ro", "thinking, reasoning", "root"], ["ta", "hand", "root"]]},
+  {"w": "elives", "e": "humble", "ea": "humble, modest, humility", "bd": [["eli", "virtue", "subcluster"], ["ves", "humble", ""]]},
+  {"w": "eliyuli", "e": "wise", "ea": "wise, wisdom", "bd": [["eli", "virtue", "subcluster"], ["yuli", "subjective quality + time", ""]]},
+  {"w": "eloan", "e": "thanks", "ea": "thanks, to thank, thankful, gratitude", "bd": [["elo", "prosocial", "subcluster"], ["an", "thanks", "root"]]},
+  {"w": "elodao", "e": "promise", "ea": "promise, vow, pledge, swear", "bd": [["elo", "prosocial", "subcluster"], ["dao", "serious", "root"]]},
+  {"w": "eloele", "e": "freedom", "ea": "freedom, free, liberate", "bd": [["elo", "prosocial", "subcluster"], ["ele", "freedom", "subcluster"]]},
+  {"w": "elojer", "e": "pardon", "ea": "pardon, forgive, condone, an excuse", "bd": [["elo", "prosocial", "subcluster"], ["jer", "pardon", ""]]},
+  {"w": "eloliuto", "e": "pity", "ea": "pity, mercy, compassion, sympathy, sympathize", "bd": [["elo", "prosocial", "subcluster"], ["liu", "other", "root"], ["to", "suffering", "root"]]},
+  {"w": "elomiu", "e": "aid", "ea": "aid, help", "bd": [["elo", "prosocial", "subcluster"], ["miu", "aid", "root"]]},
+  {"w": "elonemi", "e": "save", "ea": "save, rescue, salvation, salvage, retrieve", "bd": [["elo", "prosocial", "subcluster"], ["nemi", "save", ""]]},
+  {"w": "elonevi", "e": "deserve", "ea": "deserve, merit, -worthy", "bd": [["elo", "prosocial", "subcluster"], ["nevi", "deserve", ""]]},
+  {"w": "elonor", "e": "peace", "ea": "peace, peaceful, calm", "bd": [["elo", "prosocial", "subcluster"], ["nor", "peace", ""]]},
+  {"w": "elori", "e": "act", "ea": "act, performance, behavior, active", "bd": [["elo", "prosocial", "subcluster"], ["ri", "act", "root"]]},
+  {"w": "eoco", "e": "announce", "ea": "announce, announcement, declare, declaration", "bd": [["eo", "social", "subcluster"], ["co", "communication", "root"]]},
+  {"w": "eodani", "e": "meet", "ea": "meet, encounter, meeting", "bd": [["eod", "social interactions", "subcluster"], ["ani", "directed pull, toward", "root"]]},
+  {"w": "eodenbor", "e": "visit", "bd": [["eod", "social interactions", "subcluster"], ["en", "location", ""], ["bor", "house structure", "subcluster"]]},
+  {"w": "eodomai", "e": "negotiation", "ea": "negotiation, negotiate", "bd": [["eod", "social interactions", "subcluster"], ["odo", "business", ""], ["mai", "however", ""]]},
+  {"w": "eodya", "e": "invite", "ea": "invite, invitation", "bd": [["eod", "social interactions", "subcluster"], ["ya", "representation, invitation", "root"]]},
+  {"w": "eodyel", "e": "join", "ea": "join, group, together, club, coalition", "bd": [["eod", "social interactions", "subcluster"], ["yel", "joining", "root"]]},
+  {"w": "eofa", "e": "friend", "ea": "friend, acquaintance, befriend, friendly", "bd": [["eo", "social", "subcluster"], ["fa", "family", "root"]]},
+  {"w": "eojun", "e": "race", "ea": "race, competition, compete", "bd": [["eo", "social", "subcluster"], ["jun", "race", ""]]},
+  {"w": "eoleo", "e": "member", "ea": "member, adherent", "bd": [["eo", "social", "subcluster"], ["leo", "belong", "root"]]},
+  {"w": "eomanse", "e": "meeting", "ea": "work meeting", "bd": [["eom", "events and gatherings", "subcluster"], ["anse", "work", ""]]},
+  {"w": "eomfel", "e": "event", "ea": "event, case (instance), occurrence, phenomenon, times", "bd": [["eom", "events and gatherings", "subcluster"], ["fel", "event", ""]]},
+  {"w": "eomiu", "e": "support", "ea": "support, backing, advocacy, bolster", "bd": [["eo", "social", "subcluster"], ["miu", "support", "root"]]},
+  {"w": "eomseri", "e": "parade", "ea": "parade, march, procession", "bd": [["eom", "events and gatherings", "subcluster"], ["seri", "series", "root"]]},
+  {"w": "eomsu", "e": "party", "ea": "party, celebrate", "bd": [["eom", "events and gatherings", "subcluster"], ["su", "alongside", "root"]]},
+  {"w": "eon", "e": "hello", "ea": "hello, goodbye, greet, greeting", "bd": [["eo", "social", "subcluster"], ["n", "hello", ""]]},
+  {"w": "eopan", "e": "win", "ea": "win, gain, earn, earnings, profit, prize", "bd": [["eo", "social", "subcluster"], ["pan", "win", "root"]]},
+  {"w": "eoras", "e": "association", "ea": "association, organization", "bd": [["eo", "social", "subcluster"], ["ras", "association", "subcluster"]]},
+  {"w": "eoren", "e": "honor", "ea": "honor, honorable, reputation, respect, mr, mrs", "bd": [["eo", "social", "subcluster"], ["ren", "honor", "root"]]},
+  {"w": "eori", "e": "polite", "ea": "polite, gentle, gracious, courteous, please", "bd": [["eo", "social", "subcluster"], ["ri", "act", "subcluster"]]},
+  {"w": "fadevi", "e": "birth", "ea": "birth, give birth", "bd": [["fa", "family relationships", "subcluster"], ["de", "origin, from", "root"], ["vi", "internal body", "root"]]},
+  {"w": "faejal", "e": "man", "ea": "man, male", "bd": [["fae", "gender", "subcluster"], ["jal", "man", ""]]},
+  {"w": "faejor", "e": "woman", "ea": "woman, female", "bd": [["fae", "gender", "subcluster"], ["jor", "woman", ""]]},
+  {"w": "faibor", "e": "companion", "ea": "companion, spouse, partner, comrade", "bd": [["fai", "partnership, marriage", "subcluster"], ["bor", "house structure", "subcluster"]]},
+  {"w": "faigel", "e": "marry", "ea": "marry, marriage, in-laws", "bd": [["fai", "partnership, marriage", "subcluster"], ["gel", "marry", "subcluster"]]},
+  {"w": "falen", "e": "child", "ea": "child (age stage), kid, children", "bd": [["fal", "young ones", "subcluster"], ["en", "child", ""]]},
+  {"w": "falni", "e": "baby", "bd": [["fal", "young ones", "subcluster"], ["ni", "new", "root"]]},
+  {"w": "falte", "e": "young", "ea": "young, youth, a youth", "bd": [["fal", "young ones", "subcluster"], ["te", "young", ""]]},
+  {"w": "fano", "e": "son, daughter", "ea": "son, daughter, offspring", "bd": [["fa", "family relationships", "subcluster"], ["no", "downward, extension below", "root"]]},
+  {"w": "fare", "e": "parent", "bd": [["fa", "family relationships", "subcluster"], ["re", "up, one generation up", ""]]},
+  {"w": "fasu", "e": "sibling", "ea": "sibling, brother, sister", "bd": [["fa", "family relationships", "subcluster"], ["su", "alongside", "root"]]},
+  {"w": "gaet", "e": "effect", "ea": "effect, result, to effect, effective", "bd": [["ga", "evaluation", "subcluster"], ["et", "effect", ""]]},
+  {"w": "gafei", "e": "less", "ea": "less, minus, reduce", "bd": [["ga", "evaluation", "subcluster"], ["fei", "less", "root"]]},
+  {"w": "gahoh", "e": "extreme", "ea": "extreme, radical", "bd": [["ga", "evaluation", "subcluster"], ["hoh", "extreme", "root"]]},
+  {"w": "ganou", "e": "low", "ea": "low, short (height)", "bd": [["gan", "ranking", "subcluster"], ["nou", "low, falling", "root"]]},
+  {"w": "ganrih", "e": "above", "ea": "above, over, up, height, minimun, at least", "bd": [["gan", "ranking", "subcluster"], ["rih", "higher, rising", "root"]]},
+  {"w": "ganter", "e": "rank", "ea": "rank, status, ordering, -th (ordinal), row", "bd": [["gan", "ranking", "subcluster"], ["ter", "count", "root"]]},
+  {"w": "ganyu", "e": "average", "ea": "average, medium, normal, usual, standard, norm, common", "bd": [["gan", "ranking", "subcluster"], ["yu", "average", "subcluster"]]},
+  {"w": "gaocao", "e": "ratio", "ea": "ratio, rate, proportion, fraction", "bd": [["gao", "value assessment", "subcluster"], ["cao", "ratio", ""]]},
+  {"w": "gaohei", "e": "neutral", "ea": "neutral, neuter,impartial", "bd": [["gao", "value assessment", "subcluster"], ["hei", "person", "root"]]},
+  {"w": "gaolan", "e": "balance", "ea": "balance, equilibrium, a scale, balanced, fair", "bd": [["gao", "value assessment", "subcluster"], ["lan", "balance", "root"]]},
+  {"w": "gaoleo", "e": "value", "ea": "value, worth, to appreciate", "bd": [["gao", "value assessment", "subcluster"], ["leo", "belong", "root"]]},
+  {"w": "gaomem", "e": "equal", "ea": "equal, equality, equation, equally, same, (me) too", "bd": [["gao", "value assessment", "subcluster"], ["mem", "equal", ""]]},
+  {"w": "gaone", "e": "degree", "ea": "degree, level, floor", "bd": [["gao", "value assessment", "subcluster"], ["ne", "degree", "root"]]},
+  {"w": "garel", "e": "rise", "ea": "elevate, rise, lift, raise", "bd": [["ga", "evaluation", "subcluster"], ["rel", "up, high", "root"]]},
+  {"w": "gavio", "e": "vary", "ea": "vary, variety, various, variation, variance, different", "bd": [["ga", "evaluation", "subcluster"], ["vio", "change, exchange", "root"]]},
+  {"w": "gavir", "e": "limit", "ea": "limit, limited, restriction, boundary, border, edge", "bd": [["ga", "evaluation", "subcluster"], ["vir", "method", "root"]]},
+  {"w": "gavol", "e": "measure", "ea": "measure, measurement, size (clothing), dimension", "bd": [["ga", "evaluation", "subcluster"], ["vol", "measure", ""]]},
+  {"w": "gedom", "e": "bank", "ea": "bank, financial institution", "bd": [["ge", "finances", "subcluster"], ["dom", "place", "root"]]},
+  {"w": "gefou", "e": "debt", "bd": [["ge", "finances", "subcluster"], ["fou", "lack", "root"]]},
+  {"w": "gehdove", "e": "sell", "ea": "sell, sale", "bd": [["geh", "sell", "subcluster"], ["dove", "sell", ""]]},
+  {"w": "gehna", "e": "buy", "ea": "buy, a purchase", "bd": [["geh", "buy", "subcluster"], ["na", "giving", "root"]]},
+  {"w": "gehsar", "e": "charge", "ea": "charge, bill", "bd": [["geh", "charge", "subcluster"], ["sar", "hang", "root"]]},
+  {"w": "gehvio", "e": "exchange", "ea": "exchange, trade, barter", "bd": [["geh", "exchange", "subcluster"], ["vio", "change, exchange", "root"]]},
+  {"w": "geloa", "e": "sum", "ea": "sum, total, calculate, score", "bd": [["ge", "finances", "subcluster"], ["loa", "completeness", "root"]]},
+  {"w": "gerina", "e": "money", "bd": [["ge", "finances", "subcluster"], ["ri", "act", "subcluster"], ["na", "giving", "subcluster"]]},
+  {"w": "gerou", "e": "account", "ea": "account, ledger, report, to recount, to record", "bd": [["ge", "finances", "subcluster"], ["rou", "account", "subcluster"]]},
+  {"w": "geyavu", "e": "invest", "ea": "invest, investment", "bd": [["ge", "finances", "subcluster"], ["ya", "representation, invitation", "root"], ["vu", "movement", "root"]]},
+  {"w": "geyelu", "e": "collect", "ea": "collect, collection, gather, assembly", "bd": [["ge", "finances", "subcluster"], ["yel", "joining", "subcluster"], ["lu", "outside", "subcluster"]]},
+  {"w": "geyosa", "e": "bet", "ea": "bet, wager, gamble, risk", "bd": [["ge", "finances", "subcluster"], ["yosa", "bet", ""]]},
+  {"w": "hehma", "e": "monster", "ea": "monster, beast, beastly", "bd": [["heh", "antagonist tropes", "subcluster"], ["ma", "matter", "root"]]},
+  {"w": "hehou", "e": "shadow", "ea": "shadow, shade, obscure, hide, hidden", "bd": [["heh", "antagonist tropes", "subcluster"], ["hou", "shadow", "root"]]},
+  {"w": "hehti", "e": "devil", "ea": "devil, demon, diabolical, evil", "bd": [["heh", "antagonist tropes", "subcluster"], ["ti", "bad", "root"]]},
+  {"w": "hehui", "e": "ghost", "ea": "ghost, spirit, phantom", "bd": [["heh", "antagonist tropes", "subcluster"], ["hui", "ethereal", "root"]]},
+  {"w": "heimir", "e": "awesome", "bd": [["hei", "protagonist tropes", "subcluster"], ["mir", "lots of", "root"]]},
+  {"w": "heipili", "e": "fairy", "ea": "fairy, sprite, pixie", "bd": [["hei", "protagonist tropes", "subcluster"], ["pili", "delicate", "root"]]},
+  {"w": "heirih", "e": "angel", "ea": "angel, angelic", "bd": [["hei", "protagonist tropes", "subcluster"], ["rih", "higher, rising", "root"]]},
+  {"w": "heivio", "e": "magic", "ea": "magic, magical, conjure", "bd": [["hei", "protagonist tropes", "subcluster"], ["vio", "change, exchange", "root"]]},
+  {"w": "helufu", "e": "air", "ea": "air, atmosphere, gas, fly", "bd": [["he", "fiction tropes", "subcluster"], ["lufu", "air", "root"]]},
+  {"w": "heodom", "e": "planet", "ea": "planet, planetary", "bd": [["heo", "background", "subcluster"], ["dom", "place", "root"]]},
+  {"w": "heohodetu", "e": "infinity", "ea": "infinity, infinite", "bd": [["heo", "background", "subcluster"], ["ho", "opposite", ""], ["detu", "end", "subcluster"]]},
+  {"w": "heoloa", "e": "universe", "ea": "universe, universal", "bd": [["heo", "background", "subcluster"], ["loa", "completeness", "root"]]},
+  {"w": "heosu", "e": "moon", "bd": [["heo", "background", "subcluster"], ["su", "alongside", "root"]]},
+  {"w": "heoyar", "e": "ray", "ea": "ray, beam, radiate, radius", "bd": [["heo", "background", "subcluster"], ["yar", "light", "root"]]},
+  {"w": "hevas", "e": "secret", "ea": "secret, mystery", "bd": [["he", "fiction tropes", "subcluster"], ["vas", "secret", "root"]]},
+  {"w": "ilace", "e": "ask", "ea": "ask, question", "bd": [["ila", "sharing information", "subcluster"], ["ce", "what?", "root"]]},
+  {"w": "ilahai", "e": "talk", "ea": "talk, speech, lecture", "bd": [["ila", "sharing information", "subcluster"], ["dia", "message", "root"]]},
+  {"w": "ilaluan", "e": "say", "ea": "say, tell, utter, recite, utterance, saying", "bd": [["ila", "sharing information", "subcluster"], ["luan", "tongue", "root"]]},
+  {"w": "ilayayu", "e": "describe", "bd": [["ila", "sharing information", "subcluster"], ["ya", "objective qualities", "subcluster"], ["yu", "subjective qualities", "subcluster"]]},
+  {"w": "ilhei", "e": "people", "ea": "people, population, populate, populous", "bd": [["il", "objects of inquiry", "subcluster"], ["hei", "person", "root"]]},
+  {"w": "ilian", "e": "know", "ea": "know, knowledge", "bd": [["ili", "cognition", "subcluster"], ["an", "action", "subcluster"]]},
+  {"w": "iliciu", "e": "imagine", "ea": "imagine, suppose", "bd": [["ili", "cognition", "subcluster"], ["ciu", "creative product", "root"]]},
+  {"w": "ilie", "e": "maybe", "ea": "maybe, possibility, possible, option", "bd": [["ili", "cognition", "subcluster"]]},
+  {"w": "ilinou", "e": "understand", "bd": [["ili", "cognition", "subcluster"], ["nou", "low, falling", "root"]]},
+  {"w": "iliora", "e": "idea", "ea": "idea, concept, conceptual, ideal, visionary", "bd": [["ili", "cognition", "subcluster"], ["ora", "idea", "root"]]},
+  {"w": "iliro", "e": "think", "ea": "think, thought, opinion", "bd": [["ili", "cognition", "subcluster"], ["ro", "thinking, reasoning", "root"]]},
+  {"w": "iliroyar", "e": "conscience", "ea": "conscience, awareness, conscious, consciousness, mind, mental", "bd": [["ili", "cognition", "subcluster"], ["ro", "thinking, reasoning", "root"], ["yar", "light", "root"]]},
+  {"w": "ilisu", "e": "believe", "ea": "believe, belief, creed", "bd": [["ili", "cognition", "subcluster"], ["su", "alongside", "root"]]},
+  {"w": "ilivargor", "e": "recognize", "ea": "recognize, recognition", "bd": [["ili", "cognition", "subcluster"], ["vargor", "face + firm", ""]]},
+  {"w": "iloani", "e": "to care about", "ea": "to care about, to mind", "bd": [["ilo", "when knowledge is uncertain", "subcluster"], ["ani", "directed pull, toward", "root"]]},
+  {"w": "ilofun", "e": "doubt", "ea": "doubt, hesitant", "bd": [["ilo", "when knowledge is uncertain", "subcluster"], ["fun", "doubt", ""]]},
+  {"w": "iloi", "e": "hope", "ea": "hope, wait for, expectation, wish", "bd": [["ilo", "when knowledge is uncertain", "subcluster"]]},
+  {"w": "ilonya", "e": "forget", "bd": [["ilo", "when knowledge is uncertain", "subcluster"], ["nya", "empty", "root"]]},
+  {"w": "iloram", "e": "surprise", "ea": "surprise, astonish, shock, unexpected", "bd": [["ilo", "when knowledge is uncertain", "subcluster"], ["ta", "hand", "root"], ["nu", "limit", "root"]]},
+  {"w": "iloto", "e": "worry", "ea": "worry, concern", "bd": [["ilo", "when knowledge is uncertain", "subcluster"], ["to", "suffering", "root"]]},
+  {"w": "ilteli", "e": "moment", "ea": "moment, instant, instantaneous, immediate", "bd": [["il", "objects of inquiry", "subcluster"], ["teli", "moment", "root"]]},
+  {"w": "ilwol", "e": "thing", "ea": "thing, stuff", "bd": [["il", "objects of inquiry", "subcluster"], ["wol", "wide", "root"]]},
+  {"w": "jacati", "e": "chain", "ea": "chain, fetters", "bd": [["ja", "tools", "subcluster"], ["cati", "constraint", "root"]]},
+  {"w": "jadoe", "e": "rack", "ea": "rack, shelf, ledge", "bd": [["ja", "tools", "subcluster"], ["doe", "rack", ""]]},
+  {"w": "jadun", "e": "fork", "bd": [["ja", "tools", "subcluster"], ["dun", "fork", ""]]},
+  {"w": "jahci", "e": "knife", "ea": "knife, dagger, stab", "bd": [["jah", "cutting tools", "subcluster"], ["ci", "sharp", "root"]]},
+  {"w": "jahgo", "e": "ax", "ea": "ax, hatchet, machete, to chop", "bd": [["jah", "cutting tools", "subcluster"], ["go", "half", "root"]]},
+  {"w": "jahpapa", "e": "hammer", "ea": "hammer, mallet", "bd": [["jah", "cutting tools", "subcluster"], ["papa", "hammer", ""]]},
+  {"w": "jajol", "e": "pocket", "ea": "pocket, to put away", "bd": [["ja", "tools", "subcluster"], ["jol", "pocket", "subcluster"]]},
+  {"w": "jalano", "e": "ball", "ea": "ball, a spherical object, roll, sphere, globe, inflate", "bd": [["ja", "tools", "subcluster"], ["lano", "around", "subcluster"]]},
+  {"w": "jalei", "e": "stick", "ea": "stick, rod", "bd": [["ja", "tools", "subcluster"], ["lei", "plants", "subcluster"]]},
+  {"w": "jalen", "e": "pen", "ea": "pencil, stylus, to draw", "bd": [["ja", "tools", "subcluster"], ["len", "long", "root"]]},
+  {"w": "jalia", "e": "bell", "ea": "bell, siren, alarm, to chime, handbell, doorbell", "bd": [["ja", "tools", "subcluster"], ["lia", "resonant", "root"]]},
+  {"w": "james", "e": "ring", "ea": "ring, loop, hoop, circuit, halo", "bd": [["ja", "tools", "subcluster"], ["mes", "ring", ""]]},
+  {"w": "janos", "e": "oar", "ea": "oar, rudder, to row, plank, board", "bd": [["ja", "tools", "subcluster"], ["nos", "oar", ""]]},
+  {"w": "janou", "e": "hole", "ea": "hole, gap, aperture, to drill", "bd": [["ja", "tools", "subcluster"], ["nou", "low, falling", "root"]]},
+  {"w": "jarih", "e": "ladder", "ea": "ladder, escalator, stairs, steps, climb", "bd": [["ja", "tools", "subcluster"], ["rih", "higher, rising", "root"]]},
+  {"w": "jasar", "e": "hook", "ea": "hook, hanger, crook", "bd": [["ja", "tools", "subcluster"], ["sar", "hang", "root"]]},
+  {"w": "jashur", "e": "rip", "ea": "rip, tear", "bd": [["jas", "gripping and fastening tools", "subcluster"], ["hur", "rip", ""]]},
+  {"w": "jasrec", "e": "cut", "ea": "cut, incision, slice, chop", "bd": [["jas", "gripping and fastening tools", "subcluster"], ["rec", "cut", ""]]},
+  {"w": "jasru", "e": "bend", "ea": "bend, curve, flex", "bd": [["jas", "gripping and fastening tools", "subcluster"], ["ru", "bend", "root"]]},
+  {"w": "jasvao", "e": "fold", "ea": "fold, crease", "bd": [["jas", "gripping and fastening tools", "subcluster"], ["vao", "fold", ""]]},
+  {"w": "jati", "e": "whip", "ea": "whip, lash", "bd": [["ja", "tools", "subcluster"], ["ti", "bad", "root"]]},
+  {"w": "javari", "e": "tail", "ea": "tail, rope", "bd": [["ja", "tools", "subcluster"], ["vari", "back", "root"]]},
+  {"w": "javer", "e": "lock", "ea": "lock, to lock, latch, bolt, clasp", "bd": [["ja", "tools", "subcluster"], ["ver", "safety", "root"]]},
+  {"w": "javin", "e": "pin", "ea": "pin, needle", "bd": [["ja", "tools", "subcluster"], ["vin", "pin", ""]]},
+  {"w": "javoa", "e": "cage", "ea": "cage, ribcage", "bd": [["ja", "tools", "subcluster"], ["voa", "constraint", "root"]]},
+  {"w": "jecai", "e": "fence", "ea": "fence, barrier, partition, hedge, fence off", "bd": [["je", "geometrics", "subcluster"], ["cai", "flat", "root"]]},
+  {"w": "jeciuta", "e": "line", "ea": "line, direct, summary, concise", "bd": [["je", "geometrics", "subcluster"], ["ciu", "creative product", "root"], ["ta", "hand", "root"]]},
+  {"w": "jegai", "e": "narrow", "ea": "narrow, thin, strait", "bd": [["je", "geometrics", "subcluster"], ["gai", "small", "root"]]},
+  {"w": "jelano", "e": "circle", "ea": "circle, round, around, wheel", "bd": [["je", "geometrics", "subcluster"], ["lano", "around", "root"]]},
+  {"w": "jele", "e": "field", "ea": "field, camp, to camp, countryside, meadow, rural", "bd": [["je", "geometrics", "subcluster"], ["le", "area", "root"]]},
+  {"w": "jeluin", "e": "wing", "ea": "wing, brim", "bd": [["je", "geometrics", "subcluster"], ["luin", "wing", ""]]},
+  {"w": "jenai", "e": "corner", "ea": "corner, angle", "bd": [["jen", "location", "subcluster"], ["nai", "corner", ""]]},
+  {"w": "jenmue", "e": "left", "bd": [["jen", "location", "subcluster"], ["mue", "left", ""]]},
+  {"w": "jenon", "e": "path", "ea": "path, way, road", "bd": [["je", "geometrics", "subcluster"], ["non", "path", "root"]]},
+  {"w": "jenparo", "e": "front", "ea": "front, forehead, forward", "bd": [["jen", "location", "subcluster"], ["paro", "front", "root"]]},
+  {"w": "jenpur", "e": "under", "ea": "under, below, down", "bd": [["jen", "location", "subcluster"], ["pur", "under", ""]]},
+  {"w": "jenrein", "e": "between", "ea": "between, among", "bd": [["jen", "location", "subcluster"], ["rein", "between", ""]]},
+  {"w": "jensu", "e": "side", "ea": "side, adjacent, beside", "bd": [["jen", "location", "subcluster"], ["su", "alongside", "root"]]},
+  {"w": "jentale", "e": "through", "ea": "through, across, trans-", "bd": [["jen", "location", "subcluster"], ["tale", "cross", "root"]]},
+  {"w": "jenya", "e": "empty", "ea": "empty, vacuum, outer space, vacuous", "bd": [["jen", "location", "subcluster"], ["nya", "empty", "root"]]},
+  {"w": "jeodeh", "e": "base", "ea": "base, foundation", "bd": [["jeo", "geometric positions", "subcluster"], ["deh", "base", ""]]},
+  {"w": "jeolan", "e": "center", "bd": [["jeo", "geometric positions", "subcluster"], ["lan", "balance", "root"]]},
+  {"w": "jeonim", "e": "middle", "bd": [["jeo", "geometric positions", "subcluster"], ["nim", "middle", ""]]},
+  {"w": "jerih", "e": "tower", "ea": "tower, steeple, minaret", "bd": [["je", "geometrics", "subcluster"], ["rih", "higher, rising", "root"]]},
+  {"w": "jetai", "e": "direction", "ea": "direction, orientation, guidance, instructions, course", "bd": [["je", "geometrics", "subcluster"], ["tai", "guide", "root"]]},
+  {"w": "jetaletor", "e": "cross", "ea": "cross, intersect, intersection", "bd": [["je", "geometrics", "subcluster"], ["taletor", "through + two", ""]]},
+  {"w": "jevar", "e": "arch", "ea": "arch, vault, bow (weapon)", "bd": [["je", "geometrics", "subcluster"], ["var", "arch", "root"]]},
+  {"w": "jevoi", "e": "rail", "ea": "rail, train, bar, track", "bd": [["je", "geometrics", "subcluster"], ["voi", "rail", ""]]},
+  {"w": "jobos", "e": "pipe", "ea": "pipe, tube, tunnel", "bd": [["jo", "materials", "subcluster"], ["bos", "hygiene fixtures", "subcluster"]]},
+  {"w": "jocai", "e": "sheet", "ea": "sheet, leaf, flat, flatten, plane", "bd": [["jo", "materials", "subcluster"], ["cai", "flat", "root"]]},
+  {"w": "jociuwa", "e": "paint", "ea": "paint, painting, painted", "bd": [["jo", "materials", "subcluster"], ["ciu", "creative product", "root"], ["wa", "water", "root"]]},
+  {"w": "jojae", "e": "basket", "ea": "basket, braid, tangle", "bd": [["jo", "materials", "subcluster"], ["jae", "container", "root"]]},
+  {"w": "jolace", "e": "rubber", "ea": "rubber, rubbery", "bd": [["jol", "material types", "subcluster"], ["ace", "rubber", ""]]},
+  {"w": "jolbo", "e": "cement", "ea": "cement, concrete, pave", "bd": [["jol", "material types", "subcluster"], ["bo", "house", "subcluster"]]},
+  {"w": "jolceyo", "e": "foam", "ea": "foam, froth, suds, mousse, lather", "bd": [["jol", "material types", "subcluster"], ["ceyo", "foam", ""]]},
+  {"w": "joldur", "e": "metal", "ea": "metal, metallic", "bd": [["jol", "material types", "subcluster"], ["dur", "hardness", "root"]]},
+  {"w": "jolem", "e": "box", "ea": "box, rectangular prism, container", "bd": [["jo", "materials", "subcluster"], ["lem", "keeping", "root"]]},
+  {"w": "joleni", "e": "plastic", "ea": "plastic, plastics, malleable", "bd": [["jol", "material types", "subcluster"], ["le", "area", "root"], ["ni", "new", "root"]]},
+  {"w": "joliri", "e": "glass", "ea": "glass, crystal, a transparent material", "bd": [["jol", "material types", "subcluster"], ["iri", "glass", ""]]},
+  {"w": "jolrer", "e": "fiber", "ea": "fiber, string, thread, wire, strand, cable", "bd": [["jol", "material types", "subcluster"], ["rer", "fiber", ""]]},
+  {"w": "jolufu", "e": "bubble", "ea": "bubble, boil", "bd": [["jo", "materials", "subcluster"], ["lufu", "air", "root"]]},
+  {"w": "jomo", "e": "plate", "ea": "plate, dish, disc, tray, to plate", "bd": [["jo", "materials", "subcluster"], ["mo", "eat", "root"]]},
+  {"w": "joniu", "e": "piece", "ea": "piece, part, component", "bd": [["jo", "materials", "subcluster"], ["niu", "some, piece", "root"]]},
+  {"w": "jopopo", "e": "shell", "bd": [["jo", "materials", "subcluster"], ["popo", "echo", "root"]]},
+  {"w": "jovabo", "e": "cover", "ea": "cover, covering, conceal, blanket, cloak, shawl", "bd": [["jo", "materials", "subcluster"], ["vabo", "cozy, body home", "root"]]},
+  {"w": "leafou", "e": "desert", "ea": "desert, to lack", "bd": [["lea", "landscape", "subcluster"], ["fou", "lack", "root"]]},
+  {"w": "lealei", "e": "forest", "bd": [["lea", "landscape", "subcluster"], ["lei", "forest", "root"]]},
+  {"w": "leamoma", "e": "farm", "ea": "farm, cultivate, agricultural", "bd": [["lea", "landscape", "subcluster"], ["mo", "eat", "root"], ["ma", "matter", "root"]]},
+  {"w": "leawa", "e": "fen", "ea": "fen, swamp, bog, marsh", "bd": [["lea", "landscape", "subcluster"], ["wa", "water", "root"]]},
+  {"w": "leayo", "e": "garden", "ea": "garden, a park, recreation area", "bd": [["lea", "landscape", "subcluster"], ["yo", "colors", "subcluster"]]},
+  {"w": "ledom", "e": "land", "ea": "land, territory, domain, state", "bd": [["le", "environment", "subcluster"], ["dom", "place", "root"]]},
+  {"w": "leide", "e": "root", "ea": "root, rooted, rhizome, tuber", "bd": [["lei", "plants", "subcluster"], ["de", "origin, from", "root"]]},
+  {"w": "leigai", "e": "shrub", "ea": "shrub, bush", "bd": [["lei", "plants", "subcluster"], ["gai", "small", "root"]]},
+  {"w": "leini", "e": "seed", "bd": [["lei", "plants", "subcluster"], ["ni", "new", "root"]]},
+  {"w": "leinou", "e": "grass", "ea": "grass, herb, lawn", "bd": [["lei", "plants", "subcluster"], ["nou", "low, falling", "root"]]},
+  {"w": "leipili", "e": "flower", "bd": [["lei", "plants", "subcluster"], ["pili", "delicate", "root"]]},
+  {"w": "leirih", "e": "tree", "ea": "tree, wood", "bd": [["lei", "plants", "subcluster"], ["rih", "higher, rising", "root"]]},
+  {"w": "leno", "e": "soil", "ea": "soil, dirt, clay, mud, ground, floor", "bd": [["le", "environment", "subcluster"], ["no", "downward, extension below", "root"]]},
+  {"w": "lenodur", "e": "rock", "ea": "rock, rough, stone", "bd": [["le", "environment", "subcluster"], ["no", "downward, extension below", "root"], ["dur", "hardness", "root"]]},
+  {"w": "levi", "e": "production", "ea": "production, produce, productive", "bd": [["le", "environment", "subcluster"], ["vi", "internal body", "subcluster"]]},
+  {"w": "lidastor", "e": "year", "ea": "year, annual", "bd": [["li", "time", "subcluster"], ["dastor", "twelve", ""]]},
+  {"w": "ligo", "e": "half", "ea": "half, partial, incompletely", "bd": [["li", "time", "subcluster"], ["go", "half", "root"]]},
+  {"w": "lilaro", "e": "permanent", "bd": [["li", "time", "subcluster"], ["la", "happiness", "root"], ["ro", "thinking, reasoning", "root"]]},
+  {"w": "lili", "e": "again", "ea": "again, repeat, repetition", "bd": [["li", "time", "subcluster"]]},
+  {"w": "lilon", "e": "while", "ea": "while, during", "bd": [["li", "time", "subcluster"], ["lon", "while", ""]]},
+  {"w": "limel", "e": "evening", "ea": "evening, night", "bd": [["li", "time", "subcluster"], ["mel", "evening", ""]]},
+  {"w": "linu", "e": "until", "ea": "until, reach, span, threshold", "bd": [["li", "time", "subcluster"], ["nu", "limit", "root"]]},
+  {"w": "lipardas", "e": "month", "ea": "month, monthly", "bd": [["li", "time", "subcluster"], ["pardas", "thirty", ""]]},
+  {"w": "liperi", "e": "week", "ea": "week, weekly", "bd": [["li", "time", "subcluster"], ["peri", "seven", ""]]},
+  {"w": "lirson", "e": "late", "ea": "late, delay", "bd": [["lir", "late", ""], ["son", "late", ""]]},
+  {"w": "lirul", "e": "custom", "ea": "custom, habit, customary, tradition, traditional", "bd": [["li", "time", "subcluster"], ["rul", "habit", "root"]]},
+  {"w": "lises", "e": "early", "ea": "early, too soon", "bd": [["li", "time", "subcluster"], ["ses", "early", ""]]},
+  {"w": "lisoi", "e": "soon", "bd": [["li", "time", "subcluster"], ["soi", "speed", "root"]]},
+  {"w": "litam", "e": "day", "ea": "day, date", "bd": [["li", "time", "subcluster"], ["tam", "one", "root"]]},
+  {"w": "litegai", "e": "minute", "bd": [["lite", "clock time", "subcluster"], ["gai", "small", "root"]]},
+  {"w": "litemi", "e": "second (time)", "bd": [["lite", "clock time", "subcluster"], ["mi", "existence, being", "root"]]},
+  {"w": "litetan", "e": "hour", "ea": "hour, o'clock, clock time", "bd": [["lite", "clock time", "subcluster"], ["tan", "big", "root"]]},
+  {"w": "liyar", "e": "morning", "bd": [["li", "time", "subcluster"], ["yar", "light", "root"]]},
+  {"w": "lubur", "e": "thunder", "bd": [["lu", "weather and atmosphere", "subcluster"], ["bur", "thunder", ""]]},
+  {"w": "lufiva", "e": "cool", "ea": "cool, cold", "bd": [["lu", "weather and atmosphere", "subcluster"], ["fi", "inside", "root"], ["va", "core", "subcluster"]]},
+  {"w": "lufu", "e": "wind", "ea": "wind, windy", "bd": [["lu", "weather and atmosphere", "subcluster"], ["fu", "lightness", "root"]]},
+  {"w": "luhue", "e": "mist", "ea": "mist, fog, foggy, nebulous", "bd": [["lu", "weather and atmosphere", "subcluster"], ["hue", "mist", "root"]]},
+  {"w": "lumbo", "e": "cloud", "ea": "cloud, cloudy", "bd": [["lu", "weather and atmosphere", "subcluster"], ["mbo", "cloud", ""]]},
+  {"w": "lumirwa", "e": "flood", "ea": "flood, torrent, inundate", "bd": [["lu", "weather and atmosphere", "subcluster"], ["mir", "lots of", "root"], ["wa", "water", "root"]]},
+  {"w": "lunhem", "e": "summer", "bd": [["lun", "seasons", "subcluster"], ["hem", "warmth", "root"]]},
+  {"w": "lunpili", "e": "spring", "bd": [["lun", "seasons", "subcluster"], ["pili", "delicate", "root"]]},
+  {"w": "lunsor", "e": "autumn", "bd": [["lun", "seasons", "subcluster"], ["sor", "autumn", ""]]},
+  {"w": "lunu", "e": "winter", "bd": [["lun", "seasons", "subcluster"]]},
+  {"w": "lupupi", "e": "rain", "ea": "rain, rainy", "bd": [["lu", "weather and atmosphere", "subcluster"], ["pupi", "water falling", "root"]]},
+  {"w": "lusari", "e": "sun", "bd": [["lu", "weather and atmosphere", "subcluster"], ["sari", "sun", "root"]]},
+  {"w": "luswa", "e": "wave", "ea": "wave, undulation", "bd": [["lu", "weather and atmosphere", "subcluster"], ["wa", "water", "subcluster"]]},
+  {"w": "luval", "e": "snow", "bd": [["lu", "weather and atmosphere", "subcluster"], ["val", "ice", "root"]]},
+  {"w": "luyar", "e": "light", "ea": "light, illumination, bright", "bd": [["lu", "weather and atmosphere", "subcluster"], ["yar", "light", "root"]]},
+  {"w": "luyol", "e": "sky", "bd": [["lu", "weather and atmosphere", "subcluster"], ["yol", "sky and ocean", "root"]]},
+  {"w": "madi", "e": "noodle", "bd": [["ma", "cooking food", "subcluster"], ["di", "stripe, finger", "root"]]},
+  {"w": "maede", "e": "potato", "bd": [["mae", "tubers and grains", "subcluster"], ["de", "origin, from", "root"]]},
+  {"w": "maemiri", "e": "rice", "bd": [["mae", "tubers and grains", "subcluster"], ["miri", "rice", ""]]},
+  {"w": "maemopi", "e": "corn", "bd": [["mae", "tubers and grains", "subcluster"], ["mopi", "corn", ""]]},
+  {"w": "maeni", "e": "bean", "ea": "bean, legume, pea, lentil", "bd": [["mae", "tubers and grains", "subcluster"], ["ni", "new", "root"]]},
+  {"w": "maeyalo", "e": "soy", "bd": [["mae", "tubers and grains", "subcluster"], ["yalo", "soy", ""]]},
+  {"w": "mahem", "e": "fry", "bd": [["ma", "cooking food", "subcluster"], ["hem", "warmth", "root"]]},
+  {"w": "mahon", "e": "spoon", "ea": "spoon, to scoop", "bd": [["ma", "cooking food", "subcluster"], ["hon", "spoon", ""]]},
+  {"w": "malil", "e": "meat", "ea": "meat, flesh", "bd": [["ma", "cooking food", "subcluster"], ["lil", "muscle", "root"]]},
+  {"w": "malvae", "e": "bread", "bd": [["mal", "bread and dairy", "subcluster"], ["vae", "bread", ""]]},
+  {"w": "malveni", "e": "flour", "ea": "flour, dust, a granulated substance, sand, grind, powder", "bd": [["mal", "bread and dairy", "subcluster"], ["veni", "flour", ""]]},
+  {"w": "malvesi", "e": "cheese", "bd": [["mal", "bread and dairy", "subcluster"], ["vesi", "cheese", ""]]},
+  {"w": "malvou", "e": "butter", "ea": "butter, buttery", "bd": [["mal", "bread and dairy", "subcluster"], ["vou", "butter", ""]]},
+  {"w": "mamini", "e": "egg", "bd": [["ma", "cooking food", "subcluster"], ["mi", "existence, being", "subcluster"], ["ni", "new", ""]]},
+  {"w": "mamol", "e": "pot", "ea": "pot, pan, cauldron, saucepan", "bd": [["ma", "cooking food", "subcluster"], ["mol", "pot", "subcluster"]]},
+  {"w": "marira", "e": "grill", "ea": "grill, grid, grate, broiler, gridiron", "bd": [["ma", "cooking food", "subcluster"], ["rira", "grill", ""]]},
+  {"w": "mascur", "e": "garlic", "bd": [["mas", "spices and seasonings", "subcluster"], ["cur", "garlic", ""]]},
+  {"w": "masha", "e": "salt", "ea": "salt, salty, seasoning, savory", "bd": [["mas", "spices and seasonings", "subcluster"], ["ha", "salt", ""]]},
+  {"w": "masloma", "e": "onion", "ea": "onion, bulb", "bd": [["mas", "spices and seasonings", "subcluster"], ["loma", "onion", ""]]},
+  {"w": "masnam", "e": "pepper", "ea": "pepper, spicy", "bd": [["mas", "spices and seasonings", "subcluster"], ["nam", "pepper", ""]]},
+  {"w": "matal", "e": "oven", "ea": "oven, furnace, bake, heater", "bd": [["ma", "cooking food", "subcluster"], ["tal", "door", "root"]]},
+  {"w": "matira", "e": "mushroom", "bd": [["ma", "cooking food", "subcluster"], ["tira", "fungus", "root"]]},
+  {"w": "mavoci", "e": "wheat", "ea": "cereal, wheat, oat", "bd": [["ma", "cooking food", "subcluster"], ["voci", "wheat", ""]]},
+  {"w": "mawa", "e": "soup", "ea": "soup, porridge, gruel", "bd": [["ma", "cooking food", "subcluster"], ["wa", "water", "root"]]},
+  {"w": "miau", "e": "cat", "ea": "cat, feline, graceful, stealthy", "bd": [["mi", "bigger animals", "subcluster"], ["au", "cat", ""]]},
+  {"w": "mibeh", "e": "goat", "ea": "goat, ibex, a caprine, stubborn", "bd": [["mi", "bigger animals", "subcluster"], ["beh", "goat", ""]]},
+  {"w": "micea", "e": "rabbit", "ea": "rabbit, hare, bunny, shy, timid", "bd": [["mi", "bigger animals", "subcluster"], ["cea", "rabbit", ""]]},
+  {"w": "micuc", "e": "chicken", "ea": "chicken, fowl, coward", "bd": [["mi", "bigger animals", "subcluster"], ["cuc", "chicken", ""]]},
+  {"w": "mihie", "e": "horse", "ea": "horse, donkey, mule, ride, endurance", "bd": [["mi", "bigger animals", "subcluster"], ["hie", "horse", ""]]},
+  {"w": "mime", "e": "sheep", "ea": "sheep, wool, to herd, to follow, innocent", "bd": [["mi", "bigger animals", "subcluster"], ["me", "sheep", ""]]},
+  {"w": "mimu", "e": "cow", "ea": "cow, bovine, ox, bison, buffalo, docile", "bd": [["mi", "bigger animals", "subcluster"], ["mu", "small animal", "root"]]},
+  {"w": "mioban", "e": "deer", "bd": [["mio", "wild animals", "subcluster"], ["ban", "deer", ""]]},
+  {"w": "miogar", "e": "bear", "ea": "bear, fierce, strong", "bd": [["mio", "wild animals", "subcluster"], ["gar", "bear", "root"]]},
+  {"w": "miohou", "e": "wolf", "ea": "wolf, predatory", "bd": [["mio", "wild animals", "subcluster"], ["hou", "shadow", "root"]]},
+  {"w": "mioici", "e": "monkey", "ea": "monkey, gorilla, chimpanzee, mischievous", "bd": [["mio", "wild animals", "subcluster"], ["ici", "monkey", ""]]},
+  {"w": "miopi", "e": "fox", "ea": "fox, cunning", "bd": [["mio", "wild animals", "subcluster"], ["pi", "fox", ""]]},
+  {"w": "miotan", "e": "elephant", "ea": "elephant, good memory, remember", "bd": [["mio", "wild animals", "subcluster"], ["tan", "big", "root"]]},
+  {"w": "misumu", "e": "animal", "bd": [["mi", "bigger animals", "subcluster"], ["su", "alongside", "root"], ["mu", "small animal", "root"]]},
+  {"w": "mius", "e": "pig", "ea": "pig, boar, glutonous", "bd": [["mi", "bigger animals", "subcluster"], ["us", "pig", ""]]},
+  {"w": "miwo", "e": "dog", "bd": [["mi", "bigger animals", "subcluster"], ["wo", "dog", ""]]},
+  {"w": "moalen", "e": "banana", "bd": [["moa", "fruits", "subcluster"], ["len", "long", "root"]]},
+  {"w": "moanih", "e": "berry", "ea": "berry, grape, olive", "bd": [["moa", "fruits", "subcluster"], ["nih", "berry", ""]]},
+  {"w": "moaria", "e": "apple", "bd": [["moa", "fruits", "subcluster"], ["ria", "apple", ""]]},
+  {"w": "moawena", "e": "lemon", "ea": "lemon, lime, citrus, sour", "bd": [["moa", "fruits", "subcluster"], ["wena", "lemon", ""]]},
+  {"w": "mocen", "e": "chocolate", "bd": [["mo", "food, eating", "subcluster"], ["cen", "chocolate", ""]]},
+  {"w": "mogali", "e": "coffee", "ea": "coffee, café", "bd": [["mo", "food, eating", "subcluster"], ["gali", "coffee", "root"]]},
+  {"w": "molbai", "e": "cup", "ea": "cup, drinking vessel, chalice, mug", "bd": [["mol", "food containers", "subcluster"], ["bai", "cup", ""]]},
+  {"w": "molcui", "e": "bowl", "bd": [["mol", "food containers", "subcluster"], ["cui", "bowl", ""]]},
+  {"w": "molvou", "e": "bottle", "ea": "bottle, flask", "bd": [["mol", "food containers", "subcluster"], ["vou", "bottle", ""]]},
+  {"w": "molwa", "e": "jar", "ea": "jar, pitcher, jug, beaker, vase", "bd": [["mol", "food containers", "subcluster"], ["wa", "water", "root"]]},
+  {"w": "mouje", "e": "drink", "bd": [["mou", "drink", ""], ["je", "drink", "subcluster"]]},
+  {"w": "moulu", "e": "milk", "ea": "milk, milky", "bd": [["mo", "food, eating", "subcluster"], ["ulu", "milk", ""]]},
+  {"w": "moval", "e": "ice", "ea": "ice, freeze", "bd": [["mo", "food, eating", "subcluster"], ["val", "ice", "root"]]},
+  {"w": "moyame", "e": "spice", "ea": "spice, curry, spiced, spicy", "bd": [["mo", "food, eating", "subcluster"], ["yame", "spice", ""]]},
+  {"w": "moyi", "e": "sugar", "ea": "sugar, sweet, dessert", "bd": [["mo", "food, eating", "subcluster"], ["yi", "sugar", "root"]]},
+  {"w": "mufis", "e": "snake", "ea": "snake, slither, treacherous", "bd": [["mu", "smaller animals", "subcluster"], ["fis", "snake", ""]]},
+  {"w": "mufiva", "e": "reptile", "ea": "reptile, crawl, creep", "bd": [["mu", "smaller animals", "subcluster"], ["fiva", "cold", "subcluster"]]},
+  {"w": "muhcar", "e": "eagle", "ea": "eagle, hawk, a bird of prey", "bd": [["muh", "flying animals", "subcluster"], ["car", "eagle", ""]]},
+  {"w": "muhin", "e": "bee", "ea": "bee, hornet, wasp, industrious", "bd": [["muh", "flying animals", "subcluster"], ["in", "bee", ""]]},
+  {"w": "muhpili", "e": "bird", "bd": [["muh", "flying animals", "subcluster"], ["pili", "delicate", "root"]]},
+  {"w": "muhpili", "e": "butterfly", "ea": "butterfly, moth", "bd": [["muh", "flying animals", "subcluster"], ["pili", "delicate", "root"]]},
+  {"w": "muhsis", "e": "mosquito", "ea": "mosquito, fly, annoying", "bd": [["muh", "flying animals", "subcluster"], ["sis", "mosquito", ""]]},
+  {"w": "muvardur", "e": "mouse", "ea": "mouse, rodent, gnaw", "bd": [["mu", "smaller animals", "subcluster"], ["vardur", "teeth, bite, gnaw", ""]]},
+  {"w": "muliwa", "e": "frog", "ea": "frog, toad", "bd": [["mu", "smaller animals", "subcluster"], ["li", "time", "root"], ["wa", "water", "root"]]},
+  {"w": "mus", "e": "insect", "ea": "insect, bug", "bd": [["mu", "smaller animals", "subcluster"]]},
+  {"w": "muvuson", "e": "snail", "ea": "snail, slug, a mollusk", "bd": [["mu", "smaller animals", "subcluster"], ["vuson", "slow movement", "root"]]},
+  {"w": "muwos", "e": "squid", "ea": "squid, tentacle", "bd": [["mu", "smaller animals", "subcluster"], ["wos", "squid", ""]]},
+  {"w": "nehen", "e": "each", "ea": "each, respectively", "bd": [["ne", "quantifiers", "subcluster"], ["hen", "each", ""]]},
+  {"w": "neiden", "e": "develop", "ea": "develop, grow, growth, development, progression, expand", "bd": [["ne", "quantifiers", "subcluster"], ["iden", "develop", ""]]},
+  {"w": "nelem", "e": "leftover", "ea": "leftover, left, excess, remainder", "bd": [["ne", "quantifiers", "subcluster"], ["lem", "keeping", "root"]]},
+  {"w": "neliu", "e": "other", "ea": "other, different, alternative", "bd": [["ne", "quantifiers", "subcluster"], ["liu", "other", "root"]]},
+  {"w": "neloa", "e": "all", "ea": "all, everything", "bd": [["ne", "quantifiers", "subcluster"], ["loa", "completeness", "root"]]},
+  {"w": "nepui", "e": "any", "ea": "any, whatever", "bd": [["ne", "quantifiers", "subcluster"], ["pui", "any", ""]]},
+  {"w": "neron", "e": "more", "ea": "more, plus, add, anymore", "bd": [["ne", "quantifiers", "subcluster"], ["ron", "more", ""]]},
+  {"w": "newol", "e": "beyond", "ea": "beyond, exceed, surpass, bonus", "bd": [["ne", "quantifiers", "subcluster"], ["wol", "wide", "root"]]},
+  {"w": "noan", "e": "verb", "bd": [["no", "function words", "subcluster"], ["an", "verb", "root"]]},
+  {"w": "noder", "e": "yet", "ea": "yet, even, still", "bd": [["no", "function words", "subcluster"], ["der", "yet", ""]]},
+  {"w": "nohei", "e": "pronoun", "bd": [["no", "function words", "subcluster"], ["hei", "person", "root"]]},
+  {"w": "noi", "e": "this", "ea": "here", "bd": [["no", "function words", "subcluster"]]},
+  {"w": "noli", "e": "now", "ea": "now, present", "bd": [["no", "function words", "subcluster"], ["li", "time", "root"]]},
+  {"w": "nolili", "e": "always", "ea": "always, often, consistently, constantly", "bd": [["no", "function words", "subcluster"], ["li", "time", "root"], ["li", "time", "root"]]},
+  {"w": "nomie", "e": "seem", "ea": "seem, appear, apparent, appearance", "bd": [["no", "function words", "subcluster"], ["mie", "appearance", "root"]]},
+  {"w": "none", "e": "have", "ea": "have, possession", "bd": [["no", "function words", "subcluster"], ["ne", "have", "root"]]},
+  {"w": "noniu", "e": "some", "ea": "some, an indefinite amount, somewhat", "bd": [["no", "function words", "subcluster"], ["niu", "some, piece", "root"]]},
+  {"w": "nordau", "e": "far", "ea": "far, distance, remote", "bd": [["nor", "relation to reference", "subcluster"], ["dau", "distance", "root"]]},
+  {"w": "norfih", "e": "enough", "ea": "enough, sufficient, suffice", "bd": [["nor", "relation to reference", "subcluster"], ["fih", "enough", ""]]},
+  {"w": "norocu", "e": "almost", "bd": [["nor", "relation to reference", "subcluster"], ["ocu", "almost", ""]]},
+  {"w": "norven", "e": "already", "ea": "already, by now/then", "bd": [["nor", "relation to reference", "subcluster"], ["ven", "already", ""]]},
+  {"w": "notane", "e": "should", "ea": "suggest, suggestion, hint, insinuation, recommendation", "bd": [["no", "function words", "subcluster"], ["tane", "should", ""]]},
+  {"w": "oico", "e": "gossip", "ea": "gossip, rumor, rumored", "bd": [["oi", "fun", "subcluster"], ["co", "communication", "root"]]},
+  {"w": "oidajo", "e": "scene", "ea": "scene, stage", "bd": [["oi", "fun", "subcluster"], ["dajo", "scene", ""]]},
+  {"w": "oifen", "e": "attract", "ea": "attract, attraction, draw, appeal, magnetic", "bd": [["oi", "fun", "subcluster"], ["fen", "attract", ""]]},
+  {"w": "oifu", "e": "silly", "ea": "silly, trivial, triviality", "bd": [["oi", "fun", "subcluster"], ["fu", "lightness", "root"]]},
+  {"w": "oihi", "e": "interest", "ea": "interest, interesting", "bd": [["oi", "fun", "subcluster"], ["hi", "interest", ""]]},
+  {"w": "oila", "e": "happy", "ea": "happy, joy, frolic, enjoy", "bd": [["oi", "fun", "subcluster"], ["la", "happiness", "root"]]},
+  {"w": "oimel", "e": "story", "ea": "story, narrate, fictional", "bd": [["oi", "fun", "subcluster"], ["mel", "story", ""]]},
+  {"w": "oimin", "e": "amuse", "ea": "amuse, entertainment, pleasure", "bd": [["oi", "fun", "subcluster"], ["min", "amuse", "root"]]},
+  {"w": "oines", "e": "joke", "ea": "joke, jest, comedy, humor, funny", "bd": [["oi", "fun", "subcluster"], ["nes", "joke", ""]]},
+  {"w": "oipili", "e": "cute", "ea": "cute, adorable, loveable", "bd": [["oi", "fun", "subcluster"], ["pili", "delicate", "root"]]},
+  {"w": "oipoh", "e": "excite", "ea": "excite, excited", "bd": [["oi", "fun", "subcluster"], ["poh", "excite", "root"]]},
+  {"w": "oiyar", "e": "star", "ea": "star, to highlight, celebrity", "bd": [["oi", "fun", "subcluster"], ["yar", "light", "root"]]},
+  {"w": "omapa", "e": "dance", "bd": [["om", "music", "subcluster"], ["apa", "physical movement", "subcluster"]]},
+  {"w": "ombun", "e": "horn", "bd": [["om", "music", "subcluster"], ["bun", "horn", ""]]},
+  {"w": "omco", "e": "voice", "ea": "voice, call, call out, summon, roar", "bd": [["om", "music", "subcluster"], ["co", "communication", "root"]]},
+  {"w": "omja", "e": "guitar", "ea": "guitar, violin, a stringed instrument", "bd": [["om", "music", "subcluster"], ["ja", "guitar sound", ""]]},
+  {"w": "omlia", "e": "sing", "ea": "sing, song, tune, melody", "bd": [["om", "music", "subcluster"], ["lia", "resonant", "root"]]},
+  {"w": "ompili", "e": "piano", "bd": [["om", "music", "subcluster"], ["pili", "piano sound", ""]]},
+  {"w": "omtuci", "e": "drum", "bd": [["om", "music", "subcluster"], ["tuci", "drum", ""]]},
+  {"w": "par", "e": "three"},
+  {"w": "peri", "e": "seven"},
+  {"w": "poadou", "e": "acid", "ea": "acid, acidic, corrosion", "bd": [["poa", "chemical", "subcluster"], ["dou", "acid", ""]]},
+  {"w": "poamase", "e": "dependence", "ea": "dependence, to rely, to depend", "bd": [["poa", "chemical", "subcluster"], ["mase", "dependence", ""]]},
+  {"w": "poarofei", "e": "alcohol", "ea": "alcohol, liquor", "bd": [["poa", "chemical", "subcluster"], ["ro", "thinking, reasoning", "root"], ["fei", "less", "root"]]},
+  {"w": "pocan", "e": "mass", "ea": "mass, kilogram, weight", "bd": [["po", "components", "subcluster"], ["can", "mass", ""]]},
+  {"w": "pocor", "e": "waste", "ea": "waste, trash, garbage, to throw away", "bd": [["po", "components", "subcluster"], ["cor", "waste", ""]]},
+  {"w": "podau", "e": "meter", "ea": "centimeter, distance", "bd": [["po", "components", "subcluster"], ["dau", "distance", "root"]]},
+  {"w": "poelve", "e": "pure", "ea": "pure, clean, cleanse", "bd": [["po", "components", "subcluster"], ["elve", "pure", ""]]},
+  {"w": "pogai", "e": "atom", "ea": "atom, atomic", "bd": [["po", "components", "subcluster"], ["gai", "small", "root"]]},
+  {"w": "pohcavo", "e": "fuel", "ea": "fuel, gasoline, benzene", "bd": [["poh", "energy", "subcluster"], ["cavo", "fuel", ""]]},
+  {"w": "pohem", "e": "heat", "ea": "heat, hot, calorie", "bd": [["poh", "energy", "subcluster"], ["hem", "warmth", "root"]]},
+  {"w": "pohivi", "e": "electric", "ea": "electric, electricity, agitated, frantic", "bd": [["poh", "energy, fire", "subcluster"], ["i", "verb marker", ""], ["vi", "internal body", "subcluster"]]},
+  {"w": "pohnen", "e": "power", "ea": "power, force, strong, intense, impose, trigger", "bd": [["poh", "energy", "subcluster"], ["nen", "power and violence", "root"]]},
+  {"w": "pohpoh", "e": "fire", "ea": "fire, flame, burn", "bd": [["poh", "energy, fire", "subcluster"], ["poh", "energy", "subcluster"]]},
+  {"w": "pohufu", "e": "steam", "ea": "steam, vapor", "bd": [["poh", "energy, fire", "subcluster"], ["lufu", "air", "subcluster"]]},
+  {"w": "pohyaro", "e": "energy", "ea": "energy, energize, energetic, charger", "bd": [["poh", "energy, fire", "subcluster"], ["yaro", "energy", ""]]},
+  {"w": "poiena", "e": "filter", "ea": "filter, sieve, colander", "bd": [["poi", "liquids", "subcluster"], ["ena", "filter", ""]]},
+  {"w": "poilua", "e": "flow", "ea": "flow, current, rhythm", "bd": [["poi", "liquids", "subcluster"], ["lua", "flow", "root"]]},
+  {"w": "poilumo", "e": "oil", "ea": "oil, gasoline", "bd": [["poi", "liquids", "subcluster"], ["lu", "outside", "root"], ["mo", "eat", "root"]]},
+  {"w": "poiwa", "e": "liquid", "ea": "liquid, density, concentration", "bd": [["poi", "liquids", "subcluster"], ["wa", "water", "root"]]},
+  {"w": "poiyal", "e": "liter", "ea": "liter, volume", "bd": [["poi", "liquids", "subcluster"], ["yal", "liter", "root"]]},
+  {"w": "pomia", "e": "mixture", "ea": "mixture, mix", "bd": [["po", "components", "subcluster"], ["mia", "mixture", "root"]]},
+  {"w": "pomuvu", "e": "motor", "ea": "motor, engine", "bd": [["po", "components", "subcluster"], ["muvu", "motor", ""]]},
+  {"w": "radom", "e": "nation", "ea": "nation, country, national", "bd": [["ra", "society", "subcluster"], ["dom", "place", "root"]]},
+  {"w": "rafa", "e": "community", "ea": "community, public", "bd": [["ra", "society", "subcluster"], ["fa", "family", "root"]]},
+  {"w": "rage", "e": "economy", "ea": "economy, economic, thrifty", "bd": [["ra", "society", "subcluster"], ["ge", "finances", "subcluster"]]},
+  {"w": "raidana", "e": "surrender", "ea": "surrender, submit, yield, give in, submission, colony, protectorate", "bd": [["rai", "governance", "subcluster"], ["da", "evaluate", "subcluster"], ["na", "give", "root"]]},
+  {"w": "raidoi", "e": "rebel", "ea": "rebel, rebellion, revolution, rebellious", "bd": [["rai", "governance", "subcluster"], ["doi", "opposing", "root"]]},
+  {"w": "raihei", "e": "citizen", "ea": "citizen, civilian, civil, civilize", "bd": [["rai", "governance", "subcluster"], ["hei", "person", "root"]]},
+  {"w": "railem", "e": "asylum", "ea": "asylum, refugee, shelter", "bd": [["rai", "governance", "subcluster"], ["lem", "keeping", "root"]]},
+  {"w": "railiu", "e": "foreign", "ea": "foreign, alien", "bd": [["rai", "governance", "subcluster"], ["liu", "other", "root"]]},
+  {"w": "rainen", "e": "police", "bd": [["rai", "governance", "subcluster"], ["nen", "power and violence", "root"]]},
+  {"w": "raipuni", "e": "government", "ea": "government, govern", "bd": [["rai", "governance", "subcluster"], ["puni", "command", "root"]]},
+  {"w": "rairan", "e": "elect", "ea": "elect, election", "bd": [["ra", "society", "subcluster"], ["iran", "favor", "root"]]},
+  {"w": "raisoi", "e": "flee", "ea": "flee, escape, run away", "bd": [["rai", "governance", "subcluster"], ["soi", "speed", "root"]]},
+  {"w": "raitar", "e": "law", "ea": "law, rule", "bd": [["rai", "governance", "subcluster"], ["tar", "regulate", "root"]]},
+  {"w": "raitu", "e": "military", "ea": "military, army", "bd": [["rai", "governance", "subcluster"], ["tu", "military", "subcluster"]]},
+  {"w": "raiver", "e": "defend", "ea": "defend, guard, protect, protection, defense", "bd": [["rai", "governance", "subcluster"], ["ver", "safety", "root"]]},
+  {"w": "raivoa", "e": "prison", "ea": "prison, jail, imprison", "bd": [["rai", "governance", "subcluster"], ["voa", "constraint", "root"]]},
+  {"w": "raleo", "e": "race", "ea": "race, ethnicity", "bd": [["ra", "society", "subcluster"], ["leo", "belong", "root"]]},
+  {"w": "ralua", "e": "environment", "ea": "environment, habitat, milieu", "bd": [["ra", "society", "subcluster"], ["lua", "flow", "root"]]},
+  {"w": "ranco", "e": "media", "ea": "media, communication, press", "bd": [["ran", "media, public discourse", "subcluster"], ["co", "communication", "root"]]},
+  {"w": "rani", "e": "resource", "ea": "resource, supply, merchandise, commodity, goods, item", "bd": [["ra", "society", "subcluster"], ["ni", "new", "root"]]},
+  {"w": "ranlevi", "e": "industry", "ea": "industry, industrial, factory, mill, production", "bd": [["ran", "media, public discourse", "subcluster"], ["levi", "fertile", "subcluster"]]},
+  {"w": "ranodo", "e": "business", "ea": "business, company", "bd": [["ran", "media, public discourse", "subcluster"], ["odo", "business", ""]]},
+  {"w": "ranvio", "e": "market", "ea": "market, fair, to shop, supermarket", "bd": [["ran", "media, public discourse", "subcluster"], ["vio", "change, exchange", "root"]]},
+  {"w": "ranvir", "e": "technology", "ea": "technology, technological", "bd": [["ran", "media, public discourse", "subcluster"], ["vir", "method", "root"]]},
+  {"w": "ranyar", "e": "marketing", "ea": "marketing, ad, advertisement", "bd": [["ran", "media, public discourse", "subcluster"], ["yar", "light", "root"]]},
+  {"w": "rasluo", "e": "sport", "ea": "sport, athletic, physical exercise", "bd": [["ras", "about society", "subcluster"], ["luo", "sport", ""]]},
+  {"w": "rasora", "e": "culture", "ea": "culture, cultural", "bd": [["ras", "about society", "subcluster"], ["ora", "idea", "root"]]},
+  {"w": "rastai", "e": "politics", "ea": "politics, political, politicize", "bd": [["ras", "about society", "subcluster"], ["tai", "guide", "root"]]},
+  {"w": "rasuir", "e": "history", "ea": "history, historical", "bd": [["ras", "about society", "subcluster"], ["uir", "history", ""]]},
+  {"w": "rodel", "e": "philosophy", "ea": "philosophy, principle, doctrine, worldview, perspective", "bd": [["ro", "knowledge", "subcluster"], ["del", "logic", "root"]]},
+  {"w": "roedom", "e": "school", "bd": [["roe", "formal education", "subcluster"], ["dom", "place", "root"]]},
+  {"w": "roejo", "e": "exam", "ea": "exam, test, interview, examination, investigation", "bd": [["roe", "formal education", "subcluster"], ["jo", "exam", ""]]},
+  {"w": "roena", "e": "teach", "ea": "teach, educate, education, explain", "bd": [["roe", "formal education", "subcluster"], ["na", "giving", "root"]]},
+  {"w": "roesau", "e": "learn", "ea": "learn, study", "bd": [["roe", "formal education", "subcluster"], ["sau", "start", "root"]]},
+  {"w": "rora", "e": "theory", "ea": "theory, theorize", "bd": [["ro", "knowledge", "subcluster"], ["ora", "idea", "root"]]},
+  {"w": "roucou", "e": "article", "ea": "article, essay", "bd": [["rou", "written knowledge", "subcluster"], ["cou", "article", "subcluster"]]},
+  {"w": "roudal", "e": "read", "ea": "read, a reading, well-read", "bd": [["rou", "written knowledge", "subcluster"], ["dal", "pattern", "root"]]},
+  {"w": "roudi", "e": "write", "ea": "write, a writing, text", "bd": [["rou", "written knowledge", "subcluster"], ["di", "stripe, finger", "root"]]},
+  {"w": "roumir", "e": "book", "bd": [["rou", "written knowledge", "subcluster"], ["mir", "lots of", "root"]]},
+  {"w": "rovir", "e": "science", "ea": "science, scientific, -ology, research", "bd": [["ro", "knowledge", "subcluster"], ["vir", "method", "root"]]},
+  {"w": "sebom", "e": "button", "ea": "button, knob, stud", "bd": [["se", "machines", "subcluster"], ["bom", "button", ""]]},
+  {"w": "sedel", "e": "logic", "ea": "logic, logical", "bd": [["se", "machines", "subcluster"], ["del", "logic", "root"]]},
+  {"w": "selcio", "e": "error", "ea": "error, mistake, err, accident", "bd": [["sel", "coding", "subcluster"], ["cio", "error", ""]]},
+  {"w": "seldal", "e": "code", "ea": "code, cipher, program code", "bd": [["sel", "coding", "subcluster"], ["dal", "pattern", "root"]]},
+  {"w": "selota", "e": "fix", "ea": "fix, correction, improvement, repair, mend", "bd": [["sel", "coding", "subcluster"], ["ota", "fix", ""]]},
+  {"w": "selyino", "e": "program", "ea": "program, agenda, plan, computer program", "bd": [["sel", "coding", "subcluster"], ["yino", "program", ""]]},
+  {"w": "semiru", "e": "type", "ea": "type, classification, categorization", "bd": [["sem", "system", "subcluster"], ["iru", "type", ""]]},
+  {"w": "semtela", "e": "system", "ea": "system, systematic, systematize, organize", "bd": [["sem", "system", "subcluster"], ["tela", "system", ""]]},
+  {"w": "semvir", "e": "method", "ea": "method, procedure, technique, means, methodical", "bd": [["sem", "system", "subcluster"], ["vir", "method", "root"]]},
+  {"w": "sepopo", "e": "echo", "ea": "echo, reflection", "bd": [["se", "machines", "subcluster"], ["popo", "echo", "root"]]},
+  {"w": "sepuni", "e": "command", "ea": "command, imperative, to rule, empire, imperial", "bd": [["se", "machines", "subcluster"], ["puni", "command", "root"]]},
+  {"w": "sero", "e": "memory", "ea": "memory, remember, familiar", "bd": [["se", "machines", "subcluster"], ["ro", "thinking, reasoning", "root"]]},
+  {"w": "seseri", "e": "menu", "ea": "menu, contents, list, enumerate", "bd": [["se", "machines", "subcluster"], ["seri", "series", "root"]]},
+  {"w": "setin", "e": "package", "ea": "package, parcel, packet, bundle", "bd": [["se", "machines", "subcluster"], ["tin", "package", ""]]},
+  {"w": "sever", "e": "key", "ea": "key, unlock", "bd": [["se", "machines", "subcluster"], ["ver", "safety", "root"]]},
+  {"w": "sigai", "e": "virus", "ea": "virus, viral", "bd": [["si", "processes", "subcluster"], ["gai", "small", "root"]]},
+  {"w": "simei", "e": "spy", "bd": [["si", "processes", "subcluster"], ["mei", "spy", ""]]},
+  {"w": "simia", "e": "random", "ea": "random, arbitrary, caprice, luck", "bd": [["si", "processes", "subcluster"], ["mia", "random", "root"]]},
+  {"w": "sihei", "e": "robot", "bd": [["si", "processes", "subcluster"], ["hei", "protagonist tropes", "root"]]},
+  {"w": "sioce", "e": "puzzle", "ea": "puzzle, enigma, riddle", "bd": [["sio", "games", "subcluster"], ["ce", "what?", "root"]]},
+  {"w": "sioer", "e": "game", "ea": "game, play", "bd": [["sio", "games", "subcluster"], ["er", "game", ""]]},
+  {"w": "siojai", "e": "solve", "ea": "solve, solution, decipher", "bd": [["sio", "games", "subcluster"], ["jai", "solve", ""]]},
+  {"w": "sioju", "e": "trick", "ea": "trick, hoax, ruse, fraud, scam, tricky", "bd": [["sio", "games", "subcluster"], ["ju", "deceive", "root"]]},
+  {"w": "simir", "e": "complex", "ea": "complex, complicated, tangle", "bd": [["si", "processes", "subcluster"], ["mir", "lots of", "root"]]},
+  {"w": "siram", "e": "flash", "ea": "flash, lightning, bolt", "bd": [["si", "processes", "subcluster"], ["ram", "sudden", "root"]]},
+  {"w": "sirose", "e": "computer", "ea": "computer, compute", "bd": [["si", "processes", "subcluster"], ["ro", "thinking, reasoning", "subcluster"], ["se", "machines", "subcluster"]]},
+  {"w": "sita", "e": "capture", "ea": "capture, catch, seize, grasp, captive, grab, restrain", "bd": [["si", "processes", "subcluster"], ["ta", "hand", "root"]]},
+  {"w": "siur", "e": "erase", "ea": "erase, erasure, remove, wipe away", "bd": [["si", "processes", "subcluster"], ["ur", "erase", ""]]},
+  {"w": "siyal", "e": "detect", "ea": "detect, find, notice, discovery", "bd": [["si", "processes", "subcluster"], ["yal", "detect", "root"]]},
+  {"w": "sunya", "e": "zero, empty"},
+  {"w": "tam", "e": "one"},
+  {"w": "tenda", "e": "nine"},
+  {"w": "teva", "e": "six"},
+  {"w": "ticati", "e": "slave", "ea": "slave, servant, serf, enslave", "bd": [["ti", "harm, damage", "subcluster"], ["cati", "constraint", "root"]]},
+  {"w": "tidaca", "e": "beat", "ea": "beat, fight, battle", "bd": [["ti", "harm, damage", "subcluster"], ["daca", "beat", ""]]},
+  {"w": "tidetu", "e": "die", "ea": "death, dead, die", "bd": [["ti", "harm, damage", "subcluster"], ["detu", "end", "root"]]},
+  {"w": "tidoi", "e": "against", "ea": "against, anti-, opposing, oppose", "bd": [["ti", "harm, damage", "subcluster"], ["doi", "opposing", "root"]]},
+  {"w": "tiju", "e": "lie", "ea": "lie, false", "bd": [["ti", "harm, damage", "subcluster"], ["ju", "deceive", "root"]]},
+  {"w": "tila", "e": "curse", "bd": [["ti", "harm, damage", "subcluster"], ["ila", "curse", "subcluster"]]},
+  {"w": "tilira", "e": "blame", "ea": "blame, fault, guilt, shame", "bd": [["ti", "harm, damage", "subcluster"], ["lira", "mark", "root"]]},
+  {"w": "timu", "e": "venom", "ea": "venom, poison, to poison", "bd": [["ti", "harm, damage", "subcluster"], ["mu", "small animal", "root"]]},
+  {"w": "tinen", "e": "break", "ea": "break, rupture, smash, disrupt", "bd": [["ti", "harm, damage", "subcluster"], ["nen", "power and violence", "root"]]},
+  {"w": "tiriju", "e": "deceive", "ea": "deceive, deception", "bd": [["ti", "harm, damage", "subcluster"], ["riju", "act + deceive", ""]]},
+  {"w": "titata", "e": "steal", "ea": "steal, theft", "bd": [["ti", "harm, damage", "subcluster"], ["ta", "hand", "root"], ["ta", "hand", "root"]]},
+  {"w": "titi", "e": "mean", "ea": "mean, cruel, sadistic", "bd": [["ti", "harm, damage", "subcluster"], ["ti", "bad", "subcluster"]]},
+  {"w": "titodom", "e": "hell", "ea": "hell, to damn, hellish", "bd": [["ti", "harm, damage", "subcluster"], ["to", "suffering", "root"], ["dom", "place", "root"]]},
+  {"w": "tiuan", "e": "crime", "ea": "crime, offense, sin, offensive, criminal", "bd": [["tiu", "types of harm", "subcluster"], ["an", "action", "subcluster"]]},
+  {"w": "tiuhu", "e": "kill", "ea": "murder, kill", "bd": [["tiu", "types of harm", "subcluster"], ["hu", "kill", ""]]},
+  {"w": "tiunala", "e": "threat", "ea": "threat, menace, menacing, threaten", "bd": [["tiu", "types of harm", "subcluster"], ["nala", "urgency", "root"]]},
+  {"w": "tiuri", "e": "abuse", "ea": "abuse, violate, assault, abusive", "bd": [["tiu", "types of harm", "subcluster"], ["ri", "act", "subcluster"]]},
+  {"w": "tiuvor", "e": "danger", "ea": "danger, dangerous", "bd": [["tiu", "types of harm", "subcluster"], ["vor", "threat", "root"]]},
+  {"w": "tivaru", "e": "hate", "ea": "hate, hatred, enmity", "bd": [["ti", "harm, damage", "subcluster"], ["varu", "hate", ""]]},
+  {"w": "tivonpu", "e": "accuse", "ea": "accuse, accusation, charge (legal)", "bd": [["ti", "harm, damage", "subcluster"], ["vonpu", "accuse", ""]]},
+  {"w": "todur", "e": "problem", "ea": "problem, trouble, to struggle", "bd": [["to", "suffering, distress", "subcluster"], ["dur", "hardness", "root"]]},
+  {"w": "togei", "e": "disgust", "ea": "disgust, disgusting, revulsion, sicken, gross", "bd": [["to", "suffering, distress", "subcluster"]]},
+  {"w": "toharou", "e": "anxious", "ea": "anxious, anxiety, nervous", "bd": [["toh", "emotional suffering", "subcluster"], ["arou", "anxious", ""]]},
+  {"w": "tohbian", "e": "confusion", "ea": "confusion, confuse, confusing, perplex", "bd": [["toh", "emotional suffering", "subcluster"], ["bian", "confusion", ""]]},
+  {"w": "tohdin", "e": "sorry", "ea": "sorry, to be sorry, contrition, remorse, regret", "bd": [["toh", "emotional suffering", "subcluster"], ["din", "sorry", ""]]},
+  {"w": "tohlel", "e": "miss", "ea": "miss, absence, longing, nostalgia", "bd": [["toh", "emotional suffering", "subcluster"], ["lel", "miss", ""]]},
+  {"w": "tohlora", "e": "crazy", "ea": "crazy, mad, insane, madden", "bd": [["toh", "emotional suffering", "subcluster"], ["lora", "crazy", ""]]},
+  {"w": "tohnaru", "e": "anger", "ea": "anger, angry", "bd": [["toh", "emotional suffering", "subcluster"], ["na", "giving", "root"], ["ru", "bend", "root"]]},
+  {"w": "tohpu", "e": "sad", "ea": "sad, melancholy, mourn", "bd": [["toh", "emotional suffering", "subcluster"], ["pu", "loss, sadness", "root"]]},
+  {"w": "tohsum", "e": "envy", "ea": "envy, jealous", "bd": [["toh", "emotional suffering", "subcluster"], ["sum", "envy", ""]]},
+  {"w": "tohvi", "e": "emotion", "ea": "emotion, emotional, passionate, emote", "bd": [["toh", "emotional suffering", "subcluster"], ["vi", "internal body", "root"]]},
+  {"w": "tohvor", "e": "fear", "ea": "fear, horror, fearful, scary", "bd": [["toh", "emotional suffering", "subcluster"], ["vor", "threat", "root"]]},
+  {"w": "tolenu", "e": "taboo", "ea": "taboo, forbid, forbidden", "bd": [["to", "suffering, distress", "subcluster"], ["le", "area", "root"], ["nu", "limit", "root"]]},
+  {"w": "toleu", "e": "rejection", "ea": "reject, rejection, exclude, excluded", "bd": [["to", "suffering, distress", "subcluster"], ["leu", "rejection", ""]]},
+  {"w": "tonan", "e": "sudden", "ea": "sudden, suddenly, abrupt, to precipitate", "bd": [["to", "suffering, distress", "subcluster"]]},
+  {"w": "tonul", "e": "suffer", "ea": "suffer, pain, suffering, hurt, painful", "bd": [["to", "suffering, distress", "subcluster"], ["nul", "suffer", ""]]},
+  {"w": "tor", "e": "two"},
+  {"w": "tosleva", "e": "betrayal", "ea": "betrayal, treason", "bd": [["tos", "interpersonal suffering", "subcluster"], ["leva", "betrayal", ""]]},
+  {"w": "tosnar", "e": "revenge", "ea": "revenge, vengeful, to seek revenge", "bd": [["tos", "interpersonal suffering", "subcluster"], ["nar", "revenge", ""]]},
+  {"w": "tosrei", "e": "bitter", "ea": "bitter (taste), resentful", "bd": [["tos", "interpersonal suffering", "subcluster"], ["rei", "bitter", ""]]},
+  {"w": "tostale", "e": "offend", "bd": [["tos", "interpersonal suffering", "subcluster"], ["tale", "cross", "root"]]},
+  {"w": "toului", "e": "tired", "ea": "tire, tired", "bd": [["tou", "physical depletion", "subcluster"], ["lui", "tired", ""]]},
+  {"w": "toumo", "e": "hungry", "ea": "hungry, hunger, famine", "bd": [["tou", "physical depletion", "subcluster"], ["mo", "eat", "root"]]},
+  {"w": "tounir", "e": "weak", "ea": "weak, weakness, feeble", "bd": [["tou", "physical depletion", "subcluster"], ["nir", "weak", ""]]},
+  {"w": "touros", "e": "tense", "ea": "tense, tight, squeeze", "bd": [["tou", "physical depletion", "subcluster"], ["ros", "tense", ""]]},
+  {"w": "touvei", "e": "illness", "ea": "illness, disease", "bd": [["tou", "physical depletion", "subcluster"], ["vei", "health issues", "subcluster"]]},
+  {"w": "touwa", "e": "thirst", "ea": "thirst, thirsty", "bd": [["to", "suffering, distress", "subcluster"], ["wa", "water", "root"]]},
+  {"w": "tugom", "e": "barrage", "ea": "barrage, dam, block, impede, obstruct, hinder", "bd": [["tu", "conflict", "subcluster"], ["gom", "barrage", ""]]},
+  {"w": "tuldac", "e": "crash", "ea": "crash, collision, collide", "bd": [["tul", "crash", "subcluster"], ["dac", "crash", ""]]},
+  {"w": "tulhue", "e": "smoke", "bd": [["tul", "crash", "subcluster"], ["hue", "smoke", "root"]]},
+  {"w": "tulram", "e": "explode", "bd": [["tul", "crash", "subcluster"], ["ram", "sudden", "root"]]},
+  {"w": "tumjeh", "e": "weapon", "bd": [["tum", "weapons", "subcluster"], ["jeh", "weapon", ""]]},
+  {"w": "tumjum", "e": "gun", "ea": "gun, rifle, shoot", "bd": [["tum", "weapons", "subcluster"], ["jum", "gun", ""]]},
+  {"w": "tumlovi", "e": "arrow", "ea": "arrow, dart", "bd": [["tum", "weapons", "subcluster"], ["lovi", "arrow", ""]]},
+  {"w": "tunen", "e": "violence", "bd": [["tu", "conflict", "subcluster"], ["nen", "power and violence", "root"]]},
+  {"w": "turai", "e": "war", "bd": [["tu", "conflict", "subcluster"], ["rai", "society", ""]]},
+  {"w": "vamiu", "e": "spine", "ea": "spine, backbone", "bd": [["va", "core", "subcluster"], ["miu", "support", "subcluster"]]},
+  {"w": "vanci", "e": "elbow", "ea": "elbow, nudge", "bd": [["van", "limbs", "subcluster"], ["ci", "sharp", "root"]]},
+  {"w": "vandi", "e": "finger", "ea": "finger, toe, skillful", "bd": [["van", "limbs", "subcluster"], ["di", "stripe, finger", "root"]]},
+  {"w": "vanen", "e": "fist", "ea": "fist, punch, knob, hilt, handgrip", "bd": [["van", "limbs", "subcluster"], ["nen", "power and violence", "root"]]},
+  {"w": "vanu", "e": "arm", "ea": "arm, limb, branch", "bd": [["van", "limbs", "subcluster"], ["nu", "limit", "subcluster"]]},
+  {"w": "vanou", "e": "butt", "ea": "butt, bottom", "bd": [["va", "core", "subcluster"], ["nou", "low, falling", "root"]]},
+  {"w": "vanpai", "e": "foot", "ea": "foot, by foot, stomp, step", "bd": [["van", "limbs", "subcluster"], ["pai", "foot", "root"]]},
+  {"w": "vanru", "e": "knee", "ea": "knee, joints, node", "bd": [["van", "limbs", "subcluster"], ["ru", "bend", "root"]]},
+  {"w": "vanta", "e": "hand", "ea": "hand, paw, hold, grasp, cling to", "bd": [["van", "limbs", "subcluster"], ["ta", "hand", "root"]]},
+  {"w": "vanvu", "e": "leg", "ea": "leg, to walk, to stroll, to kick", "bd": [["van", "limbs", "subcluster"], ["vu", "movement", "root"]]},
+  {"w": "vardei", "e": "eye", "ea": "eye, glance, one's sight, see, look, watch", "bd": [["var", "face", "subcluster"], ["dei", "eye", ""]]},
+  {"w": "vardur", "e": "tooth", "ea": "tooth, bite", "bd": [["var", "face", "subcluster"], ["dur", "hardness", "root"]]},
+  {"w": "varluan", "e": "tongue", "ea": "tongue, taste, language", "bd": [["var", "face", "subcluster"], ["luan", "tongue", "root"]]},
+  {"w": "varmo", "e": "mouth", "ea": "mouth, to articulate", "bd": [["var", "face", "subcluster"], ["mo", "eat", "root"]]},
+  {"w": "varodu", "e": "head", "bd": [["var", "face", "subcluster"], ["odu", "top", "root"]]},
+  {"w": "varon", "e": "cheek", "ea": "cheek, jowl", "bd": [["var", "face", "subcluster"], ["on", "cheek", ""]]},
+  {"w": "varparo", "e": "face", "ea": "face, to face someone", "bd": [["var", "face", "subcluster"], ["paro", "front", "root"]]},
+  {"w": "varpi", "e": "nose", "ea": "nose, smell, to smell, meddlesome, prying", "bd": [["var", "face", "subcluster"], ["pi", "nose", ""]]},
+  {"w": "varsus", "e": "ear", "ea": "ear, to hear, to listen", "bd": [["var", "face", "subcluster"], ["sus", "sound", ""]]},
+  {"w": "vavari", "e": "back", "ea": "back, backwards", "bd": [["va", "core", "subcluster"], ["vari", "back", "root"]]},
+  {"w": "vavi", "e": "pelvis", "ea": "pelvis, genital", "bd": [["va", "core", "subcluster"], ["vi", "internal body", "root"]]},
+  {"w": "vawe", "e": "shoulder", "ea": "shoulder, shrug", "bd": [["va", "core", "subcluster"], ["we", "shoulder", ""]]},
+  {"w": "vawol", "e": "chest", "ea": "chest, torso", "bd": [["va", "core", "subcluster"], ["wol", "wide", "root"]]},
+  {"w": "veihoh", "e": "severe", "ea": "severe, strict", "bd": [["vei", "health issues", "subcluster"], ["hoh", "severe", "root"]]},
+  {"w": "veimigai", "e": "bacteria", "ea": "bacteria, bacillus, germ, microbe", "bd": [["vei", "health issues", "subcluster"], ["mi", "existence, being", "root"], ["gai", "small", "root"]]},
+  {"w": "veinal", "e": "condition", "ea": "condition, state", "bd": [["vei", "health issues", "subcluster"], ["nal", "condition", ""]]},
+  {"w": "veiti", "e": "tumor", "ea": "tumor, swell, swelling, bulge", "bd": [["vei", "health issues", "subcluster"], ["ti", "bad", "root"]]},
+  {"w": "veitira", "e": "fungus", "ea": "fungus, mold, mildew", "bd": [["vei", "health issues", "subcluster"], ["tira", "fungus", "root"]]},
+  {"w": "veito", "e": "wound", "ea": "wound, injure, injury", "bd": [["vei", "health issues", "subcluster"], ["to", "suffering", "root"]]},
+  {"w": "velan", "e": "therapy", "ea": "therapy, treatment, treat, cure, therapeutic", "bd": [["vel", "medical treatments", "subcluster"], ["lan", "balance", "root"]]},
+  {"w": "velmo", "e": "pill", "ea": "pill, pellet, bullet", "bd": [["vel", "medical treatments", "subcluster"], ["mo", "eat", "root"]]},
+  {"w": "veluo", "e": "exercise", "ea": "exercise, training, practice, drill", "bd": [["vel", "medical treatments", "subcluster"], ["luo", "exercise", ""]]},
+  {"w": "vidur", "e": "bone", "bd": [["vi", "interior body", "subcluster"], ["dur", "hardness", "root"]]},
+  {"w": "vigai", "e": "cell", "ea": "cell, to wrap", "bd": [["vi", "interior body", "subcluster"], ["gai", "small", "root"]]},
+  {"w": "vilam", "e": "fat", "ea": "fat, thick", "bd": [["vi", "interior body", "subcluster"], ["lam", "fat", ""]]},
+  {"w": "vilil", "e": "muscle", "ea": "muscle, muscular", "bd": [["vi", "interior body", "subcluster"], ["lil", "muscle", "root"]]},
+  {"w": "visfiyur", "e": "heart", "ea": "heart, pump", "bd": [["vis", "heart", ""], ["fiyur", "heart", ""]]},
+  {"w": "viso", "e": "feces", "bd": [["vi", "interior body", "subcluster"], ["so", "feces", ""]]},
+  {"w": "visomo", "e": "stomach", "ea": "stomach, belly, abdomen", "bd": [["vis", "organs", "subcluster"], ["mo", "eat", "subcluster"]]},
+  {"w": "visro", "e": "brain", "ea": "brain, nuts", "bd": [["vis", "organs", "subcluster"], ["ro", "thinking, reasoning", "subcluster"]]},
+  {"w": "visuva", "e": "body", "ea": "body, physical", "bd": [["vi", "interior body", "subcluster"], ["su", "alongside", "root"], ["va", "core", "subcluster"]]},
+  {"w": "visyala", "e": "organ", "bd": [["vis", "organ", ""], ["ya", "representation, invitation", "root"], ["la", "happiness", "root"]]},
+  {"w": "viwa", "e": "blood", "ea": "blood, bleed", "bd": [["vi", "interior body", "subcluster"], ["wa", "water", "root"]]},
+  {"w": "viyur", "e": "breast", "ea": "breast, tit, mammal", "bd": [["vi", "interior body", "subcluster"], ["yur", "breast", ""]]},
+  {"w": "vonici", "e": "nail", "ea": "nail, hoof, claw", "bd": [["von", "external body", "subcluster"], ["ni", "new", "root"], ["ci", "sharp", "root"]]},
+  {"w": "vonlu", "e": "skin", "ea": "skin, surface, peel, hide (animal)", "bd": [["von", "external body", "subcluster"], ["lu", "outside", "root"]]},
+  {"w": "vonmo", "e": "lip", "ea": "lip, rim, brim", "bd": [["von", "external body", "subcluster"], ["mo", "eat", "root"]]},
+  {"w": "vonyas", "e": "hair", "ea": "hair, fur, hairy, furry", "bd": [["von", "external body", "subcluster"], ["yas", "hair", ""]]},
+  {"w": "vosfan", "e": "brush", "ea": "to brush, comb, sweep", "bd": [["vos", "cleaning actions", "subcluster"], ["fan", "brush", ""]]},
+  {"w": "vosfou", "e": "dry", "ea": "dry, dryness", "bd": [["vos", "cleaning actions", "subcluster"], ["fou", "lack", "root"]]},
+  {"w": "vosjam", "e": "gel", "ea": "gel, jelly, paste, cream", "bd": [["vos", "cleaning actions", "subcluster"], ["jam", "gel", ""]]},
+  {"w": "vosrol", "e": "curl", "ea": "curl, coil, elastic, springy", "bd": [["vos", "cleaning actions", "subcluster"], ["rol", "curl", ""]]},
+  {"w": "vosvo", "e": "soap", "ea": "soap, detergent", "bd": [["vos", "cleaning actions", "subcluster"], ["vo", "soap", ""]]},
+  {"w": "vosvosi", "e": "rub", "ea": "rub, friction, massage, caress, to pet", "bd": [["vos", "cleaning actions", "subcluster"], ["vosi", "rub", ""]]},
+  {"w": "vosyec", "e": "shave", "ea": "shave, scrape, graze", "bd": [["vos", "cleaning actions", "subcluster"], ["yec", "shave", ""]]},
+  {"w": "wagavir", "e": "shore", "ea": "shore, beach, coast, litoral", "bd": [["wa", "water, sea", "subcluster"], ["gavir", "limit", ""], ["vir", "method", "subcluster"]]},
+  {"w": "wamitan", "e": "whale", "bd": [["wa", "water, sea", "subcluster"], ["mi", "bigger animals", "subcluster"], ["tan", "big", "subcluster"]]},
+  {"w": "walufu", "e": "sail", "bd": [["wa", "water, sea", "subcluster"], ["lufu", "air", "root"]]},
+  {"w": "wamon", "e": "cave", "ea": "cave, cavern", "bd": [["wa", "water, sea", "subcluster"], ["mon", "cave", ""]]},
+  {"w": "wamu", "e": "fish", "bd": [["wa", "water, sea", "subcluster"], ["mu", "small animal", "root"]]},
+  {"w": "wanenou", "e": "dive", "ea": "dive, plunge, submerge, dip, dunk", "bd": [["wa", "water, sea", "subcluster"], ["ne", "quantifiers", "root"], ["nou", "low, falling", "root"]]},
+  {"w": "wanon", "e": "swim", "bd": [["wa", "water, sea", "subcluster"], ["non", "path", "root"]]},
+  {"w": "warel", "e": "cliff", "ea": "cliff, edge", "bd": [["wa", "water, sea", "subcluster"], ["rel", "up, high", "root"]]},
+  {"w": "wawowo", "e": "float", "ea": "float, buoy, buoyant, a float", "bd": [["wa", "water, sea", "subcluster"], ["wowo", "oscillate", "subcluster"]]},
+  {"w": "wayol", "e": "ocean", "ea": "ocean, sea, marine", "bd": [["wa", "water, sea", "subcluster"], ["yol", "sky and ocean", "root"]]},
+  {"w": "widuo", "e": "near", "ea": "near, neighborhood, close by, approach, nearly, close", "bd": [["wi", "geographical orientation", "subcluster"], ["duo", "near", ""]]},
+  {"w": "wile", "e": "area", "ea": "area, region, zone, domain, extent, size", "bd": [["wi", "geographical orientation", "subcluster"], ["le", "environment", "subcluster"]]},
+  {"w": "wilwatai", "e": "canal", "bd": [["wil", "human made geography", "subcluster"], ["wa", "water", "subcluster"], ["tai", "guide", "subcluster"]]},
+  {"w": "wilgai", "e": "village", "ea": "village, town", "bd": [["wil", "human made geography", "subcluster"], ["gai", "small", "root"]]},
+  {"w": "wilimel", "e": "west", "bd": [["wi", "geographical orientation", "subcluster"], ["limel", "evening", "root"]]},
+  {"w": "wiltan", "e": "city", "bd": [["wil", "human made geography", "subcluster"], ["tan", "big", "root"]]},
+  {"w": "wilyel", "e": "bridge", "ea": "bridge, connect", "bd": [["wil", "human made geography", "subcluster"], ["yel", "joining", "root"]]},
+  {"w": "wimlua", "e": "river", "ea": "river, stream", "bd": [["wim", "natural geography", "subcluster"], ["lua", "flow", "root"]]},
+  {"w": "wimrih", "e": "mountain", "ea": "mountain, hill, bump, protrusion, protrude, bumpy", "bd": [["wim", "natural geography", "subcluster"], ["rih", "higher, rising", "root"]]},
+  {"w": "wimuru", "e": "valley", "bd": [["wim", "natural geography", "subcluster"], ["uru", "valley", ""]]},
+  {"w": "wimwa", "e": "lake", "ea": "lake, loch, pond", "bd": [["wim", "natural geography", "subcluster"], ["wa", "water", "root"]]},
+  {"w": "winou", "e": "south", "bd": [["wi", "geographical orientation", "subcluster"], ["nou", "low, falling", "root"]]},
+  {"w": "wirel", "e": "north", "bd": [["wi", "geographical orientation", "subcluster"], ["rel", "up, high", "root"]]},
+  {"w": "witel", "e": "map", "ea": "map, chart", "bd": [["wi", "geographical orientation", "subcluster"], ["tel", "image", "root"]]},
+  {"w": "wiyar", "e": "east", "bd": [["wi", "geographical orientation", "subcluster"], ["yar", "light", "root"]]},
+  {"w": "yadetu", "e": "finish", "ea": "finish, final, end, tip", "bd": [["ya", "objective qualities", "subcluster"], ["detu", "end", "subcluster"]]},
+  {"w": "yahci", "e": "sharp", "ea": "sharp, acute, keen", "bd": [["yah", "texture qualities", "subcluster"], ["ci", "sharp", "root"]]},
+  {"w": "yahgor", "e": "solid", "ea": "solid, firm", "bd": [["yah", "texture qualities", "subcluster"], ["gor", "solid", "root"]]},
+  {"w": "yahlul", "e": "smooth", "ea": "smooth, soft, sleek, even", "bd": [["yah", "texture qualities", "subcluster"], ["lul", "smooth", ""]]},
+  {"w": "yahsun", "e": "limp", "ea": "limp, flaccid, floppy, to limp, lax", "bd": [["yah", "texture qualities", "subcluster"], ["sun", "limp", ""]]},
+  {"w": "yaldih", "e": "full", "ea": "full, to fill, whole, complete", "bd": [["yal", "size qualities", "subcluster"], ["dih", "full", ""]]},
+  {"w": "yalen", "e": "long", "ea": "long, length, longitude", "bd": [["yal", "size qualities", "subcluster"], ["len", "long", "root"]]},
+  {"w": "yalgai", "e": "small", "ea": "small, little", "bd": [["yal", "size qualities", "subcluster"], ["gai", "small", "root"]]},
+  {"w": "yaljui", "e": "short", "ea": "short, temporary", "bd": [["yal", "size qualities", "subcluster"], ["jui", "temporary", "root"]]},
+  {"w": "yalnou", "e": "deep", "bd": [["yal", "size qualities", "subcluster"], ["nou", "low, falling", "root"]]},
+  {"w": "yaltan", "e": "big", "ea": "big, great, large", "bd": [["yal", "size qualities", "subcluster"], ["tan", "big", "root"]]},
+  {"w": "yalwol", "e": "wide", "ea": "wide, width, latitude, broad, vague", "bd": [["yal", "size qualities", "subcluster"], ["wol", "wide", "root"]]},
+  {"w": "yamirhei", "e": "famous", "ea": "famous, fame, well-known, iconic", "bd": [["ya", "objective qualities", "subcluster"], ["mir", "lots of", "root"], ["hei", "person", "root"]]},
+  {"w": "yamirli", "e": "age", "ea": "age, to age, old, antique, ancient", "bd": [["ya", "objective qualities", "subcluster"], ["mir", "lots of", "root"], ["li", "time", "root"]]},
+  {"w": "yani", "e": "new", "ea": "new, innovation", "bd": [["ya", "objective qualities", "subcluster"], ["ni", "new", "root"]]},
+  {"w": "yasoi", "e": "fast", "ea": "fast, speed, quickly", "bd": [["ya", "objective qualities", "subcluster"], ["soi", "speed", "root"]]},
+  {"w": "yavuson", "e": "slow", "ea": "slow, slowly", "bd": [["ya", "objective qualities", "subcluster"], ["vuson", "slow movement", "root"]]},
+  {"w": "yedi", "e": "stripe", "ea": "stripe, band, strip, ribbon, tape", "bd": [["ye", "clothing and fabric", "subcluster"], ["di", "stripe, finger", "root"]]},
+  {"w": "yejae", "e": "bag", "ea": "bag, sack, burden", "bd": [["ye", "clothing and fabric", "subcluster"], ["jae", "container", "root"]]},
+  {"w": "yeleno", "e": "cotton", "bd": [["ye", "clothing and fabric", "subcluster"], ["leno", "ground", "root"]]},
+  {"w": "yemiudu", "e": "pillow", "ea": "pillow, cushion", "bd": [["ye", "clothing and fabric", "subcluster"], ["miu", "support", "root"], ["du", "top", ""]]},
+  {"w": "yemu", "e": "silk", "bd": [["ye", "clothing and fabric", "subcluster"], ["mu", "small animal", "root"]]},
+  {"w": "yesdora", "e": "tie", "ea": "tie, bind, knot, league, link, connection", "bd": [["yes", "garments", "subcluster"], ["dora", "bond", "root"]]},
+  {"w": "yesjin", "e": "jeans", "bd": [["yes", "garments", "subcluster"], ["jin", "jeans", ""]]},
+  {"w": "yesmel", "e": "dress", "ea": "dress, robe", "bd": [["yes", "garments", "subcluster"], ["mel", "dress", ""]]},
+  {"w": "yesnou", "e": "pants", "ea": "pants, trousers", "bd": [["yes", "garments", "subcluster"], ["nou", "low, falling", "root"]]},
+  {"w": "yespai", "e": "shoe", "ea": "shoe, suitable", "bd": [["yes", "garments", "subcluster"], ["pai", "foot", "root"]]},
+  {"w": "yespuli", "e": "sock", "ea": "sock, stocking", "bd": [["yes", "garments", "subcluster"], ["puli", "socks", ""]]},
+  {"w": "yesrel", "e": "jacket", "ea": "jacket, coat, sweater", "bd": [["yes", "garments", "subcluster"], ["rel", "up, high", "root"]]},
+  {"w": "yeswol", "e": "shirt", "bd": [["yes", "garments", "subcluster"], ["wol", "wide", "root"]]},
+  {"w": "yewamus", "e": "net", "ea": "net, network, web, internet, catch, trap", "bd": [["ye", "clothing and fabric", "subcluster"], ["wa", "water", "subcluster"], ["mus", "bug", ""]]},
+  {"w": "yeyel", "e": "sew", "ea": "sew, stich, seam, weave, knit", "bd": [["ye", "clothing and fabric", "subcluster"], ["yel", "joining", "root"]]},
+  {"w": "yemuh", "e": "feather", "bd": [["ye", "clothing and fabric", "subcluster"], ["muh", "flying animals", "subcluster"]]},
+  {"w": "yogali", "e": "brown", "bd": [["yo", "colors", "subcluster"], ["gali", "coffee", "root"]]},
+  {"w": "yolimel", "e": "dark", "ea": "dark, black", "bd": [["yo", "colors", "subcluster"], ["limel", "evening", "root"]]},
+  {"w": "yopoh", "e": "red", "bd": [["yo", "colors", "subcluster"], ["poh", "energy, fire", "subcluster"]]},
+  {"w": "yosari", "e": "yellow", "bd": [["yo", "colors", "subcluster"], ["sari", "sun", "root"]]},
+  {"w": "yoyar", "e": "white", "bd": [["yo", "colors", "subcluster"], ["yar", "light", "root"]]},
+  {"w": "yoyo", "e": "colorful", "ea": "color, colorful", "bd": [["yo", "colors", "subcluster"]]},
+  {"w": "yoyodur", "e": "diamond", "ea": "diamond, sparkle", "bd": [["yo", "colors", "subcluster"], ["yo", "color", "root"], ["dur", "hardness", "root"]]},
+  {"w": "yoyol", "e": "blue", "bd": [["yo", "colors", "subcluster"], ["yol", "sky and ocean", "root"]]},
+  {"w": "yuba", "e": "good", "bd": [["yu", "subjective qualities", "subcluster"], ["ba", "good", ""]]},
+  {"w": "yudur", "e": "hard", "ea": "hard, difficult", "bd": [["yu", "subjective qualities", "subcluster"], ["dur", "hardness", "root"]]},
+  {"w": "yufer", "e": "dirty", "ea": "dirty, grime, filth, to taint, corruption", "bd": [["yu", "subjective qualities", "subcluster"], ["fer", "dirty", ""]]},
+  {"w": "yugai", "e": "easy", "ea": "easy, ease, simple, straightforward, plain", "bd": [["yu", "subjective qualities", "subcluster"], ["gai", "small", "root"]]},
+  {"w": "yuloa", "e": "perfect", "ea": "perfect, complete", "bd": [["yu", "subjective qualities", "subcluster"], ["loa", "completeness", "root"]]},
+  {"w": "yumin", "e": "satisfaction", "bd": [["yu", "subjective qualities", "subcluster"], ["min", "pleasure", "subcluster"]]},
+  {"w": "yunfou", "e": "poor", "ea": "poor, poverty", "bd": [["yun", "personal characteristics", "subcluster"], ["fou", "lack", "root"]]},
+  {"w": "yungei", "e": "ugly", "bd": [["yun", "personal characteristics", "subcluster"], ["gei", "ugly", ""]]},
+  {"w": "yungi", "e": "proud", "ea": "proud, pride, arrogant", "bd": [["yun", "personal characteristics", "subcluster"], ["gi", "boldness", "root"]]},
+  {"w": "yunitam", "e": "special", "ea": "special, especially, particular, exceptional, exception", "bd": [["yun", "personal characteristics", "subcluster"], ["tam", "one", "root"]]},
+  {"w": "yunmir", "e": "rich", "ea": "rich, wealth", "bd": [["yun", "personal characteristics", "subcluster"], ["mir", "lots of", "root"]]},
+  {"w": "yunmpou", "e": "lazy", "ea": "lazy, indolence, inactivity", "bd": [["yun", "personal characteristics", "subcluster"], ["mpou", "lazy", ""]]},
+  {"w": "yunrani", "e": "beautiful", "ea": "beautiful, beauty, beautify, pretty", "bd": [["yun", "personal characteristics", "subcluster"], ["rani", "beautiful", ""]]},
+  {"w": "yunro", "e": "smart", "ea": "smart, intelligence", "bd": [["yun", "personal characteristics", "subcluster"], ["ro", "thinking, reasoning", "root"]]},
+  {"w": "yuparde", "e": "ironic", "ea": "irony, ironic, sarcasm", "bd": [["yu", "subjective qualities", "subcluster"], ["parde", "ironic", ""]]},
+  {"w": "yuniu", "e": "rare", "ea": "rare, unusual, weird, strange", "bd": [["yu", "subjective qualities", "subcluster"], ["niu", "some", "subcluster"]]},
+  {"w": "yuvabo", "e": "comfortable", "ea": "comfortable, cozy", "bd": [["yu", "subjective qualities", "subcluster"], ["vabo", "cozy, body home", "root"]]},
+  {"w": "anu", "e": "close", "ea": "close, shut", "bd": [["an", "action", "subcluster"], ["nu", "limit", "subcluster"]]},
+  {"w": "anilie", "e": "maybe", "ea": "maybe, try, attempt", "bd": [["an", "action", "subcluster"], ["ilie", "maybe", ""]]},
+  {"w": "vatale", "e": "neck", "ea": "neck, throat", "bd": [["va", "core", "subcluster"], ["tale", "through", "subcluster"]]},
+  {"w": "oivamin", "e": "sex", "ea": "sex, sensual pleasure", "bd": [["oi", "fun", "subcluster"], ["va", "core", "subcluster"], ["min", "pleasure", "root"]]}
+];
+
+/* ════════════════════════════════════════════════════════════════
+   CONFIG + DAILY SEED (UTC rollover)
+   ════════════════════════════════════════════════════════════════ */
+const CFG = {
+  LENGTHS: [4, 5, 6, 7],          // daily word length rotates among these
+  SALT: "v3",                     // bump to re-roll the whole daily sequence
+  MAX_GUESSES: 6,
+  EPOCH: "2026-07-11",            // puzzle #1 date (UTC) — change to launch day
+  WORDS_URLS: ["dictionary_data.json", "data/dictionary_data.json", "../data/dictionary_data.json"],
+  // NOTE: ?q= is intercepted by MkDocs Material's site search, which doesn't
+  // index the JS-rendered dictionary entries. Plain link until the dictionary
+  // page supports a deep-link (e.g. #word anchors or its own ?word= param).
+  DICT_URL: w => "https://learnoravia.com/content/dictionary/",
+  LS_STATE: "oravia_wordle_state",
+  LS_STATS: "oravia_wordle_stats",
+  LOG_URL: "https://script.google.com/macros/s/AKfycbyK1kWJRcXZ9tHqLGYZP8ZG90OcMj8ld3zUSNjvyOhHiSJyr5GIep0tdCxF9xMBamia/exec",
+};
+const ALPHABET = "abcdefghijlmnoprstuvwy";     // the 22 Oravia letters
+const params = new URLSearchParams(location.search);
+
+function todayISO(){                            // UTC date, not local
+  return new Date().toISOString().slice(0, 10);
+}
+function puzzleNumber(iso){
+  const ms = Date.parse(iso + "T00:00:00Z") - Date.parse(CFG.EPOCH + "T00:00:00Z");
+  return Math.max(1, Math.round(ms / 86400000) + 1);
+}
+function hashStr(s){
+  let h = 2166136261;
+  for (let i = 0; i < s.length; i++){ h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); }
+  return h >>> 0;
+}
+
+/* ════════════════════════════════════════════════════════════════
+   VOCABULARY
+   ════════════════════════════════════════════════════════════════ */
+function normalizeEntry(x){
+  return {
+    w:  String(x.w ?? x.word ?? "").toLowerCase().trim(),
+    e:  String(x.e ?? x.gloss ?? ""),
+    ea: String(x.ea ?? ""),
+    bd: Array.isArray(x.bd)
+        ? x.bd.map(b => Array.isArray(b) ? b : [b.sound ?? "", b.meaning ?? "", b.bb_type ?? ""])
+        : [],
+  };
+}
+async function loadWords(){
+  const srcs = params.get("src") ? [params.get("src")] : CFG.WORDS_URLS;
+  for (const src of srcs){
+    try{
+      const res = await fetch(src, {cache: "no-store"});
+      if (!res.ok) throw 0;
+      const data = await res.json();
+      const list = (Array.isArray(data) ? data : data.words || [])
+        .map(normalizeEntry).filter(x => x.w && x.e);
+      if (list.length >= 50) return {list, embedded: false};
+    }catch{ /* try next candidate */ }
+  }
+  return {list: DICT_WORDS.map(normalizeEntry), embedded: true};
+}
+
+/* ════════════════════════════════════════════════════════════════
+   DAILY WORD — deterministic: length first, then word from a
+   sorted pool, so fetched and embedded data agree.
+   ════════════════════════════════════════════════════════════════ */
+function pickDaily(list, iso){
+  const byLen = new Map();
+  for (const x of list){
+    if (!/^[a-z]+$/.test(x.w)) continue;
+    if (!x.bd || !x.bd.length) continue;   // tip needs a breakdown
+    if (!byLen.has(x.w.length)) byLen.set(x.w.length, []);
+    byLen.get(x.w.length).push(x);
+  }
+  const usable = CFG.LENGTHS.filter(L => (byLen.get(L) || []).length >= 10);
+  const L = usable[hashStr("oravia-len-" + CFG.SALT + "-" + iso) % usable.length];
+  const pool = byLen.get(L).slice().sort((a, b) => a.w < b.w ? -1 : 1);
+  return pool[hashStr("oravia-word-" + CFG.SALT + "-" + iso) % pool.length];
+}
+
+/* ════════════════════════════════════════════════════════════════
+   PERSISTENCE
+   ════════════════════════════════════════════════════════════════ */
+function loadState(iso){
+  try{
+    const s = JSON.parse(localStorage.getItem(CFG.LS_STATE + "_" + CFG.SALT));
+    if (s && s.date === iso) return s;
+  }catch{}
+  return {date: iso, guesses: [], done: false, won: false};
+}
+function saveState(){
+  if (S.practice) return;                       // practice rounds are not saved
+  try{ localStorage.setItem(CFG.LS_STATE + "_" + CFG.SALT, JSON.stringify(S)); }catch{}
+}
+function loadStats(){
+  try{
+    const s = JSON.parse(localStorage.getItem(CFG.LS_STATS));
+    if (s && Array.isArray(s.dist)) return s;
+  }catch{}
+  return {played: 0, won: 0, streak: 0, maxStreak: 0, lastWin: "", dist: [0,0,0,0,0,0]};
+}
+function recordResult(won, nGuesses, iso){
+  const st = loadStats();
+  st.played++;
+  if (won){
+    st.won++;
+    st.dist[nGuesses - 1]++;
+    const y = new Date(Date.parse(iso + "T00:00:00Z") - 86400000).toISOString().slice(0,10);
+    st.streak = (st.lastWin === y) ? st.streak + 1 : 1;
+    st.maxStreak = Math.max(st.maxStreak, st.streak);
+    st.lastWin = iso;
+  } else {
+    st.streak = 0;
+  }
+  try{ localStorage.setItem(CFG.LS_STATS, JSON.stringify(st)); }catch{}
+}
+
+/* ════════════════════════════════════════════════════════════════
+   DATA COLLECTION — sends one row per completed game to the
+   Oravia Data sheet, same endpoint + sendBeacon pattern as lessons
+   ════════════════════════════════════════════════════════════════ */
+function sendResult(){
+  try{
+    navigator.sendBeacon(CFG.LOG_URL, JSON.stringify({
+      event_type: "wordle_result",
+      timestamp:  new Date().toISOString(),
+      learner_id: localStorage.getItem("oravia_user_id") || "anonymous",
+      mode:       S.practice ? "practice" : "daily",
+      date:       S.practice ? "" : S.date,
+      puzzle:     S.practice ? "" : puzzleNumber(S.date),
+      word:       ANSWER.w,
+      won:        S.won,
+      num_guesses: S.guesses.length,
+      guesses:    S.guesses.join("|"),
+    }));
+  }catch{ /* logging must never break the game */ }
+}
+
+/* ════════════════════════════════════════════════════════════════
+   SCORING — standard two-pass with duplicate handling
+   ════════════════════════════════════════════════════════════════ */
+function scoreGuess(guess, answer){
+  const n = answer.length;
+  const res = new Array(n).fill("miss");
+  const remaining = {};
+  for (let i = 0; i < n; i++){
+    if (guess[i] === answer[i]) res[i] = "hit";
+    else remaining[answer[i]] = (remaining[answer[i]] || 0) + 1;
+  }
+  for (let i = 0; i < n; i++){
+    if (res[i] === "hit") continue;
+    if (remaining[guess[i]] > 0){ res[i] = "near"; remaining[guess[i]]--; }
+  }
+  return res;
+}
+
+/* ════════════════════════════════════════════════════════════════
+   RENDER + INTERACTION
+   ════════════════════════════════════════════════════════════════ */
+let ANSWER = null;   // entry {w, e, ea, bd}
+let S = null;        // state {date, guesses, done, won}
+let POOL = [];       // playable entries, for practice rounds
+let current = "";
+const keyEls = new Map();
+
+function buildBoard(len){
+  const board = document.getElementById("board");
+  board.innerHTML = "";
+  for (let r = 0; r < CFG.MAX_GUESSES; r++){
+    const row = document.createElement("div");
+    row.className = "row";
+    row.style.gridTemplateColumns = `repeat(${len}, var(--tile))`;
+    for (let c = 0; c < len; c++){
+      const t = document.createElement("div");
+      t.className = "tile";
+      row.appendChild(t);
+    }
+    board.appendChild(row);
+  }
+}
+function buildKeyboard(){
+  const rows = [["a","e","i","o","u"],
+                ["b","c","d","f","g","h","j","l","m"],
+                ["Enter","n","p","r","s","t","v","w","y","Back"]];
+  const kb = document.getElementById("kb");
+  kb.innerHTML = "";
+  rows.forEach((r, ri) => {
+    const div = document.createElement("div");
+    div.className = "kb-row" + (ri === 0 ? " vowels" : "");
+    for (const k of r){
+      const b = document.createElement("button");
+      b.textContent = k === "Back" ? "⌫" : k;
+      b.className = "key" + (k.length > 1 ? " wide" : "");
+      b.dataset.k = k;
+      b.addEventListener("click", () => press(k));
+      div.appendChild(b);
+      if (k.length === 1) keyEls.set(k, b);
+    }
+    kb.appendChild(div);
+  });
+}
+function paintRow(r, guess, marks, animate){
+  const row = document.getElementById("board").children[r];
+  for (let c = 0; c < guess.length; c++){
+    const t = row.children[c];
+    t.textContent = guess[c];
+    if (animate) setTimeout(() => { t.classList.add(marks[c], "reveal"); }, c * 120);
+    else t.classList.add(marks[c]);
+  }
+  for (let c = 0; c < guess.length; c++){
+    const k = keyEls.get(guess[c]);
+    if (!k) continue;
+    const rank = {miss: 1, near: 2, hit: 3};
+    const cur = k.classList.contains("hit") ? 3 : k.classList.contains("near") ? 2 : k.classList.contains("miss") ? 1 : 0;
+    if (rank[marks[c]] > cur){
+      k.classList.remove("hit","near","miss");
+      k.classList.add(marks[c]);
+    }
+  }
+}
+function paintCurrent(){
+  const row = document.getElementById("board").children[S.guesses.length];
+  if (!row) return;
+  for (let c = 0; c < ANSWER.w.length; c++){
+    const t = row.children[c];
+    t.textContent = current[c] || "";
+    t.classList.toggle("filled", !!current[c]);
+  }
+}
+function say(text){
+  const m = document.getElementById("msg");
+  m.textContent = text;
+  if (text) setTimeout(() => { if (m.textContent === text) m.textContent = ""; }, 2200);
+}
+function press(k){
+  if (S.done) return;
+  if (k === "Enter") return submit();
+  if (k === "Back"){ current = current.slice(0, -1); paintCurrent(); return; }
+  if (!ALPHABET.includes(k)) return;
+  if (current.length >= ANSWER.w.length) return;
+  current += k;
+  paintCurrent();
+}
+function submit(){
+  if (current.length !== ANSWER.w.length){
+    say(`Needs ${ANSWER.w.length} letters`);
+    const row = document.getElementById("board").children[S.guesses.length];
+    row.classList.add("shake");
+    setTimeout(() => row.classList.remove("shake"), 400);
+    return;
+  }
+  const marks = scoreGuess(current, ANSWER.w);
+  paintRow(S.guesses.length, current, marks, true);
+  S.guesses.push(current);
+  const won = current === ANSWER.w;
+  current = "";
+  if (won || S.guesses.length >= CFG.MAX_GUESSES){
+    S.done = true; S.won = won;
+    if (!S.practice) recordResult(won, S.guesses.length, S.date);
+    sendResult();
+    saveState();
+    setTimeout(finish, ANSWER.w.length * 120 + 500);
+  } else {
+    saveState();
+  }
+}
+function finish(){
+  say(S.won ? "Solved — bravo!" : "Out of guesses");
+  document.getElementById("rv-word").textContent = ANSWER.w;
+  document.getElementById("rv-gloss").textContent = ANSWER.ea || ANSWER.e;
+  const bdWrap = document.getElementById("rv-bd-wrap");
+  const bdEl = document.getElementById("rv-bd");
+  bdEl.innerHTML = "";
+  if (ANSWER.bd && ANSWER.bd.length){
+    ANSWER.bd.forEach(([sound, meaning, kind], i) => {
+      if (i > 0){
+        const plus = document.createElement("span");
+        plus.className = "bb plus"; plus.textContent = "+";
+        bdEl.appendChild(plus);
+      }
+      const chip = document.createElement("span");
+      chip.className = "bb";
+      chip.innerHTML = `<span class="sound"></span><span class="kind"></span><span class="mean"></span>`;
+      chip.querySelector(".sound").textContent = sound;
+      chip.querySelector(".kind").textContent = kind || "";
+      chip.querySelector(".mean").textContent = meaning || "";
+      bdEl.appendChild(chip);
+    });
+    bdWrap.style.display = "";
+  } else {
+    bdWrap.style.display = "none";
+  }
+  document.getElementById("rv-link").href = CFG.DICT_URL(ANSWER.w);
+  renderStats();
+  document.getElementById("reveal").classList.add("show");
+  document.getElementById("stats").classList.toggle("show", !S.practice);
+}
+function renderStats(){
+  const st = loadStats();
+  document.getElementById("st-played").textContent = st.played;
+  document.getElementById("st-winpct").textContent = st.played ? Math.round(100 * st.won / st.played) : 0;
+  document.getElementById("st-streak").textContent = st.streak;
+  document.getElementById("st-max").textContent = st.maxStreak;
+  const dist = document.getElementById("st-dist");
+  dist.innerHTML = "";
+  const max = Math.max(1, ...st.dist);
+  st.dist.forEach((n, i) => {
+    const row = document.createElement("div");
+    row.className = "dist-row";
+    const bar = document.createElement("span");
+    bar.className = "bar";
+    bar.style.width = Math.round(8 + 90 * n / max) + "%";
+    bar.textContent = n;
+    row.append(Object.assign(document.createElement("span"), {textContent: i + 1}), bar);
+    dist.appendChild(row);
+  });
+}
+
+function setClue(){
+  document.getElementById("clue-gloss").textContent = "“" + ANSWER.e + "”";
+  document.getElementById("clue-len").textContent = ` · ${ANSWER.w.length} letters`;
+  const [tipSound, tipMean] = ANSWER.bd[0];
+  document.getElementById("tip-sound").textContent = tipSound;
+  document.getElementById("tip-mean").textContent = tipMean;
+}
+function startPractice(){
+  let next = POOL[Math.floor(Math.random() * POOL.length)];
+  if (POOL.length > 1) while (next.w === ANSWER.w)
+    next = POOL[Math.floor(Math.random() * POOL.length)];
+  ANSWER = next;
+  S = {practice: true, guesses: [], done: false, won: false};
+  current = "";
+  document.getElementById("reveal").classList.remove("show");
+  document.getElementById("msg").textContent = "";
+  setClue();
+  buildBoard(ANSWER.w.length);
+  buildKeyboard();               // rebuilt to clear key colors
+}
+
+/* ════════════════════════════════════════════════════════════════
+   BOOT
+   ════════════════════════════════════════════════════════════════ */
+(async function init(){
+  const iso = params.get("date") || todayISO();   // ?date=YYYY-MM-DD for testing
+  document.getElementById("meta-date").textContent =
+    new Date(iso + "T12:00:00Z").toLocaleDateString(undefined, {year:"numeric", month:"long", day:"numeric", timeZone:"UTC"});
+  document.getElementById("meta-num").textContent = puzzleNumber(iso);
+
+  const {list, embedded} = await loadWords();
+  document.getElementById("vocab-badge").hidden = !embedded;
+
+  ANSWER = pickDaily(list, iso);
+  S = loadState(iso);
+  POOL = list.filter(x => /^[a-z]+$/.test(x.w) && x.bd && x.bd.length &&
+                          x.w.length >= Math.min(...CFG.LENGTHS) &&
+                          x.w.length <= Math.max(...CFG.LENGTHS));
+
+  setClue();
+  document.getElementById("btn-again").addEventListener("click", startPractice);
+
+  buildBoard(ANSWER.w.length);
+  buildKeyboard();
+
+  // restore saved guesses (no animation)
+  S.guesses.forEach((g, r) => paintRow(r, g, scoreGuess(g, ANSWER.w), false));
+  if (S.done) finish();
+
+  document.addEventListener("keydown", ev => {
+    if (ev.key === "Enter") press("Enter");
+    else if (ev.key === "Backspace") press("Back");
+    else if (/^[a-z]$/i.test(ev.key)) press(ev.key.toLowerCase());
+  });
+})();
+
+</script>
+</body>
+</html>

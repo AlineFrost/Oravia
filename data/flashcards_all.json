@@ -1,0 +1,1022 @@
+[
+  {
+    "id": "L01_g1",
+    "lesson": 1,
+    "front": "a",
+    "back": "subject marker"
+  },
+  {
+    "id": "L01_s1",
+    "lesson": 1,
+    "front": "a hay i mo e mo",
+    "back": "he/she/it eats the food"
+  },
+  {
+    "id": "L02_v1",
+    "lesson": 2,
+    "front": "nim",
+    "back": "I"
+  },
+  {
+    "id": "L02_v2",
+    "lesson": 2,
+    "front": "run",
+    "back": "you"
+  },
+  {
+    "id": "L02_v3",
+    "lesson": 2,
+    "front": "hay",
+    "back": "he/she/it/they (sing.)"
+  },
+  {
+    "id": "L02_g1",
+    "lesson": 2,
+    "front": "i",
+    "back": "verb marker"
+  },
+  {
+    "id": "L02_s1",
+    "lesson": 2,
+    "front": "i mouje e mocen",
+    "back": "I drink the chocolate"
+  },
+  {
+    "id": "L03_v1",
+    "lesson": 3,
+    "front": "nima",
+    "back": "we"
+  },
+  {
+    "id": "L03_v2",
+    "lesson": 3,
+    "front": "runa",
+    "back": "you (plural)"
+  },
+  {
+    "id": "L03_v3",
+    "lesson": 3,
+    "front": "haya",
+    "back": "they (plural)"
+  },
+  {
+    "id": "L03_g1",
+    "lesson": 3,
+    "front": "e",
+    "back": "object marker"
+  },
+  {
+    "id": "L03_s1",
+    "lesson": 3,
+    "front": "a runa i mo e moaria",
+    "back": "you all eat the apple"
+  },
+  {
+    "id": "L04_v1",
+    "lesson": 4,
+    "front": "molcui",
+    "back": "bowl"
+  },
+  {
+    "id": "L04_v2",
+    "lesson": 4,
+    "front": "moaria",
+    "back": "apple"
+  },
+  {
+    "id": "L04_g1",
+    "lesson": 4,
+    "front": "-um",
+    "back": "negation suffix"
+  },
+  {
+    "id": "L04_s1",
+    "lesson": 4,
+    "front": "run i mo → run i moum",
+    "back": "you eat → you don't eat"
+  },
+  {
+    "id": "L05_v1",
+    "lesson": 5,
+    "front": "mouje",
+    "back": "drink, beverage"
+  },
+  {
+    "id": "L05_v2",
+    "lesson": 5,
+    "front": "mocen",
+    "back": "chocolate"
+  },
+  {
+    "id": "L05_g1",
+    "lesson": 5,
+    "front": "-jal / -jor",
+    "back": "masculine / feminine suffix"
+  },
+  {
+    "id": "L05_s1",
+    "lesson": 5,
+    "front": "farejal i moum mocen",
+    "back": "my father does not eat chocolate"
+  },
+  {
+    "id": "L06_v1",
+    "lesson": 6,
+    "front": "faibor",
+    "back": "romantic partner, spouse"
+  },
+  {
+    "id": "L06_v2",
+    "lesson": 6,
+    "front": "falen",
+    "back": "child, kid"
+  },
+  {
+    "id": "L06_g1",
+    "lesson": 6,
+    "front": "ce",
+    "back": "what (question)"
+  },
+  {
+    "id": "L06_s1",
+    "lesson": 6,
+    "front": "e ce a falen i mouje?",
+    "back": "what does the kid drink?"
+  },
+  {
+    "id": "L07_v1",
+    "lesson": 7,
+    "front": "faejor",
+    "back": "woman, female"
+  },
+  {
+    "id": "L07_v2",
+    "lesson": 7,
+    "front": "fare",
+    "back": "parent, one generation up"
+  },
+  {
+    "id": "L07_g1",
+    "lesson": 7,
+    "front": "cedom",
+    "back": "where (question) / cadom for affirmatives"
+  },
+  {
+    "id": "L07_s1",
+    "lesson": 7,
+    "front": "cedom run faibor i bortal?",
+    "back": "where is your partner entering?"
+  },
+  {
+    "id": "L08_v1",
+    "lesson": 8,
+    "front": "bortal",
+    "back": "door, entrance, to enter"
+  },
+  {
+    "id": "L08_v2",
+    "lesson": 8,
+    "front": "bontame",
+    "back": "table, to put on a table"
+  },
+  {
+    "id": "L08_g1",
+    "lesson": 8,
+    "front": "de",
+    "back": "of / from"
+  },
+  {
+    "id": "L08_s1",
+    "lesson": 8,
+    "front": "molcui de faejal",
+    "back": "the man's bowl"
+  },
+  {
+    "id": "L09_v1",
+    "lesson": 9,
+    "front": "bosvi",
+    "back": "toilet, bathroom"
+  },
+  {
+    "id": "L09_v2",
+    "lesson": 9,
+    "front": "boelori",
+    "back": "room"
+  },
+  {
+    "id": "L09_g1",
+    "lesson": 9,
+    "front": "cei",
+    "back": "who (question) / caei for affirmatives"
+  },
+  {
+    "id": "L09_s1",
+    "lesson": 9,
+    "front": "cei haya fare?",
+    "back": "who are their parents?"
+  },
+  {
+    "id": "L10_v1",
+    "lesson": 10,
+    "front": "anidai",
+    "back": "want, desire"
+  },
+  {
+    "id": "L10_v2",
+    "lesson": 10,
+    "front": "anifou",
+    "back": "need"
+  },
+  {
+    "id": "L10_g1",
+    "lesson": 10,
+    "front": "u",
+    "back": "indirect object marker"
+  },
+  {
+    "id": "L10_s1",
+    "lesson": 10,
+    "front": "i anona e moulu u falen",
+    "back": "I give the milk to the child"
+  },
+  {
+    "id": "L11_v1",
+    "lesson": 11,
+    "front": "anye",
+    "back": "make, do"
+  },
+  {
+    "id": "L11_v2",
+    "lesson": 11,
+    "front": "ando",
+    "back": "can, able to"
+  },
+  {
+    "id": "L11_g1",
+    "lesson": 11,
+    "front": "en",
+    "back": "at / in / on (time or location)"
+  },
+  {
+    "id": "L11_s1",
+    "lesson": 11,
+    "front": "run i anona e moaria u falen",
+    "back": "you give the apple to the child"
+  },
+  {
+    "id": "L12_v1",
+    "lesson": 12,
+    "front": "yalen",
+    "back": "long, tall"
+  },
+  {
+    "id": "L12_v2",
+    "lesson": 12,
+    "front": "yaltan",
+    "back": "big, large"
+  },
+  {
+    "id": "L12_v3",
+    "lesson": 12,
+    "front": "yasoi",
+    "back": "fast, quick, speed"
+  },
+  {
+    "id": "L12_g1",
+    "lesson": 12,
+    "front": "ho-",
+    "back": "opposite"
+  },
+  {
+    "id": "L12_s1",
+    "lesson": 12,
+    "front": "a bosvi a yaltan",
+    "back": "the bathroom is large"
+  },
+  {
+    "id": "L13_v1",
+    "lesson": 13,
+    "front": "yalgai",
+    "back": "small, little"
+  },
+  {
+    "id": "L13_v2",
+    "lesson": 13,
+    "front": "yamirli",
+    "back": "old, age"
+  },
+  {
+    "id": "L13_g1",
+    "lesson": 13,
+    "front": "no",
+    "back": "like / as / such"
+  },
+  {
+    "id": "L13_s1",
+    "lesson": 13,
+    "front": "a boelori a ho yalen",
+    "back": "the room is short"
+  },
+  {
+    "id": "L14_v1",
+    "lesson": 14,
+    "front": "ilhei",
+    "back": "person"
+  },
+  {
+    "id": "L14_v2",
+    "lesson": 14,
+    "front": "ilace",
+    "back": "ask, question"
+  },
+  {
+    "id": "L14_g1",
+    "lesson": 14,
+    "front": "su",
+    "back": "and / with / alongside"
+  },
+  {
+    "id": "L14_s1",
+    "lesson": 14,
+    "front": "i mo e mocen su moaria",
+    "back": "I eat the chocolate and the apple"
+  },
+  {
+    "id": "L15_v1",
+    "lesson": 15,
+    "front": "ilaluan",
+    "back": "say"
+  },
+  {
+    "id": "L15_v2",
+    "lesson": 15,
+    "front": "iliro",
+    "back": "think, thought"
+  },
+  {
+    "id": "L15_g1",
+    "lesson": 15,
+    "front": "mai / dou",
+    "back": "but / or"
+  },
+  {
+    "id": "L15_s1",
+    "lesson": 15,
+    "front": "i anidai e moulu dou e mogali?",
+    "back": "do you want the milk or the coffee?"
+  },
+  {
+    "id": "L16_v1",
+    "lesson": 16,
+    "front": "eon",
+    "back": "hello, greeting"
+  },
+  {
+    "id": "L16_v2",
+    "lesson": 16,
+    "front": "eodani",
+    "back": "meet"
+  },
+  {
+    "id": "L16_g1",
+    "lesson": 16,
+    "front": "dami",
+    "back": "to exist"
+  },
+  {
+    "id": "L16_s1",
+    "lesson": 16,
+    "front": "i dami a bontame",
+    "back": "there is a table"
+  },
+  {
+    "id": "L17_v1",
+    "lesson": 17,
+    "front": "eomsu",
+    "back": "party, gathering"
+  },
+  {
+    "id": "L17_v2",
+    "lesson": 17,
+    "front": "eodenbor",
+    "back": "visit"
+  },
+  {
+    "id": "L17_g1",
+    "lesson": 17,
+    "front": "dapas",
+    "back": "to like, enjoy"
+  },
+  {
+    "id": "L17_s1",
+    "lesson": 17,
+    "front": "i dapas e bortal",
+    "back": "I like the door"
+  },
+  {
+    "id": "L18_v1",
+    "lesson": 18,
+    "front": "gerina",
+    "back": "money, to pay"
+  },
+  {
+    "id": "L18_v2",
+    "lesson": 18,
+    "front": "gelna",
+    "back": "to buy, a purchase"
+  },
+  {
+    "id": "L18_v3",
+    "lesson": 18,
+    "front": "tam",
+    "back": "1"
+  },
+  {
+    "id": "L18_v4",
+    "lesson": 18,
+    "front": "tor",
+    "back": "2"
+  },
+  {
+    "id": "L18_g1",
+    "lesson": 18,
+    "front": "ca",
+    "back": "that / which (connector)"
+  },
+  {
+    "id": "L18_s1",
+    "lesson": 18,
+    "front": "i anidai ca run i bortal",
+    "back": "I want you to enter"
+  },
+  {
+    "id": "L19_v1",
+    "lesson": 19,
+    "front": "par",
+    "back": "3"
+  },
+  {
+    "id": "L19_v2",
+    "lesson": 19,
+    "front": "bale",
+    "back": "4"
+  },
+  {
+    "id": "L19_v3",
+    "lesson": 19,
+    "front": "alui",
+    "back": "5"
+  },
+  {
+    "id": "L19_v4",
+    "lesson": 19,
+    "front": "teva",
+    "back": "6"
+  },
+  {
+    "id": "L19_g1",
+    "lesson": 19,
+    "front": "ceora",
+    "back": "why (question) / caora = because"
+  },
+  {
+    "id": "L19_s1",
+    "lesson": 19,
+    "front": "nim i dapasum e ca run i anye",
+    "back": "I don't like what you are doing"
+  },
+  {
+    "id": "L20_v1",
+    "lesson": 20,
+    "front": "peri",
+    "back": "7"
+  },
+  {
+    "id": "L20_v2",
+    "lesson": 20,
+    "front": "auta",
+    "back": "8"
+  },
+  {
+    "id": "L20_v3",
+    "lesson": 20,
+    "front": "litetan",
+    "back": "hour, clock time"
+  },
+  {
+    "id": "L20_v4",
+    "lesson": 20,
+    "front": "litam",
+    "back": "day, today"
+  },
+  {
+    "id": "L20_g1",
+    "lesson": 20,
+    "front": "-ar",
+    "back": "completed aspect"
+  },
+  {
+    "id": "L20_s1",
+    "lesson": 20,
+    "front": "litamar, i eodenbor e fare",
+    "back": "yesterday, I visited my parent"
+  },
+  {
+    "id": "L21_v1",
+    "lesson": 21,
+    "front": "limel",
+    "back": "evening, night"
+  },
+  {
+    "id": "L21_v2",
+    "lesson": 21,
+    "front": "lilon",
+    "back": "while, during"
+  },
+  {
+    "id": "L21_v3",
+    "lesson": 21,
+    "front": "tenda",
+    "back": "9"
+  },
+  {
+    "id": "L21_g1",
+    "lesson": 21,
+    "front": "-is",
+    "back": "prospective aspect (yet to start)"
+  },
+  {
+    "id": "L21_s1",
+    "lesson": 21,
+    "front": "litamis, nima i anvu en eomsu",
+    "back": "tomorrow, we will go to the party"
+  },
+  {
+    "id": "L22_v1",
+    "lesson": 22,
+    "front": "oila",
+    "back": "happy, happiness, joy"
+  },
+  {
+    "id": "L22_v2",
+    "lesson": 22,
+    "front": "oines",
+    "back": "joke, funny, humor"
+  },
+  {
+    "id": "L22_v3",
+    "lesson": 22,
+    "front": "beivu",
+    "back": "car, to drive"
+  },
+  {
+    "id": "L22_v4",
+    "lesson": 22,
+    "front": "das",
+    "back": "10"
+  },
+  {
+    "id": "L22_g1",
+    "lesson": 22,
+    "front": "lar / lis",
+    "back": "once (unspecified past) / one day (unspecified future)"
+  },
+  {
+    "id": "L22_s1",
+    "lesson": 22,
+    "front": "lis, i ilian",
+    "back": "one day I will know"
+  },
+  {
+    "id": "L23_v1",
+    "lesson": 23,
+    "front": "oihi",
+    "back": "interest"
+  },
+  {
+    "id": "L23_v2",
+    "lesson": 23,
+    "front": "bevio",
+    "back": "shop, store"
+  },
+  {
+    "id": "L23_v3",
+    "lesson": 23,
+    "front": "beilem",
+    "back": "station"
+  },
+  {
+    "id": "L23_g1",
+    "lesson": 23,
+    "front": "bi",
+    "back": "speaker comment marker"
+  },
+  {
+    "id": "L23_s1",
+    "lesson": 23,
+    "front": "tamen liperi, i gelna e yalgai molcui",
+    "back": "on Monday, I buy a small bowl"
+  },
+  {
+    "id": "L24_v1",
+    "lesson": 24,
+    "front": "vardei",
+    "back": "eye, to see"
+  },
+  {
+    "id": "L24_v2",
+    "lesson": 24,
+    "front": "varsus",
+    "back": "ear, to hear"
+  },
+  {
+    "id": "L24_g1",
+    "lesson": 24,
+    "front": "-dia",
+    "back": "agent suffix (one who does)"
+  },
+  {
+    "id": "L24_s1",
+    "lesson": 24,
+    "front": "a nim fare a boemo dia",
+    "back": "my parent is a cook"
+  },
+  {
+    "id": "L25_v1",
+    "lesson": 25,
+    "front": "vanvu",
+    "back": "leg, to walk"
+  },
+  {
+    "id": "L25_v2",
+    "lesson": 25,
+    "front": "vanta",
+    "back": "hand, to hold"
+  },
+  {
+    "id": "L25_g1",
+    "lesson": 25,
+    "front": "-hue",
+    "back": "recipient suffix (one who receives)"
+  },
+  {
+    "id": "L25_s1",
+    "lesson": 25,
+    "front": "i anidaium e vardur hue mocen",
+    "back": "I don't want chocolate that was bitten"
+  },
+  {
+    "id": "L26_v1",
+    "lesson": 26,
+    "front": "nordau",
+    "back": "far, distance"
+  },
+  {
+    "id": "L26_v2",
+    "lesson": 26,
+    "front": "noli",
+    "back": "now"
+  },
+  {
+    "id": "L26_g1",
+    "lesson": 26,
+    "front": "notam",
+    "back": "first event, before the reference"
+  },
+  {
+    "id": "L26_s1",
+    "lesson": 26,
+    "front": "notam nim i mo, notor i bonfene",
+    "back": "first I eat, then I lie down"
+  },
+  {
+    "id": "L27_v1",
+    "lesson": 27,
+    "front": "noi",
+    "back": "here"
+  },
+  {
+    "id": "L27_v2",
+    "lesson": 27,
+    "front": "noniu",
+    "back": "some, a few"
+  },
+  {
+    "id": "L27_g1",
+    "lesson": 27,
+    "front": "notor",
+    "back": "second event, then, after the reference"
+  },
+  {
+    "id": "L27_s1",
+    "lesson": 27,
+    "front": "notor i ilaluan, notam i iliro",
+    "back": "second I speak, first I think (I think before speaking)"
+  },
+  {
+    "id": "L28_v1",
+    "lesson": 28,
+    "front": "yuba",
+    "back": "good, well"
+  },
+  {
+    "id": "L28_v2",
+    "lesson": 28,
+    "front": "yunro",
+    "back": "smart, intelligent"
+  },
+  {
+    "id": "L28_g1",
+    "lesson": 28,
+    "front": "cenon / canon",
+    "back": "how (question) / the way (affirmative)"
+  },
+  {
+    "id": "L28_s1",
+    "lesson": 28,
+    "front": "ceora i dapas e nim?",
+    "back": "why do you like me?"
+  },
+  {
+    "id": "L29_v1",
+    "lesson": 29,
+    "front": "yunitam",
+    "back": "special"
+  },
+  {
+    "id": "L29_v2",
+    "lesson": 29,
+    "front": "yunrani",
+    "back": "beautiful"
+  },
+  {
+    "id": "L29_g1",
+    "lesson": 29,
+    "front": "celi / cali",
+    "back": "when (question) / when (affirmative)"
+  },
+  {
+    "id": "L29_s1",
+    "lesson": 29,
+    "front": "cenon i anvu en bedam perien?",
+    "back": "how do you go to the square on Sunday?"
+  },
+  {
+    "id": "L30_v1",
+    "lesson": 30,
+    "front": "tohdin",
+    "back": "sorry, regret"
+  },
+  {
+    "id": "L30_v2",
+    "lesson": 30,
+    "front": "toului",
+    "back": "tired"
+  },
+  {
+    "id": "L30_g1",
+    "lesson": 30,
+    "front": "ga",
+    "back": "comparative (compared to)"
+  },
+  {
+    "id": "L30_s1",
+    "lesson": 30,
+    "front": "ga nim fano, a run fano a yamirli",
+    "back": "compared to my kid, your kid is old"
+  },
+  {
+    "id": "L31_v1",
+    "lesson": 31,
+    "front": "toumo",
+    "back": "hungry"
+  },
+  {
+    "id": "L31_v2",
+    "lesson": 31,
+    "front": "touvei",
+    "back": "illness, sick"
+  },
+  {
+    "id": "L31_g1",
+    "lesson": 31,
+    "front": "anodu",
+    "back": "superlative (the most)"
+  },
+  {
+    "id": "L31_s1",
+    "lesson": 31,
+    "front": "a mo de fare a anodu yuba",
+    "back": "my parent's food is the best"
+  },
+  {
+    "id": "L32_v1",
+    "lesson": 32,
+    "front": "lunu",
+    "back": "winter"
+  },
+  {
+    "id": "L32_v2",
+    "lesson": 32,
+    "front": "lusari",
+    "back": "sun, sunny"
+  },
+  {
+    "id": "L32_g1",
+    "lesson": 32,
+    "front": "daetane",
+    "back": "should (recommendation)"
+  },
+  {
+    "id": "L32_s1",
+    "lesson": 32,
+    "front": "ilhei i tane i ilace cali ilianum",
+    "back": "people should ask questions when they don't understand"
+  },
+  {
+    "id": "L33_v1",
+    "lesson": 33,
+    "front": "lufiva",
+    "back": "cold, to cool"
+  },
+  {
+    "id": "L33_v2",
+    "lesson": 33,
+    "front": "pohem",
+    "back": "hot, heat"
+  },
+  {
+    "id": "L33_g1",
+    "lesson": 33,
+    "front": "novil",
+    "back": "must (obligation)"
+  },
+  {
+    "id": "L33_s1",
+    "lesson": 33,
+    "front": "gelna dia i vil i gerina",
+    "back": "buyers must pay"
+  },
+  {
+    "id": "L34_v1",
+    "lesson": 34,
+    "front": "apafene",
+    "back": "sit, seat"
+  },
+  {
+    "id": "L34_v2",
+    "lesson": 34,
+    "front": "aparih",
+    "back": "jump"
+  },
+  {
+    "id": "L34_g1",
+    "lesson": 34,
+    "front": "iliciu",
+    "back": "if (counterfactual / imagined)"
+  },
+  {
+    "id": "L34_s1",
+    "lesson": 34,
+    "front": "iliciu a hay a yuba, nim i dapas e hay",
+    "back": "if he/she were good, I would like him/her"
+  },
+  {
+    "id": "L35_v1",
+    "lesson": 35,
+    "front": "roena",
+    "back": "teach, teaching"
+  },
+  {
+    "id": "L35_v2",
+    "lesson": 35,
+    "front": "roudal",
+    "back": "read, to read"
+  },
+  {
+    "id": "L35_g1",
+    "lesson": 35,
+    "front": "daefer",
+    "back": "if (factual / real condition)"
+  },
+  {
+    "id": "L35_s1",
+    "lesson": 35,
+    "front": "daefer falen i roudi, eta hay i do i roudal",
+    "back": "if the kid writes, then they know how to read"
+  },
+  {
+    "id": "L36_v1",
+    "lesson": 36,
+    "front": "miau",
+    "back": "cat, gracious"
+  },
+  {
+    "id": "L36_v2",
+    "lesson": 36,
+    "front": "miwo",
+    "back": "dog"
+  },
+  {
+    "id": "L36_g1",
+    "lesson": 36,
+    "front": "rein",
+    "back": "each other"
+  },
+  {
+    "id": "L36_s1",
+    "lesson": 36,
+    "front": "haya i anye e anona u rein",
+    "back": "they make gifts for each other"
+  },
+  {
+    "id": "L37_v1",
+    "lesson": 37,
+    "front": "mihie",
+    "back": "horse, endurance"
+  },
+  {
+    "id": "L37_v2",
+    "lesson": 37,
+    "front": "mimu",
+    "back": "cow, gentle"
+  },
+  {
+    "id": "L37_g1",
+    "lesson": 37,
+    "front": "lirul",
+    "back": "habit marker (habitually)"
+  },
+  {
+    "id": "L37_s1",
+    "lesson": 37,
+    "front": "lirul nim i moum en liyar",
+    "back": "habitually I don't eat in the morning"
+  },
+  {
+    "id": "L38_v1",
+    "lesson": 38,
+    "front": "yesrel",
+    "back": "jacket, to put on a jacket"
+  },
+  {
+    "id": "L38_v2",
+    "lesson": 38,
+    "front": "yeswol",
+    "back": "shirt, to put on a shirt"
+  },
+  {
+    "id": "L38_s1",
+    "lesson": 38,
+    "front": "litamar, nim i bospupiar cali hay apafene",
+    "back": "yesterday, I had already showered when she/he sat down"
+  },
+  {
+    "id": "L39_v1",
+    "lesson": 39,
+    "front": "yesnou",
+    "back": "pants, to put on pants"
+  },
+  {
+    "id": "L39_v2",
+    "lesson": 39,
+    "front": "eleyel",
+    "back": "love"
+  },
+  {
+    "id": "L39_g1",
+    "lesson": 39,
+    "front": "elihei",
+    "back": "self"
+  },
+  {
+    "id": "L39_s1",
+    "lesson": 39,
+    "front": "i roudal lilon roena dia i roudi",
+    "back": "I read while the teacher writes"
+  },
+  {
+    "id": "L40_v1",
+    "lesson": 40,
+    "front": "neloa",
+    "back": "all, everyone"
+  },
+  {
+    "id": "L40_v2",
+    "lesson": 40,
+    "front": "nepui",
+    "back": "any, whichever"
+  },
+  {
+    "id": "L40_g1",
+    "lesson": 40,
+    "front": "ne + number",
+    "back": "gradation scale (0-10)"
+  },
+  {
+    "id": "L40_s1",
+    "lesson": 40,
+    "front": "nedas toumo!",
+    "back": "super (10/10) hungry!"
+  }
+]
