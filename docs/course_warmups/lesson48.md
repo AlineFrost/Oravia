@@ -101,10 +101,10 @@
     There is another subcluster **ASI**, which means internal body actions. It has words such as asiwa (internal body action + water), which means to pee. We will not cover this subcluster here because these words are not as high frequency.
     
     !!! info "🌍 Sound Connections"
-        Do you recognize the syllables in asano, asfene, asetowa, aseyel, asela, asusu? What do they mean?
+        Do you recognize the syllables in asano, asfene, asetowa, aseyel, asela, asusu? What do they mean?   
         Lano comes from the Polynesian root Rano, which is a circular volcanic crater with a lake. In Oravia it means round, around.
         
-    Here's another word with this root:
+    Here's another word with this root:  
     **jelano** = circle, wheel (geometric + around), just like aselano = hug (interpersonal body action + around) 
 
     
@@ -123,21 +123,27 @@
   
     'Roumo Joniu Tor (Recipe Part 2)
     
-    3 molbai de maemiri
-    2 mamini
-    2 mascur, nedas yalgai mir joniu
-    3 'yolei masloma, yalgai mir joniu
-    1 molbai de maemopi
-    2 yaltan mahon de maeyalo vilan-wa
-    2 yaltan mahon de 'malumo
-    vandi gavol de masha su masnam
-    1 molbai de lei 
+    3 molbai de maemiri. 
+    2 mamini  
+    2 mascur, nedas yalgai mir joniu  
+    3 'yolei masloma, yalgai mir joniu  
+    1 molbai de maemopi  
+    2 yaltan mahon de maeyalo vilan-wa  
+    2 yaltan mahon de 'malumo  
+    vandi gavol de masha su masnam  
+    1 molbai de lei   
     
     
-    I pohem 1 yaltan mahon de 'malumo en neliu mamol. I neron 2 mascur ca a nedas yalgai mir joniu. Notor, i neron e lufiva maemiri. I asano e maemiri en jensu, su i tinen e 2 mamini. I pomia e mamini lisoi notor i pomia e maemiri. I neron 2 yaltan mahon de maeyalo vilan-wa su lei. Yadetu, i neron e 'yolei masloma, masnam su maemopi. Noli i do i mo e yuba pomia maemiri!
+    I pohem 1 yaltan mahon de 'malumo en neliu mamol.   
+    I neron 2 mascur ca a nedas yalgai mir joniu.  
+    Notor, i neron e lufiva maemiri.  
+    I asano e maemiri en jensu, su i tinen e 2 mamini.  
+    I pomia e mamini lisoi notor i pomia e maemiri.  
+    I neron 2 yaltan mahon de maeyalo vilan-wa su lei.  
+    Yadetu, i neron e 'yolei masloma, masnam su maemopi. Noli i do i mo e yuba pomia maemiri!  
 
-    *roumo = rou ca i elomio i boemo e mo (writing that helps cook food).  
-    *malumo = poilumo sora boemo (oil to cook).
+    roumo = rou ca i elomio i boemo e mo (writing that helps cook food).  
+    malumo = poilumo sora boemo (oil to cook).
     
     
     **Tips**

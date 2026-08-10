@@ -230,18 +230,18 @@ No "to" needed between verbs.
 
 Oravia has a small vocabulary, and as such, there is full creativity and flexibility to create new expressions.
 
-**-gu suffix** bonds modifiers and noun into a single concept:
+**-s suffix** bonds modifiers and noun into a single concept. Adding **sol** in the front of the expression is optional:
 
 ```
-wagu jasru = ocean-bend = bay
-lufugu yahlul = air-soft = fluffy
-yalgaigu mus = small-bug = ant
-ligu selyino = time-plan = schedule
-wagu dom = water-land = island
-lufugu bei = air-vehicle = airplane
+sol was jasru = ocean-bend = bay
+lufus yahlul = air-soft = fluffy
+yalgais mus = small-bug = ant
+sol lis selyino = time-plan = schedule
+was dom = water-land = island
+lufus bei = air-vehicle = airplane
 ```
 
-Notice you can be as specific as you'd like by adding more descriptions to your compound. If you think lufugu bei (air-vehicle) is not enough specificity for what you want to express as airplane, you can for example say jeluingu lufugu bei (winged-air-vehicle).
+Notice you can be as specific as you'd like by adding more descriptions to your compound. If you think lufus bei (air-vehicle) is not enough specificity for what you want to express as airplane, you can for example say jeluins lufus bei (winged-air-vehicle).
 
 
 **Hyphenated forms** fuse two words into one expression:

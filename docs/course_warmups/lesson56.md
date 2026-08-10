@@ -103,13 +103,13 @@
   
     Yalgai Raitar: Joniu Tor 
     
-    Neloa ilhei i ilian: cali dastor litetan en 'USA*, a lusari i anocari en 'France*.
+    Neloa ilhei i ilian: cali dastor litetan en 'USA, a lusari i anocari en 'France.
     Daefer run i do i helufu de USA en France en tam litegai, i do i vardei e anocari lusari cali dastor litetan en USA.  
     Bi tohpu, a France a nordau, eta i doum i anye e noi. Mai en run yalgaigai heodom, yalgai raitar, run negafei i fou i anvu e apafene noniu vanpai. run i do i vardei e litam yadetu nehen li ca run i anidai...  
     "Lar" run i ilaluan u nim "i vardei e anocari lusari baledas bale coter!  
     Su yalgai li notor:  
     "A ilhei i eleyel e anocari lusari, cali a tohpu..."  
-    "Eta, a run a tohpu?" u run i ilace "noi litam cali i vardei baledas bale anocari lusari?" Mai a yalgai raitar i dacoum.  
+    "Eta, a run a tohpu?" u run i ilace "noi litam cali i vardei baledas bale anocari lusari?"   Mai a yalgai raitar i dacoum.  
 
     * USA = Radom en Wirel-Wilimel. Ilhei ilian ca en noi ledom, i dami muhcar su McDonalds (Country in north-west region [North America]. People know that in this land, there are eagles and McDonalds).
     * France = Radom en Yalgai-Wilimel. A noi ledom a yamirhei caora malvesi su Jenrih Eiffel (Country in small-west region [Europa]. This land is famous for cheese and the Eiffel Tower).

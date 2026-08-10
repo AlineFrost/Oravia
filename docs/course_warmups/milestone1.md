@@ -4,49 +4,61 @@ Congratulations! You made it to the end of Core!
 
 Before moving on to Expansion, let's see how much you can do.
 
-Below is a conversation between Ana and Kai. They are making *travel plans by phone*. You have already seen parts of this conversation in earlier lessons. Now it's time to read the full dialogue and connect everything together.
-
-This dialogue is more challenging and contains a few words you haven't learned yet, to mimic real language encounter. Try to understand from context first, then check the tips below after reading. You may understand more than you expect!
+Below is a conversation between Ana and Kai. They are *planning a family meal by phone*. This dialogue is more challenging and contains a few words you haven't learned yet, to mimic real language encounter. Try to understand from context first, then check the tips below after reading. You may understand more than you expect!
 
 ---
 
-1\. **Ana:** Eon, Kai!<br>Celi run i anifi en beilem?
+1\. **Ana:** Eon?
 
-2\. **Kai:** Nim i anifi lisoi.<br>Nim i bejui e beitor litamar,<br>eta i foum i gerina en beitan.
+2\. **Kai:** Eon, Ana!<br>Ce run i anye litamis? <br>Nim fa i eodenbor e nim bo.
 
-3\. **Ana:** Oihi iliora!<br>Run i do i anisu e bejae en beitor?
+3\. **Ana:** Oila!
 
-4\. **Kai:** Ia, i anisu e yalgai bejae.
+4\. **Kai:** ...Su a nim i fou i boemo u haya.
 
-5\. **Ana:** Oifu!<br>Su ce run i dai i anye litam?
+5\. **Ana:** Run i boemo?<br>Nim i ilianum ca run i do i boemo!
 
-6\. **Kai:** I dai i bevio en yani bedam,<br>a ilhei i ilaluan ca oipili.<br>En limel, i dai i mo.
+6\. **Kai:** I doum.<br>Caora nim i ilace e run.
 
-7\. **Ana:** A bevio a oi!<br>Nim i geldovear nim beivu,<br>eta nim i do i gerina.<br>Mai, i pasum i mo en limel.
+7\. **Ana:** Ia, ia.<br>Cei i anvu?
 
-8\. **Kai:** Nima i do i mo yalgai.<br>Ce run i iliro, moa?
+8\. **Kai:** Nim fare, nim fasu su hay falen.<br>Par ilhei.
 
-9\. **Ana:** Oila.<br>Nima i do i mo e moa en bedam.<br>Su i anvu en mo bevio litamis.
+9\. **Ana:** Su haya i dapas e ce?
 
-10\. **Kai:** Celi run i anocari?<br>Nim i pas i eodya e run,<br>liperis, i dami a eompela u falte.
+10\. **Kai:** I iliro e mocen,<br>mai nim fasu i pasum e moyi.
 
-11\. **Ana:** Nim i anelem en ligo lipardas, <br>eta i do i eompela su run.<br>Oi!<br>I pas i eodani e yani ilhei,<br>su i do i anefene cali en bo.
+11\. **Ana:** Eta ilace e run fare!<br>Run i do i ilaluan u hay litam.
 
-12\. **Kai:** Ia, nim i do i anefene cali faigel.<br>Su cedom run?
+12\. **Kai:** I ilacear litamar.<br>Hay i ilaluan ca "e ce run i anye, nim i dapas".
 
-13\. **Ana:** Nim i anifi en beilem en litegai.<br>Eori beitan, i yasoi anvu!<br>Su i fou i anvu en bosvi,<br>i dami a bosvi en beilem?
+13\. **Ana:** Hmm... a noi daco a yugaium u run.
 
-14\. **Kai:** I dami, cadom bortal.<br>A beilem a ho yalen.
+14\. **Kai:** Ia.<br>Ilie e mogali su moaria molcui?
 
-15\. **Ana:** Oia!
+15\. **Ana:** Kai.<br>A par ilhei i anvu en run bo,<br>su run i anona e moaria?
 
-16\. **Kai:** Oipoh!<br>Nim i ilahai e oines lilon nima i mo!
+16\. **Kai:** Ceora um?<br>A moaria a yuba.
 
-17\. **Ana:** Bi oila a nim i anita e run oimel!<br>A run a oi lili su lili!
+17\. **Ana:** Um, nim i do i boemo e elireva mo u haya.
 
-18\. **Kai:** Run su!<br>A run a nim eofa bi oi.<br>I anvu!
+18\. **Kai:** Eloan!<br>Mai a nim boemo a yalgai.
 
-19\. **Ana:** I anvu!
+19\. **Ana:** Eta runa i do i anifi en nim bo.<br>Nim i gelna e mo, su i boemo.
+
+20\. **Kai:** Oia, yuba!<br>Nim i anona e gerina u run cali nim i do.
+
+21\. **Ana:** Su celi haya i anifi?
+
+22\. **Kai:** Litamis en alui litetan.<br>Mai a nim fare a yamirli,<br>eta hay i anvu ho yasoi.
+
+23\. **Ana:** Mai i lupupi litamis, dou um?
+
+24\. **Kai:** Nim i ilianum, mai i dami a fare beivu.<br>Eloan!<br>Eta en liperis, nim i boemo u run.
+
+25\. **Ana:** Nima i ilaluan e ca lili en liperis!<br>Bi oi ca nim i eodani e run fare.<br>Hay i do i ilaluan e oimel de run,<br>cali a run a falen.
+
+26\. **Kai:** Oinesum.
 
 ---
 
@@ -62,8 +74,6 @@ Tomorrow: <textarea style="width: 100%; min-height: 50px; padding: 0.5rem; borde
 
 Next week: <textarea style="width: 100%; min-height: 50px; padding: 0.5rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write here..."></textarea>
 
-In two weeks: <textarea style="width: 100%; min-height: 50px; padding: 0.5rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write here..."></textarea>
-
 ---
 
 **Note**
@@ -75,114 +85,122 @@ Did you notice yourself scanning for certain sounds to find information? For exa
 **Tips**
 
 a = subject marker  
-a...a... = is/are  
-a [subject] i [verb] e [direct complement] u [indirect complement/to/for]  
-(an)do = can  
-anefene = rest  
-(ane)lem = stay, remain  
+alui = five  
 anifi = come  
-anisu = carry, bring  
-anita = take, receive  
-anocari = leave  
-anvu = move, go  
-anye = make, do  
-(ani)dai = want  
-(ani)fou = need  
--ar = completion suffix (e.g., did, have done)  
+anona = give  
+anvu = move  
+anye = make  
 beivu = car  
-beilem = station  
-beimete = bus, wagon  
-beitor = bicycle  
-bejae = luggage, gear  
-bejui = rent, borrow  
-bedam = plaza, square  
-bevio = shop, store  
+bi = speaker comment  
 bo = house  
-bortal = door  
-bosvi = toilet  
+boemo = kitchen  
 ca = that, which (connector)  
-cadom = where (connector)  
 cali = when (connector)  
+caora = because  
 ce = what?  
+cei = who?  
 celi = when?  
-cedom = where?  
-(da)pas = like  
-dami = exist, there is  
+ceora = why?  
+daco = answer  
+dami = exist  
+dapas = like  
+de = of / from   
+do = (an)do = can  
+dou = or  
+doum = cannot (do + -um)  
 e = direct complement marker  
-en = in/at/on  
+elireva = truth, true  
+eloan = thanks  
+en = in / at / on  
 eodani = meet  
-eodya = invite  
-eompela = parade  
-eofa = friend  
+eodenbor = visit  
 eon = hello  
-eori = please  
-eta = therefore  
-faigel = marry, wedding, marriage  
-geldove = sell  
-gerina = money, pay, spend  
+eta = therefore, so  
+fa = family  
+falen = child  
+fare = parent  
+fasu = sibling  
+fou = need (from anifou)  
+gelna = buy  
+gerina = money  
+hay = he/she/they (sing.)  
+haya = they (pl.)  
 ho = opposite  
-i = verb marker 
+i = verb marker  
 ia = yes  
+ilace = ask  
 ilaluan = say  
 ilhei = people  
+ilian = know  
+ilie = maybe  
 iliro = think  
--is = yet to start/prospective suffix (e.g., will, next)  
-ligo = half  
 lili = again  
-lilon = while  
-limel = evening  
-lipardas = month  
-liperi = week  
-lisoi = soon  
-litam = day  
-litegai = minute  
+liperis = next week (liperi + -is)  
+litam = day, today  
+litamar = yesterday (litam + -ar)  
+litamis = tomorrow (litam + -is)  
+litetan = hour  
+lupupi = rain  
 mai = but  
 mo = food, eat  
-mo bevio = restaurant  
-moa = fruit  
-nim/nima/run/runa/hay/haya = personal pronouns or possessives   
-oifu = silly, trivial  
+moaria = apple  
+mocen = chocolate  
+mogali = coffee  
+molcui = bowl  
+moyi = sugar  
+nim = I / my  
+nima = we / our  
+noi = this  
+noli = now  
 oi = fun, entertaining  
-oia = yay  
-oihi = interesting  
-oila = happy, joy  
-oimel = stories  
-oines = joke, funny  
-oipili = cute, adorable  
-oipoh = exciting, excited  
+oia = yay (oi + ia)  
+oila = happy  
+oimel = story  
+oines = funny, joke  
+par = three  
+pas = like (from dapas)  
+run = you / your  
+runa = you (plural) / your  
 su = and, with, also  
 u = indirect complement marker / to, for  
--um = no, not (suffix)  
-yasoi = fast  
+um = no, not (suffix)  
 yalgai = small  
+yamirli = age  
 yani = new  
+yasoi = fast  
+yuba = good  
+yugai = easy  
 
-Eta i foum i gerina en beitan.  
-*So I don't need to spend money on the bus.*
 
-A ilhei i ilaluan ca oipili.  
-*People say that it's cute.*
+...Su a nim i fou i boemo u haya.  
+*...And I need to cook for them.*
 
-Liperis, i dami a eompela u falte.  
-*There is a party for young people next week.*
+Caora nim i ilace e run.  
+*That is why I am asking you.*
 
-I pas i eodani e yani ilhei, su i do i anefene cali en bo.  
-*I like to meet new people, and I can rest when I am home.*
+Su haya i dapas e ce?  
+*And what do they like?*
 
-Eori beitan, i yasoi anvu!  
-*Please bus, move fast!*
+Hay i ilaluan ca "e ce run i anye, nim i dapas".  
+*They said "whatever you make, I will like."*
 
-I dami, cadom bortal.  
-*There is, where the door (is).*
+Mai a noi daco a yugaium u run.  
+*But this answer it not easy for you.*
 
-Nim i ilahai e oines lilon nima i mo.  
-*I will tell (you) a joke while we eat.*
+Ilie e mogali su moaria molcui?  
+*Maybe coffee and a bowl of apples?*
 
-Bi oila a nim i anita e run oimel! A run a oi lili su lili!  
-*I'm happy that I take (listen to) your stories! You are again and again (always) amusing!*
+Nim i do i boemo e elireva mo u haya.  
+*I can cook real food for them.*
 
-Run su! A run a nim eofa bi oi. I anvu!  
-*You too! It's fun that you are my friend. Let's go!*  
+Nima i ilaluan e ca lili en liperis!  
+*We will talk about that again next week!*
+
+Hay i do i ilaluan e oimel de run, cali a run a falen.  
+*They can tell stories about you from when you were a child.*
+
+Oinesum.  
+*Not funny.*
 
 ---
 
@@ -193,27 +211,27 @@ Now let's see how much you understood. Complete these exercises below.
 *1. True or False?*  
 For each sentence, respond IA or UM:
 
-a) Kai rented a bike yesterday.  
-b) They will eat at a restaurant tonight.  
-c) Ana can go to the party.  
+a) Kai knows how to cook.  
+b) Kai's sibling does not like sugar.  
+c) They will eat at Ana's house tomorrow.  
 
 <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write the answers here..."></textarea>
 
 *2. Sequence*  
 Put the events of their plan in order, from earliest to latest:
 
-a) Eat at a restaurant  
-b) Go to a party  
-c) Go to the square  
-d) Meet at the station  
+a) Ana buys the food  
+b) Kai asks his parent  
+c) Kai cooks for Ana  
+d) Kai's family arrives  
 
 <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write the answers here..."></textarea>
 
 *3. Open Questions*  
 Answer these questions in Oravia:
 
-a) Ce a Ana i pasum?  
-b) Cedom a bosvi i dami?  
+a) Ceora a Kai i anyeum e mocen?  
+b) Cedom haya i mo litamis?  
 
 <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write the answers here..."></textarea>
 
@@ -235,9 +253,9 @@ Now write 2 sentences about Ana and Kai:
 </div>
 
 <div id="answer1" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-<p style="margin: 0 0 0.5rem 0;">a) Kai rented a bike yesterday. <strong>IA / true</strong></p>
-<p style="margin: 0 0 0.5rem 0;">b) They will eat at a restaurant tonight. <strong>UM / false</strong></p>
-<p style="margin: 0;">c) Ana can go to the party. <strong>IA / true</strong></p>
+<p style="margin: 0 0 0.5rem 0;">a) Kai knows how to cook. <strong>UM / false</strong></p>
+<p style="margin: 0 0 0.5rem 0;">b) Kai's sibling does not like sugar. <strong>IA / true</strong></p>
+<p style="margin: 0;">c) They will eat at Ana's house tomorrow. <strong>IA / true</strong></p>
 </div>
 
 *2. Sequence*
@@ -249,10 +267,10 @@ Now write 2 sentences about Ana and Kai:
 </div>
 
 <div id="answer2" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-<p style="margin: 0 0 0.5rem 0;">d) Meet at the station (soon)</p>
-<p style="margin: 0 0 0.5rem 0;">c) Go to the square (right after)</p>
-<p style="margin: 0 0 0.5rem 0;">a) Eat at a restaurant (tomorrow)</p>
-<p style="margin: 0 0 0.5rem 0;">b) Go to a party (next week)</p>
+<p style="margin: 0 0 0.5rem 0;">b) Kai asks his parent (yesterday)</p>
+<p style="margin: 0 0 0.5rem 0;">a) Ana buys the food (before cooking for the parents tomorrow)</p>
+<p style="margin: 0 0 0.5rem 0;">d) Kai's family arrives (tomorrow, three o'clock)</p>
+<p style="margin: 0;">c) Kai cooks for Ana (next week)</p>
 </div>
 
 *3. Open Questions*
@@ -264,10 +282,10 @@ Now write 2 sentences about Ana and Kai:
 </div>
 
 <div id="answer3" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-<p style="margin: 0 0 0.5rem 0;">a) Ce a Ana i pasum?</p>
-<p style="margin: 0 0 0.5rem 0;">Possible answer: A Ana i pasum i mo en limel.</p>
-<p style="margin: 0 0 0.5rem 0;">b) Cedom a bosvi i dami?</p>
-<p style="margin: 0;">Possible answer: A bosvi i dami en beilem cadom bortal.</p>
+<p style="margin: 0 0 0.5rem 0;">a) Ceora a Kai i anyeum e mocen?</p>
+<p style="margin: 0 0 0.5rem 0;">Possible answer: Caora a Kai fasu i pasum e moyi.</p>
+<p style="margin: 0 0 0.5rem 0;">b) Cedom haya i mo litamis?</p>
+<p style="margin: 0;">Possible answer: Haya i mo en Ana bo, caora a Kai boemo a yalgai.</p>
 </div>
 
 *Dialogue Translation*
@@ -279,25 +297,32 @@ Now write 2 sentences about Ana and Kai:
 </div>
 
 <div id="answer4" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-<p style="margin: 0 0 0.5rem 0;">Ana: Hello, Kai! When will you arrive at the station?</p>
-<p style="margin: 0 0 0.5rem 0;">Kai: Hello! I will arrive soon. I rented a bicycle yesterday, so I don't need to spend money on the bus.</p>
-<p style="margin: 0 0 0.5rem 0;">Ana: It's an interesting idea! Can you carry luggage on the bike?</p>
-<p style="margin: 0 0 0.5rem 0;">Kai: Yes, I brought small luggage.</p>
-<p style="margin: 0 0 0.5rem 0;">Ana: Silly! And what do you want to do today?</p>
-<p style="margin: 0 0 0.5rem 0;">Kai: I want to shop at the new square, people say it's cute. At night, I want to eat.</p>
-<p style="margin: 0 0 0.5rem 0;">Ana: Shopping is fun! I sold my car, so I can spend. But I don't like to eat at night.</p>
-<p style="margin: 0 0 0.5rem 0;">Kai: We can eat something small. What do you think, fruit?</p>
-<p style="margin: 0 0 0.5rem 0;">Ana: Happy! We can eat fruit at the square. And go to the restaurant tomorrow.</p>
-<p style="margin: 0 0 0.5rem 0;">Kai: When do you leave? I want to invite you, there is a party for young people next week.</p>
-<p style="margin: 0 0 0.5rem 0;">Ana: I stay half a month, so I can party with you. Fun! I like meeting new people, and I can rest when I am home.</p>
-<p style="margin: 0 0 0.5rem 0;">Kai: Yes, I can rest when I marry. And where are you now?</p>
-<p style="margin: 0 0 0.5rem 0;">Ana: I will arrive at the station in a minute. Please bus, move fast. And I need to go to the bathroom, is there a bathroom at the station?</p>
-<p style="margin: 0 0 0.5rem 0;">Kai: There is, where the door is. It's a short station.</p>
-<p style="margin: 0 0 0.5rem 0;">Ana: Yes!</p>
-<p style="margin: 0 0 0.5rem 0;">Kai: Excited! I will tell you a joke while we eat!</p>
-<p style="margin: 0 0 0.5rem 0;">Ana: I am happy to listen to your stories. You are amusing again and again!</p>
-<p style="margin: 0 0 0.5rem 0;">Kai: You too! It's fun to have you as friend. Let's go!</p>
-<p style="margin: 0;">Ana: Let's go!</p>
+<p style="margin: 0 0 0.5rem 0;">Ana: Hello?</p>
+<p style="margin: 0 0 0.5rem 0;">Kai: Hello, Ana! What are you doing tomorrow? My family is visiting my house.</p>
+<p style="margin: 0 0 0.5rem 0;">Ana: Happy!</p>
+<p style="margin: 0 0 0.5rem 0;">Kai: ...And I need to cook for them.</p>
+<p style="margin: 0 0 0.5rem 0;">Ana: You cook? I did not know you could cook!</p>
+<p style="margin: 0 0 0.5rem 0;">Kai: I cannot. That is why I am asking you.</p>
+<p style="margin: 0 0 0.5rem 0;">Ana: Yes, yes. Who is coming?</p>
+<p style="margin: 0 0 0.5rem 0;">Kai: My parent, my sibling and their child. Three people.</p>
+<p style="margin: 0 0 0.5rem 0;">Ana: And what do they like?</p>
+<p style="margin: 0 0 0.5rem 0;">Kai: I was thinking chocolate, but my sibling does not like sugar.</p>
+<p style="margin: 0 0 0.5rem 0;">Ana: So ask your parent! You can talk to them today.</p>
+<p style="margin: 0 0 0.5rem 0;">Kai: I asked yesterday. They said "whatever you make, I will like."</p>
+<p style="margin: 0 0 0.5rem 0;">Ana: This answer is not easy for you.</p>
+<p style="margin: 0 0 0.5rem 0;">Kai: Right. Maybe coffee and a bowl of apples?</p>
+<p style="margin: 0 0 0.5rem 0;">Ana: Kai. Three people are coming to your house, and you give apples?</p>
+<p style="margin: 0 0 0.5rem 0;">Kai: Why not? Apples are good.</p>
+<p style="margin: 0 0 0.5rem 0;">Ana: No, I can cook real food for them.</p>
+<p style="margin: 0 0 0.5rem 0;">Kai: Thanks! But my kitchen is small.</p>
+<p style="margin: 0 0 0.5rem 0;">Ana: So you can all come to my house. I buy the food, and I cook.</p>
+<p style="margin: 0 0 0.5rem 0;">Kai: Yay, good! I will give you money when I can.</p>
+<p style="margin: 0 0 0.5rem 0;">Ana: And when are they coming?</p>
+<p style="margin: 0 0 0.5rem 0;">Kai: Tomorrow at five o'clock. But my parent is old, so they move slowly.</p>
+<p style="margin: 0 0 0.5rem 0;">Ana: But will it rain tomorrow, or not?</p>
+<p style="margin: 0 0 0.5rem 0;">Kai: I do not know, but there is my parent's car. Thanks! So next week, I cook for you.</p>
+<p style="margin: 0 0 0.5rem 0;">Ana: We will talk about that again next week! I am glad that I will meet your parent. They can tell stories about you from when you were a child.</p>
+<p style="margin: 0;">Kai: Not funny.</p>
 </div>
 
 ---
@@ -306,7 +331,7 @@ Now write 2 sentences about Ana and Kai:
 
 You can now:
 
-- Talk about family, home, food, actions, time, travel, and emotions
+- Talk about family, home, food, actions, time, money, and plans
 - Ask and answer questions about people, places, and time
 - Express what you want, need, can, and like
 - Talk about the past and future

@@ -177,7 +177,7 @@
     !!! info "🌍 Sound Connections"
         Moa means banana plant in Polynesian roots, and indicates all fruits in Oravia.  
           
-        Banana is Moalen (moa + len). Len is like Latin longus (long), which is the root of the word longitude in English.  
+        Banana is Moalen (moa + len). Len is like Latin longus (long), which is the root of the word longitude in English. Notice it is also similar to the word length.  
         
     So let's take a look at some other words:  
     **yalen** = long (quality + long), just like moalen = banana (fruit + long).  

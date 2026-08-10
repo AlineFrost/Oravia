@@ -36,6 +36,7 @@ nav:
     - About Me: about/about-me.md
     - Get Involved: about/get-involved.md
     - Vocabulary FAQ: about/vocab.md
+    - Website Versions: about/changes.md
   - Quick Reference:
     - Cheat Sheet: about/cheat-sheet.md
     - 10-Minute Grammar: about/core-grammar.md
@@ -115,8 +116,8 @@ nav:
       - L56 - SE Cluster: course_warmups/lesson56.md
       - L57 - Vi / Tu Clusters: course_warmups/lesson57.md
       - L58 - JE Cluster: course_warmups/lesson58.md
-      - L59 - RA Cluster: course_warmups/lesson59.md
-      - L60 - Wi / He Clusters: course_warmups/lesson60.md
+      - L59 - HE Cluster: course_warmups/lesson59.md
+      - L60 - WI / RA Clusters: course_warmups/lesson60.md
 
 markdown_extensions:
   - attr_list

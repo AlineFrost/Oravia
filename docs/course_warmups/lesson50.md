@@ -142,13 +142,13 @@
   
     Curupira Joniu Tor (Curupira Part 2)
     
-    A raiver dia de lealei i varsus e asur de sita dia:
-    "Eori, eomio! O i elodan e nim!"
-    "Run i dai i javoa e miocici. Noli, o run a javoa!"
-    A sita dia i davio no tilira su tohpu. Eta, a curupira i eloliuto.
-    "O i asetowaum. A nim i elodan e run. Notam o i elodao u nim ca lis, run i eoren e fano de misumu."
-    "A nim i elodao!"
-    A curupira i eomio e hay. A sita dia, ca a elireva tohdin, i davio no raiver dia de fano de misumu. Su a curupira a oila caora a faejal i elasu u elodao. 
+    A raiver dia de lealei i varsus e asur de sita dia:  
+    "Eori, eomio! O i elodan e nim!"  
+    "Run i dai i javoa e miocici. Noli, o run a javoa!"  
+    A sita dia i davio no tilira su tohpu. Eta, a curupira i eloliuto.  
+    "O i asetowaum. A nim i elodan e run. Notam o i elodao u nim ca lis, run i eoren e fano de misumu."  
+    "A nim i elodao!"  
+    A curupira i eomio e hay. A sita dia, ca a elireva tohdin, i davio no raiver dia de fano de misumu. Su a curupira a oila caora a faejal i elasu u elodao.  
 
 
     **Tips**

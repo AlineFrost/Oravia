@@ -149,26 +149,6 @@
     That's why we have:  
     **yoyar** = white (color + light), just like liyar = morning (time + light)  
 
-    ---
-
-    Now let's see these words in context:
-
-    **1. Ana:** Eon, Kai!<br>Celi run i anifi en beilem?
-
-    **2. Kai:** Nim i anifi lisoi.<br>Nim i bejui e beitor litamar. Eta, i foum i gerina en beitan.
-
-    *beilem = station · beitor = bicycle · bejui = rent · litamar = yesterday · beitan = bus*
-
-    <div style="text-align: center; margin: 2rem 0;">
-    <button onclick="document.getElementById('l17context').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
-        Click for Translation
-    </button>
-    </div>
-
-    <div id="l17context" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0 0 0.5rem 0;">Ana: Hello, Kai! When will you arrive at the station?</p>
-    <p style="margin: 0;">Kai: I will arrive soon. I rented a bicycle yesterday. So, I don't need to spend money on the bus.</p>
-    </div>
 
 === "Practice"
 

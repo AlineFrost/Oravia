@@ -10,9 +10,9 @@ To navigate the Lesson, please click the tabs below: "About the Course", "Pronun
 
     <div id="user-id-prompt" style="background:#e8f4fb;border-radius:8px;padding:1.5rem;margin-bottom:1.5rem;border:1px solid #4a9cd6">
         <p style="font-weight:600;color:#2a4a6b;margin-bottom:0.75rem">Before you begin</p>
-        <p style="color:#5a8bb8;margin-bottom:1rem;font-size:0.95rem">Please enter your name or email so we can track your progress through the course.</p>
+        <p style="color:#5a8bb8;margin-bottom:1rem;font-size:0.95rem">Please enter a username so we can track your progress through the course.</p>
         <div style="display:flex;gap:0.75rem;flex-wrap:wrap">
-            <input id="user-id-input" type="text" placeholder="Your name or email"
+            <input id="user-id-input" type="text" placeholder="Your username"
                 style="flex:1;min-width:200px;padding:0.5rem 0.75rem;border:1px solid #4a9cd6;border-radius:6px;font-size:0.95rem">
             <button id="user-id-save" style="padding:0.5rem 1.25rem;background:#4a9cd6;color:white;border:none;border-radius:6px;font-size:0.95rem;cursor:pointer;font-weight:600">
                 Save

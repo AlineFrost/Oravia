@@ -1,5 +1,3 @@
-** this lesson is still being built**
-
 # Lesson 59: HE Cluster
 
 !!! info "How to Use This Lesson"
@@ -40,24 +38,74 @@
     
 === "Vocabulary"
     
-
+    Let's learn one of the last clusters, the **HE** cluster! Here's a few words:
+    
+    | Oravia | English |
+    |--------|---------|
+    | hehma | monster |
+    | hehui | ghost |
+    | hevas | secret |
+    | heodom | planet |
+    | heosu | moon |
+    | heoloa | universe |
+    | heivio | magic |
+    | heipili | fairy |
+    
+    What do you think **HE** words are about?
+    
+    <div style="text-align: center; margin: 2rem 0;">
+    <button onclick="document.getElementById('subcluster4-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+        Click to Reveal the Answer
+    </button>
+    </div>
+    
+    <div id="subcluster4-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+    <p style="margin: 0;"> <strong>HE</strong> words are common tropes in <strong>stories and fiction</strong>.</p>
+    </div>
+    
+    There are 3 subclusters. Can you identify which sound is which meaning?
+    . One is about protagonist tropes
+    . One is about antagonist tropes
+    . One is about the cosmos and background
+    
+    <div style="text-align: center; margin: 2rem 0;">
+    <button onclick="document.getElementById('subcluster-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+        Click to Reveal the Answer
+    </button>
+    </div>
+    
+    <div id="subcluster-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+    <p style="margin: 0;"> <strong>HEI</strong> words are <strong>protagonist tropes</strong>, like fairy and magic. <strong>HEH</strong> words are <strong>antagonist tropes</strong>, like monster and ghost. <strong>HEO</strong> words are related to <strong>background</strong>, like planet, moon and universe.</p>
+    </div>
+    
+    In Oravia, you can change the cluster of words, or create new combinations of clusters and roots. For example, the base word for magic is *heivio*, which is in the subcluster for protagonist tropes. If you are talking about evil magic used by the villains, however, instead of using the protagonist trope, you could use the antagonist trope. How do you think the word would be?
+    
+    <div style="text-align: center; margin: 2rem 0;">
+    <button onclick="document.getElementById('subcluste-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+        Click to Reveal the Answer
+    </button>
+    </div>
+    
+    <div id="subcluste-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+    <p style="margin: 0;"> Hehvio.</p>
+    </div>
     
     You are ready for the exercise now!
     
 === "Exercise"
     
-    Today we will write a story! As we finish the course, no better way than put into practice what we've learned.
-    It should be at least 4-5 sentences (50-70 words). You may search the [full vocabulary page](https://learnoravia.com/content/dictionary/) for a few extra words if you'd like to. Do not worry about perfect grammar, aim for clear meaning and expression.
-    Notice that if you write your text here and leave this page, your work may not be saved. You may want to write it somewhere else you can save it. And consider submitting it to Oravia's magazine :)
-    You may choose one of the prompts below for inspiration:
+    Today we will write a story! As we finish the course, no better way than put into practice what we've learned.  
+    It should be at least 4-5 sentences (50-70 words). You may search the [full vocabulary page](https://learnoravia.com/content/dictionary/) for a few extra words if you'd like to. Do not worry about perfect grammar, aim for clear meaning and expression.  
+    Notice that if you write your text here and leave this page, your work may not be saved. You may want to write it somewhere else you can save it. And consider submitting it to Oravia's magazine :)  
+    You may choose one of the prompts below for inspiration:  
 
-    . You are late to meet a friend. What happened?
+    . You are late to meet a friend. What happened?  
     . You help a child, older person or animal	
-    . You go to a restaurant, but there is a problem
-    . You see a beautiful thing or place and tell someone about it
-    . Write about a memory that stayed with you
-    . Use these 3 words: leayo, ilotanu, hevan 
-    . Use these 3 words: davio, heosu, anivari
+    . You go to a restaurant, but there is a problem  
+    . You see a beautiful thing or place and tell someone about it  
+    . Write about a memory that stayed with you  
+    . Use these 3 words: leayo, ilotanu, hevas  
+    . Use these 3 words: davio, heosu, anivari  
 
 
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>

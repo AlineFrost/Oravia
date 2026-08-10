@@ -18,3 +18,7 @@ Texts in Oravia with translation, vocabulary, and tips. Organized by difficulty 
 | [Excerpt: Clarice Lispector](reading-lispector.md) | Advanced | One of the most famous excerpts of Brazilian literature |
 | [Lyrics: The Fall of the Empire](reading-imperio.md) | Advanced | Lyrics of song by Vitorino about the Portuguese Empire |
 | [Story: Sherlock Holmes](reading04-holmes.md) | Advanced | Sherlock Holmes and Watson solve a case |
+| [Declaration of Human Rights](human-rights.md) | Advanced | Translation of the declaration |
+| [Poem: Two Words](reading-two-words.md) | Advanced | Famous Spanish poem by Alfonsina Storni  |
+| [Poem: Dark Shadow](reading-dark-shadow.md) | Advanced | Famous Galician poem by Rosalía de Castro |
+

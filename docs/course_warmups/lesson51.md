@@ -74,7 +74,7 @@
     
     
     !!! info "🌍 Sound Connections"
-        Co is related to communication, from Latin communicare.
+        Co is related to communication, from Latin communicare.  
         Vir is about method, exactness, procedure. It is related to Sanskrit vrit, which also means procedure.  
         
     Here are other words with these roots:    
@@ -104,17 +104,17 @@
   
     Curupira  
 
-    En lealei a yalgai su mioici faejal i elemi. Hay e yopoh vosyas su e ancem hue vanpai i none. O e hay no Curupira i couya.
-    Eofa de le, hay lirul en yaltan mio mius. Curupira e lei su misumu i eover. Cali a neauta lupupi i widuo, notam hay u misumu i ilahai. Eta, neloa de lufu su 'lusiram  i do i raiver. 
-    Lar, a copei dia e fano sioerar mioici i copei. A curupira noi i vardei, su i ansau i vanvu. A vanpai colira de curupira a ancem hue. 
-    Cali a sita dia e colira en leno i vardei, i copei. Mai, a colira en ho jetai i antai. Eta, a sita dia e jenon en lealei i ilianum, su a jenon-tohbian. Notor, hay en janou i apanou: o yewamus de curupira. 
-    A raiver dia de lealei e asur de sita dia i varsus:
-    "Eori, elomiu! E nim o i elodan !"
-    "Run e miocici i dai i javoa. Noli, o run a javoa!"
-    A sita dia no tilira su tohpu i davio. Eta, a curupira i eloliuto.
-    "O i asetowaum. A nim e run i elodan. Notam u nim o i elodao ca lis, run e fano de misumu i eoren."
-    "A nim i elodao!"
-    A curupira e hay i eomio. A sita dia, ca a elireva tohdin, no raiver dia de fano de misumu i davio. Su caora a faejal u elodao i elasu, a curupira a oila. 
+    En lealei a yalgai su mioici faejal i elemi. Hay e yopoh vosyas su e ancem hue vanpai i none. O e hay no Curupira i couya.  
+    Eofa de le, hay lirul en yaltan mio mius. Curupira e lei su misumu i eover. Cali a neauta lupupi i widuo, notam hay u misumu i ilahai. Eta, neloa de lufu su 'lusiram  i do i raiver.  
+    Lar, a copei dia e fano sioerar mioici i copei. A curupira noi i vardei, su i ansau i vanvu. A vanpai colira de curupira a ancem hue.   
+    Cali a sita dia e colira en leno i vardei, i copei. Mai, a colira en ho jetai i antai. Eta, a sita dia e jenon en lealei i ilianum, su a jenon-tohbian. Notor, hay en janou i apanou: o yewamus de curupira.  
+    A raiver dia de lealei e asur de sita dia i varsus:  
+    "Eori, elomiu! E nim o i elodan !"  
+    "Run e miocici i dai i javoa. Noli, o run a javoa!"  
+    A sita dia no tilira su tohpu i davio. Eta, a curupira i eloliuto.  
+    "O i asetowaum. A nim e run i elodan. Notam u nim o i elodao ca lis, run e fano de misumu i eoren."  
+    "A nim i elodao!"  
+    A curupira e hay i eomio. A sita dia, ca a elireva tohdin, no raiver dia de fano de misumu i davio. Su caora a faejal u elodao i elasu, a curupira a oila.  
 
 
     **Tips**

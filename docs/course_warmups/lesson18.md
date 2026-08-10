@@ -197,30 +197,6 @@
         Go means "half", coming from Japanese 五 go (five, half of ten).  
         
         Nu means "limit", like Greek νυ nu (particle marking limits in ancient poetry).  
-    
-    ---
-
-    Now let's see these words in context:
-
-    **3. Ana:** Run i do i anisu e bejae en beitor?
-
-    **4. Kai:** Ia, i anisu e yalgai bejae.
-
-    **5. Ana:** Oifu!<br>Su ce run i dai i anye litam?
-
-    *anisu = carry · bejae = luggage · beitor = bicycle · oifu = silly*
-
-    <div style="text-align: center; margin: 2rem 0;">
-    <button onclick="document.getElementById('l18context').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
-        Click for Translation
-    </button>
-    </div>
-
-    <div id="l18context" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0 0 0.5rem 0;">Ana: Can you carry luggage on the bike?</p>
-    <p style="margin: 0 0 0.5rem 0;">Kai: Yes, I carry small luggage.</p>
-    <p style="margin: 0;">Ana: Silly! And what do you want to do today?</p>
-    </div>
 
     You got it! You are now ready for the Exercise!
 

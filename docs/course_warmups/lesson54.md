@@ -131,15 +131,15 @@
   
     Tinen Hue Molbo 
     
-    Lar, a wilgai-elemi yamirli faejal i dami. Nehen liyar, hay e tor wa molbo i anise. Notor, sora e wa de wimlua u fa i anise, en yalen jenon i vanvu. 
-    Mai, a tor wa molbo a gavio. En tam wa molbo, a yalgai tinen i dami. Eta, de noi molbo a wa i apanou.
-    A yamirli faejal e wa molbo en wimlua i yaldih. Mai cali en bo i anivari-anifi, a tinen molbo a nealui jenya. Caora lilon a faejal i vanvu, a wa i apanou.
-    A tinen molbo a tilira-neiden.
-    Lilon a faejal e molbo en wimlua i yaldih, a tinen molbo u hay i ilaluan.
-    "Nedas tohdin. Caora neliu molbo ga, i doum i dahau, a nim a tilira."
-    A yamirli faejal i asela, su i daco: "Litam cali nima en bo i anivari-vanvu, ca run e run jensui en jenon i vardei, i anidai."
-     A tinen molbo i ilofun-dasu. Cali haya de wimlua i anivari su en jenon i ansau, nedas ilotanu.
-     En hay jensui en jenon, a nedas yunrani ciuseri de leipili i dami.
+    Lar, a wilgai-elemi yamirli faejal i dami. Nehen liyar, hay e tor wa molbo i anise. Notor, sora e wa de wimlua u fa i anise, en yalen jenon i vanvu.  
+    Mai, a tor wa molbo a gavio. En tam wa molbo, a yalgai tinen i dami. Eta, de noi molbo a wa i apanou.  
+    A yamirli faejal e wa molbo en wimlua i yaldih. Mai cali en bo i anivari-anifi, a tinen molbo a nealui jenya. Caora lilon a faejal i vanvu, a wa i apanou.  
+    A tinen molbo a tilira-neiden.  
+    Lilon a faejal e molbo en wimlua i yaldih, a tinen molbo u hay i ilaluan.  
+    "Nedas tohdin. Caora neliu molbo ga, i doum i dahau, a nim a tilira."  
+    A yamirli faejal i asela, su i daco: "Litam cali nima en bo i anivari-vanvu, ca run e run jensui en jenon i vardei, i anidai."  
+     A tinen molbo i ilofun-dasu. Cali haya de wimlua i anivari su en jenon i ansau, nedas ilotanu.  
+     En hay jensui en jenon, a nedas yunrani ciuseri de leipili i dami.  
 
 
     **Tips**

@@ -1,6 +1,6 @@
 # The Cooking Exam
 
-**Level:** Expansion (Milestone 2, Lesson 40)  
+**Level:** Expansion    
 **Topic:** Two friends prepare for a culinary school exam  
 **Characters:** Lina and Ana
 

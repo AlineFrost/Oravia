@@ -95,10 +95,10 @@
   
     Curupira Joniu Tam (Curupira Part 1)
     
-    En lealei i elemi a yalgai su mioici faejal. Hay i none e yopoh vosyas su e ancem hue vanpai. O e hay i couya no Curupira.
-    Eofa de le, hay lirul en yaltan mio mius. Curupira i eover e lei su misumu. Cali a neauta lupupi i widuo, notam hay i ilahai u misumu. Eta, neloa i do i raiver de lufu su 'lusiram. 
-    Lar, a copei dia i copei e mioici ca i sioerar su fano. A curupira i vardei noi, su i ansau i vanvu. A vanpai colira de curupira a ancem hue. 
-    Cali a sita dia i vardei e colira en leno, i copei. Mai, a colira i antai en ho jetai. Eta, a sita dia i ilianum e jenon en lealei, su a jenon-tohbian. Notor, hay i apanou en janou: o yewamus de curupira. 
+    En lealei i elemi a yalgai su mioici faejal. Hay i none e yopoh vosyas su e ancem hue vanpai. O e hay i couya no Curupira.  
+    Eofa de le, hay lirul en yaltan mio mius. Curupira i eover e lei su misumu. Cali a neauta lupupi i widuo, notam hay i ilahai u misumu. Eta, neloa i do i raiver de lufu su 'lusiram.   
+    Lar, a copei dia i copei e mioici ca i sioerar su fano. A curupira i vardei noi, su i ansau i vanvu. A vanpai colira de curupira a ancem hue.   
+    Cali a sita dia i vardei e colira en leno, i copei. Mai, a colira i antai en ho jetai. Eta, a sita dia i ilianum e jenon en lealei, su a jenon-tohbian. Notor, hay i apanou en janou: o yewamus de curupira.   
 
     **Tips**
 

@@ -1,6 +1,6 @@
 # Travel Plans
 
-**Level:** Core (Milestone, Lesson 20)  
+**Level:** Core    
 **Topic:** Making travel plans by phone  
 **Characters:** Ana and Kai
 

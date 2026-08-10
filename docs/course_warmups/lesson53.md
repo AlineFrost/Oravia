@@ -118,11 +118,11 @@
   
     Tinen Hue Molbo: Joniu Tor 
     
-    Lilon a faejal i yaldih e molbo en wimlua, a tinen molbo i ilaluan u hay.
-    "Nedas tohdin. Caora neliu molbo ga, i doum i dahau, a nim a tilira."
-    A yamirli faejal i asela, su i daco: "Litam cali nima i anivari-vanvu en bo, i anidai ca run i vardei e run jensui en jenon."
-     A tinen molbo i ilofun-dasu. Cali haya i anivari de wimlua su i ansau en jenon, nedas ilotanu.
-     En hay jensui en jenon, i dami a nedas yunrani ciuseri de leipili.
+    Lilon a faejal i yaldih e molbo en wimlua, a tinen molbo i ilaluan u hay.  
+    "Nedas tohdin. Caora neliu molbo ga, i doum i dahau, a nim a tilira."  
+    A yamirli faejal i asela, su i daco: "Litam cali nima i anivari-vanvu en bo, i anidai ca run i vardei e run jensui en jenon."  
+     A tinen molbo i ilofun-dasu. Cali haya i anivari de wimlua su i ansau en jenon, nedas ilotanu.   
+     En hay jensui en jenon, i dami a nedas yunrani ciuseri de leipili.  
 
 
 

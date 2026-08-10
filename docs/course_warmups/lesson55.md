@@ -129,14 +129,14 @@
     Yalgai Raitar: Joniu Tam  
     
     Ah, yalgai raitar dia*! A nim i ilian-davio e hevas de run tohpu yalgai elemi... En yalen li, run i siyal e dantam oi no elonor oimin cali vardei e ganou lusari. A nim i roesau e yani ciugai en liyar de bale ganter litam, cali a run i ilahai u nim:  
-    "A nim i nedas dapas e ganou lusari. O i anifi, nima o i vardei e ganou lusari noli.  
+    "A nim i nedas dapas e ganou lusari. O i anifi, nima o i vardei e ganou lusari noli."  
     "Mai a nima i fou i iloi" nim i ilaluan.  
     "Iloi? E ce?"  
-    "E ganou lusari. A nima i fou i iloi linu davir li". 
+    "E ganou lusari. A nima i fou i iloi linu davir li".  
     Notam, run i nomie no nedas iloram. Notor, i asular. Run i ilahai u nim:  
     "Nedas lirul a nim i iliro ca nim en bo!"  
 
-    * noi, i damura no fanojal de dofa raitar dia (here, it means son of an inherited ruler).
+    *noi, i damura no fanojal de dofa raitar dia (here, it means son of an inherited ruler).
 
 
 

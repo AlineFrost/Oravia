@@ -8,7 +8,7 @@
       "i",
       "nim"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "run",
@@ -19,7 +19,7 @@
       "run",
       "you"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "hay",
@@ -33,7 +33,7 @@
       "she",
       "they"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "ca",
@@ -47,7 +47,7 @@
       "what",
       "which"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "ce",
@@ -59,7 +59,7 @@
       "what",
       "what?"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "de",
@@ -73,7 +73,7 @@
       "of",
       "of / from / by"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "dou",
@@ -84,7 +84,7 @@
       "dou",
       "or"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "su",
@@ -98,7 +98,7 @@
       "su",
       "with"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "eta",
@@ -112,7 +112,7 @@
       "therefore",
       "therefore / so / then"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "en",
@@ -126,7 +126,7 @@
       "in / on / at",
       "on"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "mai",
@@ -137,7 +137,7 @@
       "but",
       "mai"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "rein",
@@ -150,7 +150,7 @@
       "other",
       "rein"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "sutor",
@@ -161,7 +161,7 @@
       "both",
       "sutor"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "domvio",
@@ -176,7 +176,7 @@
       "of",
       "place"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "bi",
@@ -189,7 +189,7 @@
       "speaker",
       "speaker comment"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "ho",
@@ -202,7 +202,7 @@
       "opposite / reverse",
       "reverse"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "dia",
@@ -215,7 +215,7 @@
       "role",
       "role / doer"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "niu",
@@ -227,7 +227,8 @@
       "niu",
       "plural",
       "quantity"
-    ]
+    ],
+    "core": true
   },
   {
     "w": "hue",
@@ -241,7 +242,7 @@
       "resultant state / recipient",
       "state"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "alui",
@@ -386,7 +387,7 @@
       "volitional",
       "volitional action"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "anefe",
@@ -536,7 +537,7 @@
       "volitional",
       "volitional action"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "anelem",
@@ -1194,7 +1195,7 @@
       "volitional",
       "volitional action"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "anisu",
@@ -1948,7 +1949,7 @@
       "volitional",
       "volitional action"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "anolu",
@@ -2258,7 +2259,7 @@
       "volitional",
       "volitional action"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "anopu",
@@ -2458,7 +2459,7 @@
       "volitional",
       "volitional action"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "anro",
@@ -2935,7 +2936,7 @@
       "volitional",
       "volitional action"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "anvu",
@@ -3896,7 +3897,7 @@
       "soi",
       "speed"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "apavu",
@@ -4189,7 +4190,7 @@
       "hug, embrace",
       "lano"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "asensau",
@@ -4249,7 +4250,7 @@
       "start",
       "wake"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "asetowa",
@@ -4406,7 +4407,7 @@
       "kiss",
       "yel"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "asfe",
@@ -4480,7 +4481,7 @@
       "pause",
       "pause, break, interruption"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "asfene",
@@ -4989,7 +4990,7 @@
       "shake",
       "wowo"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "asubu",
@@ -5174,7 +5175,7 @@
       "yell",
       "yell, scream, shout, exclaim"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "asuifi",
@@ -5570,7 +5571,7 @@
       "travel",
       "vehicles"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "beimete",
@@ -5626,7 +5627,7 @@
       "wagon",
       "wagon, van, cart, bus, truck"
     ],
-    "core": true,
+    "core": false,
     "core_source": "2+ lists"
   },
   {
@@ -5693,7 +5694,7 @@
       "travel",
       "vehicles"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "beitor",
@@ -5750,7 +5751,7 @@
       "travel",
       "vehicles"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "beivu",
@@ -5822,7 +5823,7 @@
       "vehicles",
       "vu"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "bejae",
@@ -5896,7 +5897,7 @@
       "to",
       "travel"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "bejui",
@@ -6165,7 +6166,7 @@
       "travel",
       "vio"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "bociu",
@@ -6384,7 +6385,7 @@
       "spaces",
       "yard"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "boemo",
@@ -6599,7 +6600,7 @@
       "interior",
       "internal"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "bogor",
@@ -7015,7 +7016,7 @@
       "up",
       "up, high"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "borlu",
@@ -7532,7 +7533,7 @@
       "pattern",
       "products"
     ],
-    "core": true,
+    "core": false,
     "core_source": "2+ lists"
   },
   {
@@ -7943,7 +7944,7 @@
       "products",
       "reva"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "ciuro",
@@ -8163,7 +8164,7 @@
   {
     "w": "ciusiu",
     "e": "document",
-    "ea": "document, file",
+    "ea": "document, file, form",
     "c": "create",
     "cs": "ciu",
     "sc": "ciu",
@@ -8605,7 +8606,7 @@
       "informative",
       "man"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "cojim",
@@ -8678,7 +8679,7 @@
   {
     "w": "conehui",
     "e": "request",
-    "ea": "request, ask, invocation, plea, petition",
+    "ea": "request, ask, invocation, plea, petition, application, apply",
     "c": "communication",
     "cs": "co",
     "sc": "co",
@@ -8841,7 +8842,7 @@
       "search, hunt, pursuit, seek, quest",
       "seek"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "copen",
@@ -8895,7 +8896,7 @@
       "ticket",
       "ticket, a pass, bill, banknote"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "corior",
@@ -8947,7 +8948,7 @@
       "rior",
       "smartphone"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "coter",
@@ -9081,7 +9082,7 @@
       "written",
       "written communication"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "couno",
@@ -9228,7 +9229,7 @@
       "written",
       "written communication"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "cousiu",
@@ -9365,7 +9366,7 @@
       "written",
       "written communication"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "couvar",
@@ -9863,7 +9864,7 @@
       "evaluate",
       "ti"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "dade",
@@ -9932,7 +9933,7 @@
       "original",
       "source"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "daedon",
@@ -10409,7 +10410,7 @@
       "guess, estimate, approximation",
       "mie"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "daeniu",
@@ -11001,7 +11002,7 @@
       "mi",
       "to"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "damura",
@@ -11139,7 +11140,7 @@
       "warn",
       "warning"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "dandao",
@@ -11275,7 +11276,7 @@
       "of",
       "to"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "dano",
@@ -11348,7 +11349,7 @@
       "representative",
       "stand"
     ],
-    "core": true,
+    "core": false,
     "core_source": "2+ lists"
   },
   {
@@ -11398,7 +11399,7 @@
         "position": "root"
       }
     ],
-    "core": false,
+    "core": true,
     "core_source": null,
     "search_terms": [
       "dan",
@@ -11535,7 +11536,7 @@
       "sora",
       "target"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "dasu",
@@ -11771,7 +11772,7 @@
       "teli",
       "to"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "davio",
@@ -11994,7 +11995,7 @@
       "obvious, clear, explicit",
       "yar"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "dodo",
@@ -12164,7 +12165,7 @@
       "obey, compliance, obedient",
       "regulations"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "dogue",
@@ -13855,7 +13856,7 @@
       "victory",
       "wonder"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "eleyel",
@@ -13985,7 +13986,7 @@
       "wonder",
       "yus"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "elihei",
@@ -14060,7 +14061,7 @@
       "virtue",
       "wonder"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "elileo",
@@ -14205,7 +14206,7 @@
       "virtue",
       "wonder"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "elirota",
@@ -14545,7 +14546,7 @@
       "vow",
       "wonder"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "eloele",
@@ -14667,7 +14668,7 @@
       "prosocial",
       "wonder"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "eloliuto",
@@ -14874,7 +14875,7 @@
       "save, rescue, salvation, salvage, retrieve",
       "wonder"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "elonevi",
@@ -15130,7 +15131,7 @@
       "eoco",
       "social"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "eodani",
@@ -15289,7 +15290,7 @@
       "structure",
       "visit"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "eodomai",
@@ -15435,12 +15436,12 @@
       "social interactions",
       "ya"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "eodyel",
     "e": "join",
-    "ea": "join, group, together, club, coalition",
+    "ea": "join, group, together, club, coalition, enroll, register",
     "c": "social",
     "cs": "eo",
     "sc": "eod",
@@ -15513,7 +15514,7 @@
       "together",
       "yel"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "eofa",
@@ -15759,7 +15760,7 @@
       "work",
       "work meeting"
     ],
-    "core": true,
+    "core": false,
     "core_source": "2+ lists"
   },
   {
@@ -15826,7 +15827,7 @@
       "social",
       "times"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "eomiu",
@@ -16032,7 +16033,7 @@
       "social",
       "su"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "eon",
@@ -16091,7 +16092,7 @@
       "n",
       "social"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "eopan",
@@ -16370,7 +16371,7 @@
       "ri",
       "social"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "eover",
@@ -16419,7 +16420,7 @@
         "position": "root"
       }
     ],
-    "core": false,
+    "core": true,
     "core_source": null,
     "search_terms": [
       "care",
@@ -16715,7 +16716,7 @@
       "spouse",
       "structure"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "faigel",
@@ -16927,7 +16928,7 @@
       "young",
       "young ones"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "falte",
@@ -17131,7 +17132,7 @@
       "up",
       "up, one generation up"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "fasu",
@@ -17263,7 +17264,7 @@
       "result",
       "to"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "gafei",
@@ -17326,7 +17327,7 @@
       "minus",
       "reduce"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "gahoh",
@@ -17615,7 +17616,7 @@
       "ter",
       "th"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "ganyu",
@@ -17675,7 +17676,7 @@
       "standard",
       "usual"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "gaocao",
@@ -17938,7 +17939,7 @@
       "value, worth, to appreciate",
       "worth"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "gaomem",
@@ -18146,7 +18147,7 @@
       "up",
       "up, high"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "gavio",
@@ -18225,7 +18226,7 @@
       "vary, variety, various, variation, variance, different",
       "vio"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "gavol",
@@ -18471,7 +18472,7 @@
       "sell",
       "sell, sale"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "gehna",
@@ -18533,7 +18534,7 @@
       "na",
       "purchase"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "gehsar",
@@ -18928,7 +18929,7 @@
         "position": "root"
       }
     ],
-    "core": false,
+    "core": true,
     "core_source": null,
     "search_terms": [
       "finances",
@@ -19105,7 +19106,7 @@
       "outside",
       "yel"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "geyosa",
@@ -19536,7 +19537,7 @@
       "trope",
       "tropes"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "heipili",
@@ -19768,6 +19769,81 @@
     "core": false
   },
   {
+    "w": "helihica",
+    "e": "mythology",
+    "ea": "mythology, legendary, myth",
+    "c": "fiction trope",
+    "cs": "he",
+    "sc": "he",
+    "r": "hica",
+    "bd": [
+      {
+        "sound": "he",
+        "meaning": "fiction tropes",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-he",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-he",
+        "bb_meaning": "fiction tropes"
+      },
+      {
+        "sound": "li",
+        "meaning": "time",
+        "bb_type": "root",
+        "bb_id": "bb-root-li",
+        "bb_href": "building_blocks_reference.html#bb-root-li",
+        "bb_meaning": "time"
+      },
+      {
+        "sound": "hica",
+        "meaning": "story"
+      }
+    ],
+    "rel": [
+      "oihica"
+    ],
+    "ex": [],
+    "syllable_meanings": [
+      {
+        "sound": "he",
+        "meaning": "fiction tropes",
+        "position": "subcluster",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-he",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-he",
+        "bb_meaning": "fiction tropes"
+      },
+      {
+        "sound": "li",
+        "meaning": "time",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-li",
+        "bb_href": "building_blocks_reference.html#bb-root-li",
+        "bb_meaning": "time"
+      },
+      {
+        "sound": "hica",
+        "meaning": "story",
+        "position": "root"
+      }
+    ],
+    "search_terms": [
+      "fiction",
+      "fiction tropes",
+      "he",
+      "helihica",
+      "hica",
+      "legendary",
+      "li",
+      "myth",
+      "mythology",
+      "mythology, legendary, myth",
+      "story",
+      "time",
+      "trope"
+    ]
+  },
+  {
     "w": "helufu",
     "e": "atmosphere",
     "ea": "atmosphere, gas, fly, gaseous",
@@ -19841,7 +19917,7 @@
       "trope",
       "tropes"
     ],
-    "core": true,
+    "core": false,
     "core_source": "2+ lists"
   },
   {
@@ -20286,7 +20362,7 @@
       "tropes",
       "vas"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "ilace",
@@ -20659,7 +20735,7 @@
       "ya",
       "yu"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "ilhei",
@@ -20885,7 +20961,7 @@
       "product",
       "suppose"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "ilidai",
@@ -21068,7 +21144,7 @@
       "nou",
       "understand"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "iliora",
@@ -21438,7 +21514,7 @@
       "recognize, recognition",
       "vargor"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "iloani",
@@ -21571,7 +21647,7 @@
       "when",
       "when knowledge is uncertain"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "iloi",
@@ -21701,7 +21777,7 @@
       "when",
       "when knowledge is uncertain"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "iloram",
@@ -21854,7 +21930,7 @@
       "worry",
       "worry, concern"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "ilteli",
@@ -22168,7 +22244,7 @@
       "jadun",
       "tools"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "jahci",
@@ -22428,7 +22504,7 @@
       "tools",
       "types"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "jalano",
@@ -22952,7 +23028,7 @@
       "steps",
       "tools"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "jasar",
@@ -23450,7 +23526,7 @@
       "tools",
       "ver"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "javin",
@@ -23570,6 +23646,71 @@
       "voa"
     ],
     "core": false
+  },
+  {
+    "w": "jayel",
+    "e": "fastener",
+    "ea": "fastener",
+    "c": "tools",
+    "cs": "ja",
+    "sc": "ja",
+    "r": "yel",
+    "bd": [
+      {
+        "sound": "ja",
+        "meaning": "tools",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-ja",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-ja",
+        "bb_meaning": "tools"
+      },
+      {
+        "sound": "yel",
+        "meaning": "joining",
+        "bb_type": "root",
+        "bb_id": "bb-root-yel",
+        "bb_href": "building_blocks_reference.html#bb-root-yel",
+        "bb_meaning": "joining"
+      }
+    ],
+    "rel": [
+      "aseyel",
+      "eleyel",
+      "eodyel",
+      "wilyel",
+      "yeyel"
+    ],
+    "ex": [],
+    "syllable_meanings": [
+      {
+        "sound": "ja",
+        "meaning": "tools",
+        "position": "subcluster",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-ja",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-ja",
+        "bb_meaning": "tools"
+      },
+      {
+        "sound": "yel",
+        "meaning": "joining",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-yel",
+        "bb_href": "building_blocks_reference.html#bb-root-yel",
+        "bb_meaning": "joining"
+      }
+    ],
+    "search_terms": [
+      "fastener",
+      "ja",
+      "jayel",
+      "join",
+      "joining",
+      "tool",
+      "tools",
+      "yel"
+    ]
   },
   {
     "w": "jecai",
@@ -24012,7 +24153,7 @@
       "location",
       "nai"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "jenmue",
@@ -24397,7 +24538,7 @@
       "side, adjacent, beside",
       "su"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "jentale",
@@ -24588,7 +24729,7 @@
         "bb_meaning": "emphasis"
       }
     ],
-    "core": false,
+    "core": true,
     "core_source": null,
     "search_terms": [
       "core",
@@ -24658,7 +24799,7 @@
       "jeodeh",
       "positions"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "jeolan",
@@ -24779,7 +24920,7 @@
       "nim",
       "positions"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "jerih",
@@ -25707,7 +25848,7 @@
       "prism",
       "rectangular"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "joleni",
@@ -26055,7 +26196,7 @@
       "to",
       "tray"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "joniu",
@@ -26128,7 +26269,7 @@
       "some",
       "some, piece"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "jopopo",
@@ -26264,7 +26405,7 @@
       "shawl",
       "vabo"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "leafou",
@@ -26399,7 +26540,7 @@
       "lei",
       "plants"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "leamoma",
@@ -26702,7 +26843,7 @@
       "state",
       "territory"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "leide",
@@ -27683,7 +27824,7 @@
       "while",
       "while, during"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "limel",
@@ -27813,7 +27954,7 @@
       "until",
       "until, reach, span, threshold"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "lipardas",
@@ -27975,7 +28116,7 @@
       "son",
       "time"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "lirul",
@@ -28168,7 +28309,7 @@
       "speed",
       "time"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "litam",
@@ -28793,7 +28934,7 @@
       "weather",
       "weather and atmosphere"
     ],
-    "core": true,
+    "core": false,
     "core_source": "2+ lists"
   },
   {
@@ -29539,7 +29680,7 @@
       "weather and atmosphere",
       "yar"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "luyol",
@@ -30128,7 +30269,7 @@
       "spoon, to scoop",
       "to"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "malil",
@@ -30654,7 +30795,7 @@
       "pot, pan, cauldron, saucepan",
       "saucepan"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "marira",
@@ -31028,7 +31169,7 @@
       "oven, furnace, bake, heater",
       "tal"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "magaira",
@@ -31217,7 +31358,7 @@
       "wa",
       "water"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "miau",
@@ -31457,7 +31598,7 @@
       "mi",
       "micuc"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "mihie",
@@ -32305,7 +32446,7 @@
       "moa",
       "moalen"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "moanih",
@@ -32541,7 +32682,7 @@
       "mo",
       "mocen"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "mogali",
@@ -32613,7 +32754,7 @@
       "mo",
       "mogali"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "molbai",
@@ -32679,7 +32820,7 @@
       "mug",
       "vessel"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "molcui",
@@ -32808,7 +32949,7 @@
       "molvou",
       "vou"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "molwa",
@@ -33083,7 +33224,7 @@
       "moval",
       "val"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "moyame",
@@ -33267,7 +33408,7 @@
       "snake, slither, treacherous",
       "treacherous"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "mufiva",
@@ -33716,7 +33857,7 @@
       "smaller",
       "smaller animals"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "muvardur",
@@ -33951,7 +34092,7 @@
       "quantifiers",
       "respectively"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "neiden",
@@ -34272,7 +34413,7 @@
       "quantifiers",
       "whatever"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "neron",
@@ -34331,7 +34472,7 @@
       "quantifiers",
       "ron"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "newol",
@@ -34430,7 +34571,7 @@
         "position": "subcluster"
       }
     ],
-    "core": false,
+    "core": true,
     "core_source": null,
     "search_terms": [
       "function",
@@ -34752,7 +34893,7 @@
       "time",
       "words"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "nolili",
@@ -34840,7 +34981,7 @@
       "time",
       "words"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "nomie",
@@ -35196,7 +35337,7 @@
       "to",
       "words"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "norocu",
@@ -35252,7 +35393,7 @@
       "to",
       "words"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "norven",
@@ -35553,7 +35694,7 @@
       "oi",
       "oifen"
     ],
-    "core": true,
+    "core": false,
     "core_source": "2+ lists"
   },
   {
@@ -35680,7 +35821,78 @@
       "oi",
       "oihi"
     ],
-    "core": false
+    "core": true
+  },
+  {
+    "w": "oihica",
+    "e": "story",
+    "ea": "story, narrate, fictional",
+    "c": "fun",
+    "cs": "oi",
+    "sc": "oi",
+    "r": "hica",
+    "bd": [
+      {
+        "sound": "oi",
+        "meaning": "fun",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-oi",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-oi",
+        "bb_meaning": "fun"
+      },
+      {
+        "sound": "hica",
+        "meaning": "story"
+      }
+    ],
+    "rel": [
+      "helihica"
+    ],
+    "ex": [
+      {
+        "o": "a oihica i nomie no oihi",
+        "e": "the story seems interesting",
+        "from_lesson": true
+      }
+    ],
+    "syllable_meanings": [
+      {
+        "sound": "oi",
+        "meaning": "fun",
+        "position": "subcluster",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-oi",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-oi",
+        "bb_meaning": "fun"
+      },
+      {
+        "sound": "hica",
+        "meaning": "story",
+        "position": "root"
+      }
+    ],
+    "search_terms": [
+      "amuse",
+      "attract",
+      "cute",
+      "excite",
+      "fictional",
+      "fun",
+      "gossip",
+      "happy",
+      "hica",
+      "interest",
+      "joke",
+      "narrate",
+      "oi",
+      "oihica",
+      "scene",
+      "sex",
+      "silly",
+      "star",
+      "story",
+      "story, narrate, fictional"
+    ]
   },
   {
     "w": "oila",
@@ -35749,65 +35961,6 @@
       "la",
       "oi",
       "oila"
-    ],
-    "core": true,
-    "core_source": "2+ lists"
-  },
-  {
-    "w": "oimel",
-    "e": "story",
-    "ea": "story, narrate, fictional",
-    "c": "fun",
-    "cs": "oi",
-    "sc": "oi",
-    "r": "mel",
-    "bd": [
-      {
-        "sound": "oi",
-        "meaning": "fun",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-oi",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-oi",
-        "bb_meaning": "fun"
-      },
-      {
-        "sound": "mel",
-        "meaning": "story"
-      }
-    ],
-    "rel": [],
-    "ex": [
-      {
-        "o": "a oimel i nomie no oihi",
-        "e": "the story seems interesting",
-        "from_lesson": true
-      }
-    ],
-    "syllable_meanings": [
-      {
-        "sound": "oi",
-        "meaning": "fun",
-        "position": "subcluster",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-oi",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-oi",
-        "bb_meaning": "fun"
-      },
-      {
-        "sound": "mel",
-        "meaning": "story",
-        "position": "root"
-      }
-    ],
-    "search_terms": [
-      "fictional",
-      "fun",
-      "mel",
-      "narrate",
-      "oi",
-      "oimel",
-      "story",
-      "story, narrate, fictional"
     ],
     "core": true,
     "core_source": "2+ lists"
@@ -36310,7 +36463,7 @@
       "physical",
       "physical movement"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "omlufu",
@@ -36429,7 +36582,7 @@
       "voice",
       "voice, call, call out, summon, roar"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "omdal",
@@ -37470,7 +37623,7 @@
       "verb marker",
       "vi"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "pohnen",
@@ -37858,7 +38011,7 @@
       "poilua",
       "rhythm"
     ],
-    "core": true,
+    "core": false,
     "core_source": "2+ lists"
   },
   {
@@ -38013,7 +38166,7 @@
       "wa",
       "water"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "poiyal",
@@ -38754,7 +38907,7 @@
       "railiu",
       "society"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "rainen",
@@ -39085,7 +39238,7 @@
       "soi",
       "speed"
     ],
-    "core": true,
+    "core": false,
     "core_source": "2+ lists"
   },
   {
@@ -40655,7 +40808,7 @@
       "sau",
       "start"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "rora",
@@ -41250,7 +41403,7 @@
       "sel",
       "selcio"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "seldal",
@@ -41316,7 +41469,7 @@
       "sel",
       "seldal"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "selota",
@@ -41372,7 +41525,7 @@
       "sel",
       "selota"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "selyino",
@@ -41489,6 +41642,69 @@
       "type, classification, categorization"
     ],
     "core": false
+  },
+  {
+    "w": "semluan",
+    "e": "language",
+    "ea": "language",
+    "c": "machine",
+    "cs": "se",
+    "sc": "sem",
+    "r": "luan",
+    "bd": [
+      {
+        "sound": "sem",
+        "meaning": "system",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-sem",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-sem",
+        "bb_meaning": "system"
+      },
+      {
+        "sound": "luan",
+        "meaning": "tongue",
+        "bb_type": "root",
+        "bb_id": "bb-root-luan",
+        "bb_href": "building_blocks_reference.html#bb-root-luan",
+        "bb_meaning": "tongue"
+      }
+    ],
+    "rel": [
+      "ilaluan",
+      "varluan"
+    ],
+    "ex": [],
+    "syllable_meanings": [
+      {
+        "sound": "sem",
+        "meaning": "system",
+        "position": "subcluster",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-sem",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-sem",
+        "bb_meaning": "system"
+      },
+      {
+        "sound": "luan",
+        "meaning": "tongue",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-luan",
+        "bb_href": "building_blocks_reference.html#bb-root-luan",
+        "bb_meaning": "tongue"
+      }
+    ],
+    "search_terms": [
+      "language",
+      "luan",
+      "machine",
+      "se",
+      "sem",
+      "semluan",
+      "system",
+      "tongue"
+    ],
+    "core": true
   },
   {
     "w": "semtela",
@@ -42004,7 +42220,7 @@
       "unlock",
       "ver"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "sigai",
@@ -42787,7 +43003,7 @@
       "thinking",
       "thinking, reasoning"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "sita",
@@ -43008,7 +43224,7 @@
       "zero",
       "zero, none"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "tam",
@@ -43654,7 +43870,7 @@
       "tinen",
       "violence"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "tiriju",
@@ -45838,7 +46054,7 @@
       "tou",
       "toumo"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "tounir",
@@ -45894,7 +46110,7 @@
       "weak, weakness, feeble",
       "weakness"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "touros",
@@ -46024,7 +46240,7 @@
       "touvei",
       "vei"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "touwa",
@@ -46097,7 +46313,7 @@
       "wa",
       "water"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "tuapa",
@@ -46830,7 +47046,7 @@
       "van",
       "vandi"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "vanen",
@@ -47508,7 +47724,7 @@
   {
     "w": "varluan",
     "e": "tongue",
-    "ea": "tongue, taste, language",
+    "ea": "tongue, taste",
     "c": "body parts",
     "cs": "va",
     "sc": "var",
@@ -47565,12 +47781,11 @@
       "body",
       "body parts",
       "face",
-      "language",
       "luan",
       "parts",
       "taste",
       "tongue",
-      "tongue, taste, language",
+      "tongue, taste",
       "va",
       "var",
       "varluan"
@@ -47841,7 +48056,7 @@
       "var",
       "varparo"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "varpi",
@@ -48231,7 +48446,7 @@
       "vawe",
       "we"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "vawol",
@@ -48850,7 +49065,7 @@
       "vel",
       "velmo"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "veluo",
@@ -49442,7 +49657,7 @@
       "vis",
       "visro"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "visuva",
@@ -50244,7 +50459,7 @@
       "vos",
       "vosvo"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "vosvosi",
@@ -51908,7 +52123,7 @@
       "wi",
       "winou"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "wirel",
@@ -52189,7 +52404,7 @@
       "ya",
       "yadetu"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "yahci",
@@ -53441,7 +53656,7 @@
       "ya",
       "yasoi"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "yavuson",
@@ -54168,7 +54383,7 @@
       "yes",
       "yesnou"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "yespai",
@@ -55103,7 +55318,7 @@
       "yol",
       "yoyol"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "yuba",
@@ -55453,7 +55668,7 @@
       "yu",
       "yuloa"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "yumin",
@@ -55644,7 +55859,7 @@
       "yun",
       "yungei"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "yungi",
@@ -55713,7 +55928,7 @@
       "yun",
       "yungi"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "yunitam",
@@ -55791,7 +56006,7 @@
       "yun",
       "yunitam"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "yuniu",
@@ -55862,7 +56077,7 @@
       "yu",
       "yuniu"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "yunmir",
@@ -55935,7 +56150,7 @@
       "yun",
       "yunmir"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "yunmpou",
@@ -55999,7 +56214,7 @@
       "yun",
       "yunmpou"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "yunrani",
@@ -56146,7 +56361,7 @@
       "yun",
       "yunro"
     ],
-    "core": false
+    "core": true
   },
   {
     "w": "yuparde",

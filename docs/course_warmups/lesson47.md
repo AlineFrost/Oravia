@@ -101,10 +101,10 @@
     ```
     
     !!! info "🌍 Sound Connections"
-        Do you recognize the syllables in mamol, matal and mamini? What do they mean?
-        Ma comes from Arabic matbakh, which means kitchen.
-        Mal is like German Mehl, which means flour. 
-        Mas comes from Arabic and Hindi Masala, which is a spice mix.
+        Do you recognize the syllables in mamol, matal and mamini? What do they mean?  
+        Ma comes from Arabic matbakh, which means kitchen.  
+        Mal is like German Mehl, which means flour.   
+        Mas comes from Arabic and Hindi Masala, which is a spice mix.  
 
     
     You are ready for the reading now!
@@ -122,22 +122,27 @@
   
     'Roumo Joniu Tam (Recipe Part 1)
     
-    3 molbai de maemiri
-    2 mamini
-    2 mascur, nedas yalgai mir joniu
-    3 'yolei masloma, yalgai mir joniu
-    1 molbai de maemopi
-    2 yaltan mahon de maeyalo vilan-wa
-    2 yaltan mahon de 'malumo
-    vandi gavol de masha su masnam
-    1 molbai de lei 
+    3 molbai de maemiri  
+    2 mamini  
+    2 mascur, nedas yalgai mir joniu  
+    3 'yolei masloma, yalgai mir joniu  
+    1 molbai de maemopi  
+    2 yaltan mahon de maeyalo vilan-wa  
+    2 yaltan mahon de 'malumo  
+    vandi gavol de masha su masnam  
+    1 molbai de lei   
     
     
-    Notam, i bospupi 3 molbai de maemiri linu a wa a joliri. I mamol e maemiri su 6 molbai wa su vandi gavol de masha. I anodu e mamol su i pohem. Cali i varsus ca a wa i jolufu, i gafi e pohem. A mamol i anefene en dasalui litegai. O i antorium e anodu.
+    Notam, i bospupi 3 molbai de maemiri linu a wa a joliri. 
+    I mamol e maemiri su 6 molbai wa su vandi gavol de masha.  
+    I anodu e mamol su i pohem.  
+    Cali i varsus ca a wa i jolufu, i gafi e pohem.  
+    A mamol i anefene en dasalui litegai.  
+    O i antorium e anodu.  
 
     
-    *roumo = rou ca i elomio i boemo e mo (writing that helps cook food).  
-    *malumo = poilumo sora boemo (oil to cook).
+    roumo = rou ca i elomio i boemo e mo (writing that helps cook food).  
+    malumo = poilumo sora boemo (oil to cook).
     
     
     **Tips**

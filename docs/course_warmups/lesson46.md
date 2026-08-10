@@ -125,27 +125,27 @@
     oimin = pleasure, pleasant  
   
     
-    Omlia de Nordau Ledom
+    Omlia de Nordau Ledom  
 
-    en nim ledom, a 'palmae
-    cadom a 'turdus i omlia /
-    a muhpili ca i omlia noi,
-    i omlia noum muhpili en ho noi
+    en nim ledom, a 'palmae  
+    cadom a 'turdus i omlia /  
+    a muhpili ca i omlia noi,  
+    i omlia noum muhpili en ho noi  
 
-    en nima luyol, neron 'heoyar
-    en nima waa jele, neron leipili
-    en nima leayo, neron elemi
-    nima elemi neron eleyel
+    en nima luyol, neron 'heoyar  
+    en nima waa jele, neron leipili  
+    en nima leayo, neron elemi  
+    nima elemi neron eleyel  
 
-    i lirul-iliro, cali netam, en limel
-    neron oimin en ho noi /
-    a 'palmae en nim ledom
-    cadom i omlia a 'turdus 
+    i lirul-iliro, cali netam, en limel  
+    neron oimin en ho noi /  
+    a 'palmae en nim ledom  
+    cadom i omlia a 'turdus   
     
-    by Gonçalves Dias, 1843
+    by Gonçalves Dias, 1843  
     
-    *palmae = yalena leirih ca i none e yalwol jocai en anodu. Lirul en jensui wayol (tall tree that has broad leaves in the top. It is frequently next to the sea).  
-    *turdus rufiventris = yalgai, yogali su yopohsari muhpili ca i omlia (small, brown and orange bird that sings).
+    palmae = yalena leirih ca i none e yalwol jocai en anodu. Lirul en jensui wayol (tall tree that has broad leaves in the top. It is frequently next to the sea).    
+    turdus rufiventris = yalgai, yogali su yopohsari muhpili ca i omlia (small, brown and orange bird that sings).
     
     
     **Tips**

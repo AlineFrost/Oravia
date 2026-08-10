@@ -230,15 +230,17 @@
     
     Now let's see these words in context:
 
-    "Lar liperi, netam i roesau, i anyeum neliu. Faibor i ilahai ca nim i tane i anefene neron, mai i vil i yuloa."
+    "Nedas toului. Faibor i ilaluan ca nim i tane i anefene neron, mai i vil i yuloa."
 
     "Mihie run! Run i iliro ca a roejois a yudur?"
 
     "Ga lidastorar, yudur. A roena dia a anodu yahci."
 
-    Lina i vardei e mo ca Ana i boemo. I varpu yuba.
+    Lina i vardei e mo ca Ana i boemo. I varasi yuba.
 
-    "Ce hoi?"
+    "Ce noi?"
+    
+    A Lina su Ana a yalen li eofa. Cali falen, lirular i mo en bo de fa de Ana en tevaen limel. Noli haya i roesau en boemo roedom, su litam i dami a roejo.  
 
     *Mihie = horse (endurance) · yuloa = perfect · varpu = smell · vil = must*
 

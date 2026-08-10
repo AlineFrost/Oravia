@@ -1,0 +1,4684 @@
+[
+  {
+    "id": "D2_ca",
+    "front": "ca",
+    "back": "that / which / what",
+    "breakdown": []
+  },
+  {
+    "id": "D2_ce",
+    "front": "ce",
+    "back": "what?",
+    "breakdown": []
+  },
+  {
+    "id": "D2_de",
+    "front": "de",
+    "back": "of / from / by",
+    "breakdown": []
+  },
+  {
+    "id": "D2_dou",
+    "front": "dou",
+    "back": "or",
+    "breakdown": []
+  },
+  {
+    "id": "D2_su",
+    "front": "su",
+    "back": "and / with / also",
+    "breakdown": []
+  },
+  {
+    "id": "D2_eta",
+    "front": "eta",
+    "back": "therefore / so / then",
+    "breakdown": []
+  },
+  {
+    "id": "D2_en",
+    "front": "en",
+    "back": "in / on / at",
+    "breakdown": []
+  },
+  {
+    "id": "D2_mai",
+    "front": "mai",
+    "back": "but",
+    "breakdown": []
+  },
+  {
+    "id": "D2_rein",
+    "front": "rein",
+    "back": "each other",
+    "breakdown": []
+  },
+  {
+    "id": "D2_sutor",
+    "front": "sutor",
+    "back": "both",
+    "breakdown": []
+  },
+  {
+    "id": "D2_domvio",
+    "front": "domvio",
+    "back": "instead / in place of",
+    "breakdown": []
+  },
+  {
+    "id": "D2_bi",
+    "front": "bi",
+    "back": "speaker comment",
+    "breakdown": []
+  },
+  {
+    "id": "D2_ho",
+    "front": "ho",
+    "back": "opposite / reverse",
+    "breakdown": []
+  },
+  {
+    "id": "D2_dia",
+    "front": "dia",
+    "back": "role / doer",
+    "breakdown": []
+  },
+  {
+    "id": "D2_niu",
+    "front": "niu",
+    "back": "indefinite quantity",
+    "breakdown": []
+  },
+  {
+    "id": "D2_hue",
+    "front": "hue",
+    "back": "resultant state / recipient",
+    "breakdown": []
+  },
+  {
+    "id": "D2_ancem",
+    "front": "ancem",
+    "back": "turn, gyrate, spin, whirl, rotate",
+    "breakdown": [
+      {
+        "sound": "an",
+        "meaning": "action"
+      },
+      {
+        "sound": "cem",
+        "meaning": "turn"
+      }
+    ]
+  },
+  {
+    "id": "D2_anefe",
+    "front": "anefe",
+    "back": "put, lay, to place",
+    "breakdown": [
+      {
+        "sound": "ane",
+        "meaning": "static movement"
+      },
+      {
+        "sound": "fe",
+        "meaning": "halting"
+      }
+    ]
+  },
+  {
+    "id": "D2_anelem",
+    "front": "anelem",
+    "back": "keep, stay, remain",
+    "breakdown": [
+      {
+        "sound": "ane",
+        "meaning": "static movement"
+      },
+      {
+        "sound": "lem",
+        "meaning": "keeping"
+      }
+    ]
+  },
+  {
+    "id": "D2_anepou",
+    "front": "anepou",
+    "back": "stop, halt, cancel",
+    "breakdown": [
+      {
+        "sound": "ane",
+        "meaning": "static movement"
+      },
+      {
+        "sound": "pou",
+        "meaning": "stop"
+      }
+    ]
+  },
+  {
+    "id": "D2_anever",
+    "front": "anever",
+    "back": "secure, safe, safety, security",
+    "breakdown": [
+      {
+        "sound": "ane",
+        "meaning": "static movement"
+      },
+      {
+        "sound": "ver",
+        "meaning": "safety"
+      }
+    ]
+  },
+  {
+    "id": "D2_angi",
+    "front": "angi",
+    "back": "dare, daring, bold, brave, to challenge, courage",
+    "breakdown": [
+      {
+        "sound": "an",
+        "meaning": "action"
+      },
+      {
+        "sound": "gi",
+        "meaning": "boldness"
+      }
+    ]
+  },
+  {
+    "id": "D2_anilie",
+    "front": "anilie",
+    "back": "try, attempt",
+    "breakdown": [
+      {
+        "sound": "an",
+        "meaning": "action"
+      },
+      {
+        "sound": "ilie",
+        "meaning": "maybe"
+      }
+    ]
+  },
+  {
+    "id": "D2_anisu",
+    "front": "anisu",
+    "back": "bring, carry, transport, transfer, port, cargo",
+    "breakdown": [
+      {
+        "sound": "ani",
+        "meaning": "movement towards"
+      },
+      {
+        "sound": "su",
+        "meaning": "alongside"
+      }
+    ]
+  },
+  {
+    "id": "D2_anita",
+    "front": "anita",
+    "back": "take, extract",
+    "breakdown": [
+      {
+        "sound": "ani",
+        "meaning": "movement towards"
+      },
+      {
+        "sound": "ta",
+        "meaning": "hand"
+      }
+    ]
+  },
+  {
+    "id": "D2_anivari",
+    "front": "anivari",
+    "back": "return",
+    "breakdown": [
+      {
+        "sound": "ani",
+        "meaning": "movement towards"
+      },
+      {
+        "sound": "vari",
+        "meaning": "back"
+      }
+    ]
+  },
+  {
+    "id": "D2_aniyel",
+    "front": "aniyel",
+    "back": "come",
+    "breakdown": [
+      {
+        "sound": "ani",
+        "meaning": "movement towards"
+      },
+      {
+        "sound": "yel",
+        "meaning": "joining"
+      }
+    ]
+  },
+  {
+    "id": "D2_anja",
+    "front": "anja",
+    "back": "use, tool",
+    "breakdown": [
+      {
+        "sound": "an",
+        "meaning": "action"
+      },
+      {
+        "sound": "ja",
+        "meaning": "use"
+      }
+    ]
+  },
+  {
+    "id": "D2_anlaro",
+    "front": "anlaro",
+    "back": "continue, insist",
+    "breakdown": [
+      {
+        "sound": "an",
+        "meaning": "action"
+      },
+      {
+        "sound": "laro",
+        "meaning": "continue"
+      }
+    ]
+  },
+  {
+    "id": "D2_anliulor",
+    "front": "anliulor",
+    "back": "service",
+    "breakdown": [
+      {
+        "sound": "an",
+        "meaning": "action"
+      },
+      {
+        "sound": "liu",
+        "meaning": "other"
+      },
+      {
+        "sound": "lor",
+        "meaning": "benefit"
+      }
+    ]
+  },
+  {
+    "id": "D2_anolu",
+    "front": "anolu",
+    "back": "out, ex-, external, outside",
+    "breakdown": [
+      {
+        "sound": "ano",
+        "meaning": "movement away"
+      },
+      {
+        "sound": "lu",
+        "meaning": "outside"
+      }
+    ]
+  },
+  {
+    "id": "D2_anomi",
+    "front": "anomi",
+    "back": "right",
+    "breakdown": [
+      {
+        "sound": "an",
+        "meaning": "action"
+      },
+      {
+        "sound": "no",
+        "meaning": "downward, extension below"
+      },
+      {
+        "sound": "mi",
+        "meaning": "existence, being"
+      }
+    ]
+  },
+  {
+    "id": "D2_anona",
+    "front": "anona",
+    "back": "give, gift",
+    "breakdown": [
+      {
+        "sound": "ano",
+        "meaning": "movement away"
+      },
+      {
+        "sound": "na",
+        "meaning": "giving"
+      }
+    ]
+  },
+  {
+    "id": "D2_anopu",
+    "front": "anopu",
+    "back": "lose, loss, failure, fail",
+    "breakdown": [
+      {
+        "sound": "ano",
+        "meaning": "movement away"
+      },
+      {
+        "sound": "pu",
+        "meaning": "loss, sadness"
+      }
+    ]
+  },
+  {
+    "id": "D2_anore",
+    "front": "anore",
+    "back": "let, allow, license, permission",
+    "breakdown": [
+      {
+        "sound": "ano",
+        "meaning": "movement away"
+      },
+      {
+        "sound": "re",
+        "meaning": "let"
+      }
+    ]
+  },
+  {
+    "id": "D2_anro",
+    "front": "anro",
+    "back": "decide, decision, adjudicate, resolve, settle",
+    "breakdown": [
+      {
+        "sound": "an",
+        "meaning": "action"
+      },
+      {
+        "sound": "ro",
+        "meaning": "thinking, reasoning"
+      }
+    ]
+  },
+  {
+    "id": "D2_ansau",
+    "front": "ansau",
+    "back": "start, initial, beginning",
+    "breakdown": [
+      {
+        "sound": "an",
+        "meaning": "action"
+      },
+      {
+        "sound": "sau",
+        "meaning": "start"
+      }
+    ]
+  },
+  {
+    "id": "D2_anse",
+    "front": "anse",
+    "back": "work, labor, job",
+    "breakdown": [
+      {
+        "sound": "an",
+        "meaning": "action"
+      },
+      {
+        "sound": "se",
+        "meaning": "work"
+      }
+    ]
+  },
+  {
+    "id": "D2_anbas",
+    "front": "anbas",
+    "back": "open",
+    "breakdown": [
+      {
+        "sound": "an",
+        "meaning": "action"
+      },
+      {
+        "sound": "bas",
+        "meaning": "open"
+      }
+    ]
+  },
+  {
+    "id": "D2_apahela",
+    "front": "apahela",
+    "back": "throw, shot, shoot, pass",
+    "breakdown": [
+      {
+        "sound": "apa",
+        "meaning": "physical movement"
+      },
+      {
+        "sound": "hela",
+        "meaning": "projecting outward"
+      }
+    ]
+  },
+  {
+    "id": "D2_apaima",
+    "front": "apaima",
+    "back": "vertical, column, stack, to stand up",
+    "breakdown": [
+      {
+        "sound": "apa",
+        "meaning": "physical movement"
+      },
+      {
+        "sound": "ima",
+        "meaning": "vertical"
+      }
+    ]
+  },
+  {
+    "id": "D2_apani",
+    "front": "apani",
+    "back": "pull, tug, influence, sway",
+    "breakdown": [
+      {
+        "sound": "apa",
+        "meaning": "physical movement"
+      },
+      {
+        "sound": "ani",
+        "meaning": "directed pull, toward"
+      }
+    ]
+  },
+  {
+    "id": "D2_asano",
+    "front": "asano",
+    "back": "press, move away, shove",
+    "breakdown": [
+      {
+        "sound": "as",
+        "meaning": "involuntary bodily functions"
+      },
+      {
+        "sound": "ano",
+        "meaning": "movement away"
+      }
+    ]
+  },
+  {
+    "id": "D2_asetowa",
+    "front": "asetowa",
+    "back": "tears, to cry",
+    "breakdown": [
+      {
+        "sound": "ase",
+        "meaning": "affectionate contact"
+      },
+      {
+        "sound": "to",
+        "meaning": "suffering"
+      },
+      {
+        "sound": "wa",
+        "meaning": "water"
+      }
+    ]
+  },
+  {
+    "id": "D2_asiwa",
+    "front": "asiwa",
+    "back": "pee, urinate",
+    "breakdown": [
+      {
+        "sound": "asi",
+        "meaning": "orifice intake and expulsion"
+      },
+      {
+        "sound": "wa",
+        "meaning": "water"
+      }
+    ]
+  },
+  {
+    "id": "D2_aslufu",
+    "front": "aslufu",
+    "back": "breathe, breath",
+    "breakdown": [
+      {
+        "sound": "as",
+        "meaning": "involuntary bodily functions"
+      },
+      {
+        "sound": "lufu",
+        "meaning": "air"
+      }
+    ]
+  },
+  {
+    "id": "D2_bevas",
+    "front": "bevas",
+    "back": "private, privacy",
+    "breakdown": [
+      {
+        "sound": "be",
+        "meaning": "travel"
+      },
+      {
+        "sound": "vas",
+        "meaning": "private"
+      }
+    ]
+  },
+  {
+    "id": "D2_bogor",
+    "front": "bogor",
+    "back": "building, to build",
+    "breakdown": [
+      {
+        "sound": "bo",
+        "meaning": "home interior"
+      },
+      {
+        "sound": "gor",
+        "meaning": "building"
+      }
+    ]
+  },
+  {
+    "id": "D2_bonfene",
+    "front": "bonfene",
+    "back": "bed, to lie down",
+    "breakdown": [
+      {
+        "sound": "bon",
+        "meaning": "furniture"
+      },
+      {
+        "sound": "fene",
+        "meaning": "rest"
+      }
+    ]
+  },
+  {
+    "id": "D2_borcai",
+    "front": "borcai",
+    "back": "wall",
+    "breakdown": [
+      {
+        "sound": "bor",
+        "meaning": "house structure"
+      },
+      {
+        "sound": "cai",
+        "meaning": "flat"
+      }
+    ]
+  },
+  {
+    "id": "D2_borlu",
+    "front": "borlu",
+    "back": "window",
+    "breakdown": [
+      {
+        "sound": "bor",
+        "meaning": "house structure"
+      },
+      {
+        "sound": "lu",
+        "meaning": "outside"
+      }
+    ]
+  },
+  {
+    "id": "D2_bospupi",
+    "front": "bospupi",
+    "back": "bath, bathe, wash, shower",
+    "breakdown": [
+      {
+        "sound": "bos",
+        "meaning": "hygiene fixtures"
+      },
+      {
+        "sound": "pupi",
+        "meaning": "water falling"
+      }
+    ]
+  },
+  {
+    "id": "D2_ciudon",
+    "front": "ciudon",
+    "back": "demonstration, indicate, show",
+    "breakdown": [
+      {
+        "sound": "ciu",
+        "meaning": "creative products"
+      },
+      {
+        "sound": "don",
+        "meaning": "show"
+      }
+    ]
+  },
+  {
+    "id": "D2_ciupa",
+    "front": "ciupa",
+    "back": "paper",
+    "breakdown": [
+      {
+        "sound": "ciu",
+        "meaning": "creative products"
+      },
+      {
+        "sound": "pa",
+        "meaning": "paper"
+      }
+    ]
+  },
+  {
+    "id": "D2_ciutel",
+    "front": "ciutel",
+    "back": "image",
+    "breakdown": [
+      {
+        "sound": "ciu",
+        "meaning": "creative products"
+      },
+      {
+        "sound": "tel",
+        "meaning": "image"
+      }
+    ]
+  },
+  {
+    "id": "D2_ciuyen",
+    "front": "ciuyen",
+    "back": "print, publish, publication, magazine, journal",
+    "breakdown": [
+      {
+        "sound": "ciu",
+        "meaning": "creative products"
+      },
+      {
+        "sound": "yen",
+        "meaning": "printed"
+      }
+    ]
+  },
+  {
+    "id": "D2_cohua",
+    "front": "cohua",
+    "back": "receive, get, receipt, acknowledge, reception",
+    "breakdown": [
+      {
+        "sound": "co",
+        "meaning": "communication"
+      },
+      {
+        "sound": "hua",
+        "meaning": "receive"
+      }
+    ]
+  },
+  {
+    "id": "D2_colira",
+    "front": "colira",
+    "back": "sign, mark, symbol, signal, token, logo",
+    "breakdown": [
+      {
+        "sound": "co",
+        "meaning": "communication"
+      },
+      {
+        "sound": "lira",
+        "meaning": "mark"
+      }
+    ]
+  },
+  {
+    "id": "D2_cojim",
+    "front": "cojim",
+    "back": "emergency, urgent, to urge, press for",
+    "breakdown": [
+      {
+        "sound": "co",
+        "meaning": "communication"
+      },
+      {
+        "sound": "jim",
+        "meaning": "urgency"
+      }
+    ]
+  },
+  {
+    "id": "D2_conodo",
+    "front": "conodo",
+    "back": "office, workplace, agency",
+    "breakdown": [
+      {
+        "sound": "co",
+        "meaning": "communication"
+      },
+      {
+        "sound": "nodo",
+        "meaning": "office"
+      }
+    ]
+  },
+  {
+    "id": "D2_coter",
+    "front": "coter",
+    "back": "number, count, times",
+    "breakdown": [
+      {
+        "sound": "co",
+        "meaning": "communication"
+      },
+      {
+        "sound": "ter",
+        "meaning": "count"
+      }
+    ]
+  },
+  {
+    "id": "D2_cousiu",
+    "front": "cousiu",
+    "back": "letter, character, to spell, literature, literary",
+    "breakdown": [
+      {
+        "sound": "cou",
+        "meaning": "written communication"
+      },
+      {
+        "sound": "siu",
+        "meaning": "document"
+      }
+    ]
+  },
+  {
+    "id": "D2_couya",
+    "front": "couya",
+    "back": "name, word",
+    "breakdown": [
+      {
+        "sound": "cou",
+        "meaning": "written communication"
+      },
+      {
+        "sound": "ya",
+        "meaning": "representation, invitation"
+      }
+    ]
+  },
+  {
+    "id": "D2_couyen",
+    "front": "couyen",
+    "back": "mail, letter, post",
+    "breakdown": [
+      {
+        "sound": "cou",
+        "meaning": "written communication"
+      },
+      {
+        "sound": "yen",
+        "meaning": "printed"
+      }
+    ]
+  },
+  {
+    "id": "D2_daciu",
+    "front": "daciu",
+    "back": "figure, form, shape, structure, statue",
+    "breakdown": [
+      {
+        "sound": "da",
+        "meaning": "evaluation"
+      },
+      {
+        "sound": "ciu",
+        "meaning": "creative product"
+      }
+    ]
+  },
+  {
+    "id": "D2_dael",
+    "front": "dael",
+    "back": "correct, just, right (moral), justice",
+    "breakdown": [
+      {
+        "sound": "da",
+        "meaning": "evaluation"
+      },
+      {
+        "sound": "el",
+        "meaning": "elevated"
+      }
+    ]
+  },
+  {
+    "id": "D2_daereva",
+    "front": "daereva",
+    "back": "verify, check, verification",
+    "breakdown": [
+      {
+        "sound": "dae",
+        "meaning": "epistemic"
+      },
+      {
+        "sound": "reva",
+        "meaning": "accurate"
+      }
+    ]
+  },
+  {
+    "id": "D2_dapas",
+    "front": "dapas",
+    "back": "favor, like, favorite, preference, prefer",
+    "breakdown": [
+      {
+        "sound": "da",
+        "meaning": "evaluation"
+      },
+      {
+        "sound": "pas",
+        "meaning": "favor"
+      }
+    ]
+  },
+  {
+    "id": "D2_dandao",
+    "front": "dandao",
+    "back": "serious, earnest, seriousness",
+    "breakdown": [
+      {
+        "sound": "dan",
+        "meaning": "emphasis"
+      },
+      {
+        "sound": "dao",
+        "meaning": "serious"
+      }
+    ]
+  },
+  {
+    "id": "D2_datava",
+    "front": "datava",
+    "back": "sense, feel, feeling, experience",
+    "breakdown": [
+      {
+        "sound": "da",
+        "meaning": "evaluation"
+      },
+      {
+        "sound": "ta",
+        "meaning": "hand"
+      },
+      {
+        "sound": "va",
+        "meaning": "core"
+      }
+    ]
+  },
+  {
+    "id": "D2_dolal",
+    "front": "dolal",
+    "back": "adhere, stick, cling, sticky, glue, attach",
+    "breakdown": [
+      {
+        "sound": "do",
+        "meaning": "regulations"
+      },
+      {
+        "sound": "lal",
+        "meaning": "adhere"
+      }
+    ]
+  },
+  {
+    "id": "D2_elaora",
+    "front": "elaora",
+    "back": "religion, religious",
+    "breakdown": [
+      {
+        "sound": "ela",
+        "meaning": "religious"
+      },
+      {
+        "sound": "ora",
+        "meaning": "idea"
+      }
+    ]
+  },
+  {
+    "id": "D2_elehui",
+    "front": "elehui",
+    "back": "soul, spirit",
+    "breakdown": [
+      {
+        "sound": "ele",
+        "meaning": "self-expansion"
+      },
+      {
+        "sound": "hui",
+        "meaning": "ethereal"
+      }
+    ]
+  },
+  {
+    "id": "D2_elemi",
+    "front": "elemi",
+    "back": "life, live (opp. to die)",
+    "breakdown": [
+      {
+        "sound": "ele",
+        "meaning": "self-expansion"
+      },
+      {
+        "sound": "mi",
+        "meaning": "existence, being"
+      }
+    ]
+  },
+  {
+    "id": "D2_elileo",
+    "front": "elileo",
+    "back": "kind, humane, humaneness, solidarity",
+    "breakdown": [
+      {
+        "sound": "eli",
+        "meaning": "virtue"
+      },
+      {
+        "sound": "leo",
+        "meaning": "belong"
+      }
+    ]
+  },
+  {
+    "id": "D2_eloan",
+    "front": "eloan",
+    "back": "thanks, to thank, thankful, gratitude",
+    "breakdown": [
+      {
+        "sound": "elo",
+        "meaning": "prosocial"
+      },
+      {
+        "sound": "an",
+        "meaning": "thanks"
+      }
+    ]
+  },
+  {
+    "id": "D2_eloele",
+    "front": "eloele",
+    "back": "freedom, free, liberate",
+    "breakdown": [
+      {
+        "sound": "elo",
+        "meaning": "prosocial"
+      },
+      {
+        "sound": "ele",
+        "meaning": "self-expansion"
+      }
+    ]
+  },
+  {
+    "id": "D2_elonor",
+    "front": "elonor",
+    "back": "peace, peaceful, calm",
+    "breakdown": [
+      {
+        "sound": "elo",
+        "meaning": "prosocial"
+      },
+      {
+        "sound": "nor",
+        "meaning": "peace"
+      }
+    ]
+  },
+  {
+    "id": "D2_eopan",
+    "front": "eopan",
+    "back": "win, gain, earn, earnings, profit, prize",
+    "breakdown": [
+      {
+        "sound": "eo",
+        "meaning": "social"
+      },
+      {
+        "sound": "pan",
+        "meaning": "win"
+      }
+    ]
+  },
+  {
+    "id": "D2_eoren",
+    "front": "eoren",
+    "back": "honor, honorable, reputation, respect, mr, mrs",
+    "breakdown": [
+      {
+        "sound": "eo",
+        "meaning": "social"
+      },
+      {
+        "sound": "ren",
+        "meaning": "honor"
+      }
+    ]
+  },
+  {
+    "id": "D2_fadevi",
+    "front": "fadevi",
+    "back": "birth, give birth",
+    "breakdown": [
+      {
+        "sound": "fa",
+        "meaning": "family relationships"
+      },
+      {
+        "sound": "de",
+        "meaning": "origin, from"
+      },
+      {
+        "sound": "vi",
+        "meaning": "internal body"
+      }
+    ]
+  },
+  {
+    "id": "D2_faigel",
+    "front": "faigel",
+    "back": "marry, marriage",
+    "breakdown": [
+      {
+        "sound": "fai",
+        "meaning": "partnership, marriage"
+      },
+      {
+        "sound": "gel",
+        "meaning": "marry"
+      }
+    ]
+  },
+  {
+    "id": "D2_falte",
+    "front": "falte",
+    "back": "young, youth, a youth",
+    "breakdown": [
+      {
+        "sound": "fal",
+        "meaning": "young ones"
+      },
+      {
+        "sound": "te",
+        "meaning": "young"
+      }
+    ]
+  },
+  {
+    "id": "D2_gahoh",
+    "front": "gahoh",
+    "back": "extreme, radical",
+    "breakdown": [
+      {
+        "sound": "ga",
+        "meaning": "evaluation"
+      },
+      {
+        "sound": "hoh",
+        "meaning": "extreme"
+      }
+    ]
+  },
+  {
+    "id": "D2_ganou",
+    "front": "ganou",
+    "back": "low, short (height)",
+    "breakdown": [
+      {
+        "sound": "gan",
+        "meaning": "ranking"
+      },
+      {
+        "sound": "nou",
+        "meaning": "low, falling"
+      }
+    ]
+  },
+  {
+    "id": "D2_ganrih",
+    "front": "ganrih",
+    "back": "above, over, up, height, minimun, at least",
+    "breakdown": [
+      {
+        "sound": "gan",
+        "meaning": "ranking"
+      },
+      {
+        "sound": "rih",
+        "meaning": "higher, rising"
+      }
+    ]
+  },
+  {
+    "id": "D2_gaone",
+    "front": "gaone",
+    "back": "degree, level, floor of a building",
+    "breakdown": [
+      {
+        "sound": "gao",
+        "meaning": "centered"
+      },
+      {
+        "sound": "ne",
+        "meaning": "degree"
+      }
+    ]
+  },
+  {
+    "id": "D2_gavol",
+    "front": "gavol",
+    "back": "measure, measurement, size (clothing), dimension",
+    "breakdown": [
+      {
+        "sound": "ga",
+        "meaning": "evaluation"
+      },
+      {
+        "sound": "vol",
+        "meaning": "measure"
+      }
+    ]
+  },
+  {
+    "id": "D2_gehsar",
+    "front": "gehsar",
+    "back": "charge, bill",
+    "breakdown": [
+      {
+        "sound": "geh",
+        "meaning": "charge"
+      },
+      {
+        "sound": "sar",
+        "meaning": "hang"
+      }
+    ]
+  },
+  {
+    "id": "D2_hehou",
+    "front": "hehou",
+    "back": "shadow, shade, obscure, hide, hidden",
+    "breakdown": [
+      {
+        "sound": "heh",
+        "meaning": "antagonist tropes"
+      },
+      {
+        "sound": "hou",
+        "meaning": "shadow"
+      }
+    ]
+  },
+  {
+    "id": "D2_heosu",
+    "front": "heosu",
+    "back": "moon",
+    "breakdown": [
+      {
+        "sound": "heo",
+        "meaning": "background"
+      },
+      {
+        "sound": "su",
+        "meaning": "alongside"
+      }
+    ]
+  },
+  {
+    "id": "D2_ilahai",
+    "front": "ilahai",
+    "back": "talk, speech, lecture",
+    "breakdown": [
+      {
+        "sound": "ila",
+        "meaning": "sharing information"
+      },
+      {
+        "sound": "hai",
+        "meaning": "message"
+      }
+    ]
+  },
+  {
+    "id": "D2_ilie",
+    "front": "ilie",
+    "back": "maybe, possibility, possible, option",
+    "breakdown": [
+      {
+        "sound": "ili",
+        "meaning": "cognition"
+      }
+    ]
+  },
+  {
+    "id": "D2_iliora",
+    "front": "iliora",
+    "back": "idea, concept, conceptual, visionary",
+    "breakdown": [
+      {
+        "sound": "ili",
+        "meaning": "cognition"
+      },
+      {
+        "sound": "ora",
+        "meaning": "idea"
+      }
+    ]
+  },
+  {
+    "id": "D2_ilisu",
+    "front": "ilisu",
+    "back": "believe, belief, creed",
+    "breakdown": [
+      {
+        "sound": "ili",
+        "meaning": "cognition"
+      },
+      {
+        "sound": "su",
+        "meaning": "alongside"
+      }
+    ]
+  },
+  {
+    "id": "D2_iloani",
+    "front": "iloani",
+    "back": "to care about, to mind",
+    "breakdown": [
+      {
+        "sound": "ilo",
+        "meaning": "when knowledge is uncertain"
+      },
+      {
+        "sound": "ani",
+        "meaning": "directed pull, toward"
+      }
+    ]
+  },
+  {
+    "id": "D2_iloi",
+    "front": "iloi",
+    "back": "hope, wait for, expectation, wish",
+    "breakdown": [
+      {
+        "sound": "ilo",
+        "meaning": "when knowledge is uncertain"
+      }
+    ]
+  },
+  {
+    "id": "D2_iloram",
+    "front": "iloram",
+    "back": "surprise, astonish, shock, unexpected",
+    "breakdown": [
+      {
+        "sound": "ilo",
+        "meaning": "when knowledge is uncertain"
+      },
+      {
+        "sound": "ram",
+        "meaning": "sudden"
+      }
+    ]
+  },
+  {
+    "id": "D2_ilteli",
+    "front": "ilteli",
+    "back": "moment, instant, instantaneous, immediate",
+    "breakdown": [
+      {
+        "sound": "il",
+        "meaning": "objects of inquiry"
+      },
+      {
+        "sound": "teli",
+        "meaning": "moment"
+      }
+    ]
+  },
+  {
+    "id": "D2_ilwol",
+    "front": "ilwol",
+    "back": "thing, stuff",
+    "breakdown": [
+      {
+        "sound": "il",
+        "meaning": "objects of inquiry"
+      },
+      {
+        "sound": "wol",
+        "meaning": "wide"
+      }
+    ]
+  },
+  {
+    "id": "D2_jacati",
+    "front": "jacati",
+    "back": "chain, fetters",
+    "breakdown": [
+      {
+        "sound": "ja",
+        "meaning": "tools"
+      },
+      {
+        "sound": "cati",
+        "meaning": "constraint"
+      }
+    ]
+  },
+  {
+    "id": "D2_jalei",
+    "front": "jalei",
+    "back": "stick, rod, broom",
+    "breakdown": [
+      {
+        "sound": "ja",
+        "meaning": "tools"
+      },
+      {
+        "sound": "lei",
+        "meaning": "plants"
+      }
+    ]
+  },
+  {
+    "id": "D2_jasrec",
+    "front": "jasrec",
+    "back": "cut, incision, slice, chop",
+    "breakdown": [
+      {
+        "sound": "jas",
+        "meaning": "gripping and fastening tools"
+      },
+      {
+        "sound": "rec",
+        "meaning": "cut"
+      }
+    ]
+  },
+  {
+    "id": "D2_javari",
+    "front": "javari",
+    "back": "tail, rope",
+    "breakdown": [
+      {
+        "sound": "ja",
+        "meaning": "tools"
+      },
+      {
+        "sound": "vari",
+        "meaning": "back"
+      }
+    ]
+  },
+  {
+    "id": "D2_jeluin",
+    "front": "jeluin",
+    "back": "wing, brim",
+    "breakdown": [
+      {
+        "sound": "je",
+        "meaning": "geometrics"
+      },
+      {
+        "sound": "luin",
+        "meaning": "wing"
+      }
+    ]
+  },
+  {
+    "id": "D2_jenmue",
+    "front": "jenmue",
+    "back": "left",
+    "breakdown": [
+      {
+        "sound": "jen",
+        "meaning": "location"
+      },
+      {
+        "sound": "mue",
+        "meaning": "left"
+      }
+    ]
+  },
+  {
+    "id": "D2_jenon",
+    "front": "jenon",
+    "back": "path, way, road",
+    "breakdown": [
+      {
+        "sound": "je",
+        "meaning": "geometrics"
+      },
+      {
+        "sound": "non",
+        "meaning": "path"
+      }
+    ]
+  },
+  {
+    "id": "D2_jenpur",
+    "front": "jenpur",
+    "back": "under, below, down",
+    "breakdown": [
+      {
+        "sound": "jen",
+        "meaning": "location"
+      },
+      {
+        "sound": "pur",
+        "meaning": "under"
+      }
+    ]
+  },
+  {
+    "id": "D2_jenya",
+    "front": "jenya",
+    "back": "empty, vacuum, vacuous",
+    "breakdown": [
+      {
+        "sound": "jen",
+        "meaning": "location"
+      },
+      {
+        "sound": "nya",
+        "meaning": "empty"
+      }
+    ]
+  },
+  {
+    "id": "D2_jeolan",
+    "front": "jeolan",
+    "back": "center",
+    "breakdown": [
+      {
+        "sound": "jeo",
+        "meaning": "geometric positions"
+      },
+      {
+        "sound": "lan",
+        "meaning": "balance"
+      }
+    ]
+  },
+  {
+    "id": "D2_jetai",
+    "front": "jetai",
+    "back": "direction, orientation, guidance, instructions, course",
+    "breakdown": [
+      {
+        "sound": "je",
+        "meaning": "geometrics"
+      },
+      {
+        "sound": "tai",
+        "meaning": "guide"
+      }
+    ]
+  },
+  {
+    "id": "D2_jevoi",
+    "front": "jevoi",
+    "back": "rail, track",
+    "breakdown": [
+      {
+        "sound": "je",
+        "meaning": "geometrics"
+      },
+      {
+        "sound": "voi",
+        "meaning": "rail"
+      }
+    ]
+  },
+  {
+    "id": "D2_jociuwa",
+    "front": "jociuwa",
+    "back": "paint, painting, painted",
+    "breakdown": [
+      {
+        "sound": "jo",
+        "meaning": "materials"
+      },
+      {
+        "sound": "ciu",
+        "meaning": "creative product"
+      },
+      {
+        "sound": "wa",
+        "meaning": "water"
+      }
+    ]
+  },
+  {
+    "id": "D2_jopopo",
+    "front": "jopopo",
+    "back": "shell",
+    "breakdown": [
+      {
+        "sound": "jo",
+        "meaning": "materials"
+      },
+      {
+        "sound": "popo",
+        "meaning": "echo"
+      }
+    ]
+  },
+  {
+    "id": "D2_leide",
+    "front": "leide",
+    "back": "root, rooted, rhizome, tuber",
+    "breakdown": [
+      {
+        "sound": "lei",
+        "meaning": "plants"
+      },
+      {
+        "sound": "de",
+        "meaning": "origin, from"
+      }
+    ]
+  },
+  {
+    "id": "D2_leinou",
+    "front": "leinou",
+    "back": "grass, herb, lawn",
+    "breakdown": [
+      {
+        "sound": "lei",
+        "meaning": "plants"
+      },
+      {
+        "sound": "nou",
+        "meaning": "low, falling"
+      }
+    ]
+  },
+  {
+    "id": "D2_leno",
+    "front": "leno",
+    "back": "soil, dirt, clay, mud, ground, floor",
+    "breakdown": [
+      {
+        "sound": "le",
+        "meaning": "environment"
+      },
+      {
+        "sound": "no",
+        "meaning": "downward, extension below"
+      }
+    ]
+  },
+  {
+    "id": "D2_lenodur",
+    "front": "lenodur",
+    "back": "rock, rough, stone",
+    "breakdown": [
+      {
+        "sound": "le",
+        "meaning": "environment"
+      },
+      {
+        "sound": "no",
+        "meaning": "downward, extension below"
+      },
+      {
+        "sound": "dur",
+        "meaning": "hardness"
+      }
+    ]
+  },
+  {
+    "id": "D2_lidastor",
+    "front": "lidastor",
+    "back": "year, annual",
+    "breakdown": [
+      {
+        "sound": "li",
+        "meaning": "time"
+      },
+      {
+        "sound": "dastor",
+        "meaning": "twelve"
+      }
+    ]
+  },
+  {
+    "id": "D2_ligo",
+    "front": "ligo",
+    "back": "half, partial, incompletely",
+    "breakdown": [
+      {
+        "sound": "li",
+        "meaning": "time"
+      },
+      {
+        "sound": "go",
+        "meaning": "half"
+      }
+    ]
+  },
+  {
+    "id": "D2_lipardas",
+    "front": "lipardas",
+    "back": "month, monthly",
+    "breakdown": [
+      {
+        "sound": "li",
+        "meaning": "time"
+      },
+      {
+        "sound": "pardas",
+        "meaning": "thirty"
+      }
+    ]
+  },
+  {
+    "id": "D2_liperi",
+    "front": "liperi",
+    "back": "week, weekly",
+    "breakdown": [
+      {
+        "sound": "li",
+        "meaning": "time"
+      },
+      {
+        "sound": "peri",
+        "meaning": "seven"
+      }
+    ]
+  },
+  {
+    "id": "D2_lirul",
+    "front": "lirul",
+    "back": "custom, habit, customary, tradition, traditional",
+    "breakdown": [
+      {
+        "sound": "li",
+        "meaning": "time"
+      },
+      {
+        "sound": "rul",
+        "meaning": "habit"
+      }
+    ]
+  },
+  {
+    "id": "D2_lises",
+    "front": "lises",
+    "back": "early, too soon",
+    "breakdown": [
+      {
+        "sound": "li",
+        "meaning": "time"
+      },
+      {
+        "sound": "ses",
+        "meaning": "early"
+      }
+    ]
+  },
+  {
+    "id": "D2_liyar",
+    "front": "liyar",
+    "back": "morning",
+    "breakdown": [
+      {
+        "sound": "li",
+        "meaning": "time"
+      },
+      {
+        "sound": "yar",
+        "meaning": "light"
+      }
+    ]
+  },
+  {
+    "id": "D2_lufu",
+    "front": "lufu",
+    "back": "wind, windy, air",
+    "breakdown": [
+      {
+        "sound": "lu",
+        "meaning": "weather and atmosphere"
+      },
+      {
+        "sound": "fu",
+        "meaning": "lightness"
+      }
+    ]
+  },
+  {
+    "id": "D2_lumbo",
+    "front": "lumbo",
+    "back": "cloud, cloudy",
+    "breakdown": [
+      {
+        "sound": "lu",
+        "meaning": "weather and atmosphere"
+      },
+      {
+        "sound": "mbo",
+        "meaning": "cloud"
+      }
+    ]
+  },
+  {
+    "id": "D2_luval",
+    "front": "luval",
+    "back": "snow",
+    "breakdown": [
+      {
+        "sound": "lu",
+        "meaning": "weather and atmosphere"
+      },
+      {
+        "sound": "val",
+        "meaning": "ice"
+      }
+    ]
+  },
+  {
+    "id": "D2_malil",
+    "front": "malil",
+    "back": "meat, flesh",
+    "breakdown": [
+      {
+        "sound": "ma",
+        "meaning": "cooking food"
+      },
+      {
+        "sound": "lil",
+        "meaning": "muscle"
+      }
+    ]
+  },
+  {
+    "id": "D2_malveni",
+    "front": "malveni",
+    "back": "flour, dust, a granulated substance, grind, powder",
+    "breakdown": [
+      {
+        "sound": "mal",
+        "meaning": "bread and dairy"
+      },
+      {
+        "sound": "veni",
+        "meaning": "granulated"
+      }
+    ]
+  },
+  {
+    "id": "D2_magaira",
+    "front": "magaira",
+    "back": "mushroom",
+    "breakdown": [
+      {
+        "sound": "ma",
+        "meaning": "cooking food"
+      },
+      {
+        "sound": "gaira",
+        "meaning": "fungus"
+      }
+    ]
+  },
+  {
+    "id": "D2_misumu",
+    "front": "misumu",
+    "back": "animal",
+    "breakdown": [
+      {
+        "sound": "mi",
+        "meaning": "bigger animals"
+      },
+      {
+        "sound": "su",
+        "meaning": "alongside"
+      },
+      {
+        "sound": "mu",
+        "meaning": "small animal"
+      }
+    ]
+  },
+  {
+    "id": "D2_moulu",
+    "front": "moulu",
+    "back": "milk, milky",
+    "breakdown": [
+      {
+        "sound": "mo",
+        "meaning": "food, eating"
+      },
+      {
+        "sound": "ulu",
+        "meaning": "milk"
+      }
+    ]
+  },
+  {
+    "id": "D2_moyi",
+    "front": "moyi",
+    "back": "sugar, sweet",
+    "breakdown": [
+      {
+        "sound": "mo",
+        "meaning": "food, eating"
+      },
+      {
+        "sound": "yi",
+        "meaning": "sugar"
+      }
+    ]
+  },
+  {
+    "id": "D2_neiden",
+    "front": "neiden",
+    "back": "develop, grow, growth, development, progression, expand",
+    "breakdown": [
+      {
+        "sound": "ne",
+        "meaning": "quantifiers"
+      },
+      {
+        "sound": "iden",
+        "meaning": "develop"
+      }
+    ]
+  },
+  {
+    "id": "D2_noder",
+    "front": "noder",
+    "back": "yet, even, still",
+    "breakdown": [
+      {
+        "sound": "no",
+        "meaning": "function words"
+      },
+      {
+        "sound": "der",
+        "meaning": "yet"
+      }
+    ]
+  },
+  {
+    "id": "D2_nomie",
+    "front": "nomie",
+    "back": "seem, appear, apparent, appearance",
+    "breakdown": [
+      {
+        "sound": "no",
+        "meaning": "function words"
+      },
+      {
+        "sound": "mie",
+        "meaning": "appearance"
+      }
+    ]
+  },
+  {
+    "id": "D2_none",
+    "front": "none",
+    "back": "have, possession, property",
+    "breakdown": [
+      {
+        "sound": "no",
+        "meaning": "function words"
+      },
+      {
+        "sound": "ne",
+        "meaning": "have"
+      }
+    ]
+  },
+  {
+    "id": "D2_norven",
+    "front": "norven",
+    "back": "already, by now/then",
+    "breakdown": [
+      {
+        "sound": "nor",
+        "meaning": "relation to reference"
+      },
+      {
+        "sound": "ven",
+        "meaning": "already"
+      }
+    ]
+  },
+  {
+    "id": "D2_oimin",
+    "front": "oimin",
+    "back": "amuse, entertainment, pleasure",
+    "breakdown": [
+      {
+        "sound": "oi",
+        "meaning": "fun"
+      },
+      {
+        "sound": "min",
+        "meaning": "amuse"
+      }
+    ]
+  },
+  {
+    "id": "D2_oiyar",
+    "front": "oiyar",
+    "back": "star, to highlight",
+    "breakdown": [
+      {
+        "sound": "oi",
+        "meaning": "fun"
+      },
+      {
+        "sound": "yar",
+        "meaning": "light"
+      }
+    ]
+  },
+  {
+    "id": "D2_poarofei",
+    "front": "poarofei",
+    "back": "alcohol, liquor",
+    "breakdown": [
+      {
+        "sound": "poa",
+        "meaning": "chemical"
+      },
+      {
+        "sound": "ro",
+        "meaning": "thinking, reasoning"
+      },
+      {
+        "sound": "fei",
+        "meaning": "less"
+      }
+    ]
+  },
+  {
+    "id": "D2_pocor",
+    "front": "pocor",
+    "back": "waste, trash, garbage, to throw away",
+    "breakdown": [
+      {
+        "sound": "po",
+        "meaning": "components"
+      },
+      {
+        "sound": "cor",
+        "meaning": "waste"
+      }
+    ]
+  },
+  {
+    "id": "D2_poelve",
+    "front": "poelve",
+    "back": "pure, clean, cleanse",
+    "breakdown": [
+      {
+        "sound": "po",
+        "meaning": "components"
+      },
+      {
+        "sound": "elve",
+        "meaning": "pure"
+      }
+    ]
+  },
+  {
+    "id": "D2_pohnen",
+    "front": "pohnen",
+    "back": "power, force, impose",
+    "breakdown": [
+      {
+        "sound": "poh",
+        "meaning": "energy"
+      },
+      {
+        "sound": "nen",
+        "meaning": "power and violence"
+      }
+    ]
+  },
+  {
+    "id": "D2_pohpoh",
+    "front": "pohpoh",
+    "back": "fire, flame, burn",
+    "breakdown": [
+      {
+        "sound": "poh",
+        "meaning": "energy, fire"
+      },
+      {
+        "sound": "poh",
+        "meaning": "energy"
+      }
+    ]
+  },
+  {
+    "id": "D2_pomia",
+    "front": "pomia",
+    "back": "mixture, mix",
+    "breakdown": [
+      {
+        "sound": "po",
+        "meaning": "components"
+      },
+      {
+        "sound": "mia",
+        "meaning": "mixture"
+      }
+    ]
+  },
+  {
+    "id": "D2_radom",
+    "front": "radom",
+    "back": "nation, country, national",
+    "breakdown": [
+      {
+        "sound": "ra",
+        "meaning": "society"
+      },
+      {
+        "sound": "dom",
+        "meaning": "place"
+      }
+    ]
+  },
+  {
+    "id": "D2_raihucu",
+    "front": "raihucu",
+    "back": "law, legal",
+    "breakdown": [
+      {
+        "sound": "rai",
+        "meaning": "governance"
+      },
+      {
+        "sound": "hucu",
+        "meaning": "command"
+      }
+    ]
+  },
+  {
+    "id": "D2_raitar",
+    "front": "raitar",
+    "back": "government, govern, political rule",
+    "breakdown": [
+      {
+        "sound": "rai",
+        "meaning": "governance"
+      },
+      {
+        "sound": "tar",
+        "meaning": "regulate"
+      }
+    ]
+  },
+  {
+    "id": "D2_raivoa",
+    "front": "raivoa",
+    "back": "prison, jail, imprison",
+    "breakdown": [
+      {
+        "sound": "rai",
+        "meaning": "governance"
+      },
+      {
+        "sound": "voa",
+        "meaning": "constraint"
+      }
+    ]
+  },
+  {
+    "id": "D2_ranodo",
+    "front": "ranodo",
+    "back": "business, company",
+    "breakdown": [
+      {
+        "sound": "ran",
+        "meaning": "media, public discourse"
+      },
+      {
+        "sound": "odo",
+        "meaning": "business"
+      }
+    ]
+  },
+  {
+    "id": "D2_ranvio",
+    "front": "ranvio",
+    "back": "market, fair, to shop, supermarket",
+    "breakdown": [
+      {
+        "sound": "ran",
+        "meaning": "media, public discourse"
+      },
+      {
+        "sound": "vio",
+        "meaning": "change, exchange"
+      }
+    ]
+  },
+  {
+    "id": "D2_rasluo",
+    "front": "rasluo",
+    "back": "sport, athletic, physical exercise",
+    "breakdown": [
+      {
+        "sound": "ras",
+        "meaning": "about society"
+      },
+      {
+        "sound": "luo",
+        "meaning": "practice"
+      }
+    ]
+  },
+  {
+    "id": "D2_rasuir",
+    "front": "rasuir",
+    "back": "history, historical",
+    "breakdown": [
+      {
+        "sound": "ras",
+        "meaning": "about society"
+      },
+      {
+        "sound": "uir",
+        "meaning": "history"
+      }
+    ]
+  },
+  {
+    "id": "D2_roedom",
+    "front": "roedom",
+    "back": "school",
+    "breakdown": [
+      {
+        "sound": "roe",
+        "meaning": "formal education"
+      },
+      {
+        "sound": "dom",
+        "meaning": "place"
+      }
+    ]
+  },
+  {
+    "id": "D2_roudi",
+    "front": "roudi",
+    "back": "write, a writing, text",
+    "breakdown": [
+      {
+        "sound": "rou",
+        "meaning": "written knowledge"
+      },
+      {
+        "sound": "di",
+        "meaning": "stripe, finger"
+      }
+    ]
+  },
+  {
+    "id": "D2_sedel",
+    "front": "sedel",
+    "back": "logic, logical",
+    "breakdown": [
+      {
+        "sound": "se",
+        "meaning": "machines"
+      },
+      {
+        "sound": "del",
+        "meaning": "logic"
+      }
+    ]
+  },
+  {
+    "id": "D2_selyino",
+    "front": "selyino",
+    "back": "program, agenda, plan, computer program",
+    "breakdown": [
+      {
+        "sound": "sel",
+        "meaning": "coding"
+      },
+      {
+        "sound": "yino",
+        "meaning": "program"
+      }
+    ]
+  },
+  {
+    "id": "D2_semtela",
+    "front": "semtela",
+    "back": "system, systematic, systematize, organize",
+    "breakdown": [
+      {
+        "sound": "sem",
+        "meaning": "system"
+      },
+      {
+        "sound": "tela",
+        "meaning": "system"
+      }
+    ]
+  },
+  {
+    "id": "D2_sero",
+    "front": "sero",
+    "back": "memory, remember, familiar",
+    "breakdown": [
+      {
+        "sound": "se",
+        "meaning": "machines"
+      },
+      {
+        "sound": "ro",
+        "meaning": "thinking, reasoning"
+      }
+    ]
+  },
+  {
+    "id": "D2_seseri",
+    "front": "seseri",
+    "back": "menu, contents, list, enumerate",
+    "breakdown": [
+      {
+        "sound": "se",
+        "meaning": "machines"
+      },
+      {
+        "sound": "seri",
+        "meaning": "series"
+      }
+    ]
+  },
+  {
+    "id": "D2_tidac",
+    "front": "tidac",
+    "back": "beat, fight, battle",
+    "breakdown": [
+      {
+        "sound": "ti",
+        "meaning": "harm, damage"
+      },
+      {
+        "sound": "dac",
+        "meaning": "beat"
+      }
+    ]
+  },
+  {
+    "id": "D2_tidetu",
+    "front": "tidetu",
+    "back": "death, dead, die",
+    "breakdown": [
+      {
+        "sound": "ti",
+        "meaning": "harm, damage"
+      },
+      {
+        "sound": "detu",
+        "meaning": "end"
+      }
+    ]
+  },
+  {
+    "id": "D2_tidoi",
+    "front": "tidoi",
+    "back": "against, anti-, opposing, oppose",
+    "breakdown": [
+      {
+        "sound": "ti",
+        "meaning": "harm, damage"
+      },
+      {
+        "sound": "doi",
+        "meaning": "opposing"
+      }
+    ]
+  },
+  {
+    "id": "D2_tiuvor",
+    "front": "tiuvor",
+    "back": "danger, dangerous",
+    "breakdown": [
+      {
+        "sound": "tiu",
+        "meaning": "types of harm"
+      },
+      {
+        "sound": "vor",
+        "meaning": "threat"
+      }
+    ]
+  },
+  {
+    "id": "D2_tigim",
+    "front": "tigim",
+    "back": "hate, hatred, enmity",
+    "breakdown": [
+      {
+        "sound": "ti",
+        "meaning": "harm, damage"
+      },
+      {
+        "sound": "gim",
+        "meaning": "hate"
+      }
+    ]
+  },
+  {
+    "id": "D2_todur",
+    "front": "todur",
+    "back": "problem, trouble, to struggle",
+    "breakdown": [
+      {
+        "sound": "to",
+        "meaning": "suffering, distress"
+      },
+      {
+        "sound": "dur",
+        "meaning": "hardness"
+      }
+    ]
+  },
+  {
+    "id": "D2_tohnaru",
+    "front": "tohnaru",
+    "back": "anger, angry",
+    "breakdown": [
+      {
+        "sound": "toh",
+        "meaning": "emotional suffering"
+      },
+      {
+        "sound": "na",
+        "meaning": "giving"
+      },
+      {
+        "sound": "ru",
+        "meaning": "bend"
+      }
+    ]
+  },
+  {
+    "id": "D2_tohvor",
+    "front": "tohvor",
+    "back": "fear, horror, fearful, scary",
+    "breakdown": [
+      {
+        "sound": "toh",
+        "meaning": "emotional suffering"
+      },
+      {
+        "sound": "vor",
+        "meaning": "threat"
+      }
+    ]
+  },
+  {
+    "id": "D2_tostale",
+    "front": "tostale",
+    "back": "offend, offensive, offense",
+    "breakdown": [
+      {
+        "sound": "tos",
+        "meaning": "interpersonal suffering"
+      },
+      {
+        "sound": "tale",
+        "meaning": "cross"
+      }
+    ]
+  },
+  {
+    "id": "D2_touros",
+    "front": "touros",
+    "back": "tense, tight, squeeze",
+    "breakdown": [
+      {
+        "sound": "tou",
+        "meaning": "physical depletion"
+      },
+      {
+        "sound": "ros",
+        "meaning": "tense"
+      }
+    ]
+  },
+  {
+    "id": "D2_tulhue",
+    "front": "tulhue",
+    "back": "smoke",
+    "breakdown": [
+      {
+        "sound": "tul",
+        "meaning": "crash"
+      },
+      {
+        "sound": "hue",
+        "meaning": "smoke"
+      }
+    ]
+  },
+  {
+    "id": "D2_turai",
+    "front": "turai",
+    "back": "war",
+    "breakdown": [
+      {
+        "sound": "tu",
+        "meaning": "conflict"
+      },
+      {
+        "sound": "rai",
+        "meaning": "society"
+      }
+    ]
+  },
+  {
+    "id": "D2_vanpai",
+    "front": "vanpai",
+    "back": "foot, by foot, stomp, step",
+    "breakdown": [
+      {
+        "sound": "van",
+        "meaning": "limbs"
+      },
+      {
+        "sound": "pai",
+        "meaning": "foot"
+      }
+    ]
+  },
+  {
+    "id": "D2_vanru",
+    "front": "vanru",
+    "back": "knee, joints, node",
+    "breakdown": [
+      {
+        "sound": "van",
+        "meaning": "limbs"
+      },
+      {
+        "sound": "ru",
+        "meaning": "bend"
+      }
+    ]
+  },
+  {
+    "id": "D2_vanu",
+    "front": "vanu",
+    "back": "arm, limb",
+    "breakdown": [
+      {
+        "sound": "van",
+        "meaning": "limbs"
+      },
+      {
+        "sound": "nu",
+        "meaning": "limit"
+      }
+    ]
+  },
+  {
+    "id": "D2_vardur",
+    "front": "vardur",
+    "back": "tooth, bite",
+    "breakdown": [
+      {
+        "sound": "var",
+        "meaning": "face"
+      },
+      {
+        "sound": "dur",
+        "meaning": "hardness"
+      }
+    ]
+  },
+  {
+    "id": "D2_varluan",
+    "front": "varluan",
+    "back": "tongue, taste",
+    "breakdown": [
+      {
+        "sound": "var",
+        "meaning": "face"
+      },
+      {
+        "sound": "luan",
+        "meaning": "tongue"
+      }
+    ]
+  },
+  {
+    "id": "D2_varodu",
+    "front": "varodu",
+    "back": "head",
+    "breakdown": [
+      {
+        "sound": "var",
+        "meaning": "face"
+      },
+      {
+        "sound": "odu",
+        "meaning": "top"
+      }
+    ]
+  },
+  {
+    "id": "D2_varpi",
+    "front": "varpi",
+    "back": "nose, smell, to smell, meddlesome, prying",
+    "breakdown": [
+      {
+        "sound": "var",
+        "meaning": "face"
+      },
+      {
+        "sound": "pi",
+        "meaning": "nose"
+      }
+    ]
+  },
+  {
+    "id": "D2_vatale",
+    "front": "vatale",
+    "back": "neck, throat",
+    "breakdown": [
+      {
+        "sound": "va",
+        "meaning": "core"
+      },
+      {
+        "sound": "tale",
+        "meaning": "through"
+      }
+    ]
+  },
+  {
+    "id": "D2_vavari",
+    "front": "vavari",
+    "back": "back, backwards",
+    "breakdown": [
+      {
+        "sound": "va",
+        "meaning": "core"
+      },
+      {
+        "sound": "vari",
+        "meaning": "back"
+      }
+    ]
+  },
+  {
+    "id": "D2_vidur",
+    "front": "vidur",
+    "back": "bone",
+    "breakdown": [
+      {
+        "sound": "vi",
+        "meaning": "interior body"
+      },
+      {
+        "sound": "dur",
+        "meaning": "hardness"
+      }
+    ]
+  },
+  {
+    "id": "D2_vilam",
+    "front": "vilam",
+    "back": "fat, thick",
+    "breakdown": [
+      {
+        "sound": "vi",
+        "meaning": "interior body"
+      },
+      {
+        "sound": "lam",
+        "meaning": "fat"
+      }
+    ]
+  },
+  {
+    "id": "D2_visomo",
+    "front": "visomo",
+    "back": "stomach, belly, abdomen",
+    "breakdown": [
+      {
+        "sound": "vis",
+        "meaning": "organs"
+      },
+      {
+        "sound": "mo",
+        "meaning": "eat"
+      }
+    ]
+  },
+  {
+    "id": "D2_visuva",
+    "front": "visuva",
+    "back": "body, physical",
+    "breakdown": [
+      {
+        "sound": "vi",
+        "meaning": "interior body"
+      },
+      {
+        "sound": "su",
+        "meaning": "alongside"
+      },
+      {
+        "sound": "va",
+        "meaning": "core"
+      }
+    ]
+  },
+  {
+    "id": "D2_vosvosi",
+    "front": "vosvosi",
+    "back": "rub, friction, massage, caress, to pet",
+    "breakdown": [
+      {
+        "sound": "vos",
+        "meaning": "cleaning actions"
+      },
+      {
+        "sound": "vosi",
+        "meaning": "rub"
+      }
+    ]
+  },
+  {
+    "id": "D2_widuo",
+    "front": "widuo",
+    "back": "near, neighborhood, close by, approach, nearly, close",
+    "breakdown": [
+      {
+        "sound": "wi",
+        "meaning": "geographical orientation"
+      },
+      {
+        "sound": "duo",
+        "meaning": "near"
+      }
+    ]
+  },
+  {
+    "id": "D2_wile",
+    "front": "wile",
+    "back": "area, region, zone, extent, size",
+    "breakdown": [
+      {
+        "sound": "wi",
+        "meaning": "geographical orientation"
+      },
+      {
+        "sound": "le",
+        "meaning": "environment"
+      }
+    ]
+  },
+  {
+    "id": "D2_wiltan",
+    "front": "wiltan",
+    "back": "city",
+    "breakdown": [
+      {
+        "sound": "wil",
+        "meaning": "human made geography"
+      },
+      {
+        "sound": "tan",
+        "meaning": "big"
+      }
+    ]
+  },
+  {
+    "id": "D2_wimlua",
+    "front": "wimlua",
+    "back": "river, stream",
+    "breakdown": [
+      {
+        "sound": "wim",
+        "meaning": "natural geography"
+      },
+      {
+        "sound": "lua",
+        "meaning": "flow"
+      }
+    ]
+  },
+  {
+    "id": "D2_wimrih",
+    "front": "wimrih",
+    "back": "mountain, hill",
+    "breakdown": [
+      {
+        "sound": "wim",
+        "meaning": "natural geography"
+      },
+      {
+        "sound": "rih",
+        "meaning": "higher, rising"
+      }
+    ]
+  },
+  {
+    "id": "D2_yahci",
+    "front": "yahci",
+    "back": "sharp, acute, keen",
+    "breakdown": [
+      {
+        "sound": "yah",
+        "meaning": "texture qualities"
+      },
+      {
+        "sound": "ci",
+        "meaning": "sharp"
+      }
+    ]
+  },
+  {
+    "id": "D2_yahlul",
+    "front": "yahlul",
+    "back": "smooth, soft, sleek, even",
+    "breakdown": [
+      {
+        "sound": "yah",
+        "meaning": "texture qualities"
+      },
+      {
+        "sound": "lul",
+        "meaning": "smooth"
+      }
+    ]
+  },
+  {
+    "id": "D2_yaldih",
+    "front": "yaldih",
+    "back": "full, to fill, whole, complete",
+    "breakdown": [
+      {
+        "sound": "yal",
+        "meaning": "size qualities"
+      },
+      {
+        "sound": "dih",
+        "meaning": "full"
+      }
+    ]
+  },
+  {
+    "id": "D2_yaljui",
+    "front": "yaljui",
+    "back": "short, temporary",
+    "breakdown": [
+      {
+        "sound": "yal",
+        "meaning": "size qualities"
+      },
+      {
+        "sound": "jui",
+        "meaning": "temporary"
+      }
+    ]
+  },
+  {
+    "id": "D2_yalwol",
+    "front": "yalwol",
+    "back": "wide, width, latitude, broad, vague",
+    "breakdown": [
+      {
+        "sound": "yal",
+        "meaning": "size qualities"
+      },
+      {
+        "sound": "wol",
+        "meaning": "wide"
+      }
+    ]
+  },
+  {
+    "id": "D2_yavuson",
+    "front": "yavuson",
+    "back": "slow, slowly",
+    "breakdown": [
+      {
+        "sound": "ya",
+        "meaning": "objective qualities"
+      },
+      {
+        "sound": "vuson",
+        "meaning": "slow movement"
+      }
+    ]
+  },
+  {
+    "id": "D2_yejae",
+    "front": "yejae",
+    "back": "bag, sack, burden",
+    "breakdown": [
+      {
+        "sound": "ye",
+        "meaning": "clothing and fabric"
+      },
+      {
+        "sound": "jae",
+        "meaning": "container"
+      }
+    ]
+  },
+  {
+    "id": "D2_yesdora",
+    "front": "yesdora",
+    "back": "tie, bind, knot, link, connection",
+    "breakdown": [
+      {
+        "sound": "yes",
+        "meaning": "garments"
+      },
+      {
+        "sound": "dora",
+        "meaning": "bond"
+      }
+    ]
+  },
+  {
+    "id": "D2_yesmel",
+    "front": "yesmel",
+    "back": "dress, robe",
+    "breakdown": [
+      {
+        "sound": "yes",
+        "meaning": "garments"
+      },
+      {
+        "sound": "mel",
+        "meaning": "dress"
+      }
+    ]
+  },
+  {
+    "id": "D2_yespai",
+    "front": "yespai",
+    "back": "shoe, suitable",
+    "breakdown": [
+      {
+        "sound": "yes",
+        "meaning": "garments"
+      },
+      {
+        "sound": "pai",
+        "meaning": "foot"
+      }
+    ]
+  },
+  {
+    "id": "D2_yewamus",
+    "front": "yewamus",
+    "back": "net, network, web, internet, catch, trap",
+    "breakdown": [
+      {
+        "sound": "ye",
+        "meaning": "clothing and fabric"
+      },
+      {
+        "sound": "wa",
+        "meaning": "water"
+      },
+      {
+        "sound": "mus",
+        "meaning": "bug"
+      }
+    ]
+  },
+  {
+    "id": "D2_yogali",
+    "front": "yogali",
+    "back": "brown",
+    "breakdown": [
+      {
+        "sound": "yo",
+        "meaning": "colors"
+      },
+      {
+        "sound": "gali",
+        "meaning": "coffee"
+      }
+    ]
+  },
+  {
+    "id": "D2_yolimel",
+    "front": "yolimel",
+    "back": "dark, black",
+    "breakdown": [
+      {
+        "sound": "yo",
+        "meaning": "colors"
+      },
+      {
+        "sound": "limel",
+        "meaning": "evening"
+      }
+    ]
+  },
+  {
+    "id": "D2_yosari",
+    "front": "yosari",
+    "back": "yellow",
+    "breakdown": [
+      {
+        "sound": "yo",
+        "meaning": "colors"
+      },
+      {
+        "sound": "sari",
+        "meaning": "sun"
+      }
+    ]
+  },
+  {
+    "id": "D2_yoyo",
+    "front": "yoyo",
+    "back": "color, colorful",
+    "breakdown": [
+      {
+        "sound": "yo",
+        "meaning": "colors"
+      }
+    ]
+  },
+  {
+    "id": "D2_yudur",
+    "front": "yudur",
+    "back": "hard, difficult",
+    "breakdown": [
+      {
+        "sound": "yu",
+        "meaning": "subjective qualities"
+      },
+      {
+        "sound": "dur",
+        "meaning": "hardness"
+      }
+    ]
+  },
+  {
+    "id": "D2_yufer",
+    "front": "yufer",
+    "back": "dirty, grime, filth, to taint, corruption",
+    "breakdown": [
+      {
+        "sound": "yu",
+        "meaning": "subjective qualities"
+      },
+      {
+        "sound": "fer",
+        "meaning": "dirty"
+      }
+    ]
+  },
+  {
+    "id": "D2_yugai",
+    "front": "yugai",
+    "back": "easy, ease, simple, straightforward, plain",
+    "breakdown": [
+      {
+        "sound": "yu",
+        "meaning": "subjective qualities"
+      },
+      {
+        "sound": "gai",
+        "meaning": "small"
+      }
+    ]
+  },
+  {
+    "id": "D2_yunfou",
+    "front": "yunfou",
+    "back": "poor, poverty",
+    "breakdown": [
+      {
+        "sound": "yun",
+        "meaning": "personal characteristics"
+      },
+      {
+        "sound": "fou",
+        "meaning": "lack"
+      }
+    ]
+  },
+  {
+    "id": "D2_yuvabo",
+    "front": "yuvabo",
+    "back": "comfortable, cozy",
+    "breakdown": [
+      {
+        "sound": "yu",
+        "meaning": "subjective qualities"
+      },
+      {
+        "sound": "vabo",
+        "meaning": "cozy, body home"
+      }
+    ]
+  },
+  {
+    "id": "D2_anefene",
+    "front": "anefene",
+    "back": "rest",
+    "breakdown": [
+      {
+        "sound": "ane",
+        "meaning": "static movement"
+      },
+      {
+        "sound": "fene",
+        "meaning": "rest"
+      }
+    ]
+  },
+  {
+    "id": "D2_anipas",
+    "front": "anipas",
+    "back": "choose, select, choice",
+    "breakdown": [
+      {
+        "sound": "ani",
+        "meaning": "movement towards"
+      },
+      {
+        "sound": "pas",
+        "meaning": "favor"
+      }
+    ]
+  },
+  {
+    "id": "D2_anocari",
+    "front": "anocari",
+    "back": "leave, quit, abandon, exit",
+    "breakdown": [
+      {
+        "sound": "ano",
+        "meaning": "movement away"
+      },
+      {
+        "sound": "cari",
+        "meaning": "leave"
+      }
+    ]
+  },
+  {
+    "id": "D2_anonuve",
+    "front": "anonuve",
+    "back": "avoid, dodge, shun, avoidance",
+    "breakdown": [
+      {
+        "sound": "ano",
+        "meaning": "movement away"
+      },
+      {
+        "sound": "nuve",
+        "meaning": "avoid"
+      }
+    ]
+  },
+  {
+    "id": "D2_anparu",
+    "front": "anparu",
+    "back": "prepare, preparation",
+    "breakdown": [
+      {
+        "sound": "an",
+        "meaning": "action"
+      },
+      {
+        "sound": "paru",
+        "meaning": "preparation"
+      }
+    ]
+  },
+  {
+    "id": "D2_anu",
+    "front": "anu",
+    "back": "close, shut",
+    "breakdown": [
+      {
+        "sound": "an",
+        "meaning": "action"
+      },
+      {
+        "sound": "nu",
+        "meaning": "limit"
+      }
+    ]
+  },
+  {
+    "id": "D2_asensau",
+    "front": "asensau",
+    "back": "awake, wake, aware",
+    "breakdown": [
+      {
+        "sound": "as",
+        "meaning": "involuntary bodily functions"
+      },
+      {
+        "sound": "ensau",
+        "meaning": "action start"
+      }
+    ]
+  },
+  {
+    "id": "D2_asfe",
+    "front": "asfe",
+    "back": "pause, break, interruption",
+    "breakdown": [
+      {
+        "sound": "as",
+        "meaning": "involuntary bodily functions"
+      },
+      {
+        "sound": "fe",
+        "meaning": "halting"
+      }
+    ]
+  },
+  {
+    "id": "D2_aswowo",
+    "front": "aswowo",
+    "back": "shake",
+    "breakdown": [
+      {
+        "sound": "as",
+        "meaning": "bodily functions"
+      },
+      {
+        "sound": "wowo",
+        "meaning": "oscillate"
+      }
+    ]
+  },
+  {
+    "id": "D2_asugar",
+    "front": "asugar",
+    "back": "yell, scream, shout, exclaim",
+    "breakdown": [
+      {
+        "sound": "asu",
+        "meaning": "involuntary vocal acts"
+      },
+      {
+        "sound": "gar",
+        "meaning": "yell"
+      }
+    ]
+  },
+  {
+    "id": "D2_beitan",
+    "front": "beitan",
+    "back": "bus",
+    "breakdown": [
+      {
+        "sound": "bei",
+        "meaning": "vehicles"
+      },
+      {
+        "sound": "tan",
+        "meaning": "big"
+      }
+    ]
+  },
+  {
+    "id": "D2_beitor",
+    "front": "beitor",
+    "back": "bicycle",
+    "breakdown": [
+      {
+        "sound": "bei",
+        "meaning": "vehicles"
+      },
+      {
+        "sound": "tor",
+        "meaning": "bicycle"
+      }
+    ]
+  },
+  {
+    "id": "D2_boelulo",
+    "front": "boelulo",
+    "back": "patio, courtyard, yard",
+    "breakdown": [
+      {
+        "sound": "boe",
+        "meaning": "house spaces"
+      },
+      {
+        "sound": "lu",
+        "meaning": "outside"
+      },
+      {
+        "sound": "lo",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "D2_bofi",
+    "front": "bofi",
+    "back": "inside, interior, internal, indoors",
+    "breakdown": [
+      {
+        "sound": "bo",
+        "meaning": "home interior"
+      },
+      {
+        "sound": "fi",
+        "meaning": "inside"
+      }
+    ]
+  },
+  {
+    "id": "D2_borel",
+    "front": "borel",
+    "back": "ceiling, roof",
+    "breakdown": [
+      {
+        "sound": "bor",
+        "meaning": "house structure"
+      },
+      {
+        "sound": "rel",
+        "meaning": "up, high"
+      }
+    ]
+  },
+  {
+    "id": "D2_ciureva",
+    "front": "ciureva",
+    "back": "photo, picture",
+    "breakdown": [
+      {
+        "sound": "ciu",
+        "meaning": "creative products"
+      },
+      {
+        "sound": "reva",
+        "meaning": "accurate"
+      }
+    ]
+  },
+  {
+    "id": "D2_coman",
+    "front": "coman",
+    "back": "information, inform, informative",
+    "breakdown": [
+      {
+        "sound": "co",
+        "meaning": "communication"
+      },
+      {
+        "sound": "man",
+        "meaning": "information"
+      }
+    ]
+  },
+  {
+    "id": "D2_copei",
+    "front": "copei",
+    "back": "search, hunt, pursuit, seek, quest",
+    "breakdown": [
+      {
+        "sound": "co",
+        "meaning": "communication"
+      },
+      {
+        "sound": "pei",
+        "meaning": "search"
+      }
+    ]
+  },
+  {
+    "id": "D2_copen",
+    "front": "copen",
+    "back": "ticket, a pass, bill (banknote)",
+    "breakdown": [
+      {
+        "sound": "co",
+        "meaning": "communication"
+      },
+      {
+        "sound": "pen",
+        "meaning": "ticket"
+      }
+    ]
+  },
+  {
+    "id": "D2_coupa",
+    "front": "coupa",
+    "back": "card, placard, cardboard, charter",
+    "breakdown": [
+      {
+        "sound": "cou",
+        "meaning": "written communication"
+      },
+      {
+        "sound": "pa",
+        "meaning": "paper"
+      }
+    ]
+  },
+  {
+    "id": "D2_coutam",
+    "front": "coutam",
+    "back": "page",
+    "breakdown": [
+      {
+        "sound": "cou",
+        "meaning": "written communication"
+      },
+      {
+        "sound": "tam",
+        "meaning": "one"
+      }
+    ]
+  },
+  {
+    "id": "D2_daecoti",
+    "front": "daecoti",
+    "back": "criticize, complain",
+    "breakdown": [
+      {
+        "sound": "dae",
+        "meaning": "epistemic"
+      },
+      {
+        "sound": "co",
+        "meaning": "communication"
+      },
+      {
+        "sound": "ti",
+        "meaning": "bad"
+      }
+    ]
+  },
+  {
+    "id": "D2_dade",
+    "front": "dade",
+    "back": "origin, source, original, cause, explanation",
+    "breakdown": [
+      {
+        "sound": "da",
+        "meaning": "evaluation"
+      },
+      {
+        "sound": "de",
+        "meaning": "origin, from"
+      }
+    ]
+  },
+  {
+    "id": "D2_daemie",
+    "front": "daemie",
+    "back": "guess, estimate, approximation",
+    "breakdown": [
+      {
+        "sound": "dae",
+        "meaning": "epistemic"
+      },
+      {
+        "sound": "mie",
+        "meaning": "appearance"
+      }
+    ]
+  },
+  {
+    "id": "D2_dami",
+    "front": "dami",
+    "back": "exist, existence, existent, to be",
+    "breakdown": [
+      {
+        "sound": "da",
+        "meaning": "evaluation"
+      },
+      {
+        "sound": "mi",
+        "meaning": "existence, being"
+      }
+    ]
+  },
+  {
+    "id": "D2_dajim",
+    "front": "dajim",
+    "back": "attention, warn, caution, warning, alert, notification",
+    "breakdown": [
+      {
+        "sound": "dan",
+        "meaning": "emphasis"
+      },
+      {
+        "sound": "jim",
+        "meaning": "urgency"
+      }
+    ]
+  },
+  {
+    "id": "D2_danmir",
+    "front": "danmir",
+    "back": "important, importance, to matter",
+    "breakdown": [
+      {
+        "sound": "dan",
+        "meaning": "emphasis"
+      },
+      {
+        "sound": "mir",
+        "meaning": "lots of"
+      }
+    ]
+  },
+  {
+    "id": "D2_dantam",
+    "front": "dantam",
+    "back": "only",
+    "breakdown": [
+      {
+        "sound": "dan",
+        "meaning": "emphasis"
+      },
+      {
+        "sound": "tam",
+        "meaning": "one"
+      }
+    ]
+  },
+  {
+    "id": "D2_dasora",
+    "front": "dasora",
+    "back": "purpose, goal, objective, aim, intend, target",
+    "breakdown": [
+      {
+        "sound": "da",
+        "meaning": "evaluation"
+      },
+      {
+        "sound": "sora",
+        "meaning": "purpose"
+      }
+    ]
+  },
+  {
+    "id": "D2_dateli",
+    "front": "dateli",
+    "back": "situation, circunstance, to happen",
+    "breakdown": [
+      {
+        "sound": "da",
+        "meaning": "evaluation"
+      },
+      {
+        "sound": "teli",
+        "meaning": "moment"
+      }
+    ]
+  },
+  {
+    "id": "D2_dayar",
+    "front": "dayar",
+    "back": "obvious, clear, explicit",
+    "breakdown": [
+      {
+        "sound": "da",
+        "meaning": "evaluation"
+      },
+      {
+        "sound": "yar",
+        "meaning": "light"
+      }
+    ]
+  },
+  {
+    "id": "D2_elepan",
+    "front": "elepan",
+    "back": "accomplish, accomplishment, success, succeed, victory",
+    "breakdown": [
+      {
+        "sound": "ele",
+        "meaning": "self-expansion"
+      },
+      {
+        "sound": "pan",
+        "meaning": "accomplish"
+      }
+    ]
+  },
+  {
+    "id": "D2_eleyus",
+    "front": "eleyus",
+    "back": "dream",
+    "breakdown": [
+      {
+        "sound": "ele",
+        "meaning": "self-expansion"
+      },
+      {
+        "sound": "yus",
+        "meaning": "dream"
+      }
+    ]
+  },
+  {
+    "id": "D2_elodao",
+    "front": "elodao",
+    "back": "promise, vow, pledge, swear",
+    "breakdown": [
+      {
+        "sound": "elo",
+        "meaning": "prosocial"
+      },
+      {
+        "sound": "dao",
+        "meaning": "serious"
+      }
+    ]
+  },
+  {
+    "id": "D2_elojer",
+    "front": "elojer",
+    "back": "pardon, forgive, condone, an excuse",
+    "breakdown": [
+      {
+        "sound": "elo",
+        "meaning": "prosocial"
+      },
+      {
+        "sound": "jer",
+        "meaning": "pardon"
+      }
+    ]
+  },
+  {
+    "id": "D2_elonemi",
+    "front": "elonemi",
+    "back": "save, rescue, salvation, salvage, retrieve",
+    "breakdown": [
+      {
+        "sound": "elo",
+        "meaning": "prosocial"
+      },
+      {
+        "sound": "nemi",
+        "meaning": "save"
+      }
+    ]
+  },
+  {
+    "id": "D2_eoco",
+    "front": "eoco",
+    "back": "announce, announcement, declare, declaration",
+    "breakdown": [
+      {
+        "sound": "eo",
+        "meaning": "social"
+      },
+      {
+        "sound": "co",
+        "meaning": "communication"
+      }
+    ]
+  },
+  {
+    "id": "D2_eodya",
+    "front": "eodya",
+    "back": "invite, invitation",
+    "breakdown": [
+      {
+        "sound": "eod",
+        "meaning": "social interactions"
+      },
+      {
+        "sound": "ya",
+        "meaning": "representation, invitation"
+      }
+    ]
+  },
+  {
+    "id": "D2_eodyel",
+    "front": "eodyel",
+    "back": "join, group, together, club, coalition, enroll, register",
+    "breakdown": [
+      {
+        "sound": "eod",
+        "meaning": "social interactions"
+      },
+      {
+        "sound": "yel",
+        "meaning": "joining"
+      }
+    ]
+  },
+  {
+    "id": "D2_eomfel",
+    "front": "eomfel",
+    "back": "event, case (instance), occurrence, phenomenon, times",
+    "breakdown": [
+      {
+        "sound": "eom",
+        "meaning": "events and gatherings"
+      },
+      {
+        "sound": "fel",
+        "meaning": "event"
+      }
+    ]
+  },
+  {
+    "id": "D2_eover",
+    "front": "eover",
+    "back": "care for, to care for",
+    "breakdown": [
+      {
+        "sound": "eo",
+        "meaning": "social"
+      },
+      {
+        "sound": "ver",
+        "meaning": "safety"
+      }
+    ]
+  },
+  {
+    "id": "D2_falni",
+    "front": "falni",
+    "back": "baby",
+    "breakdown": [
+      {
+        "sound": "fal",
+        "meaning": "young ones"
+      },
+      {
+        "sound": "ni",
+        "meaning": "new"
+      }
+    ]
+  },
+  {
+    "id": "D2_gaet",
+    "front": "gaet",
+    "back": "effect, result, to effect, effective",
+    "breakdown": [
+      {
+        "sound": "ga",
+        "meaning": "evaluation"
+      },
+      {
+        "sound": "et",
+        "meaning": "effect"
+      }
+    ]
+  },
+  {
+    "id": "D2_ganter",
+    "front": "ganter",
+    "back": "rank, status, ordering, -th (ordinal)",
+    "breakdown": [
+      {
+        "sound": "gan",
+        "meaning": "ranking"
+      },
+      {
+        "sound": "ter",
+        "meaning": "count"
+      }
+    ]
+  },
+  {
+    "id": "D2_ganyu",
+    "front": "ganyu",
+    "back": "average, medium, normal, usual, standard, norm, common",
+    "breakdown": [
+      {
+        "sound": "gan",
+        "meaning": "ranking"
+      },
+      {
+        "sound": "nyu",
+        "meaning": "average"
+      }
+    ]
+  },
+  {
+    "id": "D2_garel",
+    "front": "garel",
+    "back": "elevate, rise, lift, raise",
+    "breakdown": [
+      {
+        "sound": "ga",
+        "meaning": "evaluation"
+      },
+      {
+        "sound": "rel",
+        "meaning": "up, high"
+      }
+    ]
+  },
+  {
+    "id": "D2_gehdove",
+    "front": "gehdove",
+    "back": "sell, sale",
+    "breakdown": [
+      {
+        "sound": "geh",
+        "meaning": "sell"
+      },
+      {
+        "sound": "dove",
+        "meaning": "sell"
+      }
+    ]
+  },
+  {
+    "id": "D2_geta",
+    "front": "geta",
+    "back": "pay",
+    "breakdown": [
+      {
+        "sound": "ge",
+        "meaning": "finances"
+      },
+      {
+        "sound": "ta",
+        "meaning": "hand"
+      }
+    ]
+  },
+  {
+    "id": "D2_geyelu",
+    "front": "geyelu",
+    "back": "collect, collection, gather, assembly",
+    "breakdown": [
+      {
+        "sound": "ge",
+        "meaning": "finances"
+      },
+      {
+        "sound": "yel",
+        "meaning": "joining"
+      },
+      {
+        "sound": "lu",
+        "meaning": "outside"
+      }
+    ]
+  },
+  {
+    "id": "D2_heimir",
+    "front": "heimir",
+    "back": "awesome",
+    "breakdown": [
+      {
+        "sound": "hei",
+        "meaning": "protagonist tropes"
+      },
+      {
+        "sound": "mir",
+        "meaning": "lots of"
+      }
+    ]
+  },
+  {
+    "id": "D2_hevas",
+    "front": "hevas",
+    "back": "secret, mystery",
+    "breakdown": [
+      {
+        "sound": "he",
+        "meaning": "fiction tropes"
+      },
+      {
+        "sound": "vas",
+        "meaning": "secret"
+      }
+    ]
+  },
+  {
+    "id": "D2_ilayayu",
+    "front": "ilayayu",
+    "back": "describe",
+    "breakdown": [
+      {
+        "sound": "ila",
+        "meaning": "sharing information"
+      },
+      {
+        "sound": "ya",
+        "meaning": "objective qualities"
+      },
+      {
+        "sound": "yu",
+        "meaning": "subjective qualities"
+      }
+    ]
+  },
+  {
+    "id": "D2_iliciu",
+    "front": "iliciu",
+    "back": "imagine, suppose",
+    "breakdown": [
+      {
+        "sound": "ili",
+        "meaning": "cognition"
+      },
+      {
+        "sound": "ciu",
+        "meaning": "creative product"
+      }
+    ]
+  },
+  {
+    "id": "D2_ilinou",
+    "front": "ilinou",
+    "back": "understand",
+    "breakdown": [
+      {
+        "sound": "ili",
+        "meaning": "cognition"
+      },
+      {
+        "sound": "nou",
+        "meaning": "low, falling"
+      }
+    ]
+  },
+  {
+    "id": "D2_ilivargor",
+    "front": "ilivargor",
+    "back": "recognize, recognition",
+    "breakdown": [
+      {
+        "sound": "ili",
+        "meaning": "cognition"
+      },
+      {
+        "sound": "vargor",
+        "meaning": "face + firm"
+      }
+    ]
+  },
+  {
+    "id": "D2_ilofun",
+    "front": "ilofun",
+    "back": "doubt, hesitant",
+    "breakdown": [
+      {
+        "sound": "ilo",
+        "meaning": "when knowledge is uncertain"
+      },
+      {
+        "sound": "fun",
+        "meaning": "doubt"
+      }
+    ]
+  },
+  {
+    "id": "D2_ilonya",
+    "front": "ilonya",
+    "back": "forget",
+    "breakdown": [
+      {
+        "sound": "ilo",
+        "meaning": "when knowledge is uncertain"
+      },
+      {
+        "sound": "nya",
+        "meaning": "empty"
+      }
+    ]
+  },
+  {
+    "id": "D2_iloto",
+    "front": "iloto",
+    "back": "worry, concern",
+    "breakdown": [
+      {
+        "sound": "ilo",
+        "meaning": "when knowledge is uncertain"
+      },
+      {
+        "sound": "to",
+        "meaning": "suffering"
+      }
+    ]
+  },
+  {
+    "id": "D2_jajol",
+    "front": "jajol",
+    "back": "pocket, to put away",
+    "breakdown": [
+      {
+        "sound": "ja",
+        "meaning": "tools"
+      },
+      {
+        "sound": "jol",
+        "meaning": "pocket"
+      }
+    ]
+  },
+  {
+    "id": "D2_javer",
+    "front": "javer",
+    "back": "lock, to lock, latch, bolt, clasp",
+    "breakdown": [
+      {
+        "sound": "ja",
+        "meaning": "tools"
+      },
+      {
+        "sound": "ver",
+        "meaning": "safety"
+      }
+    ]
+  },
+  {
+    "id": "D2_jenai",
+    "front": "jenai",
+    "back": "corner, angle",
+    "breakdown": [
+      {
+        "sound": "jen",
+        "meaning": "location"
+      },
+      {
+        "sound": "nai",
+        "meaning": "corner"
+      }
+    ]
+  },
+  {
+    "id": "D2_jensu",
+    "front": "jensu",
+    "back": "side, adjacent, beside",
+    "breakdown": [
+      {
+        "sound": "jen",
+        "meaning": "location"
+      },
+      {
+        "sound": "su",
+        "meaning": "alongside"
+      }
+    ]
+  },
+  {
+    "id": "D2_jeodan",
+    "front": "jeodan",
+    "back": "main, core",
+    "breakdown": [
+      {
+        "sound": "jeo",
+        "meaning": "geometric positions"
+      },
+      {
+        "sound": "dan",
+        "meaning": "emphasis"
+      }
+    ]
+  },
+  {
+    "id": "D2_jeodeh",
+    "front": "jeodeh",
+    "back": "base, foundation",
+    "breakdown": [
+      {
+        "sound": "jeo",
+        "meaning": "geometric positions"
+      },
+      {
+        "sound": "deh",
+        "meaning": "base"
+      }
+    ]
+  },
+  {
+    "id": "D2_jeonim",
+    "front": "jeonim",
+    "back": "middle",
+    "breakdown": [
+      {
+        "sound": "jeo",
+        "meaning": "geometric positions"
+      },
+      {
+        "sound": "nim",
+        "meaning": "middle"
+      }
+    ]
+  },
+  {
+    "id": "D2_jomo",
+    "front": "jomo",
+    "back": "plate, dish, disc, tray, to plate",
+    "breakdown": [
+      {
+        "sound": "jo",
+        "meaning": "materials"
+      },
+      {
+        "sound": "mo",
+        "meaning": "eat"
+      }
+    ]
+  },
+  {
+    "id": "D2_joniu",
+    "front": "joniu",
+    "back": "piece, part, component",
+    "breakdown": [
+      {
+        "sound": "jo",
+        "meaning": "materials"
+      },
+      {
+        "sound": "niu",
+        "meaning": "some, piece"
+      }
+    ]
+  },
+  {
+    "id": "D2_jovabo",
+    "front": "jovabo",
+    "back": "cover, covering, conceal, blanket, cloak, shawl",
+    "breakdown": [
+      {
+        "sound": "jo",
+        "meaning": "materials"
+      },
+      {
+        "sound": "vabo",
+        "meaning": "cozy, body home"
+      }
+    ]
+  },
+  {
+    "id": "D2_lealei",
+    "front": "lealei",
+    "back": "forest",
+    "breakdown": [
+      {
+        "sound": "lea",
+        "meaning": "landscape"
+      },
+      {
+        "sound": "lei",
+        "meaning": "forest"
+      }
+    ]
+  },
+  {
+    "id": "D2_ledom",
+    "front": "ledom",
+    "back": "land, territory, domain, state",
+    "breakdown": [
+      {
+        "sound": "le",
+        "meaning": "environment"
+      },
+      {
+        "sound": "dom",
+        "meaning": "place"
+      }
+    ]
+  },
+  {
+    "id": "D2_linu",
+    "front": "linu",
+    "back": "until, reach, span, threshold",
+    "breakdown": [
+      {
+        "sound": "li",
+        "meaning": "time"
+      },
+      {
+        "sound": "nu",
+        "meaning": "limit"
+      }
+    ]
+  },
+  {
+    "id": "D2_lirson",
+    "front": "lirson",
+    "back": "late, delay",
+    "breakdown": [
+      {
+        "sound": "lir",
+        "meaning": "late"
+      },
+      {
+        "sound": "son",
+        "meaning": "late"
+      }
+    ]
+  },
+  {
+    "id": "D2_lisoi",
+    "front": "lisoi",
+    "back": "soon",
+    "breakdown": [
+      {
+        "sound": "li",
+        "meaning": "time"
+      },
+      {
+        "sound": "soi",
+        "meaning": "speed"
+      }
+    ]
+  },
+  {
+    "id": "D2_mahon",
+    "front": "mahon",
+    "back": "spoon, to scoop",
+    "breakdown": [
+      {
+        "sound": "ma",
+        "meaning": "cooking food"
+      },
+      {
+        "sound": "hon",
+        "meaning": "spoon"
+      }
+    ]
+  },
+  {
+    "id": "D2_mamol",
+    "front": "mamol",
+    "back": "pot, pan, cauldron, saucepan",
+    "breakdown": [
+      {
+        "sound": "ma",
+        "meaning": "cooking food"
+      },
+      {
+        "sound": "mol",
+        "meaning": "pot"
+      }
+    ]
+  },
+  {
+    "id": "D2_matal",
+    "front": "matal",
+    "back": "oven, furnace, bake, heater",
+    "breakdown": [
+      {
+        "sound": "ma",
+        "meaning": "cooking food"
+      },
+      {
+        "sound": "tal",
+        "meaning": "door"
+      }
+    ]
+  },
+  {
+    "id": "D2_mawa",
+    "front": "mawa",
+    "back": "soup, porridge, gruel",
+    "breakdown": [
+      {
+        "sound": "ma",
+        "meaning": "cooking food"
+      },
+      {
+        "sound": "wa",
+        "meaning": "water"
+      }
+    ]
+  },
+  {
+    "id": "D2_moalen",
+    "front": "moalen",
+    "back": "banana",
+    "breakdown": [
+      {
+        "sound": "moa",
+        "meaning": "fruits"
+      },
+      {
+        "sound": "len",
+        "meaning": "long"
+      }
+    ]
+  },
+  {
+    "id": "D2_mogali",
+    "front": "mogali",
+    "back": "coffee",
+    "breakdown": [
+      {
+        "sound": "mo",
+        "meaning": "food, eating"
+      },
+      {
+        "sound": "gali",
+        "meaning": "coffee"
+      }
+    ]
+  },
+  {
+    "id": "D2_molbai",
+    "front": "molbai",
+    "back": "cup, drinking vessel, chalice, mug",
+    "breakdown": [
+      {
+        "sound": "mol",
+        "meaning": "food containers"
+      },
+      {
+        "sound": "bai",
+        "meaning": "cup"
+      }
+    ]
+  },
+  {
+    "id": "D2_molvou",
+    "front": "molvou",
+    "back": "bottle, flask",
+    "breakdown": [
+      {
+        "sound": "mol",
+        "meaning": "food containers"
+      },
+      {
+        "sound": "vou",
+        "meaning": "bottle"
+      }
+    ]
+  },
+  {
+    "id": "D2_moval",
+    "front": "moval",
+    "back": "ice, freeze",
+    "breakdown": [
+      {
+        "sound": "mo",
+        "meaning": "food, eating"
+      },
+      {
+        "sound": "val",
+        "meaning": "ice"
+      }
+    ]
+  },
+  {
+    "id": "D2_nehen",
+    "front": "nehen",
+    "back": "each, respectively",
+    "breakdown": [
+      {
+        "sound": "ne",
+        "meaning": "quantifiers"
+      },
+      {
+        "sound": "hen",
+        "meaning": "each"
+      }
+    ]
+  },
+  {
+    "id": "D2_neron",
+    "front": "neron",
+    "back": "more, plus, add, anymore",
+    "breakdown": [
+      {
+        "sound": "ne",
+        "meaning": "quantifiers"
+      },
+      {
+        "sound": "ron",
+        "meaning": "more"
+      }
+    ]
+  },
+  {
+    "id": "D2_nolili",
+    "front": "nolili",
+    "back": "always, consistently, constantly",
+    "breakdown": [
+      {
+        "sound": "no",
+        "meaning": "function words"
+      },
+      {
+        "sound": "li",
+        "meaning": "time"
+      },
+      {
+        "sound": "li",
+        "meaning": "time"
+      }
+    ]
+  },
+  {
+    "id": "D2_norfih",
+    "front": "norfih",
+    "back": "enough, sufficient, suffice",
+    "breakdown": [
+      {
+        "sound": "nor",
+        "meaning": "relation to reference"
+      },
+      {
+        "sound": "fih",
+        "meaning": "enough"
+      }
+    ]
+  },
+  {
+    "id": "D2_norocu",
+    "front": "norocu",
+    "back": "almost",
+    "breakdown": [
+      {
+        "sound": "nor",
+        "meaning": "relation to reference"
+      },
+      {
+        "sound": "ocu",
+        "meaning": "almost"
+      }
+    ]
+  },
+  {
+    "id": "D2_selcio",
+    "front": "selcio",
+    "back": "error, mistake, err, accident",
+    "breakdown": [
+      {
+        "sound": "sel",
+        "meaning": "coding"
+      },
+      {
+        "sound": "cio",
+        "meaning": "error"
+      }
+    ]
+  },
+  {
+    "id": "D2_semluan",
+    "front": "semluan",
+    "back": "language",
+    "breakdown": [
+      {
+        "sound": "sem",
+        "meaning": "system"
+      },
+      {
+        "sound": "luan",
+        "meaning": "tongue"
+      }
+    ]
+  },
+  {
+    "id": "D2_sever",
+    "front": "sever",
+    "back": "key, unlock",
+    "breakdown": [
+      {
+        "sound": "se",
+        "meaning": "machines"
+      },
+      {
+        "sound": "ver",
+        "meaning": "safety"
+      }
+    ]
+  },
+  {
+    "id": "D2_tinen",
+    "front": "tinen",
+    "back": "break, rupture, smash, disrupt",
+    "breakdown": [
+      {
+        "sound": "ti",
+        "meaning": "harm, damage"
+      },
+      {
+        "sound": "nen",
+        "meaning": "power and violence"
+      }
+    ]
+  },
+  {
+    "id": "D2_tounir",
+    "front": "tounir",
+    "back": "weak, weakness, feeble",
+    "breakdown": [
+      {
+        "sound": "tou",
+        "meaning": "physical depletion"
+      },
+      {
+        "sound": "nir",
+        "meaning": "weak"
+      }
+    ]
+  },
+  {
+    "id": "D2_touwa",
+    "front": "touwa",
+    "back": "thirst, thirsty",
+    "breakdown": [
+      {
+        "sound": "tou",
+        "meaning": "physical depletion"
+      },
+      {
+        "sound": "wa",
+        "meaning": "water"
+      }
+    ]
+  },
+  {
+    "id": "D2_vandi",
+    "front": "vandi",
+    "back": "finger, toe, skillful",
+    "breakdown": [
+      {
+        "sound": "van",
+        "meaning": "limbs"
+      },
+      {
+        "sound": "di",
+        "meaning": "stripe, finger"
+      }
+    ]
+  },
+  {
+    "id": "D2_varparo",
+    "front": "varparo",
+    "back": "face, to face someone",
+    "breakdown": [
+      {
+        "sound": "var",
+        "meaning": "face"
+      },
+      {
+        "sound": "paro",
+        "meaning": "front"
+      }
+    ]
+  },
+  {
+    "id": "D2_vawe",
+    "front": "vawe",
+    "back": "shoulder, shrug",
+    "breakdown": [
+      {
+        "sound": "va",
+        "meaning": "core"
+      },
+      {
+        "sound": "we",
+        "meaning": "shoulder"
+      }
+    ]
+  },
+  {
+    "id": "D2_visro",
+    "front": "visro",
+    "back": "brain",
+    "breakdown": [
+      {
+        "sound": "vis",
+        "meaning": "organs"
+      },
+      {
+        "sound": "ro",
+        "meaning": "thinking, reasoning"
+      }
+    ]
+  },
+  {
+    "id": "D2_yadetu",
+    "front": "yadetu",
+    "back": "finish, final, end, tip",
+    "breakdown": [
+      {
+        "sound": "ya",
+        "meaning": "objective qualities"
+      },
+      {
+        "sound": "detu",
+        "meaning": "end"
+      }
+    ]
+  },
+  {
+    "id": "D2_yoyol",
+    "front": "yoyol",
+    "back": "blue",
+    "breakdown": [
+      {
+        "sound": "yo",
+        "meaning": "colors"
+      },
+      {
+        "sound": "yol",
+        "meaning": "sky and ocean"
+      }
+    ]
+  },
+  {
+    "id": "D2_yuloa",
+    "front": "yuloa",
+    "back": "perfect, ideal",
+    "breakdown": [
+      {
+        "sound": "yu",
+        "meaning": "subjective qualities"
+      },
+      {
+        "sound": "loa",
+        "meaning": "completeness"
+      }
+    ]
+  },
+  {
+    "id": "D2_yungei",
+    "front": "yungei",
+    "back": "ugly",
+    "breakdown": [
+      {
+        "sound": "yun",
+        "meaning": "personal characteristics"
+      },
+      {
+        "sound": "gei",
+        "meaning": "ugly"
+      }
+    ]
+  },
+  {
+    "id": "D2_yungi",
+    "front": "yungi",
+    "back": "proud, pride, arrogant",
+    "breakdown": [
+      {
+        "sound": "yun",
+        "meaning": "personal characteristics"
+      },
+      {
+        "sound": "gi",
+        "meaning": "boldness"
+      }
+    ]
+  },
+  {
+    "id": "D2_yuniu",
+    "front": "yuniu",
+    "back": "rare, unusual, weird, strange",
+    "breakdown": [
+      {
+        "sound": "yu",
+        "meaning": "subjective qualities"
+      },
+      {
+        "sound": "niu",
+        "meaning": "some"
+      }
+    ]
+  },
+  {
+    "id": "D2_yunmir",
+    "front": "yunmir",
+    "back": "rich, wealth",
+    "breakdown": [
+      {
+        "sound": "yun",
+        "meaning": "personal characteristics"
+      },
+      {
+        "sound": "mir",
+        "meaning": "lots of"
+      }
+    ]
+  },
+  {
+    "id": "D2_yunmpou",
+    "front": "yunmpou",
+    "back": "lazy, indolence, inactivity",
+    "breakdown": [
+      {
+        "sound": "yun",
+        "meaning": "personal characteristics"
+      },
+      {
+        "sound": "mpou",
+        "meaning": "lazy"
+      }
+    ]
+  }
+]

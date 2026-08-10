@@ -173,7 +173,7 @@
     
     Dropping markers and words makes the sentence less formal. Besides this, using roots and short forms also makes a sentence less formal. For example:
     
-    a nim i dapas i mo -> formal
+    a nim i dapas i mo -> formal  
     i pas i mo -> casual
     
     
