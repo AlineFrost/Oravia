@@ -205,17 +205,29 @@
     "core": false
   },
   {
-    "w": "hai",
+    "w": "dia",
     "e": "role / doer",
-    "usage": "follows a noun to indicate the person who uses or does it: boemo hai = cook; roesau hai = student",
+    "usage": "follows a noun to indicate the person who uses or does it: boemo dia = cook; roesau dia = student",
     "type": "gram",
     "search_terms": [
       "doer",
-      "hai",
+      "dia",
       "role",
       "role / doer"
     ],
     "core": false
+  },
+  {
+    "w": "niu",
+    "e": "indefinite quantity",
+    "usage": "before a noun for an unspecified number or amount: niu fano = children; noniu falen = some child",
+    "type": "gram",
+    "search_terms": [
+      "indefinite",
+      "niu",
+      "plural",
+      "quantity"
+    ]
   },
   {
     "w": "hue",
@@ -1972,7 +1984,7 @@
     ],
     "ex": [
       {
-        "o": "anolu, mir ilhei: a geldove hai i ilaluan, a falen i apavu.",
+        "o": "anolu, mir ilhei: a geldove dia i ilaluan, a falen i apavu.",
         "e": "outside, many people: sellers talk, children run.",
         "from_lesson": false
       }
@@ -3605,7 +3617,7 @@
     ],
     "ex": [
       {
-        "o": "daehun nim i apanou e moaria, a moaria i apanou.",
+        "o": "daefer nim i apanou e moaria, a moaria i apanou.",
         "e": "if I drop the apple, the apple falls",
         "from_lesson": true
       }
@@ -5773,7 +5785,7 @@
     ],
     "ex": [
       {
-        "o": "beivu hai",
+        "o": "beivu dia",
         "e": "driver",
         "from_lesson": true
       }
@@ -6410,7 +6422,7 @@
     ],
     "ex": [
       {
-        "o": "boemo hai",
+        "o": "boemo dia",
         "e": "a cook",
         "from_lesson": true
       }
@@ -6961,7 +6973,7 @@
       }
     ],
     "rel": [
-      "dorel",
+      "dopim",
       "garel",
       "warel",
       "wirel",
@@ -7696,7 +7708,7 @@
       }
     ],
     "rel": [
-      "jegai",
+      "jeros",
       "leigai",
       "litegai",
       "pogai",
@@ -8151,7 +8163,7 @@
   {
     "w": "ciusiu",
     "e": "document",
-    "ea": "document, file",
+    "ea": "document, file, form",
     "c": "create",
     "cs": "ciu",
     "sc": "ciu",
@@ -8502,7 +8514,7 @@
     ],
     "ex": [
       {
-        "o": "cali a sita hai i vardei e colira en leno, i copei.",
+        "o": "cali a sita dia i vardei e colira en leno, i copei.",
         "e": "when the hunter saw the mark on the ground, he followed.",
         "from_lesson": true
       }
@@ -8666,7 +8678,7 @@
   {
     "w": "conehui",
     "e": "request",
-    "ea": "request, ask, invocation, plea, petition",
+    "ea": "request, ask, invocation, plea, petition, application, apply",
     "c": "communication",
     "cs": "co",
     "sc": "co",
@@ -8796,7 +8808,7 @@
     "rel": [],
     "ex": [
       {
-        "o": "cali a sita hai i vardei e colira en leno, i copei.",
+        "o": "cali a sita dia i vardei e colira en leno, i copei.",
         "e": "when the hunter saw the mark on the ground, he followed.",
         "from_lesson": true
       }
@@ -9585,7 +9597,7 @@
     "rel": [],
     "ex": [
       {
-        "o": "haya i dasu cai tam ganter i do i pohnen ca a be hai i siur e jovabo, i daca hue no pohnen.",
+        "o": "haya i dasu cai tam ganter i do i pohnen ca a be dia i siur e jovabo, i daca hue no pohnen.",
         "e": "they agreed that whoever could make the traveler remove his cloak would be declared the stronger",
         "from_lesson": true
       }
@@ -9772,6 +9784,88 @@
     "core_source": "2+ lists"
   },
   {
+    "w": "daecoti",
+    "e": "criticize",
+    "ea": "criticize, complain",
+    "c": "evaluate",
+    "cs": "da",
+    "sc": "dae",
+    "r": "coti",
+    "bd": [
+      {
+        "sound": "dae",
+        "meaning": "epistemic",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-dae",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-dae",
+        "bb_meaning": "epistemic"
+      },
+      {
+        "sound": "co",
+        "meaning": "communication",
+        "bb_type": "root",
+        "bb_id": "bb-root-co",
+        "bb_href": "building_blocks_reference.html#bb-root-co",
+        "bb_meaning": "communication"
+      },
+      {
+        "sound": "ti",
+        "meaning": "bad",
+        "bb_type": "root",
+        "bb_id": "bb-root-ti",
+        "bb_href": "building_blocks_reference.html#bb-root-ti",
+        "bb_meaning": "bad"
+      }
+    ],
+    "rel": [],
+    "ex": [],
+    "syllable_meanings": [
+      {
+        "sound": "dae",
+        "meaning": "epistemic",
+        "position": "subcluster",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-dae",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-dae",
+        "bb_meaning": "epistemic"
+      },
+      {
+        "sound": "co",
+        "meaning": "communication",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-co",
+        "bb_href": "building_blocks_reference.html#bb-root-co",
+        "bb_meaning": "communication"
+      },
+      {
+        "sound": "ti",
+        "meaning": "bad",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-ti",
+        "bb_href": "building_blocks_reference.html#bb-root-ti",
+        "bb_meaning": "bad"
+      }
+    ],
+    "search_terms": [
+      "bad",
+      "co",
+      "communication",
+      "complain",
+      "coti",
+      "criticize",
+      "criticize, complain",
+      "da",
+      "dae",
+      "daecoti",
+      "epistemic",
+      "evaluate",
+      "ti"
+    ],
+    "core": false
+  },
+  {
     "w": "dade",
     "e": "origin",
     "ea": "origin, source, original, cause, explanation",
@@ -9907,70 +10001,6 @@
     "core": false
   },
   {
-    "w": "daefei",
-    "e": "criticize",
-    "ea": "criticize, complain",
-    "c": "evaluate",
-    "cs": "da",
-    "sc": "dae",
-    "r": "fei",
-    "bd": [
-      {
-        "sound": "dae",
-        "meaning": "epistemic",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-dae",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-dae",
-        "bb_meaning": "epistemic"
-      },
-      {
-        "sound": "fei",
-        "meaning": "less",
-        "bb_type": "root",
-        "bb_id": "bb-root-fei",
-        "bb_href": "building_blocks_reference.html#bb-root-fei",
-        "bb_meaning": "less"
-      }
-    ],
-    "rel": [
-      "gafei"
-    ],
-    "ex": [],
-    "syllable_meanings": [
-      {
-        "sound": "dae",
-        "meaning": "epistemic",
-        "position": "subcluster",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-dae",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-dae",
-        "bb_meaning": "epistemic"
-      },
-      {
-        "sound": "fei",
-        "meaning": "less",
-        "position": "root",
-        "bb_type": "root",
-        "bb_id": "bb-root-fei",
-        "bb_href": "building_blocks_reference.html#bb-root-fei",
-        "bb_meaning": "less"
-      }
-    ],
-    "search_terms": [
-      "complain",
-      "criticize",
-      "criticize, complain",
-      "da",
-      "dae",
-      "daefei",
-      "epistemic",
-      "evaluate",
-      "fei",
-      "less"
-    ],
-    "core": false
-  },
-  {
     "w": "daegor",
     "e": "convince",
     "ea": "to convince, convincent, prove",
@@ -10038,13 +10068,13 @@
     "core": false
   },
   {
-    "w": "daehun",
+    "w": "daefer",
     "e": "assumption",
     "ea": "assumption, presume",
     "c": "evaluate",
     "cs": "da",
     "sc": "dae",
-    "r": "hun",
+    "r": "fer",
     "bd": [
       {
         "sound": "dae",
@@ -10055,14 +10085,14 @@
         "bb_meaning": "epistemic"
       },
       {
-        "sound": "hun",
+        "sound": "fer",
         "meaning": "assumption"
       }
     ],
     "rel": [],
     "ex": [
       {
-        "o": "boemo hai i do i boemo daehun 'roumo.",
+        "o": "boemo dia i do i boemo daefer 'roumo.",
         "e": "the chef can cook if they have a recipe.",
         "from_lesson": true
       }
@@ -10078,7 +10108,7 @@
         "bb_meaning": "epistemic"
       },
       {
-        "sound": "hun",
+        "sound": "fer",
         "meaning": "assumption",
         "position": "root"
       }
@@ -10088,10 +10118,10 @@
       "assumption, presume",
       "da",
       "dae",
-      "daehun",
+      "daefer",
       "epistemic",
       "evaluate",
-      "hun",
+      "fer",
       "presume"
     ],
     "core": false
@@ -11544,7 +11574,7 @@
     ],
     "ex": [
       {
-        "o": "haya i dasu cai tam ganter i do i pohnen ca a be hai i siur e jovabo, i daca hue no pohnen.",
+        "o": "haya i dasu cai tam ganter i do i pohnen ca a be dia i siur e jovabo, i daca hue no pohnen.",
         "e": "they agreed that whoever could make the traveler remove his cloak would be declared the stronger",
         "from_lesson": true
       }
@@ -11703,7 +11733,7 @@
     ],
     "ex": [
       {
-        "o": "canon i do i ansau en ansau, daehun i ilwol i dateli notam i dateli?",
+        "o": "canon i do i ansau en ansau, daefer i ilwol i dateli notam i dateli?",
         "e": "how can you start at the beginning, if things happen before they happen?",
         "from_lesson": true
       }
@@ -12042,7 +12072,7 @@
     ],
     "ex": [
       {
-        "o": "nima i ilaluan e raitar hai su dofa",
+        "o": "nima i ilaluan e raitar dia su dofa",
         "e": "we are talking of rulers and inheritance",
         "from_lesson": false
       }
@@ -12567,13 +12597,13 @@
     "core": false
   },
   {
-    "w": "dorel",
+    "w": "dopim",
     "e": "tolerate",
     "ea": "tolerate, tolerance, tolerant, accepting",
     "c": "regulations",
     "cs": "do",
     "sc": "do",
-    "r": "rel",
+    "r": "pim",
     "bd": [
       {
         "sound": "do",
@@ -12584,21 +12614,11 @@
         "bb_meaning": "regulations"
       },
       {
-        "sound": "rel",
-        "meaning": "up, high",
-        "bb_type": "root",
-        "bb_id": "bb-root-rel",
-        "bb_href": "building_blocks_reference.html#bb-root-rel",
-        "bb_meaning": "up, high"
+        "sound": "pim",
+        "meaning": "tolerate"
       }
     ],
-    "rel": [
-      "borel",
-      "garel",
-      "warel",
-      "wirel",
-      "yesrel"
-    ],
+    "rel": [],
     "ex": [],
     "syllable_meanings": [
       {
@@ -12611,28 +12631,21 @@
         "bb_meaning": "regulations"
       },
       {
-        "sound": "rel",
-        "meaning": "up, high",
-        "position": "root",
-        "bb_type": "root",
-        "bb_id": "bb-root-rel",
-        "bb_href": "building_blocks_reference.html#bb-root-rel",
-        "bb_meaning": "up, high"
+        "sound": "pim",
+        "meaning": "tolerate",
+        "position": "root"
       }
     ],
     "search_terms": [
       "accepting",
       "do",
-      "dorel",
-      "high",
+      "dopim",
+      "pim",
       "regulations",
-      "rel",
       "tolerance",
       "tolerant",
       "tolerate",
-      "tolerate, tolerance, tolerant, accepting",
-      "up",
-      "up, high"
+      "tolerate, tolerance, tolerant, accepting"
     ],
     "core": false
   },
@@ -14153,7 +14166,7 @@
     "ex": [
       {
         "o": "o i ilahai e neloa elireva.",
-        "e": "tell everyone the truth",
+        "e": "tell the whole truth",
         "from_lesson": true
       }
     ],
@@ -15427,7 +15440,7 @@
   {
     "w": "eodyel",
     "e": "join",
-    "ea": "join, group, together, club, coalition",
+    "ea": "join, group, together, club, coalition, enroll, register",
     "c": "social",
     "cs": "eo",
     "sc": "eod",
@@ -15951,7 +15964,7 @@
   {
     "w": "eomsu",
     "e": "party",
-    "ea": "party, celebrate",
+    "ea": "party, celebrate, congratulations",
     "c": "social",
     "cs": "eo",
     "sc": "eom",
@@ -17012,7 +17025,7 @@
     ],
     "ex": [
       {
-        "o": "lar, a copei hai i copei e mioici ca i sioerar su fano.",
+        "o": "lar, a copei dia i copei e mioici ca i sioerar su fano.",
         "e": "once, a hunter hunted monkeys playing with offspring.",
         "from_lesson": true
       }
@@ -17561,7 +17574,7 @@
     ],
     "ex": [
       {
-        "o": "haya i dasu cai tam ganter i do i pohnen ca a be hai i siur e jovabo, i daca hue no pohnen.",
+        "o": "haya i dasu cai tam ganter i do i pohnen ca a be dia i siur e jovabo, i daca hue no pohnen.",
         "e": "they agreed that whoever could make the traveler remove his cloak would be declared the stronger",
         "from_lesson": true
       }
@@ -18086,7 +18099,7 @@
     ],
     "rel": [
       "borel",
-      "dorel",
+      "dopim",
       "warel",
       "wirel",
       "yesrel"
@@ -19708,7 +19721,7 @@
     ],
     "ex": [
       {
-        "o": "a yamirli heivio hai",
+        "o": "a yamirli heivio dia",
         "e": "an old witch",
         "from_lesson": true
       }
@@ -19753,6 +19766,81 @@
       "vio"
     ],
     "core": false
+  },
+  {
+    "w": "helihica",
+    "e": "mythology",
+    "ea": "mythology, legendary, myth",
+    "c": "fiction trope",
+    "cs": "he",
+    "sc": "he",
+    "r": "hica",
+    "bd": [
+      {
+        "sound": "he",
+        "meaning": "fiction tropes",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-he",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-he",
+        "bb_meaning": "fiction tropes"
+      },
+      {
+        "sound": "li",
+        "meaning": "time",
+        "bb_type": "root",
+        "bb_id": "bb-root-li",
+        "bb_href": "building_blocks_reference.html#bb-root-li",
+        "bb_meaning": "time"
+      },
+      {
+        "sound": "hica",
+        "meaning": "story"
+      }
+    ],
+    "rel": [
+      "oihica"
+    ],
+    "ex": [],
+    "syllable_meanings": [
+      {
+        "sound": "he",
+        "meaning": "fiction tropes",
+        "position": "subcluster",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-he",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-he",
+        "bb_meaning": "fiction tropes"
+      },
+      {
+        "sound": "li",
+        "meaning": "time",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-li",
+        "bb_href": "building_blocks_reference.html#bb-root-li",
+        "bb_meaning": "time"
+      },
+      {
+        "sound": "hica",
+        "meaning": "story",
+        "position": "root"
+      }
+    ],
+    "search_terms": [
+      "fiction",
+      "fiction tropes",
+      "he",
+      "helihica",
+      "hica",
+      "legendary",
+      "li",
+      "myth",
+      "mythology",
+      "mythology, legendary, myth",
+      "story",
+      "time",
+      "trope"
+    ]
   },
   {
     "w": "helufu",
@@ -23559,6 +23647,71 @@
     "core": false
   },
   {
+    "w": "jayel",
+    "e": "fastener",
+    "ea": "fastener",
+    "c": "tools",
+    "cs": "ja",
+    "sc": "ja",
+    "r": "yel",
+    "bd": [
+      {
+        "sound": "ja",
+        "meaning": "tools",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-ja",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-ja",
+        "bb_meaning": "tools"
+      },
+      {
+        "sound": "yel",
+        "meaning": "joining",
+        "bb_type": "root",
+        "bb_id": "bb-root-yel",
+        "bb_href": "building_blocks_reference.html#bb-root-yel",
+        "bb_meaning": "joining"
+      }
+    ],
+    "rel": [
+      "aseyel",
+      "eleyel",
+      "eodyel",
+      "wilyel",
+      "yeyel"
+    ],
+    "ex": [],
+    "syllable_meanings": [
+      {
+        "sound": "ja",
+        "meaning": "tools",
+        "position": "subcluster",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-ja",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-ja",
+        "bb_meaning": "tools"
+      },
+      {
+        "sound": "yel",
+        "meaning": "joining",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-yel",
+        "bb_href": "building_blocks_reference.html#bb-root-yel",
+        "bb_meaning": "joining"
+      }
+    ],
+    "search_terms": [
+      "fastener",
+      "ja",
+      "jayel",
+      "join",
+      "joining",
+      "tool",
+      "tools",
+      "yel"
+    ]
+  },
+  {
     "w": "jecai",
     "e": "fence",
     "ea": "fence, barrier, partition, hedge, fence off",
@@ -23709,13 +23862,13 @@
     "core": false
   },
   {
-    "w": "jegai",
+    "w": "jeros",
     "e": "narrow",
     "ea": "narrow, thin, strait",
     "c": "geometrics",
     "cs": "je",
     "sc": "je",
-    "r": "gai",
+    "r": "ros",
     "bd": [
       {
         "sound": "je",
@@ -23726,24 +23879,12 @@
         "bb_meaning": "geometrics"
       },
       {
-        "sound": "gai",
-        "meaning": "small",
-        "bb_type": "root",
-        "bb_id": "bb-root-gai",
-        "bb_href": "building_blocks_reference.html#bb-root-gai",
-        "bb_meaning": "small"
+        "sound": "ros",
+        "meaning": "tense, tight"
       }
     ],
     "rel": [
-      "ciugai",
-      "leigai",
-      "litegai",
-      "pogai",
-      "sigai",
-      "vigai",
-      "wilgai",
-      "yalgai",
-      "yugai"
+      "touros"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -23757,25 +23898,23 @@
         "bb_meaning": "geometrics"
       },
       {
-        "sound": "gai",
-        "meaning": "small",
-        "position": "root",
-        "bb_type": "root",
-        "bb_id": "bb-root-gai",
-        "bb_href": "building_blocks_reference.html#bb-root-gai",
-        "bb_meaning": "small"
+        "sound": "ros",
+        "meaning": "tense, tight",
+        "position": "root"
       }
     ],
     "search_terms": [
-      "gai",
       "geometrics",
       "je",
-      "jegai",
+      "jeros",
       "narrow",
       "narrow, thin, strait",
-      "small",
+      "ros",
       "strait",
-      "thin"
+      "tense",
+      "tense, tight",
+      "thin",
+      "tight"
     ],
     "core": false
   },
@@ -24099,7 +24238,7 @@
     ],
     "ex": [
       {
-        "o": "eta, a sita hai i ilianum e jenon en lealei, su a jenon-tohbian.",
+        "o": "eta, a sita dia i ilianum e jenon en lealei, su a jenon-tohbian.",
         "e": "so the hunter did not know the path in the forest, and got lost (path confusion)",
         "from_lesson": true
       }
@@ -25394,11 +25533,11 @@
   {
     "w": "jolace",
     "e": "rubber",
-    "ea": "rubber, rubbery",
+    "ea": "rubber, rubbery, to stretch",
     "c": "materials",
     "cs": "jo",
     "sc": "jol",
-    "r": "ace",
+    "r": "wue",
     "bd": [
       {
         "sound": "jol",
@@ -25409,8 +25548,8 @@
         "bb_meaning": "material types"
       },
       {
-        "sound": "ace",
-        "meaning": "rubber"
+        "sound": "wue",
+        "meaning": "stretch"
       }
     ],
     "rel": [],
@@ -25426,23 +25565,24 @@
         "bb_meaning": "material types"
       },
       {
-        "sound": "ace",
-        "meaning": "rubber",
+        "sound": "wue",
+        "meaning": "stretch",
         "position": "root"
       }
     ],
     "search_terms": [
-      "ace",
+      "wue",
       "jo",
       "jol",
-      "jolace",
+      "jolwue",
       "material",
       "material types",
       "materials",
       "rubber",
       "rubber, rubbery",
       "rubbery",
-      "types"
+      "types",
+      "stretch"
     ],
     "core": false
   },
@@ -26222,7 +26362,7 @@
     ],
     "ex": [
       {
-        "o": "haya i dasu cai tam ganter i do i pohnen ca a be hai i siur e jovabo, i daca hue no pohnen.",
+        "o": "haya i dasu cai tam ganter i do i pohnen ca a be dia i siur e jovabo, i daca hue no pohnen.",
         "e": "they agreed that whoever could make the traveler remove his cloak would be declared the stronger",
         "from_lesson": true
       }
@@ -26803,7 +26943,7 @@
     ],
     "rel": [
       "ciugai",
-      "jegai",
+      "jeros",
       "litegai",
       "pogai",
       "sigai",
@@ -27181,7 +27321,7 @@
     ],
     "ex": [
       {
-        "o": "cali a sita hai i vardei e colira en leno, i copei.",
+        "o": "cali a sita dia i vardei e colira en leno, i copei.",
         "e": "when the hunter saw the mark on the ground, he followed.",
         "from_lesson": true
       }
@@ -28268,7 +28408,7 @@
     ],
     "rel": [
       "ciugai",
-      "jegai",
+      "jeros",
       "leigai",
       "pogai",
       "sigai",
@@ -32703,7 +32843,9 @@
         "meaning": "bowl"
       }
     ],
-    "rel": [],
+    "rel": [
+      "wacui"
+    ],
     "ex": [
       {
         "o": "run fare i anona e molcui u nim?",
@@ -34915,7 +35057,7 @@
   {
     "w": "none",
     "e": "have",
-    "ea": "have, possession",
+    "ea": "have, possession, property",
     "c": "function words",
     "cs": "no",
     "sc": "no",
@@ -35681,6 +35823,77 @@
     "core": false
   },
   {
+    "w": "oihica",
+    "e": "story",
+    "ea": "story, narrate, fictional",
+    "c": "fun",
+    "cs": "oi",
+    "sc": "oi",
+    "r": "hica",
+    "bd": [
+      {
+        "sound": "oi",
+        "meaning": "fun",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-oi",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-oi",
+        "bb_meaning": "fun"
+      },
+      {
+        "sound": "hica",
+        "meaning": "story"
+      }
+    ],
+    "rel": [
+      "helihica"
+    ],
+    "ex": [
+      {
+        "o": "a oihica i nomie no oihi",
+        "e": "the story seems interesting",
+        "from_lesson": true
+      }
+    ],
+    "syllable_meanings": [
+      {
+        "sound": "oi",
+        "meaning": "fun",
+        "position": "subcluster",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-oi",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-oi",
+        "bb_meaning": "fun"
+      },
+      {
+        "sound": "hica",
+        "meaning": "story",
+        "position": "root"
+      }
+    ],
+    "search_terms": [
+      "amuse",
+      "attract",
+      "cute",
+      "excite",
+      "fictional",
+      "fun",
+      "gossip",
+      "happy",
+      "hica",
+      "interest",
+      "joke",
+      "narrate",
+      "oi",
+      "oihica",
+      "scene",
+      "sex",
+      "silly",
+      "star",
+      "story",
+      "story, narrate, fictional"
+    ]
+  },
+  {
     "w": "oila",
     "e": "happy",
     "ea": "happy, joy, frolic, enjoy",
@@ -35747,65 +35960,6 @@
       "la",
       "oi",
       "oila"
-    ],
-    "core": true,
-    "core_source": "2+ lists"
-  },
-  {
-    "w": "oimel",
-    "e": "story",
-    "ea": "story, narrate, fictional",
-    "c": "fun",
-    "cs": "oi",
-    "sc": "oi",
-    "r": "mel",
-    "bd": [
-      {
-        "sound": "oi",
-        "meaning": "fun",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-oi",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-oi",
-        "bb_meaning": "fun"
-      },
-      {
-        "sound": "mel",
-        "meaning": "story"
-      }
-    ],
-    "rel": [],
-    "ex": [
-      {
-        "o": "a oimel i nomie no oihi",
-        "e": "the story seems interesting",
-        "from_lesson": true
-      }
-    ],
-    "syllable_meanings": [
-      {
-        "sound": "oi",
-        "meaning": "fun",
-        "position": "subcluster",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-oi",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-oi",
-        "bb_meaning": "fun"
-      },
-      {
-        "sound": "mel",
-        "meaning": "story",
-        "position": "root"
-      }
-    ],
-    "search_terms": [
-      "fictional",
-      "fun",
-      "mel",
-      "narrate",
-      "oi",
-      "oimel",
-      "story",
-      "story, narrate, fictional"
     ],
     "core": true,
     "core_source": "2+ lists"
@@ -36273,7 +36427,7 @@
     "rel": [],
     "ex": [
       {
-        "o": "hay i dai i davio no omapa hai",
+        "o": "hay i dai i davio no omapa dia",
         "e": "he wants to become a dancer",
         "from_lesson": true
       }
@@ -36964,7 +37118,7 @@
     "rel": [],
     "ex": [
       {
-        "o": "a noi yaltan lenodur, i nomie no nedas pocan? um, daehun run i aniseum",
+        "o": "a noi yaltan lenodur, i nomie no nedas pocan? um, daefer run i aniseum",
         "e": "doesn’t this large boulder look heavy? not if you don’t carry it",
         "from_lesson": false
       }
@@ -37202,7 +37356,7 @@
     ],
     "rel": [
       "ciugai",
-      "jegai",
+      "jeros",
       "leigai",
       "litegai",
       "sigai",
@@ -38393,7 +38547,7 @@
   {
     "w": "raidana",
     "e": "surrender",
-    "ea": "surrender, submit, yield, give in, submission, colony, protectorate",
+    "ea": "surrender, yield, give in, submission",
     "c": "society",
     "cs": "ra",
     "sc": "rai",
@@ -38555,7 +38709,7 @@
   {
     "w": "raihei",
     "e": "citizen",
-    "ea": "citizen, civilian, civil, civilize",
+    "ea": "citizen, civilian, civil",
     "c": "society",
     "cs": "ra",
     "sc": "rai",
@@ -39254,7 +39408,7 @@
     ],
     "ex": [
       {
-        "o": "a raiver hai de lealei i varsus e asur de sita hai:",
+        "o": "a raiver dia de lealei i varsus e asur de sita dia:",
         "e": "the forest guardian heard the hunter's scream:",
         "from_lesson": true
       }
@@ -39992,10 +40146,15 @@
       },
       {
         "sound": "luo",
-        "meaning": "sport"
+        "meaning": "practice",
+        "bb_type": "root",
+        "bb_id": "bb-root-luo",
+        "bb_href": "building_blocks_reference.html#bb-root-luo",
+        "bb_meaning": "practice"
       }
     ],
     "rel": [
+      "roeluo",
       "veluo"
     ],
     "ex": [],
@@ -40011,8 +40170,12 @@
       },
       {
         "sound": "luo",
-        "meaning": "sport",
-        "position": "root"
+        "meaning": "practice",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-luo",
+        "bb_href": "building_blocks_reference.html#bb-root-luo",
+        "bb_meaning": "practice"
       }
     ],
     "search_terms": [
@@ -40022,6 +40185,7 @@
       "exercise",
       "luo",
       "physical",
+      "practice",
       "ra",
       "ras",
       "rasluo",
@@ -40433,6 +40597,72 @@
     "core": false
   },
   {
+    "w": "roeluo",
+    "e": "study",
+    "ea": "study",
+    "c": "knowledge",
+    "cs": "ro",
+    "sc": "roe",
+    "r": "luo",
+    "bd": [
+      {
+        "sound": "roe",
+        "meaning": "formal education",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-roe",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-roe",
+        "bb_meaning": "formal education"
+      },
+      {
+        "sound": "luo",
+        "meaning": "practice",
+        "bb_type": "root",
+        "bb_id": "bb-root-luo",
+        "bb_href": "building_blocks_reference.html#bb-root-luo",
+        "bb_meaning": "practice"
+      }
+    ],
+    "rel": [
+      "rasluo",
+      "roesau",
+      "veluo"
+    ],
+    "ex": [],
+    "syllable_meanings": [
+      {
+        "sound": "roe",
+        "meaning": "formal education",
+        "position": "subcluster",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-roe",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-roe",
+        "bb_meaning": "formal education"
+      },
+      {
+        "sound": "luo",
+        "meaning": "practice",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-luo",
+        "bb_href": "building_blocks_reference.html#bb-root-luo",
+        "bb_meaning": "practice"
+      }
+    ],
+    "search_terms": [
+      "education",
+      "formal",
+      "formal education",
+      "knowledge",
+      "luo",
+      "practice",
+      "ro",
+      "roe",
+      "roeluo",
+      "study"
+    ],
+    "core": false
+  },
+  {
     "w": "roena",
     "e": "teach",
     "ea": "teach, educate, education, explain",
@@ -40465,7 +40695,7 @@
     ],
     "ex": [
       {
-        "o": "roena hai",
+        "o": "roena dia",
         "e": "teacher",
         "from_lesson": true
       }
@@ -40511,7 +40741,7 @@
   {
     "w": "roesau",
     "e": "learn",
-    "ea": "learn, study",
+    "ea": "learn",
     "c": "knowledge",
     "cs": "ro",
     "sc": "roe",
@@ -40535,11 +40765,12 @@
       }
     ],
     "rel": [
-      "ansau"
+      "ansau",
+      "roeluo"
     ],
     "ex": [
       {
-        "o": "roesau hai",
+        "o": "roesau dia",
         "e": "student",
         "from_lesson": true
       }
@@ -40570,13 +40801,11 @@
       "formal education",
       "knowledge",
       "learn",
-      "learn, study",
       "ro",
       "roe",
       "roesau",
       "sau",
-      "start",
-      "study"
+      "start"
     ],
     "core": false
   },
@@ -40740,7 +40969,7 @@
     ],
     "ex": [
       {
-        "o": "nim i roudal lilon roena hai i roudi.",
+        "o": "nim i roudal lilon roena dia i roudi.",
         "e": "i read while the teacher writes",
         "from_lesson": true
       }
@@ -41414,6 +41643,68 @@
     "core": false
   },
   {
+    "w": "semluan",
+    "e": "language",
+    "ea": "language",
+    "c": "machine",
+    "cs": "se",
+    "sc": "sem",
+    "r": "luan",
+    "bd": [
+      {
+        "sound": "sem",
+        "meaning": "system",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-sem",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-sem",
+        "bb_meaning": "system"
+      },
+      {
+        "sound": "luan",
+        "meaning": "tongue",
+        "bb_type": "root",
+        "bb_id": "bb-root-luan",
+        "bb_href": "building_blocks_reference.html#bb-root-luan",
+        "bb_meaning": "tongue"
+      }
+    ],
+    "rel": [
+      "ilaluan",
+      "varluan"
+    ],
+    "ex": [],
+    "syllable_meanings": [
+      {
+        "sound": "sem",
+        "meaning": "system",
+        "position": "subcluster",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-sem",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-sem",
+        "bb_meaning": "system"
+      },
+      {
+        "sound": "luan",
+        "meaning": "tongue",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-luan",
+        "bb_href": "building_blocks_reference.html#bb-root-luan",
+        "bb_meaning": "tongue"
+      }
+    ],
+    "search_terms": [
+      "language",
+      "luan",
+      "machine",
+      "se",
+      "sem",
+      "semluan",
+      "system",
+      "tongue"
+    ]
+  },
+  {
     "w": "semtela",
     "e": "system",
     "ea": "system, systematic, systematize, organize",
@@ -41957,7 +42248,7 @@
     ],
     "rel": [
       "ciugai",
-      "jegai",
+      "jeros",
       "leigai",
       "litegai",
       "pogai",
@@ -42744,7 +43035,7 @@
     ],
     "ex": [
       {
-        "o": "a sita hai i davio no tilira su tohpu.",
+        "o": "a sita dia i davio no tilira su tohpu.",
         "e": "the hunter became ashamed and sad.",
         "from_lesson": true
       }
@@ -43390,7 +43681,7 @@
     ],
     "ex": [
       {
-        "o": "a sita hai i davio no tilira su tohpu.",
+        "o": "a sita dia i davio no tilira su tohpu.",
         "e": "the hunter became ashamed and sad.",
         "from_lesson": true
       }
@@ -44511,7 +44802,7 @@
     "rel": [],
     "ex": [
       {
-        "o": "eta, a sita hai i ilianum e jenon en lealei, su a jenon-tohbian.",
+        "o": "eta, a sita dia i ilianum e jenon en lealei, su a jenon-tohbian.",
         "e": "so the hunter lost the path in the forest, and the path-confusion",
         "from_lesson": true
       }
@@ -44574,7 +44865,7 @@
     "rel": [],
     "ex": [
       {
-        "o": "a sita hai, ca a elireva tohdin, i davio no raiver hai de fano de misumu.",
+        "o": "a sita dia, ca a elireva tohdin, i davio no raiver dia de fano de misumu.",
         "e": "the hunter, truly sorry, became a guardian of the animals' offspring.",
         "from_lesson": true
       }
@@ -45841,7 +46132,9 @@
         "meaning": "tense"
       }
     ],
-    "rel": [],
+    "rel": [
+      "jeros"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -45957,12 +46250,12 @@
     "r": "wa",
     "bd": [
       {
-        "sound": "to",
-        "meaning": "suffering, distress",
+        "sound": "tou",
+        "meaning": "physical depletion",
         "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-to",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-to",
-        "bb_meaning": "suffering, distress"
+        "bb_id": "bb-subcluster-tou",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-tou",
+        "bb_meaning": "physical depletion"
       },
       {
         "sound": "wa",
@@ -45986,13 +46279,13 @@
     "ex": [],
     "syllable_meanings": [
       {
-        "sound": "to",
-        "meaning": "suffering, distress",
+        "sound": "tou",
+        "meaning": "physical depletion",
         "position": "subcluster",
         "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-to",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-to",
-        "bb_meaning": "suffering, distress"
+        "bb_id": "bb-subcluster-tou",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-tou",
+        "bb_meaning": "physical depletion"
       },
       {
         "sound": "wa",
@@ -46317,59 +46610,6 @@
       "tulram"
     ],
     "core": false
-  },
-  {
-    "w": "tumjeh",
-    "e": "weapon",
-    "ea": "",
-    "c": "conflict",
-    "cs": "tu",
-    "sc": "tum",
-    "r": "jeh",
-    "bd": [
-      {
-        "sound": "tum",
-        "meaning": "weapons",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-tum",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-tum",
-        "bb_meaning": "weapons"
-      },
-      {
-        "sound": "jeh",
-        "meaning": "weapon"
-      }
-    ],
-    "rel": [],
-    "ex": [],
-    "syllable_meanings": [
-      {
-        "sound": "tum",
-        "meaning": "weapons",
-        "position": "subcluster",
-        "bb_type": "subcluster",
-        "bb_id": "bb-subcluster-tum",
-        "bb_href": "building_blocks_reference.html#bb-subcluster-tum",
-        "bb_meaning": "weapons"
-      },
-      {
-        "sound": "jeh",
-        "meaning": "weapon",
-        "position": "root"
-      }
-    ],
-    "search_terms": [
-      "",
-      "conflict",
-      "jeh",
-      "tu",
-      "tum",
-      "tumjeh",
-      "weapon",
-      "weapons"
-    ],
-    "core": true,
-    "core_source": "building-block coverage"
   },
   {
     "w": "tumjum",
@@ -47482,7 +47722,7 @@
   {
     "w": "varluan",
     "e": "tongue",
-    "ea": "tongue, taste, language",
+    "ea": "tongue, taste",
     "c": "body parts",
     "cs": "va",
     "sc": "var",
@@ -47539,12 +47779,11 @@
       "body",
       "body parts",
       "face",
-      "language",
       "luan",
       "parts",
       "taste",
       "tongue",
-      "tongue, taste, language",
+      "tongue, taste",
       "va",
       "var",
       "varluan"
@@ -48845,11 +49084,16 @@
       },
       {
         "sound": "luo",
-        "meaning": "exercise"
+        "meaning": "practice",
+        "bb_type": "root",
+        "bb_id": "bb-root-luo",
+        "bb_href": "building_blocks_reference.html#bb-root-luo",
+        "bb_meaning": "practice"
       }
     ],
     "rel": [
-      "rasluo"
+      "rasluo",
+      "roeluo"
     ],
     "ex": [],
     "syllable_meanings": [
@@ -48864,8 +49108,12 @@
       },
       {
         "sound": "luo",
-        "meaning": "exercise",
-        "position": "root"
+        "meaning": "practice",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-luo",
+        "bb_href": "building_blocks_reference.html#bb-root-luo",
+        "bb_meaning": "practice"
       }
     ],
     "search_terms": [
@@ -48980,7 +49228,7 @@
     ],
     "rel": [
       "ciugai",
-      "jegai",
+      "jeros",
       "leigai",
       "litegai",
       "pogai",
@@ -50479,13 +50727,13 @@
     "core": false
   },
   {
-    "w": "wamon",
+    "w": "wacui",
     "e": "cave",
-    "ea": "cave, cavern",
+    "ea": "cave, cavern, grotto",
     "c": "water",
     "cs": "wa",
     "sc": "wa",
-    "r": "mon",
+    "r": "cui",
     "bd": [
       {
         "sound": "wa",
@@ -50496,11 +50744,13 @@
         "bb_meaning": "water, sea"
       },
       {
-        "sound": "mon",
-        "meaning": "cave"
+        "sound": "cui",
+        "meaning": "bowl, concavity"
       }
     ],
-    "rel": [],
+    "rel": [
+      "molcui"
+    ],
     "ex": [],
     "syllable_meanings": [
       {
@@ -50513,19 +50763,23 @@
         "bb_meaning": "water, sea"
       },
       {
-        "sound": "mon",
-        "meaning": "cave",
+        "sound": "cui",
+        "meaning": "bowl, concavity",
         "position": "root"
       }
     ],
     "search_terms": [
+      "bowl",
+      "bowl, concavity",
       "cave",
-      "cave, cavern",
+      "cave, cavern, grotto",
       "cavern",
-      "mon",
+      "concavity",
+      "cui",
+      "grotto",
       "sea",
       "wa",
-      "wamon",
+      "wacui",
       "water",
       "water, sea"
     ],
@@ -50777,7 +51031,7 @@
     ],
     "rel": [
       "borel",
-      "dorel",
+      "dopim",
       "garel",
       "wirel",
       "yesrel"
@@ -51182,7 +51436,7 @@
     ],
     "rel": [
       "ciugai",
-      "jegai",
+      "jeros",
       "leigai",
       "litegai",
       "pogai",
@@ -51897,14 +52151,14 @@
     ],
     "rel": [
       "borel",
-      "dorel",
+      "dopim",
       "garel",
       "warel",
       "yesrel"
     ],
     "ex": [
       {
-        "o": "wirel Lufu su Lusari i damai cai a pohnen, cali be hai i aniyel su vilan jovabo.",
+        "o": "wirel Lufu su Lusari i damai cai a pohnen, cali be dia i aniyel su vilan jovabo.",
         "e": "north Wind and Sun argued about who was stronger, when a traveler arrived wearing a thick cloak.",
         "from_lesson": false
       }
@@ -52669,7 +52923,7 @@
     ],
     "rel": [
       "ciugai",
-      "jegai",
+      "jeros",
       "leigai",
       "litegai",
       "pogai",
@@ -54276,7 +54530,7 @@
     ],
     "rel": [
       "borel",
-      "dorel",
+      "dopim",
       "garel",
       "warel",
       "wirel"
@@ -55288,7 +55542,7 @@
     ],
     "rel": [
       "ciugai",
-      "jegai",
+      "jeros",
       "leigai",
       "litegai",
       "pogai",
