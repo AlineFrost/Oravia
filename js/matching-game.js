@@ -785,7 +785,13 @@ async function initFlashcards(lessonNumber) {
 document$.subscribe(() => {
     const container = document.getElementById('flashcard-container');
     if (!container) return;
+
     const lessonNumber = parseInt(container.dataset.lesson);
+
+    // Remove this attribute after reading it so Review does not
+    // mistake the flashcard container for a matching-game source.
+    container.removeAttribute('data-lesson');
+
     if (!isNaN(lessonNumber)) initFlashcards(lessonNumber);
 });
 
@@ -798,8 +804,8 @@ document$.subscribe(() => {
 const FC_NEW_BATCH = 5;
 const FC_DECK_CONFIGS = {
     1: { url: window.location.origin + '/data/flashcards_deck1.json',             storageKey: 'oravia_fc_deck1', sessionKey: 'oravia_fc_deck1_session' },
-    2: { url: window.location.origin + '/data/flashcards_deck2_placeholder.json', storageKey: 'oravia_fc_deck2', sessionKey: 'oravia_fc_deck2_session' },
-    3: { url: window.location.origin + '/data/flashcards_deck3_placeholder.json', storageKey: 'oravia_fc_deck3', sessionKey: 'oravia_fc_deck3_session' },
+    2: { url: window.location.origin + '/data/flashcards_deck2.json', storageKey: 'oravia_fc_deck2', sessionKey: 'oravia_fc_deck2_session' },
+    3: { url: window.location.origin + '/data/flashcards_deck3.json', storageKey: 'oravia_fc_deck3', sessionKey: 'oravia_fc_deck3_session' },
 };
 
 function renderBreakdown(breakdown) {

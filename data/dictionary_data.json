@@ -13660,8 +13660,8 @@
     ],
     "ex": [
       {
-        "o": "nima elemi neron eleyel",
-        "e": "we live with more love",
+        "o": "en nima elemi, i dami a neron eleyel",
+        "e": "in our life, there is more love",
         "from_lesson": true
       }
     ],
@@ -53293,6 +53293,14 @@
         "bb_id": "bb-root-mir",
         "bb_href": "building_blocks_reference.html#bb-root-mir",
         "bb_meaning": "lots of"
+      },
+      {
+        "sound": "pas",
+        "meaning": "like",
+        "bb_type": "root",
+        "bb_id": "bb-root-pas",
+        "bb_href": "building_blocks_reference.html#bb-root-pas",
+        "bb_meaning": "like"
       }
     ],
     "rel": [],
@@ -53314,6 +53322,15 @@
         "bb_id": "bb-root-mir",
         "bb_href": "building_blocks_reference.html#bb-root-mir",
         "bb_meaning": "lots of",
+        "position": "root"
+      },
+      {
+        "sound": "pas",
+        "meaning": "like",
+        "bb_type": "root",
+        "bb_id": "bb-root-pas",
+        "bb_href": "building_blocks_reference.html#bb-root-pas",
+        "bb_meaning": "like",
         "position": "root"
       }
     ],
