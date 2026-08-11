@@ -52,23 +52,23 @@
     ```
     
     ```
-    i dami a bonfene a yalgai en boelori.
+    i dami a yalgai bonfene en boelori.
     ```
     
     **Tips**
       
     moulu = milk  
-    (ani)dai = want  
-    (dai)ran= like 
+    (ani)dai = want   
+    (dai)ran= like  
     bospupi = shower, bath  
     boelori = room   
     anye = do  
-    yalgai = small 
+    yalgai = small  
     bonfene = bed  
     mai = but  
-    cedom = what + place = where
-    eta = therefore, then
-    dami = exist, there is 
+    cedom = what + place = where  
+    eta = therefore, then  
+    dami = exist, there is  
     eori = please  
     um = negative, no, not  
     a...a... = is/are   

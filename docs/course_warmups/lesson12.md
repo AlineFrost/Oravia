@@ -68,7 +68,7 @@
     
     "*Cei faejor?*" How would you reply *the woman is my mother*?  
     ```
-    a faljor a nim fare
+    a faejor a nim fare
     ```  
     
     How would you say: "I am Mary"?  

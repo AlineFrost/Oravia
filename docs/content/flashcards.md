@@ -1,14 +1,12 @@
-** Flashcards are still being built**
-
-# Flashcards (beta)
+# Flashcards 
 
 The best way to practice Oravia's small vocabulary for more fluent reading, writing, translations and communication.
 
 Deck 1 has the same flashcards from the lessons, but this time cards show the syllable breakdown (clusters and roots). The syllables are used to help learning, and should not be memorized or tested separately.  
 
-Deck 2 has some words that appear in the lessons, and others that are new. By the end, you'd know all Core words.
+Deck 2 has some words that appear in the lessons, and others that are new. By the end, you'd know all Core words and all building blocks.
 
-Deck 3 has the extended vocabulary, covering all remaining words.
+Deck 3 has the extended vocabulary, covering the remaining words.
 
 The decks do not overlap and may be used in parallel or in order. 
 If you change browsers or clear cache, you may lose your progress. If this happens, please contact me.

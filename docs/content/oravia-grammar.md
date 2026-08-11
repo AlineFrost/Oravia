@@ -434,7 +434,7 @@ she has been searching for three years</pre>
 <pre>i moar noder              → I already ate
 noder hay i anocari            → she has already left
   
-ni anlaro-mo              → I&#x27;m still eating
+nim i anlaro-mo              → I&#x27;m still eating
 haya anlaro i elemi en bo    → they still live at home</pre>
 </div>
 </details>
@@ -1089,7 +1089,7 @@ a fatore a anodu yunro de fatore  → my grandparent is the smartest among grand
 <tr><td>nesunya [word]</td><td>0/10 — not at all</td></tr>
 <tr><td>netor [word]</td><td>2/10 — a little</td></tr>
 <tr><td>nepar [word]</td><td>3/10 — somewhat</td></tr>
-<tr><td>nealem [word]</td><td>4/10 — fairly</td></tr>
+<tr><td>nebale [word]</td><td>4/10 — fairly</td></tr>
 <tr><td>nealui [word]</td><td>5/10 — halfway</td></tr>
 <tr><td>neteva [word]</td><td>6/10 — rather</td></tr>
 <tr><td>neperi [word]</td><td>7/10 — quite</td></tr>
@@ -1243,7 +1243,7 @@ bi tohpu!      → how sad!</pre>
 <pre>nim i anvu ilie         → I might go / I&#x27;m going maybe
 hay i anifi litamis ilie     → she might arrive tomorrow</pre>
 <h4>31.3 o — Spotlight / Assertion</h4>
-<p>o at the end of a phrase or sentence puts final emphasis on what just came, asserting it or marking it as the key point:</p>
+<p>o puts emphasis, asserting it or marking it as the key point:</p>
 <pre>o hay !           → it&#x27;s HER! 
 o noi             → right here (emphasis on the location)
 hay o i anocariar    → she DID leave</pre>
@@ -1308,20 +1308,20 @@ jasrec malvae jahvel
 <div class="gr-content">
 <h4>33.1 Reported Speech</h4>
 <p>Reported (indirect) speech uses ca as the connector between the speech verb and the reported clause. The reported clause takes its own markers as if it were a standalone sentence, with no change of person or tense required, since Oravia has no obligatory marking:</p>
-<pre>i ilaluan ca hay i anvu
-I said that he is going
+<pre>i ilahai ca hay i anvu
+I say that he is going
  
-haya i ilaluan ca a nim a ti
-they said that I am bad
+haya i ilahai ca a nim a ti
+they say that I am bad
  
-nfarejor i ilaluan ca litamis i dami a yuba mo
+farejor i ilahai ca litamis i dami a yuba mo
 my mother said that tomorrow there will be good food</pre>
 <h4>33.2 Direct Speech</h4>
 <p>Direct (verbatim) speech uses no as connector, or quotations. The quoted speech follows the speech verb immediately:</p>
-<pre>i ilaluan no hay i anvu
+<pre>i ilahai no hay i anvu
 I said such: he is going
  
-farejor i ilaluan &quot;litamis i dami a yuba mo&quot;
+farejor i ilahai &quot;litamis i dami a yuba mo&quot;
 my mother said &quot;tomorrow there will be good food&quot;</pre>
 </div>
 </details>
@@ -1332,10 +1332,10 @@ my mother said &quot;tomorrow there will be good food&quot;</pre>
 <p>su (and/also/with) works at both the sentence level and inside phrases. Its position determines what it coordinates. </p>
 <h4>34.1 Coordinating Adjectives (One Noun)</h4>
 <p>su between two adjectives before a noun = both adjectives modify the same noun:</p>
-<pre>yohisa su yoyol beivu       → red-and-blue vehicle
+<pre>yopoh su yoyol beivu       → red-and-blue vehicle
 (one vehicle that is both red and blue)
  
-yuba su yunro dia           → good-and-smart person
+yuba su yunro ilhei           → good-and-smart person
 (one person who is both)</pre>
 <h4>34.2 Coordinating Noun Phrases (Multiple Nouns)</h4>
 <p>su between two full noun phrases = two separate referents:</p>
@@ -1443,7 +1443,7 @@ noder nepar             → even a little</pre>
 <p>The correlative neron (more / additional) can be doubled across two clauses to express the proportional relationship &quot;the more X, the more Y&quot;:</p>
 <pre>neron hay i &#x27;asufu, neron be dia i vanta e jovabo en hay
 the more it blew, the more the traveler held his cloak around him</pre>
-<p>The pattern: neron [first clause], neron [second clause]. The two neron phrases work just like the English &quot;the more... the more...&quot; — each intensification of the first event drives an intensification of the second.</p>
+<p>The pattern: neron [first clause], neron [second clause]. The two neron phrases work just like the English &quot;the more... the more...&quot;.</p>
 <pre>neron nim i ilaluan, neron nim i ando
 the more I speak, the more I can
  

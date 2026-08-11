@@ -72,7 +72,7 @@
     
     N: Nim i anifi! Cedom run?  
     B: i anefene en bonfene.   
-    N: Nim i anifou e molvou yasoi. Nimae fano i anidai e moulu. Cedom run i anefe e molvou? En bonjae?  
+    N: Nim i anifou e molvou yasoi. Nima fano i anidai e moulu. Cedom run i anefe e molvou? En bonjae?  
     B: Um, en bontame! Nim i anona u run.  
     N: Eloan. i daium i boemo...  
     B: Nim i boemo u run.  

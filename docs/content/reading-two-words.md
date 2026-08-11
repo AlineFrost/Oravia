@@ -9,32 +9,26 @@
 
 ## Reading
 
-Noi limel en nim varsus  
-a run i ilaluan·ar e tor couya.  
-Ganyu couya.  
-A tor couya a toului caora ilaluan-hue.  
-A couya caora yamirli a yani.  
+Noi limel widuo nim varsus a run i ilaluan·ar e tor couya.  
+Ganyu couya. A tor couya a toului  
+caora lirul-ilaluan hue. A couya  
+caora yamirli a yani.  
 
-A tor couya a o moyi cane a heosu  
-ca i anvu-poiena jentale leirihvan  
-i andetu·ar en nime varmo.  
-
-A o moyi a tor couya  
-cane a musanse i vanvu en nim vatale  
-su a nim i anilie·um i anvu  
-caora i apahela e hay.  
+A tor couya a o moyi eta a heosu ca i anvu-poiena  
+jentale leirihvan  
+i andetu·ar en nim varmo. A o moyi a tor couya  
+eta a musanse i vanvu en nim vatale su a nim i anilie·um  
+i anvu sora i apahela e hay.  
 
 A o moyi a tor couya  
-cane a nim i anipas·um-ilaluan - o yunrani, elemi!  
-
+eta a nim i anipas·um-ilaluan - o yunrani, elemi!  
 A o moyi su o elonor  
-cane a varasi poilumo en von i poilua.  
-
+eta a varasi poilumo en von i poilua.  
 A o moyi su o yunrani  
-cane a nim niu vandi i arou-anvu jetai luyol  
+eta a nim vandi i arou-anvu jetai luyol  
 canon i dodo e jahtorci.  
-
-O, nime vandi i dai i jasjece e oiyar.  
+O, nim vandi i dai  
+i jasjece e oiyar.  
 
 ---
 
@@ -94,22 +88,24 @@ O, nime vandi i dai i jasjece e oiyar.
 
 ---
 
-## Translation
+## Original
 
 <div style="text-align: center; margin: 2rem 0;">
 <button onclick="document.getElementById('translation-two-words').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
-    Click to Reveal Translation
+    Click to Reveal Original
 </button>
 </div>
 
 <div id="translation-two-words" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-<p style="margin: 0 0 1rem 0;">this night in my ears<br>you said two words<br>ordinary words<br>two words tired because they were spoken<br>words that because they are old, are new</p>
-<p style="margin: 0 0 1rem 0;">two words oh sweet as much as the moon<br>that go filtered through the tree branches<br>and stopped moving in my mouth</p>
-<p style="margin: 0 0 1rem 0;">oh sweet two words<br>as much as the ant that walks on my neck<br>and I don't try to move<br>because it would throw them</p>
-<p style="margin: 0 0 1rem 0;">Sweet two words<br>as much as I involuntarily say - oh, beautiful, life!</p>
-<p style="margin: 0 0 1rem 0;">Sweet with peace<br>As the fragrant oil that flows on the body surface</p>
-<p style="margin: 0 0 1rem 0;">Sweet and beautiful<br>Like my fingers move anxiously towards the sky<br>the way they mimic scissors</p>
-<p style="margin: 0;">Oh, my fingers want to cut the stars.</p>
+<p style="margin: 0 0 0.5rem 0;"><strong>Spanish</strong></p>
+<p style="margin: 0 0 1rem 0;">Esta noche al oído me has dicho dos palabras<br>Comunes. Dos palabras cansadas<br>De ser dichas. Palabras<br>Que de viejas son nuevas.</p>
+<p style="margin: 0 0 1rem 0;">Dos palabras tan dulces que la luna que andaba<br>Filtrando entre las ramas<br>Se detuvo en mi boca. Tan dulces dos palabras<br>Que una hormiga pasea por mi cuello y no intento<br>Moverme para echarla.</p>
+<p style="margin: 0 0 1rem 0;">Tan dulces dos palabras<br>Que digo sin quererlo — oh qué bella la vida —<br>Tan dulces y tan mansas<br>Que aceites olorosos sobre el cuerpo derraman.<br>Tan dulces y tan bellas<br>Que los dedos más largos de mi mano derecha<br>Se mueven hacia el cielo imitando tijeras.<br>Mis dos dedos quisieran<br>Cortar estrellas.</p>
+
+<p style="margin: 1.5rem 0 0.5rem 0;"><strong>English</strong></p>
+<p style="margin: 0 0 1rem 0;">Tonight, in my ear, you have said two words<br>Ordinary. Two words tired<br>Of being said. Words<br>That, from being old, are new.</p>
+<p style="margin: 0 0 1rem 0;">Two words so sweet that the moon, which wandered<br>Filtering through the branches,<br>Stopped at my mouth. Two words so sweet<br>That an ant walks along my neck and I do not try<br>To move to brush it away.</p>
+<p style="margin: 0;">Two words so sweet<br>That I say without meaning to — oh, how beautiful, life! —<br>So sweet and so gentle<br>That they pour fragrant oils over the body.<br>So sweet and so beautiful<br>That the longest fingers of my right hand<br>Move toward the sky, imitating scissors.<br>My two fingers would like<br>To cut stars.</p>
 </div>
 
 ---

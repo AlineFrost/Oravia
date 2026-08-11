@@ -50,7 +50,7 @@ nav:
     - Media: content/media.md
     - A2 Proficiency Test: content/a2_test.md
     - Common Imported Words: content/imported-words.md
-    - Flashcards (beta): content/flashcards.md
+    - Flashcards: content/flashcards.md
     - Daily Wordle Game: games/oravia-wordle.html
   - Course:
     - L0 - Pronunciation & Structure: course_warmups/lesson00.md

@@ -31,7 +31,7 @@
     ```
     i dami a moaria  = a moaria i dami 
     ```
-    This means *there is an apple*, or *an apple exists*.
+    This means *there is an apple/apples*, or *an apple exists*.
     
     ```
     i damium a moaria  = a moaria i damium 
