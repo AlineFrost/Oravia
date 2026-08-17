@@ -20,17 +20,17 @@ This learning path allows you to communicate more freely and to engage with the 
 First complete Oravia Primer, which is not a requirement, but it's a strong recommendation. Then, this path can be done over 2 months of about 35 minutes per day, or any other pace that feels right for you.  
 
 - Month 1: go over the [*Complete Course*](../course_warmups/lesson00.md), 2 lessons a day.
-- Month 2: do *Deck 2* under [Flashcards](../flashcards.md), 10 new cards a day. PLUS, *engage with the language everyday* by consuming content, watching videos and chatting on [discord](https://discord.gg/YOUR-INVITE).
+- Month 2: do *Deck 2* under [Flashcards](../content/flashcards.md), 10 new cards a day. PLUS, *engage with the language everyday* by consuming content, watching videos and chatting on [discord](https://discord.gg/YOUR-INVITE).
 
 That's it! By the end we'll have covered all building blocks, most of the vocabulary, most of the sentence structures, and you'll be ready to use the language comfortably in the wild.
 
 ## Path to B1
 
-Ready for more? This learning path will take you to a new level. You'll know all dictionary words, become an independent user, and be able to contribute as a community cornerstone. 
+Ready for more? This learning path will take you to a new level. You'll become an independent user, and be able to contribute as a community cornerstone. 
 
 For this path, first do Oravia in 2 months. Then, add one extra month on top:
 
-- Month 3: do *Deck 3* under [Flashcards](../flashcards.md), 10 new cards a day. PLUS, *engage with the language everyday* by alternating a) writing your own pieces and translating; b) chatting on [discord](https://discord.gg/YOUR-INVITE) and reading books; and c) reading the reference content on the website, such as the [Comprehensive Grammar](../reference/oravia-grammar.md), the [Guide to Craft and Style](../reference/style.md), and the [Building Blocks](../reference/building_blocks_reference.md). 
+- Month 3: do *Deck 3* under [Flashcards](../content/flashcards.md), 10 new cards a day. PLUS, *engage with the language everyday* by alternating a) writing your own pieces and translating; b) chatting on [discord](https://discord.gg/YOUR-INVITE) and reading books; and c) reading the reference content on the website, such as the [Comprehensive Grammar](../reference/oravia-grammar.md), the [Guide to Craft and Style](../reference/style.md), and the [Building Blocks](../reference/building_blocks_reference.md). 
 
 ## Conclusion
 

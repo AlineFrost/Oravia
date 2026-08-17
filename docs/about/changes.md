@@ -8,7 +8,7 @@
 . made building blocks and semantic explorer update the data based on the dictionary.  
 . got rid of the backup versions that were showing up on the website search.  
 . updated the **Cheat Sheet** to show the correct compound rule and building blocks.  
-. changed varpi -> **varasi**, yolimel -> **yomel**, yufer -> **yugobu**, jolrer -> **jolyes**, tohlel -> **tohfou**. deleted yogali (since we now have a new color system). 
+. changed varpi -> **varasi**, yolimel -> **yomel**, yufer -> **yugobu**, jolrer -> **jolyes**, tohlel -> **tohfou**. deleted yogali (since we now have a new color system).  
 . changed grammar 14.3 table, 48.1 example, and to make the verbs of experience constructions and semantics unified.
 
 
