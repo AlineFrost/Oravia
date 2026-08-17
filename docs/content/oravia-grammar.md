@@ -707,7 +707,10 @@ a X a oila-saba<br>(X causes enjoyment)<br>
 a X a oila-tava<br>(X experiences enjoyment)</td>
 </tr>
 </table>
-
+</div>
+</details>
+</div>
+</details>
 ---
 
 <details class="gr-part">
@@ -1790,7 +1793,8 @@ hay i tohpu-davio            → she sad-becomes
 hay i ciudon e tohpu         → she shows sadness
 hay i tohpu-anye             → she sad-acts
 </pre>
-
+</div>
+</details>
 <details class="gr-sec">
 <summary>49. Evidentiality</summary>
 <div class="gr-content">
@@ -2123,7 +2127,8 @@ BEI (vehicles) + LEM (remain) = station, stop (where vehicles stay)</pre>
 <tr><td>ciuruls joniu</td><td>marker, particle</td><td>pattern-piece</td></tr>
 <tr><td>sol sus dora</td><td>building blocks</td><td>sound-bond</td></tr>
 </table>
-
+</div>
+</details>
 <details class="gr-sec">
 <summary>54. Quick Reference</summary>
 <div class="gr-content">
