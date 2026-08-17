@@ -101,11 +101,83 @@ Explore Oravia vocabulary by sound and cluster. Click a letter to begin.
     return out;
   }
 
-  fetch(baseUrl + '/data/building_blocks.json')
-    .then(function(r) { return r.json(); })
-    .then(function(data) {
-      subclusters = data.filter(function(r) { return r.type === 'subcluster'; });
-      init();
+  function mostCommon(values) {
+    var counts = {};
+    var best = '';
+    var bestCount = 0;
+    values.forEach(function(v) {
+      if (!v) return;
+      counts[v] = (counts[v] || 0) + 1;
+      if (counts[v] > bestCount) { best = v; bestCount = counts[v]; }
+    });
+    return best;
+  }
+
+  function deriveSubclusters(dictionary, metadata) {
+    // Only components explicitly tagged bb_type="subcluster" in the dictionary
+    // become Semantic Explorer subclusters. Arbitrary sc values or syllables do not.
+    var meta = {};
+    (metadata || []).forEach(function(r) {
+      if (r.type !== 'subcluster') return;
+      meta[String(r.sound || '').toLowerCase()] = r.natural_language || '';
+    });
+
+    var map = {};
+    dictionary.forEach(function(entry) {
+      var word = entry.w || '';
+      if (!word) return;
+
+      var parts = entry.syllable_meanings || entry.bd || [];
+      parts.forEach(function(part) {
+        if (part.bb_type !== 'subcluster') return;
+        if (part.position && part.position !== 'subcluster') return;
+
+        var sound = String(part.sound || '').toLowerCase();
+        if (!sound) return;
+        var meaning = part.bb_meaning || part.meaning || '';
+
+        if (!map[sound]) {
+          map[sound] = {
+            type: 'subcluster', sound: sound, cluster: '', meaning: '',
+            oravia: [], english: [], natural_language: meta[sound] || '',
+            _meanings: [], _clusters: []
+          };
+        }
+
+        var r = map[sound];
+        if (r.oravia.indexOf(word) < 0) {
+          r.oravia.push(word);
+          r.english.push(entry.e || '');
+        }
+        if (meaning) r._meanings.push(meaning);
+        if (entry.c) r._clusters.push(entry.c);
+      });
+    });
+
+    return Object.keys(map).map(function(sound) {
+      var r = map[sound];
+      r.meaning = mostCommon(r._meanings);
+      r.cluster = mostCommon(r._clusters);
+      delete r._meanings;
+      delete r._clusters;
+      return r;
+    });
+  }
+
+  fetch(baseUrl + '/data/dictionary_data.json', { cache: 'no-store' })
+    .then(function(r) {
+      if (!r.ok) throw new Error('dictionary_data.json');
+      return r.json();
+    })
+    .then(function(dictionary) {
+      // building_blocks.json is optional metadata only; vocabulary structure comes from the dictionary.
+      return fetch(baseUrl + '/data/building_blocks.json', { cache: 'no-store' })
+        .then(function(r) { return r.ok ? r.json() : []; })
+        .catch(function() { return []; })
+        .then(function(metadata) {
+          subclusters = deriveSubclusters(dictionary, metadata);
+          init();
+        });
     })
     .catch(function() {
       document.getElementById('lex-body').innerHTML =

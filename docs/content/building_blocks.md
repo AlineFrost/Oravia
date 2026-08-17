@@ -47,15 +47,100 @@ Use the filters to explore.
   let sortCol = null;
   let sortAsc = true;
 
-  try {
-    const res = await fetch(baseUrl + '/data/building_blocks.json');
-    allData = await res.json();
+  function mostCommon(values) {
+    const counts = {};
+    let best = '';
+    let bestCount = 0;
+    values.forEach(v => {
+      if (!v) return;
+      counts[v] = (counts[v] || 0) + 1;
+      if (counts[v] > bestCount) { best = v; bestCount = counts[v]; }
+    });
+    return best;
+  }
 
-    // Manual etymology/meaning corrections decided from review notes.
+  function deriveBuildingBlocks(dictionary, metadata) {
+    // dictionary_data.json is the structural source of truth.
+    // building_blocks.json contributes etymology text only.
+    const meta = {};
+    (metadata || []).forEach(r => {
+      const key = (r.type || '') + '|' + String(r.sound || '').toLowerCase();
+      meta[key] = { natural_language: r.natural_language || '' };
+    });
+
+    const map = {};
+
+    dictionary.forEach(entry => {
+      const parts = entry.syllable_meanings || entry.bd || [];
+
+      parts.forEach(part => {
+        const type = part.bb_type;
+        if (type !== 'subcluster' && type !== 'root') return;
+        if (part.position && part.position !== type) return;
+
+        const sound = String(part.sound || '').toLowerCase();
+        if (!sound) return;
+
+        const key = type + '|' + sound;
+        if (!map[key]) {
+          map[key] = {
+            type: type,
+            sound: sound,
+            cluster: '',
+            meaning: '',
+            oravia: [],
+            english: [],
+            natural_language: meta[key] ? meta[key].natural_language : '',
+            _meanings: [],
+            _clusters: []
+          };
+        }
+
+        const r = map[key];
+        const word = entry.w || '';
+        if (word && r.oravia.indexOf(word) < 0) {
+          r.oravia.push(word);
+          r.english.push(entry.e || '');
+        }
+
+        const meaning = part.bb_meaning || part.meaning || '';
+        if (meaning) r._meanings.push(meaning);
+        if (type === 'subcluster' && entry.c) r._clusters.push(entry.c);
+      });
+    });
+
+    return Object.keys(map).map(key => {
+      const r = map[key];
+      r.meaning = mostCommon(r._meanings);
+      r.cluster = mostCommon(r._clusters);
+      delete r._meanings;
+      delete r._clusters;
+      return r;
+    }).sort((a, b) => {
+      if (a.type !== b.type) return a.type === 'subcluster' ? -1 : 1;
+      return a.sound.localeCompare(b.sound);
+    });
+  }
+
+  try {
+    const res = await fetch(baseUrl + '/data/dictionary_data.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error('dictionary_data.json');
+    const dictionary = await res.json();
+
+    // building_blocks.json is optional etymology metadata only.
+    let metadata = [];
+    try {
+      const metaRes = await fetch(baseUrl + '/data/building_blocks.json', { cache: 'no-store' });
+      if (metaRes.ok) metadata = await metaRes.json();
+    } catch (_) {}
+
+    allData = deriveBuildingBlocks(dictionary, metadata);
+
+    // Manual etymology corrections decided from review notes. Structural data always comes from the dictionary.
     const bbCorrections = {
       'subcluster|mo':  { natural_language: 'Japanese mogu-mogu' },
       'subcluster|bei': { natural_language: '' },
-      'root|loa':       { meaning: 'long/full extent', natural_language: 'Proto-Polynesian *loa' },
+      'root|loa':       { natural_language: 'Proto-Polynesian *loa' },
       'root|oi':        { natural_language: 'English joy' },
       'subcluster|yo':  { natural_language: 'Yoruba àwọ̀' }
     };

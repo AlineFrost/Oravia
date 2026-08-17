@@ -369,13 +369,13 @@ Don't worry too much about perfect grammar, the goal is communication.
 
 **Ready to go further?**
 
-Why don't you search some words in the [Vocabulary](../content/dictionary.md) and try creating some sentences on [Discord](https://discord.com/invite/FWavWeG)?
+Why don't you search some words in the [Vocabulary](../content/dictionary.md) and try creating some sentences on [Discord](https://discord.gg/NG5w64McTv)?
 
 **20 Hours to Oravia!**  
 Complete the course: 60 lessons of ~15 minutes each.  
 Get immersed from day 1: chat on discord, watch videos, read and create.  
 
-[Start Learning →](../course/lesson00.md){ .md-button .md-button--primary }  
+[Start Learning →](../course_warmups/lesson00.md){ .md-button .md-button--primary }  
 [Get Involved →](get-involved.md){ .md-button }
 ---
 

@@ -3550,20 +3550,6 @@
   },
   {
     "type": "root",
-    "sound": "gali",
-    "meaning": "coffee",
-    "oravia": [
-      "mogali",
-      "yogali"
-    ],
-    "english": [
-      "coffee",
-      "brown"
-    ],
-    "natural_language": "Arabic قهوة qahwa (coffee)"
-  },
-  {
-    "type": "root",
     "sound": "gar",
     "meaning": "bear",
     "oravia": [
@@ -5402,7 +5388,7 @@
       "snail",
       "slow"
     ],
-    "natural_language": "vu (move) + son"
+    "natural_language": "Oravia VU (movement) + SON (late)"
   },
   {
     "type": "root",

@@ -25,7 +25,7 @@ su a run a asusus de wimlua
 su a run a limel su a litamsau.  
 
 En neloa a run i dami su a run a neloa,  
-sora nim su en nim i bofi,  
+sora nim su en o nim i elemi,  
 su sunya li e nim i anocaris,  
 hehou ca nolili e nim i hehou.  
 
@@ -39,15 +39,15 @@ hehou ca nolili e nim i hehou.
 | -is | prospective / yet to start |
 | anivari | return, come back |
 | anocari | leave |
-| asau | start |
+| ansau | start |
 | asewa | cry |
 | asusus | murmur, whisper |
-| bofi | inside |
 | ca | that, which (connector) |
 | cali | when (connector) |
 | [dae]fer | if |
 | daedon | reveal, show |
 | dami | exist, be present |
+| elemi | life, to live |
 | en | in, at, on |
 | hehou | shadow |
 | iliciu | imagine |
@@ -91,7 +91,7 @@ hehou ca nolili e nim i hehou.
 
 <p style="margin: 1.5rem 0 0.5rem 0;"><strong>English</strong></p>
 <p style="margin: 0 0 1rem 0;">When I think that you have gone,<br>black shadow that overshadows me,<br>at the foot of my pillows<br>you return, making fun of me.</p>
-<p style="margin: 0 0 1rem 0;">When I imagine that you are gone,<br>in the very sun you show yourself to me,<br>and you are the star that shines,<br>and you are the wind that blows.</p>
+<p style="margin: 0 0 1rem 0;">When I imagine that you are gone,<br>in the very sun you show yourself to me,<br>and you are the star that shines,<br>and you are the wind that buzzes.</p>
 <p style="margin: 0 0 1rem 0;">If they sing, it is you who sings;<br>if they cry, it is you who cries;<br>and you are the murmur of the river,<br>and you are the night, and you are the dawn.</p>
 <p style="margin: 0;">You are in everything and you are everything;<br>for me, and within me, you dwell;<br>you will never abandon me,<br>shadow that always overshadows me.</p>
 </div>

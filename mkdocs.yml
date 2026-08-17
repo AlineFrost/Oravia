@@ -33,6 +33,7 @@ nav:
   - Home: index.md
   - About:
     - What is Oravia?: about/what-is-oravia.md
+    - How to Learn it?: about/learning.md
     - About Me: about/about-me.md
     - Get Involved: about/get-involved.md
     - Vocabulary FAQ: about/vocab.md
@@ -53,71 +54,86 @@ nav:
     - Flashcards: content/flashcards.md
     - Daily Wordle Game: games/oravia-wordle.html
   - Course:
-    - L0 - Pronunciation & Structure: course_warmups/lesson00.md
-    - Core:
-      - L1 - Pronouns / MO Cluster: course_warmups/lesson01.md
-      - L2 - Markers: course_warmups/lesson02.md
-      - L3 - FA Cluster: course_warmups/lesson03.md
-      - L4 - Negation / Gender: course_warmups/lesson04.md
-      - L5 - BO Cluster: course_warmups/lesson05.md
-      - L6 - Questions: course_warmups/lesson06.md
-      - L7 - AN Cluster: course_warmups/lesson07.md
-      - L8 - Possessives: course_warmups/lesson08.md
-      - L9 - YA Cluster: course_warmups/lesson09.md
-      - L10 - u Marker: course_warmups/lesson10.md
-      - L11 - IL Cluster: course_warmups/lesson11.md
-      - L12 - Is/Are: course_warmups/lesson12.md
-      - L13 - EO Cluster: course_warmups/lesson13.md
-      - L14 - Connectors: course_warmups/lesson14.md
-      - L15 - Numbers: course_warmups/lesson15.md
-      - L16 - Exist and Like / GE: course_warmups/lesson16.md
-      - L17 - LI Cluster: course_warmups/lesson17.md
-      - L18 - CA Connector: course_warmups/lesson18.md
-      - L19 - OI Cluster: course_warmups/lesson19.md
-      - L20 - AR and IS / BE Cluster: course_warmups/lesson20.md
-      - Milestone: course_warmups/milestone1.md
-    - Expansion:
-      - L21 - VA Cluster: course_warmups/lesson21.md
-      - L22 - Time Units: course_warmups/lesson22.md
-      - L23 - NO Cluster: course_warmups/lesson23.md
-      - L24 - Hai & Hue: course_warmups/lesson24.md
-      - L25 - YU Cluster: course_warmups/lesson25.md
-      - L26 - Sequences: course_warmups/lesson26.md
-      - L27 - TO Cluster: course_warmups/lesson27.md
-      - L28 - Why & How: course_warmups/lesson28.md
-      - L29 - LU Cluster: course_warmups/lesson29.md
-      - L30 - Comparatives: course_warmups/lesson30.md
-      - L31 - APA Cluster: course_warmups/lesson31.md
-      - L32 - Should & Must / RO Cluster: course_warmups/lesson32.md
-      - L33 - MI Cluster: course_warmups/lesson33.md
-      - L34 - Conditionals: course_warmups/lesson34.md
-      - L35 - YE Cluster: course_warmups/lesson35.md
-      - L36 - Each Other & Self / Habit: course_warmups/lesson36.md
-      - L37 - NE Cluster: course_warmups/lesson37.md
-      - L38 - Relative Time / YO Cluster: course_warmups/lesson38.md
-      - L39 - LE Cluster: course_warmups/lesson39.md
-      - L40 - Gradation: course_warmups/lesson40.md
-      - Milestone 2: course_warmups/milestone2.md
-      - L41 - JO Cluster: course_warmups/lesson41.md
-      - L42 - Compounds / VO Cluster: course_warmups/lesson42.md
-      - L43 - Compounds / EL Cluster: course_warmups/lesson43.md
-      - L44 - O Marker: course_warmups/lesson44.md
-      - L45 - GA Cluster: course_warmups/lesson45.md
-      - L46 - WA / DO Clusters: course_warmups/lesson46.md
-      - L47 - MA Cluster: course_warmups/lesson47.md
-      - L48 - AS Cluster: course_warmups/lesson48.md
-      - L49 - JA Cluster: course_warmups/lesson49.md
-      - L50 - MU / OM Clusters: course_warmups/lesson50.md
-      - L51 - DA Cluster: course_warmups/lesson51.md
-      - L52 - VE / SI Clusters: course_warmups/lesson52.md
-      - L53 - CO Cluster: course_warmups/lesson53.md
-      - L54 - PO Cluster: course_warmups/lesson54.md
-      - L55 - TI / CIU Clusters: course_warmups/lesson55.md
-      - L56 - SE Cluster: course_warmups/lesson56.md
-      - L57 - Vi / Tu Clusters: course_warmups/lesson57.md
-      - L58 - JE Cluster: course_warmups/lesson58.md
-      - L59 - HE Cluster: course_warmups/lesson59.md
-      - L60 - WI / RA Clusters: course_warmups/lesson60.md
+    - Oravia in 12 Lessons:
+      - Before you start: quick/lesson00.md
+      - L1 - Pronouns: quick/lesson01.md
+      - L2 - A & I Markers: quick/lesson02.md
+      - L3 - Negation & Modifiers: quick/lesson03.md
+      - L4 - E Marker and the Copula: quick/lesson04.md
+      - L5 - U Marker, De, En: quick/lesson05.md
+      - L6 - Questions: quick/lesson06.md
+      - L7 - Connecting Ideas: quick/lesson07.md
+      - L8 - CA & Numbers 1-5: quick/lesson08.md
+      - L9 - Verbs, Numbers & NE: quick/lesson09.md
+      - L10 - AR & IS: quick/lesson10.md
+      - L11 - Compounds, Hyphens & Imports: quick/lesson11.md
+      - L12 - Conditionals: quick/lesson12.md
+    - Complete Course:
+      - L0 - Pronunciation & Structure: course_warmups/lesson00.md
+      - Core:
+        - L1 - Pronouns / MO Cluster: course_warmups/lesson01.md
+        - L2 - Markers: course_warmups/lesson02.md
+        - L3 - FA Cluster: course_warmups/lesson03.md
+        - L4 - Negation / Gender: course_warmups/lesson04.md
+        - L5 - BO Cluster: course_warmups/lesson05.md
+        - L6 - Questions: course_warmups/lesson06.md
+        - L7 - AN Cluster: course_warmups/lesson07.md
+        - L8 - Possessives: course_warmups/lesson08.md
+        - L9 - YA Cluster: course_warmups/lesson09.md
+        - L10 - u Marker: course_warmups/lesson10.md
+        - L11 - IL Cluster: course_warmups/lesson11.md
+        - L12 - Is/Are: course_warmups/lesson12.md
+        - L13 - EO Cluster: course_warmups/lesson13.md
+        - L14 - Connectors: course_warmups/lesson14.md
+        - L15 - Numbers: course_warmups/lesson15.md
+        - L16 - Exist and Like / GE: course_warmups/lesson16.md
+        - L17 - LI Cluster: course_warmups/lesson17.md
+        - L18 - CA Connector: course_warmups/lesson18.md
+        - L19 - OI Cluster: course_warmups/lesson19.md
+        - L20 - AR and IS / BE Cluster: course_warmups/lesson20.md
+        - Milestone: course_warmups/milestone1.md
+      - Expansion:
+        - L21 - VA Cluster: course_warmups/lesson21.md
+        - L22 - Time Units: course_warmups/lesson22.md
+        - L23 - NO Cluster: course_warmups/lesson23.md
+        - L24 - Dia & Hue: course_warmups/lesson24.md
+        - L25 - YU Cluster: course_warmups/lesson25.md
+        - L26 - Sequences: course_warmups/lesson26.md
+        - L27 - TO Cluster: course_warmups/lesson27.md
+        - L28 - Why & How: course_warmups/lesson28.md
+        - L29 - LU Cluster: course_warmups/lesson29.md
+        - L30 - Comparatives: course_warmups/lesson30.md
+        - L31 - APA Cluster: course_warmups/lesson31.md
+        - L32 - Should & Must / RO Cluster: course_warmups/lesson32.md
+        - L33 - MI Cluster: course_warmups/lesson33.md
+        - L34 - Conditionals: course_warmups/lesson34.md
+        - L35 - YE Cluster: course_warmups/lesson35.md
+        - L36 - Each Other & Self / Habit: course_warmups/lesson36.md
+        - L37 - NE Cluster: course_warmups/lesson37.md
+        - L38 - Relative Time / YO Cluster: course_warmups/lesson38.md
+        - L39 - LE Cluster: course_warmups/lesson39.md
+        - L40 - Gradation: course_warmups/lesson40.md
+        - Milestone 2: course_warmups/milestone2.md
+        - L41 - JO Cluster: course_warmups/lesson41.md
+        - L42 - Compounds / VO Cluster: course_warmups/lesson42.md
+        - L43 - Compounds / EL Cluster: course_warmups/lesson43.md
+        - L44 - O Marker: course_warmups/lesson44.md
+        - L45 - GA Cluster: course_warmups/lesson45.md
+        - L46 - WA / DO Clusters: course_warmups/lesson46.md
+        - L47 - MA Cluster: course_warmups/lesson47.md
+        - L48 - AS Cluster: course_warmups/lesson48.md
+        - L49 - JA Cluster: course_warmups/lesson49.md
+        - L50 - MU / OM Clusters: course_warmups/lesson50.md
+        - L51 - DA Cluster: course_warmups/lesson51.md
+        - L52 - VE / SI Clusters: course_warmups/lesson52.md
+        - L53 - CO Cluster: course_warmups/lesson53.md
+        - L54 - PO Cluster: course_warmups/lesson54.md
+        - L55 - TI / CIU Clusters: course_warmups/lesson55.md
+        - L56 - SE Cluster: course_warmups/lesson56.md
+        - L57 - Vi / Tu Clusters: course_warmups/lesson57.md
+        - L58 - JE Cluster: course_warmups/lesson58.md
+        - L59 - HE Cluster: course_warmups/lesson59.md
+        - L60 - WI / RA Clusters: course_warmups/lesson60.md
 
 markdown_extensions:
   - attr_list

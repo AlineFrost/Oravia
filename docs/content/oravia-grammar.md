@@ -210,13 +210,13 @@ ce i anye? = what [V] do? = what are you doing?</pre>
 <tr><td>Existence</td><td>dami</td></tr>
 <tr><td>Events and happenings</td><td>dateli, eomfel</td></tr>
 <tr><td>Seeming</td><td>nomie</td></tr>
-<tr><td>Weather and ambient conditions</td><td>lupupi, luval, lufu, lusari, lumbo, lufiva, luyar, luyun, luhue, lubur, lumirwa, luswa, pohem, yolimel, yoyar</td></tr>
+<tr><td>Weather and ambient conditions</td><td>lupupi, luval, lufu, lusari, lumbo, lufiva, luyar, luyun, luhue, lubur, lumirwa, luswa, pohem, yomel, yoyar</td></tr>
 <tr><td>Time</td><td>limel, liyar, litam, lipardas, lidastor, liperi, litetan, litegai, litemi, ilteli, lunhem, lunu</td></tr>
 </table>
 <p>When time verbs are used as impersonal verbs, they mean time passing; see §48.</p>
-<p>Evaluative words like elireva, dayar, dael, davir, danmir, oihi normally function as framing phrases (§49.2) or with bi for speaker comment (§30). In conditionals, questions, or embedded clauses, they may be used to mean "this claim / situation", and do not default to "I".</p>
+<p>Evaluative words like elireva, dayar, dael, davir, danmir normally function as framing phrases (§49.2) or with bi for speaker comment (§30). In conditionals, questions, or embedded clauses, they may be used to mean "this claim / situation", and do not default to "I".</p>
 <pre>bi elireva = it's true.
-daehur i elireva, eta o i ilahai  = if it's true, tell me.</pre>
+daefer i elireva, eta o i ilahai  = if it's true, tell me.</pre>
 <h4>4.4 Active Subject</h4>
 <p>In narratives and more complex sentences, when a subject is introduced, it becomes the subject until another one is made explicit. That is, if the subject changes, you must introduce it. This is true even if you would normally not use &quot;I&quot; or &quot;you&quot;. This is to prevent ambiguity:</p>
 <pre>Hay i bortal, i apafene en bontame, su i mo. Notam, toumo. Notor, a nim i ilahai.
@@ -517,158 +517,196 @@ nim i tigim-saba e run    → I trigger hatred in you
 nim i tohvor-saba e run   → I trigger fear in you (I frighten you)</pre>
 <p>You may also use -saba with modifiers and adjectives. For details, see §23.5.</p>
 <h4>14.3 Verb List</h4>
-<p>See examples in the table below. Notice that in English the direction and complement change depending on the verb, which means that a unified rule leads to some unintuitive translations into English. Reminder of the general rule: when using emotional or psychological states as bare verbs, the subject is the one experiencing it. </p> <table>
+<p>See examples in the table below. Notice that in English the direction and complement change depending on the verb, which means that a unified rule leads to some unintuitive translations into English. Reminder of the general rule: when using emotional or psychological states as bare verbs, the subject is the one experiencing it. With modifiers and adjectives, the bare form does not specify the direction as a default. If you need it to be explicit, use -saba for the cause and -tava for the experiencer.</p>
+
+<table>
 <tr>
 <th>Root</th>
 <th>Experiencer pattern</th>
 <th>Causative pattern</th>
-<th>Property pattern</th>
+<th>Modifier / adjective pattern</th>
 </tr>
 
 <tr>
 <td>oihi</td>
 <td>X i oihi e Y<br>(X is interested in Y)</td>
 <td>X i oihi-saba e Y<br>(X interests or engages Y)</td>
-<td>a X a oihi u Y<br>(X is interesting to Y)</td>
+<td>a X a oihi<br>(direction open)<br>
+a X a oihi-saba<br>(X causes interest)<br>
+a X a oihi-tava<br>(X experiences interest)</td>
 </tr>
 
 <tr>
 <td>oipoh</td>
 <td>X i oipoh e Y<br>(X is excited by Y)</td>
 <td>X i oipoh-saba e Y<br>(X excites Y)</td>
-<td>a X a oipoh u Y<br>(X is exciting to Y)</td>
+<td>a X a oipoh<br>(direction open)<br>
+a X a oipoh-saba<br>(X causes excitement)<br>
+a X a oipoh-tava<br>(X experiences excitement)</td>
 </tr>
 
 <tr>
 <td>oimin</td>
 <td>X i oimin e Y<br>(X is amused by Y)</td>
 <td>X i oimin-saba e Y<br>(X amuses Y)</td>
-<td>a X a oimin u Y<br>(X is amusing to Y)</td>
+<td>a X a oimin<br>(direction open)<br>
+a X a oimin-saba<br>(X causes amusement)<br>
+a X a oimin-tava<br>(X experiences amusement)</td>
 </tr>
 
 <tr>
 <td>iloram</td>
 <td>X i iloram e Y<br>(X is surprised by Y)</td>
 <td>X i iloram-saba e Y<br>(X surprises Y)</td>
-<td>a X a iloram u Y<br>(X is surprising to Y)</td>
+<td>a X a iloram<br>(direction open)<br>
+a X a iloram-saba<br>(X causes surprise)<br>
+a X a iloram-tava<br>(X experiences surprise)</td>
 </tr>
 
 <tr>
 <td>togei</td>
 <td>X i togei e Y<br>(X is disgusted by Y)</td>
 <td>X i togei-saba e Y<br>(X disgusts Y)</td>
-<td>a X a togei u Y<br>(X is disgusting to Y)</td>
+<td>a X a togei<br>(direction open)<br>
+a X a togei-saba<br>(X causes disgust)<br>
+a X a togei-tava<br>(X experiences disgust)</td>
 </tr>
 
 <tr>
 <td>tohbian</td>
 <td>X i tohbian e Y<br>(X is confused by Y)</td>
 <td>X i tohbian-saba e Y<br>(X confuses Y)</td>
-<td>a X a tohbian u Y<br>(X is confusing to Y)</td>
+<td>a X a tohbian<br>(direction open)<br>
+a X a tohbian-saba<br>(X causes confusion)<br>
+a X a tohbian-tava<br>(X experiences confusion)</td>
 </tr>
 
 <tr>
 <td>toului</td>
 <td>X i toului e Y<br>(X is tired by Y)</td>
 <td>X i toului-saba e Y<br>(X tires Y)</td>
-<td>a X a toului u Y<br>(X is tiring to Y)</td>
+<td>a X a toului<br>(direction open)<br>
+a X a toului-saba<br>(X causes tiredness)<br>
+a X a toului-tava<br>(X experiences tiredness)</td>
 </tr>
 
 <tr>
 <td>tostale</td>
 <td>X i tostale e Y<br>(X is offended by Y)</td>
 <td>X i tostale-saba e Y<br>(X offends Y)</td>
-<td>a X a tostale u Y<br>(X is offensive to Y)</td>
+<td>a X a tostale<br>(direction open)<br>
+a X a tostale-saba<br>(X causes offense)<br>
+a X a tostale-tava<br>(X experiences offense)</td>
 </tr>
 
 <tr>
 <td>tohpu</td>
 <td>X i tohpu e Y<br>(X is sad about Y)</td>
 <td>X i tohpu-saba e Y<br>(X saddens Y)</td>
-<td>a X a tohpu u Y<br>(X is saddening to Y)</td>
+<td>a X a tohpu<br>(direction open)<br>
+a X a tohpu-saba<br>(X causes sadness)<br>
+a X a tohpu-tava<br>(X experiences sadness)</td>
 </tr>
 
 <tr>
 <td>tohnaru</td>
 <td>X i tohnaru e Y<br>(X is angry at Y)</td>
 <td>X i tohnaru-saba e Y<br>(X angers Y)</td>
-<td>a X a tohnaru u Y<br>(X is infuriating to Y)</td>
+<td>a X a tohnaru<br>(direction open)<br>
+a X a tohnaru-saba<br>(X causes anger)<br>
+a X a tohnaru-tava<br>(X experiences anger)</td>
 </tr>
 
 <tr>
 <td>tohvor</td>
 <td>X i tohvor e Y<br>(X fears Y)</td>
 <td>X i tohvor-saba e Y<br>(X frightens Y)</td>
-<td>a X a tohvor u Y<br>(X is frightening to Y)</td>
+<td>a X a tohvor<br>(direction open)<br>
+a X a tohvor-saba<br>(X causes fear)<br>
+a X a tohvor-tava<br>(X experiences fear)</td>
 </tr>
 
 <tr>
 <td>iloto</td>
 <td>X i iloto e Y<br>(X is worried about Y)</td>
 <td>X i iloto-saba e Y<br>(X worries Y)</td>
-<td>a X a iloto u Y<br>(X is worrying to Y)</td>
+<td>a X a iloto<br>(direction open)<br>
+a X a iloto-saba<br>(X causes worry)<br>
+a X a iloto-tava<br>(X experiences worry)</td>
 </tr>
 
 <tr>
 <td>dapas</td>
 <td>X i dapas e Y<br>(X likes or prefers Y)</td>
 <td>X i dapas-saba e Y<br>(X causes Y to like or prefer X)</td>
-<td>a X a dapas u Y<br>(X is likeable to Y)</td>
+<td>a X a dapas<br>(direction open)<br>
+a X a dapas-saba<br>(X causes liking or preference)<br>
+a X a dapas-tava<br>(X experiences liking or preference)</td>
 </tr>
 
 <tr>
 <td>eleyel</td>
 <td>X i eleyel e Y<br>(X loves Y)</td>
 <td>X i eleyel-saba e Y<br>(X inspires love in Y)</td>
-<td>a X a eleyel u Y<br>(X is lovable to Y)</td>
+<td>a X a eleyel<br>(direction open)<br>
+a X a eleyel-saba<br>(X causes love)<br>
+a X a eleyel-tava<br>(X experiences love)</td>
 </tr>
 
 <tr>
 <td>tigim</td>
 <td>X i tigim e Y<br>(X hates Y)</td>
 <td>X i tigim-saba e Y<br>(X inspires hatred in Y)</td>
-<td>a X a tigim u Y<br>(X is hateful to Y)</td>
+<td>a X a tigim<br>(direction open)<br>
+a X a tigim-saba<br>(X causes hatred)<br>
+a X a tigim-tava<br>(X experiences hatred)</td>
 </tr>
 
 <tr>
 <td>tohlel</td>
 <td>X i tohlel e Y<br>(X misses Y)</td>
 <td>X i tohlel-saba e Y<br>(X causes Y to miss X)</td>
-<td>a X a tohlel u Y<br>(X is missed by Y)</td>
+<td>a X a tohlel<br>(direction open)<br>
+a X a tohlel-saba<br>(X causes longing or missing)<br>
+a X a tohlel-tava<br>(X experiences longing or missing)</td>
 </tr>
 
 <tr>
 <td>tohsum</td>
 <td>X i tohsum e Y<br>(X envies Y)</td>
 <td>X i tohsum-saba e Y<br>(X provokes envy in Y)</td>
-<td>a X a tohsum u Y<br>(X is enviable to Y)</td>
+<td>a X a tohsum<br>(direction open)<br>
+a X a tohsum-saba<br>(X causes envy)<br>
+a X a tohsum-tava<br>(X experiences envy)</td>
 </tr>
 
 <tr>
 <td>tohdin</td>
 <td>X i tohdin e Y<br>(X regrets Y)</td>
 <td>X i tohdin-saba e Y<br>(X causes Y to regret X)</td>
-<td>a X a tohdin u Y<br>(X is regrettable to Y)</td>
+<td>a X a tohdin<br>(direction open)<br>
+a X a tohdin-saba<br>(X causes regret)<br>
+a X a tohdin-tava<br>(X experiences regret)</td>
 </tr>
 
 <tr>
 <td>eloliuto</td>
 <td>X i eloliuto e Y<br>(X pities Y)</td>
 <td>X i eloliuto-saba e Y<br>(X evokes pity in Y)</td>
-<td>a X a eloliuto u Y<br>(X is pitiable to Y)</td>
+<td>a X a eloliuto<br>(direction open)<br>
+a X a eloliuto-saba<br>(X causes pity)<br>
+a X a eloliuto-tava<br>(X experiences pity)</td>
 </tr>
 
 <tr>
 <td>oila</td>
 <td>X i oila e Y<br>(X enjoys Y)</td>
 <td>X i oila-saba e Y<br>(X delights Y)</td>
-<td>a X a oila u Y<br>(X is enjoyable to Y)</td>
+<td>a X a oila<br>(direction open)<br>
+a X a oila-saba<br>(X causes enjoyment)<br>
+a X a oila-tava<br>(X experiences enjoyment)</td>
 </tr>
 </table>
-</div>
-</details>
-</div>
-</details>
 
 ---
 
@@ -886,10 +924,9 @@ ce coter de nen tor?    = what number out of 100? = what percentage?</pre>
 <details class="gr-sec">
 <summary>20. Colors</summary>
 <div class="gr-content">
-<p>There are 7 basic color names, representing hues:</p>
+<p>There are 6 basic color names, representing hues:</p>
 <table>
 <tr><th>Word</th><th>Meaning</th></tr>
-<tr><td>yogali</td><td>brown</td></tr>
 <tr><td>yopoh</td><td>red</td></tr>
 <tr><td>yomel</td><td>black, dark</td></tr>
 <tr><td>yosari</td><td>yellow</td></tr>
@@ -1728,25 +1765,31 @@ o i mo nima / nima o i mo → let's eat</pre>
 </table>
 <p>Some words have a fixed meaning when used as a verb, since there may have multiple main functions. It's the case of door, which by convention means to enter (i bortal), and key, which means to unlock (i sever).</p>
 <p>Some words, especially locations, qualities, and abstract nouns, don&#x27;t have a fixed meaning when used as a verb. This is deliberate.</p>
-<p>i bo could mean to be at home, to go home, to enter. i tohpu could mean to feel sad, to act sad, to express sadness. Think of it as the unmarked, general, or poetic option. You may choose it when the specific reading is clear from context, when it doesn&#x27;t matter, or when you want the word to carry more than one resonance at once.</p>
+<p>Some words, especially locations, non-psychological qualities, and abstract nouns, don't have a fixed meaning when used as a verb. This is deliberate. Psychological and emotional words are an exception: when used as bare verbs, they follow the experiencer-subject pattern described in §14.</p>
+
+<p>i bo could mean to be at home, to go home, to enter. Think of it as a general option that you may choose when the specific reading is clear from context, when it doesn't matter, or when you want the word to carry more than one resonance at once.</p>
+
 <p>When you do want to be specific, the tools are already there:</p>
+
 <h5>i bo — location as verb</h5>
 <pre>hay en bo               → she is in the house
-hay i anvu jetai bo          → she goes direction the house  
-hay i bortal en bo           → she enters the house  
-hay i bo-anvu                → she house-goes 
-hay i bo-bortal              → she house-enters  
+hay i anvu jetai bo          → she goes toward the house
+hay i bortal en bo           → she enters the house
+hay i bo-anvu                → she house-goes
+hay i bo-bortal              → she house-enters
 hay i bo e falen             → she houses/shelters a kid
 </pre>
-<h5>i tohpu — quality as verb</h5>
-<pre>a hay a tohpu            → she is sad  (copula)
-hay i davio no tohpu          → she becomes sad  
-hay i tohpu-davio             → she sad-becomes  
-hay i ciudon e tohpu          → she shows sadness  
-hay i tohpu-anye              → she sad-acts  
-hay i tohpu e falen           → she saddens the kid (causative via e)</pre>
-</div>
-</details>
+
+<h5>Psychological and emotional words as verbs</h5>
+<pre>a hay a tohpu           → she is sad (copula)
+hay i tohpu                  → she feels sadness / is sad
+hay i tohpu e falen          → she is sad about the child
+hay i tohpu-saba e falen     → she saddens the child
+hay i davio no tohpu         → she becomes sad
+hay i tohpu-davio            → she sad-becomes
+hay i ciudon e tohpu         → she shows sadness
+hay i tohpu-anye             → she sad-acts
+</pre>
 
 <details class="gr-sec">
 <summary>49. Evidentiality</summary>
@@ -1764,7 +1807,7 @@ hay i tohpu e falen           → she saddens the kid (causative via e)</pre>
 she left — I witnessed this
 bi eosus a hay a tohpu
 I heard that he is sad
-a bo a anolum hue, bi daeta
+a bo a anolu hue, bi daeta
 the house seems abandoned — I’m inferring this</pre>
 <p>They can also stand alone as a comment on a prior statement:</p>
 <pre>A: hay i faigel. (he got married.)
@@ -2052,7 +2095,37 @@ BEI (vehicles) + LEM (remain) = station, stop (where vehicles stay)</pre>
 </details>
 
 <details class="gr-sec">
-<summary>53. Quick Reference</summary>
+<summary>53. Grammatical Terms in Oravia</summary>
+<div class="gr-content">
+<p>These terms are compound examples built from existing words and building blocks.</p>
+<table>
+<tr><th>Oravia</th><th>English</th><th>Literally</th></tr>
+<tr><td>couya</td><td>word</td><td>—</td></tr>
+<tr><td>anapas couya</td><td>verb</td><td>action-word</td></tr>
+<tr><td>yayus couya</td><td>adjective</td><td>quality-word</td></tr>
+<tr><td>ilwols couya</td><td>noun</td><td>thing-word</td></tr>
+<tr><td>nons couya</td><td>adverb</td><td>manner-word</td></tr>
+<tr><td>couyas yel</td><td>compound</td><td>word-joining</td></tr>
+<tr><td>jaleis colira</td><td>hyphen</td><td>stick-sign</td></tr>
+<tr><td>varis joniu</td><td>suffix</td><td>back-piece</td></tr>
+<tr><td>couno</td><td>sentence</td><td>—</td></tr>
+<tr><td>cousiu</td><td>letter</td><td>—</td></tr>
+<tr><td>semluans ciurul</td><td>grammar</td><td>language-pattern</td></tr>
+<tr><td>semluans daciu</td><td>syntax</td><td>language-form</td></tr>
+<tr><td>ilaces colira</td><td>question mark</td><td>question-sign</td></tr>
+<tr><td>yadetus colira</td><td>period</td><td>end-sign</td></tr>
+<tr><td>asfes colira</td><td>comma</td><td>pause-sign</td></tr>
+<tr><td>os colira</td><td>exclamation mark</td><td>emphasis-sign</td></tr>
+<tr><td>couyas seseri</td><td>word list</td><td>word-list</td></tr>
+<tr><td>sol sus eodyel</td><td>syllable</td><td>sound-group</td></tr>
+<tr><td>couyas eodyel</td><td>cluster</td><td>word-group</td></tr>
+<tr><td>nelems sus</td><td>root</td><td>leftover-sound</td></tr>
+<tr><td>ciuruls joniu</td><td>marker, particle</td><td>pattern-piece</td></tr>
+<tr><td>sol sus dora</td><td>building blocks</td><td>sound-bond</td></tr>
+</table>
+
+<details class="gr-sec">
+<summary>54. Quick Reference</summary>
 <div class="gr-content">
 <table>
 <tr><th>Marker / Word</th><th>Function</th></tr>

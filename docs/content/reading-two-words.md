@@ -100,12 +100,12 @@ i jasjece e oiyar.
 <p style="margin: 0 0 0.5rem 0;"><strong>Spanish</strong></p>
 <p style="margin: 0 0 1rem 0;">Esta noche al oído me has dicho dos palabras<br>Comunes. Dos palabras cansadas<br>De ser dichas. Palabras<br>Que de viejas son nuevas.</p>
 <p style="margin: 0 0 1rem 0;">Dos palabras tan dulces que la luna que andaba<br>Filtrando entre las ramas<br>Se detuvo en mi boca. Tan dulces dos palabras<br>Que una hormiga pasea por mi cuello y no intento<br>Moverme para echarla.</p>
-<p style="margin: 0 0 1rem 0;">Tan dulces dos palabras<br>Que digo sin quererlo — oh qué bella la vida —<br>Tan dulces y tan mansas<br>Que aceites olorosos sobre el cuerpo derraman.<br>Tan dulces y tan bellas<br>Que los dedos más largos de mi mano derecha<br>Se mueven hacia el cielo imitando tijeras.<br>Mis dos dedos quisieran<br>Cortar estrellas.</p>
+<p style="margin: 0 0 1rem 0;">Tan dulces dos palabras<br>Que digo sin quererlo — oh qué bella la vida —<br>Tan dulces y tan mansas<br>Que aceites olorosos sobre el cuerpo derraman.<br>Tan dulces y tan bellas<br>Que nerviosos, mis dedos<br>Se mueven hacia el cielo imitando tijeras.<br>Oh, mis dedos quisieran<br>Cortar estrellas.</p>
 
 <p style="margin: 1.5rem 0 0.5rem 0;"><strong>English</strong></p>
 <p style="margin: 0 0 1rem 0;">Tonight, in my ear, you have said two words<br>Ordinary. Two words tired<br>Of being said. Words<br>That, from being old, are new.</p>
 <p style="margin: 0 0 1rem 0;">Two words so sweet that the moon, which wandered<br>Filtering through the branches,<br>Stopped at my mouth. Two words so sweet<br>That an ant walks along my neck and I do not try<br>To move to brush it away.</p>
-<p style="margin: 0;">Two words so sweet<br>That I say without meaning to — oh, how beautiful, life! —<br>So sweet and so gentle<br>That they pour fragrant oils over the body.<br>So sweet and so beautiful<br>That the longest fingers of my right hand<br>Move toward the sky, imitating scissors.<br>My two fingers would like<br>To cut stars.</p>
+<p style="margin: 0;">Two words so sweet<br>That I say without meaning to — oh, how beautiful, life! —<br>So sweet and so gentle<br>That they pour fragrant oils over the body.<br>So sweet and so beautiful<br>That anxiously, my fingers,<br>Move toward the sky, imitating scissors.<br>My two fingers would like<br>To cut stars.</p>
 </div>
 
 ---
