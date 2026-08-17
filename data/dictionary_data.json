@@ -1514,7 +1514,7 @@
   {
     "w": "anja",
     "e": "use",
-    "ea": "use, tool",
+    "ea": "use, useful",
     "c": "volitional action",
     "cs": "an",
     "sc": "an",
@@ -30395,7 +30395,7 @@
   {
     "w": "malveni",
     "e": "flour",
-    "ea": "flour, dust, a granulated substance, grind, powder",
+    "ea": "flour, granulated, to grind",
     "c": "cooking food",
     "cs": "ma",
     "sc": "mal",
@@ -46174,7 +46174,7 @@
   {
     "w": "touvei",
     "e": "illness",
-    "ea": "illness, disease",
+    "ea": "illness, disease, sick",
     "c": "suffer",
     "cs": "tou",
     "sc": "tou",
@@ -49395,7 +49395,7 @@
   {
     "w": "visfiyur",
     "e": "heart",
-    "ea": "heart, pump",
+    "ea": "heart",
     "c": "interior body",
     "cs": "vi",
     "sc": "vis",

@@ -1018,5 +1018,624 @@
     "lesson": 40,
     "front": "nedas toumo!",
     "back": "super (10/10) hungry!"
+  },
+  {
+    "id": "L101_g_nim",
+    "lesson": 101,
+    "front": "nim",
+    "back": "I, me",
+    "breakdown": []
+  },
+  {
+    "id": "L101_g_run",
+    "lesson": 101,
+    "front": "run",
+    "back": "you",
+    "breakdown": []
+  },
+  {
+    "id": "L101_g_hay",
+    "lesson": 101,
+    "front": "hay",
+    "back": "he, she, it",
+    "breakdown": []
+  },
+  {
+    "id": "L101_v_mo",
+    "lesson": 101,
+    "front": "mo",
+    "back": "food, eat",
+    "breakdown": [
+      {
+        "sound": "mo",
+        "meaning": "food/eating"
+      }
+    ]
+  },
+  {
+    "id": "L101_v_eofa",
+    "lesson": 101,
+    "front": "eofa",
+    "back": "friend",
+    "breakdown": [
+      {
+        "sound": "eo",
+        "meaning": "social"
+      },
+      {
+        "sound": "fa",
+        "meaning": "family"
+      }
+    ]
+  },
+  {
+    "id": "L102_g_a",
+    "lesson": 102,
+    "front": "a",
+    "back": "subject marker",
+    "breakdown": []
+  },
+  {
+    "id": "L102_g_i",
+    "lesson": 102,
+    "front": "i",
+    "back": "verb marker",
+    "breakdown": []
+  },
+  {
+    "id": "L102_v_anvu",
+    "lesson": 102,
+    "front": "anvu",
+    "back": "go, move",
+    "breakdown": [
+      {
+        "sound": "an",
+        "meaning": "action"
+      },
+      {
+        "sound": "vu",
+        "meaning": "movement"
+      }
+    ]
+  },
+  {
+    "id": "L102_v_yalgai",
+    "lesson": 102,
+    "front": "yalgai",
+    "back": "small",
+    "breakdown": [
+      {
+        "sound": "yal",
+        "meaning": "size qualities"
+      },
+      {
+        "sound": "gai",
+        "meaning": "small"
+      }
+    ]
+  },
+  {
+    "id": "L102_v_varmo",
+    "lesson": 102,
+    "front": "varmo",
+    "back": "mouth",
+    "breakdown": [
+      {
+        "sound": "var",
+        "meaning": "face"
+      },
+      {
+        "sound": "mo",
+        "meaning": "eat"
+      }
+    ]
+  },
+  {
+    "id": "L103_g_um",
+    "lesson": 103,
+    "front": "-um",
+    "back": "not",
+    "breakdown": []
+  },
+  {
+    "id": "L103_v_yudur",
+    "lesson": 103,
+    "front": "yudur",
+    "back": "difficult, hard",
+    "breakdown": [
+      {
+        "sound": "yu",
+        "meaning": "subjective qualities"
+      },
+      {
+        "sound": "dur",
+        "meaning": "hardness"
+      }
+    ]
+  },
+  {
+    "id": "L103_v_leirih",
+    "lesson": 103,
+    "front": "leirih",
+    "back": "tree",
+    "breakdown": [
+      {
+        "sound": "lei",
+        "meaning": "plants"
+      },
+      {
+        "sound": "rih",
+        "meaning": "higher, rising"
+      }
+    ]
+  },
+  {
+    "id": "L104_g_e",
+    "lesson": 104,
+    "front": "e",
+    "back": "object marker",
+    "breakdown": []
+  },
+  {
+    "id": "L104_g_copula",
+    "lesson": 104,
+    "front": "a X a Y",
+    "back": "X is Y",
+    "breakdown": []
+  },
+  {
+    "id": "L104_v_yaltan",
+    "lesson": 104,
+    "front": "yaltan",
+    "back": "big",
+    "breakdown": [
+      {
+        "sound": "yal",
+        "meaning": "size qualities"
+      },
+      {
+        "sound": "tan",
+        "meaning": "big"
+      }
+    ]
+  },
+  {
+    "id": "L104_v_eleyel",
+    "lesson": 104,
+    "front": "eleyel",
+    "back": "love",
+    "breakdown": [
+      {
+        "sound": "ele",
+        "meaning": "self-expansion"
+      },
+      {
+        "sound": "yel",
+        "meaning": "joining"
+      }
+    ]
+  },
+  {
+    "id": "L104_v_wamu",
+    "lesson": 104,
+    "front": "wamu",
+    "back": "fish",
+    "breakdown": [
+      {
+        "sound": "wa",
+        "meaning": "water, sea"
+      },
+      {
+        "sound": "mu",
+        "meaning": "small animal"
+      }
+    ]
+  },
+  {
+    "id": "L105_g_u",
+    "lesson": 105,
+    "front": "u",
+    "back": "to, for",
+    "breakdown": []
+  },
+  {
+    "id": "L105_g_de",
+    "lesson": 105,
+    "front": "de",
+    "back": "of, from",
+    "breakdown": []
+  },
+  {
+    "id": "L105_g_en",
+    "lesson": 105,
+    "front": "en",
+    "back": "in, on, at",
+    "breakdown": []
+  },
+  {
+    "id": "L105_v_anona",
+    "lesson": 105,
+    "front": "anona",
+    "back": "give",
+    "breakdown": [
+      {
+        "sound": "ano",
+        "meaning": "movement away"
+      },
+      {
+        "sound": "na",
+        "meaning": "giving"
+      }
+    ]
+  },
+  {
+    "id": "L105_v_anefene",
+    "lesson": 105,
+    "front": "anefene",
+    "back": "rest",
+    "breakdown": [
+      {
+        "sound": "ane",
+        "meaning": "static movement"
+      },
+      {
+        "sound": "fene",
+        "meaning": "rest"
+      }
+    ]
+  },
+  {
+    "id": "L106_g_ce",
+    "lesson": 106,
+    "front": "ce",
+    "back": "what?",
+    "breakdown": []
+  },
+  {
+    "id": "L106_g_cei",
+    "lesson": 106,
+    "front": "cei",
+    "back": "who?",
+    "breakdown": []
+  },
+  {
+    "id": "L106_g_cedom",
+    "lesson": 106,
+    "front": "cedom",
+    "back": "where?",
+    "breakdown": [
+      {
+        "sound": "ce",
+        "meaning": "question"
+      },
+      {
+        "sound": "dom",
+        "meaning": "place"
+      }
+    ]
+  },
+  {
+    "id": "L106_v_ilian",
+    "lesson": 106,
+    "front": "ilian",
+    "back": "know",
+    "breakdown": [
+      {
+        "sound": "ili",
+        "meaning": "cognition"
+      },
+      {
+        "sound": "an",
+        "meaning": "action"
+      }
+    ]
+  },
+  {
+    "id": "L106_v_anifou",
+    "lesson": 106,
+    "front": "anifou",
+    "back": "need",
+    "breakdown": [
+      {
+        "sound": "ani",
+        "meaning": "movement towards"
+      },
+      {
+        "sound": "fou",
+        "meaning": "lack"
+      }
+    ]
+  },
+  {
+    "id": "L107_g_su",
+    "lesson": 107,
+    "front": "su",
+    "back": "and, with",
+    "breakdown": []
+  },
+  {
+    "id": "L107_g_mai",
+    "lesson": 107,
+    "front": "mai",
+    "back": "but",
+    "breakdown": []
+  },
+  {
+    "id": "L107_g_dou",
+    "lesson": 107,
+    "front": "dou",
+    "back": "or",
+    "breakdown": []
+  },
+  {
+    "id": "L107_g_eta",
+    "lesson": 107,
+    "front": "eta",
+    "back": "so, then",
+    "breakdown": []
+  },
+  {
+    "id": "L107_v_eori",
+    "lesson": 107,
+    "front": "eori",
+    "back": "polite, please",
+    "breakdown": [
+      {
+        "sound": "eo",
+        "meaning": "social"
+      },
+      {
+        "sound": "ri",
+        "meaning": "act"
+      }
+    ]
+  },
+  {
+    "id": "L108_g_ca",
+    "lesson": 108,
+    "front": "ca",
+    "back": "that, which",
+    "breakdown": []
+  },
+  {
+    "id": "L108_n_tam",
+    "lesson": 108,
+    "front": "tam",
+    "back": "1",
+    "breakdown": []
+  },
+  {
+    "id": "L108_n_tor",
+    "lesson": 108,
+    "front": "tor",
+    "back": "2",
+    "breakdown": []
+  },
+  {
+    "id": "L108_n_par",
+    "lesson": 108,
+    "front": "par",
+    "back": "3",
+    "breakdown": []
+  },
+  {
+    "id": "L108_v_anidai",
+    "lesson": 108,
+    "front": "anidai",
+    "back": "want",
+    "breakdown": [
+      {
+        "sound": "ani",
+        "meaning": "movement towards"
+      },
+      {
+        "sound": "dai",
+        "meaning": "want"
+      }
+    ]
+  },
+  {
+    "id": "L109_n_peri",
+    "lesson": 109,
+    "front": "peri",
+    "back": "7",
+    "breakdown": []
+  },
+  {
+    "id": "L109_n_das",
+    "lesson": 109,
+    "front": "das",
+    "back": "10",
+    "breakdown": []
+  },
+  {
+    "id": "L109_v_ando",
+    "lesson": 109,
+    "front": "ando",
+    "back": "can",
+    "breakdown": [
+      {
+        "sound": "an",
+        "meaning": "action"
+      },
+      {
+        "sound": "do",
+        "meaning": "can"
+      }
+    ]
+  },
+  {
+    "id": "L109_v_wiltan",
+    "lesson": 109,
+    "front": "wiltan",
+    "back": "city",
+    "breakdown": [
+      {
+        "sound": "wil",
+        "meaning": "human made geography"
+      },
+      {
+        "sound": "tan",
+        "meaning": "big"
+      }
+    ]
+  },
+  {
+    "id": "L109_v_yalwol",
+    "lesson": 109,
+    "front": "yalwol",
+    "back": "wide",
+    "breakdown": [
+      {
+        "sound": "yal",
+        "meaning": "size qualities"
+      },
+      {
+        "sound": "wol",
+        "meaning": "wide"
+      }
+    ]
+  },
+  {
+    "id": "L110_g_ar",
+    "lesson": 110,
+    "front": "-ar",
+    "back": "completed by reference point",
+    "breakdown": []
+  },
+  {
+    "id": "L110_g_is",
+    "lesson": 110,
+    "front": "-is",
+    "back": "later than reference point",
+    "breakdown": []
+  },
+  {
+    "id": "L110_v_iliro",
+    "lesson": 110,
+    "front": "iliro",
+    "back": "think",
+    "breakdown": [
+      {
+        "sound": "ili",
+        "meaning": "cognition"
+      },
+      {
+        "sound": "ro",
+        "meaning": "thinking, reasoning"
+      }
+    ]
+  },
+  {
+    "id": "L110_v_gehna",
+    "lesson": 110,
+    "front": "gehna",
+    "back": "buy",
+    "breakdown": [
+      {
+        "sound": "geh",
+        "meaning": "buy"
+      },
+      {
+        "sound": "na",
+        "meaning": "giving"
+      }
+    ]
+  },
+  {
+    "id": "L110_v_yoyar",
+    "lesson": 110,
+    "front": "yoyar",
+    "back": "white",
+    "breakdown": [
+      {
+        "sound": "yo",
+        "meaning": "colors"
+      },
+      {
+        "sound": "yar",
+        "meaning": "light"
+      }
+    ]
+  },
+  {
+    "id": "L111_v_lisoi",
+    "lesson": 111,
+    "front": "lisoi",
+    "back": "soon",
+    "breakdown": [
+      {
+        "sound": "li",
+        "meaning": "time"
+      },
+      {
+        "sound": "soi",
+        "meaning": "speed"
+      }
+    ]
+  },
+  {
+    "id": "L111_v_leipili",
+    "lesson": 111,
+    "front": "leipili",
+    "back": "flower",
+    "breakdown": [
+      {
+        "sound": "lei",
+        "meaning": "plants"
+      },
+      {
+        "sound": "pili",
+        "meaning": "delicate"
+      }
+    ]
+  },
+  {
+    "id": "L112_g_daefer",
+    "lesson": 112,
+    "front": "daefer",
+    "back": "if",
+    "breakdown": [
+      {
+        "sound": "dae",
+        "meaning": "epistemic"
+      },
+      {
+        "sound": "fer",
+        "meaning": "assumption"
+      }
+    ]
+  },
+  {
+    "id": "L112_v_anever",
+    "lesson": 112,
+    "front": "anever",
+    "back": "safe, secure",
+    "breakdown": [
+      {
+        "sound": "ane",
+        "meaning": "static movement"
+      },
+      {
+        "sound": "ver",
+        "meaning": "safety"
+      }
+    ]
+  },
+  {
+    "id": "L112_v_elireva",
+    "lesson": 112,
+    "front": "elireva",
+    "back": "true, truth",
+    "breakdown": [
+      {
+        "sound": "eli",
+        "meaning": "virtue"
+      },
+      {
+        "sound": "reva",
+        "meaning": "accurate"
+      }
+    ]
   }
 ]

@@ -564,6 +564,7 @@ const FCUI = {
                 .fc-back .fc-label { color: #43a047; }
                 .fc-text { font-size: 1.5rem; font-weight: bold; color: #2a4a6b; line-height: 1.3; }
                 .fc-back .fc-text { color: #2d5a30; }
+                .fc-breakdown { margin-top: 0.65rem; font-size: 0.95rem; font-weight: 400; color: #4f6f52; line-height: 1.4; }
                 .fc-flip-hint { font-size: 0.8rem; color: #aaa; margin-top: 1rem; }
                 .fc-buttons { display: none; justify-content: center; gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
                 .fc-btn { padding: 0.6rem 1.6rem; border: none; border-radius: 6px; font-size: 1rem; font-weight: 600; cursor: pointer; transition: opacity 0.15s; }
@@ -599,6 +600,7 @@ const FCUI = {
                     <div class="fc-face fc-back">
                         <div class="fc-label fc-back-label">English</div>
                         <div class="fc-text fc-back-text"></div>
+                        <div class="fc-breakdown"></div>
                     </div>
                 </div>
             </div>
@@ -646,6 +648,18 @@ const FCUI = {
             c.querySelector('.fc-back-label').textContent = 'English';
             c.querySelector('.fc-back-text').textContent = card.back;
         }
+
+        const breakdown = Array.isArray(card.breakdown)
+            ? card.breakdown
+                .map(part =>
+                    `${String(part.sound).toUpperCase()} (${part.meaning})`
+                )
+                .join(' + ')
+            : '';
+
+        const breakdownEl = c.querySelector('.fc-breakdown');
+        breakdownEl.textContent = breakdown;
+        breakdownEl.style.display = breakdown ? 'block' : 'none';
 
         c.querySelector('.fc-buttons').style.display = 'none';
         c.querySelector('.fc-flip-hint').style.display = 'block';
@@ -757,14 +771,31 @@ async function initFlashcards(lessonNumber) {
             localStorage.setItem('oravia_fc_last_session', today);
         }
 
+        // ORAVIA COURSE-SCOPED LESSON FLASHCARDS
+        // Primer pages review only Primer cards (101–112).
+        // Complete Course pages review only Complete Course cards (1–60).
+        // Any other lesson number can use only cards assigned exactly to it.
+        const sessionCards =
+            lessonNumber >= 101 && lessonNumber <= 112
+                ? allCards.filter(card =>
+                    card.lesson >= 101 && card.lesson <= 112
+                )
+                : lessonNumber >= 1 && lessonNumber <= 60
+                    ? allCards.filter(card =>
+                        card.lesson >= 1 && card.lesson <= 60
+                    )
+                    : allCards.filter(card =>
+                        Number(card.lesson) === Number(lessonNumber)
+                    );
+
         // New cards: belong to this lesson and have never been seen
-        const newCards = allCards.filter(card =>
+        const newCards = sessionCards.filter(card =>
             card.lesson === lessonNumber && !FCStorage.getCard(card.id)
         );
 
-        // Review cards: due today from any lesson
-        const sessionDue = FCStorage.getSessionDueCards(allCards);
-        const allDue = FCStorage.getDueCards(allCards, new Set(newCards.map(c => c.id)));
+        // Review cards: due today from this course only
+        const sessionDue = FCStorage.getSessionDueCards(sessionCards);
+        const allDue = FCStorage.getDueCards(sessionCards, new Set(newCards.map(c => c.id)));
         const reviewCards = [...sessionDue, ...allDue].slice(0, FC_REVIEW_CAP);
 
         // Initialize new cards in storage when first seen
@@ -773,7 +804,7 @@ async function initFlashcards(lessonNumber) {
         });
 
         const session = new FCSession(newCards, reviewCards);
-        FCUI.init(container, session, allCards);
+        FCUI.init(container, session, sessionCards);
 
     } catch(e) {
         container.innerHTML = '<p style="color:#f44336">Could not load flashcards. Please refresh.</p>';
