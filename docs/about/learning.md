@@ -34,8 +34,8 @@ For this path, first do Oravia in 2 months. Then, add one extra month on top:
 
 ## Conclusion
 
-Oravia has about 860 words built mostly from ~260 building blocks, so what you learn keeps coming back in new combinations. It also has a simple grammar with a low learning load, designed to complement the vocabulary system.  
+Oravia has about 860 words built mostly from ~260 building blocks. It also has a simple grammar with a low learning load, designed to complement the vocabulary system.  
 
-This means that the more you learn, the more learning accelerates. Each new piece brings more and more possibilities of recombination, and a new root helps you learn several words. That's how Oravia can be so precise and expressive, and also be possible to learn so fast.
+This means that the more you learn, the faster it gets. Each new piece brings more possibilities of recombination, and the semantic structure helps you build associations. That's how Oravia can be so precise and expressive, while also possible to learn so fast.
 
-No matter which learning path you take, you'll be learning the same system. Even with just the Primer, it's enough to start reading, experimenting, and talking to other learners. The other paths let you lean less on the dictionary and be more free and creative with your expression.
+Even with just the Primer, it's enough to start experimenting and talking to other learners. The other paths enable you to be more fluid and creative with your expression.

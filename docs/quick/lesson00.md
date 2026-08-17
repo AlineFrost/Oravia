@@ -1,13 +1,13 @@
 # Before You Start
 
 Welcome!   
-This course was designed to give you a feel of how Oravia works and what it is about. By the end, you will know all the basics, which is enough to start communicating!
+This course was designed to give you a feel of how Oravia works and what it is about. By the end, you will know the basics, which is enough to start communicating!
 
 Before Lesson 1, take a few minutes to hear how Oravia sounds and notice one thing about its vocabulary.
 
 ## How to use this course
 
-This course is meant to be light. Read the examples, try the little questions before opening the answers, and keep going even if you forget a word. The same words and sound-meaning connections will come back.
+This course is meant to be light. Read the examples and try the little questions before opening the answers. Keep going even if you forget a word as the same words and sound-meaning connections will come back.
 
 You do **not** need to memorize everything in each lesson before continuing.
 
@@ -78,13 +78,13 @@ Adjacent vowels are preferably pronounced as one syllable, as in o**RA**via, but
   <source src="../../course_warmups/audio/wordexamples.mp3" type="audio/wav">
 </audio>
 
-The recordings may reflect the speaker's own accent. Aim for mutual intelligibility rather than copying one exact accent.
+The recordings may reflect my own accent. Aim for mutual intelligibility rather than to copy an exact accent. Accents vary and there is no "right" accent.
 
 ---
 
 ## One thing to notice
 
-Vocabulary usually takes longer than grammar because words need to be seen multiple times. Oravia gives you recurring sound-meaning connections to help them stick.
+Vocabulary usually takes longer than grammar because words need to be seen multiple times. Oravia gives you recurring sound-meaning connections to help you learn and remember words.
 
 Look at these three words:
 
@@ -101,13 +101,13 @@ Anything jump out?
 
 They all begin with **MI**.
 
-In Oravia, **MI** is connected with **larger animals**. So these words are not three completely unrelated strings of sounds.
+In Oravia, **MI** is connected with **larger animals**. 
 
 You will start seeing how this works in Lesson 1.
 
 </details>
 
-That's enough vocabulary structure for now. There is more going on inside Oravia words, but it is more fun to explore the system while you are actually learning it.
+That's enough vocabulary structure for now. There's more going on inside Oravia words, but it's more fun to let you explore the system as we go.
 
 <div style="text-align: center; padding: 2rem 0;">
   <a href="../lesson01" class="md-button md-button--primary">Start Lesson 1 →</a>

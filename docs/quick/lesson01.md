@@ -44,7 +44,7 @@ Put a personal pronoun directly before a noun:
 
 A lot of Oravia vocabulary is built from recurring sound-meaning pieces called **building blocks**.
 
-Building blocks make vocabulary easier to learn and remember. When a piece turns up again, the old association comes with it. Many times, you may even get a sense of the word before learning it.
+Building blocks make vocabulary easier to learn and remember. As you learn more words, you form a web of associations and an intuitive sense for what they mean. Many times, you may even get a sense of the word before learning it.
 
 Because this is a short course written in English, most of the mnemonics here use English or familiar Romance-language connections. The Complete Course and the Building Blocks page use mnemonics and sound connections from languages around the world. 
 
