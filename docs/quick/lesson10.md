@@ -175,14 +175,6 @@ What time of day does **liyar** suggest?
 
 </details>
 
-`litamis, nim i boemo, haya i mois`
-
-<details class="example-translation">
-<summary>Click to Reveal Translation</summary>
-
-*Tomorrow, I cook, they will not have eaten yet / they eat later (eating, with -is, happens after the time of the other action.*
-
-</details>
 
 `litamis, nim i boemoar cali haya i mo`
 
