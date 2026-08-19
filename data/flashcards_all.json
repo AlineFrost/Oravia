@@ -1053,18 +1053,18 @@
     ]
   },
   {
-    "id": "L101_v_eofa",
+    "id": "L101_v_boemo",
     "lesson": 101,
-    "front": "eofa",
-    "back": "friend",
+    "front": "boemo",
+    "back": "kitchen, cook",
     "breakdown": [
       {
-        "sound": "eo",
-        "meaning": "social"
+        "sound": "boe",
+        "meaning": "house spaces"
       },
       {
-        "sound": "fa",
-        "meaning": "family"
+        "sound": "mo",
+        "meaning": "food/eating"
       }
     ]
   },
@@ -1122,11 +1122,11 @@
     "breakdown": [
       {
         "sound": "var",
-        "meaning": "face"
+        "meaning": "face/head area"
       },
       {
         "sound": "mo",
-        "meaning": "eat"
+        "meaning": "eating"
       }
     ]
   },
@@ -1136,6 +1136,38 @@
     "front": "-um",
     "back": "not",
     "breakdown": []
+  },
+  {
+    "id": "L103_v_beivu",
+    "lesson": 103,
+    "front": "beivu",
+    "back": "car, drive",
+    "breakdown": [
+      {
+        "sound": "bei",
+        "meaning": "vehicles"
+      },
+      {
+        "sound": "vu",
+        "meaning": "movement"
+      }
+    ]
+  },
+  {
+    "id": "L103_v_eofa",
+    "lesson": 103,
+    "front": "eofa",
+    "back": "friend",
+    "breakdown": [
+      {
+        "sound": "eo",
+        "meaning": "social relationships"
+      },
+      {
+        "sound": "fa",
+        "meaning": "family"
+      }
+    ]
   },
   {
     "id": "L103_v_yudur",
