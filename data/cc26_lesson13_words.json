@@ -1,0 +1,92 @@
+{
+  "lesson_id": "cc26_lesson13",
+  "cluster": "restructured-course",
+  "cluster_meaning": "matching practice",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "Core recognition",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 3
+    },
+    {
+      "round": 2,
+      "title": "Core recognition — repeat 1",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 3,
+      "allow_repeats": true
+    },
+    {
+      "round": 3,
+      "title": "Core recognition — repeat 2",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 3,
+      "allow_repeats": true
+    },
+    {
+      "round": 4,
+      "title": "LEO / FA root connections",
+      "buckets": [
+        "r2"
+      ],
+      "words_per_bucket": 4
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson13_r1_1",
+      "oravia": "eon",
+      "english": "hello",
+      "bucket": "r1",
+      "source_bucket": "core"
+    },
+    {
+      "id": "lesson13_r1_2",
+      "oravia": "eofa",
+      "english": "friend",
+      "bucket": "r1",
+      "source_bucket": "core"
+    },
+    {
+      "id": "lesson13_r1_3",
+      "oravia": "eomfel",
+      "english": "event",
+      "bucket": "r1",
+      "source_bucket": "recognition"
+    },
+    {
+      "id": "lesson13_r2_1",
+      "oravia": "eoleo",
+      "english": "member",
+      "bucket": "r2",
+      "source_bucket": "leo"
+    },
+    {
+      "id": "lesson13_r2_2",
+      "oravia": "raleo",
+      "english": "race",
+      "bucket": "r2",
+      "source_bucket": "leo"
+    },
+    {
+      "id": "lesson13_r2_3",
+      "oravia": "eofa",
+      "english": "friend",
+      "bucket": "r2",
+      "source_bucket": "fa"
+    },
+    {
+      "id": "lesson13_r2_4",
+      "oravia": "dofa",
+      "english": "inherit",
+      "bucket": "r2",
+      "source_bucket": "fa"
+    }
+  ]
+}

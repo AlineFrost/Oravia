@@ -13991,7 +13991,7 @@
   {
     "w": "elihei",
     "e": "self",
-    "ea": "self, own (adj)",
+    "ea": "self, own (adj), auto-",
     "c": "wonder",
     "cs": "el",
     "sc": "eli",
@@ -14059,7 +14059,14 @@
       "self",
       "self, own (adj)",
       "virtue",
-      "wonder"
+      "wonder",
+      "auto",
+      "automatic",
+      "myself",
+      "yourself",
+      "herself",
+      "himself",
+      "Themselves"
     ],
     "core": true
   },

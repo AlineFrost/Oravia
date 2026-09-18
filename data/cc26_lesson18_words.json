@@ -1,0 +1,132 @@
+{
+  "lesson_id": "cc26_lesson18",
+  "cluster": "restructured-course",
+  "cluster_meaning": "matching practice",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "LITE / general LI contrast 1",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 3
+    },
+    {
+      "round": 2,
+      "title": "LITE / general LI contrast 2",
+      "buckets": [
+        "r2"
+      ],
+      "words_per_bucket": 3
+    },
+    {
+      "round": 3,
+      "title": "LITE / general LI contrast 3",
+      "buckets": [
+        "r3"
+      ],
+      "words_per_bucket": 3
+    },
+    {
+      "round": 4,
+      "title": "Sound connections",
+      "buckets": [
+        "r4"
+      ],
+      "words_per_bucket": 4
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson18_r1_1",
+      "oravia": "litetan",
+      "english": "hour",
+      "bucket": "r1",
+      "source_bucket": "lite"
+    },
+    {
+      "id": "lesson18_r1_2",
+      "oravia": "litam",
+      "english": "day",
+      "bucket": "r1",
+      "source_bucket": "li-general"
+    },
+    {
+      "id": "lesson18_r1_3",
+      "oravia": "liyar",
+      "english": "morning",
+      "bucket": "r1",
+      "source_bucket": "li-general"
+    },
+    {
+      "id": "lesson18_r2_1",
+      "oravia": "litegai",
+      "english": "minute",
+      "bucket": "r2",
+      "source_bucket": "lite"
+    },
+    {
+      "id": "lesson18_r2_2",
+      "oravia": "liperi",
+      "english": "week",
+      "bucket": "r2",
+      "source_bucket": "li-general"
+    },
+    {
+      "id": "lesson18_r2_3",
+      "oravia": "limel",
+      "english": "evening",
+      "bucket": "r2",
+      "source_bucket": "li-general"
+    },
+    {
+      "id": "lesson18_r3_1",
+      "oravia": "litemi",
+      "english": "second",
+      "bucket": "r3",
+      "source_bucket": "lite"
+    },
+    {
+      "id": "lesson18_r3_2",
+      "oravia": "lidastor",
+      "english": "year",
+      "bucket": "r3",
+      "source_bucket": "li-general"
+    },
+    {
+      "id": "lesson18_r3_3",
+      "oravia": "lili",
+      "english": "again",
+      "bucket": "r3",
+      "source_bucket": "li-general"
+    },
+    {
+      "id": "lesson18_r4_1",
+      "oravia": "litegai",
+      "english": "minute",
+      "bucket": "r4",
+      "source_bucket": "gai-root"
+    },
+    {
+      "id": "lesson18_r4_2",
+      "oravia": "yalgai",
+      "english": "small",
+      "bucket": "r4",
+      "source_bucket": "gai-root"
+    },
+    {
+      "id": "lesson18_r4_3",
+      "oravia": "litetan",
+      "english": "hour",
+      "bucket": "r4",
+      "source_bucket": "tan-root"
+    },
+    {
+      "id": "lesson18_r4_4",
+      "oravia": "yaltan",
+      "english": "big",
+      "bucket": "r4",
+      "source_bucket": "tan-root"
+    }
+  ]
+}

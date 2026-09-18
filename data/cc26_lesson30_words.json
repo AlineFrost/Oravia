@@ -1,0 +1,153 @@
+{
+  "lesson_id": "cc26_lesson30",
+  "cluster": "restructured-course",
+  "cluster_meaning": "matching practice",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "TOH / TOU contrast 1",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 2,
+      "title": "TOH / TOU contrast 2",
+      "buckets": [
+        "r2"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 3,
+      "title": "TOH / TOU contrast 3",
+      "buckets": [
+        "r3"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 4,
+      "title": "Sound connections",
+      "buckets": [
+        "r4"
+      ],
+      "words_per_bucket": 4
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson30_r1_1",
+      "oravia": "tohpu",
+      "english": "sad",
+      "bucket": "r1",
+      "source_bucket": "toh"
+    },
+    {
+      "id": "lesson30_r1_2",
+      "oravia": "tohdin",
+      "english": "sorry, regret",
+      "bucket": "r1",
+      "source_bucket": "toh"
+    },
+    {
+      "id": "lesson30_r1_3",
+      "oravia": "touwa",
+      "english": "thirst",
+      "bucket": "r1",
+      "source_bucket": "tou"
+    },
+    {
+      "id": "lesson30_r1_4",
+      "oravia": "touvei",
+      "english": "illness",
+      "bucket": "r1",
+      "source_bucket": "tou"
+    },
+    {
+      "id": "lesson30_r2_1",
+      "oravia": "toharou",
+      "english": "anxious",
+      "bucket": "r2",
+      "source_bucket": "toh"
+    },
+    {
+      "id": "lesson30_r2_2",
+      "oravia": "tohnaru",
+      "english": "anger",
+      "bucket": "r2",
+      "source_bucket": "toh"
+    },
+    {
+      "id": "lesson30_r2_3",
+      "oravia": "toumo",
+      "english": "hungry",
+      "bucket": "r2",
+      "source_bucket": "tou"
+    },
+    {
+      "id": "lesson30_r2_4",
+      "oravia": "tounir",
+      "english": "weak",
+      "bucket": "r2",
+      "source_bucket": "tou"
+    },
+    {
+      "id": "lesson30_r3_1",
+      "oravia": "tohbian",
+      "english": "confusion",
+      "bucket": "r3",
+      "source_bucket": "toh"
+    },
+    {
+      "id": "lesson30_r3_2",
+      "oravia": "tohvor",
+      "english": "fear",
+      "bucket": "r3",
+      "source_bucket": "toh"
+    },
+    {
+      "id": "lesson30_r3_3",
+      "oravia": "touros",
+      "english": "tense",
+      "bucket": "r3",
+      "source_bucket": "tou"
+    },
+    {
+      "id": "lesson30_r3_4",
+      "oravia": "toului",
+      "english": "tired",
+      "bucket": "r3",
+      "source_bucket": "tou"
+    },
+    {
+      "id": "lesson30_r4_1",
+      "oravia": "tohpu",
+      "english": "sad",
+      "bucket": "r4",
+      "source_bucket": "pu-root"
+    },
+    {
+      "id": "lesson30_r4_2",
+      "oravia": "anopu",
+      "english": "lose",
+      "bucket": "r4",
+      "source_bucket": "pu-root"
+    },
+    {
+      "id": "lesson30_r4_3",
+      "oravia": "touwa",
+      "english": "thirst",
+      "bucket": "r4",
+      "source_bucket": "wa-root"
+    },
+    {
+      "id": "lesson30_r4_4",
+      "oravia": "wimwa",
+      "english": "lake",
+      "bucket": "r4",
+      "source_bucket": "wa-root"
+    }
+  ]
+}

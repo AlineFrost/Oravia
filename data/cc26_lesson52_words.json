@@ -1,0 +1,132 @@
+{
+  "lesson_id": "cc26_lesson52",
+  "cluster": "complete-course",
+  "cluster_meaning": "matching practice",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "VE recognition",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 2,
+      "title": "SI recognition",
+      "buckets": [
+        "r2"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 3,
+      "title": "Cluster recognition — mixed repeat",
+      "buckets": [
+        "r3_repeat"
+      ],
+      "words_per_bucket": 6,
+      "allow_repeats": true
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson52_r1_1",
+      "oravia": "veito",
+      "english": "wound",
+      "bucket": "r1",
+      "source_bucket": "ve"
+    },
+    {
+      "id": "lesson52_r1_2",
+      "oravia": "velan",
+      "english": "therapy",
+      "bucket": "r1",
+      "source_bucket": "ve"
+    },
+    {
+      "id": "lesson52_r1_3",
+      "oravia": "veluo",
+      "english": "exercise",
+      "bucket": "r1",
+      "source_bucket": "ve"
+    },
+    {
+      "id": "lesson52_r1_4",
+      "oravia": "velmo",
+      "english": "pill",
+      "bucket": "r1",
+      "source_bucket": "ve"
+    },
+    {
+      "id": "lesson52_r2_1",
+      "oravia": "sirose",
+      "english": "computer",
+      "bucket": "r2",
+      "source_bucket": "si"
+    },
+    {
+      "id": "lesson52_r2_2",
+      "oravia": "siyal",
+      "english": "detect",
+      "bucket": "r2",
+      "source_bucket": "si"
+    },
+    {
+      "id": "lesson52_r2_3",
+      "oravia": "sioer",
+      "english": "game",
+      "bucket": "r2",
+      "source_bucket": "sio"
+    },
+    {
+      "id": "lesson52_r2_4",
+      "oravia": "sihei",
+      "english": "robot",
+      "bucket": "r2",
+      "source_bucket": "si"
+    },
+    {
+      "id": "lesson52_r3_repeat_1",
+      "oravia": "veito",
+      "english": "wound",
+      "bucket": "r3_repeat",
+      "source_bucket": "ve"
+    },
+    {
+      "id": "lesson52_r3_repeat_2",
+      "oravia": "velan",
+      "english": "therapy",
+      "bucket": "r3_repeat",
+      "source_bucket": "ve"
+    },
+    {
+      "id": "lesson52_r3_repeat_3",
+      "oravia": "veluo",
+      "english": "exercise",
+      "bucket": "r3_repeat",
+      "source_bucket": "ve"
+    },
+    {
+      "id": "lesson52_r3_repeat_4",
+      "oravia": "sirose",
+      "english": "computer",
+      "bucket": "r3_repeat",
+      "source_bucket": "si"
+    },
+    {
+      "id": "lesson52_r3_repeat_5",
+      "oravia": "siyal",
+      "english": "detect",
+      "bucket": "r3_repeat",
+      "source_bucket": "si"
+    },
+    {
+      "id": "lesson52_r3_repeat_6",
+      "oravia": "sioer",
+      "english": "game",
+      "bucket": "r3_repeat",
+      "source_bucket": "sio"
+    }
+  ]
+}

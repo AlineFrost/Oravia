@@ -1,0 +1,168 @@
+{
+  "lesson_id": "cc26_lesson57",
+  "cluster": "complete-course",
+  "cluster_meaning": "matching practice",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "VI recognition",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 2,
+      "title": "TU recognition",
+      "buckets": [
+        "r2"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 3,
+      "title": "Cluster recognition — mixed repeat",
+      "buckets": [
+        "r3_repeat"
+      ],
+      "words_per_bucket": 6,
+      "allow_repeats": true
+    },
+    {
+      "round": 4,
+      "title": "LIL / DUR roots",
+      "buckets": [
+        "r3"
+      ],
+      "words_per_bucket": 4
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson57_r1_1",
+      "oravia": "visfiyur",
+      "english": "heart",
+      "bucket": "r1",
+      "source_bucket": "vi"
+    },
+    {
+      "id": "lesson57_r1_2",
+      "oravia": "visomo",
+      "english": "stomach",
+      "bucket": "r1",
+      "source_bucket": "vis"
+    },
+    {
+      "id": "lesson57_r1_3",
+      "oravia": "viwa",
+      "english": "blood",
+      "bucket": "r1",
+      "source_bucket": "vi"
+    },
+    {
+      "id": "lesson57_r1_4",
+      "oravia": "visro",
+      "english": "brain",
+      "bucket": "r1",
+      "source_bucket": "vis"
+    },
+    {
+      "id": "lesson57_r2_1",
+      "oravia": "tunen",
+      "english": "violence",
+      "bucket": "r2",
+      "source_bucket": "tu"
+    },
+    {
+      "id": "lesson57_r2_2",
+      "oravia": "tuldac",
+      "english": "crash",
+      "bucket": "r2",
+      "source_bucket": "tu"
+    },
+    {
+      "id": "lesson57_r2_3",
+      "oravia": "turai",
+      "english": "war",
+      "bucket": "r2",
+      "source_bucket": "tu"
+    },
+    {
+      "id": "lesson57_r2_4",
+      "oravia": "tuapa",
+      "english": "attack",
+      "bucket": "r2",
+      "source_bucket": "tu"
+    },
+    {
+      "id": "lesson57_r3_1",
+      "oravia": "vilil",
+      "english": "muscle",
+      "bucket": "r3",
+      "source_bucket": "lil"
+    },
+    {
+      "id": "lesson57_r3_2",
+      "oravia": "malil",
+      "english": "meat",
+      "bucket": "r3",
+      "source_bucket": "lil"
+    },
+    {
+      "id": "lesson57_r3_3",
+      "oravia": "vidur",
+      "english": "bone",
+      "bucket": "r3",
+      "source_bucket": "dur"
+    },
+    {
+      "id": "lesson57_r3_4",
+      "oravia": "joldur",
+      "english": "metal",
+      "bucket": "r3",
+      "source_bucket": "dur"
+    },
+    {
+      "id": "lesson57_r3_repeat_1",
+      "oravia": "visfiyur",
+      "english": "heart",
+      "bucket": "r3_repeat",
+      "source_bucket": "vi"
+    },
+    {
+      "id": "lesson57_r3_repeat_2",
+      "oravia": "visomo",
+      "english": "stomach",
+      "bucket": "r3_repeat",
+      "source_bucket": "vis"
+    },
+    {
+      "id": "lesson57_r3_repeat_3",
+      "oravia": "viwa",
+      "english": "blood",
+      "bucket": "r3_repeat",
+      "source_bucket": "vi"
+    },
+    {
+      "id": "lesson57_r3_repeat_4",
+      "oravia": "tunen",
+      "english": "violence",
+      "bucket": "r3_repeat",
+      "source_bucket": "tu"
+    },
+    {
+      "id": "lesson57_r3_repeat_5",
+      "oravia": "tuldac",
+      "english": "crash",
+      "bucket": "r3_repeat",
+      "source_bucket": "tu"
+    },
+    {
+      "id": "lesson57_r3_repeat_6",
+      "oravia": "turai",
+      "english": "war",
+      "bucket": "r3_repeat",
+      "source_bucket": "tu"
+    }
+  ]
+}

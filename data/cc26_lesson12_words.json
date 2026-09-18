@@ -1,0 +1,132 @@
+{
+  "lesson_id": "cc26_lesson12",
+  "cluster": "restructured-course",
+  "cluster_meaning": "matching practice",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "ILA / ILI / ILO contrast 1",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 3
+    },
+    {
+      "round": 2,
+      "title": "ILA / ILI / ILO contrast 2",
+      "buckets": [
+        "r2"
+      ],
+      "words_per_bucket": 3
+    },
+    {
+      "round": 3,
+      "title": "ILA / ILI / ILO contrast 3",
+      "buckets": [
+        "r3"
+      ],
+      "words_per_bucket": 3
+    },
+    {
+      "round": 4,
+      "title": "HEI / WOL root connections",
+      "buckets": [
+        "r4"
+      ],
+      "words_per_bucket": 4
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson12_r1_1",
+      "oravia": "ilace",
+      "english": "ask",
+      "bucket": "r1",
+      "source_bucket": "ila"
+    },
+    {
+      "id": "lesson12_r1_2",
+      "oravia": "ilian",
+      "english": "know",
+      "bucket": "r1",
+      "source_bucket": "ili"
+    },
+    {
+      "id": "lesson12_r1_3",
+      "oravia": "ilonya",
+      "english": "forget",
+      "bucket": "r1",
+      "source_bucket": "ilo"
+    },
+    {
+      "id": "lesson12_r2_1",
+      "oravia": "ilaluan",
+      "english": "say",
+      "bucket": "r2",
+      "source_bucket": "ila"
+    },
+    {
+      "id": "lesson12_r2_2",
+      "oravia": "ilie",
+      "english": "maybe",
+      "bucket": "r2",
+      "source_bucket": "ili"
+    },
+    {
+      "id": "lesson12_r2_3",
+      "oravia": "iloi",
+      "english": "hope",
+      "bucket": "r2",
+      "source_bucket": "ilo"
+    },
+    {
+      "id": "lesson12_r3_1",
+      "oravia": "ilahai",
+      "english": "talk",
+      "bucket": "r3",
+      "source_bucket": "ila"
+    },
+    {
+      "id": "lesson12_r3_2",
+      "oravia": "iliro",
+      "english": "think",
+      "bucket": "r3",
+      "source_bucket": "ili"
+    },
+    {
+      "id": "lesson12_r3_3",
+      "oravia": "iloto",
+      "english": "worry",
+      "bucket": "r3",
+      "source_bucket": "ilo"
+    },
+    {
+      "id": "lesson12_r4_1",
+      "oravia": "ilhei",
+      "english": "people",
+      "bucket": "r4",
+      "source_bucket": "hei"
+    },
+    {
+      "id": "lesson12_r4_2",
+      "oravia": "raihei",
+      "english": "citizen",
+      "bucket": "r4",
+      "source_bucket": "hei"
+    },
+    {
+      "id": "lesson12_r4_3",
+      "oravia": "ilwol",
+      "english": "thing",
+      "bucket": "r4",
+      "source_bucket": "wol"
+    },
+    {
+      "id": "lesson12_r4_4",
+      "oravia": "vawol",
+      "english": "chest",
+      "bucket": "r4",
+      "source_bucket": "wol"
+    }
+  ]
+}

@@ -44,19 +44,19 @@
   {
     "id": "L03_v1",
     "lesson": 3,
-    "front": "nima",
+    "front": "nimas",
     "back": "we"
   },
   {
     "id": "L03_v2",
     "lesson": 3,
-    "front": "runa",
+    "front": "runas",
     "back": "you (plural)"
   },
   {
     "id": "L03_v3",
     "lesson": 3,
-    "front": "haya",
+    "front": "hayas",
     "back": "they (plural)"
   },
   {
@@ -68,18 +68,18 @@
   {
     "id": "L03_s1",
     "lesson": 3,
-    "front": "a runa i mo e moaria",
+    "front": "a runas i mo e moaria",
     "back": "you all eat the apple"
   },
   {
     "id": "L04_v1",
-    "lesson": 4,
+    "lesson": 7,
     "front": "molcui",
     "back": "bowl"
   },
   {
     "id": "L04_v2",
-    "lesson": 4,
+    "lesson": 7,
     "front": "moaria",
     "back": "apple"
   },
@@ -97,38 +97,38 @@
   },
   {
     "id": "L05_v1",
-    "lesson": 5,
+    "lesson": 4,
     "front": "mouje",
     "back": "drink, beverage"
   },
   {
     "id": "L05_v2",
-    "lesson": 5,
+    "lesson": 4,
     "front": "mocen",
     "back": "chocolate"
   },
   {
     "id": "L05_g1",
     "lesson": 5,
-    "front": "-jal / -jor",
-    "back": "masculine / feminine suffix"
+    "front": "jal / jor",
+    "back": "male / female modifier, placed before the word"
   },
   {
     "id": "L05_s1",
     "lesson": 5,
-    "front": "farejal i moum mocen",
+    "front": "jal fare i moum mocen",
     "back": "my father does not eat chocolate"
   },
   {
     "id": "L06_v1",
-    "lesson": 6,
+    "lesson": 5,
     "front": "faibor",
     "back": "romantic partner, spouse"
   },
   {
     "id": "L06_v2",
-    "lesson": 6,
-    "front": "falen",
+    "lesson": 8,
+    "front": "falfal",
     "back": "child, kid"
   },
   {
@@ -140,18 +140,18 @@
   {
     "id": "L06_s1",
     "lesson": 6,
-    "front": "e ce a falen i mouje?",
+    "front": "e ce a falfal i mouje?",
     "back": "what does the kid drink?"
   },
   {
     "id": "L07_v1",
-    "lesson": 7,
+    "lesson": 8,
     "front": "faejor",
     "back": "woman, female"
   },
   {
     "id": "L07_v2",
-    "lesson": 7,
+    "lesson": 5,
     "front": "fare",
     "back": "parent, one generation up"
   },
@@ -169,13 +169,13 @@
   },
   {
     "id": "L08_v1",
-    "lesson": 8,
+    "lesson": 6,
     "front": "bortal",
     "back": "door, entrance, to enter"
   },
   {
     "id": "L08_v2",
-    "lesson": 8,
+    "lesson": 6,
     "front": "bontame",
     "back": "table, to put on a table"
   },
@@ -212,7 +212,7 @@
   {
     "id": "L09_s1",
     "lesson": 9,
-    "front": "cei haya fare?",
+    "front": "cei hayas fare?",
     "back": "who are their parents?"
   },
   {
@@ -236,18 +236,18 @@
   {
     "id": "L10_s1",
     "lesson": 10,
-    "front": "i anona e moulu u falen",
+    "front": "i anona e moulu u falfal",
     "back": "I give the milk to the child"
   },
   {
     "id": "L11_v1",
-    "lesson": 11,
+    "lesson": 13,
     "front": "anye",
     "back": "make, do"
   },
   {
     "id": "L11_v2",
-    "lesson": 11,
+    "lesson": 13,
     "front": "ando",
     "back": "can, able to"
   },
@@ -260,24 +260,24 @@
   {
     "id": "L11_s1",
     "lesson": 11,
-    "front": "run i anona e moaria u falen",
+    "front": "run i anona e moaria u falfal",
     "back": "you give the apple to the child"
   },
   {
     "id": "L12_v1",
-    "lesson": 12,
+    "lesson": 7,
     "front": "yalen",
     "back": "long, tall"
   },
   {
     "id": "L12_v2",
-    "lesson": 12,
+    "lesson": 14,
     "front": "yaltan",
     "back": "big, large"
   },
   {
     "id": "L12_v3",
-    "lesson": 12,
+    "lesson": 11,
     "front": "yasoi",
     "back": "fast, quick, speed"
   },
@@ -295,13 +295,13 @@
   },
   {
     "id": "L13_v1",
-    "lesson": 13,
+    "lesson": 11,
     "front": "yalgai",
     "back": "small, little"
   },
   {
     "id": "L13_v2",
-    "lesson": 13,
+    "lesson": 14,
     "front": "yamirli",
     "back": "old, age"
   },
@@ -319,13 +319,13 @@
   },
   {
     "id": "L14_v1",
-    "lesson": 14,
+    "lesson": 15,
     "front": "ilhei",
     "back": "person"
   },
   {
     "id": "L14_v2",
-    "lesson": 14,
+    "lesson": 12,
     "front": "ilace",
     "back": "ask, question"
   },
@@ -343,7 +343,7 @@
   },
   {
     "id": "L15_v1",
-    "lesson": 15,
+    "lesson": 12,
     "front": "ilaluan",
     "back": "say"
   },
@@ -373,7 +373,7 @@
   },
   {
     "id": "L16_v2",
-    "lesson": 16,
+    "lesson": 18,
     "front": "eodani",
     "back": "meet"
   },
@@ -391,13 +391,13 @@
   },
   {
     "id": "L17_v1",
-    "lesson": 17,
+    "lesson": 18,
     "front": "eomsu",
     "back": "party, gathering"
   },
   {
     "id": "L17_v2",
-    "lesson": 17,
+    "lesson": 20,
     "front": "eodenbor",
     "back": "visit"
   },
@@ -415,25 +415,25 @@
   },
   {
     "id": "L18_v1",
-    "lesson": 18,
+    "lesson": 17,
     "front": "gerina",
     "back": "money, to pay"
   },
   {
     "id": "L18_v2",
-    "lesson": 18,
-    "front": "gelna",
+    "lesson": 17,
+    "front": "gehna",
     "back": "to buy, a purchase"
   },
   {
     "id": "L18_v3",
-    "lesson": 18,
+    "lesson": 17,
     "front": "tam",
     "back": "1"
   },
   {
     "id": "L18_v4",
-    "lesson": 18,
+    "lesson": 17,
     "front": "tor",
     "back": "2"
   },
@@ -451,25 +451,25 @@
   },
   {
     "id": "L19_v1",
-    "lesson": 19,
+    "lesson": 18,
     "front": "par",
     "back": "3"
   },
   {
     "id": "L19_v2",
-    "lesson": 19,
+    "lesson": 18,
     "front": "bale",
     "back": "4"
   },
   {
     "id": "L19_v3",
-    "lesson": 19,
+    "lesson": 18,
     "front": "alui",
     "back": "5"
   },
   {
     "id": "L19_v4",
-    "lesson": 19,
+    "lesson": 18,
     "front": "teva",
     "back": "6"
   },
@@ -487,13 +487,13 @@
   },
   {
     "id": "L20_v1",
-    "lesson": 20,
+    "lesson": 19,
     "front": "peri",
     "back": "7"
   },
   {
     "id": "L20_v2",
-    "lesson": 20,
+    "lesson": 19,
     "front": "auta",
     "back": "8"
   },
@@ -505,7 +505,7 @@
   },
   {
     "id": "L20_v4",
-    "lesson": 20,
+    "lesson": 18,
     "front": "litam",
     "back": "day, today"
   },
@@ -523,19 +523,19 @@
   },
   {
     "id": "L21_v1",
-    "lesson": 21,
+    "lesson": 20,
     "front": "limel",
     "back": "evening, night"
   },
   {
     "id": "L21_v2",
-    "lesson": 21,
+    "lesson": 22,
     "front": "lilon",
     "back": "while, during"
   },
   {
     "id": "L21_v3",
-    "lesson": 21,
+    "lesson": 19,
     "front": "tenda",
     "back": "9"
   },
@@ -548,30 +548,30 @@
   {
     "id": "L21_s1",
     "lesson": 21,
-    "front": "litamis, nima i anvu en eomsu",
+    "front": "litamis, nimas i anvu en eomsu",
     "back": "tomorrow, we will go to the party"
   },
   {
     "id": "L22_v1",
-    "lesson": 22,
+    "lesson": 21,
     "front": "oila",
     "back": "happy, happiness, joy"
   },
   {
     "id": "L22_v2",
-    "lesson": 22,
+    "lesson": 21,
     "front": "oines",
     "back": "joke, funny, humor"
   },
   {
     "id": "L22_v3",
-    "lesson": 22,
+    "lesson": 10,
     "front": "beivu",
     "back": "car, to drive"
   },
   {
     "id": "L22_v4",
-    "lesson": 22,
+    "lesson": 19,
     "front": "das",
     "back": "10"
   },
@@ -614,7 +614,7 @@
   {
     "id": "L23_s1",
     "lesson": 23,
-    "front": "tamen liperi, i gelna e yalgai molcui",
+    "front": "tamen liperi, i gehna e yalgai molcui",
     "back": "on Monday, I buy a small bowl"
   },
   {
@@ -643,13 +643,13 @@
   },
   {
     "id": "L25_v1",
-    "lesson": 25,
+    "lesson": 27,
     "front": "vanvu",
     "back": "leg, to walk"
   },
   {
     "id": "L25_v2",
-    "lesson": 25,
+    "lesson": 27,
     "front": "vanta",
     "back": "hand, to hold"
   },
@@ -667,13 +667,13 @@
   },
   {
     "id": "L26_v1",
-    "lesson": 26,
+    "lesson": 28,
     "front": "nordau",
     "back": "far, distance"
   },
   {
     "id": "L26_v2",
-    "lesson": 26,
+    "lesson": 28,
     "front": "noli",
     "back": "now"
   },
@@ -691,13 +691,13 @@
   },
   {
     "id": "L27_v1",
-    "lesson": 27,
+    "lesson": 25,
     "front": "noi",
     "back": "here"
   },
   {
     "id": "L27_v2",
-    "lesson": 27,
+    "lesson": 25,
     "front": "noniu",
     "back": "some, a few"
   },
@@ -715,13 +715,13 @@
   },
   {
     "id": "L28_v1",
-    "lesson": 28,
+    "lesson": 26,
     "front": "yuba",
     "back": "good, well"
   },
   {
     "id": "L28_v2",
-    "lesson": 28,
+    "lesson": 26,
     "front": "yunro",
     "back": "smart, intelligent"
   },
@@ -763,7 +763,7 @@
   },
   {
     "id": "L30_v1",
-    "lesson": 30,
+    "lesson": 33,
     "front": "tohdin",
     "back": "sorry, regret"
   },
@@ -787,13 +787,13 @@
   },
   {
     "id": "L31_v1",
-    "lesson": 31,
+    "lesson": 33,
     "front": "toumo",
     "back": "hungry"
   },
   {
     "id": "L31_v2",
-    "lesson": 31,
+    "lesson": 30,
     "front": "touvei",
     "back": "illness, sick"
   },
@@ -811,13 +811,13 @@
   },
   {
     "id": "L32_v1",
-    "lesson": 32,
+    "lesson": 34,
     "front": "lunu",
     "back": "winter"
   },
   {
     "id": "L32_v2",
-    "lesson": 32,
+    "lesson": 31,
     "front": "lusari",
     "back": "sun, sunny"
   },
@@ -835,13 +835,13 @@
   },
   {
     "id": "L33_v1",
-    "lesson": 33,
+    "lesson": 31,
     "front": "lufiva",
     "back": "cold, to cool"
   },
   {
     "id": "L33_v2",
-    "lesson": 33,
+    "lesson": 34,
     "front": "pohem",
     "back": "hot, heat"
   },
@@ -854,18 +854,18 @@
   {
     "id": "L33_s1",
     "lesson": 33,
-    "front": "gelna dia i vil i gerina",
+    "front": "gehna dia i vil i gerina",
     "back": "buyers must pay"
   },
   {
     "id": "L34_v1",
-    "lesson": 34,
+    "lesson": 32,
     "front": "apafene",
     "back": "sit, seat"
   },
   {
     "id": "L34_v2",
-    "lesson": 34,
+    "lesson": 32,
     "front": "aparih",
     "back": "jump"
   },
@@ -902,7 +902,7 @@
   {
     "id": "L35_s1",
     "lesson": 35,
-    "front": "daefer falen i roudi, eta hay i do i roudal",
+    "front": "daefer falfal i roudi, eta hay i do i roudal",
     "back": "if the kid writes, then they know how to read"
   },
   {
@@ -926,7 +926,7 @@
   {
     "id": "L36_s1",
     "lesson": 36,
-    "front": "haya i anye e anona u rein",
+    "front": "hayas i anye e anona u rein",
     "back": "they make gifts for each other"
   },
   {
@@ -1669,5 +1669,305 @@
         "meaning": "accurate"
       }
     ]
+  },
+  {
+    "id": "L41_v1",
+    "lesson": 41,
+    "front": "yoyol",
+    "back": "blue"
+  },
+  {
+    "id": "L41_v2",
+    "lesson": 41,
+    "front": "yopoh",
+    "back": "red"
+  },
+  {
+    "id": "L42_v1",
+    "lesson": 42,
+    "front": "ledom",
+    "back": "land"
+  },
+  {
+    "id": "L42_v2",
+    "lesson": 42,
+    "front": "leipili",
+    "back": "flower"
+  },
+  {
+    "id": "L43_v1",
+    "lesson": 43,
+    "front": "leini",
+    "back": "seed"
+  },
+  {
+    "id": "L43_v2",
+    "lesson": 43,
+    "front": "leirih",
+    "back": "tree"
+  },
+  {
+    "id": "L44_v1",
+    "lesson": 44,
+    "front": "joniu",
+    "back": "piece"
+  },
+  {
+    "id": "L44_v2",
+    "lesson": 44,
+    "front": "joldur",
+    "back": "metal"
+  },
+  {
+    "id": "L45_v1",
+    "lesson": 45,
+    "front": "vonlu",
+    "back": "skin"
+  },
+  {
+    "id": "L45_v2",
+    "lesson": 45,
+    "front": "vosvo",
+    "back": "soap"
+  },
+  {
+    "id": "L46_v1",
+    "lesson": 46,
+    "front": "elemi",
+    "back": "life"
+  },
+  {
+    "id": "L46_v2",
+    "lesson": 46,
+    "front": "elonor",
+    "back": "peace"
+  },
+  {
+    "id": "L47_v1",
+    "lesson": 47,
+    "front": "elireva",
+    "back": "truth"
+  },
+  {
+    "id": "L47_v2",
+    "lesson": 47,
+    "front": "elodan",
+    "back": "freedom"
+  },
+  {
+    "id": "L48_v1",
+    "lesson": 48,
+    "front": "gafi",
+    "back": "less"
+  },
+  {
+    "id": "L48_v2",
+    "lesson": 48,
+    "front": "gavio",
+    "back": "different"
+  },
+  {
+    "id": "L49_v1",
+    "lesson": 49,
+    "front": "wanon",
+    "back": "swim"
+  },
+  {
+    "id": "L49_v2",
+    "lesson": 49,
+    "front": "wayol",
+    "back": "ocean"
+  },
+  {
+    "id": "L49_v3",
+    "lesson": 49,
+    "front": "dohti",
+    "back": "punish"
+  },
+  {
+    "id": "L49_v4",
+    "lesson": 49,
+    "front": "dohcu",
+    "back": "obey"
+  },
+  {
+    "id": "L50_v1",
+    "lesson": 50,
+    "front": "maemiri",
+    "back": "rice"
+  },
+  {
+    "id": "L50_v2",
+    "lesson": 50,
+    "front": "mamini",
+    "back": "egg"
+  },
+  {
+    "id": "L51_v1",
+    "lesson": 51,
+    "front": "asfene",
+    "back": "sleep"
+  },
+  {
+    "id": "L51_v2",
+    "lesson": 51,
+    "front": "asela",
+    "back": "smile"
+  },
+  {
+    "id": "L52_v1",
+    "lesson": 52,
+    "front": "jarih",
+    "back": "ladder"
+  },
+  {
+    "id": "L52_v2",
+    "lesson": 52,
+    "front": "jasru",
+    "back": "bend"
+  },
+  {
+    "id": "L53_v1",
+    "lesson": 53,
+    "front": "muhpili",
+    "back": "bird"
+  },
+  {
+    "id": "L53_v2",
+    "lesson": 53,
+    "front": "mufis",
+    "back": "snake"
+  },
+  {
+    "id": "L53_v3",
+    "lesson": 53,
+    "front": "omlia",
+    "back": "sing"
+  },
+  {
+    "id": "L53_v4",
+    "lesson": 53,
+    "front": "omco",
+    "back": "voice"
+  },
+  {
+    "id": "L54_v1",
+    "lesson": 54,
+    "front": "davio",
+    "back": "change"
+  },
+  {
+    "id": "L54_v2",
+    "lesson": 54,
+    "front": "daco",
+    "back": "answer"
+  },
+  {
+    "id": "L55_v1",
+    "lesson": 55,
+    "front": "veluo",
+    "back": "exercise"
+  },
+  {
+    "id": "L55_v2",
+    "lesson": 55,
+    "front": "velmo",
+    "back": "pill"
+  },
+  {
+    "id": "L55_v3",
+    "lesson": 55,
+    "front": "sirose",
+    "back": "computer"
+  },
+  {
+    "id": "L55_v4",
+    "lesson": 55,
+    "front": "sioer",
+    "back": "game"
+  },
+  {
+    "id": "L56_v1",
+    "lesson": 56,
+    "front": "corior",
+    "back": "phone"
+  },
+  {
+    "id": "L56_v2",
+    "lesson": 56,
+    "front": "couhai",
+    "back": "message"
+  },
+  {
+    "id": "L57_v1",
+    "lesson": 57,
+    "front": "pohnen",
+    "back": "force"
+  },
+  {
+    "id": "L57_v2",
+    "lesson": 57,
+    "front": "poiwa",
+    "back": "liquid"
+  },
+  {
+    "id": "L58_v1",
+    "lesson": 58,
+    "front": "tiju",
+    "back": "lie"
+  },
+  {
+    "id": "L58_v2",
+    "lesson": 58,
+    "front": "tiuan",
+    "back": "crime"
+  },
+  {
+    "id": "L58_v3",
+    "lesson": 58,
+    "front": "ciutel",
+    "back": "image"
+  },
+  {
+    "id": "L58_v4",
+    "lesson": 58,
+    "front": "ciupa",
+    "back": "paper"
+  },
+  {
+    "id": "L59_v1",
+    "lesson": 59,
+    "front": "selota",
+    "back": "fix"
+  },
+  {
+    "id": "L59_v2",
+    "lesson": 59,
+    "front": "sever",
+    "back": "key"
+  },
+  {
+    "id": "L60_v1",
+    "lesson": 60,
+    "front": "visro",
+    "back": "brain"
+  },
+  {
+    "id": "L60_v2",
+    "lesson": 60,
+    "front": "viwa",
+    "back": "blood"
+  },
+  {
+    "id": "L60_v3",
+    "lesson": 60,
+    "front": "turai",
+    "back": "war"
+  },
+  {
+    "id": "L60_v4",
+    "lesson": 60,
+    "front": "tuapa",
+    "back": "attack"
   }
 ]

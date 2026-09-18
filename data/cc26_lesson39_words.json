@@ -1,0 +1,56 @@
+{
+  "lesson_id": "cc26_lesson39",
+  "cluster": "complete-course",
+  "cluster_meaning": "matching practice",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "Core recognition",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 3
+    },
+    {
+      "round": 2,
+      "title": "Core recognition — repeat 1",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 3,
+      "allow_repeats": true
+    },
+    {
+      "round": 3,
+      "title": "Core recognition — repeat 2",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 3,
+      "allow_repeats": true
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson39_r1_1",
+      "oravia": "ledom",
+      "english": "land",
+      "bucket": "r1",
+      "source_bucket": "core"
+    },
+    {
+      "id": "lesson39_r1_2",
+      "oravia": "leipili",
+      "english": "flower",
+      "bucket": "r1",
+      "source_bucket": "core"
+    },
+    {
+      "id": "lesson39_r1_3",
+      "oravia": "leini",
+      "english": "seed",
+      "bucket": "r1",
+      "source_bucket": "core"
+    }
+  ]
+}

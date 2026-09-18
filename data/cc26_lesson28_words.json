@@ -1,0 +1,92 @@
+{
+  "lesson_id": "cc26_lesson28",
+  "cluster": "restructured-course",
+  "cluster_meaning": "matching practice",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "Core recognition",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 3
+    },
+    {
+      "round": 2,
+      "title": "Core recognition — repeat 1",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 3,
+      "allow_repeats": true
+    },
+    {
+      "round": 3,
+      "title": "Core recognition — repeat 2",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 3,
+      "allow_repeats": true
+    },
+    {
+      "round": 4,
+      "title": "Sound connections",
+      "buckets": [
+        "r2"
+      ],
+      "words_per_bucket": 4
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson28_r1_1",
+      "oravia": "lufiva",
+      "english": "cold",
+      "bucket": "r1",
+      "source_bucket": "core"
+    },
+    {
+      "id": "lesson28_r1_2",
+      "oravia": "lupupi",
+      "english": "rain",
+      "bucket": "r1",
+      "source_bucket": "core"
+    },
+    {
+      "id": "lesson28_r1_3",
+      "oravia": "lusari",
+      "english": "sun",
+      "bucket": "r1",
+      "source_bucket": "recognition"
+    },
+    {
+      "id": "lesson28_r2_1",
+      "oravia": "lufu",
+      "english": "wind",
+      "bucket": "r2",
+      "source_bucket": "fu-root"
+    },
+    {
+      "id": "lesson28_r2_2",
+      "oravia": "aslufu",
+      "english": "breath",
+      "bucket": "r2",
+      "source_bucket": "fu-root"
+    },
+    {
+      "id": "lesson28_r2_3",
+      "oravia": "lupupi",
+      "english": "rain",
+      "bucket": "r2",
+      "source_bucket": "pupi-root"
+    },
+    {
+      "id": "lesson28_r2_4",
+      "oravia": "bospupi",
+      "english": "shower, wash",
+      "bucket": "r2",
+      "source_bucket": "pupi-root"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "lesson_id": "cc26_lesson19",
+  "cluster": "restructured-course",
+  "cluster_meaning": "matching practice",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "Core recognition",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 3
+    },
+    {
+      "round": 2,
+      "title": "Core recognition — repeat 1",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 3,
+      "allow_repeats": true
+    },
+    {
+      "round": 3,
+      "title": "Core recognition — repeat 2",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 3,
+      "allow_repeats": true
+    },
+    {
+      "round": 4,
+      "title": "PILI root connections",
+      "buckets": [
+        "r2"
+      ],
+      "words_per_bucket": 3
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson19_r1_1",
+      "oravia": "oila",
+      "english": "happy, joy",
+      "bucket": "r1",
+      "source_bucket": "core"
+    },
+    {
+      "id": "lesson19_r1_2",
+      "oravia": "oihi",
+      "english": "interest",
+      "bucket": "r1",
+      "source_bucket": "core"
+    },
+    {
+      "id": "lesson19_r1_3",
+      "oravia": "oines",
+      "english": "joke, funny",
+      "bucket": "r1",
+      "source_bucket": "recognition"
+    },
+    {
+      "id": "lesson19_r2_1",
+      "oravia": "oipili",
+      "english": "cute",
+      "bucket": "r2",
+      "source_bucket": "pili"
+    },
+    {
+      "id": "lesson19_r2_2",
+      "oravia": "leipili",
+      "english": "flower",
+      "bucket": "r2",
+      "source_bucket": "pili"
+    },
+    {
+      "id": "lesson19_r2_3",
+      "oravia": "muhpili",
+      "english": "bird",
+      "bucket": "r2",
+      "source_bucket": "pili"
+    }
+  ]
+}

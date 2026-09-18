@@ -1,0 +1,189 @@
+{
+  "lesson_id": "cc26_lesson06",
+  "cluster": "restructured-course",
+  "cluster_meaning": "matching practice",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "BOR / BOS / BOE / BON contrast 1",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 2,
+      "title": "BOR / BOS / BOE / BON contrast 2",
+      "buckets": [
+        "r2"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 3,
+      "title": "BOR / BOS / BOE / BON contrast 3",
+      "buckets": [
+        "r3"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 4,
+      "title": "Sound connections",
+      "buckets": [
+        "r4"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 5,
+      "title": "FENE / JAE root connections",
+      "buckets": [
+        "r5"
+      ],
+      "words_per_bucket": 4
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson06_r1_1",
+      "oravia": "bortal",
+      "english": "door",
+      "bucket": "r1",
+      "source_bucket": "bor"
+    },
+    {
+      "id": "lesson06_r1_2",
+      "oravia": "bospupi",
+      "english": "shower",
+      "bucket": "r1",
+      "source_bucket": "bos"
+    },
+    {
+      "id": "lesson06_r1_3",
+      "oravia": "boelori",
+      "english": "room",
+      "bucket": "r1",
+      "source_bucket": "boe"
+    },
+    {
+      "id": "lesson06_r1_4",
+      "oravia": "bontame",
+      "english": "table",
+      "bucket": "r1",
+      "source_bucket": "bon"
+    },
+    {
+      "id": "lesson06_r2_1",
+      "oravia": "borcai",
+      "english": "wall",
+      "bucket": "r2",
+      "source_bucket": "bor"
+    },
+    {
+      "id": "lesson06_r2_2",
+      "oravia": "bosvi",
+      "english": "toilet",
+      "bucket": "r2",
+      "source_bucket": "bos"
+    },
+    {
+      "id": "lesson06_r2_3",
+      "oravia": "boetale",
+      "english": "hall",
+      "bucket": "r2",
+      "source_bucket": "boe"
+    },
+    {
+      "id": "lesson06_r2_4",
+      "oravia": "bonfene",
+      "english": "bed",
+      "bucket": "r2",
+      "source_bucket": "bon"
+    },
+    {
+      "id": "lesson06_r3_1",
+      "oravia": "borlu",
+      "english": "window",
+      "bucket": "r3",
+      "source_bucket": "bor"
+    },
+    {
+      "id": "lesson06_r3_2",
+      "oravia": "bospupi",
+      "english": "shower",
+      "bucket": "r3",
+      "source_bucket": "bos"
+    },
+    {
+      "id": "lesson06_r3_3",
+      "oravia": "boemo",
+      "english": "kitchen",
+      "bucket": "r3",
+      "source_bucket": "boe"
+    },
+    {
+      "id": "lesson06_r3_4",
+      "oravia": "bonjae",
+      "english": "cabinet",
+      "bucket": "r3",
+      "source_bucket": "bon"
+    },
+    {
+      "id": "lesson06_r4_1",
+      "oravia": "bospupi",
+      "english": "shower",
+      "bucket": "r4",
+      "source_bucket": "pupi-root"
+    },
+    {
+      "id": "lesson06_r4_2",
+      "oravia": "lupupi",
+      "english": "rain",
+      "bucket": "r4",
+      "source_bucket": "pupi-root"
+    },
+    {
+      "id": "lesson06_r4_3",
+      "oravia": "borlu",
+      "english": "window",
+      "bucket": "r4",
+      "source_bucket": "lu-root"
+    },
+    {
+      "id": "lesson06_r4_4",
+      "oravia": "anolu",
+      "english": "out",
+      "bucket": "r4",
+      "source_bucket": "lu-root"
+    },
+    {
+      "id": "lesson06_r5_1",
+      "oravia": "bonfene",
+      "english": "bed",
+      "bucket": "r5",
+      "source_bucket": "fene"
+    },
+    {
+      "id": "lesson06_r5_2",
+      "oravia": "anefene",
+      "english": "rest",
+      "bucket": "r5",
+      "source_bucket": "fene"
+    },
+    {
+      "id": "lesson06_r5_3",
+      "oravia": "bonjae",
+      "english": "cabinet",
+      "bucket": "r5",
+      "source_bucket": "jae"
+    },
+    {
+      "id": "lesson06_r5_4",
+      "oravia": "bejae",
+      "english": "luggage",
+      "bucket": "r5",
+      "source_bucket": "jae"
+    }
+  ]
+}

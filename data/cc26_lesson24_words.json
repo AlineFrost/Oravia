@@ -1,0 +1,153 @@
+{
+  "lesson_id": "cc26_lesson24",
+  "cluster": "restructured-course",
+  "cluster_meaning": "matching practice",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "VAN / VAR contrast 1",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 2,
+      "title": "VAN / VAR contrast 2",
+      "buckets": [
+        "r2"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 3,
+      "title": "VAN / VAR contrast 3",
+      "buckets": [
+        "r3"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 4,
+      "title": "VAN / VAR contrast 4",
+      "buckets": [
+        "r4"
+      ],
+      "words_per_bucket": 4
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson24_r1_1",
+      "oravia": "vandi",
+      "english": "finger, toe",
+      "bucket": "r1",
+      "source_bucket": "van"
+    },
+    {
+      "id": "lesson24_r1_2",
+      "oravia": "vanta",
+      "english": "hand",
+      "bucket": "r1",
+      "source_bucket": "van"
+    },
+    {
+      "id": "lesson24_r1_3",
+      "oravia": "vardei",
+      "english": "eye",
+      "bucket": "r1",
+      "source_bucket": "var"
+    },
+    {
+      "id": "lesson24_r1_4",
+      "oravia": "varsus",
+      "english": "ear",
+      "bucket": "r1",
+      "source_bucket": "var"
+    },
+    {
+      "id": "lesson24_r2_1",
+      "oravia": "vanu",
+      "english": "arm",
+      "bucket": "r2",
+      "source_bucket": "van"
+    },
+    {
+      "id": "lesson24_r2_2",
+      "oravia": "vanvu",
+      "english": "leg",
+      "bucket": "r2",
+      "source_bucket": "van"
+    },
+    {
+      "id": "lesson24_r2_3",
+      "oravia": "varluan",
+      "english": "tongue",
+      "bucket": "r2",
+      "source_bucket": "var"
+    },
+    {
+      "id": "lesson24_r2_4",
+      "oravia": "varmo",
+      "english": "mouth",
+      "bucket": "r2",
+      "source_bucket": "var"
+    },
+    {
+      "id": "lesson24_r3_1",
+      "oravia": "vanpai",
+      "english": "foot",
+      "bucket": "r3",
+      "source_bucket": "van"
+    },
+    {
+      "id": "lesson24_r3_2",
+      "oravia": "vanta",
+      "english": "hand",
+      "bucket": "r3",
+      "source_bucket": "van"
+    },
+    {
+      "id": "lesson24_r3_3",
+      "oravia": "varodu",
+      "english": "head",
+      "bucket": "r3",
+      "source_bucket": "var"
+    },
+    {
+      "id": "lesson24_r3_4",
+      "oravia": "vardur",
+      "english": "tooth",
+      "bucket": "r3",
+      "source_bucket": "var"
+    },
+    {
+      "id": "lesson24_r4_1",
+      "oravia": "vandi",
+      "english": "finger, toe",
+      "bucket": "r4",
+      "source_bucket": "van"
+    },
+    {
+      "id": "lesson24_r4_2",
+      "oravia": "vanvu",
+      "english": "leg",
+      "bucket": "r4",
+      "source_bucket": "van"
+    },
+    {
+      "id": "lesson24_r4_3",
+      "oravia": "varasi",
+      "english": "nose",
+      "bucket": "r4",
+      "source_bucket": "var"
+    },
+    {
+      "id": "lesson24_r4_4",
+      "oravia": "vardei",
+      "english": "eye",
+      "bucket": "r4",
+      "source_bucket": "var"
+    }
+  ]
+}

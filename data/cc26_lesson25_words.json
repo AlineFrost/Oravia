@@ -1,0 +1,125 @@
+{
+  "lesson_id": "cc26_lesson25",
+  "cluster": "restructured-course",
+  "cluster_meaning": "matching practice",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "NOR / general NO contrast 1",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 3
+    },
+    {
+      "round": 2,
+      "title": "NOR / general NO contrast 2",
+      "buckets": [
+        "r2"
+      ],
+      "words_per_bucket": 3
+    },
+    {
+      "round": 3,
+      "title": "NOR / general NO contrast 3",
+      "buckets": [
+        "r3"
+      ],
+      "words_per_bucket": 3
+    },
+    {
+      "round": 4,
+      "title": "NOR / general NO contrast 4",
+      "buckets": [
+        "r4"
+      ],
+      "words_per_bucket": 3
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson25_r1_1",
+      "oravia": "norven",
+      "english": "already",
+      "bucket": "r1",
+      "source_bucket": "nor"
+    },
+    {
+      "id": "lesson25_r1_2",
+      "oravia": "nomie",
+      "english": "seems",
+      "bucket": "r1",
+      "source_bucket": "no-general"
+    },
+    {
+      "id": "lesson25_r1_3",
+      "oravia": "noli",
+      "english": "now",
+      "bucket": "r1",
+      "source_bucket": "no-general"
+    },
+    {
+      "id": "lesson25_r2_1",
+      "oravia": "norfih",
+      "english": "enough",
+      "bucket": "r2",
+      "source_bucket": "nor"
+    },
+    {
+      "id": "lesson25_r2_2",
+      "oravia": "noniu",
+      "english": "some",
+      "bucket": "r2",
+      "source_bucket": "no-general"
+    },
+    {
+      "id": "lesson25_r2_3",
+      "oravia": "none",
+      "english": "have",
+      "bucket": "r2",
+      "source_bucket": "no-general"
+    },
+    {
+      "id": "lesson25_r3_1",
+      "oravia": "nordau",
+      "english": "far",
+      "bucket": "r3",
+      "source_bucket": "nor"
+    },
+    {
+      "id": "lesson25_r3_2",
+      "oravia": "noi",
+      "english": "here",
+      "bucket": "r3",
+      "source_bucket": "no-general"
+    },
+    {
+      "id": "lesson25_r3_3",
+      "oravia": "noder",
+      "english": "even",
+      "bucket": "r3",
+      "source_bucket": "no-general"
+    },
+    {
+      "id": "lesson25_r4_1",
+      "oravia": "norocu",
+      "english": "almost",
+      "bucket": "r4",
+      "source_bucket": "nor"
+    },
+    {
+      "id": "lesson25_r4_2",
+      "oravia": "noli",
+      "english": "now",
+      "bucket": "r4",
+      "source_bucket": "no-general"
+    },
+    {
+      "id": "lesson25_r4_3",
+      "oravia": "noniu",
+      "english": "some",
+      "bucket": "r4",
+      "source_bucket": "no-general"
+    }
+  ]
+}

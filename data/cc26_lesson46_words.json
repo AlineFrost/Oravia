@@ -1,0 +1,168 @@
+{
+  "lesson_id": "cc26_lesson46",
+  "cluster": "complete-course",
+  "cluster_meaning": "matching practice",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "WA recognition",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 2,
+      "title": "DO recognition",
+      "buckets": [
+        "r2"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 3,
+      "title": "Cluster recognition — mixed repeat",
+      "buckets": [
+        "r3_repeat"
+      ],
+      "words_per_bucket": 6,
+      "allow_repeats": true
+    },
+    {
+      "round": 4,
+      "title": "WOWO / TI roots",
+      "buckets": [
+        "r3"
+      ],
+      "words_per_bucket": 4
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson46_r1_1",
+      "oravia": "wayol",
+      "english": "ocean",
+      "bucket": "r1",
+      "source_bucket": "wa"
+    },
+    {
+      "id": "lesson46_r1_2",
+      "oravia": "wanon",
+      "english": "swim",
+      "bucket": "r1",
+      "source_bucket": "wa"
+    },
+    {
+      "id": "lesson46_r1_3",
+      "oravia": "wamu",
+      "english": "fish",
+      "bucket": "r1",
+      "source_bucket": "wa"
+    },
+    {
+      "id": "lesson46_r1_4",
+      "oravia": "wamitan",
+      "english": "whale",
+      "bucket": "r1",
+      "source_bucket": "wa"
+    },
+    {
+      "id": "lesson46_r2_1",
+      "oravia": "dohtei",
+      "english": "expel",
+      "bucket": "r2",
+      "source_bucket": "do"
+    },
+    {
+      "id": "lesson46_r2_2",
+      "oravia": "dohcu",
+      "english": "obey",
+      "bucket": "r2",
+      "source_bucket": "do"
+    },
+    {
+      "id": "lesson46_r2_3",
+      "oravia": "dopim",
+      "english": "tolerate",
+      "bucket": "r2",
+      "source_bucket": "do"
+    },
+    {
+      "id": "lesson46_r2_4",
+      "oravia": "dohti",
+      "english": "punish",
+      "bucket": "r2",
+      "source_bucket": "do"
+    },
+    {
+      "id": "lesson46_r3_1",
+      "oravia": "wawowo",
+      "english": "float",
+      "bucket": "r3",
+      "source_bucket": "wowo"
+    },
+    {
+      "id": "lesson46_r3_2",
+      "oravia": "dowowo",
+      "english": "oscillate",
+      "bucket": "r3",
+      "source_bucket": "wowo"
+    },
+    {
+      "id": "lesson46_r3_3",
+      "oravia": "dohti",
+      "english": "punish",
+      "bucket": "r3",
+      "source_bucket": "ti"
+    },
+    {
+      "id": "lesson46_r3_4",
+      "oravia": "veiti",
+      "english": "tumor",
+      "bucket": "r3",
+      "source_bucket": "ti"
+    },
+    {
+      "id": "lesson46_r3_repeat_1",
+      "oravia": "wayol",
+      "english": "ocean",
+      "bucket": "r3_repeat",
+      "source_bucket": "wa"
+    },
+    {
+      "id": "lesson46_r3_repeat_2",
+      "oravia": "wanon",
+      "english": "swim",
+      "bucket": "r3_repeat",
+      "source_bucket": "wa"
+    },
+    {
+      "id": "lesson46_r3_repeat_3",
+      "oravia": "wamu",
+      "english": "fish",
+      "bucket": "r3_repeat",
+      "source_bucket": "wa"
+    },
+    {
+      "id": "lesson46_r3_repeat_4",
+      "oravia": "dohtei",
+      "english": "expel",
+      "bucket": "r3_repeat",
+      "source_bucket": "do"
+    },
+    {
+      "id": "lesson46_r3_repeat_5",
+      "oravia": "dohcu",
+      "english": "obey",
+      "bucket": "r3_repeat",
+      "source_bucket": "do"
+    },
+    {
+      "id": "lesson46_r3_repeat_6",
+      "oravia": "dopim",
+      "english": "tolerate",
+      "bucket": "r3_repeat",
+      "source_bucket": "do"
+    }
+  ]
+}

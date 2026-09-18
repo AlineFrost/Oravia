@@ -1,0 +1,132 @@
+{
+  "lesson_id": "cc26_lesson54",
+  "cluster": "complete-course",
+  "cluster_meaning": "matching practice",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "PO recognition",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 2,
+      "title": "POH / POI contrast",
+      "buckets": [
+        "r2"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 3,
+      "title": "Cluster recognition — mixed repeat",
+      "buckets": [
+        "r3_repeat"
+      ],
+      "words_per_bucket": 6,
+      "allow_repeats": true
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson54_r1_1",
+      "oravia": "poarofei",
+      "english": "alcohol",
+      "bucket": "r1",
+      "source_bucket": "po"
+    },
+    {
+      "id": "lesson54_r1_2",
+      "oravia": "pocor",
+      "english": "trash",
+      "bucket": "r1",
+      "source_bucket": "po"
+    },
+    {
+      "id": "lesson54_r1_3",
+      "oravia": "podau",
+      "english": "meter / distance",
+      "bucket": "r1",
+      "source_bucket": "po"
+    },
+    {
+      "id": "lesson54_r1_4",
+      "oravia": "pohnen",
+      "english": "force",
+      "bucket": "r1",
+      "source_bucket": "poh"
+    },
+    {
+      "id": "lesson54_r2_1",
+      "oravia": "pohivi",
+      "english": "electricity",
+      "bucket": "r2",
+      "source_bucket": "poh"
+    },
+    {
+      "id": "lesson54_r2_2",
+      "oravia": "pohyaro",
+      "english": "energy",
+      "bucket": "r2",
+      "source_bucket": "poh"
+    },
+    {
+      "id": "lesson54_r2_3",
+      "oravia": "poiwa",
+      "english": "liquid",
+      "bucket": "r2",
+      "source_bucket": "poi"
+    },
+    {
+      "id": "lesson54_r2_4",
+      "oravia": "poiyal",
+      "english": "liter / volume",
+      "bucket": "r2",
+      "source_bucket": "poi"
+    },
+    {
+      "id": "lesson54_r3_repeat_1",
+      "oravia": "poarofei",
+      "english": "alcohol",
+      "bucket": "r3_repeat",
+      "source_bucket": "po"
+    },
+    {
+      "id": "lesson54_r3_repeat_2",
+      "oravia": "pocor",
+      "english": "trash",
+      "bucket": "r3_repeat",
+      "source_bucket": "po"
+    },
+    {
+      "id": "lesson54_r3_repeat_3",
+      "oravia": "podau",
+      "english": "meter / distance",
+      "bucket": "r3_repeat",
+      "source_bucket": "po"
+    },
+    {
+      "id": "lesson54_r3_repeat_4",
+      "oravia": "pohivi",
+      "english": "electricity",
+      "bucket": "r3_repeat",
+      "source_bucket": "poh"
+    },
+    {
+      "id": "lesson54_r3_repeat_5",
+      "oravia": "pohyaro",
+      "english": "energy",
+      "bucket": "r3_repeat",
+      "source_bucket": "poh"
+    },
+    {
+      "id": "lesson54_r3_repeat_6",
+      "oravia": "poiwa",
+      "english": "liquid",
+      "bucket": "r3_repeat",
+      "source_bucket": "poi"
+    }
+  ]
+}

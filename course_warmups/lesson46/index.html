@@ -57,6 +57,8 @@
     
       <link rel="stylesheet" href="../../css/custom.css">
     
+      <link rel="stylesheet" href="../../css/oravia-magazine.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -676,6 +678,8 @@
       
         
       
+        
+      
     
     
     
@@ -807,7 +811,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../content/readings/" class="md-nav__link">
+      <a href="../../content/readings/readings/" class="md-nav__link">
         
   
   
@@ -955,6 +959,34 @@
     
   
     Daily Wordle Game
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../content/reader/reader/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Graded Readers
   
 
     
@@ -1541,7 +1573,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../lesson00/" class="md-nav__link">
+      <a href="../lesson00.md" class="md-nav__link">
         
   
   
@@ -3254,19 +3286,19 @@
   
 </li>
         
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#review-missed-words" class="md-nav__link">
+          <li class="md-nav__item">
+  <a href="#round-4" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Review Missed Words
+        Round 4
       
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -3798,19 +3830,19 @@
   
 </li>
         
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#review-missed-words" class="md-nav__link">
+          <li class="md-nav__item">
+  <a href="#round-4" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Review Missed Words
+        Round 4
       
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -3834,28 +3866,17 @@
 <h1 id="lesson-46-wa-do">Lesson 46: WA / DO</h1>
 <div class="admonition info">
 <p class="admonition-title">How to Use This Lesson</p>
-<p>This lesson is divided into six sections. Please move through them in this order: <strong>Warm-Up</strong>, <strong>Vocabulary</strong>, <strong>Reading</strong>, <strong>Practice</strong>, <strong>Review</strong>, <strong>Flashcards</strong>.</p>
+<p>This lesson is divided into five sections. Please move through them in this order: <strong>Warm-Up</strong>, <strong>Vocabulary</strong>, <strong>Reading</strong>, <strong>Practice</strong>, <strong>Flashcards</strong>.</p>
 <p><strong>Do not try to memorize!</strong> Just read through the content attentively. We will have plenty of exercises and reviews later!</p>
 </div>
 <hr />
-<div class="tabbed-set tabbed-alternate" data-tabs="1:6"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><input id="__tabbed_1_5" name="__tabbed_1" type="radio" /><input id="__tabbed_1_6" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Warm-Up</label><label for="__tabbed_1_2">Vocabulary</label><label for="__tabbed_1_3">Reading</label><label for="__tabbed_1_4">Practice</label><label for="__tabbed_1_5">Review</label><label for="__tabbed_1_6">Flashcards</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:5"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><input id="__tabbed_1_5" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Warm-Up</label><label for="__tabbed_1_2">Vocabulary</label><label for="__tabbed_1_3">Reading</label><label for="__tabbed_1_4">Practice</label><label for="__tabbed_1_5">Flashcards</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <h2 id="how-much-do-you-remember">How much do you remember?</h2>
 <p>Check the boxes for words you think you know. Then click <strong>Show Answers</strong> to reveal the meanings.</p>
 <div id="self-assessment-section">
 <p><div id="self-assessment-container"></div></p>
-</div>
-<div id="matching-section" style="display: none; margin-top: 3rem;">
-<p><h3>Practice Missed Words</h3>
-<p style="color: #5a8bb8;">Let's practice the <span id="missed-count"></span> word(s) you're still learning. Give it a try!</p></p>
-<p><div id="warmup-game-1"></div></p>
-<p><div style="margin-top: 2rem;">
-<div id="warmup-game-2"></div>
-</div></p>
-<p><div style="text-align: center; margin-top: 2rem;">
-    <button id="back-to-assessment-btn" style="background: #757575; color: white; border: none; padding: 0.5rem 1.5rem; border-radius: 4px; cursor: pointer; font-size: 0.95rem;">↩ Back to Assessment</button>
-</div></p>
 </div>
 </div>
 <div class="tabbed-block">
@@ -3865,7 +3886,7 @@ There are so many nuanced constructions you have already seen, like ar/is, ne gr
 <p>For the rest of the course, we will now focus on vocabulary!  </p>
 <p>So here's what it is going to be like:  </p>
 <p>Every lesson will now start on vocabulary. Because there is no more grammar, we will start introducing 1-2 clusters per lesson. Even though we will see more words in the lessons, the number of new core words repeated in the matching games, warm ups and exercises will stay similar.  </p>
-<p>After vocabulary, we will have a reading! The goal is to use the words and grammar you have learned in context. This will speed up your language skills and prepare you to immerse on content after the course.     </p>
+<p>After vocabulary, we will have a reading! The goal is to use the words and grammar you have learned in context. This will speed up your language skills and prepare you to immerse in content after the course.     </p>
 <p>So let's go!  </p>
 <h2 id="wa-cluster">WA CLUSTER</h2>
 <p>Let's see our first cluster of the day, <strong>WA</strong>!</p>
@@ -3890,11 +3911,11 @@ There are so many nuanced constructions you have already seen, like ar/is, ne gr
 <td>swim</td>
 </tr>
 <tr>
-<td>wami</td>
+<td>wamu</td>
 <td>fish</td>
 </tr>
 <tr>
-<td>wayurtan</td>
+<td>wamitan</td>
 <td>whale</td>
 </tr>
 </tbody>
@@ -3910,7 +3931,6 @@ There are so many nuanced constructions you have already seen, like ar/is, ne gr
 </div></p>
 <div class="admonition info">
 <p class="admonition-title">🌍 Sound Connections</p>
-<p>Non means path, so wanon (water + path = swim) has the same root as elenon (self-expansion + path = journey).</p>
 </div>
 <h2 id="do-cluster">DO CLUSTER</h2>
 <p>Moving on to our second cluster of the day, <strong>DO</strong>!</p>
@@ -3923,7 +3943,7 @@ There are so many nuanced constructions you have already seen, like ar/is, ne gr
 </thead>
 <tbody>
 <tr>
-<td>dohtos</td>
+<td>dohtei</td>
 <td>expel</td>
 </tr>
 <tr>
@@ -3931,11 +3951,11 @@ There are so many nuanced constructions you have already seen, like ar/is, ne gr
 <td>obey</td>
 </tr>
 <tr>
-<td>dorel</td>
+<td>dopim</td>
 <td>tolerate</td>
 </tr>
 <tr>
-<td>donu</td>
+<td>dogue</td>
 <td>tendency</td>
 </tr>
 <tr>
@@ -3955,9 +3975,16 @@ There are so many nuanced constructions you have already seen, like ar/is, ne gr
 </div></p>
 <div class="admonition info">
 <p class="admonition-title">🌍 Sound Connections</p>
-<p>Yoyo is mimicking a gentle swinging or bobbing. </p>
+<p>Wowo means back-and-forth motion; think of something bobbing or oscillating. </p>
 </div>
-<p><strong>doyoyo</strong> = to oscillate (regulate + swinging), just like wayoyo = floating (water + swinging) </p>
+<p><strong>dowowo</strong> = to oscillate (regulate + swinging), just like wawowo = floating (water + swinging) </p>
+<div class="admonition info">
+<p class="admonition-title">🌍 Sound Connections</p>
+<p>Ti means <strong>bad / harmful</strong>. In <strong>dohti</strong>, it combines with enforcement: enforcement + bad → punish.  </p>
+<p>Here are other words with this root:<br />
+<strong>veiti</strong> = tumor (health issue + bad)<br />
+<strong>jati</strong> = whip (tool + bad)  </p>
+</div>
 <p>You are ready for the reading now!</p>
 </div>
 <div class="tabbed-block">
@@ -3973,17 +4000,17 @@ oimin = pleasure, pleasant  </p>
 cadom a 'turdus i omlia /<br />
 a muhpili ca i omlia noi,<br />
 i omlia noum muhpili en ho noi  </p>
-<p>en nima luyol, neron 'heoyar<br />
-en nima waa jele, neron leipili<br />
-en nima leayo, neron elemi<br />
-nima elemi neron eleyel  </p>
+<p>en nimas luyol, neron 'heoyar<br />
+en nimas was jele, neron leipili<br />
+en nimas leayo, neron elemi<br />
+nimas elemi neron eleyel  </p>
 <p>i lirul-iliro, cali netam, en limel<br />
 neron oimin en ho noi /<br />
 a 'palmae en nim ledom<br />
 cadom i omlia a 'turdus   </p>
 <p>by Gonçalves Dias, 1843  </p>
 <p>palmae = yalena leirih ca i none e yalwol jocai en anodu. Lirul en jensui wayol (tall tree that has broad leaves in the top. It is frequently next to the sea).  <br />
-turdus rufiventris = yalgai, yogali su yopohsari muhpili ca i omlia (small, brown and orange bird that sings).</p>
+turdus rufiventris = yalgai, yogafei yopoh-sari su yopoh-sari muhpili ca i omlia (small, brown and orange bird that sings).</p>
 <p><strong>Tips</strong></p>
 <p>ca = that, which<br />
 cadom = where (connector)<br />
@@ -4000,7 +4027,7 @@ netam = only<br />
 neron = more<br />
 no = like, similar to<br />
 noi = here<br />
-waa jele = water-field (floodplain)</p>
+was jele = water-field (floodplain)</p>
 <p><div style="text-align: center; margin: 2rem 0;">
 <button onclick="document.getElementById('poem-translation').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
     Click to Reveal Original
@@ -4042,23 +4069,21 @@ waa jele = water-field (floodplain)</p>
 </div>
 <div class="tabbed-block">
 <h2 id="matching-games">Matching Games</h2>
-<p>Time to practice! Match the Oravia words with their English meanings.</p>
-<p><strong>If you don't remember or make a mistake, that's totally fine!</strong> We will have plenty of opportunities to practice. Right now just give it a try.</p>
-<p>Click one word from each column to match them. The game will check automatically when you select both words.</p>
+<p>Time to practice! Match the Oravia words with their English meanings. <strong>Use sound-meaning associations as clues</strong>. For example, a cluster, subcluster, or familiar root may help you infer a word.
+<strong>If you don't remember or make a mistake, that's totally fine!</strong> We will have plenty of opportunities to practice. Right now just give it a try.
+Click one word from each column to match them. The game will check automatically when you select both words.</p>
 <hr />
 <h3 id="round-1">Round 1</h3>
-<p><div id="matching-game-1" data-lesson="lesson40" data-round="1"></div></p>
+<p><div id="matching-game-1" data-lesson="cc26_lesson46" data-round="1"></div></p>
 <hr />
 <h3 id="round-2">Round 2</h3>
-<p><div id="matching-game-2" data-lesson="lesson40" data-round="2"></div></p>
+<p><div id="matching-game-2" data-lesson="cc26_lesson46" data-round="2"></div></p>
 <hr />
 <h3 id="round-3">Round 3</h3>
-<p><div id="matching-game-3" data-lesson="lesson40" data-round="3"></div></p>
-</div>
-<div class="tabbed-block">
-<h2 id="review-missed-words">Review Missed Words</h2>
-<p>This section shows words you got wrong during practice. If you didn't miss any, this will be empty - great job! 🎉</p>
-<p><div id="review-game-container"></div></p>
+<p><div id="matching-game-3" data-lesson="cc26_lesson46" data-round="3"></div></p>
+<hr />
+<h3 id="round-4">Round 4</h3>
+<p><div id="matching-game-4" data-lesson="cc26_lesson46" data-round="4"></div></p>
 </div>
 <div class="tabbed-block">
 <p><div id="flashcard-container" data-lesson="46"></div></p>
@@ -4068,120 +4093,60 @@ waa jele = water-field (floodplain)</p>
 <script>
     function initWarmup() {
         const warmupWords = [
-    {id: "apa_1", oravia: "apasoi",  english: "hurry"},
-    {id: "apa_2", oravia: "apanou",  english: "drop"},
-    {id: "apa_3", oravia: "aparih",  english: "jump"},
-    {id: "apa_4", oravia: "apavu",   english: "run"},
-    {id: "apa_5", oravia: "apafene", english: "sit"},
-    ];
+    {id: "wu_neloa_1", oravia: "neloa", english: "all, everyone"},
+    {id: "wu_nepui_2", oravia: "nepui", english: "any"},
+    {id: "wu_yoyol_3", oravia: "yoyol", english: "blue"},
+    {id: "wu_yopoh_4", oravia: "yopoh", english: "red"}
+        ];
 
-    function renderSelfAssessment() {
-        const container = document.getElementById('self-assessment-container');
-        if (!container) return;
-        let html = '<table style="width:100%; border-collapse:collapse; margin-bottom: 1rem;">';
-        html += '<thead><tr>';
-        html += '<th style="text-align:center; padding:0.5rem; border-bottom:2px solid #4a9cd6;">✓</th>';
-        html += '<th style="text-align:left; padding:0.5rem; border-bottom:2px solid #4a9cd6;">Oravia</th>';
-        html += '<th class="answer-col" style="display:none; text-align:left; padding:0.5rem; border-bottom:2px solid #4a9cd6;">English</th>';
-        html += '</tr></thead><tbody>';
-        warmupWords.forEach((word, i) => {
-            const bg = i % 2 === 0 ? '#f9f9f9' : 'white';
-            html += `<tr style="background:${bg};"><td style="text-align:center; padding:0.4rem;"><input type="checkbox" id="check-${word.id}" data-id="${word.id}" style="width:1.1rem; height:1.1rem; cursor:pointer;"></td><td style="font-weight:bold; padding:0.4rem 0.5rem;">${word.oravia}</td><td class="answer-col" style="display:none; padding:0.4rem 0.5rem; color:#43a047;">${word.english}</td></tr>`;
-        });
-        html += '</tbody></table>';
-        html += '<div style="text-align:center; margin-top:1.5rem;">';
-        html += '<button id="show-answers-btn" style="background:#4a9cd6; color:white; border:none; padding:0.75rem 2rem; border-radius:4px; cursor:pointer; font-size:1rem;">Show Answers</button>';
-        html += '</div>';
-        container.innerHTML = html;
-        document.getElementById('show-answers-btn').addEventListener('click', function() {
-            document.querySelectorAll('.answer-col').forEach(col => col.style.display = 'table-cell');
-            this.style.display = 'none';
-            // Log warm-up self-assessment
-            const log = JSON.parse(localStorage.getItem('oravia_log') || '[]');
-            const lessonId = window.location.pathname.split('/').filter(Boolean).pop().replace('.html','');
-            warmupWords.forEach(function(word) {
-                const checked = document.getElementById('check-' + word.id);
-                log.push({
-                    timestamp: new Date().toISOString(),
-                    lesson: lessonId,
-                    word_id: word.id,
-                    oravia: word.oravia,
-                    english: word.english,
-                    type: 'warmup',
-                    correct: checked ? checked.checked : false
-                });
+        function renderSelfAssessment() {
+            const container = document.getElementById('self-assessment-container');
+            if (!container) return;
+            let html = '<table style="width:100%; border-collapse:collapse; margin-bottom: 1rem;">';
+            html += '<thead><tr>';
+            html += '<th style="text-align:center; padding:0.5rem; border-bottom:2px solid #4a9cd6;">✓</th>';
+            html += '<th style="text-align:left; padding:0.5rem; border-bottom:2px solid #4a9cd6;">Oravia</th>';
+            html += '<th class="answer-col" style="display:none; text-align:left; padding:0.5rem; border-bottom:2px solid #4a9cd6;">English</th>';
+            html += '</tr></thead><tbody>';
+            warmupWords.forEach((word, i) => {
+                const bg = i % 2 === 0 ? '#f9f9f9' : 'white';
+                html += `<tr style="background:${bg};"><td style="text-align:center; padding:0.4rem;"><input type="checkbox" id="check-${word.id}" data-id="${word.id}" style="width:1.1rem; height:1.1rem; cursor:pointer;"></td><td style="font-weight:bold; padding:0.4rem 0.5rem;">${word.oravia}</td><td class="answer-col" style="display:none; padding:0.4rem 0.5rem; color:#43a047;">${word.english}</td></tr>`;
             });
-            localStorage.setItem('oravia_log', JSON.stringify(log));
-        });
-}
-    const backBtn = document.getElementById('back-to-assessment-btn');
-    if (backBtn) backBtn.addEventListener('click', function() {
-        document.getElementById('matching-section').style.display = 'none';
-        document.getElementById('self-assessment-section').style.display = 'block';
-});
-    renderSelfAssessment();
-}
-if (document.readyState === 'loading') {
-document.addEventListener('DOMContentLoaded', initWarmup);
-} else {
-initWarmup();
-}
-</script>
-
-<script>
-    async function initReview() {
-    const wrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-    const container = document.getElementById('review-game-container');
-    if (!container) return;
-    if (wrongIds.length === 0) {
-        container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p><p style="color: #5a8bb8; margin-top: 0.5rem;">You did not miss any words. Excellent work!</p></div>';
-        return;
-}
-    try {
-        const lessonIds = [...new Set(
-            [...document.querySelectorAll('[data-lesson]')]
-                .map(el => el.dataset.lesson)
-        )];
-        const baseUrl = window.location.origin;
-        const responses = await Promise.all(
-            lessonIds.map(id => fetch(baseUrl + '/data/' + id + '_words.json').then(r => r.json()))
-        );
-        const allWords = responses.flatMap(data => data.words);
-        const seen = new Set();
-        const uniqueWords = allWords.filter(w => {
-            if (seen.has(w.id)) return false;
-            seen.add(w.id);
-            return true;
-        });
-        const wrongWords = uniqueWords.filter(word => wrongIds.includes(word.id));
-        if (wrongWords.length === 0) {
-            container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p></div>';
-            return;
+            html += '</tbody></table>';
+            html += '<div style="text-align:center; margin-top:1.5rem;">';
+            html += '<button id="show-answers-btn" style="background:#4a9cd6; color:white; border:none; padding:0.75rem 2rem; border-radius:4px; cursor:pointer; font-size:1rem;">Show Answers</button>';
+            html += '</div>';
+            html += `<div id="syllable-reminder" style="display:none; margin-top:1.25rem; padding:1rem; background:#eef7fb; border-left:4px solid #4a9cd6; border-radius:6px;"><p style="margin:0 0 0.5rem 0; font-weight:bold; color:#345;">Syllable reminders</p><p style="margin:0.25rem 0;"><strong>ne</strong> = quantities and references</p><p style="margin:0.25rem 0;"><strong>yo</strong> = colors</p></div>`;
+            container.innerHTML = html;
+            document.getElementById('show-answers-btn').addEventListener('click', function() {
+                document.querySelectorAll('.answer-col').forEach(col => col.style.display = 'table-cell');
+                const reminder = document.getElementById('syllable-reminder');
+                if (reminder) reminder.style.display = 'block';
+                this.style.display = 'none';
+                const log = JSON.parse(localStorage.getItem('oravia_log') || '[]');
+                const lessonId = window.location.pathname.split('/').filter(Boolean).pop().replace('.html','');
+                warmupWords.forEach(function(word) {
+                    const checked = document.getElementById('check-' + word.id);
+                    log.push({
+                        timestamp: new Date().toISOString(),
+                        lesson: lessonId,
+                        word_id: word.id,
+                        oravia: word.oravia,
+                        english: word.english,
+                        type: 'warmup',
+                        correct: checked ? checked.checked : false
+                    });
+                });
+                localStorage.setItem('oravia_log', JSON.stringify(log));
+            });
         }
-        container.innerHTML = '<p style="text-align: center; margin-bottom: 2rem; color: #5a8bb8;">Practice these ' + wrongWords.length + ' word(s) you found challenging:</p><div id="review-game-wrapper"></div><div style="text-align: center; margin-top: 2rem;"><button id="clear-review" style="padding: 0.5rem 1.5rem; background: #f57c00; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.95rem;">Clear Review List</button></div>';
-        new MatchingGame('review-game-wrapper', wrongWords, 'review', null, []);
-        document.getElementById('clear-review').addEventListener('click', function() {
-            if (confirm('Clear all review words? This will reset your wrong words list for this lesson.')) {
-                const allWrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-                const lessonWordIds = uniqueWords.map(w => w.id);
-                const remainingWrongIds = allWrongIds.filter(id => !lessonWordIds.includes(id));
-                localStorage.setItem('wrong_ids', JSON.stringify(remainingWrongIds));
-                location.reload();
-            }
-        });
-} catch (error) {
-        console.error('Error loading words:', error);
-        container.innerHTML = '<p style="color: #f44336;">Error loading review words. Please refresh the page.</p>';
-}
-}
-document.addEventListener('DOMContentLoaded', initReview);
-    document.querySelectorAll('.tabbed-labels label').forEach(label => {
-    if (label.textContent.trim() === 'Review') {
-        label.addEventListener('click', function() {
-            setTimeout(initReview, 50);
-        });
-}
-});
+        renderSelfAssessment();
+    }
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initWarmup);
+    } else {
+        initWarmup();
+    }
 </script>
 
 <div style="text-align: center; padding: 2rem 0; background: #e0f2f1; border-radius: 8px; margin-top: 3rem;">
@@ -4289,6 +4254,8 @@ document.addEventListener('DOMContentLoaded', initReview);
       <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
         <script src="../../js/matching-game.js"></script>
+      
+        <script src="../../js/oravia-word-popup.js"></script>
       
     
   </body>
