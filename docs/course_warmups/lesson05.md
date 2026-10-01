@@ -1,9 +1,9 @@
-# Lesson 5: BO Cluster
+# Lesson 5: FA Subclusters
 
 !!! info "How to Use This Lesson"
-    This lesson is divided into five sections. Please move through them in this order: **Grammar**, **Vocabulary**, **Practice**, **Review**, **Flashcards**. After you finish, *try the Exercises and Review again* to see how much you’ve improved.
+    This lesson is divided into four sections. Please move through them in this order: **Grammar**, **Vocabulary**, **Practice**, **Flashcards**.
     
-    **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
+    **Do not try to memorize!** Just read through the content attentively. The warm-ups and flashcards will bring the vocabulary back later!
 
 ---
 
@@ -24,11 +24,11 @@
     ```
     
     ```
-    falen i moum moa
+    falfal i moum moa
     ```
     
     ```
-    fasu-jal i moum moyi
+    jal fasu i moum moyi
     ```
     
     ```
@@ -36,11 +36,11 @@
     ```
     
     ```
-    faibor-jor i favi e falen
+    jor faibor i mouje e mogali
     ```
     
     ```
-    e moulu i mouje a falen
+    e moulu i mouje a falfal
     ```
     
     **Tips**
@@ -49,8 +49,8 @@
     i = verb  
     e = direct complement of the verb  
     -um = no/not  
-    -jor = woman  
-    -jal = man  
+    jor = woman  
+    jal = man  
     
     | Oravia | English |
     |--------|---------|
@@ -58,7 +58,7 @@
     | fare | parent |
     | fasu | sibling|
     | fano | son, daughter |
-    | falen | child |
+    | falfal | child |
     | faejor | woman |
     | faejal | man |
     
@@ -75,9 +75,9 @@
     
     | Singular | Plural |
     |----------|--------|
-    | **nim** (I) | **nima** (we) |
-    | **run** (you) | **runa** (you all) |
-    | **hay** (he/she/they) | **haya** (they pl.) |
+    | **nim** (I) | **nimas** (we) |
+    | **run** (you) | **runas** (you all) |
+    | **hay** (he/she/they) | **hayas** (they pl.) |
     
     
     
@@ -89,12 +89,12 @@
     </div>
     
     <div id="subcluster-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-        <p style="margin: 0;"> Possible translations: My child doesn't drink coffee. The child doesn't eat fruit. My brother doesn't eat sugar. My parent doesn't eat sweet chocolate.  My wife gives birth to a child. The child drinks milk. </p>
+        <p style="margin: 0;"> Possible translations: My child doesn't drink coffee. The child doesn't eat fruit. My brother doesn't eat sugar. My parent doesn't eat sweet chocolate.  The wife drinks coffee. The child drinks milk. </p>
     </div>
     
     Great job! Based on the sentences, we can see that:  
-    . we use *um* at the end of the word to mean *no/not*.  
-    . we use *jal* for men and *jor* for women, which is optional.  
+    - we use *um* at the end of the word to mean *no/not*.  
+    - we use *jal* for men and *jor* for women, which is optional.  
     
     Now try to create a sentence using what you've just learned, or 3 if you're up for a challenge!
     
@@ -116,104 +116,116 @@
     
 === "Vocabulary"
 
-    ## The BO Cluster
+    ## The FA Subclusters
     
-    BO is our third cluster! Take a look at these words and try to see if you can guess what this cluster is about.
-    
+    Remember what **FA** indicated?
+
+    <details markdown="1">
+    <summary>Click to check</summary>
+
+    **FA** = family.
+
+    </details>
+
+    A subcluster narrows that broad domain. Look at the words below and see if you can spot the narrower patterns in **FAL** and **FAI**.
+
+    **Remember, do not try to memorize them.** Just read through them attentively.
+
     <audio controls style="width:100%">
-      <source src="../audio/5v.mp3" type="audio/wav">
+      <source src="../audio/4v.mp3" type="audio/wav">
     </audio>
+    
     
     | Oravia | English |
     |--------|---------|
-    | bofin | inside |
-    | bontame | table |
-    | bortal | door |
-    | bospupi | shower |
-    | boelori | room |
+    | falte | young |
+    | falni | baby |
+    | falfal | child |
 
+
+    How about *FAL*, what do you think it means?
     
-    What do you think the words that start in *BO* have in common?
+    <div style="text-align: center; margin: 2rem 0;">
+        <button onclick="document.getElementById('cluster4-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+            Click to Reveal Subcluster Meaning
+        </button>
+    </div>
     
+    <div id="cluster4-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+        <p style="margin: 0;"> FAL is related to <strong>early life</strong>, such as children and babies.</p>
+    </div>
+
+    | Oravia | English |
+    |--------|---------|
+    | faibor | spouse |
+    | faigel | to marry |
+    | jal faibor | husband |
+
+    What do you think the words that start in *FAI* have in common?
+
     <div style="text-align: center; margin: 2rem 0;">
         <button onclick="document.getElementById('cluster1-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
             Click to Reveal Subcluster Meaning
         </button>
     </div>
-    
+
     <div id="cluster1-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-        <p style="margin: 0;">They are all related to <strong>house</strong>. That's what *bo* means!</p>
+        <p style="margin: 0;">They are about <strong>marriage</strong>.</p>
     </div>
+
+
+
+    Here's a few more words related to family:  
+    
+    | Oravia | English |
+    |--------|---------|
+    | fasu | sibling|
+    | fare | parent |
+    | fano | daughter, son |
     
     !!! info "🌍 Sound Connections"
-        Bo is like Arabic بيت (bayt = house, dwelling); Hebrew בית (bayit = house); Proto-Semitic *bayt- (house); Swahili boma (enclosed homestead); Russian бок (bok = side of a house).  
-          
-        And pupi is mimicking the sound of falling water :).  
+        Fano uses the no(u) root, which means low, falling. It comes from Arabic نَوْم naw  (sleep, falling into sleep). We use it  because daughters and sons are one generation below! 
         
-    Here's another word with this root:  
-    **lupupi** = rain (outside + falling water), just like bospupi = shower (bathroom + falling water).  
+        The root ni in Falni (baby) comes from the Proto-Indo-European root newo, which shares Greek νέος neos (young, fresh, recent), and English new.
     
-    Now that we are learning **locations**, there is a word that is very useful for this! When we want to talk about location, we use *en*. This means on/at/in.
-    For example,
+    In this case, *no* is the root of *fano*. The word can be understood like this:
+    fa (family) + no (down, one generation down) = offspring, daughter, son
     
-    ```
-    en bo = at home
-    ```
     
-    ```
-    en bospupi = in the bath
-    ```
+    Most Oravia words are built in a similar way:
+    (sub)cluster + root
     
-    ```
-    en bontame = on the table
-    ```
-    
-    Very versatile. Now we can talk about locations! We also use *en* for time, similar to how English also uses on/at/in to indicate time. But that's for another lesson :)
-    
+    The initial sounds (clusters and subclusters) tell you the word's broad domain.
+    Roots often give helpful clues across clusters.
+    Treat roots as hints about the full word's meaning, not strict rules. 
+    As you learn more words, keep a look out for root connections. When you spot one that makes sense to you, use it. It may help you remember the word. 
+    ---
 
 === "Practice"
 
     ## Matching Games
-    
-    Time to practice! Match the Oravia words with their English meanings.
-    
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
-    
+
+    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
     Click one word from each column to match them. The game will check automatically when you select both words.
-    
     ---
-    
+
     ### Round 1
-    
-    <div id="matching-game-1" data-lesson="lesson05" data-round="1"></div>
+
+    <div id="matching-game-1" data-lesson="cc26_lesson05" data-round="1"></div>
 
     ---
 
     ### Round 2
-    
-    <div id="matching-game-2" data-lesson="lesson05" data-round="2"></div>
+
+    <div id="matching-game-2" data-lesson="cc26_lesson05" data-round="2"></div>
 
     ---
 
     ### Round 3
-    
-    <div id="matching-game-3" data-lesson="lesson05" data-round="3"></div>
 
+    <div id="matching-game-3" data-lesson="cc26_lesson05" data-round="3"></div>
 
-
-
-=== "Review"
-
-    ## Review Missed Words
-    
-    This section shows only the words you got wrong during practice. If you didn't miss any words, this will be empty - great job! 🎉
-    
-    ---
-    
-    <div id="review-game-container"></div>
-      
-
-    ---
 === "Flashcards"
 
     <div id="flashcard-container" data-lesson="5"></div>
@@ -223,68 +235,14 @@
         🎉 <strong>Lesson 5 Complete!</strong>
     </p>
 <p style="color: #5a8bb8; margin-bottom: 0.5rem;">
-        If you missed any words, check the <strong>Review</strong> tab to practice them again.
+        Use the <strong>Flashcards</strong> tab for another quick review.
     </p>
 <p style="color: #5a8bb8; margin-bottom: 1.5rem;">
         Come back tomorrow for Lesson 6.
     </p>
 </div>
 
-<script>
-    async function initReview() {
-    const wrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-    const container = document.getElementById('review-game-container');
-    if (!container) return;
-    if (wrongIds.length === 0) {
-        container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p><p style="color: #5a8bb8; margin-top: 0.5rem;">You did not miss any words. Excellent work!</p></div>';
-        return;
-}
-    try {
-        const lessonIds = [...new Set(
-            [...document.querySelectorAll('[data-lesson]')]
-                .map(el => el.dataset.lesson)
-        )];
-        const baseUrl = window.location.origin;
-        const responses = await Promise.all(
-            lessonIds.map(id => fetch(baseUrl + '/data/' + id + '_words.json').then(r => r.json()))
-        );
-        const allWords = responses.flatMap(data => data.words);
-        const seen = new Set();
-        const uniqueWords = allWords.filter(w => {
-            if (seen.has(w.id)) return false;
-            seen.add(w.id);
-            return true;
-        });
-        const wrongWords = uniqueWords.filter(word => wrongIds.includes(word.id));
-        if (wrongWords.length === 0) {
-            container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p></div>';
-            return;
-        }
-        container.innerHTML = '<p style="text-align: center; margin-bottom: 2rem; color: #5a8bb8;">Practice these ' + wrongWords.length + ' word(s) you found challenging:</p><div id="review-game-wrapper"></div><div style="text-align: center; margin-top: 2rem;"><button id="clear-review" style="padding: 0.5rem 1.5rem; background: #f57c00; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.95rem;">Clear Review List</button></div>';
-        new MatchingGame('review-game-wrapper', wrongWords, 'review', null, []);
-        document.getElementById('clear-review').addEventListener('click', function() {
-            if (confirm('Clear all review words? This will reset your wrong words list for this lesson.')) {
-                const allWrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-                const lessonWordIds = uniqueWords.map(w => w.id);
-                const remainingWrongIds = allWrongIds.filter(id => !lessonWordIds.includes(id));
-                localStorage.setItem('wrong_ids', JSON.stringify(remainingWrongIds));
-                location.reload();
-            }
-        });
-} catch (error) {
-        console.error('Error loading words:', error);
-        container.innerHTML = '<p style="color: #f44336;">Error loading review words. Please refresh the page.</p>';
-}
-}
-document.addEventListener('DOMContentLoaded', initReview);
-    document.querySelectorAll('.tabbed-labels label').forEach(label => {
-    if (label.textContent.trim() === 'Review') {
-        label.addEventListener('click', function() {
-            setTimeout(initReview, 50);
-        });
-}
-});
-</script>
+
 
 <script>
 (function() {

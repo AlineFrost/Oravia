@@ -42,18 +42,18 @@
     
     Oravia has less than 800 words. This makes it much faster and easier to learn than having thousands of words. The trade-off is that we don't have words for every single concept. Many times, we need to use more than one word to express what we mean. That's where compounds enter!
     
-    Compounds are multiple words to express one concept. To indicate a compound, we add **-gu** to the end of the modifying words. That way, we indicate it should be interpreted as a single concept, and not an adjective. For example:
+    Compounds are multiple words that name a single concept. In a compound, every word except the last takes **-s**. You can also put **sol** at the front to explicitly open the compound; **sol** is optional. This distinguishes a compound from an ordinary modifier phrase, which does not take **-s**. For example:
     
     ``` 
     yaltan miau = a big cat
-    yaltangu miau = big-cat, like a tiger or a lion
-    yedigu yaltangu miau = striped-big-cat, tiger
+    yaltans miau = big-cat, like a tiger or a lion
+    yedis yaltans miau = striped-big-cat, tiger
     ```
     
     Let's see another example:
     ``` 
     yahlul yaltan apafene = a chair that is soft and big
-    yahlulgu yaltangu apafene = soft-big-chair, a couch
+    yahluls yaltans apafene = soft-big-chair, a couch
     ```
     
     Compounds are not exact science. Sometimes, meaning will be approximated or unclear. If we have a miscommunication, we can try other compounds or rephrasing. 
@@ -70,15 +70,15 @@
     ``` 
     En borlu, i vardei e 'miautan.
     
-    *miautan = yedigu yaltangu miau, *panthera tigris*.
+    *miautan = yedis yaltans miau, *panthera tigris*.
     ```
     
     You may also find people using *Palmae* to refer to palm trees, or *Turdus* to refer to a robin. Scientific names make the referent clear (different languages have different conceptual overlaps of flora and fauna), avoids adding thousands of created words to the vocabulary, and we get to learn new things!  
    
-    Finally, there is another way to create new meanings: hyphenated words. While -gu compounds are usually created with modifiers describing a single concept, hyphenated expressions are used to join together two meanings, like this:
+    Finally, there is another way to create new meanings: hyphenated words. While **-s** compounds are usually created with modifiers that name a single concept, hyphenated expressions are used to join together two meanings, like this:
     
     ``` 
-    falen-li = child-time, childhood  
+    falfal-li = child-time, childhood  
     i toului-asfe = tired-stop, to give up from exhaustion  
     ```
     
@@ -94,7 +94,7 @@
     To sum up:
   
     ```     
-    modifying word +gu = compound, modifiers creating a single concept
+    every non-final word +s = compound; optional sol can open the compound
     new or imported word = indicate with ' and describe in footnotes
     hyphen = two words joined for more fine-grained meaning
     ``` 
@@ -161,6 +161,25 @@
     <p style="margin: 0;"> <strong>VON</strong> is for <strong>external body surfaces</strong> and <strong>VOS</strong> is for <strong>grooming</strong>.</p>
     </div>
         
+
+    ### Recognize the Roots
+
+    Take another look at **vonmo**, **vonici**, **vonlu**, and **vosfou**. Do you recognize any roots you've learned before?
+
+    <div style="text-align: center; margin: 1.25rem 0;">
+    <button onclick="document.getElementById('root-recall-l42-vo-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.65rem 1.5rem; border-radius: 4px; cursor: pointer;">
+        Click to Reveal the Roots
+    </button>
+    </div>
+
+    <div id="root-recall-l42-vo-answer" style="display: none; background: #c8e6c9; padding: 1.25rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 1.25rem 0;">
+    
+    <p style="margin: 0 0 0.45rem 0;"><strong>vonmo</strong> → <strong>MO</strong> = food / eating</p>
+    <p style="margin: 0 0 0.45rem 0;"><strong>vonici</strong> → <strong>NI</strong> = new · <strong>CI</strong> = sharp</p>
+    <p style="margin: 0 0 0.45rem 0;"><strong>vonlu</strong> → <strong>LU</strong> = outside</p>
+    <p style="margin: 0 0 0.45rem 0;"><strong>vosfou</strong> → <strong>FOU</strong> = lack</p>
+    </div>
+
     Ce yo run vonlu, vonyas, su vardei? 
     
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
@@ -212,24 +231,24 @@
     **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
 
     Click one word from each column to match them. The game will check automatically when you select both words.
-
     ---
 
     ### Round 1
 
-    <div id="matching-game-1" data-lesson="lesson40" data-round="1"></div>
+    <div id="matching-game-1" data-lesson="cc26_lesson42" data-round="1"></div>
 
     ---
 
     ### Round 2
 
-    <div id="matching-game-2" data-lesson="lesson40" data-round="2"></div>
+    <div id="matching-game-2" data-lesson="cc26_lesson42" data-round="2"></div>
 
     ---
 
     ### Round 3
 
-    <div id="matching-game-3" data-lesson="lesson40" data-round="3"></div>
+    <div id="matching-game-3" data-lesson="cc26_lesson42" data-round="3"></div>
+
 
 
 
@@ -309,59 +328,53 @@ initWarmup();
 
 
 <script>
-    async function initReview() {
-    const wrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-    const container = document.getElementById('review-game-container');
-    if (!container) return;
-    if (wrongIds.length === 0) {
-        container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p><p style="color: #5a8bb8; margin-top: 0.5rem;">You did not miss any words. Excellent work!</p></div>';
-        return;
-}
-    try {
-        const lessonIds = [...new Set(
-            [...document.querySelectorAll('[data-lesson]')]
-                .map(el => el.dataset.lesson)
-        )];
-        const baseUrl = window.location.origin;
-        const responses = await Promise.all(
-            lessonIds.map(id => fetch(baseUrl + '/data/' + id + '_words.json').then(r => r.json()))
-        );
-        const allWords = responses.flatMap(data => data.words);
-        const seen = new Set();
-        const uniqueWords = allWords.filter(w => {
-            if (seen.has(w.id)) return false;
-            seen.add(w.id);
-            return true;
-        });
-        const wrongWords = uniqueWords.filter(word => wrongIds.includes(word.id));
-        if (wrongWords.length === 0) {
-            container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p></div>';
+    function initReview() {
+        const wrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
+        const container = document.getElementById('review-game-container');
+        if (!container) return;
+        if (wrongIds.length === 0) {
+            container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p><p style="color: #5a8bb8; margin-top: 0.5rem;">You did not miss any words. Excellent work!</p></div>';
             return;
         }
-        container.innerHTML = '<p style="text-align: center; margin-bottom: 2rem; color: #5a8bb8;">Practice these ' + wrongWords.length + ' word(s) you found challenging:</p><div id="review-game-wrapper"></div><div style="text-align: center; margin-top: 2rem;"><button id="clear-review" style="padding: 0.5rem 1.5rem; background: #f57c00; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.95rem;">Clear Review List</button></div>';
-        new MatchingGame('review-game-wrapper', wrongWords, 'review', null, []);
-        document.getElementById('clear-review').addEventListener('click', function() {
-            if (confirm('Clear all review words? This will reset your wrong words list for this lesson.')) {
-                const allWrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-                const lessonWordIds = uniqueWords.map(w => w.id);
-                const remainingWrongIds = allWrongIds.filter(id => !lessonWordIds.includes(id));
-                localStorage.setItem('wrong_ids', JSON.stringify(remainingWrongIds));
-                location.reload();
+        try {
+            const node = document.getElementById('matching-data');
+            if (!node) throw new Error('Embedded matching data not found.');
+            const data = JSON.parse(node.textContent);
+            const seen = new Set();
+            const uniqueWords = data.words.filter(w => {
+                if (seen.has(w.id)) return false;
+                seen.add(w.id);
+                return true;
+            });
+            const wrongWords = uniqueWords.filter(word => wrongIds.includes(word.id));
+            if (wrongWords.length === 0) {
+                container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p></div>';
+                return;
             }
-        });
-} catch (error) {
-        console.error('Error loading words:', error);
-        container.innerHTML = '<p style="color: #f44336;">Error loading review words. Please refresh the page.</p>';
-}
-}
-document.addEventListener('DOMContentLoaded', initReview);
+            container.innerHTML = '<p style="text-align: center; margin-bottom: 2rem; color: #5a8bb8;">Practice these ' + wrongWords.length + ' word(s) you found challenging:</p><div id="review-game-wrapper"></div><div style="text-align: center; margin-top: 2rem;"><button id="clear-review" style="padding: 0.5rem 1.5rem; background: #f57c00; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.95rem;">Clear Review List</button></div>';
+            new MatchingGame('review-game-wrapper', wrongWords, 'review', null, []);
+            document.getElementById('clear-review').addEventListener('click', function() {
+                if (confirm('Clear all review words? This will reset your wrong words list for this lesson.')) {
+                    const allWrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
+                    const lessonWordIds = uniqueWords.map(w => w.id);
+                    const remainingWrongIds = allWrongIds.filter(id => !lessonWordIds.includes(id));
+                    localStorage.setItem('wrong_ids', JSON.stringify(remainingWrongIds));
+                    location.reload();
+                }
+            });
+        } catch (error) {
+            console.error('Error loading embedded review words:', error);
+            container.innerHTML = '<p style="color: #f44336;">Error loading review words. Please refresh the page.</p>';
+        }
+    }
+    document.addEventListener('DOMContentLoaded', initReview);
     document.querySelectorAll('.tabbed-labels label').forEach(label => {
-    if (label.textContent.trim() === 'Review') {
-        label.addEventListener('click', function() {
-            setTimeout(initReview, 50);
-        });
-}
-});
+        if (label.textContent.trim() === 'Review') {
+            label.addEventListener('click', function() {
+                setTimeout(initReview, 50);
+            });
+        }
+    });
 </script>
 
 <div style="text-align: center; padding: 2rem 0; background: #e0f2f1; border-radius: 8px; margin-top: 3rem;">

@@ -1,0 +1,117 @@
+{
+  "lesson_id": "cc26_lesson40",
+  "cluster": "complete-course",
+  "cluster_meaning": "matching practice",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "LEA / LEI contrast 1",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 2,
+      "title": "LEA / LEI contrast 2",
+      "buckets": [
+        "r2"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 3,
+      "title": "LEA / LEI contrast 3",
+      "buckets": [
+        "r3"
+      ],
+      "words_per_bucket": 4
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson40_r1_1",
+      "oravia": "leamoma",
+      "english": "farm",
+      "bucket": "r1",
+      "source_bucket": "contrast"
+    },
+    {
+      "id": "lesson40_r1_2",
+      "oravia": "leayo",
+      "english": "garden",
+      "bucket": "r1",
+      "source_bucket": "contrast"
+    },
+    {
+      "id": "lesson40_r1_3",
+      "oravia": "leipili",
+      "english": "flower",
+      "bucket": "r1",
+      "source_bucket": "contrast"
+    },
+    {
+      "id": "lesson40_r1_4",
+      "oravia": "leinou",
+      "english": "grass",
+      "bucket": "r1",
+      "source_bucket": "contrast"
+    },
+    {
+      "id": "lesson40_r2_1",
+      "oravia": "lealei",
+      "english": "forest",
+      "bucket": "r2",
+      "source_bucket": "contrast"
+    },
+    {
+      "id": "lesson40_r2_2",
+      "oravia": "leafou",
+      "english": "desert",
+      "bucket": "r2",
+      "source_bucket": "contrast"
+    },
+    {
+      "id": "lesson40_r2_3",
+      "oravia": "leini",
+      "english": "seed",
+      "bucket": "r2",
+      "source_bucket": "contrast"
+    },
+    {
+      "id": "lesson40_r2_4",
+      "oravia": "leirih",
+      "english": "tree",
+      "bucket": "r2",
+      "source_bucket": "contrast"
+    },
+    {
+      "id": "lesson40_r3_1",
+      "oravia": "leno",
+      "english": "soil",
+      "bucket": "r3",
+      "source_bucket": "contrast"
+    },
+    {
+      "id": "lesson40_r3_2",
+      "oravia": "lenodur",
+      "english": "rock",
+      "bucket": "r3",
+      "source_bucket": "contrast"
+    },
+    {
+      "id": "lesson40_r3_3",
+      "oravia": "leide",
+      "english": "root",
+      "bucket": "r3",
+      "source_bucket": "contrast"
+    },
+    {
+      "id": "lesson40_r3_4",
+      "oravia": "levi",
+      "english": "fertile",
+      "bucket": "r3",
+      "source_bucket": "contrast"
+    }
+  ]
+}

@@ -36,24 +36,27 @@ nav:
     - How to Learn it?: about/learning.md
     - About Me: about/about-me.md
     - Get Involved: about/get-involved.md
-    - Vocabulary FAQ: about/vocab.md
     - Website Versions: about/changes.md
-  - Quick Reference:
+  - Reference:
     - Cheat Sheet: about/cheat-sheet.md
     - 10-Minute Grammar: about/core-grammar.md
-    - Building Blocks: content/building_blocks.md
-    - Semantic Explorer: content/semantic_explorer.md
-  - Content:
-    - Comprehensive Grammar: content/oravia-grammar.md
     - Dictionary: content/dictionary.md
-    - Craft & Style: content/oravia-style.md
-    - Readings: content/readings.md
-    - Media: content/media.md
-    - A2 Proficiency Test: content/a2_test.md
+    - Comprehensive Grammar: content/oravia-grammar.md
+    - Pronunciation Guide: content/pronunciation.md
+    - Building Blocks: content/building_blocks.md
     - Common Imported Words: content/imported-words.md
-    - Flashcards: content/flashcards.md
+    - Semantic Explorer: content/semantic_explorer.md
+    - Craft & Style: content/oravia-style.md
+
+  - Media:
+    - Songs: content/songs.md
+    - Stories and Scenes: content/stories.md
     - Daily Wordle Game: games/oravia-wordle.html
-  - Course:
+  - Readings:
+    - Graded Readers: content/reader/reader.md
+    - Readings: content/readings/readings.md
+  - Learning:
+    - How to Learn it?: about/learning.md
     - Oravia in 12 Lessons:
       - Before you start: quick/lesson00.md
       - L1 - Pronouns: quick/lesson01.md
@@ -68,6 +71,7 @@ nav:
       - L10 - AR & IS: quick/lesson10.md
       - L11 - Compounds, Hyphens & Imports: quick/lesson11.md
       - L12 - Conditionals: quick/lesson12.md
+    - Flashcards: content/flashcards.md
     - Complete Course:
       - L0 - Pronunciation & Structure: course_warmups/lesson00.md
       - Core:
@@ -134,6 +138,7 @@ nav:
         - L58 - JE Cluster: course_warmups/lesson58.md
         - L59 - HE Cluster: course_warmups/lesson59.md
         - L60 - WI / RA Clusters: course_warmups/lesson60.md
+    - A2 Proficiency Test: content/a2_test.md
 
 markdown_extensions:
   - attr_list
@@ -171,7 +176,9 @@ copyright: Copyright &copy; 2026 Learn Oravia
 
 extra_css:
   - css/custom.css
+  - css/oravia-magazine.css
 
 extra_javascript:
   - js/matching-game.js
+  - js/oravia-word-popup.js
 

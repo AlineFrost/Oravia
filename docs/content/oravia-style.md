@@ -195,7 +195,7 @@ bi el, a nim a run faibor. → I hereby become your spouse.</pre>
 <h4>4.3 bi ela — The Ritual Variant</h4>
 <p>bi ela draws from the ELA (religious/ritual) subcluster and reads more religious. It is usually reserved for ceremonial or sacred contexts like prayers, blessings, dedications, and oaths.</p>
 <pre>bi ela, nim i elano. → This is my prayer. / I hereby pray.
-bi ela, nim i elaren e haya. → I hereby bless them.</pre>
+bi ela, nim i elaren e hayas. → I hereby bless them.</pre>
 <p>For most purposes, bi el is the right choice. bi ela adds specifically sacred register weight if you want it.</p>
 <h4>4.4 What bi el is not</h4>
 <p>bi el shifts the speech act entirely:</p>

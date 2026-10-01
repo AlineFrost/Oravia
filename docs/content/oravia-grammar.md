@@ -53,7 +53,7 @@ This grammar document aims to be comprehensive, and as such has more advanced or
 <p><em>Vocabulary</em> - the bulk of the language, ~800 words, almost all composed of (sub)cluster + root (e.g., ANE + LEM = remain).</p>
 <p><em>Cluster</em> - the first two letters and/or first syllable of a word, which indicates its noun class. There are 48 clusters. Not all words belong to a cluster but almost all do (e.g., AN = movement). The exceptions are typically pronouns, prepositions, and numbers. </p>
 <p><em>Subcluster </em>- subdivision of a cluster, typically indicated by the third letter. Clusters have between 0-4 subclusters (e.g., ANE = static movement. There is also ANI = movement toward, and ANO = movement away).</p>
-<p><em>Root</em> - typically the rest of the word after subtracting the (sub)cluster, creating cross-cluster associations (e.g., LEM = remain, like BEILEM = vehicle + remain = station).</p>
+<p><em>Root</em> - typically the rest of the word after subtracting the (sub)cluster, creating cross-cluster associations. When we refer to the short form of a verb or another word, it means just its root (e.g., LEM = remain, like BEILEM = vehicle + remain = station).</p>
 <p><em>Building Blocks</em> - all the clusters, subclusters and roots, which form the syllable-meaning associations of Oravia (e.g., ANE = static movement, LEM = remain, BEI = vehicle).</p>
 <p><em>Marker</em> - they indicate the syntactic role of a word in a sentence by introducing blocks (e.g., [SUBJECT my mom and I] [VERB give freely] [DIRECT OBJECT homemade food] [INDIRECT OBJECT to people in need]). The markers are a (subject), i (verb), e (direct object), u (indirect object, to, for), o (emphasis).</p>
 <p><em>Compounds</em> - two or more words indicating together a concept (e.g., sol yedis yaltans miau = striped-big-cat = tiger). The compound is opened by sol, which is optional, and every word except the last takes -s. </p>
@@ -185,15 +185,20 @@ a miau e muvardur i copei = miau e muvardur i copei = the cat hunts the mouse</p
 <h4>4.1 Personal Pronouns</h4>
 <table>
 <tr><th>Singular</th><th></th><th>Plural</th><th></th></tr>
-<tr><td>nim</td><td>I / me</td><td>nima</td><td>we / us</td></tr>
-<tr><td>run</td><td>you</td><td>runa</td><td>you all</td></tr>
-<tr><td>hay</td><td>he / she / it (singular)</td><td>haya</td><td>they (plural)</td></tr>
+<tr><td>nim</td><td>I / me</td><td>nimas</td><td>we / us</td></tr>
+<tr><td>run</td><td>you</td><td>runas</td><td>you all</td></tr>
+<tr><td>hay</td><td>he / she / it (singular)</td><td>hayas</td><td>they (plural)</td></tr>
 </table>
 <p>hay is fully gender-neutral. It covers he, she, it, and any singular third person. Some speakers may prefer to use demonstratives such as noi (this) to refer to objects or things. </p>
+<p>One may also form more specific pronouns: </p>
+<pre>hayjor      → hay (3rd person singular) + jor (feminine) = she
+hayjal      → hay (3rd person singular) + jal (masculine) = he
+nimnim      → nim (1st person singular) reduplication = exclusive we (we here, not you)
+nimrun      → nim (1st person singular) + run (2nd person singular) = inclusive we (you too)</pre>
 <h4>4.2 Possessive Pronouns</h4>
 <p>Just use the personal pronoun before the noun, like any other modifier.</p>
-<p>For non-pronoun possession, use de.</p>
 <pre>nim roumir       → my book</pre>
+<p>For non-pronoun possession, use de.</p>
 <pre>roumir de Demi       → Demi&#x27;s book</pre>
 <h4>4.3 Zero Pronouns</h4>
 <p>Oravia omits possessives when ownership is obvious: body parts, family roles, clothing, body actions:</p>
@@ -221,11 +226,11 @@ daefer i elireva, eta o i ilahai  = if it's true, tell me.</pre>
 <p>In narratives and more complex sentences, when a subject is introduced, it becomes the subject until another one is made explicit. That is, if the subject changes, you must introduce it. This is true even if you would normally not use &quot;I&quot; or &quot;you&quot;. This is to prevent ambiguity:</p>
 <pre>Hay i bortal, i apafene en bontame, su i mo. Notam, toumo. Notor, a nim i ilahai.
 = they enter, [they] sit on the table, and [they] eat. Before, [they were] hungry. Then, I say.
-Haya i ilian ca i anye = they know what [they] are doing
-Haya i ilian ca nim i anye = they know what I am doing</pre>
+Hayas i ilian ca i anye = they know what [they] are doing
+Hayas i ilian ca nim i anye = they know what I am doing</pre>
 <p>Subjects identified in embedded or subordinate clauses are only valid within that clause and do not become the main active subject. That is, the subject for the next sentences do not shift to the subject of the embedded clause:</p>
 <pre>
-Haya i ilian ca nim i anye. Notor, i anocari. = They know what I am doing. Then, [they] leave.</pre>
+Hayas i ilian ca nim i anye. Notor, i anocari. = They know what I am doing. Then, [they] leave.</pre>
 </div>
 </details>
 
@@ -252,7 +257,7 @@ You can also make any word into a gender word by adding it into the fae subclust
 <pre>a [subject]   a   [predicate]</pre>
 <p>Examples:</p>
 <pre>a nim a yalen           → I am tall
-a haya a ti             → they are bad
+a hayas a ti             → they are bad
 a coupa a ancem hue     → the card is turned
 a nim a roena dia      → I am a teacher
 a bo a no leayo         → the house is like a garden</pre>
@@ -264,17 +269,15 @@ nim [en] noi           → I am here</pre>
 a falen a ya fare            → the child is parental
 a falen a fare bi reva       → the child is a parent</pre>
 <h4>6.2 The Reduced Copula</h4>
-<p>Once a subject is active in discourse, you can use a reduced copula clause referring back to that subject. This is the full explicit copula:</p>
-<pre>a Lina a roena dia. a hay a toului.   → Lina is a teacher. she is tired.</pre>
-<p>But since Lina is already the active subject, you don&#39;t have to repeat the full copula again. You may say instead predicate + pronoun/subject, or even only predicate:</p>
-<pre>a Lina a roena dia. toului hay.       → Lina is a teacher. she is tired.</pre>
+<p>Recall that when the subject is in the beginning of the sentence, you may drop the a marker. This is also the case with the copula:</p>
+<pre>a bo a yaltan.   → bo a yaltan.</pre>
+<pre>a Lina a roena dia. hay a toului.       → Lina is a teacher. she is tired.</pre>
 <p>In that case you can say only <em>toului</em> as well. But to avoid ambiguity, using the subject again is recommended for complex sentences:</p>
 <pre>a Lina i asensau, i anvu jetai bosvi. Notor, i vardei e elihei 
 en sepopos joliri, su i ilahai u fano ca touros hay.
 
 → Lina wakes up, she goes to the bathroom. Then, she looks at
   herself in the mirror, and says to her child that she is tense.</pre>
-<p>The reduced copula always refers to the currently active subject (it is Lina who is tense).</p>
 <p>This is very useful to avoid repetition and clunkiness, especially when reading and writing.</p>
 </div>
 </details>
@@ -407,7 +410,7 @@ I have been drinking coffee since yesterday
 nim i elemi en &#x27;San Antonio de lidastor teva
 I have been living in San Antonio for six years
  
-haya i damai de litam cali nim i anocariar
+hayas i damai de litam cali nim i anocariar
 they have been arguing since the day I left</pre>
 <h4>10.2 For a duration — en + span</h4>
 <p>Use en (at/in) with a duration to express how long the action has been going on without specifying the start point:</p>
@@ -435,7 +438,7 @@ she has been searching for three years</pre>
 noder hay i anocari            → she has already left
   
 nim i anlaro-mo              → I&#x27;m still eating
-haya anlaro i elemi en bo    → they still live at home</pre>
+hayas anlaro i elemi en bo    → they still live at home</pre>
 </div>
 </details>
 
@@ -681,6 +684,8 @@ cei i mouje e moulu?      → Who is drinking milk?
 cedom run i anvu?         → Where are you going?
 cenon run i boemo?        → How do you cook?
 cene yalen a run?         → How tall are you?</pre>
+<p>Notice that word order is flexible, so fronting of question words is not obligatory. For example, these are both acceptable orders:</p>
+<pre>cedom run i anvu? = run i anvu cedom?  </pre>
 <h4>15.3 Connector Equivalents</h4>
 <p>In non-question sentences, question words become connectors (instead of ce, use ca):</p>
 <table>
@@ -736,10 +741,7 @@ I have the cat  [IO that]  I speak to
 <p>Without the marker, the connector alone (ca, caei) leaves the role implicit and relies on context. With the marker, there is no ambiguity regardless of word order in the embedded clause.</p>
 <p>The same principle applies to any connector:</p>
 <pre>i vardei e ilhei  a caei  i ilaluan u run
-I see the person  [SUBJ who]  spoke to you
- 
-i vardei e ilhei  e caei  run i ilaluan
-I see the person  [OBJ who]  you spoke to</pre>
+I see the person  [SUBJ who]  spoke to you </pre>
 <p>The marker before the connector travels with it as a unit, just like any other marker block.</p>
 </div>
 </details>
@@ -943,13 +945,13 @@ en bo i dami a yunitam mo   → in the house there is a special dish</pre>
 <p><em>sol was dom</em> = water-land = island</p>
 <p>Notice you can be as specific as you&#x27;d like by adding more descriptions to your compound. If you think sol lufus bei (air-vehicle) is not enough specificity for what you want to express as airplane, you can for example say sol jeluins lufus bei (winged-air-vehicle).</p>
 <h4>22.3 Hyphenated Combinations</h4>
-<p>The hyphen signals is different from the compound because its main function is not to describe a single concept using multiple words. Instead, it is giving flavor and color to the second word, usually a verb. </p>
+<p>The hyphen signals flavor and color to the second word, usually a verb. For example: </p>
 <pre>i ilofun-vardei   → to hesitant-look, to peek with doubt
 i toului-asfe   → to tired-stop, to give up
 i raidana-ilaluan   → to surrender-say, to concede
 i tosrei-neiden   → to bitter-develop, to feed into your bitterness</pre>
 <p>You can also use hyphens to achieve more fine-grained meanings, blending two experiential flavors together. This is commonly done with emotions or abstract nouns:</p>
-<pre>aela-tohlel   → joy + longing, a type of nostalgic happiness
+<pre>oila-tohlel   → joy + longing, a type of nostalgic happiness
 tohpu-oipoh   → sadness + excitement, a type of bittersweetness, holding loss and anticipation at once
 mirli-elivon   → much time + wisdom, understanding that comes with time</pre>
 <p>Here are some common uses of hyphens. Remember, the main action is always the last:</p>
@@ -973,9 +975,9 @@ mirli-elivon   → much time + wisdom, understanding that comes with time</pre>
 <p>We hyphenate only two words. If you want to combine multiple, prefer to rephrase instead of stacking. For example:</p>
 <pre>toram i yopoh-vio = suddenly it becomes red</pre>
 <h4>22.4 Comparing the options</h4>
-<p>Compounds introduce categories. Categories have a &quot;prototype&quot;, with features people perceive as being the most representative or essential of that category.</p>
+<p>Compounds (sol + -s) introduce categories. Categories have a &quot;prototype&quot;, with features people perceive as being the most representative or essential of that category.</p>
 <p>If you want to say bat, saying something like &quot;black-animal&quot; (as a compound) does not work because being black is not what&#x27;s essential of that category. But you could say &quot;black animal&quot; (as an adjective) to refer to a bat that is in fact a black animal.</p>
-<p>If we want to say &quot;bat&quot;, saying &quot;flying-mammal&quot; works because this is essential of the category. And because of the distinction between compounds and adjectives, we can say things like &quot;a non-flying flying-mammal (bat)&quot; because being a flying-mammal is representative of the bat category, even if this specific bat does not fly.</p>
+<p>If we want to say &quot;bat&quot;, saying &quot;flying-mammal&quot; as a compound works because this is essential of the category. And because of the distinction between compounds and adjectives, we can say things like &quot;a non-flying flying-mammal (bat)&quot; because being a flying-mammal is representative of the bat category, even if this specific bat does not fly.</p>
 <p>So the distinction is:</p>
 <p>. compounds: multiple words to refer to a single concept or category, forming a block by sol + -s.</p>
 <p>. modifier: the word that comes before is a characteristic of the following word</p>
@@ -1005,23 +1007,19 @@ yamirli heivio dia  → old magic-doer (witch/wizard)</pre>
 <p>Hyphenate the modifier to the verb to signal it modifies the action:</p>
 <pre>nim i yasoi-apavu       → I fast-run / I run fast
 (yasoi bound to apavu: the running is fast)</pre>
-<h4>23.2 Fronted Modifier Outside the Verb Block</h4>
-<p>Place the modifier outside the verb block to signal it applies to the action as a whole:</p>
-<pre>yasoi nim i apavu      → fast, I run = I run fast
-(yasoi outside [nim] and [i apavu] blocks)</pre>
-<h4>23.3 Adjective Use</h4>
+<h4>23.2 Adjective Use</h4>
 <p>A modifier before a noun reads as an adjective:</p>
 <pre>a yasoi apavu           → a fast runner
 a yaltan bo             → a big house
 a yamirli heivio dia    → an old witch</pre>
-<h4>23.4 Disambiguation</h4>
+<h4>23.3 Disambiguation</h4>
 <p>For absolute clarity, you can make the reading explicit.</p>
 <p><strong>non</strong> (way/manner) marks an adverbial phrase:</p>
 <pre>i apavu non yasoi   → I run in a fast way</pre>
 <p><strong>ya</strong> (objective quality) marks an adjectival reading explicitly:</p>
 <pre>a ya anro ilhei          → a person who has the quality of decision, decisive</pre>
 <p>These explicit disambiguators are optional in most contexts but resolve ambiguity in complex sentences. </p>
-<h4>23.5 Cause vs Experiencer — -saba and -tava</h4>
+<h4>23.4 Cause vs Experiencer — -saba and -tava</h4>
 <p>Some adjectives may be ambiguous to who is actually experiencing the feeling or sensation. For example, is oihi interesting or interested? How to differentiate?</p>
 <p>In a copula, the bare form usually means the noun:</p>
 <pre>run a eleyel            → you are love
@@ -1119,7 +1117,7 @@ tam ganter litam       → the first day (in a sequence)</pre>
 <p>Oravia treats these as separate words.</p>
 <h4>27.1 negafei — small quantity, no more than</h4>
 <p>negafei is from the NE cluster (quantifiers) + gafei (less).</p>
-<pre>i vanta negafei tam coupa    → I have only one card</pre>
+<pre>i none e negafei tam coupa    → I have only one card</pre>
 <h4>27.2 bi gai — merely, just</h4>
 <p>bi gai combines the bi stance marker with gai (easy, simple). The speaker is minimizing or softening, framing something as "no big deal". This is the "just" in <em>I'm just a student</em> or <em>I just wanted to help</em>.</p>
 <pre>bi gai i dai i elomiu    → I just want to help
@@ -1148,11 +1146,12 @@ neloa i mo su               → everyone also eats</pre>
 <p>o is the fifth sentence marker. It spotlights whatever immediately follows it.</p>
 <h4>General emphasis</h4>
 <pre>o nim!              → it&#x27;s ME!
-nima o i anvu       → we ARE going</pre>
+nimas o i anvu       → we ARE going</pre>
 <p>o is very versatile. Take a look at this exchange:</p>
 <pre>bi yuba    (that&#x27;s good)
 o yuba!    (it sure is!)</pre>
 <h4>Before a verb — imperative</h4>
+<p>o can go immediately before any content word. If the word is being marked (a, e, i, u), it goes before the other marker (e.g., o a, o u).</p>
 <p>When o precedes a verb without a specified subject, it reads as a command:</p>
 <pre>o i anona!     → Give it!
 o yadetu!      → Stop!
@@ -1160,17 +1159,23 @@ o i anvu!      → Go!</pre>
 <h4></h4>
 <h4>Before the object — passive</h4>
 <p>When o precedes an e-marked object, the object becomes the focus. This is the passive-like construction:</p>
+<pre>o e faejal i vanen     → the man was hit </pre>
 <p>Summary:</p>
 <pre>o [word]        → emphasis / spotlight
 o i [verb]      → imperative
 o e [object]    → passive</pre>
-<h4>Own — Possession with Emphasis</h4>
-<p>Oravia has no separate word for &quot;own.&quot; To express &quot;my own&quot;, place o before the possessive phrase:</p>
-<pre>nim bo         → my house
-o nim bo        → my OWN house / specifically my house
-de elihei       → of self (if additional clarity is needed)</pre>
-<p>The o marker already in the language carries the meaning.</p>
-</div>
+<p>Passive may also be built with hue, see §29</p>
+<h4>Free Relative</h4>
+<p>You may use o before a ca connector, for example:</p>
+<pre>o caei i ilian ca i none norfih, a yunmir.          → the one who knows that they have enough is rich.</pre>
+<pre>o cadom run i elemi, nim i elemi su.          → the place where you live, I live as well.</pre>
+<pre>o cali run i dai i aniyel, bi yuba.          → the time you want to come is good.</pre>
+<pre>o caora run i anyear e noi, a nim i dai i ilian.          → the reason you did it, I want to know it.</pre>
+<pre>i anye o canon nim fare i roena.          → I do it in the way my mom teaches me.</pre>
+<pre>i mo o cane i dami.          → I'll eat as much as there is to eat.</pre>
+<p>Depending on the context, this may be translated into English as whoever, whenever, however, etc.</p>
+<pre>o caei i ilian ca i none norfih, a yunmir.          → whoever knows that they have enough is rich.</pre>
+<pre>o cadom run i elemi, nim i elemi su.          → wherever you live, I live as well.</pre>
 </details>
 </div>
 </details>
@@ -1183,17 +1188,16 @@ de elihei       → of self (if additional clarity is needed)</pre>
 <details class="gr-sec">
 <summary>29. Passive Voice</summary>
 <div class="gr-content">
-<h4>29.1 o e — Emphasis on object</h4>
+<h4>29.1 o e — with agent</h4>
 <p>Use the o emphasis marker before the e-marked object. This makes the object become the focus, and recedes the subject:</p>
-<pre>o e leirih i vonlu              → the tree was touched
-i yean o e yemiodu              → the pillow was sewn
-a eofa i vanpai o e falen       → the kid was kicked by the friend</pre>
-<h4>29.2 hue — Resultant state passive</h4>
-<p>hue after a verb describes the resulting state, not the event itself, but how things stand now:</p>
-<pre>a coupa a ancem hue             → the card is turned (current state)</pre>
+<pre>o e falen i vanpai a eofa  → the kid was kicked by the friend</pre>
+<h4>29.2 hue — without agent</h4>
+<p>One may also use hue for passive when there is no specified agent:</p>
+<pre>a falen i vanpai hue             → the kid is kicked</pre>
 <h4>29.3 Choosing between them</h4>
-<pre>o e coupa i anopu               → the card was lost (event narration)
-a coupa a anopu hue             → the card is lost (current state)</pre>
+<pre>o e leirih i vonlu a hay    → the tree was touched by her (with subject)  
+a leirih i vonlu hue             → the tree is touched (event narration)</pre>
+a leirih a vonlu hue             → the tree is touched (current state)</pre>
 </div>
 </details>
 
@@ -1214,9 +1218,9 @@ bi tohpu!      → how sad!</pre>
 <details class="gr-sec">
 <summary>31. How to Add Comments</summary>
 <div class="gr-content">
-<p>Many languages use small particles at the end of sentences to add emotional tone, epistemic stance, or pragmatic coloring. Oravia handles most of this through a small set of elements that can appear in sentence-final or clause-final position (although they can go in other positions too).</p>
+<p>Many languages use small particles at the end of sentences to add emotional tone or stance. Oravia handles most of this through a small set of elements that can appear in clause-final or clause-initial position (although they can go in other positions too).</p>
 <h4>31.1 bi — Emotional / Editorial Comment</h4>
-<p>bi is the primary one. It can appear anywhere but naturally gravitates toward sentence-final or pre-comment positions.</p>
+<p>bi is the primary one. It can appear anywhere but naturally gravitates toward sentence-final or pre-comment positions (see §30).</p>
 <h4>31.2 ilie — Epistemic Hedging</h4>
 <p>ilie (maybe/likelihood) softens it into a possibility or expresses the speaker&#x27;s uncertainty:</p>
 <pre>nim i anvu ilie         → I might go / I&#x27;m going maybe
@@ -1290,7 +1294,7 @@ jasrec malvae jahvel
 <pre>i ilahai ca hay i anvu
 I say that he is going
  
-haya i ilahai ca a nim a ti
+hayas i ilahai ca a nim a ti
 they say that I am bad
  
 farejor i ilahai ca litamis i dami a yuba mo
@@ -1384,7 +1388,7 @@ neloa a ancem hue      → everything has been turned</pre>
 <summary>36. Conditionals</summary>
 <div class="gr-content">
 <h4>36.1 iliciu — Counterfactual / Imagined</h4>
-<p>Use iliciu for hypothetical, contrary-to-fact, or imagined situations. </p>
+<p>Use iliciu for hypothetical or imagined situations. </p>
 <pre>iliciu i ilian canon, i anye → if I knew how, I would do it (imagine: I know how, I do it)
 iliciu i moarum, toumo → if I hadn&#x27;t eaten, I would have been hungry </pre>
 <h4>36.2 daefer — Factual If-Then</h4>
@@ -1426,7 +1430,7 @@ the more it blew, the more the traveler held his cloak around him</pre>
 <pre>neron nim i ilaluan, neron nim i ando
 the more I speak, the more I can
  
-neron haya i mo, neron haya a yunro
+neron hayas i mo, neron hayas a yunro
 the more they eat, the smarter they are</pre>
 <p>For the reverse (&quot;the more X, the less Y&quot;), combine neron with gafei or a negated form:</p>
 <pre>neron nim i bonfene, gafei nim i apavu
@@ -1477,10 +1481,10 @@ caora a nim a toumo, i mo          → because I&#x27;m hungry, I eat</pre>
 i anye u lor run    → I do it for your benefit (a gift / act of service for you)</pre>
 <p>u marks who receives. u lor adds that the action is a meaningful gift or service done out of care or generosity: the difference between handing someone something and genuinely doing something for them.</p>
 <pre>
-elori, o i anye e noi u lor nim     → please, do this for me (as a favor)
+eori, o i anye e noi u lor nim     → please, do this for me (as a favor)
 i boemo u lor run                   → I cook for your benefit (as a kindness)
-hay i ilaluan u lor haya            → she told them for their sake (to help them)
-i copei e coupa u lor nima          → I searched for the card for our sake</pre>
+hay i ilaluan u lor hayas            → she told them for their sake (to help them)
+i copei e coupa u lor nimas          → I searched for the card for our sake</pre>
 <p>This maps some natural languages, for example Japanese ageru/kureru and Portuguese por as distinct from para. u lor has the flavor of a deeper gift or act of service.</p>
 </div>
 </details>
@@ -1578,7 +1582,7 @@ my mother made me lie down</pre>
 <p>An alternative construction is with a hyphen, in which short form is preferred:</p>
 <pre>[causer] i [verb]-saba e [causee]
  
-haya i ilaluan-saba e falen
+hayas i ilaluan-saba e falen
 they made the child speak</pre>
 <h4>43.2 Forceful Causative — pohnen</h4>
 <p>pohnen is used when the causative is forceful or an imposition.</p>
@@ -1588,7 +1592,7 @@ i pohnen ca a hay i mo
 I forced that him eat
 (I imposed on him: eat)
  
-haya i nen ca a falen i ilaluan
+hayas i nen ca a falen i ilaluan
 they forced the child to speak</pre>
 <p>An alternative construction is with a hyphen:</p>
 <pre>[causer] i [verb]-nen e [causee]
@@ -1605,7 +1609,7 @@ I guided that him eat
 farejor i tai ca a nim i bonfene
 my mother guided me to lie down
  
-haya i tai ca a falen i ilaluan
+hayas i tai ca a falen i ilaluan
 they guided the child to speak</pre>
 <p>When we are talking about emotions, states, or general things that do not require that the affected person perform an action, see section 14.</p>
 </div>
@@ -1619,8 +1623,8 @@ they guided the child to speak</pre>
 <tr><td>elihei</td><td>self</td></tr>
 <tr><td>rein</td><td>each other</td></tr>
 </table>
-<pre>haya i vardei e elihei      → they look at themselves
-haya i vardei e rein        → they look at each other
+<pre>hayas i vardei e elihei      → they look at themselves
+hayas i vardei e rein        → they look at each other
 i ilaluan u elihei          → I talk to myself</pre>
 </div>
 </details>
@@ -1642,7 +1646,7 @@ a mogali i domvio e moulu   → coffee replaced milk</pre>
 <details class="gr-sec">
 <summary>46. Become, Turn Into, Start To</summary>
 <div class="gr-content">
-<p>Oravia expresses &quot;become,&quot; &quot;turn into,&quot; and &quot;start to&quot; through two words: ansau (start) and ancem (turn / change state).</p>
+<p>Oravia expresses &quot;become,&quot; &quot;turn into,&quot; and &quot;start to&quot; through two words: ansau (start) and davio (turn / change state).</p>
 <h4>(an)sau — start</h4>
 <p>Ansau means &quot;to start.&quot; Stack it with another verb to express &quot;begin doing / start to&quot;. Just as with other verb stacking, you can use short form:</p>
 <pre>i ansau i toului      → I start to be tired / I get tired
@@ -1674,19 +1678,20 @@ i davio no toului      → I become tired (arrival at state)</pre>
 <details class="gr-sec">
 <summary>47. Wish and Jussive</summary>
 <div class="gr-content">
-<h4>47.1 bi iloi — Wish</h4>
+<h4>47.1 bi iloi — Hope and Wish</h4>
 <p>bi iloi (bi = speaker comment + iloi = hope) expresses a wish or hope about something:</p>
 <pre>bi iloi hay i anefene              → I wish/hope she rests
 bi iloi a litamis a yuba           → I hope tomorrow is good
-bi iloi nim i do i anocari         → I wish I could leave
 bi iloi run i anocari              → I hope you leave</pre>
+<p>Notice that this is for a prospective wish. A counterfactual wish uses the counterfactual construction, with iliciu:</p>
+<pre>bi iloi iliciu nim i do i anocari         → I wish I could leave</pre>
 <h4>47.2 o i — Jussive (Let&#x27;s)</h4>
 <p>The same o i [verb] construction used for commands (§28) also covers the first-person plural invitation (&quot;let’s&quot;). Context, punctuation marks, and intonation makes the reading clear: </p>
 <pre>o i mo?          → shall we eat?
 o i mo!          → eat!</pre>
-<p>If you want your invitation to be absolutely unambiguous, you can use &quot;what do you think&quot;, or &quot;nima&quot;:</p>
-<pre>ce iliro nima i mo?          → what do you think we eat?
-o i mo nima / nima o i mo → let's eat</pre>
+<p>If you want your invitation to be absolutely unambiguous, you can use &quot;what do you think&quot;, or &quot;nimas&quot;:</p>
+<pre>ce iliro nimas i mo?          → what do you think we eat?
+o i mo nimas / nimas o i mo → let's eat</pre>
 </div>
 </details>
 
@@ -1706,8 +1711,7 @@ o i mo nima / nima o i mo → let's eat</pre>
 <tr><td>Vehicle</td><td>to conduct for transportation</td><td>i beivu = to drive a car</td></tr>
 </table>
 <p>Some words have a fixed meaning when used as a verb, since there may have multiple main functions. It's the case of door, which by convention means to enter (i bortal), and key, which means to unlock (i sever).</p>
-<p>Some words, especially locations, qualities, and abstract nouns, don&#x27;t have a fixed meaning when used as a verb. This is deliberate.</p>
-<p>Some words, especially locations, non-psychological qualities, and abstract nouns, don't have a fixed meaning when used as a verb. This is deliberate. Psychological and emotional words are an exception: when used as bare verbs, they follow the experiencer-subject pattern described in §14.</p>
+<p>Some words, especially locations, qualities, and abstract nouns, don't have a fixed meaning when used as a verb. This is deliberate. Psychological and emotional words are an exception: when used as bare verbs, they follow the experiencer-subject pattern described in §14.</p>
 
 <p>i bo could mean to be at home, to go home, to enter. Think of it as a general option that you may choose when the specific reading is clear from context, when it doesn't matter, or when you want the word to carry more than one resonance at once.</p>
 
@@ -1795,23 +1799,13 @@ V give  OBJ big wealth  IND-OBJ you   ✓
 i anona e yunmir yaltan u run    
 V give  OBJ wealth  big  IND-OBJ you  ✗   (modifier after head, reads as &quot;the wealthy big [person?]&quot;)</pre>
 <p><strong>Stacking verbs without i</strong></p>
-<p>Verb stacking requires i before each verb in the chain. Without the second i, the second element reads as a noun rather than a verb, and the sentence changes meaning.</p>
-<pre>I can go
+<p>Verb stacking requires i before each verb in the chain. Without the second i, the second element reads as a noun rather than a verb, and the sentence may change meaning.</p>
+<pre>I need to call
 
-i do i anvu    
-V can  V go   ✓
+i fou i corior
+V need   V call          ✓
 
-i do anvu      
-V can  go     ✗   (i missing before second verb)</pre>
-<p><strong>Using ca in a direct question</strong></p>
-<p>Ce introduces questions. Ca introduces relative clauses and clause connectors. Using a &quot;ca&quot; word in a direct question reads as an unfinished clause rather than a question.</p>
-<pre>Where are you?
-
-cedom run?    
-where  you?   ✓
-
-cadom run?    
-where  you    ✗   (connector form used instead of question form)</pre>
+i fou corior        ✗ </pre>
 <p>These are the main mistakes that may create issues. The focus is to avoid miscommunication and ambiguity, not to worry about being &quot;grammatically correct&quot;. In general, if the listener understands you, you are speaking Oravia correctly.</p>
 <h4></h4>
 <h4>50.2 Common patterns for English speakers</h4>
@@ -1831,14 +1825,62 @@ V fork        ✓
 i mo su jadun      
 V eat  AND/WITH fork     ✗ (companionship, not instrument)</pre>
 <p><strong>The copula</strong></p>
-<p>English always uses a verb for &quot;to be&quot;. Oravia&#x27;s copula uses a on both sides with no verb at all. Both the subject and the predicate take the subject marker.</p>
+<p>English always uses a verb for &quot;to be&quot;. Oravia&#x27;s copula uses a on both sides with no verb at all.</p>
 <pre>I am tall
 
 a nim a yalen    
-SUBJ I  PRED tired    ✓
+SUBJ I  COP tired    ✓
 
 i yalen nim      
-V tall  I              ✗</pre>
+V tall  I              ✗ </pre>
+<p>Notice that many sentences that use is/are in English may not need it at all in Oravia.</p>
+<pre>I am in the bank
+
+nim en gedom    
+I  LOC bank    ✓
+
+This is the reason I like you
+
+o caora a nim i dapas e run
+EMPH reason SUBJ I V like OBJ you    ✓ </pre>
+<p><strong>Dummy &quot;it&quot;</strong></p>
+<p>English often requires &quot;it&quot; as a grammatical subject even when the word does not refer to an actual person, animal, object, or other referent. This is not the case in Oravia.</p>
+
+<pre>It is raining
+
+i lupupi
+V rain                         ✓
+
+hay i lupupi                  ✗   (hay would refer to an actual thing)</pre>
+
+<p>Other impersonal verbs also appear without a subject:</p>
+
+<pre>It seems that she left
+
+i nomie ca hay i anocari
+V seem  CONN she V leave       ✓</pre>
+
+<p>English uses &quot;it&quot; for judgments. In Oravia, use speaker comment instead.</p>
+
+<pre>It's good.
+[meaning: that's good / the situation is good]
+
+bi yuba
+COMMENT good                   ✓</pre>
+
+<p>English inserts &quot;it&quot; before an infinitive or clause. Oravia can make the action or clause itself the subject.</p>
+
+<pre>It's difficult to sleep
+
+a asfene a yudur
+SUBJ sleep  COP difficult     ✓</pre>
+
+<p>English cleft sentences also use &quot;it&quot;. Oravia normally expresses the same contrast directly with o.</p>
+
+<pre>It was Ana who left
+
+o Ana i anocari
+FOCUS Ana V leave              ✓</pre>
 <p><strong>Manner and degree</strong></p>
 <p>English uses &quot;how&quot; for both manner and degree, while Oravia keeps these separate. Cenon asks in what way something is done; cene asks to what extent. &quot;How sad are you?&quot; is a question about degree, not about method.</p>
 <pre>How sad are you?
@@ -1882,6 +1924,15 @@ big-cat = tiger, lion
 yaltan miau
 a big cat = a description of the cat</pre>
 <h4></h4>
+<p><strong>&quot;Have&quot; for relationships</strong></p>
+<p>English uses &quot;have&quot; not only for possession, but also for relationships. In Oravia, relationships can be expressed naturally through existence: the related person exists &quot;to&quot; someone. This is a common cross-linguistic pattern and avoids treating a relationship like possession.</p>
+<pre>I have a sibling
+
+i dami a fasu u nim
+V exist  SUBJ sibling  TO me        ✓
+
+i none e fasu
+V have  OBJ sibling                 potentially understandable, but possession-like</pre>
 <h4>50.2 Common Patterns for Romance Speakers</h4>
 <p>The same principle applies here. If Oravia absorbs Romance grammar through its speakers, it will confuse speakers of other backgrounds, and be farther from its aim of being international and start reflecting a particular language family. The patterns below are the most common transfers from languages like Spanish, Italian, French, and Portuguese.</p>
 <p><strong>De</strong><strong> for possession with pronouns</strong></p>
@@ -1903,6 +1954,22 @@ EMPH OBJ pot V break               ✓
 
 a mamol e elihei i tinen    
 SUBJ pot OBJ self V break          ✗   (pot not as the subject breaking itself)</pre>
+<p><strong>Age as possession</strong></p>
+<p>Romance languages commonly express age with &quot;have&quot;: literally, &quot;I have twelve years.&quot; In Oravia age can be expressed directly as a numerical property with the copula.</p>
+
+<pre>I am twelve years old
+
+a nim a das tor lidastor
+SUBJ I  COP twelve years          ✓
+
+i none e das tor lidastor
+V have  OBJ twelve years          ✗   (Romance-style age construction)</pre>
+
+<p>When the context clearly concerns age, the word for &quot;years&quot; can also be omitted:</p>
+
+<pre>nim a das tor
+I  COP twelve
+= I am twelve.</pre>
 <p><strong>Stacking ca</strong></p>
 <p>Romance languages tend to stack multiple subordinate clauses (e.g., using &quot;que&quot;). Two embedded ca clauses are usually fine; beyond that, restructuring or rephrasing often reads more easily in Oravia.</p>
 </div>

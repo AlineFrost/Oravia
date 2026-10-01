@@ -1,0 +1,182 @@
+{
+  "lesson_id": "cc26_lesson10",
+  "cluster": "restructured-course",
+  "cluster_meaning": "matching practice",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "ANI / ANO / ANE contrast 1",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 2,
+      "title": "ANI / ANO / ANE contrast 2",
+      "buckets": [
+        "r2"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 3,
+      "title": "ANI / ANO / ANE contrast 3",
+      "buckets": [
+        "r3"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 4,
+      "title": "ANI / ANO / ANE contrast 4",
+      "buckets": [
+        "r4"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 5,
+      "title": "NA root connections",
+      "buckets": [
+        "r5"
+      ],
+      "words_per_bucket": 3
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson10_r1_1",
+      "oravia": "anita",
+      "english": "take",
+      "bucket": "r1",
+      "source_bucket": "ani"
+    },
+    {
+      "id": "lesson10_r1_2",
+      "oravia": "anona",
+      "english": "give",
+      "bucket": "r1",
+      "source_bucket": "ano"
+    },
+    {
+      "id": "lesson10_r1_3",
+      "oravia": "anefene",
+      "english": "rest",
+      "bucket": "r1",
+      "source_bucket": "ane"
+    },
+    {
+      "id": "lesson10_r1_4",
+      "oravia": "ando",
+      "english": "can, be able to",
+      "bucket": "r1",
+      "source_bucket": "an-general"
+    },
+    {
+      "id": "lesson10_r2_1",
+      "oravia": "anifou",
+      "english": "need",
+      "bucket": "r2",
+      "source_bucket": "ani"
+    },
+    {
+      "id": "lesson10_r2_2",
+      "oravia": "anopu",
+      "english": "lose",
+      "bucket": "r2",
+      "source_bucket": "ano"
+    },
+    {
+      "id": "lesson10_r2_3",
+      "oravia": "anepou",
+      "english": "stop",
+      "bucket": "r2",
+      "source_bucket": "ane"
+    },
+    {
+      "id": "lesson10_r2_4",
+      "oravia": "ando",
+      "english": "can, be able to",
+      "bucket": "r2",
+      "source_bucket": "an-general"
+    },
+    {
+      "id": "lesson10_r3_1",
+      "oravia": "anidai",
+      "english": "want",
+      "bucket": "r3",
+      "source_bucket": "ani"
+    },
+    {
+      "id": "lesson10_r3_2",
+      "oravia": "anocari",
+      "english": "leave",
+      "bucket": "r3",
+      "source_bucket": "ano"
+    },
+    {
+      "id": "lesson10_r3_3",
+      "oravia": "anefe",
+      "english": "put",
+      "bucket": "r3",
+      "source_bucket": "ane"
+    },
+    {
+      "id": "lesson10_r3_4",
+      "oravia": "ando",
+      "english": "can, be able to",
+      "bucket": "r3",
+      "source_bucket": "an-general"
+    },
+    {
+      "id": "lesson10_r4_1",
+      "oravia": "aniyel",
+      "english": "come",
+      "bucket": "r4",
+      "source_bucket": "ani"
+    },
+    {
+      "id": "lesson10_r4_2",
+      "oravia": "anolu",
+      "english": "out",
+      "bucket": "r4",
+      "source_bucket": "ano"
+    },
+    {
+      "id": "lesson10_r4_3",
+      "oravia": "anelem",
+      "english": "stay, remain",
+      "bucket": "r4",
+      "source_bucket": "ane"
+    },
+    {
+      "id": "lesson10_r4_4",
+      "oravia": "ando",
+      "english": "can, be able to",
+      "bucket": "r4",
+      "source_bucket": "an-general"
+    },
+    {
+      "id": "lesson10_r5_1",
+      "oravia": "anona",
+      "english": "give",
+      "bucket": "r5",
+      "source_bucket": "na"
+    },
+    {
+      "id": "lesson10_r5_2",
+      "oravia": "roena",
+      "english": "teach",
+      "bucket": "r5",
+      "source_bucket": "na"
+    },
+    {
+      "id": "lesson10_r5_3",
+      "oravia": "gehna",
+      "english": "buy",
+      "bucket": "r5",
+      "source_bucket": "na"
+    }
+  ]
+}

@@ -9,7 +9,7 @@ Learn the basics in 10 simple points and start making sentences right away.
     **Flexible word meaning and order**: markers show role  
     **Simple negation**: add -um to any word  
     **Prepositions**: use en (location) and de (source/possession)  
-    **Questions**: start the sentence with *ce* words  (what + person / place / ...)  
+    **Questions**: use *ce* words  (what + person / place / ...)  
     
 
 ---
@@ -47,9 +47,9 @@ If you pronounce E and O closed like in Spanish (IPA e and o), that's fine too!
 
 | Singular | Plural |
 |----------|--------|
-| nim (I) | nima (we) |
-| run (you) | runa (you, pl) |
-| hay (he/she/they) | haya (they, pl) |
+| nim (I) | nimas (we) |
+| run (you) | runas (you, pl) |
+| hay (he/she/they) | hayas (they, pl) |
 
 Pronouns are often dropped when context is clear. Affirmative sentences default to *nim* and questions to *run*, so you don't repeat them as much as in English.
 
@@ -218,7 +218,7 @@ To chain two verbs, repeat **i** before each one:
 ```
 run i dapas i anelem en bo      →   you like to stay home
 nim i do i mo                    →   I can eat
-haya i dai i anvu                →   they want to go
+hayas i dai i anvu                →   they want to go
 hay i fou i mo                   →   she needs to eat
 ```
 
@@ -298,7 +298,7 @@ You can start building sentences right away!
 ## Start Here — Starter Vocabulary
 
 Pronouns and function words we've seen:  
-nim = I · run = you · hay = he/she/they · nima = we · runa = you plural · haya = they   
+nim = I · run = you · hay = he/she/they · nimas = we · runas = you plural · hayas = they   
 de = of/from · en = at/in · su = and · mai = but · dou = or · eta = so  
 
 Other words:  

@@ -1,7 +1,7 @@
-# Lesson 17: LI Cluster
+# Lesson 17: GEH Subcluster
 
 !!! info "How to Use This Lesson"
-    This lesson is divided into six sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Practice**, **Review**, **Flashcards**.
+    This lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Practice**, **Flashcards**.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -111,44 +111,40 @@
 
 === "Vocabulary"
 
-    ## LI CLUSTER
-    
-    Let's take a look at the LI Cluster! 
-    
+    ## GEH SUBCLUSTER
+
+    Remember what **GE** indicated?
+
+    <details>
+    <summary>Click to check</summary>
+
+    **GE** = money and finances.
+
+    </details>
+
+    Now look at these words:
+
     <audio controls style="width:100%">
-      <source src="../audio/17v.m4a" type="audio/mp4">
+      <source src="../audio/16v.m4a" type="audio/mp4">
     </audio>
-    
+
     | Oravia | English |
     |--------|---------|
-    | lili | again |
-    | litam | day |
-    | liyar | morning |
-    | lisoi | soon |
-    | lilon | while |
-    | litegai | minute |
-    
-    What do you think these words have in common?
-    
+    | gehna | buy, a purchase |
+    | gehsar | charge, bill |
+    | gehdove | sell, sale |
+
+    What do you think **GEH** is about?
+
     <div style="text-align: center; margin: 2rem 0;">
-    <button onclick="document.getElementById('subcluster4-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
-        Click to Reveal the Answer
+    <button onclick="document.getElementById('cluster-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+        Click to Reveal Subcluster Meaning
     </button>
     </div>
-    
-    <div id="subcluster4-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;">The **LI** words are about **time**!</p>
-    </div>
-    
-        
-    !!! info "🌍 Sound Connections"
-        Li is from Mandarin 历 / 曆 li (calendar).  
-        
-        Yar means "light", like Arabic ضياء ḍiyāʾ (radiant light).  
-        
-    That's why we have:  
-    **yoyar** = white (color + light), just like liyar = morning (time + light)  
 
+    <div id="cluster-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+    <p style="margin: 0;">**GEH** is about **sales: buying, charging, and selling**.</p>
+    </div>
 
 === "Practice"
 
@@ -157,38 +153,24 @@
     Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
     **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
     Click one word from each column to match them. The game will check automatically when you select both words.
-
     ---
 
     ### Round 1
 
-    <div id="matching-game-1" data-lesson="lesson16" data-round="1"></div>
+    <div id="matching-game-1" data-lesson="cc26_lesson17" data-round="1"></div>
 
     ---
 
     ### Round 2
 
-    <div id="matching-game-2" data-lesson="lesson16" data-round="2"></div>
+    <div id="matching-game-2" data-lesson="cc26_lesson17" data-round="2"></div>
 
     ---
 
     ### Round 3
 
-    <div id="matching-game-3" data-lesson="lesson16" data-round="3"></div>
+    <div id="matching-game-3" data-lesson="cc26_lesson17" data-round="3"></div>
 
-
-
-=== "Review"
-
-    ## Review Missed Words
-    
-    This section shows words you got wrong during practice. If you didn't miss any, this will be empty - great job! 🎉
-    
-    ---
-    
-    <div id="review-game-container"></div>
-
-    ---
 === "Flashcards"
 
     <div id="flashcard-container" data-lesson="17"></div>
@@ -196,12 +178,11 @@
 <script>
     function initWarmup() {
         const warmupWords = [
-    {id: "wu_anye_1", oravia: "anye", english: "make, do"},
-    {id: "wu_anvu_2", oravia: "anvu", english: "go, move"},
-    {id: "wu_anidai_3", oravia: "anidai", english: "want"},
-    {id: "wu_anifou_4", oravia: "anifou", english: "need"},
-    {id: "wu_ando_5", oravia: "ando", english: "can, be able to"},
-    {id: "wu_roesau_6", oravia: "roesau", english: "learn, study"},
+    {id: "wu_anidai_1", oravia: "anidai", english: "want"},
+    {id: "wu_anifou_2", oravia: "anifou", english: "need"},
+    {id: "wu_yasoi_3", oravia: "yasoi", english: "fast"},
+    {id: "wu_yalgai_4", oravia: "yalgai", english: "small"},
+    {id: "wu_yamirli_5", oravia: "yamirli", english: "old"}
     ];
 
     function renderSelfAssessment() {
@@ -256,69 +237,12 @@ initWarmup();
 <p style="font-size: 1.2rem; color: #4a9cd6; margin-bottom: 1rem;">
         🎉 <strong>Lesson 17 Complete!</strong>
     </p>
-<p style="color: #5a8bb8; margin-bottom: 0.5rem;">
-        If you missed any words, check the <strong>Review</strong> tab to practice them again.
-    </p>
 <p style="color: #5a8bb8; margin-bottom: 1.5rem;">
         Come back tomorrow for Lesson 18.
     </p>
 </div>
 
-<script>
-    async function initReview() {
-    const wrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-    const container = document.getElementById('review-game-container');
-    if (!container) return;
-    if (wrongIds.length === 0) {
-        container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p><p style="color: #5a8bb8; margin-top: 0.5rem;">You did not miss any words. Excellent work!</p></div>';
-        return;
-}
-    try {
-        const lessonIds = [...new Set(
-            [...document.querySelectorAll('[data-lesson]')]
-                .map(el => el.dataset.lesson)
-        )];
-        const baseUrl = window.location.origin;
-        const responses = await Promise.all(
-            lessonIds.map(id => fetch(baseUrl + '/data/' + id + '_words.json').then(r => r.json()))
-        );
-        const allWords = responses.flatMap(data => data.words);
-        const seen = new Set();
-        const uniqueWords = allWords.filter(w => {
-            if (seen.has(w.id)) return false;
-            seen.add(w.id);
-            return true;
-        });
-        const wrongWords = uniqueWords.filter(word => wrongIds.includes(word.id));
-        if (wrongWords.length === 0) {
-            container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p></div>';
-            return;
-        }
-        container.innerHTML = '<p style="text-align: center; margin-bottom: 2rem; color: #5a8bb8;">Practice these ' + wrongWords.length + ' word(s) you found challenging:</p><div id="review-game-wrapper"></div><div style="text-align: center; margin-top: 2rem;"><button id="clear-review" style="padding: 0.5rem 1.5rem; background: #f57c00; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.95rem;">Clear Review List</button></div>';
-        new MatchingGame('review-game-wrapper', wrongWords, 'review', null, []);
-        document.getElementById('clear-review').addEventListener('click', function() {
-            if (confirm('Clear all review words? This will reset your wrong words list for this lesson.')) {
-                const allWrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-                const lessonWordIds = uniqueWords.map(w => w.id);
-                const remainingWrongIds = allWrongIds.filter(id => !lessonWordIds.includes(id));
-                localStorage.setItem('wrong_ids', JSON.stringify(remainingWrongIds));
-                location.reload();
-            }
-        });
-} catch (error) {
-        console.error('Error loading words:', error);
-        container.innerHTML = '<p style="color: #f44336;">Error loading review words. Please refresh the page.</p>';
-}
-}
-document.addEventListener('DOMContentLoaded', initReview);
-    document.querySelectorAll('.tabbed-labels label').forEach(label => {
-    if (label.textContent.trim() === 'Review') {
-        label.addEventListener('click', function() {
-            setTimeout(initReview, 50);
-        });
-}
-});
-</script>
+
 
 <script>
 (function() {

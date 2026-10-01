@@ -1,0 +1,168 @@
+{
+  "lesson_id": "cc26_lesson48",
+  "cluster": "complete-course",
+  "cluster_meaning": "matching practice",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "AS recognition",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 2,
+      "title": "ASE / ASU contrast",
+      "buckets": [
+        "r2"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 3,
+      "title": "Cluster recognition — mixed repeat",
+      "buckets": [
+        "r3_repeat"
+      ],
+      "words_per_bucket": 6,
+      "allow_repeats": true
+    },
+    {
+      "round": 4,
+      "title": "FENE / LANO roots",
+      "buckets": [
+        "r3"
+      ],
+      "words_per_bucket": 4
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson48_r1_1",
+      "oravia": "asano",
+      "english": "push",
+      "bucket": "r1",
+      "source_bucket": "as"
+    },
+    {
+      "id": "lesson48_r1_2",
+      "oravia": "asfene",
+      "english": "sleep",
+      "bucket": "r1",
+      "source_bucket": "as"
+    },
+    {
+      "id": "lesson48_r1_3",
+      "oravia": "asela",
+      "english": "smile",
+      "bucket": "r1",
+      "source_bucket": "ase"
+    },
+    {
+      "id": "lesson48_r1_4",
+      "oravia": "asugar",
+      "english": "yell",
+      "bucket": "r1",
+      "source_bucket": "asu"
+    },
+    {
+      "id": "lesson48_r2_1",
+      "oravia": "aselano",
+      "english": "hug",
+      "bucket": "r2",
+      "source_bucket": "ase"
+    },
+    {
+      "id": "lesson48_r2_2",
+      "oravia": "aseyel",
+      "english": "kiss",
+      "bucket": "r2",
+      "source_bucket": "ase"
+    },
+    {
+      "id": "lesson48_r2_3",
+      "oravia": "asugar",
+      "english": "yell",
+      "bucket": "r2",
+      "source_bucket": "asu"
+    },
+    {
+      "id": "lesson48_r2_4",
+      "oravia": "asusu",
+      "english": "whisper",
+      "bucket": "r2",
+      "source_bucket": "asu"
+    },
+    {
+      "id": "lesson48_r3_1",
+      "oravia": "asfene",
+      "english": "sleep",
+      "bucket": "r3",
+      "source_bucket": "fene"
+    },
+    {
+      "id": "lesson48_r3_2",
+      "oravia": "bonfene",
+      "english": "bed",
+      "bucket": "r3",
+      "source_bucket": "fene"
+    },
+    {
+      "id": "lesson48_r3_3",
+      "oravia": "aselano",
+      "english": "hug",
+      "bucket": "r3",
+      "source_bucket": "lano"
+    },
+    {
+      "id": "lesson48_r3_4",
+      "oravia": "jelano",
+      "english": "circle",
+      "bucket": "r3",
+      "source_bucket": "lano"
+    },
+    {
+      "id": "lesson48_r3_repeat_1",
+      "oravia": "asano",
+      "english": "push",
+      "bucket": "r3_repeat",
+      "source_bucket": "as"
+    },
+    {
+      "id": "lesson48_r3_repeat_2",
+      "oravia": "asfene",
+      "english": "sleep",
+      "bucket": "r3_repeat",
+      "source_bucket": "as"
+    },
+    {
+      "id": "lesson48_r3_repeat_3",
+      "oravia": "asela",
+      "english": "smile",
+      "bucket": "r3_repeat",
+      "source_bucket": "ase"
+    },
+    {
+      "id": "lesson48_r3_repeat_4",
+      "oravia": "aselano",
+      "english": "hug",
+      "bucket": "r3_repeat",
+      "source_bucket": "ase"
+    },
+    {
+      "id": "lesson48_r3_repeat_5",
+      "oravia": "aseyel",
+      "english": "kiss",
+      "bucket": "r3_repeat",
+      "source_bucket": "ase"
+    },
+    {
+      "id": "lesson48_r3_repeat_6",
+      "oravia": "asugar",
+      "english": "yell",
+      "bucket": "r3_repeat",
+      "source_bucket": "asu"
+    }
+  ]
+}

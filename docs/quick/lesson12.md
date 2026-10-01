@@ -182,7 +182,9 @@ If you only know what's in this Primer, that's already enough to start. Join the
 
 ## Keep going
 
-You can use Oravia now. Read something, write a few lines about your day, or make a ridiculous compound. 
+You can use Oravia now. Read something, write a few lines about your day, or make a ridiculous compound.  
+
+Now that you know the basics, you may be able to watch a video such as [Sepopo](https://www.youtube.com/watch?v=JvjTzOMI8tQ&list=PLIRkEPYkAY3nn-XErfcN2DcdVApE41u4e&index=2) and identify some word meanings based on the sentence construction and English subtitles.
 
 If you continue into the Complete Course, a lot will already be familiar, but more in-depth. Because of that, you may go faster if something feels easy, but I recommend that you start from the beginning. As you explore further, there will be more to discover such as changing clusters of words or adding speaker stances.
 

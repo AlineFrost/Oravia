@@ -1,0 +1,99 @@
+{
+  "lesson_id": "cc26_lesson49",
+  "cluster": "complete-course",
+  "cluster_meaning": "matching practice",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "JA recognition",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 2,
+      "title": "JA recognition — repeat 1",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 4,
+      "allow_repeats": true
+    },
+    {
+      "round": 3,
+      "title": "JA recognition — repeat 2",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 4,
+      "allow_repeats": true
+    },
+    {
+      "round": 4,
+      "title": "RIH / RU roots",
+      "buckets": [
+        "r2"
+      ],
+      "words_per_bucket": 4
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson49_r1_1",
+      "oravia": "jarih",
+      "english": "ladder",
+      "bucket": "r1",
+      "source_bucket": "ja"
+    },
+    {
+      "id": "lesson49_r1_2",
+      "oravia": "jadun",
+      "english": "fork",
+      "bucket": "r1",
+      "source_bucket": "ja"
+    },
+    {
+      "id": "lesson49_r1_3",
+      "oravia": "jalen",
+      "english": "pencil",
+      "bucket": "r1",
+      "source_bucket": "ja"
+    },
+    {
+      "id": "lesson49_r1_4",
+      "oravia": "jahci",
+      "english": "knife",
+      "bucket": "r1",
+      "source_bucket": "ja"
+    },
+    {
+      "id": "lesson49_r2_1",
+      "oravia": "jarih",
+      "english": "ladder",
+      "bucket": "r2",
+      "source_bucket": "rih"
+    },
+    {
+      "id": "lesson49_r2_2",
+      "oravia": "leirih",
+      "english": "tree",
+      "bucket": "r2",
+      "source_bucket": "rih"
+    },
+    {
+      "id": "lesson49_r2_3",
+      "oravia": "jasru",
+      "english": "bend",
+      "bucket": "r2",
+      "source_bucket": "ru"
+    },
+    {
+      "id": "lesson49_r2_4",
+      "oravia": "vanru",
+      "english": "knee",
+      "bucket": "r2",
+      "source_bucket": "ru"
+    }
+  ]
+}

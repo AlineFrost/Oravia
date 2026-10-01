@@ -54,17 +54,21 @@ So all three occur:
 
 **a nim i mo → nim i mo → i mo**
 
-In conversation, **i mo** can simply mean “I'm eating.” Use **nim** when you want to make the subject explicit.
+In conversation, **i mo** can simply mean “I'm eating.” **Nim** is used to make the subject explicit.
 
 ## Vocabulary
 
 ### Clusters: the semantic domain
 
-Now we can put a name to the opening part of many words.
+Last lesson you saw **boemo** “kitchen”:
 
-A **cluster** is a semantic domain: it tells you **what kind of thing or idea** the word belongs to.
+**BOE + MO** → house space + food/eating → **kitchen**
 
-If a word starts with **AN**, expect an action. **YAL** points to size and dimensions. **VAR** points to the face/head area. **BEI** points to vehicles.
+The opening part is especially important. A **cluster** is a semantic domain, it tells you **what kind of thing or idea** the word is. Other building blocks add associations inside that domain.
+
+For example, **BOE** tells you that **boemo** is a house-space concept. **MO** connects it with food/eating.
+
+If a word starts with **AN**, expect an action. **YAL** points to size and dimensions. You already know **VAR**, the face/head area, from Lesson 1. And so on.
 
 ### Building blocks
 
@@ -72,10 +76,10 @@ If a word starts with **AN**, expect an action. **YAL** points to size and dimen
 **VU** — movement. *Mnemonic: **V**elocity, **u**nderway.*  
 **YAL** — size and dimension. *Mnemonic: a **yard** measures size.*  
 **GAI** — small. *Mnemonic: a tiny **grain**.*  
-**VAR** — face/head area. *Mnemonic: **visage**.*  
-**BEI** — vehicles. *Mnemonic: **be in** a vehicle.*  
 
 ### Try varmo
+
+You already know both pieces from Lesson 1:
 
 **VAR** = face/head area.  
 **MO** = food/eating.
@@ -89,6 +93,13 @@ What body part comes to mind for **varmo**?
 
 </details>
 
+Now compare:
+
+**boemo** = house room + food/eating → **kitchen**  
+**varmo** = face/head area + food/eating → **mouth**
+
+The shared **MO** creates an association and gives you a clue. And the opening cluster tells you what semantic domain the word belongs to.
+
 ### Words
 
 | Oravia | Meaning | Breakdown |
@@ -96,14 +107,12 @@ What body part comes to mind for **varmo**?
 | **anvu** | move, go | **AN** action + **VU** movement |
 | **yalgai** | small | **YAL** size + **GAI** small |
 | **varmo** | mouth | **VAR** face/head area + **MO** eating |
-| **beivu** | car; to drive | **BEI** vehicles + **VU** movement |
 
 ## Put it together
 
 !!! tip "From Lesson 1"
     **mo** = eat / food  
-    **boemo** = kitchen / cook  
-    **eofa** = friend
+    **boemo** = kitchen / cook
 
 `a nim i anvu`
 
@@ -114,12 +123,12 @@ What body part comes to mind for **varmo**?
 
 </details>
 
-`nim beivu`
+`a hay i mo`
 
 <details class="example-translation">
 <summary>Click to Reveal Translation</summary>
 
-*my car*
+*They eat.*
 
 </details>
 

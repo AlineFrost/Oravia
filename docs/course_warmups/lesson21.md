@@ -1,7 +1,7 @@
-# Lesson 21: VA Cluster
+# Lesson 21: AR / IS / VA Cluster
 
 !!! info "How to Use This Lesson"
-    This lesson is divided into six sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Practice**, **Review**, **Flashcards**.
+    This lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Practice**, **Flashcards**.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -33,7 +33,7 @@
     ```
     
     ```
-    Litamis, nima i anvuis en bedam. 
+    Litamis, nimas i anvuis en bedam. 
     ```
     
     ```
@@ -41,7 +41,7 @@
     ```
     
     ```
-    A runa fasuno a yalenis.
+    A runas fasuno a yalenis.
     ```
     
     ```
@@ -49,7 +49,7 @@
     ```
     
     ```
-    Hay faibor i anifis, eta nim i fou i boemo.
+    Hay faibor i aniyels, eta nim i fou i boemo.
     ```
     
     ```
@@ -57,7 +57,7 @@
     ```
     
     ```
-    Nim i moar cali run i anifi.
+    Nim i moar cali run i aniyel.
     ```
     
     
@@ -71,7 +71,7 @@
     (an)do = be able to, capacity  
     anelem = keep, stay, remain  
     anocari = leave  
-    anifi = come, arrive  
+    aniyel = come, arrive  
     anvu = go  
     (ani)fou = need  
     (ani)dai = want  
@@ -89,7 +89,7 @@
     mo bevio = restaurant  
     mocen = chocolate  
     nim = I  
-    nima = we  
+    nimas = we  
     nim = my  
     run = you  
     yalen = long  
@@ -119,7 +119,7 @@
     
     **Attached to any word**: *AR/IS* are not only for verbs, they can be used in all kinds of words. For example *beviois* and *yalenis*. 
     
-    **Completed actions**: *AR* doesn't mean *past*, it means the action was finished relative to the moment you are describing. So in *nim i moar cali run i anifi*, *moar* means *had finished eating* when the other action happens. 
+    **Completed actions**: *AR* doesn't mean *past*, it means the action was finished relative to the moment you are describing. So in *nim i moar cali run i aniyel*, *moar* means *had finished eating* when the other action happens. 
     
     Now try to create a sentence using AR/IS, or 3 if you're up for a challenge!
     
@@ -148,7 +148,7 @@
     | Oravia | English |
     |--------|---------|
     | vatale | neck, throat, spine |
-    | varpi | nose |
+    | varasi | nose |
     | vavari | back |
     | vanta | hand |
     | varsus| ear |
@@ -173,8 +173,8 @@
     
     | Oravia | English |
     |--------|---------|
-    | vamio | neck, throat, to cough |
-    | varpi | nose, smell, to smell |
+    | vatale | neck, throat, to cough |
+    | varasi | nose, smell, to smell |
     | vanta | hand, to hold |
     | varsus| ear, to hear, to listen |
     | vandi | finger, toe, to touch |
@@ -185,13 +185,28 @@
     
     | Oravia | English |
     |--------|---------|
-    | varpi | nose, meddlesome, prying |
+    | varasi | nose, meddlesome, prying |
     | vanta | hand, manual |
     | varsus| ear, attentive, receptive |
     | vandi | finger, toe, skillful |
     
     These are based on body-part associations that are common across many languages worldwide. 
     
+
+    ### Recognize the Roots
+
+    Take another look at **varmo**. Do you recognize any roots you've learned before?
+
+    <div style="text-align: center; margin: 1.25rem 0;">
+    <button onclick="document.getElementById('root-recall-l21-va-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.65rem 1.5rem; border-radius: 4px; cursor: pointer;">
+        Click to Reveal the Roots
+    </button>
+    </div>
+
+    <div id="root-recall-l21-va-answer" style="display: none; background: #c8e6c9; padding: 1.25rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 1.25rem 0;">
+    <p style="margin: 0 0 0.45rem 0;"><strong>varmo</strong> → <strong>MO</strong> = food / eating</p>
+    </div>
+
     !!! info "🌍 Sound Connections"
         Ta comes from Latin tangere (to touch with hand).  
         
@@ -201,11 +216,11 @@
     
     We also have:
     **anivari** = to return, come back (movement toward + back), like vavari = back (body part + back)
-    **eomio** = support (social + support), like vamio = neck, spine (body part + support)
+    **eomiu** = support (social + support), like vatale = neck, spine (body part + support)
     
     Now, try to answer:  
     
-    1) Run i pas i varpi e mo, dou i varsus e bospupi?  
+    1) Run i pas i varasi e mo, dou i varsus e bospupi?  
     
     2) A run va a yasoi dou a yavuson? A falte dou a yamirli? A yalgai dou a yaltan? A yalen dou a ho yalen?  
         
@@ -238,10 +253,6 @@
     <p style="margin: 0;">Possible answer: A nim va a yasoi, a yamirli, a yalgai su a yalen. </p>
     </div>
     
-    You are ready for the exercise now!
-    
- 
-
 === "Practice"
 
     ## Matching Games
@@ -249,58 +260,31 @@
     Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
     **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
     Click one word from each column to match them. The game will check automatically when you select both words.
-
     ---
 
     ### Round 1
 
-    <div id="matching-game-1" data-lesson="lesson20" data-round="1"></div>
+    <div id="matching-game-1" data-lesson="cc26_lesson21" data-round="1"></div>
 
     ---
 
     ### Round 2
 
-    <div id="matching-game-2" data-lesson="lesson20" data-round="2"></div>
+    <div id="matching-game-2" data-lesson="cc26_lesson21" data-round="2"></div>
 
     ---
 
     ### Round 3
 
-    <div id="matching-game-3" data-lesson="lesson20" data-round="3"></div>
+    <div id="matching-game-3" data-lesson="cc26_lesson21" data-round="3"></div>
 
     ---
 
     ### Round 4
 
-    <div id="matching-game-4" data-lesson="lesson20" data-round="4"></div>
-
-    ---
-
-    ### Round 5
-
-    <div id="matching-game-5" data-lesson="lesson20" data-round="5"></div>
-
-    ---
-
-    ### Round 6
-
-    <div id="matching-game-6" data-lesson="lesson20" data-round="6"></div>
-
-    ---
-
-    ### Round 7
-
-    <div id="matching-game-7" data-lesson="lesson20" data-round="7"></div>
+    <div id="matching-game-4" data-lesson="cc26_lesson21" data-round="4"></div>
 
 
-
-=== "Review"
-
-    ## Review Missed Words
-    
-    This section shows words you got wrong during practice. If you didn't miss any, this will be empty - great job! 🎉
-    
-    <div id="review-game-container"></div>
 === "Flashcards"
 
     <div id="flashcard-container" data-lesson="21"></div>
@@ -308,12 +292,10 @@
 <script>
     function initWarmup() {
             const warmupWords = [
-    {id: "wu_ilhei_1", oravia: "ilhei", english: "person"},
-    {id: "wu_ilace_2", oravia: "ilace", english: "ask"},
-    {id: "wu_ilaluan_3", oravia: "ilaluan", english: "say, talk"},
-    {id: "wu_iliro_4", oravia: "iliro", english: "think"},
-    {id: "wu_ilian_5", oravia: "ilian", english: "know"},
-    {id: "wu_sunya_6", oravia: "sunya", english: "zero"},
+    {id: "wu_yalen_1", oravia: "yalen", english: "long"},
+    {id: "wu_yaltan_2", oravia: "yaltan", english: "big"},
+    {id: "wu_iliro_3", oravia: "iliro", english: "think"},
+    {id: "wu_ilhei_4", oravia: "ilhei", english: "person"}
     ];
 
     function renderSelfAssessment() {
@@ -365,68 +347,11 @@ initWarmup();
 </script>
 
 
-<script>
-    async function initReview() {
-    const wrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-    const container = document.getElementById('review-game-container');
-    if (!container) return;
-    if (wrongIds.length === 0) {
-        container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p><p style="color: #5a8bb8; margin-top: 0.5rem;">You did not miss any words. Excellent work!</p></div>';
-        return;
-}
-    try {
-        const lessonIds = [...new Set(
-            [...document.querySelectorAll('[data-lesson]')]
-                .map(el => el.dataset.lesson)
-        )];
-        const baseUrl = window.location.origin;
-        const responses = await Promise.all(
-            lessonIds.map(id => fetch(baseUrl + '/data/' + id + '_words.json').then(r => r.json()))
-        );
-        const allWords = responses.flatMap(data => data.words);
-        const seen = new Set();
-        const uniqueWords = allWords.filter(w => {
-            if (seen.has(w.id)) return false;
-            seen.add(w.id);
-            return true;
-        });
-        const wrongWords = uniqueWords.filter(word => wrongIds.includes(word.id));
-        if (wrongWords.length === 0) {
-            container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p></div>';
-            return;
-        }
-        container.innerHTML = '<p style="text-align: center; margin-bottom: 2rem; color: #5a8bb8;">Practice these ' + wrongWords.length + ' word(s) you found challenging:</p><div id="review-game-wrapper"></div><div style="text-align: center; margin-top: 2rem;"><button id="clear-review" style="padding: 0.5rem 1.5rem; background: #f57c00; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.95rem;">Clear Review List</button></div>';
-        new MatchingGame('review-game-wrapper', wrongWords, 'review', null, []);
-        document.getElementById('clear-review').addEventListener('click', function() {
-            if (confirm('Clear all review words? This will reset your wrong words list for this lesson.')) {
-                const allWrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-                const lessonWordIds = uniqueWords.map(w => w.id);
-                const remainingWrongIds = allWrongIds.filter(id => !lessonWordIds.includes(id));
-                localStorage.setItem('wrong_ids', JSON.stringify(remainingWrongIds));
-                location.reload();
-            }
-        });
-} catch (error) {
-        console.error('Error loading words:', error);
-        container.innerHTML = '<p style="color: #f44336;">Error loading review words. Please refresh the page.</p>';
-}
-}
-document.addEventListener('DOMContentLoaded', initReview);
-    document.querySelectorAll('.tabbed-labels label').forEach(label => {
-    if (label.textContent.trim() === 'Review') {
-        label.addEventListener('click', function() {
-            setTimeout(initReview, 50);
-        });
-}
-});
-</script>
+
 
 <div style="text-align: center; padding: 2rem 0; background: #e0f2f1; border-radius: 8px; margin-top: 3rem;">
         <p style="font-size: 1.2rem; color: #4a9cd6; margin-bottom: 1rem;">
             🎉 <strong>Lesson 21 Complete!</strong>
-        </p>
-        <p style="color: #5a8bb8; margin-bottom: 0.5rem;">
-            If you missed any words, check the <strong>Review</strong> tab to practice them again.
         </p>
         <p style="color: #5a8bb8; margin-bottom: 1.5rem;">
             Come back tomorrow for Lesson 22.

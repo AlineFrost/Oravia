@@ -1,9 +1,9 @@
-# Lesson 11: IL Cluster
+# Lesson 11: YA Subclusters
 
 !!! info "How to Use This Lesson"
-    This lesson is divided into six sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Practice**, **Review**, **Flashcards**.
+    This lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Practice**, **Flashcards**.
     
-    **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later! 
+    **Do not try to memorize!** Just read through the content attentively. The warm-ups and flashcards will bring the vocabulary back later!
 
 ---
 
@@ -32,7 +32,7 @@
     </audio>
     
     ```
-    run i anona e molcui u falen.
+    run i anona e molcui u falfal.
     ```
     
     ```
@@ -51,7 +51,7 @@
     
     anona = give  
     molcui = bowl  
-    falen = child  
+    falfal = child  
     mouje = drink  
     fare = parent  
     molvou = bottle  
@@ -70,9 +70,9 @@
     
     And here's a short dialogue. There's a new word in it: *eloan*, which means *gratitude, thank you*. See if you can understand it:
     
-    N: Nim i anifi! Cedom run?  
+    N: Nim i aniyel! Cedom run?  
     B: i anefene en bonfene.   
-    N: Nim i anifou e molvou yasoi. Nima fano i anidai e moulu. Cedom run i anefe e molvou? En bonjae?  
+    N: Nim i anifou e molvou yasoi. Nimas fano i anidai e moulu. Cedom run i anefe e molvou? En bonjae?  
     B: Um, en bontame! Nim i anona u run.  
     N: Eloan. i daium i boemo...  
     B: Nim i boemo u run.  
@@ -114,92 +114,104 @@
 
 === "Vocabulary"
 
-    ## The IL Clusters
-    
-    Today we will learn a new cluster, **IL**! Look at these words.
-    
+    ## The YA Subclusters
+
+    Remember what **YA** indicated?
+
+    <details markdown="1">
+    <summary>Click to check</summary>
+
+    **YA** = objective or measurable characteristics.
+
+    </details>
+
+    Now look at these words and see if you can spot the narrower patterns.
+
+    *Remember, do not try to memorize them.* Just read it through attentively.
+
     <audio controls style="width:100%">
-      <source src="../audio/11v.m4a" type="audio/mp4">
+      <source src="../audio/10v1.mp3" type="audio/wav">
     </audio>
     
     | Oravia | English |
     |--------|---------|
-    | ilace | ask |
-    | ilonya | forget |
-    | ilian | know |
-    | ilaluan | say |
-    | iliro | think |
-    | iloto | worry |
+    | yahci | sharp |
+    | yahlul | smooth |
+    | yahgor | solid  |
+    | yalnou | deep |
+    | yalen | long |
+    | yaltan | big |
     
-    The **IL** cluster has words related to inquiry and cognition, that is, the desire and need to **know**. It includes asking and sharing information, mental processes, and feelings that come from not knowing. 
+    What do you notice about these words? Can you spot any patterns with **YAL** and **YAH**?
     
-    These words are very powerful to talk about a variety of things, because inquiry is essential to who we are as humans.  
+    <div style="text-align: center; margin: 2rem 0;">
+        <button onclick="document.getElementById('cluster-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+            Click to Reveal Subcluster Meanings
+        </button>
+    </div>
     
-    Recall words are flexible. In which ways do you think these words can be used as adjectives, verbs, or nouns? For example:
+    <div id="cluster-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+        <p style="margin: 0;"> **YAL** is about **dimension/size**, and **YAH** is about **surface texture**</p>
+    </div>
     
-    | Oravia | English |
-    |--------|---------|
-    | ilace | to ask, question, curious, curiosity |
-    | ilonya | to forget, forgetful |
-    | ilian | to know, understand |
-    | ilaluan | to say, saying |
-    | iliro | to think, thought, opinion |
-    | iloto | worry, concern, to worry |
 
-    
+    ### Recognize the Roots
+
+    Take another look at **yalnou**. Do you recognize any roots you've learned before?
+
+    <div style="text-align: center; margin: 1.25rem 0;">
+    <button onclick="document.getElementById('root-recall-l11-ya-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.65rem 1.5rem; border-radius: 4px; cursor: pointer;">
+        Click to Reveal the Roots
+    </button>
+    </div>
+
+    <div id="root-recall-l11-ya-answer" style="display: none; background: #c8e6c9; padding: 1.25rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 1.25rem 0;">
+    <p style="margin: 0 0 0.45rem 0;"><strong>yalnou</strong> → <strong>NOU</strong> = low / falling</p>
+    </div>
+
     !!! info "🌍 Sound Connections"
-        Ce means "what", just like in many Romance languages que/ce.  
+        Ci means sharp, like Mandarin 刺 cì (to stab, prick, sharp); Arabic سكين sikkīn (knife, sharp); Sanskrit छिद् chid (to cut, sharp action); Swahili kisu (knife, sharp).
         
-        Nya is empty, from Sanskrit शून्य śūnya (nothingness, emptiness).
+        Tan comes from Greek Titan (giant).  
         
-        To is suffering, like Indonesian tobat (remorse, suffering from wrongdoing); Latin torquere (to twist, torture).  
-        
+
     That's why we have:  
-    **sunya** = nothing, zero; just like ilonya = forget (uncertain cognition + nothing).  
-    **sioce** = puzzle (games cluster + what?), just like ilace = question, to ask (communication of cognition + what?)  
-    **veito** = wound (health issues + suffering), just like iloto = worry (cognition + suffering)  
+    **wiltan** = city (human-made geography + large), just like yaltan = big/large (objective quality dimension + large).  
+
+        
+    Now try the exercise.
 
 === "Practice"
 
     ## Matching Games
-    
+
     Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
     **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
     Click one word from each column to match them. The game will check automatically when you select both words.
-    
     ---
-    
+
     ### Round 1
-    
-    <div id="matching-game-1" data-lesson="lesson11" data-round="1"></div>
+
+    <div id="matching-game-1" data-lesson="cc26_lesson11" data-round="1"></div>
 
     ---
 
     ### Round 2
-    
-    <div id="matching-game-2" data-lesson="lesson11" data-round="2"></div>
+
+    <div id="matching-game-2" data-lesson="cc26_lesson11" data-round="2"></div>
 
     ---
 
     ### Round 3
-    
-    <div id="matching-game-3" data-lesson="lesson11" data-round="3"></div>
 
-
-
-
-=== "Review"
-
-    ## Review Missed Words
-    
-    This section shows only the words you got wrong during practice. If you didn't miss any words, this will be empty - great job! 🎉
-    
-    ---
-    
-    <div id="review-game-container"></div>
-      
+    <div id="matching-game-3" data-lesson="cc26_lesson11" data-round="3"></div>
 
     ---
+
+    ### Round 4
+
+    <div id="matching-game-4" data-lesson="cc26_lesson11" data-round="4"></div>
+
 === "Flashcards"
 
     <div id="flashcard-container" data-lesson="11"></div>
@@ -207,11 +219,13 @@
 <script>
     function initWarmup() {
             const warmupWords = [
-    {id: "wu_moaria_1", oravia: "moaria", english: "apple"},
-    {id: "wu_molcui_2", oravia: "molcui", english: "bowl"},
-    {id: "wu_mouje_3", oravia: "mouje", english: "drink"},
-    {id: "wu_mocen_4", oravia: "mocen", english: "chocolate"},
-    {id: "wu_yalen_5", oravia: "yalen", english: "long, tall"},
+    {id: "wu_nim_1", oravia: "nim", english: "I"},
+    {id: "wu_run_2", oravia: "run", english: "you"},
+    {id: "wu_hay_3", oravia: "hay", english: "he/she/it"},
+    {id: "wu_mouje_4", oravia: "mouje", english: "drink"},
+    {id: "wu_mocen_5", oravia: "mocen", english: "chocolate"},
+    {id: "wu_faibor_6", oravia: "faibor", english: "spouse"},
+    {id: "wu_fare_7", oravia: "fare", english: "parent"}
     ];
     function renderSelfAssessment() {
         const container = document.getElementById('self-assessment-container');
@@ -266,68 +280,14 @@ initWarmup();
         🎉 <strong>Lesson 11 Complete!</strong>
     </p>
 <p style="color: #5a8bb8; margin-bottom: 0.5rem;">
-        If you missed any words, check the <strong>Review</strong> tab to practice them again.
+        Use the <strong>Flashcards</strong> tab for another quick review.
     </p>
 <p style="color: #5a8bb8; margin-bottom: 1.5rem;">
         Come back tomorrow for Lesson 12.
     </p>
 </div>
 
-<script>
-    async function initReview() {
-    const wrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-    const container = document.getElementById('review-game-container');
-    if (!container) return;
-    if (wrongIds.length === 0) {
-        container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p><p style="color: #5a8bb8; margin-top: 0.5rem;">You did not miss any words. Excellent work!</p></div>';
-        return;
-}
-    try {
-        const lessonIds = [...new Set(
-            [...document.querySelectorAll('[data-lesson]')]
-                .map(el => el.dataset.lesson)
-        )];
-        const baseUrl = window.location.origin;
-        const responses = await Promise.all(
-            lessonIds.map(id => fetch(baseUrl + '/data/' + id + '_words.json').then(r => r.json()))
-        );
-        const allWords = responses.flatMap(data => data.words);
-        const seen = new Set();
-        const uniqueWords = allWords.filter(w => {
-            if (seen.has(w.id)) return false;
-            seen.add(w.id);
-            return true;
-        });
-        const wrongWords = uniqueWords.filter(word => wrongIds.includes(word.id));
-        if (wrongWords.length === 0) {
-            container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p></div>';
-            return;
-        }
-        container.innerHTML = '<p style="text-align: center; margin-bottom: 2rem; color: #5a8bb8;">Practice these ' + wrongWords.length + ' word(s) you found challenging:</p><div id="review-game-wrapper"></div><div style="text-align: center; margin-top: 2rem;"><button id="clear-review" style="padding: 0.5rem 1.5rem; background: #f57c00; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.95rem;">Clear Review List</button></div>';
-        new MatchingGame('review-game-wrapper', wrongWords, 'review', null, []);
-        document.getElementById('clear-review').addEventListener('click', function() {
-            if (confirm('Clear all review words? This will reset your wrong words list for this lesson.')) {
-                const allWrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-                const lessonWordIds = uniqueWords.map(w => w.id);
-                const remainingWrongIds = allWrongIds.filter(id => !lessonWordIds.includes(id));
-                localStorage.setItem('wrong_ids', JSON.stringify(remainingWrongIds));
-                location.reload();
-            }
-        });
-} catch (error) {
-        console.error('Error loading words:', error);
-        container.innerHTML = '<p style="color: #f44336;">Error loading review words. Please refresh the page.</p>';
-}
-}
-document.addEventListener('DOMContentLoaded', initReview);
-    document.querySelectorAll('.tabbed-labels label').forEach(label => {
-    if (label.textContent.trim() === 'Review') {
-        label.addEventListener('click', function() {
-            setTimeout(initReview, 50);
-        });
-}
-});
-</script>
+
 
 <script>
 (function() {

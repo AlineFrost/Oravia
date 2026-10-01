@@ -1,0 +1,168 @@
+{
+  "lesson_id": "cc26_lesson50",
+  "cluster": "complete-course",
+  "cluster_meaning": "matching practice",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "MU recognition",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 2,
+      "title": "OM recognition",
+      "buckets": [
+        "r2"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 3,
+      "title": "Cluster recognition — mixed repeat",
+      "buckets": [
+        "r3_repeat"
+      ],
+      "words_per_bucket": 6,
+      "allow_repeats": true
+    },
+    {
+      "round": 4,
+      "title": "PILI / LIA roots",
+      "buckets": [
+        "r3"
+      ],
+      "words_per_bucket": 4
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson50_r1_1",
+      "oravia": "mus",
+      "english": "insect",
+      "bucket": "r1",
+      "source_bucket": "mu"
+    },
+    {
+      "id": "lesson50_r1_2",
+      "oravia": "muvardur",
+      "english": "mouse",
+      "bucket": "r1",
+      "source_bucket": "mu"
+    },
+    {
+      "id": "lesson50_r1_3",
+      "oravia": "mufis",
+      "english": "snake",
+      "bucket": "r1",
+      "source_bucket": "mu"
+    },
+    {
+      "id": "lesson50_r1_4",
+      "oravia": "muhpili",
+      "english": "bird",
+      "bucket": "r1",
+      "source_bucket": "muh"
+    },
+    {
+      "id": "lesson50_r2_1",
+      "oravia": "omapa",
+      "english": "dance",
+      "bucket": "r2",
+      "source_bucket": "om"
+    },
+    {
+      "id": "lesson50_r2_2",
+      "oravia": "ombum",
+      "english": "drum",
+      "bucket": "r2",
+      "source_bucket": "om"
+    },
+    {
+      "id": "lesson50_r2_3",
+      "oravia": "omlia",
+      "english": "sing",
+      "bucket": "r2",
+      "source_bucket": "om"
+    },
+    {
+      "id": "lesson50_r2_4",
+      "oravia": "omco",
+      "english": "voice",
+      "bucket": "r2",
+      "source_bucket": "om"
+    },
+    {
+      "id": "lesson50_r3_1",
+      "oravia": "muhpili",
+      "english": "bird",
+      "bucket": "r3",
+      "source_bucket": "pili"
+    },
+    {
+      "id": "lesson50_r3_2",
+      "oravia": "leipili",
+      "english": "flower",
+      "bucket": "r3",
+      "source_bucket": "pili"
+    },
+    {
+      "id": "lesson50_r3_3",
+      "oravia": "omlia",
+      "english": "sing",
+      "bucket": "r3",
+      "source_bucket": "lia"
+    },
+    {
+      "id": "lesson50_r3_4",
+      "oravia": "elelia",
+      "english": "poem",
+      "bucket": "r3",
+      "source_bucket": "lia"
+    },
+    {
+      "id": "lesson50_r3_repeat_1",
+      "oravia": "mus",
+      "english": "insect",
+      "bucket": "r3_repeat",
+      "source_bucket": "mu"
+    },
+    {
+      "id": "lesson50_r3_repeat_2",
+      "oravia": "muvardur",
+      "english": "mouse",
+      "bucket": "r3_repeat",
+      "source_bucket": "mu"
+    },
+    {
+      "id": "lesson50_r3_repeat_3",
+      "oravia": "mufis",
+      "english": "snake",
+      "bucket": "r3_repeat",
+      "source_bucket": "mu"
+    },
+    {
+      "id": "lesson50_r3_repeat_4",
+      "oravia": "omapa",
+      "english": "dance",
+      "bucket": "r3_repeat",
+      "source_bucket": "om"
+    },
+    {
+      "id": "lesson50_r3_repeat_5",
+      "oravia": "ombum",
+      "english": "drum",
+      "bucket": "r3_repeat",
+      "source_bucket": "om"
+    },
+    {
+      "id": "lesson50_r3_repeat_6",
+      "oravia": "omlia",
+      "english": "sing",
+      "bucket": "r3_repeat",
+      "source_bucket": "om"
+    }
+  ]
+}

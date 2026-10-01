@@ -1,7 +1,7 @@
-# Lesson 28: Why / How
+# Lesson 28: Why / How / LU Cluster
 
 !!! info "How to Use This Lesson"
-    This lesson is divided into six sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Practice**, **Review**, **Flashcards**.
+    This lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Practice**, **Flashcards**.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -63,18 +63,18 @@
     Lastly, we can create other questions by combining other words:
     ```
     cecoter? = ce (what) + coter (number) = how many?
-    cegaori? = ce (what) + gaori (price) = how much / what price?
+    cegaori? = ce (what) + gaoleo (price) = how much / what price?
     ```
     
     When we answer a question about quantity, we can reply a specific number, or just say *mir*. *Mir* means *many*, that's why we have words like *yamirli* = old.
-    We can also use *mir* to indicate plural, like *mir falen* = children.
+    We can also use *mir* to indicate plural, like *mir falfal* = children.
     
     To sum up:
     ```
     ceora? = ce (what) + ora (idea) = why?
     cenon? = ce (what) + non (way) = how?
     cecoter? = ce (what) + coter (number) = how many?
-    cegaori? = ca (what) + gaori (price) = how much / what price?
+    cegaori? = ca (what) + gaoleo (price) = how much / what price?
     mir = many, plural
     ```
     
@@ -98,39 +98,74 @@
 
 === "Vocabulary"
 
-    ## TO SUBCLUSTER
+    ## LU CLUSTER
     
-    Let's take a deeper look at the TO Cluster! 
+    Today we will learn our next cluster, **LU**!
     
     | Oravia | English |
     |--------|---------|
-    | touwa | thirst |
-    | touvei | illness |
-    | tohpu | sad |
-    | tohdin | sorry |
-    | toharou | anxious |
-    | tohnaru | anger |
-    | tohbian | confusion |
-    | tohvor | fear |
-    | toumo | hungry |
-    | tounir | weak |
-    | tourou | tense |
-    | toului | tired |
+    | lufiva | cold |
+    | luyar | light |
+    | lupupi | rain |
+    | luval | snow |
+    | lufu | wind |
+    | lunhem | summer |
+    | lusari | sun |
+    | luhue | mist |
+    | lumbo | cloud|
     
-    What subclusters do you see here and what do you think they are about?
+    What do you think the **LU** cluster is about? 
     
     <div style="text-align: center; margin: 2rem 0;">
-    <button onclick="document.getElementById('subcluster5a-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+    <button onclick="document.getElementById('subcluster4-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
         Click to Reveal the Answer
     </button>
     </div>
     
-    <div id="subcluster5a-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;">The <strong>TOH</strong> subcluster is about <strong>emotional suffering</strong>, while the <strong>TOU</strong> subcluster is about <strong>physical depletion</strong>.</p>
+    <div id="subcluster4-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+    <p style="margin: 0;"> Weather and atmosphere! </p>
     </div>
+
+    These words can also be adjectives and verbs, for example:
     
-    Now try to answer:
-    Cali run i anopuar e yunitam, cenon run i to?
+    | Oravia | English |
+    |--------|---------|
+    | lufiva | cold, to cool |
+    | luyar | light, to illuminate, bright |
+    | lupupi | rain, rainy |
+    | luval | snow, snowy |
+    | lufu | wind, windy |
+    | lusari | sun, sunny |
+    | luhue | mist, misty |
+    | lumbo | cloud, cloudy |
+    
+
+    ### Recognize the Roots
+
+    Take another look at **luyar** and **lupupi**. Do you recognize any roots you've learned before?
+
+    <div style="text-align: center; margin: 1.25rem 0;">
+    <button onclick="document.getElementById('root-recall-l28-lu-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.65rem 1.5rem; border-radius: 4px; cursor: pointer;">
+        Click to Reveal the Roots
+    </button>
+    </div>
+
+    <div id="root-recall-l28-lu-answer" style="display: none; background: #c8e6c9; padding: 1.25rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 1.25rem 0;">
+    <p style="margin: 0 0 0.45rem 0;"><strong>luyar</strong> → <strong>YAR</strong> = light</p>
+    <p style="margin: 0 0 0.45rem 0;"><strong>lupupi</strong> → <strong>PUPI</strong> = falling water</p>
+    </div>
+
+    !!! info "🌍 Sound Connections"
+        Lufu comes from German Luft (air).  
+        
+        Sari comes from Sanskrit सूर्य sūrya (sun); Hindi सूरज sūraj (sun).
+        
+        Yun is like Mandarin 云 yún (cloud, mist).
+      
+    Here are some other words with these roots:  
+    **aslufu** = breath (bodily actions + air), just like lufu = wind  
+    
+    Ce lu en litam? Ce lu en litamar?
     
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
     <div style="text-align: right; margin-top: 0.5rem;">
@@ -149,13 +184,13 @@
     </div>
     
     <div style="text-align: center; margin: 2rem 0;">
-    <button onclick="document.getElementById('subcluster5b-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+    <button onclick="document.getElementById('subcluster5-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
         Click to Reveal Translation
     </button>
     </div>
     
-    <div id="subcluster5b-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;">Possible translation: when you lose something special, how do you suffer?</p>
+    <div id="subcluster5-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+    <p style="margin: 0;">Possible translation: What's the weather today? What was the weather yesterday?</p>
     </div>
     
     <div style="text-align: center; margin: 2rem 0;">
@@ -165,11 +200,9 @@
     </div>
     
     <div id="subcluster6-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;">Example answers: Cali i anopuar e yunitam, a nim a tohpu. Nim i tohnaru. I nomie no touvei.</p>
+    <p style="margin: 0;">Example answers: A litam a lusari, mai en litamar i dami a lupupi. </p>
     </div>
     
-    You are ready for the exercise now!
-
 === "Practice"
 
     ## Matching Games
@@ -177,38 +210,31 @@
     Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
     **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
     Click one word from each column to match them. The game will check automatically when you select both words.
-
     ---
 
     ### Round 1
 
-    <div id="matching-game-1" data-lesson="lesson28" data-round="1"></div>
+    <div id="matching-game-1" data-lesson="cc26_lesson28" data-round="1"></div>
 
     ---
 
     ### Round 2
 
-    <div id="matching-game-2" data-lesson="lesson28" data-round="2"></div>
+    <div id="matching-game-2" data-lesson="cc26_lesson28" data-round="2"></div>
 
     ---
 
     ### Round 3
 
-    <div id="matching-game-3" data-lesson="lesson28" data-round="3"></div>
-
-
-
-=== "Review"
-
-    ## Review Missed Words
-    
-    This section shows words you got wrong during practice. If you didn't miss any, this will be empty - great job! 🎉
-    
-    ---
-    
-    <div id="review-game-container"></div>
+    <div id="matching-game-3" data-lesson="cc26_lesson28" data-round="3"></div>
 
     ---
+
+    ### Round 4
+
+    <div id="matching-game-4" data-lesson="cc26_lesson28" data-round="4"></div>
+
+
 === "Flashcards"
 
     <div id="flashcard-container" data-lesson="28"></div>
@@ -216,12 +242,10 @@
 <script>
     function initWarmup() {
         const warmupWords = [
-    {id: "wu_bejae_1", oravia: "bejae", english: "bag, luggage"},
-    {id: "wu_bevio_2", oravia: "bevio", english: "restaurant"},
-    {id: "wu_beivu_3", oravia: "beivu", english: "car"},
-    {id: "wu_oines_4", oravia: "oines", english: "joke, funny"},
-    {id: "wu_oihi_5", oravia: "oihi", english: "interesting"},
-    {id: "wu_oila_6", oravia: "oila", english: "happy, joy"},
+    {id: "wu_oila_1", oravia: "oila", english: "happy"},
+    {id: "wu_oihi_2", oravia: "oihi", english: "interest"},
+    {id: "wu_bevio_3", oravia: "bevio", english: "shop"},
+    {id: "wu_beilem_4", oravia: "beilem", english: "station"}
     ];
 
     function renderSelfAssessment() {
@@ -280,69 +304,12 @@ initWarmup();
 <p style="font-size: 1.2rem; color: #4a9cd6; margin-bottom: 1rem;">
         🎉 <strong>Lesson 28 Complete!</strong>
     </p>
-<p style="color: #5a8bb8; margin-bottom: 0.5rem;">
-        If you missed any words, check the <strong>Review</strong> tab to practice them again.
-    </p>
 <p style="color: #5a8bb8; margin-bottom: 1.5rem;">
         Come back tomorrow for Lesson 29.
     </p>
 </div>
 
-<script>
-    async function initReview() {
-    const wrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-    const container = document.getElementById('review-game-container');
-    if (!container) return;
-    if (wrongIds.length === 0) {
-        container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p><p style="color: #5a8bb8; margin-top: 0.5rem;">You did not miss any words. Excellent work!</p></div>';
-        return;
-}
-    try {
-        const lessonIds = [...new Set(
-            [...document.querySelectorAll('[data-lesson]')]
-                .map(el => el.dataset.lesson)
-        )];
-        const baseUrl = window.location.origin;
-        const responses = await Promise.all(
-            lessonIds.map(id => fetch(baseUrl + '/data/' + id + '_words.json').then(r => r.json()))
-        );
-        const allWords = responses.flatMap(data => data.words);
-        const seen = new Set();
-        const uniqueWords = allWords.filter(w => {
-            if (seen.has(w.id)) return false;
-            seen.add(w.id);
-            return true;
-        });
-        const wrongWords = uniqueWords.filter(word => wrongIds.includes(word.id));
-        if (wrongWords.length === 0) {
-            container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p></div>';
-            return;
-        }
-        container.innerHTML = '<p style="text-align: center; margin-bottom: 2rem; color: #5a8bb8;">Practice these ' + wrongWords.length + ' word(s) you found challenging:</p><div id="review-game-wrapper"></div><div style="text-align: center; margin-top: 2rem;"><button id="clear-review" style="padding: 0.5rem 1.5rem; background: #f57c00; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.95rem;">Clear Review List</button></div>';
-        new MatchingGame('review-game-wrapper', wrongWords, 'review', null, []);
-        document.getElementById('clear-review').addEventListener('click', function() {
-            if (confirm('Clear all review words? This will reset your wrong words list for this lesson.')) {
-                const allWrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-                const lessonWordIds = uniqueWords.map(w => w.id);
-                const remainingWrongIds = allWrongIds.filter(id => !lessonWordIds.includes(id));
-                localStorage.setItem('wrong_ids', JSON.stringify(remainingWrongIds));
-                location.reload();
-            }
-        });
-} catch (error) {
-        console.error('Error loading words:', error);
-        container.innerHTML = '<p style="color: #f44336;">Error loading review words. Please refresh the page.</p>';
-}
-}
-document.addEventListener('DOMContentLoaded', initReview);
-    document.querySelectorAll('.tabbed-labels label').forEach(label => {
-    if (label.textContent.trim() === 'Review') {
-        label.addEventListener('click', function() {
-            setTimeout(initReview, 50);
-        });
-}
-});
-</script>
+
 
 <script>
 (function() {

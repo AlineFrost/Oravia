@@ -1,0 +1,168 @@
+{
+  "lesson_id": "cc26_lesson59",
+  "cluster": "complete-course",
+  "cluster_meaning": "matching practice",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "HE recognition",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 2,
+      "title": "HE subclusters",
+      "buckets": [
+        "r2"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 3,
+      "title": "Cluster recognition — mixed repeat",
+      "buckets": [
+        "r3_repeat"
+      ],
+      "words_per_bucket": 6,
+      "allow_repeats": true
+    },
+    {
+      "round": 4,
+      "title": "VIO / PILI roots",
+      "buckets": [
+        "r3"
+      ],
+      "words_per_bucket": 4
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson59_r1_1",
+      "oravia": "hehma",
+      "english": "monster",
+      "bucket": "r1",
+      "source_bucket": "heh"
+    },
+    {
+      "id": "lesson59_r1_2",
+      "oravia": "hehui",
+      "english": "ghost",
+      "bucket": "r1",
+      "source_bucket": "heh"
+    },
+    {
+      "id": "lesson59_r1_3",
+      "oravia": "hevas",
+      "english": "secret",
+      "bucket": "r1",
+      "source_bucket": "he"
+    },
+    {
+      "id": "lesson59_r1_4",
+      "oravia": "heodom",
+      "english": "planet",
+      "bucket": "r1",
+      "source_bucket": "heo"
+    },
+    {
+      "id": "lesson59_r2_1",
+      "oravia": "heipili",
+      "english": "fairy",
+      "bucket": "r2",
+      "source_bucket": "hei"
+    },
+    {
+      "id": "lesson59_r2_2",
+      "oravia": "heivio",
+      "english": "magic",
+      "bucket": "r2",
+      "source_bucket": "hei"
+    },
+    {
+      "id": "lesson59_r2_3",
+      "oravia": "hehma",
+      "english": "monster",
+      "bucket": "r2",
+      "source_bucket": "heh"
+    },
+    {
+      "id": "lesson59_r2_4",
+      "oravia": "heodom",
+      "english": "planet",
+      "bucket": "r2",
+      "source_bucket": "heo"
+    },
+    {
+      "id": "lesson59_r3_1",
+      "oravia": "heivio",
+      "english": "magic",
+      "bucket": "r3",
+      "source_bucket": "vio"
+    },
+    {
+      "id": "lesson59_r3_2",
+      "oravia": "davio",
+      "english": "change",
+      "bucket": "r3",
+      "source_bucket": "vio"
+    },
+    {
+      "id": "lesson59_r3_3",
+      "oravia": "heipili",
+      "english": "fairy",
+      "bucket": "r3",
+      "source_bucket": "pili"
+    },
+    {
+      "id": "lesson59_r3_4",
+      "oravia": "muhpili",
+      "english": "bird",
+      "bucket": "r3",
+      "source_bucket": "pili"
+    },
+    {
+      "id": "lesson59_r3_repeat_1",
+      "oravia": "hehma",
+      "english": "monster",
+      "bucket": "r3_repeat",
+      "source_bucket": "heh"
+    },
+    {
+      "id": "lesson59_r3_repeat_2",
+      "oravia": "hehui",
+      "english": "ghost",
+      "bucket": "r3_repeat",
+      "source_bucket": "heh"
+    },
+    {
+      "id": "lesson59_r3_repeat_3",
+      "oravia": "hevas",
+      "english": "secret",
+      "bucket": "r3_repeat",
+      "source_bucket": "he"
+    },
+    {
+      "id": "lesson59_r3_repeat_4",
+      "oravia": "heipili",
+      "english": "fairy",
+      "bucket": "r3_repeat",
+      "source_bucket": "hei"
+    },
+    {
+      "id": "lesson59_r3_repeat_5",
+      "oravia": "heivio",
+      "english": "magic",
+      "bucket": "r3_repeat",
+      "source_bucket": "hei"
+    },
+    {
+      "id": "lesson59_r3_repeat_6",
+      "oravia": "heodom",
+      "english": "planet",
+      "bucket": "r3_repeat",
+      "source_bucket": "heo"
+    }
+  ]
+}

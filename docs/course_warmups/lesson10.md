@@ -1,9 +1,9 @@
 # Lesson 10: Indirect Object
 
 !!! info "How to Use This Lesson"
-    This lesson is divided into six sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Practice**, **Review**, **Flashcards**.
+    This lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Practice**, **Flashcards**.
     
-    **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
+    **Do not try to memorize!** Just read through the content attentively. The warm-ups and flashcards will bring the vocabulary back later!
 
 ---
 
@@ -32,44 +32,43 @@
      I     cook   the food
     ```
     
-    But, for some verbs, this structure sounds incomplete. For example:
-    
+    But some actions can also involve someone who receives or benefits from them. For example:
+
     ```
-    a nim i anona e moulu
-     ↓        ↓       ↓     
-     I     give   the milk
+    a nim i anye e mo
+     ↓       ↓      ↓     
+     I      make   food
     ```
-    I give the milk... *to whom?* We need another complement there!
-    If we want to say: I give milk **to the baby**. The baby is the not the thing being given, but the one **receiving it**. For that, we use **u**!
-    
+    If we want to say that I make the food **for the child**, we use **u**!
+
     **U** is the marker to indicate indirect objects, which in English usually translates to "to/for". For example:
-    
+
     ```
-    u falen = to the child
+    u falfal = for the child
     ```
-    
+
     So the full sentence is:
-    
+
     ```
-    a nim i anona e moulu u falen
-     ↓        ↓       ↓       ↓
-     I       give    milk   to baby
+    a nim i anye e mo u falfal
+     ↓       ↓      ↓       ↓
+     I      make   food  for child
     ```
-    
+
     These are the mnemonics for the markers:
     **A**gent **I**nitiates **E**ngaging **U**nto
     
     Just like with the other markers, word order is flexible. You can use whatever order feels most natural to you:
-    
+
     ```
-    a nim i anona e moulu u falen
+    a nim i anye e mo u falfal
                =
-    u falen i anona e moulu a nim
-    
-    I give milk to the child.
+    u falfal i anye e mo a nim
+
+    I make food for the child.
     ```
-    
-    Now try to say: *She gives coffee to my sibling.*
+
+    Now try to say: *She cooks food for my sibling.*
     
     <div style="text-align: center; margin: 2rem 0;">
         <button onclick="document.getElementById('grammar-answer1').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
@@ -78,19 +77,18 @@
     </div>
     
     <div id="grammar-answer1" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-        <p style="margin: 0;"> Possible answers: hay i anona e mogali u nim fasu / a hayjor i anona e mogali u nim fasu. </p>
+        <p style="margin: 0;"> Possible answers: hay i boemo e mo u nim fasu / a jor hay i boemo e mo u nim fasu. </p>
     </div>
     
-    Now, *u* pairs naturally with these verbs we've already seen:
-    
+    *U* also works naturally with verbs you've already seen:
+
     ```
-    anona  = give    → i anona e [thing] u [person]
-    anita  = take    → i anita e [thing] u [person]  (take to)
-    anocari = leave  → i anocari e [thing] u [person]  (leave for)
+    anye   = make    → i anye e [thing] u [person]   (make for)
+    boemo  = cook    → i boemo e [thing] u [person]  (cook for)
     ```
-    
-    Try to say: *We need to give the bottle to you.*
-    
+
+    Try to say: *We need to cook food for you.*
+
     <div style="text-align: center; margin: 2rem 0;">
         <button onclick="document.getElementById('grammar-answer2').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
             Click to Reveal the Answer
@@ -98,7 +96,7 @@
     </div>
     
     <div id="grammar-answer2" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-        <p style="margin: 0;"> Possible answer: nima i fou i anona e molvou u run.</p>
+        <p style="margin: 0;"> Possible answer: nimas i fou i boemo e mo u run.</p>
     </div>
     
     In sum:
@@ -129,48 +127,122 @@
 
 === "Vocabulary"
 
-    ## YA SUBCLUSTER
-    
-    Last lesson, we learned about the **YA** cluster. It is about objective characteristics, or traits that can be measured. 
-    
-    Today we will learn YA Subclusters!  Look at the list of words below.
-    
-    *Remember, do not try to memorize them.* Just read it through attentively.
-    
+    ## The AN Subclusters
+
+    Remember what **AN** indicated?
+
+    <details markdown="1">
+    <summary>Click to check</summary>
+
+    **AN** = actions.
+
+    </details>
+
+    Now look at these AN words and see if you can spot the narrower patterns.
+
     <audio controls style="width:100%">
-      <source src="../audio/10v1.mp3" type="audio/wav">
+      <source src="../audio/8v.mp3" type="audio/wav">
     </audio>
     
     | Oravia | English |
     |--------|---------|
-    | yahci | sharp |
-    | yahlul | smooth |
-    | yahgor | solid  |
-    | yalnou | deep |
-    | yalen | long |
-    | yaltan | big |
+    | ando | can, be capable of, be able to |
+    | anita | take |
+    | anifou | need |
+    | anidai | want |
+    | aniyel | come |
+    | anona | give |
+    | anopu | lose |
+    | anocari | leave |
+    | anolu | out |
+    | anefene | rest |
+    | anepou | stop |
+    | anefe | put |
+    | anelem | stay, remain |
     
-    What do you notice about these words? Can you spot any patterns with **YAL** and **YAH**?
+    What do you think the words beginning with **ANI**, **ANO**, and **ANE** have in common?
+
+    <div style="text-align: center; margin: 2rem 0;">
+        <button onclick="document.getElementById('an-subcluster-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+            Click to Reveal Subcluster Meanings
+        </button>
+    </div>
+
+    <div id="an-subcluster-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+        <p style="margin: 0;"><strong>ANI</strong> is movement towards or approach; <strong>ANO</strong> is movement away; <strong>ANE</strong> is static or neither towards nor away.</p>
+    </div>
+
+
+    ### Recognize the Roots
+
+    Take another look at **anolu**. Do you recognize any roots you've learned before?
+
+    <div style="text-align: center; margin: 1.25rem 0;">
+    <button onclick="document.getElementById('root-recall-l10-an-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.65rem 1.5rem; border-radius: 4px; cursor: pointer;">
+        Click to Reveal the Roots
+    </button>
+    </div>
+
+    <div id="root-recall-l10-an-answer" style="display: none; background: #c8e6c9; padding: 1.25rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 1.25rem 0;">
+    <p style="margin: 0 0 0.45rem 0;"><strong>anolu</strong> → <strong>LU</strong> = outside</p>
+    </div>
+
+    !!! info "🌍 Sound Connections"
+        Ani is movement toward like Japanese に ni (toward, directional particle).  
+        
+        Ane is static movement like Latin manere (to remain/stay).  
+        
+        If you need something it's because you lack it: fou means "lack" and comes from English few.  
+
+    
+    Some of these verbs are special. They can take not only *things* as complements, but *other verbs* too. Take for example the verb *to want*, or *anidai*. How would you say "my parent wants a bed?"
+    
+    ```
+    nim fare i anidai e bonfene.
+    ```
+    
+    But what if your parent wanted to do an action instead? For example, *to lie down*. How would we say that?
+    Step 1: How to make *e bonfene* a verb instead of a noun? That's right, we use *i* instead of *e*:
+    
+    ```
+    nim fare i anidai i bonfene.
+    ```
+    
+    Step 2: now, we drop the subcluster sound of the first verb. What remains is what we call the root, like this:
+    
+    ```
+    nim fare i dai i bonfene.
+    ```
+    
+    Done! There are a few reasons we use just the root of the first verb for a construction like *to want to do*. First, it sounds more distinct from the noun option, so listeners can tell the difference easily. Second, it's shorter, and these verb stacks come up a lot! You can use many verbs in the first verb role - ando, anifou, anidai, anepou, anelem... These are all verbs that take another action as a complement.
+    
+    How do you think we would say *to need to come*? How about *to be able to leave*?
     
     <div style="text-align: center; margin: 2rem 0;">
-        <button onclick="document.getElementById('cluster-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+        <button onclick="document.getElementById('cluster5-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
             Click to Reveal Answer
         </button>
     </div>
     
-    <div id="cluster-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-        <p style="margin: 0;"> **YAL** is about **dimension/size**, and **YAH** is about **surface texture**</p>
+    <div id="cluster5-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+        <p style="margin: 0;">i fou i aniyel. i do i anocari. </p>
     </div>
     
-    !!! info "🌍 Sound Connections"
-        Ci means sharp, like Mandarin 刺 cì (to stab, prick, sharp); Arabic سكين sikkīn (knife, sharp); Sanskrit छिद् chid (to cut, sharp action); Swahili kisu (knife, sharp).
-        
-        Tan comes from Greek Titan (giant).  
-        
-    That's why we have:  
-    **wiltan** = city (human-made geography + large), just like yaltan = big/large (objective quality dimension + large).  
-        
-    You are now ready for the Exercise!
+    You will see this construction often.
+    
+    You can also use the full verb form, like *i anidai i bonfene*. It tends to sound a bit formal and stiff for everyday speech. Sometimes you may want to create this effect, but short form is what you will hear and use most naturally in conversation.
+    
+    In sum, in the AN cluster (actions), we have:
+    
+    ```
+    ANI - movement towards  
+    ANO - movement away     
+    ANE - static
+    i do/dai/fou... i [verb] = can/want/need... to [verb]
+    ```
+    
+    !!! tip "Flexibility"
+        Don't worry too much about memorizing the right subclusters for each word. For example, you can say *anefene*, or *anfene*, they mean the same thing! You could also say only *ane* (static) or *fene* (rest), just the meaning would be broader without context. Options like these will be discussed later on, once you understand better how the language works. For now, just keep in mind there is no need to stress over the right subclusters and that words are flexible. 
 
 === "Practice"
 
@@ -179,44 +251,36 @@
     Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
     **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
     Click one word from each column to match them. The game will check automatically when you select both words.
-
     ---
 
     ### Round 1
 
-    <div id="matching-game-1" data-lesson="lesson10" data-round="1"></div>
+    <div id="matching-game-1" data-lesson="cc26_lesson10" data-round="1"></div>
 
     ---
 
     ### Round 2
 
-    <div id="matching-game-2" data-lesson="lesson10" data-round="2"></div>
+    <div id="matching-game-2" data-lesson="cc26_lesson10" data-round="2"></div>
 
     ---
 
     ### Round 3
 
-    <div id="matching-game-3" data-lesson="lesson10" data-round="3"></div>
+    <div id="matching-game-3" data-lesson="cc26_lesson10" data-round="3"></div>
 
     ---
 
     ### Round 4
 
-    <div id="matching-game-4" data-lesson="lesson10" data-round="4"></div>
-
-
-
-=== "Review"
-
-    ## Review Missed Words
-    
-    This section shows words you got wrong during practice. If you didn't miss any, this will be empty - great job! 🎉
-    
-    ---
-    
-    <div id="review-game-container"></div>
+    <div id="matching-game-4" data-lesson="cc26_lesson10" data-round="4"></div>
 
     ---
+
+    ### Round 5
+
+    <div id="matching-game-5" data-lesson="cc26_lesson10" data-round="5"></div>
+
 === "Flashcards"
 
     <div id="flashcard-container" data-lesson="10"></div>
@@ -224,11 +288,13 @@
 <script>
     function initWarmup() {
             const warmupWords = [
-    {id: "wu_moaria_1", oravia: "moaria", english: "apple"},
-    {id: "wu_molcui_2", oravia: "molcui", english: "bowl"},
-    {id: "wu_mouje_3", oravia: "mouje", english: "drink"},
-    {id: "wu_mocen_4", oravia: "mocen", english: "chocolate"},
-    {id: "wu_yalen_5", oravia: "yalen", english: "long, tall"},
+    {id: "wu_nim_1", oravia: "nim", english: "I"},
+    {id: "wu_run_2", oravia: "run", english: "you"},
+    {id: "wu_hay_3", oravia: "hay", english: "he/she/it"},
+    {id: "wu_mouje_4", oravia: "mouje", english: "drink"},
+    {id: "wu_mocen_5", oravia: "mocen", english: "chocolate"},
+    {id: "wu_faibor_6", oravia: "faibor", english: "spouse"},
+    {id: "wu_fare_7", oravia: "fare", english: "parent"}
     ];
 
     function renderSelfAssessment() {
@@ -248,12 +314,11 @@
         html += '<div style="text-align:center; margin-top:1.5rem;">';
         html += '<button id="show-answers-btn" style="background:#4a9cd6; color:white; border:none; padding:0.75rem 2rem; border-radius:4px; cursor:pointer; font-size:1rem;">Show Answers</button>';
         html += '</div>';
-        html += `<div id="syllable-reminder" style="display:none; margin-top:1.25rem; padding:1rem; background:#eef7fb; border-left:4px solid #4a9cd6; border-radius:6px;"><p style="margin:0 0 0.5rem 0; font-weight:bold; color:#345;">Syllable reminders</p><p style="margin:0.25rem 0;"><strong>mo</strong> = food and drink; Japanese mogu-mogu</p><p style="margin:0.25rem 0;"><strong>moa</strong> = fruit; Polynesian moa</p><p style="margin:0.25rem 0;"><strong>mol</strong> = food container</p><p style="margin:0.25rem 0;"><strong>len</strong> = long; Latin longus, English longitude</p></div>`;
+
         container.innerHTML = html;
         document.getElementById('show-answers-btn').addEventListener('click', function() {
             document.querySelectorAll('.answer-col').forEach(col => col.style.display = 'table-cell');
-            const reminder = document.getElementById('syllable-reminder');
-            if (reminder) reminder.style.display = 'block';
+
             this.style.display = 'none';
             // Log warm-up self-assessment
             const log = JSON.parse(localStorage.getItem('oravia_log') || '[]');
@@ -287,68 +352,14 @@ initWarmup();
         🎉 <strong>Lesson 10 Complete!</strong>
     </p>
 <p style="color: #5a8bb8; margin-bottom: 0.5rem;">
-        If you missed any words, check the <strong>Review</strong> tab to practice them again.
+        Use the <strong>Flashcards</strong> tab for another quick review.
     </p>
 <p style="color: #5a8bb8; margin-bottom: 1.5rem;">
         Come back tomorrow for Lesson 11.
     </p>
 </div>
 
-<script>
-    async function initReview() {
-    const wrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-    const container = document.getElementById('review-game-container');
-    if (!container) return;
-    if (wrongIds.length === 0) {
-        container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p><p style="color: #5a8bb8; margin-top: 0.5rem;">You did not miss any words. Excellent work!</p></div>';
-        return;
-}
-    try {
-        const lessonIds = [...new Set(
-            [...document.querySelectorAll('[data-lesson]')]
-                .map(el => el.dataset.lesson)
-        )];
-        const baseUrl = window.location.origin;
-        const responses = await Promise.all(
-            lessonIds.map(id => fetch(baseUrl + '/data/' + id + '_words.json').then(r => r.json()))
-        );
-        const allWords = responses.flatMap(data => data.words);
-        const seen = new Set();
-        const uniqueWords = allWords.filter(w => {
-            if (seen.has(w.id)) return false;
-            seen.add(w.id);
-            return true;
-        });
-        const wrongWords = uniqueWords.filter(word => wrongIds.includes(word.id));
-        if (wrongWords.length === 0) {
-            container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p></div>';
-            return;
-        }
-        container.innerHTML = '<p style="text-align: center; margin-bottom: 2rem; color: #5a8bb8;">Practice these ' + wrongWords.length + ' word(s) you found challenging:</p><div id="review-game-wrapper"></div><div style="text-align: center; margin-top: 2rem;"><button id="clear-review" style="padding: 0.5rem 1.5rem; background: #f57c00; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.95rem;">Clear Review List</button></div>';
-        new MatchingGame('review-game-wrapper', wrongWords, 'review', null, []);
-        document.getElementById('clear-review').addEventListener('click', function() {
-            if (confirm('Clear all review words? This will reset your wrong words list for this lesson.')) {
-                const allWrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-                const lessonWordIds = uniqueWords.map(w => w.id);
-                const remainingWrongIds = allWrongIds.filter(id => !lessonWordIds.includes(id));
-                localStorage.setItem('wrong_ids', JSON.stringify(remainingWrongIds));
-                location.reload();
-            }
-        });
-} catch (error) {
-        console.error('Error loading words:', error);
-        container.innerHTML = '<p style="color: #f44336;">Error loading review words. Please refresh the page.</p>';
-}
-}
-document.addEventListener('DOMContentLoaded', initReview);
-    document.querySelectorAll('.tabbed-labels label').forEach(label => {
-    if (label.textContent.trim() === 'Review') {
-        label.addEventListener('click', function() {
-            setTimeout(initReview, 50);
-        });
-}
-});
-</script>
+
 
 <script>
 (function() {

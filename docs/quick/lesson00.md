@@ -101,7 +101,7 @@ Anything jump out?
 
 They all begin with **MI**.
 
-In Oravia, **MI** is connected with **larger animals**. 
+In Oravia, **MI** is connected with **larger animals**. So even before you know the exact word, the opening already gives you a clue about its category.
 
 You will start seeing how this works in Lesson 1.
 

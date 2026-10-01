@@ -1,0 +1,132 @@
+{
+  "lesson_id": "cc26_lesson11",
+  "cluster": "restructured-course",
+  "cluster_meaning": "matching practice",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "YAH / YAL contrast 1",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 3
+    },
+    {
+      "round": 2,
+      "title": "YAH / YAL contrast 2",
+      "buckets": [
+        "r2"
+      ],
+      "words_per_bucket": 3
+    },
+    {
+      "round": 3,
+      "title": "YAH / YAL contrast 3",
+      "buckets": [
+        "r3"
+      ],
+      "words_per_bucket": 3
+    },
+    {
+      "round": 4,
+      "title": "GOR / TAN root connections",
+      "buckets": [
+        "r4"
+      ],
+      "words_per_bucket": 4
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson11_r1_1",
+      "oravia": "yahci",
+      "english": "sharp",
+      "bucket": "r1",
+      "source_bucket": "yah"
+    },
+    {
+      "id": "lesson11_r1_2",
+      "oravia": "yalnou",
+      "english": "deep",
+      "bucket": "r1",
+      "source_bucket": "yal"
+    },
+    {
+      "id": "lesson11_r1_3",
+      "oravia": "yasoi",
+      "english": "fast",
+      "bucket": "r1",
+      "source_bucket": "ya-general"
+    },
+    {
+      "id": "lesson11_r2_1",
+      "oravia": "yahlul",
+      "english": "smooth",
+      "bucket": "r2",
+      "source_bucket": "yah"
+    },
+    {
+      "id": "lesson11_r2_2",
+      "oravia": "yalen",
+      "english": "long",
+      "bucket": "r2",
+      "source_bucket": "yal"
+    },
+    {
+      "id": "lesson11_r2_3",
+      "oravia": "yalgai",
+      "english": "small",
+      "bucket": "r2",
+      "source_bucket": "ya-general"
+    },
+    {
+      "id": "lesson11_r3_1",
+      "oravia": "yahgor",
+      "english": "solid",
+      "bucket": "r3",
+      "source_bucket": "yah"
+    },
+    {
+      "id": "lesson11_r3_2",
+      "oravia": "yaltan",
+      "english": "big",
+      "bucket": "r3",
+      "source_bucket": "yal"
+    },
+    {
+      "id": "lesson11_r3_3",
+      "oravia": "yani",
+      "english": "new",
+      "bucket": "r3",
+      "source_bucket": "ya-general"
+    },
+    {
+      "id": "lesson11_r4_1",
+      "oravia": "yahgor",
+      "english": "solid",
+      "bucket": "r4",
+      "source_bucket": "gor"
+    },
+    {
+      "id": "lesson11_r4_2",
+      "oravia": "bogor",
+      "english": "building",
+      "bucket": "r4",
+      "source_bucket": "gor"
+    },
+    {
+      "id": "lesson11_r4_3",
+      "oravia": "yaltan",
+      "english": "big",
+      "bucket": "r4",
+      "source_bucket": "tan"
+    },
+    {
+      "id": "lesson11_r4_4",
+      "oravia": "wiltan",
+      "english": "city",
+      "bucket": "r4",
+      "source_bucket": "tan"
+    }
+  ]
+}

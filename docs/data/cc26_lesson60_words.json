@@ -1,0 +1,153 @@
+{
+  "lesson_id": "cc26_lesson60",
+  "cluster": "complete-course",
+  "cluster_meaning": "matching practice",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "RA recognition",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 2,
+      "title": "WI recognition",
+      "buckets": [
+        "r2"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 3,
+      "title": "WIL / WIM contrast",
+      "buckets": [
+        "r3"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 4,
+      "title": "TEL / LUA roots",
+      "buckets": [
+        "r4"
+      ],
+      "words_per_bucket": 4
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson60_r1_1",
+      "oravia": "rastai",
+      "english": "politics",
+      "bucket": "r1",
+      "source_bucket": "ra"
+    },
+    {
+      "id": "lesson60_r1_2",
+      "oravia": "radom",
+      "english": "country",
+      "bucket": "r1",
+      "source_bucket": "ra"
+    },
+    {
+      "id": "lesson60_r1_3",
+      "oravia": "rasora",
+      "english": "culture",
+      "bucket": "r1",
+      "source_bucket": "ra"
+    },
+    {
+      "id": "lesson60_r1_4",
+      "oravia": "raitar",
+      "english": "government",
+      "bucket": "r1",
+      "source_bucket": "rai"
+    },
+    {
+      "id": "lesson60_r2_1",
+      "oravia": "wilgai",
+      "english": "village",
+      "bucket": "r2",
+      "source_bucket": "wil"
+    },
+    {
+      "id": "lesson60_r2_2",
+      "oravia": "wiltan",
+      "english": "city",
+      "bucket": "r2",
+      "source_bucket": "wil"
+    },
+    {
+      "id": "lesson60_r2_3",
+      "oravia": "witel",
+      "english": "map",
+      "bucket": "r2",
+      "source_bucket": "wi"
+    },
+    {
+      "id": "lesson60_r2_4",
+      "oravia": "wimlua",
+      "english": "river",
+      "bucket": "r2",
+      "source_bucket": "wim"
+    },
+    {
+      "id": "lesson60_r3_1",
+      "oravia": "wilgai",
+      "english": "village",
+      "bucket": "r3",
+      "source_bucket": "wil"
+    },
+    {
+      "id": "lesson60_r3_2",
+      "oravia": "wiltan",
+      "english": "city",
+      "bucket": "r3",
+      "source_bucket": "wil"
+    },
+    {
+      "id": "lesson60_r3_3",
+      "oravia": "wimlua",
+      "english": "river",
+      "bucket": "r3",
+      "source_bucket": "wim"
+    },
+    {
+      "id": "lesson60_r3_4",
+      "oravia": "wimrih",
+      "english": "mountain",
+      "bucket": "r3",
+      "source_bucket": "wim"
+    },
+    {
+      "id": "lesson60_r4_1",
+      "oravia": "witel",
+      "english": "map",
+      "bucket": "r4",
+      "source_bucket": "tel"
+    },
+    {
+      "id": "lesson60_r4_2",
+      "oravia": "ciutel",
+      "english": "image",
+      "bucket": "r4",
+      "source_bucket": "tel"
+    },
+    {
+      "id": "lesson60_r4_3",
+      "oravia": "wimlua",
+      "english": "river",
+      "bucket": "r4",
+      "source_bucket": "lua"
+    },
+    {
+      "id": "lesson60_r4_4",
+      "oravia": "poilua",
+      "english": "current",
+      "bucket": "r4",
+      "source_bucket": "lua"
+    }
+  ]
+}

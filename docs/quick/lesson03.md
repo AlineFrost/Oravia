@@ -1,12 +1,10 @@
 # Lesson 3: Negation & Modifiers
 
-We'll start with an easy one: **-um**.
-
 ## Grammar
 
 ### Want to negate something? Add -um
 
-Attach **-um** to the word you want to negate. 
+Attach **-um** to the word you want to negate.
 
 `i mo → i moum`
 
@@ -20,7 +18,7 @@ Attach **-um** to the word you want to negate.
 The same suffix can negate other kinds of words besides verbs:
 
 **yalgai** = small → **yalgaium** = not small  
-**eofa** = friend → **eofaum** = not a friend  
+**boemo** = kitchen → **boemoum** = not a kitchen  
 
 ### Modifiers come before what they modify
 
@@ -33,7 +31,7 @@ The same suffix can negate other kinds of words besides verbs:
 
 </details>
 
-The same order also explains the possessive phrases from Lesson 1: in **nim eofa**, *nim* narrows which friend you mean.
+The same order also explains the possessive phrases from Lesson 1: in **nim boemo**, *nim* narrows which kitchen you mean.
 
 ### Words are flexible
 
@@ -51,22 +49,36 @@ The markers and sentence structure tell you how the concept is being used.
 
 ### Roots: connections across clusters
 
-A **root** usually comes after the opening cluster or subcluster. Unlike a cluster, it can show up across very different kinds of words.
+A **root** usually comes after the opening cluster. Unlike a cluster, it can show up across very different kinds of words.
 
 Compare:
 
 **anvu** = **AN** action + **VU** movement → move / go  
-**beivu** = **BEI** vehicle + **VU** movement → car / drive
+**beivu** = **BEI** vehicle + **VU** movement → drive / car
 
 **AN** tells you that **anvu** is an action. **BEI** tells you that **beivu** is a vehicle. Both end in **VU**, movement.
 
-Just as with clusters, roots are clues meant to help learning, and they may not always be exact science. If an association makes sense to you, use it. It may help you remember the word.
+You have already seen the same pattern with **DUR**:
+
+**vardur** = **VAR** face/head area + **DUR** hardness → tooth  
+**yudur** = **YU** subjective quality + **DUR** hardness → hard / difficult
+
+The opening cluster gives the broad semantic domain of the word. The root adds another association.
+
+That helps explain a word like **eofa**:
+
+**eofa** = **EO** social relationships + **FA** family → **friend**
+
+Because **EO** is the opening cluster, **eofa** belongs to the social-relationship domain. **FA** adds the association with family or closeness.  
+
+Just as with clusters, roots are clues meant to help learning, and they may not always be exact science. If an association makes sense to you, use it. It may help you remember the word.  
 
 ### Building blocks
 
+**BEI** — vehicles. *Mnemonic: **be in** a vehicle.*  
+**EO** — social relationships. *Mnemonic: **E**ach **O**ther.*  
+**FA** — family. *Mnemonic: **family / familia / família**.*  
 **YU** — subjective qualities. *Mnemonic: how **YOU** experience it.*  
-**DUR** — hardness. *Mnemonic: **durable**, Spanish/Portuguese **duro**.*  
-**VI** — inside the body. *Mnemonic: **viscera**.*  
 **LEI** — plants. *Mnemonic: **leaf**.*  
 **RIH** — higher, rising. *Mnemonic: **RIse High**.*  
 **APA** — physical movement. *Mnemonic: **A Physical Action**.*  
@@ -75,20 +87,23 @@ Just as with clusters, roots are clues meant to help learning, and they may not 
 
 | Oravia | Meaning | Breakdown |
 |---|---|---|
+| **beivu** | car, to drive | **BEI** vehicles + **VU** movement |
+| **eofa** | friend | **EO** social relationships + **FA** family |
 | **yudur** | hard, difficult | **YU** subjective quality + **DUR** hardness |
-| **vidur** | bone | **VI** inside the body + **DUR** hardness |
 | **leirih** | tree | **LEI** plants + **RIH** rising |
 | **aparih** | jump | **APA** physical movement + **RIH** rising |
 
-### Spot the connection
+### Spot the connections
 
-Compare **yudur / vidur** and **leirih / aparih**. What repeats?
+Compare **vardur / yudur** and **leirih / aparih**. What repeats?
 
 <details markdown="1">
 <summary>Reveal</summary>
 
-**DUR** = hardness, connecting **yudur** “difficult/hard” and **vidur** “bone.”  
+**DUR** = hardness, connecting **vardur** “tooth” and **yudur** “difficult/hard.”  
 **RIH** = rising, connecting **leirih** “tree” and **aparih** “jump.”
+
+The same idea appeared in **eofa**: the opening **EO** gives the broad social domain, while **FA** gives another semantic clue.
 
 </details>
 
@@ -96,7 +111,8 @@ Compare **yudur / vidur** and **leirih / aparih**. What repeats?
 
 !!! tip "From earlier lessons"
     **mo** = eat / food  
-    **boemo** = kitchen / cook
+    **boemo** = kitchen / cook  
+    **yalgai** = small
 
 `i moum`
 
@@ -104,6 +120,24 @@ Compare **yudur / vidur** and **leirih / aparih**. What repeats?
 <summary>Click to Reveal Translation</summary>
 
 *I do not eat.*
+
+</details>
+
+`nim eofa`
+
+<details class="example-translation">
+<summary>Click to Reveal Translation</summary>
+
+*my friend*
+
+</details>
+
+`nim beivu`
+
+<details class="example-translation">
+<summary>Click to Reveal Translation</summary>
+
+*my car*
 
 </details>
 

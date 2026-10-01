@@ -1,10 +1,10 @@
 # Common Imported Words
 
-**The import rule:** for cultural words (names, places, dishes, languages, religions, ethnicities, etc), use the word people use for themselves, not the English or foreign-language exonym. For flora and fauna, scientific names allow you to be specific when needed. If you describe it with Oravia words, add *sol* before compounds.  
+**The import rule:** for cultural words (names, places, dishes, languages, religions, ethnicities, etc), use the word people use for themselves, not the English or foreign-language exonym. For flora and fauna, scientific names allow you to be specific when needed. If you describe it with Oravia words, you may add *sol* before compounds.  
 
-Imported words are not part of the core cluster + root vocabulary, so they take the leading `'` like any other coined or borrowed word.  
+Imported words are not part of the core cluster + root native vocabulary, so they take the leading `'` like any other coined or borrowed word.  
 
-This page contains common imported words and is a non-exhaustive list. Each table below is ordered by number of people (population, speakers, or adherents) whenever applicable, largest first. Preferred choice to keep orthography and approximate pronunciation of the original. As with other words, if you have trouble with the pronunciation of consonant clusters and endings, you may add a short, unstressed 'i'.   
+This page contains common imported words and is a non-exhaustive list. Each table below is ordered by number of people (population, speakers, or adherents) whenever applicable, largest first. Preferred choice to keep orthography and approximate pronunciation of the original. In texts, an Oravia pronunciation may follow the imported word in parenthesis.     
 
 ---
 
@@ -14,8 +14,8 @@ Nationality is country name + ilhei (person)
 | Oravia | English |
 |---|---|
 | 'Bharat, 'India | India |
-| 'Zhongguo, 'Jonguo | China |
-| 'America, 'USA | United States |
+| 'Zhongguo | China |
+| 'USA | United States |
 | 'Indonesia | Indonesia |
 | 'Pakistan | Pakistan |
 | 'Nigeria | Nigeria |
@@ -27,13 +27,13 @@ Nationality is country name + ilhei (person)
 | 'Nihon | Japan |
 | 'Misr | Egypt |
 | 'Pilipinas | Philippines |
-| 'Kongo, 'Congo | DR Congo |
+| 'Congo | DR Congo |
 | 'Viet Nam | Vietnam |
 | 'Iran | Iran |
 | 'Turkiye | Turkey |
 | 'Deutschland | Germany |
 | 'Tanzania | Tanzania |
-| 'Thai, 'Tai | Thailand |
+| 'Thai | Thailand |
 | 'United Kingdom | United Kingdom |
 | 'France | France |
 | 'South Africa | South Africa |
@@ -74,6 +74,23 @@ Nationality is country name + ilhei (person)
 
 ---
 
+## Continents and Regions
+These are based on widely shared cross-linguistic names  
+
+| Oravia | English |
+|---|---|
+| 'America | Americas |
+| 'Oceania | Oceania |
+| 'Europa | Europe |
+| 'Africa | Africa |
+| 'Asia | Asia |
+| 'Antarctica | Antarctica |
+| Wirel 'America | North America |
+| Winou 'America | South America |
+| Jeope 'America | Central America |
+
+---
+
 ## Religions
 
 | Oravia | English |
@@ -105,6 +122,7 @@ Nationality is country name + ilhei (person)
 | 'Bibimbap | Bibimbap |
 | 'Pho | Pho |
 | 'Dim Sum | Dim Sum |
+| 'Burger | Burger |
 | 'Empanada | Empanada |
 | 'Garam Masala, 'Kari | Curry |
 

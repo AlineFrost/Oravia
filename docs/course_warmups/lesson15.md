@@ -1,7 +1,7 @@
 # Lesson 15: Numbers
 
 !!! info "How to Use This Lesson"
-    This lesson is divided into six sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Practice**, **Review**, **Flashcards**.
+    This lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Practice**, **Flashcards**.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -39,7 +39,7 @@
     ```
     
     ```
-    u nim, suum moulu, eori.
+    u nim, suum moulu.
     ```
     
     ```
@@ -64,7 +64,7 @@
     (ani)dai = want  
     (an)do = can, capability  
     (ani)fou = need  
-    oi = yes  
+    ia = yes  
     dou = or  
     su = and  
     eta = therefore  
@@ -72,9 +72,6 @@
     moulu = milk  
     mogali = coffee  
     moaria = apple  
-    eori = please  
-    eoren = honor, mr., mrs., sir, madam  
-    eloan = thank you  
     ilie = maybe  
     ilonya = forget, forgetful  
     ho = opposite  
@@ -107,16 +104,16 @@
       <source src="../audio/15d.m4a" type="audio/mp4">
     </audio>
     
-    L: "Ce mouje a run i anidai, eoren? E moaria mouje dou e mogali?"  
-    M: "E mogali, eori."  
+    L: "Ce mouje a run i anidai? E moaria mouje dou e mogali?"  
+    M: "E mogali."  
     L: "Moval mogali?"  
-    M: "Um, mai su moulu, eori."  
+    M: "Um, mai su moulu."  
     L: "Run i anidai e mocen?"  
     M: "I anidai, mai i anifoum... Nim i moum e moyi, eta ilie i anita e ho yaltan mocen."  
     L: "Nim i do i anona e moyium mocen u run."  
-    M: "Eloan!"    
+    M: "Ia!"    
     L: "Su run fano, hay i anidai moulu?"  
-    M: "Oi, nim i iliro oi. A nim a ilonya, eta anitaum e mo u hay. Su, i bontame e mogali su mocen u nim faibor, eori. Hay en bosvi."  
+    M: "Ia, nim i iliro ia. A nim a ilonya, eta anitaum e mo u hay. Su, i bontame e mogali su mocen u nim faibor. Hay en bosvi."  
 
     
     <div style="text-align: center; margin: 2rem 0;">
@@ -126,16 +123,16 @@
     </div>
     
     <div id="subcluster4-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0 0 0.5rem 0;">L: What drink do you want, sir? Apple juice or coffee?</p>
-    <p style="margin: 0 0 0.5rem 0;">M: Coffee, please.</p>
+    <p style="margin: 0 0 0.5rem 0;">L: What drink do you want? Apple juice or coffee?</p>
+    <p style="margin: 0 0 0.5rem 0;">M: Coffee.</p>
     <p style="margin: 0 0 0.5rem 0;">L: Iced coffee?</p>
-    <p style="margin: 0 0 0.5rem 0;">M: No, but with milk, please. </p>
+    <p style="margin: 0 0 0.5rem 0;">M: No, but with milk. </p>
     <p style="margin: 0 0 0.5rem 0;">L: Do you want chocolate?</p>
     <p style="margin: 0 0 0.5rem 0;">M: I want it, but I don't need it... I don't eat sugar, so maybe a small chocolate.</p>
     <p style="margin: 0 0 0.5rem 0;">L: I can give you chocolate without sugar.</p>
-    <p style="margin: 0 0 0.5rem 0;">M: Thank you!</p>
+    <p style="margin: 0 0 0.5rem 0;">M: Yes!</p>
     <p style="margin: 0 0 0.5rem 0;">L: And for you son, does he want milk?</p>
-    <p style="margin: 0;">M: Yes, I think so. I am forgetful, so I didn't bring food for him. Also, please put coffee and chocolate for my spouse on the table, please. She is in the bathroom. </p>
+    <p style="margin: 0;">M: Yes, I think so. I am forgetful, so I didn't bring food for him. Also, put coffee and chocolate for my spouse on the table. She is in the bathroom. </p>
     </div>
     
     Now try to create your own dialogue using *dou*, *mai*, *su*, and *eta*:
@@ -202,6 +199,57 @@
         Das is also like PIE, leading to words like Portuguese dez and Hindi दस das, both of which mean ten.  
         
 
+
+    ## LI CLUSTER
+
+    We will also learn one new cluster, **LI**. Look at these words.
+
+    <audio controls style="width:100%">
+      <source src="../audio/17v.m4a" type="audio/mp4">
+    </audio>
+
+    | Oravia | English |
+    |--------|---------|
+    | lili | again |
+    | litam | day |
+    | liyar | morning |
+    | lisoi | soon |
+
+    What do you think these words have in common?
+
+    <div style="text-align: center; margin: 2rem 0;">
+    <button onclick="document.getElementById('li-cluster-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+        Click to Reveal Cluster Meaning
+    </button>
+    </div>
+
+    <div id="li-cluster-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+    <p style="margin: 0;">The **LI** words are about **time**!</p>
+    </div>
+
+
+    ### Recognize the Roots
+
+    Take another look at **lisoi**. Do you recognize any roots you've learned before?
+
+    <div style="text-align: center; margin: 1.25rem 0;">
+    <button onclick="document.getElementById('root-recall-l15-li-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.65rem 1.5rem; border-radius: 4px; cursor: pointer;">
+        Click to Reveal the Roots
+    </button>
+    </div>
+
+    <div id="root-recall-l15-li-answer" style="display: none; background: #c8e6c9; padding: 1.25rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 1.25rem 0;">
+    <p style="margin: 0 0 0.45rem 0;"><strong>lisoi</strong> → <strong>SOI</strong> = speed</p>
+    </div>
+
+    !!! info "🌍 Sound Connections"
+        Li is from Mandarin 历 / 曆 li (calendar).  
+
+        Yar means "light", like Arabic ضياء ḍiyāʾ (radiant light).  
+
+    That's why we have:  
+    **yoyar** = white (color + light), just like liyar = morning (time + light)
+
 === "Practice"
 
     ## Matching Games
@@ -209,44 +257,37 @@
     Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
     **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
     Click one word from each column to match them. The game will check automatically when you select both words.
-
     ---
 
     ### Round 1
 
-    <div id="matching-game-1" data-lesson="lesson15" data-round="1"></div>
+    <div id="matching-game-1" data-lesson="cc26_lesson15" data-round="1"></div>
 
     ---
 
     ### Round 2
 
-    <div id="matching-game-2" data-lesson="lesson15" data-round="2"></div>
+    <div id="matching-game-2" data-lesson="cc26_lesson15" data-round="2"></div>
 
     ---
 
     ### Round 3
 
-    <div id="matching-game-3" data-lesson="lesson15" data-round="3"></div>
+    <div id="matching-game-3" data-lesson="cc26_lesson15" data-round="3"></div>
 
     ---
 
     ### Round 4
 
-    <div id="matching-game-4" data-lesson="lesson15" data-round="4"></div>
-
-
-
-=== "Review"
-
-    ## Review Missed Words
-    
-    This section shows words you got wrong during practice. If you didn't miss any, this will be empty - great job! 🎉
-    
-    ---
-    
-    <div id="review-game-container"></div>
+    <div id="matching-game-4" data-lesson="cc26_lesson15" data-round="4"></div>
 
     ---
+
+    ### Round 5
+
+    <div id="matching-game-5" data-lesson="cc26_lesson15" data-round="5"></div>
+
+
 === "Flashcards"
 
     <div id="flashcard-container" data-lesson="15"></div>
@@ -254,11 +295,10 @@
 <script>
     function initWarmup() {
         const warmupWords = [
-    {id: "wu_bortal_1", oravia: "bortal", english: "enter"},
-    {id: "wu_bosvi_2", oravia: "bosvi", english: "toilet"},
-    {id: "wu_bontame_3", oravia: "bontame", english: "table"},
-    {id: "wu_boemo_4", oravia: "boemo", english: "cook"},
-    {id: "wu_lupupi_5", oravia: "lupupi", english: "rain"},
+    {id: "wu_faejor_1", oravia: "faejor", english: "woman"},
+    {id: "wu_falen_2", oravia: "falfal", english: "child"},
+    {id: "wu_bosvi_3", oravia: "bosvi", english: "toilet"},
+    {id: "wu_boelori_4", oravia: "boelori", english: "room"}
     ];
 
     function renderSelfAssessment() {
@@ -313,70 +353,13 @@ initWarmup();
 <p style="font-size: 1.2rem; color: #4a9cd6; margin-bottom: 1rem;">
         🎉 <strong>Lesson 15 Complete!</strong>
     </p>
-<p style="color: #5a8bb8; margin-bottom: 0.5rem;">
-        If you missed any words, check the <strong>Review</strong> tab to practice them again.
-    </p>
 <p style="color: #5a8bb8; margin-bottom: 1.5rem;">
         Come back tomorrow for Lesson 16.
     </p>
 </div>
 
 
-<script>
-    async function initReview() {
-    const wrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-    const container = document.getElementById('review-game-container');
-    if (!container) return;
-    if (wrongIds.length === 0) {
-        container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p><p style="color: #5a8bb8; margin-top: 0.5rem;">You did not miss any words. Excellent work!</p></div>';
-        return;
-}
-    try {
-        const lessonIds = [...new Set(
-            [...document.querySelectorAll('[data-lesson]')]
-                .map(el => el.dataset.lesson)
-        )];
-        const baseUrl = window.location.origin;
-        const responses = await Promise.all(
-            lessonIds.map(id => fetch(baseUrl + '/data/' + id + '_words.json').then(r => r.json()))
-        );
-        const allWords = responses.flatMap(data => data.words);
-        const seen = new Set();
-        const uniqueWords = allWords.filter(w => {
-            if (seen.has(w.id)) return false;
-            seen.add(w.id);
-            return true;
-        });
-        const wrongWords = uniqueWords.filter(word => wrongIds.includes(word.id));
-        if (wrongWords.length === 0) {
-            container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p></div>';
-            return;
-        }
-        container.innerHTML = '<p style="text-align: center; margin-bottom: 2rem; color: #5a8bb8;">Practice these ' + wrongWords.length + ' word(s) you found challenging:</p><div id="review-game-wrapper"></div><div style="text-align: center; margin-top: 2rem;"><button id="clear-review" style="padding: 0.5rem 1.5rem; background: #f57c00; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.95rem;">Clear Review List</button></div>';
-        new MatchingGame('review-game-wrapper', wrongWords, 'review', null, []);
-        document.getElementById('clear-review').addEventListener('click', function() {
-            if (confirm('Clear all review words? This will reset your wrong words list for this lesson.')) {
-                const allWrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-                const lessonWordIds = uniqueWords.map(w => w.id);
-                const remainingWrongIds = allWrongIds.filter(id => !lessonWordIds.includes(id));
-                localStorage.setItem('wrong_ids', JSON.stringify(remainingWrongIds));
-                location.reload();
-            }
-        });
-} catch (error) {
-        console.error('Error loading words:', error);
-        container.innerHTML = '<p style="color: #f44336;">Error loading review words. Please refresh the page.</p>';
-}
-}
-document.addEventListener('DOMContentLoaded', initReview);
-    document.querySelectorAll('.tabbed-labels label').forEach(label => {
-    if (label.textContent.trim() === 'Review') {
-        label.addEventListener('click', function() {
-            setTimeout(initReview, 50);
-        });
-}
-});
-</script>
+
 
 <script>
 (function() {

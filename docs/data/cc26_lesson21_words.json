@@ -1,0 +1,92 @@
+{
+  "lesson_id": "cc26_lesson21",
+  "cluster": "restructured-course",
+  "cluster_meaning": "matching practice",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "Core recognition",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 3
+    },
+    {
+      "round": 2,
+      "title": "Core recognition — repeat 1",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 3,
+      "allow_repeats": true
+    },
+    {
+      "round": 3,
+      "title": "Core recognition — repeat 2",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 3,
+      "allow_repeats": true
+    },
+    {
+      "round": 4,
+      "title": "Sound connections",
+      "buckets": [
+        "r2"
+      ],
+      "words_per_bucket": 4
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson21_r1_1",
+      "oravia": "vanta",
+      "english": "hand",
+      "bucket": "r1",
+      "source_bucket": "core"
+    },
+    {
+      "id": "lesson21_r1_2",
+      "oravia": "vardei",
+      "english": "eye",
+      "bucket": "r1",
+      "source_bucket": "core"
+    },
+    {
+      "id": "lesson21_r1_3",
+      "oravia": "varsus",
+      "english": "ear",
+      "bucket": "r1",
+      "source_bucket": "recognition"
+    },
+    {
+      "id": "lesson21_r2_1",
+      "oravia": "vavari",
+      "english": "back",
+      "bucket": "r2",
+      "source_bucket": "vari-root"
+    },
+    {
+      "id": "lesson21_r2_2",
+      "oravia": "anivari",
+      "english": "return, come back",
+      "bucket": "r2",
+      "source_bucket": "vari-root"
+    },
+    {
+      "id": "lesson21_r2_3",
+      "oravia": "vatale",
+      "english": "neck, throat, cough",
+      "bucket": "r2",
+      "source_bucket": "mio-root"
+    },
+    {
+      "id": "lesson21_r2_4",
+      "oravia": "eomiu",
+      "english": "support",
+      "bucket": "r2",
+      "source_bucket": "mio-root"
+    }
+  ]
+}

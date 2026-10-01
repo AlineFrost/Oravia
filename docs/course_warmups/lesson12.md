@@ -1,9 +1,9 @@
 # Lesson 12: Adjectives
 
 !!! info "How to Use This Lesson"
-    This lesson is divided into six sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Practice**, **Review**, **Flashcards**.
+    This lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Practice**, **Flashcards**.
     
-    **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
+    **Do not try to memorize!** Just read through the content attentively. The warm-ups and flashcards will bring the vocabulary back later!
 
 ---
 
@@ -50,7 +50,7 @@
     ```
     
     ```
-    yaltan falen
+    yaltan falfal
      ↓     ↓         
     big  baby
     ```  
@@ -63,7 +63,7 @@
     
     For example, *the baby is big* would be:  
     ```
-    a falen a yaltan
+    a falfal a yaltan
     ```  
     
     "*Cei faejor?*" How would you reply *the woman is my mother*?  
@@ -107,12 +107,19 @@
 
 === "Vocabulary"
 
-    ## IL SUBCLUSTER
-    
-    Last lesson, we learned about the **IL** cluster. It is about inquiry and knowing. 
-    
-    Today we will learn IL Subclusters!  Look at the list of words below.
-    
+    ## The IL Subclusters
+
+    Remember what **IL** indicated?
+
+    <details markdown="1">
+    <summary>Click to check</summary>
+
+    **IL** = inquiry and cognition.
+
+    </details>
+
+    Now look at these words and see if you can spot the narrower patterns.
+
     <audio controls style="width:100%">
       <source src="../audio/12v.m4a" type="audio/mp4">
     </audio>
@@ -128,6 +135,8 @@
     | iloi | hope |
     | iloto | worry |
     
+    
+    One more example: **ilahai** = talk.
     I will tell you the meanings of the three subclusters and you will try to match which is which. Ready?
     
     One is what happens when knowledge is uncertain.  
@@ -138,7 +147,7 @@
     
     <div style="text-align: center; margin: 2rem 0;">
         <button onclick="document.getElementById('cluster-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
-            Click to Reveal Answer
+            Click to Reveal Subcluster Meanings
         </button>
     </div>
     
@@ -162,6 +171,7 @@
     | ilhei | people |
     | ilteli | moment |
     
+
     Combined with sunya (nothing, none, zero), we have:  
     **sunya ilhei** = nobody, no one (sunya + ilhei)  
     **sunya ilwol** = nothing (sunya + ilwol)  
@@ -172,7 +182,7 @@
     ILI = cognition (know, maybe, think)
     ILO = uncertain knowledge (worry, hope, forget)
     ```
-    You are now ready for the Exercise!
+    Now try the exercise.
 
 === "Practice"
 
@@ -181,44 +191,30 @@
     Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
     **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
     Click one word from each column to match them. The game will check automatically when you select both words.
-
     ---
 
     ### Round 1
 
-    <div id="matching-game-1" data-lesson="lesson12" data-round="1"></div>
+    <div id="matching-game-1" data-lesson="cc26_lesson12" data-round="1"></div>
 
     ---
 
     ### Round 2
 
-    <div id="matching-game-2" data-lesson="lesson12" data-round="2"></div>
+    <div id="matching-game-2" data-lesson="cc26_lesson12" data-round="2"></div>
 
     ---
 
     ### Round 3
 
-    <div id="matching-game-3" data-lesson="lesson12" data-round="3"></div>
+    <div id="matching-game-3" data-lesson="cc26_lesson12" data-round="3"></div>
 
     ---
 
     ### Round 4
 
-    <div id="matching-game-4" data-lesson="lesson12" data-round="4"></div>
+    <div id="matching-game-4" data-lesson="cc26_lesson12" data-round="4"></div>
 
-
-
-=== "Review"
-
-    ## Review Missed Words
-    
-    This section shows words you got wrong during practice. If you didn't miss any, this will be empty - great job! 🎉
-    
-    ---
-    
-    <div id="review-game-container"></div>
-
-    ---
 === "Flashcards"
 
     <div id="flashcard-container" data-lesson="12"></div>
@@ -226,12 +222,13 @@
 <script>
     function initWarmup() {
     const warmupWords = [
-    {id: "wu_faibor_1", oravia: "faibor", english: "partner, spouse"},
-    {id: "wu_falen_2", oravia: "falen", english: "child"},
-    {id: "wu_fano_3", oravia: "fano", english: "offspring, child"},
-    {id: "wu_fare_4", oravia: "fare", english: "parent"},
-    {id: "wu_yani_5", oravia: "yani", english: "new"},
-    {id: "wu_faejor_6", oravia: "faejor", english: "woman"},
+    {id: "wu_nimas_1", oravia: "nimas", english: "we"},
+    {id: "wu_runas_2", oravia: "runas", english: "you (plural)"},
+    {id: "wu_hayas_3", oravia: "hayas", english: "they (plural)"},
+    {id: "wu_bortal_4", oravia: "bortal", english: "door"},
+    {id: "wu_bontame_5", oravia: "bontame", english: "table"},
+    {id: "wu_molcui_6", oravia: "molcui", english: "bowl"},
+    {id: "wu_moaria_7", oravia: "moaria", english: "apple"}
     ];
 
     function renderSelfAssessment() {
@@ -251,12 +248,11 @@
         html += '<div style="text-align:center; margin-top:1.5rem;">';
         html += '<button id="show-answers-btn" style="background:#4a9cd6; color:white; border:none; padding:0.75rem 2rem; border-radius:4px; cursor:pointer; font-size:1rem;">Show Answers</button>';
         html += '</div>';
-        html += `<div id="syllable-reminder" style="display:none; margin-top:1.25rem; padding:1rem; background:#eef7fb; border-left:4px solid #4a9cd6; border-radius:6px;"><p style="margin:0 0 0.5rem 0; font-weight:bold; color:#345;">Syllable reminders</p><p style="margin:0.25rem 0;"><strong>fa</strong> = family; Latin familia</p><p style="margin:0.25rem 0;"><strong>re(l)</strong> = up, one generation up; Latin relevare</p><p style="margin:0.25rem 0;"><strong>no(u)</strong> = down, one generation below; Arabic naw</p><p style="margin:0.25rem 0;"><strong>fae</strong> = gender</p></div>`;
+
         container.innerHTML = html;
         document.getElementById('show-answers-btn').addEventListener('click', function() {
             document.querySelectorAll('.answer-col').forEach(col => col.style.display = 'table-cell');
-            const reminder = document.getElementById('syllable-reminder');
-            if (reminder) reminder.style.display = 'block';
+
             this.style.display = 'none';
             // Log warm-up self-assessment
             const log = JSON.parse(localStorage.getItem('oravia_log') || '[]');
@@ -290,68 +286,14 @@ initWarmup();
         🎉 <strong>Lesson 12 Complete!</strong>
     </p>
 <p style="color: #5a8bb8; margin-bottom: 0.5rem;">
-        If you missed any words, check the <strong>Review</strong> tab to practice them again.
+        Use the <strong>Flashcards</strong> tab for another quick review.
     </p>
 <p style="color: #5a8bb8; margin-bottom: 1.5rem;">
         Come back tomorrow for Lesson 13.
     </p>
 </div>
 
-<script>
-    async function initReview() {
-    const wrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-    const container = document.getElementById('review-game-container');
-    if (!container) return;
-    if (wrongIds.length === 0) {
-        container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p><p style="color: #5a8bb8; margin-top: 0.5rem;">You did not miss any words. Excellent work!</p></div>';
-        return;
-}
-    try {
-        const lessonIds = [...new Set(
-            [...document.querySelectorAll('[data-lesson]')]
-                .map(el => el.dataset.lesson)
-        )];
-        const baseUrl = window.location.origin;
-        const responses = await Promise.all(
-            lessonIds.map(id => fetch(baseUrl + '/data/' + id + '_words.json').then(r => r.json()))
-        );
-        const allWords = responses.flatMap(data => data.words);
-        const seen = new Set();
-        const uniqueWords = allWords.filter(w => {
-            if (seen.has(w.id)) return false;
-            seen.add(w.id);
-            return true;
-        });
-        const wrongWords = uniqueWords.filter(word => wrongIds.includes(word.id));
-        if (wrongWords.length === 0) {
-            container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p></div>';
-            return;
-        }
-        container.innerHTML = '<p style="text-align: center; margin-bottom: 2rem; color: #5a8bb8;">Practice these ' + wrongWords.length + ' word(s) you found challenging:</p><div id="review-game-wrapper"></div><div style="text-align: center; margin-top: 2rem;"><button id="clear-review" style="padding: 0.5rem 1.5rem; background: #f57c00; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.95rem;">Clear Review List</button></div>';
-        new MatchingGame('review-game-wrapper', wrongWords, 'review', null, []);
-        document.getElementById('clear-review').addEventListener('click', function() {
-            if (confirm('Clear all review words? This will reset your wrong words list for this lesson.')) {
-                const allWrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-                const lessonWordIds = uniqueWords.map(w => w.id);
-                const remainingWrongIds = allWrongIds.filter(id => !lessonWordIds.includes(id));
-                localStorage.setItem('wrong_ids', JSON.stringify(remainingWrongIds));
-                location.reload();
-            }
-        });
-} catch (error) {
-        console.error('Error loading words:', error);
-        container.innerHTML = '<p style="color: #f44336;">Error loading review words. Please refresh the page.</p>';
-}
-}
-document.addEventListener('DOMContentLoaded', initReview);
-    document.querySelectorAll('.tabbed-labels label').forEach(label => {
-    if (label.textContent.trim() === 'Review') {
-        label.addEventListener('click', function() {
-            setTimeout(initReview, 50);
-        });
-}
-});
-</script>
+
 
 <script>
 (function() {

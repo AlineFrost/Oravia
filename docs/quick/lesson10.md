@@ -70,7 +70,7 @@ A quick picture:
 
 Start with two events in the same past scene:
 
-`litamar, nim i mo cali haya i anvu`
+`litamar, nim i mo cali hayas i anvu`
 
 <details class="example-translation">
 <summary>Click to Reveal Translation</summary>
@@ -81,7 +81,7 @@ Start with two events in the same past scene:
 
 Now add **-ar** to the first event:
 
-`litamar, nim i moar cali haya i anvu`
+`litamar, nim i moar cali hayas i anvu`
 
 <details class="example-translation">
 <summary>Click to Reveal Translation</summary>
@@ -97,7 +97,7 @@ The eating is complete by the time of the going.
 
 Or put **-is** on the second event:
 
-`litamar, nim i mo, haya i anvuis`
+`litamar, nim i mo, hayas i anvuis`
 
 <details class="example-translation">
 <summary>Click to Reveal Translation</summary>
@@ -176,7 +176,7 @@ What time of day does **liyar** suggest?
 </details>
 
 
-`litamis, nim i boemoar cali haya i mo`
+`litamis, nim i boemoar cali hayas i mo`
 
 <details class="example-translation">
 <summary>Click to Reveal Translation</summary>

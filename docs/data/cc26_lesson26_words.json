@@ -1,0 +1,182 @@
+{
+  "lesson_id": "cc26_lesson26",
+  "cluster": "restructured-course",
+  "cluster_meaning": "matching practice",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "YUN / general YU contrast 1",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 2,
+      "title": "YUN / general YU contrast 2",
+      "buckets": [
+        "r2"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 3,
+      "title": "YUN / general YU contrast 3",
+      "buckets": [
+        "r3"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 4,
+      "title": "YUN / general YU contrast 4",
+      "buckets": [
+        "r4"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 5,
+      "title": "Sound connections",
+      "buckets": [
+        "r5"
+      ],
+      "words_per_bucket": 3
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson26_r1_1",
+      "oravia": "yunmir",
+      "english": "rich",
+      "bucket": "r1",
+      "source_bucket": "yun"
+    },
+    {
+      "id": "lesson26_r1_2",
+      "oravia": "yunro",
+      "english": "smart",
+      "bucket": "r1",
+      "source_bucket": "yun"
+    },
+    {
+      "id": "lesson26_r1_3",
+      "oravia": "yuvabo",
+      "english": "comfortable",
+      "bucket": "r1",
+      "source_bucket": "yu-general"
+    },
+    {
+      "id": "lesson26_r1_4",
+      "oravia": "yugai",
+      "english": "easy",
+      "bucket": "r1",
+      "source_bucket": "yu-general"
+    },
+    {
+      "id": "lesson26_r2_1",
+      "oravia": "yunfou",
+      "english": "poor",
+      "bucket": "r2",
+      "source_bucket": "yun"
+    },
+    {
+      "id": "lesson26_r2_2",
+      "oravia": "yunitam",
+      "english": "special",
+      "bucket": "r2",
+      "source_bucket": "yun"
+    },
+    {
+      "id": "lesson26_r2_3",
+      "oravia": "yuba",
+      "english": "good",
+      "bucket": "r2",
+      "source_bucket": "yu-general"
+    },
+    {
+      "id": "lesson26_r2_4",
+      "oravia": "yudur",
+      "english": "hard, difficult",
+      "bucket": "r2",
+      "source_bucket": "yu-general"
+    },
+    {
+      "id": "lesson26_r3_1",
+      "oravia": "yunmpou",
+      "english": "lazy",
+      "bucket": "r3",
+      "source_bucket": "yun"
+    },
+    {
+      "id": "lesson26_r3_2",
+      "oravia": "yunrani",
+      "english": "beautiful",
+      "bucket": "r3",
+      "source_bucket": "yun"
+    },
+    {
+      "id": "lesson26_r3_3",
+      "oravia": "yuloa",
+      "english": "perfect",
+      "bucket": "r3",
+      "source_bucket": "yu-general"
+    },
+    {
+      "id": "lesson26_r3_4",
+      "oravia": "yufer",
+      "english": "dirty",
+      "bucket": "r3",
+      "source_bucket": "yu-general"
+    },
+    {
+      "id": "lesson26_r4_1",
+      "oravia": "yunro",
+      "english": "smart",
+      "bucket": "r4",
+      "source_bucket": "yun"
+    },
+    {
+      "id": "lesson26_r4_2",
+      "oravia": "yunpili",
+      "english": "timid",
+      "bucket": "r4",
+      "source_bucket": "yun"
+    },
+    {
+      "id": "lesson26_r4_3",
+      "oravia": "yuvabo",
+      "english": "comfortable",
+      "bucket": "r4",
+      "source_bucket": "yu-general"
+    },
+    {
+      "id": "lesson26_r4_4",
+      "oravia": "yuba",
+      "english": "good",
+      "bucket": "r4",
+      "source_bucket": "yu-general"
+    },
+    {
+      "id": "lesson26_r5_1",
+      "oravia": "yunmir",
+      "english": "rich",
+      "bucket": "r5",
+      "source_bucket": "mir-root"
+    },
+    {
+      "id": "lesson26_r5_2",
+      "oravia": "roumir",
+      "english": "book",
+      "bucket": "r5",
+      "source_bucket": "mir-root"
+    },
+    {
+      "id": "lesson26_r5_3",
+      "oravia": "yamirli",
+      "english": "old",
+      "bucket": "r5",
+      "source_bucket": "mir-root"
+    }
+  ]
+}

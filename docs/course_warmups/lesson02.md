@@ -1,9 +1,9 @@
 # Lesson 2: Markers
 
 !!! info "How to Use This Lesson"
-    This lesson is divided into five sections. Please move through them in this order: **Grammar**, **Vocabulary**, **Practice**, **Review**, **Flashcards**.
+    This lesson is divided into four sections. Please move through them in this order: **Grammar**, **Vocabulary**, **Practice**, **Flashcards**.
     
-    **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
+    **Do not try to memorize!** Just read through the content attentively. The warm-ups and flashcards will bring the vocabulary back later!
 
 ---
 
@@ -20,29 +20,39 @@
     We use markers! Markers indicate what the word is doing in the sentence.
     
     **i** indicates **verbs**. For example,
-    
+
     ```
     i mo
     ```
-    
-    always means *to eat*. But this is hardly a sentence: *eat what*? For that, we use **e**. **e** indicates the **direct complement of the verb**. For example,
-    
+
+    Here **mo** is the verb. In a short utterance about yourself, **i mo** can simply mean *I eat / I'm eating*.
+
+    To name what is being eaten, use **e**. **e** indicates the **direct complement of the verb**. For example,
+
     ```
     i mo e mo
     ```
-    
-    means *to eat the food*. Notice that we don't use articles!
-    
-    This sentence still sounds incomplete. You may wonder: *who eats*?
-    
+
+    means *I eat the food* when the subject is understood. Notice that we don't use articles!
+
     **a** indicates the **subject**, usually who is doing the action. You may say,
-    
+
     ```
     a nim i mo e mo
     ```
-    
-    Can you understand this sentence? It means "I eat the food". In this case, you could omit **a**, **e**, or both. Hardly anyone would think the food is eating you!
-    
+
+    With a simple pronoun, **a** is often left out:
+
+    ```
+    nim i mo e mo
+    ```
+
+    So all three occur:
+
+    **a nim i mo → nim i mo → i mo**
+
+    Use **nim** when you want to make the subject explicit.
+
     So, the sentence pattern is:
     
     ```
@@ -71,22 +81,20 @@
     
     | Oravia | English |
     |--------|---------|
-    | mogali | coffee |
+    | moaria | apple |
     | mocen  | chocolate |
-    | moyi   | sugar |
-    | moval  | ice |
+    | mogali | coffee |
     | mouje  | drink |
-    | moulu  | milk |
-    
+
     | Singular | Plural |
     |----------|--------|
-    | **nim** (I) | **nima** (we) |
-    | **run** (you) | **runa** (you all) |
-    | **hay** (he/she/they) | **haya** (they pl.) |
+    | **nim** (I) | **nimas** (we) |
+    | **run** (you) | **runas** (you all) |
+    | **hay** (he/she/they) | **hayas** (they pl.) |
     
-    Can you say "she eats chocolate?" Notice that there is no verb conjugation.
+    Can you say "she eats an apple?" Notice that there is no verb conjugation.
     
-    How about "we drink chocolate?" Remember, the words have flexible use!
+    How about "we drink coffee?" Remember, the words have flexible use!
     
     <div style="text-align: center; margin: 2rem 0;">
         <button onclick="document.getElementById('subcluster-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
@@ -95,7 +103,7 @@
     </div>
     
     <div id="subcluster-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-        <p style="margin: 0;">There are multiple ways to say it, for example: a hay i mo e mocen; a nima i mouje e mocen.</p>
+        <p style="margin: 0;">There are multiple ways to say it, for example: a hay i mo e moaria; a nimas i mouje e mogali.</p>
     </div>
     
     Now try to create a sentence using what you've just learned, or 3 if you're up for a challenge!
@@ -126,111 +134,73 @@
 
 === "Vocabulary"
 
-    ## The MO Cluster
+    ## The FA Cluster
     
-    We are going to dive deeper into our first cluster! Look at the list of words below.
+    Time to take a look at our second cluster! Look at the list of words below.
     
     **Remember, do not try to memorize them.** Just read it through attentively.
     
     <audio controls style="width:100%">
-      <source src="../audio/2v.mp3" type="audio/wav">
+      <source src="../audio/3v.mp3" type="audio/wav">
     </audio>
-    
     
     | Oravia | English |
     |--------|---------|
-    | molban | cup |
-    | molcui | bowl |
-    | molvou | bottle |
-    | moaria | apple |
-    | moalen  | banana |
-    | moanih | berry |
+    | faibor | spouse |
+    | fare | parent |
+    | falfal | child |
+    | fasu | sibling |
     
-    What do you think the words that start in *MOL* have in common?
+    What do you think the words that start in *FA* have in common?
     
     <div style="text-align: center; margin: 2rem 0;">
         <button onclick="document.getElementById('cluster-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
-            Click to Reveal Subcluster Meaning
+            Click to Reveal Cluster Meaning
         </button>
     </div>
     
     <div id="cluster-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-        <p style="margin: 0;">They are all <strong>food containers</strong>.</p>
+        <p style="margin: 0;">That's right! FA words are related to <strong>family</strong>.</p>
     </div>
-    
-    
-    How about *MOA*, what do you think it means?
-    
-    <div style="text-align: center; margin: 2rem 0;">
-        <button onclick="document.getElementById('fruit-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
-            Click to Reveal Subcluster Meaning
-        </button>
-    </div>
-    
-    <div id="fruit-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-        <p style="margin: 0;">MOA means <strong>fruit</strong>, and all words that start with MOA are fruits.</p>
-    </div>
-    
-    *MOA* and *MOL* are subclusters! They indicate subdivisions within the *MO cluster*. Each cluster can have between 0–4 subclusters. 
-    Subclusters are usually indicated by the third letter, completing a syllable. For example, with a cluster like MO, you could have subclusters that sound like MOL-ban, MOA-ria, MOU-je... but you would generally *not* have a subcluster like MOG-ali, because the third letter here is starting another syllable.
     
     !!! info "🌍 Sound Connections"
-        Moa means banana plant in Polynesian roots, and indicates all fruits in Oravia.  
+        Fa is like Latin familia, which is where the English word family comes from.  
           
-        Banana is Moalen (moa + len). Len is like Latin longus (long), which is the root of the word longitude in English. Notice it is also similar to the word length.  
+        Parent uses the root re(l), which comes from Latin relevare (to lift, raise up). This is because parents are one generation above!  
         
-    So let's take a look at some other words:  
-    **yalen** = long (quality + long), just like moalen = banana (fruit + long).  
-    **yogali** = brown (color + coffee), just like mogali = coffee (food + coffee). 
+    Here is another word that uses this root:  
+    **wirel** = north (geography + up), just like fare = parent (family member + up). 
     
-      ---  
-      
-    We will now move on to the Matching Game Exercise. Sometimes, the game is about recognizing the meanings behind certain syllables, rather than learning words. On the next page, you will see many different words you do not need to memorize. Instead, try using the subcluster sounds we just learned to figure out which word corresponds to which meaning.    
+
     
-      ---  
+    ---
 
 === "Practice"
 
     ## Matching Games
 
-    Time to practice! Match the Oravia words with their English meanings.
-
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
-
+    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
     Click one word from each column to match them. The game will check automatically when you select both words.
-
     ---
 
     ### Round 1
 
-    <div id="matching-game-1" data-lesson="lesson02" data-round="1"></div>
+    <div id="matching-game-1" data-lesson="cc26_lesson02" data-round="1"></div>
 
     ---
 
     ### Round 2
 
-    <div id="matching-game-2" data-lesson="lesson02" data-round="2"></div>
+    <div id="matching-game-2" data-lesson="cc26_lesson02" data-round="2"></div>
 
     ---
 
     ### Round 3
 
-    <div id="matching-game-3" data-lesson="lesson02" data-round="3"></div>
+    <div id="matching-game-3" data-lesson="cc26_lesson02" data-round="3"></div>
 
 
-
-=== "Review"
-
-    ## Review Missed Words
-    
-    This section shows only the words you got wrong during practice. If you didn't miss any words, this will be empty - great job! 🎉
-    
-    ---
-    
-    <div id="review-game-container"></div>
-      
-
-    ---
 === "Flashcards"
 
     <div id="flashcard-container" data-lesson="2"></div>
@@ -240,68 +210,14 @@
         🎉 <strong>Lesson 2 Complete!</strong>
     </p>
 <p style="color: #5a8bb8; margin-bottom: 0.5rem;">
-        If you missed any words, check the <strong>Review</strong> tab to practice them again.
+        Use the <strong>Flashcards</strong> tab for another quick review.
     </p>
 <p style="color: #5a8bb8; margin-bottom: 1.5rem;">
         Come back tomorrow for Lesson 3.
     </p>
 </div>
 
-<script>
-    async function initReview() {
-    const wrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-    const container = document.getElementById('review-game-container');
-    if (!container) return;
-    if (wrongIds.length === 0) {
-        container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p><p style="color: #5a8bb8; margin-top: 0.5rem;">You did not miss any words. Excellent work!</p></div>';
-        return;
-}
-    try {
-        const lessonIds = [...new Set(
-            [...document.querySelectorAll('[data-lesson]')]
-                .map(el => el.dataset.lesson)
-        )];
-        const baseUrl = window.location.origin;
-        const responses = await Promise.all(
-            lessonIds.map(id => fetch(baseUrl + '/data/' + id + '_words.json').then(r => r.json()))
-        );
-        const allWords = responses.flatMap(data => data.words);
-        const seen = new Set();
-        const uniqueWords = allWords.filter(w => {
-            if (seen.has(w.id)) return false;
-            seen.add(w.id);
-            return true;
-        });
-        const wrongWords = uniqueWords.filter(word => wrongIds.includes(word.id));
-        if (wrongWords.length === 0) {
-            container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p></div>';
-            return;
-        }
-        container.innerHTML = '<p style="text-align: center; margin-bottom: 2rem; color: #5a8bb8;">Practice these ' + wrongWords.length + ' word(s) you found challenging:</p><div id="review-game-wrapper"></div><div style="text-align: center; margin-top: 2rem;"><button id="clear-review" style="padding: 0.5rem 1.5rem; background: #f57c00; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.95rem;">Clear Review List</button></div>';
-        new MatchingGame('review-game-wrapper', wrongWords, 'review', null, []);
-        document.getElementById('clear-review').addEventListener('click', function() {
-            if (confirm('Clear all review words? This will reset your wrong words list for this lesson.')) {
-                const allWrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-                const lessonWordIds = uniqueWords.map(w => w.id);
-                const remainingWrongIds = allWrongIds.filter(id => !lessonWordIds.includes(id));
-                localStorage.setItem('wrong_ids', JSON.stringify(remainingWrongIds));
-                location.reload();
-            }
-        });
-} catch (error) {
-        console.error('Error loading words:', error);
-        container.innerHTML = '<p style="color: #f44336;">Error loading review words. Please refresh the page.</p>';
-}
-}
-document.addEventListener('DOMContentLoaded', initReview);
-    document.querySelectorAll('.tabbed-labels label').forEach(label => {
-    if (label.textContent.trim() === 'Review') {
-        label.addEventListener('click', function() {
-            setTimeout(initReview, 50);
-        });
-}
-});
-</script>
+
 
 <script>
 (function() {

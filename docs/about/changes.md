@@ -1,5 +1,21 @@
 # Website Versions
 
+## October 1st 2026 
+. new song **Yomel Hehou!** (thanks to *Dani Lau* and *Lucas Shred*!).  
+. added **Graded Readers** 2.5, 2.6, 3.1, 3.2, 3.3.   
+. website version is in the **Wayback Machine** (thanks to *dankennedy*!).   
+. added inclusive and exclusive pronouns in the **Grammar** 4.1 (thanks to *wasoweli*!).  
+. changed plural pronouns from a -> as to avoid collisions with markers, so nima -> **nimas**, runa -> **runas**, and haya -> **hayas** (thanks to *Csaba*!).    
+. added new **Pronunciation Guide** page, under Reference.  
+. changed the higher-level organization of the website.   
+
+
+## September 18th 2026
+. added **Graded Readers**!  
+. fixed mistakes in the grammar and added to the **50. Grammatical Mistakes** section.  
+. updated the **Core and Expansion** course to use more root recognition in the methodology (thanks to *dankennedy*!).   
+. changes falen -> **falfal** and jor/jal to come after the word, as in farejor -> **jor fare**, farejal -> **jal fare**.  
+
 ## August 16th 2026
 . added **Oravia in 12 Lessons**!  
 . added **How to Learn it?** section.  

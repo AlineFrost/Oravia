@@ -1,45 +1,49 @@
-# Lesson 9: YA Cluster
+# Lesson 9: IL Cluster
 
 !!! info "How to Use This Lesson"
-    This lesson is divided into five sections. Please move through them in this order: **Grammar**, **Vocabulary**, **Practice**, **Review**, **Flashcards**. After you finish, *try the Exercises and Review again* to see how much you’ve improved.
+    This lesson is divided into four sections. Please move through them in this order: **Grammar**, **Vocabulary**, **Practice**, **Flashcards**.
     
-    **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
+    **Do not try to memorize!** Just read through the content attentively. The warm-ups and flashcards will bring the vocabulary back later!
 
 ---
 
 === "Grammar"
 
     ## Questions
-    
-    Now, see if you can understand these questions. If you scroll bellow, you will see tips, and then answers. 
-    
-    <audio controls style="width:100%">
-      <source src="../audio/9g.m4a" type="audio/mp4">
-    </audio>
 
-    
+    Two AN verbs from Lesson 7 can be shortened when another verb follows:
+
+    ```
+    anidai → dai = want
+    anifou → fou = need
+    ```
+
+    So **i dai i [verb]** means *want to [verb]*, and **i fou i [verb]** means *need to [verb]*.
+
+    Now, see if you can understand these questions. If you scroll bellow, you will see tips, and then answers. 
+    <!-- Audio temporarily hidden: it contains the previous plural-pronoun forms. Rerecord with nimas/runas/hayas. -->
     ```
     cedom run faibor i bortal?
     ```
     
     ```
-    ce hay falen i dai i boemo?
+    ce hay falfal i dai i boemo?
     ```
     
     ```
-    cei haya fare?
+    cei hayas fare?
     ```
     
     ```
-    de cedom runa bontame?
+    de cedom runas bontame?
     ```
     
     ```
-    ce nima i fou i bospupi?
+    ce nimas i fou i bospupi?
     ```
     
     ```
-    nim fano i do i boemo.
+    nim fano i dai i boemo.
     ```
     
     **Tips**
@@ -48,9 +52,8 @@
     cedom = where (what place)?  
     cei = who (what person)?  
     de = of/from  
-    -e = possessive  
     faibor = partner  
-    falen = child  
+    falfal = child  
     fare = parent  
     fano = offspring  
     boemo = kitchen, to cook  
@@ -59,7 +62,6 @@
     bospupi = shower, bath  
     (ani)dai = to want  
     (ani)fou = to need  
-    (an)do = can, capacity  
     
     <div style="text-align: center; margin: 2rem 0;">
         <button onclick="document.getElementById('subcluster-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
@@ -68,13 +70,12 @@
     </div>
     
     <div id="subcluster-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-        <p style="margin: 0;"> Possible translations: Where does your spouse enter? What does his child want to cook? Who are their parents? Where is your table from? What do we need to wash? My son can cook. </p>
+        <p style="margin: 0;"> Possible translations: Where does your spouse enter? What does his child want to cook? Who are their parents? Where is your table from? What do we need to wash? My son wants to cook. </p>
     </div>
     
     Now try to create a sentence using verb stacking, or 3 if you're up for a challenge! Remember:
     ```
     i [root] i [verb] 
-    i do i [verb] = can [verb]
     i dai i [verb] = want to [verb]
     i fou i [verb] = need to [verb]
     ```
@@ -97,97 +98,108 @@
 
 === "Vocabulary"
 
-    ## The YA Subclusters
+    ## The IL Cluster
     
-    Today we will learn a new cluster, YA! Take a look at these words.
+    Today we will learn a new cluster, **IL**! Look at these words.
     
     <audio controls style="width:100%">
-      <source src="../audio/9v.mp3" type="audio/wav">
+      <source src="../audio/11v.m4a" type="audio/mp4">
     </audio>
     
     | Oravia | English |
     |--------|---------|
-    | yasoi | fast |
-    | yalgai | small |
-    | yani | new |
-    | yamirli | old |
-    | yavuson | slow |
+    | ilace | ask |
+    | ilonya | forget |
+    | ilian | know |
+    | ilaluan | say |
+    | iliro | think |
+    | iloto | worry |
     
-    What do you think the words in the *YA* subcluster have in common?
-    
+    What do you think the **IL** cluster is about?
+
     <div style="text-align: center; margin: 2rem 0;">
-        <button onclick="document.getElementById('cluster5-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
-            Click to Reveal Answer
+        <button onclick="document.getElementById('cluster-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+            Click to Reveal Cluster Meaning
         </button>
     </div>
-    
-    <div id="cluster5-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-        <p style="margin: 0;"> That's right! They are all <strong>characteristics</strong>.</p>
+
+    <div id="cluster-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+        <p style="margin: 0;">The **IL** cluster is related to <strong>inquiry and cognition</strong>: asking and sharing information, mental processes, and feelings that come from not knowing.</p>
     </div>
-    
-    These words are primarily used as adjectives, or characterists. This is not the only cluster with characteristics, we have another one coming up. The difference is that the **YA** cluster is about **objective characteristics**, that is, things that can be **measured**. The other cluster is about subjective characteristics, things like boring, or beautiful. 
-    
-    Recall words are flexible. The **YA** cluster is usually in the role of adjectives, but they can have other meanings as well. For example:
+
+    These words cover common ways of asking, knowing, thinking, and reacting to uncertainty.  
+
+    Recall words are flexible. In which ways do you think these words can be used as adjectives, verbs, or nouns? For example:
     
     | Oravia | English |
     |--------|---------|
-    | yasoi | fast, speed |
-    | yalgai | small, little |
-    | yani | new, innovation |
-    | yamirli | old, age |
-    | yavuson | slow, slowly |
+    | ilace | to ask, question, curious, curiosity |
+    | ilonya | to forget, forgetful |
+    | ilian | to know, understand |
+    | ilaluan | to say, saying |
+    | iliro | to think, thought, opinion |
+    | iloto | worry, concern, to worry |
+
     
-    It all depends on how you use the word in each sentence! In future lessons we will take a look at some sentences we can make with these words in various roles. 
+
+    ### Recognize the Roots
+
+    Take another look at **ilian**. Do you recognize any roots you've learned before?
+
+    <div style="text-align: center; margin: 1.25rem 0;">
+    <button onclick="document.getElementById('root-recall-l9-il-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.65rem 1.5rem; border-radius: 4px; cursor: pointer;">
+        Click to Reveal the Roots
+    </button>
+    </div>
+
+    <div id="root-recall-l9-il-answer" style="display: none; background: #c8e6c9; padding: 1.25rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 1.25rem 0;">
+    <p style="margin: 0 0 0.45rem 0;"><strong>ilian</strong> → <strong>AN</strong> = action</p>
+    </div>
 
     !!! info "🌍 Sound Connections"
-        Gai means small and comes from English and French grain.  
+        Ce means "what", just like in many Romance languages que/ce.  
         
-    Here are other words with this root:  
-    **litegai** = minute (clock time + small; hour is the big unit), just like yalgai = small (objective quality + small).          
+        Nya is empty, from Sanskrit शून्य śūnya (nothingness, emptiness).
+        
+        To is suffering, like Indonesian tobat (remorse, suffering from wrongdoing); Latin torquere (to twist, torture).  
+        
+    That's why we have:  
+    **sunya** = nothing, zero; just like ilonya = forget (uncertain cognition + nothing).  
+    **sioce** = puzzle (games cluster + what?), just like ilace = question, to ask (communication of cognition + what?)  
+    **veito** = wound (health issues + suffering), just like iloto = worry (cognition + suffering)  
 
 === "Practice"
 
     ## Matching Games
-    
-    Time to practice! Match the Oravia words with their English meanings.
-    
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
-    
+
+    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
     Click one word from each column to match them. The game will check automatically when you select both words.
-    
     ---
-    
+
     ### Round 1
-    
-    <div id="matching-game-1" data-lesson="lesson09" data-round="1"></div>
+
+    <div id="matching-game-1" data-lesson="cc26_lesson09" data-round="1"></div>
 
     ---
 
     ### Round 2
-    
-    <div id="matching-game-2" data-lesson="lesson09" data-round="2"></div>
+
+    <div id="matching-game-2" data-lesson="cc26_lesson09" data-round="2"></div>
 
     ---
 
     ### Round 3
-    
-    <div id="matching-game-3" data-lesson="lesson09" data-round="3"></div>
 
-
-
-
-=== "Review"
-
-    ## Review Missed Words
-    
-    This section shows only the words you got wrong during practice. If you didn't miss any words, this will be empty - great job! 🎉
-    
-    ---
-    
-    <div id="review-game-container"></div>
-      
+    <div id="matching-game-3" data-lesson="cc26_lesson09" data-round="3"></div>
 
     ---
+
+    ### Round 4
+
+    <div id="matching-game-4" data-lesson="cc26_lesson09" data-round="4"></div>
+
+
 === "Flashcards"
 
     <div id="flashcard-container" data-lesson="9"></div>
@@ -197,68 +209,14 @@
         🎉 <strong>Lesson 9 Complete!</strong>
     </p>
 <p style="color: #5a8bb8; margin-bottom: 0.5rem;">
-        If you missed any words, check the <strong>Review</strong> tab to practice them again.
+        Use the <strong>Flashcards</strong> tab for another quick review.
     </p>
 <p style="color: #5a8bb8; margin-bottom: 1.5rem;">
         Come back tomorrow for Lesson 10.
     </p>
 </div>
 
-<script>
-    async function initReview() {
-    const wrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-    const container = document.getElementById('review-game-container');
-    if (!container) return;
-    if (wrongIds.length === 0) {
-        container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p><p style="color: #5a8bb8; margin-top: 0.5rem;">You did not miss any words. Excellent work!</p></div>';
-        return;
-}
-    try {
-        const lessonIds = [...new Set(
-            [...document.querySelectorAll('[data-lesson]')]
-                .map(el => el.dataset.lesson)
-        )];
-        const baseUrl = window.location.origin;
-        const responses = await Promise.all(
-            lessonIds.map(id => fetch(baseUrl + '/data/' + id + '_words.json').then(r => r.json()))
-        );
-        const allWords = responses.flatMap(data => data.words);
-        const seen = new Set();
-        const uniqueWords = allWords.filter(w => {
-            if (seen.has(w.id)) return false;
-            seen.add(w.id);
-            return true;
-        });
-        const wrongWords = uniqueWords.filter(word => wrongIds.includes(word.id));
-        if (wrongWords.length === 0) {
-            container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p></div>';
-            return;
-        }
-        container.innerHTML = '<p style="text-align: center; margin-bottom: 2rem; color: #5a8bb8;">Practice these ' + wrongWords.length + ' word(s) you found challenging:</p><div id="review-game-wrapper"></div><div style="text-align: center; margin-top: 2rem;"><button id="clear-review" style="padding: 0.5rem 1.5rem; background: #f57c00; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.95rem;">Clear Review List</button></div>';
-        new MatchingGame('review-game-wrapper', wrongWords, 'review', null, []);
-        document.getElementById('clear-review').addEventListener('click', function() {
-            if (confirm('Clear all review words? This will reset your wrong words list for this lesson.')) {
-                const allWrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-                const lessonWordIds = uniqueWords.map(w => w.id);
-                const remainingWrongIds = allWrongIds.filter(id => !lessonWordIds.includes(id));
-                localStorage.setItem('wrong_ids', JSON.stringify(remainingWrongIds));
-                location.reload();
-            }
-        });
-} catch (error) {
-        console.error('Error loading words:', error);
-        container.innerHTML = '<p style="color: #f44336;">Error loading review words. Please refresh the page.</p>';
-}
-}
-document.addEventListener('DOMContentLoaded', initReview);
-    document.querySelectorAll('.tabbed-labels label').forEach(label => {
-    if (label.textContent.trim() === 'Review') {
-        label.addEventListener('click', function() {
-            setTimeout(initReview, 50);
-        });
-}
-});
-</script>
+
 
 <script>
 (function() {

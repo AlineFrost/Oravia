@@ -31,7 +31,7 @@ The **e** tells you that the second **mo** — *food* — is the direct object.
 
 ### Saying “is” without a separate word for “is”
 
-For ordinary identity and description, Oravia does not insert a separate *am / is / are* verb. Use **a** on both sides:
+For ordinary identity and description, Oravia does not insert a separate *am / is / are* verb. We use **a** on both sides:
 
 `a [subject] a [description or identity]`
 
@@ -64,8 +64,25 @@ Oravia separates two broad kinds of qualities:
 **TAN** — big. *Mnemonic: a **Titan** is huge.*  
 **ELE** — self-expansion, flourishing. *Mnemonic: **elevate**.*  
 **YEL** — joining. *Mnemonic: think of a **yoke** joining two things.*  
+**VI** — inside the body. *Mnemonic: **viscera**.*  
 **WA** — water, sea. *Mnemonic: **water**.*  
 **MU** — small animals. *Mnemonic: a **mouse** is a small animal.*  
+
+### Try vidur
+
+You already know **DUR** = hardness from Lesson 1.
+
+**VI** = inside the body.  
+**DUR** = hardness.
+
+What body material comes to mind for **vidur**?
+
+<details>
+<summary>Reveal</summary>
+
+**vidur** = **bone**.
+
+</details>
 
 ### Words
 
@@ -74,6 +91,7 @@ Oravia separates two broad kinds of qualities:
 | **yaltan** | big, large | **YAL** size + **TAN** big |
 | **eleyel** | love | **ELE** self-expansion + **YEL** joining |
 | **wamu** | fish | **WA** water + **MU** small animal |
+| **vidur** | bone | **VI** inside the body + **DUR** hardness |
 | **viwa** | blood | **VI** inside the body + **WA** water/liquid |
 | **yugai** | easy | **YU** subjective quality + **GAI** small |
 
@@ -82,7 +100,6 @@ Oravia separates two broad kinds of qualities:
 !!! tip "From earlier lessons"
     **eofa** = friend  
     **leirih** = tree  
-    **vidur** = bone  
     **yudur** = hard / difficult  
     **aparih** = jump
 

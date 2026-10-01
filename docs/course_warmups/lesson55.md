@@ -1,8 +1,8 @@
 # Lesson 55: TI / CIU Cluster
 
 !!! info "How to Use This Lesson"
-    This lesson is divided into six sections. Please move through them in this order: **Warm-Up**, **Vocabulary**, **Reading**, **Practice**, **Review**, **Flashcards**.
-    
+    This lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Vocabulary**, **Reading**, **Practice**, **Flashcards**.
+
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
 ---
@@ -18,24 +18,7 @@
     <div id="self-assessment-container"></div>
     
     </div>
-    
-    <div id="matching-section" style="display: none; margin-top: 3rem;">
-    
-    <h3>Practice Missed Words</h3>
-    <p style="color: #5a8bb8;">Let's practice the <span id="missed-count"></span> word(s) you're still learning. Give it a try!</p>
-    
-    <div id="warmup-game-1"></div>
-    
-    <div style="margin-top: 2rem;">
-    <div id="warmup-game-2"></div>
-    </div>
-    
-    <div style="text-align: center; margin-top: 2rem;">
-        <button id="back-to-assessment-btn" style="background: #757575; color: white; border: none; padding: 0.5rem 1.5rem; border-radius: 4px; cursor: pointer; font-size: 0.95rem;">↩ Back to Assessment</button>
-    </div>
-    
-    </div>
-    
+
 === "Vocabulary"
     
     ## TI CLUSTER
@@ -64,11 +47,28 @@
     </div>
     
     
+
+    ### Recognize the Roots
+
+    Take another look at **tiuan** and **tiuri**. Do you recognize any roots you've learned before?
+
+    <div style="text-align: center; margin: 1.25rem 0;">
+    <button onclick="document.getElementById('root-recall-l55-ti-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.65rem 1.5rem; border-radius: 4px; cursor: pointer;">
+        Click to Reveal the Roots
+    </button>
+    </div>
+
+    <div id="root-recall-l55-ti-answer" style="display: none; background: #c8e6c9; padding: 1.25rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 1.25rem 0;">
+    <p style="margin: 0 0 0.45rem 0;"><strong>tiuan</strong> → <strong>AN</strong> = action</p>
+    <p style="margin: 0 0 0.45rem 0;"><strong>tiuri</strong> → <strong>RI</strong> = act</p>
+    </div>
+
     !!! info "🌍 Sound Connections"
         Ju comes from Hindi jhūṭh, which means deception.  
       
     Here is another word with this root:    
-    **siju** = trick (process + deceive), just like tiju = lie (harm + deceive)    
+    **sioju** = trick (process + deceive), just like tiju = lie (harm + deceive)    
+    
    
     Take a look at a couple of sentences using *ti* words:
     
@@ -90,6 +90,7 @@
     | ciuseri | horizontal, series |
     | ciutel | image |
     | ciureva | photo, picture |
+    | ciupa | paper |
     
     What do you think **CIU** words are about?
     
@@ -103,6 +104,23 @@
     <p style="margin: 0;"> <strong>CIU</strong> words are related to <strong>art and creative products</strong>.</p>
     </div>
     
+
+    ### Recognize the Roots
+
+    Take another look at **ciugai**, **ciureva**, and **ciupa**. Do you recognize any roots you've learned before?
+
+    <div style="text-align: center; margin: 1.25rem 0;">
+    <button onclick="document.getElementById('root-recall-l55-ciu-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.65rem 1.5rem; border-radius: 4px; cursor: pointer;">
+        Click to Reveal the Roots
+    </button>
+    </div>
+
+    <div id="root-recall-l55-ciu-answer" style="display: none; background: #c8e6c9; padding: 1.25rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 1.25rem 0;">
+    <p style="margin: 0 0 0.45rem 0;"><strong>ciugai</strong> → <strong>GAI</strong> = small</p>
+    <p style="margin: 0 0 0.45rem 0;"><strong>ciureva</strong> → <strong>REVA</strong> = accurate / correct</p>
+    <p style="margin: 0 0 0.45rem 0;"><strong>ciupa</strong> → <strong>PA</strong> = paper</p>
+    </div>
+
     This cluster also has an important word, *ciude*! It means theme, topic, about. For example:
     
     ```
@@ -129,25 +147,25 @@
     Yalgai Raitar: Joniu Tam  
     
     Ah, yalgai raitar dia*! A nim i ilian-davio e hevas de run tohpu yalgai elemi... En yalen li, run i siyal e dantam oi no elonor oimin cali vardei e ganou lusari. A nim i roesau e yani ciugai en liyar de bale ganter litam, cali a run i ilahai u nim:  
-    "A nim i nedas dapas e ganou lusari. O i anifi, nima o i vardei e ganou lusari noli."  
-    "Mai a nima i fou i iloi" nim i ilaluan.  
+    "A nim i nedas dapas e ganou lusari. O i aniyel, nimas o i vardei e ganou lusari noli."  
+    "Mai a nimas i fou i iloi" nim i ilaluan.  
     "Iloi? E ce?"  
-    "E ganou lusari. A nima i fou i iloi linu davir li".  
+    "E ganou lusari. A nimas i fou i iloi linu davir li".  
     Notam, run i nomie no nedas iloram. Notor, i asular. Run i ilahai u nim:  
     "Nedas lirul a nim i iliro ca nim en bo!"  
 
-    *noi, i damura no fanojal de dofa raitar dia (here, it means son of an inherited ruler).
+    *noi, i damura no jal fano de dofa raitar dia (here, it means son of an inherited ruler).
 
 
 
     **Tips**
     
-    anifi = come  
+    aniyel = come  
     (an)sau = start  
     asular = laughter  
     bale = four  
     bo = home, house  
-    ciuga = detail   
+    ciugai = detail   
     dantam = only, as in "only Maria knows"
     davio = change, different, turn into  
     davir = right, exact  
@@ -216,39 +234,33 @@
 
     ## Matching Games
 
-    Time to practice! Match the Oravia words with their English meanings.
-
+    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, a cluster, subcluster, or familiar root may help you infer a word.
     **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
-
     Click one word from each column to match them. The game will check automatically when you select both words.
-
     ---
 
     ### Round 1
 
-    <div id="matching-game-1" data-lesson="lesson38_b" data-round="1"></div>
+    <div id="matching-game-1" data-lesson="cc26_lesson55" data-round="1"></div>
 
     ---
 
     ### Round 2
 
-    <div id="matching-game-2" data-lesson="lesson38_b" data-round="2"></div>
+    <div id="matching-game-2" data-lesson="cc26_lesson55" data-round="2"></div>
 
     ---
 
     ### Round 3
 
-    <div id="matching-game-3" data-lesson="lesson38_b" data-round="3"></div>
+    <div id="matching-game-3" data-lesson="cc26_lesson55" data-round="3"></div>
 
+    ---
 
+    ### Round 4
 
-=== "Review"
+    <div id="matching-game-4" data-lesson="cc26_lesson55" data-round="4"></div>
 
-    ## Review Missed Words
-    
-    This section shows words you got wrong during practice. If you didn't miss any, this will be empty - great job! 🎉
-    
-    <div id="review-game-container"></div>
 === "Flashcards"
 
     <div id="flashcard-container" data-lesson="55"></div>
@@ -256,124 +268,61 @@
 <script>
     function initWarmup() {
         const warmupWords = [
-    {id: "lu_1", oravia: "lufiva", english: "cold"},
-    {id: "lu_2", oravia: "luyar",  english: "light"},
-    {id: "lu_3", oravia: "lupupi", english: "rain"},
-    {id: "lu_4", oravia: "luyol",  english: "sky"},
-    {id: "lu_5", oravia: "lusari", english: "sun"},
-    {id: "lu_6", oravia: "lunhem", english: "summer"},
-    {id: "lu_7", oravia: "lunu",   english: "winter"},
-    ];
+    {id: "wu_gafi_1", oravia: "gafi", english: "less"},
+    {id: "wu_gavio_2", oravia: "gavio", english: "different"},
+    {id: "wu_wanon_3", oravia: "wanon", english: "swim"},
+    {id: "wu_wayol_4", oravia: "wayol", english: "ocean"},
+    {id: "wu_dohti_5", oravia: "dohti", english: "punish"},
+    {id: "wu_dohcu_6", oravia: "dohcu", english: "obey"}
+        ];
 
-    function renderSelfAssessment() {
-        const container = document.getElementById('self-assessment-container');
-        if (!container) return;
-        let html = '<table style="width:100%; border-collapse:collapse; margin-bottom: 1rem;">';
-        html += '<thead><tr>';
-        html += '<th style="text-align:center; padding:0.5rem; border-bottom:2px solid #4a9cd6;">✓</th>';
-        html += '<th style="text-align:left; padding:0.5rem; border-bottom:2px solid #4a9cd6;">Oravia</th>';
-        html += '<th class="answer-col" style="display:none; text-align:left; padding:0.5rem; border-bottom:2px solid #4a9cd6;">English</th>';
-        html += '</tr></thead><tbody>';
-        warmupWords.forEach((word, i) => {
-        const bg = i % 2 === 0 ? '#f9f9f9' : 'white';
-        html += `<tr style="background:${bg};"><td style="text-align:center; padding:0.4rem;"><input type="checkbox" id="check-${word.id}" data-id="${word.id}" style="width:1.1rem; height:1.1rem; cursor:pointer;"></td><td style="font-weight:bold; padding:0.4rem 0.5rem;">${word.oravia}</td><td class="answer-col" style="display:none; padding:0.4rem 0.5rem; color:#43a047;">${word.english}</td></tr>`;
-        });
-        html += '</tbody></table>';
-        html += '<div style="text-align:center; margin-top:1.5rem;">';
-        html += '<button id="show-answers-btn" style="background:#4a9cd6; color:white; border:none; padding:0.75rem 2rem; border-radius:4px; cursor:pointer; font-size:1rem;">Show Answers</button>';
-        html += '</div>';
-        container.innerHTML = html;
-        document.getElementById('show-answers-btn').addEventListener('click', function() {
-        document.querySelectorAll('.answer-col').forEach(col => col.style.display = 'table-cell');
-        this.style.display = 'none';
-        // Log warm-up self-assessment
-        const log = JSON.parse(localStorage.getItem('oravia_log') || '[]');
-        const lessonId = window.location.pathname.split('/').filter(Boolean).pop().replace('.html','');
-        warmupWords.forEach(function(word) {
-            const checked = document.getElementById('check-' + word.id);
-            log.push({
-                timestamp: new Date().toISOString(),
-                lesson: lessonId,
-                word_id: word.id,
-                oravia: word.oravia,
-                english: word.english,
-                type: 'warmup',
-                correct: checked ? checked.checked : false
+        function renderSelfAssessment() {
+            const container = document.getElementById('self-assessment-container');
+            if (!container) return;
+            let html = '<table style="width:100%; border-collapse:collapse; margin-bottom: 1rem;">';
+            html += '<thead><tr>';
+            html += '<th style="text-align:center; padding:0.5rem; border-bottom:2px solid #4a9cd6;">✓</th>';
+            html += '<th style="text-align:left; padding:0.5rem; border-bottom:2px solid #4a9cd6;">Oravia</th>';
+            html += '<th class="answer-col" style="display:none; text-align:left; padding:0.5rem; border-bottom:2px solid #4a9cd6;">English</th>';
+            html += '</tr></thead><tbody>';
+            warmupWords.forEach((word, i) => {
+                const bg = i % 2 === 0 ? '#f9f9f9' : 'white';
+                html += `<tr style="background:${bg};"><td style="text-align:center; padding:0.4rem;"><input type="checkbox" id="check-${word.id}" data-id="${word.id}" style="width:1.1rem; height:1.1rem; cursor:pointer;"></td><td style="font-weight:bold; padding:0.4rem 0.5rem;">${word.oravia}</td><td class="answer-col" style="display:none; padding:0.4rem 0.5rem; color:#43a047;">${word.english}</td></tr>`;
             });
-        });
-        localStorage.setItem('oravia_log', JSON.stringify(log));
-        });
-}
-    const backBtn = document.getElementById('back-to-assessment-btn');
-    if (backBtn) backBtn.addEventListener('click', function() {
-        document.getElementById('matching-section').style.display = 'none';
-        document.getElementById('self-assessment-section').style.display = 'block';
-});
-    renderSelfAssessment();
-}
-if (document.readyState === 'loading') {
-document.addEventListener('DOMContentLoaded', initWarmup);
-} else {
-initWarmup();
-}
+            html += '</tbody></table>';
+            html += '<div style="text-align:center; margin-top:1.5rem;">';
+            html += '<button id="show-answers-btn" style="background:#4a9cd6; color:white; border:none; padding:0.75rem 2rem; border-radius:4px; cursor:pointer; font-size:1rem;">Show Answers</button>';
+            html += '</div>';
+            container.innerHTML = html;
+            document.getElementById('show-answers-btn').addEventListener('click', function() {
+                document.querySelectorAll('.answer-col').forEach(col => col.style.display = 'table-cell');
+                this.style.display = 'none';
+                const log = JSON.parse(localStorage.getItem('oravia_log') || '[]');
+                const lessonId = window.location.pathname.split('/').filter(Boolean).pop().replace('.html','');
+                warmupWords.forEach(function(word) {
+                    const checked = document.getElementById('check-' + word.id);
+                    log.push({
+                        timestamp: new Date().toISOString(),
+                        lesson: lessonId,
+                        word_id: word.id,
+                        oravia: word.oravia,
+                        english: word.english,
+                        type: 'warmup',
+                        correct: checked ? checked.checked : false
+                    });
+                });
+                localStorage.setItem('oravia_log', JSON.stringify(log));
+            });
+        }
+        renderSelfAssessment();
+    }
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initWarmup);
+    } else {
+        initWarmup();
+    }
 </script>
 
-
-<script>
-    async function initReview() {
-    const wrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-    const container = document.getElementById('review-game-container');
-    if (!container) return;
-    if (wrongIds.length === 0) {
-        container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p><p style="color: #5a8bb8; margin-top: 0.5rem;">You did not miss any words. Excellent work!</p></div>';
-        return;
-}
-    try {
-        const lessonIds = [...new Set(
-        [...document.querySelectorAll('[data-lesson]')]
-            .map(el => el.dataset.lesson)
-        )];
-        const baseUrl = window.location.origin;
-        const responses = await Promise.all(
-        lessonIds.map(id => fetch(baseUrl + '/data/' + id + '_words.json').then(r => r.json()))
-        );
-        const allWords = responses.flatMap(data => data.words);
-        const seen = new Set();
-        const uniqueWords = allWords.filter(w => {
-        if (seen.has(w.id)) return false;
-        seen.add(w.id);
-        return true;
-        });
-        const wrongWords = uniqueWords.filter(word => wrongIds.includes(word.id));
-        if (wrongWords.length === 0) {
-        container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p></div>';
-        return;
-        }
-        container.innerHTML = '<p style="text-align: center; margin-bottom: 2rem; color: #5a8bb8;">Practice these ' + wrongWords.length + ' word(s) you found challenging:</p><div id="review-game-wrapper"></div><div style="text-align: center; margin-top: 2rem;"><button id="clear-review" style="padding: 0.5rem 1.5rem; background: #f57c00; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.95rem;">Clear Review List</button></div>';
-        new MatchingGame('review-game-wrapper', wrongWords, 'review', null, []);
-        document.getElementById('clear-review').addEventListener('click', function() {
-        if (confirm('Clear all review words? This will reset your wrong words list for this lesson.')) {
-            const allWrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-            const lessonWordIds = uniqueWords.map(w => w.id);
-            const remainingWrongIds = allWrongIds.filter(id => !lessonWordIds.includes(id));
-            localStorage.setItem('wrong_ids', JSON.stringify(remainingWrongIds));
-            location.reload();
-        }
-        });
-} catch (error) {
-        console.error('Error loading words:', error);
-        container.innerHTML = '<p style="color: #f44336;">Error loading review words. Please refresh the page.</p>';
-}
-}
-document.addEventListener('DOMContentLoaded', initReview);
-    document.querySelectorAll('.tabbed-labels label').forEach(label => {
-    if (label.textContent.trim() === 'Review') {
-        label.addEventListener('click', function() {
-        setTimeout(initReview, 50);
-        });
-}
-});
-</script>
 
 <div style="text-align: center; padding: 2rem 0; background: #e0f2f1; border-radius: 8px; margin-top: 3rem;">
         <p style="font-size: 1.2rem; color: #4a9cd6; margin-bottom: 1rem;">

@@ -30,11 +30,11 @@ Lina i oines, mai i ilaluanum e noi u fasu.
 
 Litamis, Lina i anona e yani roumir u hay. "Noli roudal e noi."  
 
-A fasu i vardei e roumir yalen litegai. Hay i ilaluanum, su haya i vardei e rein. A hay a ho oila.
+A fasu i vardei e roumir yalen litegai. Hay i ilaluanum, su hayas i vardei e rein. A hay a ho oila.
 
 "Nim i doum!"
 
-"Run i ilian e tam roumir, caora nim i roudal e noi u run neauta lili. Mai run i ilianum canon i roudal. Eta noli nima i ansau."
+"Run i ilian e tam roumir, caora nim i roudal e noi u run neauta lili. Mai run i ilianum canon i roudal. Eta noli nimas i ansau."
 
 Noli, lirul en limel, a Lina i roena e fasu. En lunpili, ga lunu, a fasu a yuba.  
 
@@ -74,7 +74,7 @@ fare = parent
 fasu = sibling  
 ga = compared to  
 hay = he / she / they (sing.)  
-haya = they (pl.)  
+hayas = they (pl.)  
 ho = opposite, reverse  
 i = verb marker  
 ilaluan = say  
@@ -96,7 +96,7 @@ miau = cat
 neauta = ne + auta = level 8, many times  
 neloa = all  
 nim = I / my  
-nima = we / our  
+nimas = we / our  
 no = like, as  
 noi = this  
 noli = now  

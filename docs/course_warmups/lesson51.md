@@ -1,8 +1,8 @@
 # Lesson 51: DA Cluster
 
 !!! info "How to Use This Lesson"
-    This lesson is divided into six sections. Please move through them in this order: **Warm-Up**, **Vocabulary**, **Reading**, **Practice**, **Review**, **Flashcards**.
-    
+    This lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Vocabulary**, **Reading**, **Practice**, **Flashcards**.
+
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
 ---
@@ -18,24 +18,7 @@
     <div id="self-assessment-container"></div>
     
     </div>
-    
-    <div id="matching-section" style="display: none; margin-top: 3rem;">
-    
-    <h3>Practice Missed Words</h3>
-    <p style="color: #5a8bb8;">Let's practice the <span id="missed-count"></span> word(s) you're still learning. Give it a try!</p>
-    
-    <div id="warmup-game-1"></div>
-    
-    <div style="margin-top: 2rem;">
-    <div id="warmup-game-2"></div>
-    </div>
-    
-    <div style="text-align: center; margin-top: 2rem;">
-        <button id="back-to-assessment-btn" style="background: #757575; color: white; border: none; padding: 0.5rem 1.5rem; border-radius: 4px; cursor: pointer; font-size: 0.95rem;">↩ Back to Assessment</button>
-    </div>
-    
-    </div>
-    
+
 === "Vocabulary"
     
     ## DA CLUSTER
@@ -68,11 +51,26 @@
     
     ```
     hay i dai i davio no omapa dia = he wants to become a dancer
-    falen i davio no yalen = the child is becoming tall
-    falen i yalen-davio = the child is becoming tall
+    falfal i davio no yalen = the child is becoming tall
+    falfal i yalen-davio = the child is becoming tall
     ```
     
     
+
+    ### Recognize the Roots
+
+    Take another look at **davio**. Do you recognize any roots you've learned before?
+
+    <div style="text-align: center; margin: 1.25rem 0;">
+    <button onclick="document.getElementById('root-recall-l51-da-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.65rem 1.5rem; border-radius: 4px; cursor: pointer;">
+        Click to Reveal the Roots
+    </button>
+    </div>
+
+    <div id="root-recall-l51-da-answer" style="display: none; background: #c8e6c9; padding: 1.25rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 1.25rem 0;">
+    <p style="margin: 0 0 0.45rem 0;"><strong>davio</strong> → <strong>VIO</strong> = change / exchange</p>
+    </div>
+
     !!! info "🌍 Sound Connections"
         Co is related to communication, from Latin communicare.  
         Vir is about method, exactness, procedure. It is related to Sanskrit vrit, which also means procedure.  
@@ -92,12 +90,12 @@
     
     Today we will re-read Curupira's story, with a twist! The sentences and meaning will be the same, but the word order will flip.
     
-    The word order we have been using so far has been mostly Subject-Verb-Object, like *a falen i roesau e ompili* (the child learns piano). Today, we will see a different but also common order, Subject-Object-Verb.
+    The word order we have been using so far has been mostly Subject-Verb-Object, like *a falfal i roesau e ompili* (the child learns piano). Today, we will see a different but also common order, Subject-Object-Verb.
     
     Word orders like this are very common worldwide and occur in languages like Japanese and Hindi. To mirror a different word order, here's what is going to happen to the text today:
     
-    . the verb will go to the end of the sentence, like *a falen e ompili i roesau* (the child learns piano).  
-    . secondary and modifying clauses will go to the front. For example, *mioci ca i sioerar su fano* becomes *fano sioerar mioici* (monkey that had been playing with their offspring).
+    - the verb will go to the end of the sentence, like *a falfal e ompili i roesau* (the child learns piano).  
+    - secondary and modifying clauses will go to the front. For example, *mioci ca i sioerar su fano* becomes *fano sioerar mioici* (monkey that had been playing with their offspring).
     
     In order to read the story, just remember: the markers indicate the role in the sentence, not the order! Keep your attention in the markers. Now let's give it a try. 
     
@@ -108,13 +106,13 @@
     Eofa de le, hay lirul en yaltan mio mius. Curupira e lei su misumu i eover. Cali a neauta lupupi i widuo, notam hay u misumu i ilahai. Eta, neloa de lufu su 'lusiram  i do i raiver.  
     Lar, a copei dia e fano sioerar mioici i copei. A curupira noi i vardei, su i ansau i vanvu. A vanpai colira de curupira a ancem hue.   
     Cali a sita dia e colira en leno i vardei, i copei. Mai, a colira en ho jetai i antai. Eta, a sita dia e jenon en lealei i ilianum, su a jenon-tohbian. Notor, hay en janou i apanou: o yewamus de curupira.  
-    A raiver dia de lealei e asur de sita dia i varsus:  
+    A raiver dia de lealei e asugar de sita dia i varsus:  
     "Eori, elomiu! E nim o i elodan !"  
-    "Run e miocici i dai i javoa. Noli, o run a javoa!"  
+    "Run e mioici i dai i javoa. Noli, o run a javoa!"  
     A sita dia no tilira su tohpu i davio. Eta, a curupira i eloliuto.  
     "O i asetowaum. A nim e run i elodan. Notam u nim o i elodao ca lis, run e fano de misumu i eoren."  
     "A nim i elodao!"  
-    A curupira e hay i eomio. A sita dia, ca a elireva tohdin, no raiver dia de fano de misumu i davio. Su caora a faejal u elodao i elasu, a curupira a oila.  
+    A curupira e hay i eomiu. A sita dia, ca a elireva tohdin, no raiver dia de fano de misumu i davio. Su caora a faejal u elodao i elasu, a curupira a oila.  
 
 
     **Tips**
@@ -124,7 +122,7 @@
     antai = lead, direct  
     apanou = fall  
     asetowa = cry, tear  
-    asur = yell, scream  
+    asugar = yell, scream  
     colira = sign, mark  
     couya = name  
     davio = change, become  
@@ -134,7 +132,7 @@
     eloliuto = compassion, empathy 
     elomio = aid, help  
     elireva = truth, really  
-    eomio = support  
+    eomiu = support  
     eoren = honor, respect  
     eori = polite, please  
     eover = to care for  
@@ -206,39 +204,33 @@
 
     ## Matching Games
 
-    Time to practice! Match the Oravia words with their English meanings.
-
+    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, a cluster, subcluster, or familiar root may help you infer a word.
     **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
-
     Click one word from each column to match them. The game will check automatically when you select both words.
-
     ---
 
     ### Round 1
 
-    <div id="matching-game-1" data-lesson="lesson38_b" data-round="1"></div>
+    <div id="matching-game-1" data-lesson="cc26_lesson51" data-round="1"></div>
 
     ---
 
     ### Round 2
 
-    <div id="matching-game-2" data-lesson="lesson38_b" data-round="2"></div>
+    <div id="matching-game-2" data-lesson="cc26_lesson51" data-round="2"></div>
 
     ---
 
     ### Round 3
 
-    <div id="matching-game-3" data-lesson="lesson38_b" data-round="3"></div>
+    <div id="matching-game-3" data-lesson="cc26_lesson51" data-round="3"></div>
 
+    ---
 
+    ### Round 4
 
-=== "Review"
+    <div id="matching-game-4" data-lesson="cc26_lesson51" data-round="4"></div>
 
-    ## Review Missed Words
-    
-    This section shows words you got wrong during practice. If you didn't miss any, this will be empty - great job! 🎉
-    
-    <div id="review-game-container"></div>
 === "Flashcards"
 
     <div id="flashcard-container" data-lesson="51"></div>
@@ -246,124 +238,59 @@
 <script>
     function initWarmup() {
         const warmupWords = [
-    {id: "lu_1", oravia: "lufiva", english: "cold"},
-    {id: "lu_2", oravia: "luyar",  english: "light"},
-    {id: "lu_3", oravia: "lupupi", english: "rain"},
-    {id: "lu_4", oravia: "luyol",  english: "sky"},
-    {id: "lu_5", oravia: "lusari", english: "sun"},
-    {id: "lu_6", oravia: "lunhem", english: "summer"},
-    {id: "lu_7", oravia: "lunu",   english: "winter"},
-    ];
+    {id: "wu_joniu_1", oravia: "joniu", english: "piece"},
+    {id: "wu_joldur_2", oravia: "joldur", english: "metal"},
+    {id: "wu_vonlu_3", oravia: "vonlu", english: "skin"},
+    {id: "wu_vosvo_4", oravia: "vosvo", english: "soap"}
+        ];
 
-    function renderSelfAssessment() {
-        const container = document.getElementById('self-assessment-container');
-        if (!container) return;
-        let html = '<table style="width:100%; border-collapse:collapse; margin-bottom: 1rem;">';
-        html += '<thead><tr>';
-        html += '<th style="text-align:center; padding:0.5rem; border-bottom:2px solid #4a9cd6;">✓</th>';
-        html += '<th style="text-align:left; padding:0.5rem; border-bottom:2px solid #4a9cd6;">Oravia</th>';
-        html += '<th class="answer-col" style="display:none; text-align:left; padding:0.5rem; border-bottom:2px solid #4a9cd6;">English</th>';
-        html += '</tr></thead><tbody>';
-        warmupWords.forEach((word, i) => {
-            const bg = i % 2 === 0 ? '#f9f9f9' : 'white';
-            html += `<tr style="background:${bg};"><td style="text-align:center; padding:0.4rem;"><input type="checkbox" id="check-${word.id}" data-id="${word.id}" style="width:1.1rem; height:1.1rem; cursor:pointer;"></td><td style="font-weight:bold; padding:0.4rem 0.5rem;">${word.oravia}</td><td class="answer-col" style="display:none; padding:0.4rem 0.5rem; color:#43a047;">${word.english}</td></tr>`;
-        });
-        html += '</tbody></table>';
-        html += '<div style="text-align:center; margin-top:1.5rem;">';
-        html += '<button id="show-answers-btn" style="background:#4a9cd6; color:white; border:none; padding:0.75rem 2rem; border-radius:4px; cursor:pointer; font-size:1rem;">Show Answers</button>';
-        html += '</div>';
-        container.innerHTML = html;
-        document.getElementById('show-answers-btn').addEventListener('click', function() {
-            document.querySelectorAll('.answer-col').forEach(col => col.style.display = 'table-cell');
-            this.style.display = 'none';
-            // Log warm-up self-assessment
-            const log = JSON.parse(localStorage.getItem('oravia_log') || '[]');
-            const lessonId = window.location.pathname.split('/').filter(Boolean).pop().replace('.html','');
-            warmupWords.forEach(function(word) {
-                const checked = document.getElementById('check-' + word.id);
-                log.push({
-                    timestamp: new Date().toISOString(),
-                    lesson: lessonId,
-                    word_id: word.id,
-                    oravia: word.oravia,
-                    english: word.english,
-                    type: 'warmup',
-                    correct: checked ? checked.checked : false
-                });
+        function renderSelfAssessment() {
+            const container = document.getElementById('self-assessment-container');
+            if (!container) return;
+            let html = '<table style="width:100%; border-collapse:collapse; margin-bottom: 1rem;">';
+            html += '<thead><tr>';
+            html += '<th style="text-align:center; padding:0.5rem; border-bottom:2px solid #4a9cd6;">✓</th>';
+            html += '<th style="text-align:left; padding:0.5rem; border-bottom:2px solid #4a9cd6;">Oravia</th>';
+            html += '<th class="answer-col" style="display:none; text-align:left; padding:0.5rem; border-bottom:2px solid #4a9cd6;">English</th>';
+            html += '</tr></thead><tbody>';
+            warmupWords.forEach((word, i) => {
+                const bg = i % 2 === 0 ? '#f9f9f9' : 'white';
+                html += `<tr style="background:${bg};"><td style="text-align:center; padding:0.4rem;"><input type="checkbox" id="check-${word.id}" data-id="${word.id}" style="width:1.1rem; height:1.1rem; cursor:pointer;"></td><td style="font-weight:bold; padding:0.4rem 0.5rem;">${word.oravia}</td><td class="answer-col" style="display:none; padding:0.4rem 0.5rem; color:#43a047;">${word.english}</td></tr>`;
             });
-            localStorage.setItem('oravia_log', JSON.stringify(log));
-        });
-}
-    const backBtn = document.getElementById('back-to-assessment-btn');
-    if (backBtn) backBtn.addEventListener('click', function() {
-        document.getElementById('matching-section').style.display = 'none';
-        document.getElementById('self-assessment-section').style.display = 'block';
-});
-    renderSelfAssessment();
-}
-if (document.readyState === 'loading') {
-document.addEventListener('DOMContentLoaded', initWarmup);
-} else {
-initWarmup();
-}
-</script>
-
-
-<script>
-    async function initReview() {
-    const wrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-    const container = document.getElementById('review-game-container');
-    if (!container) return;
-    if (wrongIds.length === 0) {
-        container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p><p style="color: #5a8bb8; margin-top: 0.5rem;">You did not miss any words. Excellent work!</p></div>';
-        return;
-}
-    try {
-        const lessonIds = [...new Set(
-            [...document.querySelectorAll('[data-lesson]')]
-                .map(el => el.dataset.lesson)
-        )];
-        const baseUrl = window.location.origin;
-        const responses = await Promise.all(
-            lessonIds.map(id => fetch(baseUrl + '/data/' + id + '_words.json').then(r => r.json()))
-        );
-        const allWords = responses.flatMap(data => data.words);
-        const seen = new Set();
-        const uniqueWords = allWords.filter(w => {
-            if (seen.has(w.id)) return false;
-            seen.add(w.id);
-            return true;
-        });
-        const wrongWords = uniqueWords.filter(word => wrongIds.includes(word.id));
-        if (wrongWords.length === 0) {
-            container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p></div>';
-            return;
+            html += '</tbody></table>';
+            html += '<div style="text-align:center; margin-top:1.5rem;">';
+            html += '<button id="show-answers-btn" style="background:#4a9cd6; color:white; border:none; padding:0.75rem 2rem; border-radius:4px; cursor:pointer; font-size:1rem;">Show Answers</button>';
+            html += '</div>';
+            container.innerHTML = html;
+            document.getElementById('show-answers-btn').addEventListener('click', function() {
+                document.querySelectorAll('.answer-col').forEach(col => col.style.display = 'table-cell');
+                this.style.display = 'none';
+                const log = JSON.parse(localStorage.getItem('oravia_log') || '[]');
+                const lessonId = window.location.pathname.split('/').filter(Boolean).pop().replace('.html','');
+                warmupWords.forEach(function(word) {
+                    const checked = document.getElementById('check-' + word.id);
+                    log.push({
+                        timestamp: new Date().toISOString(),
+                        lesson: lessonId,
+                        word_id: word.id,
+                        oravia: word.oravia,
+                        english: word.english,
+                        type: 'warmup',
+                        correct: checked ? checked.checked : false
+                    });
+                });
+                localStorage.setItem('oravia_log', JSON.stringify(log));
+            });
         }
-        container.innerHTML = '<p style="text-align: center; margin-bottom: 2rem; color: #5a8bb8;">Practice these ' + wrongWords.length + ' word(s) you found challenging:</p><div id="review-game-wrapper"></div><div style="text-align: center; margin-top: 2rem;"><button id="clear-review" style="padding: 0.5rem 1.5rem; background: #f57c00; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.95rem;">Clear Review List</button></div>';
-        new MatchingGame('review-game-wrapper', wrongWords, 'review', null, []);
-        document.getElementById('clear-review').addEventListener('click', function() {
-            if (confirm('Clear all review words? This will reset your wrong words list for this lesson.')) {
-                const allWrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-                const lessonWordIds = uniqueWords.map(w => w.id);
-                const remainingWrongIds = allWrongIds.filter(id => !lessonWordIds.includes(id));
-                localStorage.setItem('wrong_ids', JSON.stringify(remainingWrongIds));
-                location.reload();
-            }
-        });
-} catch (error) {
-        console.error('Error loading words:', error);
-        container.innerHTML = '<p style="color: #f44336;">Error loading review words. Please refresh the page.</p>';
-}
-}
-document.addEventListener('DOMContentLoaded', initReview);
-    document.querySelectorAll('.tabbed-labels label').forEach(label => {
-    if (label.textContent.trim() === 'Review') {
-        label.addEventListener('click', function() {
-            setTimeout(initReview, 50);
-        });
-}
-});
+        renderSelfAssessment();
+    }
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initWarmup);
+    } else {
+        initWarmup();
+    }
 </script>
+
 
 <div style="text-align: center; padding: 2rem 0; background: #e0f2f1; border-radius: 8px; margin-top: 3rem;">
         <p style="font-size: 1.2rem; color: #4a9cd6; margin-bottom: 1rem;">

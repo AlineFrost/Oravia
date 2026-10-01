@@ -21,12 +21,12 @@ If **run** is *you*, what would you guess for *you all*?
 <details markdown="1">
 <summary>Click to check</summary>
 
-Runa.  
+Runas.  
 Add **-a**:  
 
-**nim → nima** — I → we    
-**run → runa** — you → you all   
-**hay → haya** — he/she/it/... → they  
+**nim → nimas** — I → we    
+**run → runas** — you → you all   
+**hay → hayas** — he/she/it/... → they  
 
 </details>  
 
@@ -46,16 +46,16 @@ A lot of Oravia vocabulary is built from recurring sound-meaning pieces called *
 
 Building blocks make vocabulary easier to learn and remember. As you learn more words, you form a web of associations and an intuitive sense for what they mean. Many times, you may even get a sense of the word before learning it.
 
-Because this is a short course written in English, most of the mnemonics here use English or familiar Romance-language connections. The Complete Course and the Building Blocks page use mnemonics and sound connections from languages around the world. 
+Because this is a short course written in English, most of the mnemonics here use English or Romance-language connections. The Complete Course and the Building Blocks page use mnemonics and sound connections from languages around the world. 
 
-**EO** — social relationships. *Mnemonic: **E**ach **O**ther.*  
-**FA** — family. *Mnemonic: **family / familia / família**.*  
-**BOE** — spaces in a house. *Mnemonic: English **bower**, a room/chamber.*  
+**BOE** — rooms in a house. *Mnemonic: English **bower**, a room/chamber.*  
 **MO** — food, eating. *Mnemonic: **mmm** when food tastes good.*  
+**VAR** — face/head area. *Mnemonic: **visage**.*  
+**DUR** — hardness. *Mnemonic: **durable**, Spanish/Portuguese **duro**.*  
 
 ### Try boemo
 
-**BOE** = a space/room in a house.  
+**BOE** = a room in a house.  
 **MO** = food.
 
 What would you guess **boemo** means?
@@ -67,24 +67,40 @@ What would you guess **boemo** means?
 
 </details>
 
+### Try vardur
+
+**VAR** = face area.  
+**DUR** = hardness.
+
+What body part comes to mind for **vardur**?
+
+<details>
+<summary>Reveal</summary>
+
+**vardur** = **tooth**.
+
+</details>
+
+Notice we don't expect you to be able to guess all unknown words correctly. The point is that thinking about the connections may help you learn and remember words.   
+
 ### Words
 
 | Oravia | Meaning | Breakdown |
 |---|---|---|
-| **eofa** | friend | **EO** social + **FA** family |
 | **mo** | food; to eat | **MO** food/eating |
 | **boemo** | kitchen; to cook | **BOE** house space + **MO** food/eating |
+| **vardur** | tooth; to bite | **VAR** face/head area + **DUR** hardness |
 
 ## Put it together
 
 Try each one before opening the translation.
 
-`nim eofa`
+`nim boemo`
 
 <details class="example-translation">
 <summary>Click to Reveal Translation</summary>
 
-*my friend*
+*my kitchen*
 
 </details>
 
@@ -97,12 +113,12 @@ Try each one before opening the translation.
 
 </details>
 
-`haya eofa`
+`hayas vardur`
 
 <details class="example-translation">
 <summary>Click to Reveal Translation</summary>
 
-*their friend*
+*their tooth / teeth*
 
 </details>
 
@@ -117,7 +133,7 @@ Try each one before opening the translation.
 
 ## Your turn
 
-Write **our friend**, **your food**, and **their kitchen**.
+Write **our food**, **your kitchen**, and **their tooth / teeth**.
 
 <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write in Oravia here..."></textarea>
 

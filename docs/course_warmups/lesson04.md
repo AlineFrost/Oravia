@@ -1,9 +1,9 @@
 # Lesson 4: Negation & Gender
 
 !!! info "How to Use This Lesson"
-    This lesson is divided into five sections. Please move through them in this order: **Grammar**, **Vocabulary**, **Practice**, **Review**, **Flashcards**.
+    This lesson is divided into four sections. Please move through them in this order: **Grammar**, **Vocabulary**, **Practice**, **Flashcards**.
     
-    **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
+    **Do not try to memorize!** Just read through the content attentively. The warm-ups and flashcards will bring the vocabulary back later!
 
 ---
 
@@ -11,12 +11,12 @@
 
     ## Negative
     
-    If kid is *falen*, we know how to say things like "the kid eats" and "the kid drinks". But how do you say the kid *doesn't* eat something?
+    If kid is *falfal*, we know how to say things like "the kid eats" and "the kid drinks". But how do you say the kid *doesn't* eat something?
     
     Just add *um* at the end of the verb! For example,
     
     ```
-    falen i mo -> falen i moum
+    falfal i mo -> falfal i moum
     ```
     
     How would you say the kid *doesn't* drink?
@@ -28,7 +28,7 @@
     </div>
     
     <div id="subcluster-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-        <p style="margin: 0;"> falen i mouje -> falen i moujeum.</p>
+        <p style="margin: 0;"> falfal i mouje -> falfal i moujeum.</p>
     </div>
     
     Can you create a few more sentences using -um?
@@ -57,23 +57,22 @@
     | Oravia | English |
     |--------|---------|
     | faejal | man |
-    | faejor | woman|
+    | faejor | woman |
     
-    We use the *FAE* (gender) subcluster to specify gender, if we want to. If you add *faejor* (woman) or *faejal* (man) in front of a word, you modify it. 
+    **Jal** means male/man and **jor** means female/woman. When gender needs to be specified, put **jal** or **jor before the word**:
     
     ```
-    faejor fare = mother
-     ↓      ↓                     
+    jor fare = mother
+     ↓    ↓
     woman parent
     ```
     
-    More easily, you can also add *jor* (woman) or *jal* (man) at the end of the word! 
+    ```
+    jal fare = father
+     ↓    ↓
+    man parent
+    ```
     
-    ```
-    farejal = father
-     ↓     ↓                     
-    parent man
-    ```
     Unmarked words already include all genders. For explicit nonbinary, you can use **torum** (tor = two and um = negation, so literal translation *non-binary*). 
     
     Now take a look at these words from the FA cluster.
@@ -85,161 +84,148 @@
     | fano | son, daughter |
     | fasu | sibling |
     
-    See if you can say daughter, husband, mother, and brother. We use hyphen if it helps readability.
+    See if you can say daughter, husband, mother, and brother.
     
     <div style="text-align: center; margin: 2rem 0;">
-        <button onclick="document.getElementById('gender-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+        <button onclick="document.getElementById('gender-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor:pointer;">
             Click to Reveal Subcluster Meaning
         </button>
     </div>
     
     <div id="gender-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-        <p style="margin: 0;"> Fano-jor. Faibor-jal. Fare-jor. Fasu-jal. </p>
+        <p style="margin: 0;"> jor fano. jal faibor. jor fare. jal fasu. </p>
     </div>
     
     You can add gender to other words too, for example:
     
     ```
-     hayjor = she
+    jor hay = she
     ```
     
     Preference is for not specifying gender, it's simpler! However, in certain situations, it can be necessary for disambiguation ("do you mean your brother or your sister?").
+    
+    To sum up,
+    ```
+     jor + word = female/woman
+     jal + word = male/man
+    ```
     
     ---
     
     To sum up,
     ```
      -um = no/not
-     -jor = woman
-     -jal = man
+     jor = woman
+     jal = man
     ```
     
     That's it for grammar today! Let's move on to the next tab: **Vocabulary**.
 
 === "Vocabulary"
 
-    ## The FA Cluster
+    ## The MO Subclusters
     
-    We are going to dive deeper into our second cluster! Look at the list of words below.
-    
-    **Remember, do not try to memorize them.** Just read it through attentively.
-    
+    Remember what **MO** indicated?
+
+    <details markdown="1">
+    <summary>Click to check</summary>
+
+    **MO** = food, eating, and drinking.
+
+    </details>
+
+    A **cluster** gives a broad semantic domain. A **subcluster** narrows that domain. Look at the words below and see if you can spot the narrower patterns inside MO.
+
+    **Remember, do not try to memorize them.** Just read through them attentively.
+
     <audio controls style="width:100%">
-      <source src="../audio/4v.mp3" type="audio/wav">
+      <source src="../audio/2v.mp3" type="audio/wav">
     </audio>
     
     
     | Oravia | English |
     |--------|---------|
-    | faibor | spouse |
-    | faigel | to marry|
-    | falte | young |
-    | falni | baby |
-    | falen | child |
-
+    | molbai | cup |
+    | molcui | bowl |
+    | molvou | bottle |
+    | moaria | apple |
+    | moalen  | banana |
+    | moanih | berry |
     
-    What do you think the words that start in *FAI* have in common?
+    What do you think the words that start in *MOL* have in common?
     
     <div style="text-align: center; margin: 2rem 0;">
-        <button onclick="document.getElementById('cluster1-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+        <button onclick="document.getElementById('cluster-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
             Click to Reveal Subcluster Meaning
         </button>
     </div>
     
-    <div id="cluster1-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-        <p style="margin: 0;">They are about <strong>marriage</strong>.</p>
+    <div id="cluster-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+        <p style="margin: 0;">They are all <strong>food containers</strong>.</p>
     </div>
     
-    How about *FAL*, what do you think it means?
+    
+    How about *MOA*, what do you think it means?
     
     <div style="text-align: center; margin: 2rem 0;">
-        <button onclick="document.getElementById('cluster4-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+        <button onclick="document.getElementById('fruit-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
             Click to Reveal Subcluster Meaning
         </button>
     </div>
     
-    <div id="cluster4-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-        <p style="margin: 0;"> FAL is related to <strong>early life</strong>, such as children and babies.</p>
+    <div id="fruit-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+        <p style="margin: 0;">MOA means <strong>fruit</strong>, and all words that start with MOA are fruits.</p>
     </div>
-
-
-    Here's a few more words related to family:  
     
+    *MOA* and *MOL* are subclusters! They indicate subdivisions within the *MO cluster*. Each cluster can have between 0–4 subclusters. 
+    Subclusters are usually indicated by the third letter, completing a syllable. For example, with a cluster like MO, you could have subclusters that sound like MOL-ban, MOA-ria, MOU-je... but you would generally *not* have a subcluster like MOG-ali, because the third letter here is starting another syllable.
+
+    A few other MO words from the broad cluster:
+
     | Oravia | English |
     |--------|---------|
-    | fasu | sibling|
-    | fare | parent |
-    | fano | daughter, son |
+    | moyi | sugar, sweet |
+    | moval | ice |
+    | moulu | milk |
+
     
     !!! info "🌍 Sound Connections"
-        Fano uses the no(u) root, which means low, falling. It comes from Arabic نَوْم naw  (sleep, falling into sleep). We use it  because daughters and sons are one generation below! 
+        Moa means banana plant in Polynesian roots, and indicates all fruits in Oravia.  
+          
+        Banana is Moalen (moa + len). Len is like Latin longus (long), which is the root of the word longitude in English. Notice it is also similar to the word length.  
         
-        The root ni in Falni (baby) comes from the Proto-Indo-European root newo, which shares Greek νέος neos (young, fresh, recent), and English new.
+    So let's take a look at some other words:  
+    **yalen** = long (quality + long), just like moalen = banana (fruit + long).  
     
-    In this case, *no* is the root of *fano*. The word can be understood like this:
-    fa (family) + no (down, one generation down) = offspring, daughter, son
+      ---  
     
-    
-    Most Oravia words are built in a similar way:
-    (sub)cluster + root
-    
-    The initial sounds (clusters and subclusters) tell you the word's broad domain.
-    Roots often give helpful clues across clusters.
-    Treat roots as hints about the full word's meaning, not strict rules. 
-    As you learn more words, keep a look out for root connections. When you spot one that makes sense to you, use it. It may help you remember the word. 
-    
-    You're ready for the exercise now!
-    
-    ---
+      ---  
 
 === "Practice"
 
     ## Matching Games
 
-    Time to practice! Match the Oravia words with their English meanings.
-
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
-
+    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
     Click one word from each column to match them. The game will check automatically when you select both words.
-
     ---
 
     ### Round 1
 
-    <div id="matching-game-1" data-lesson="lesson04" data-round="1"></div>
+    <div id="matching-game-1" data-lesson="cc26_lesson04" data-round="1"></div>
 
     ---
 
     ### Round 2
 
-    <div id="matching-game-2" data-lesson="lesson04" data-round="2"></div>
+    <div id="matching-game-2" data-lesson="cc26_lesson04" data-round="2"></div>
 
     ---
 
     ### Round 3
 
-    <div id="matching-game-3" data-lesson="lesson04" data-round="3"></div>
+    <div id="matching-game-3" data-lesson="cc26_lesson04" data-round="3"></div>
 
-    ---
-
-    ### Round 4
-
-    <div id="matching-game-4" data-lesson="lesson04" data-round="4"></div>
-
-
-
-=== "Review"
-
-    ## Review Missed Words
-    
-    This section shows only the words you got wrong during practice. If you didn't miss any words, this will be empty - great job! 🎉
-    
-    ---
-    
-    <div id="review-game-container"></div>
-      
-
-    ---
 === "Flashcards"
 
     <div id="flashcard-container" data-lesson="4"></div>
@@ -249,68 +235,14 @@
         🎉 <strong>Lesson 4 Complete!</strong>
     </p>
 <p style="color: #5a8bb8; margin-bottom: 0.5rem;">
-        If you missed any words, check the <strong>Review</strong> tab to practice them again.
+        Use the <strong>Flashcards</strong> tab for another quick review.
     </p>
 <p style="color: #5a8bb8; margin-bottom: 1.5rem;">
         Come back tomorrow for Lesson 5.
     </p>
 </div>
 
-<script>
-    async function initReview() {
-    const wrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-    const container = document.getElementById('review-game-container');
-    if (!container) return;
-    if (wrongIds.length === 0) {
-        container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p><p style="color: #5a8bb8; margin-top: 0.5rem;">You did not miss any words. Excellent work!</p></div>';
-        return;
-}
-    try {
-        const lessonIds = [...new Set(
-            [...document.querySelectorAll('[data-lesson]')]
-                .map(el => el.dataset.lesson)
-        )];
-        const baseUrl = window.location.origin;
-        const responses = await Promise.all(
-            lessonIds.map(id => fetch(baseUrl + '/data/' + id + '_words.json').then(r => r.json()))
-        );
-        const allWords = responses.flatMap(data => data.words);
-        const seen = new Set();
-        const uniqueWords = allWords.filter(w => {
-            if (seen.has(w.id)) return false;
-            seen.add(w.id);
-            return true;
-        });
-        const wrongWords = uniqueWords.filter(word => wrongIds.includes(word.id));
-        if (wrongWords.length === 0) {
-            container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p></div>';
-            return;
-        }
-        container.innerHTML = '<p style="text-align: center; margin-bottom: 2rem; color: #5a8bb8;">Practice these ' + wrongWords.length + ' word(s) you found challenging:</p><div id="review-game-wrapper"></div><div style="text-align: center; margin-top: 2rem;"><button id="clear-review" style="padding: 0.5rem 1.5rem; background: #f57c00; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.95rem;">Clear Review List</button></div>';
-        new MatchingGame('review-game-wrapper', wrongWords, 'review', null, []);
-        document.getElementById('clear-review').addEventListener('click', function() {
-            if (confirm('Clear all review words? This will reset your wrong words list for this lesson.')) {
-                const allWrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-                const lessonWordIds = uniqueWords.map(w => w.id);
-                const remainingWrongIds = allWrongIds.filter(id => !lessonWordIds.includes(id));
-                localStorage.setItem('wrong_ids', JSON.stringify(remainingWrongIds));
-                location.reload();
-            }
-        });
-} catch (error) {
-        console.error('Error loading words:', error);
-        container.innerHTML = '<p style="color: #f44336;">Error loading review words. Please refresh the page.</p>';
-}
-}
-document.addEventListener('DOMContentLoaded', initReview);
-    document.querySelectorAll('.tabbed-labels label').forEach(label => {
-    if (label.textContent.trim() === 'Review') {
-        label.addEventListener('click', function() {
-            setTimeout(initReview, 50);
-        });
-}
-});
-</script>
+
 
 <script>
 (function() {

@@ -1,9 +1,9 @@
 # Lesson 8: Possessive
 
 !!! info "How to Use This Lesson"
-    This lesson is divided into five sections. Please move through them in this order: **Grammar**, **Vocabulary**, **Practice**, **Review**, **Flashcards**. After you finish, *try the Exercises and Review again* to see how much you’ve improved.
+    This lesson is divided into four sections. Please move through them in this order: **Grammar**, **Vocabulary**, **Practice**, **Flashcards**.
     
-    **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
+    **Do not try to memorize!** Just read through the content attentively. The warm-ups and flashcards will bring the vocabulary back later!
 
 ---
 
@@ -44,7 +44,7 @@
     </div>
     
     <div id="subcluster-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-        <p style="margin: 0;"> Nim, run, hay, nima, runa, haya </p>
+        <p style="margin: 0;"> Nim, run, hay, nimas, runas, hayas </p>
     </div>
     
     The **possessive** is very simple, we just use the pronoun before the noun. Like this:
@@ -102,141 +102,102 @@
 
 === "Vocabulary"
 
-    ## The AN Subclusters
+    ## The YA Cluster
     
-    Today we will take a deeper look into our fourth cluster, **AN**! Let's explore these AN words.
+    Today we will learn a new cluster, YA! Take a look at these words.
     
     <audio controls style="width:100%">
-      <source src="../audio/8v.mp3" type="audio/wav">
+      <source src="../audio/9v.mp3" type="audio/wav">
     </audio>
     
     | Oravia | English |
     |--------|---------|
-    | ando | can, be capable of, be able to |
-    | anita | take |
-    | anifou | need |
-    | anidai | want |
-    | anifi | come |
-    | anona | give |
-    | anopu | lose |
-    | anocari | leave |
-    | anolu | out |
-    | anefene | rest |
-    | anepou | stop |
-    | anefe | put |
-    | anelem | stay, remain |
+    | yasoi | fast |
+    | yalgai | small |
+    | yani | new |
+    | yamirli | old |
+    | yavuson | slow |
     
-    Notice that the subclusters — **ANI**, **ANO**, and **ANE** — tell us the direction of the action.  
-    
-    **ANI** is about **movement towards**. It's for actions that represent an approach orientation, like take, come, need, and want.
-    
-    **ANO** is about **movement away**, it's for actions like give, lose, and leave.  
-    
-    **ANE** is about neither movement towards nor away: it's for **being static**. It's for things like rest, stop, put, and stay.  
-    
-    !!! info "🌍 Sound Connections"
-        Ani is movement toward like Japanese に ni (toward, directional particle).  
-        
-        Ane is static movement like Latin manere (to remain/stay).  
-        
-        If you need something it's because you lack it: fou means "lack" and comes from English few.  
-    
-    Some of these verbs are special. They can take not only *things* as complements, but *other verbs* too. Take for example the verb *to want*, or *anidai*. How would you say "my parent wants a bed?"
-    
-    ```
-    nim fare i anidai e bonfene.
-    ```
-    
-    But what if your parent wanted to do an action instead? For example, *to lie down*. How would we say that?
-    Step 1: How to make *e bonfene* a verb instead of a noun? That's right, we use *i* instead of *e*:
-    
-    ```
-    nim fare i anidai i bonfene.
-    ```
-    
-    Step 2: now, we drop the subcluster sound of the first verb. What remains is what we call the root, like this:
-    
-    ```
-    nim fare i dai i bonfene.
-    ```
-    
-    Done! There are a few reasons we use just the root of the first verb for a construction like *to want to do*. First, it sounds more distinct from the noun option, so listeners can tell the difference easily. Second, it's shorter, and these verb stacks come up a lot! You can use many verbs in the first verb role - ando, anifou, anidai, anepou, anelem... These are all verbs that take another action as a complement.
-    
-    How do you think we would say *to need to come*? How about *to be able to leave*?
+    What do you think the words in the **YA** cluster have in common?
     
     <div style="text-align: center; margin: 2rem 0;">
         <button onclick="document.getElementById('cluster5-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
-            Click to Reveal Answer
+            Click to Reveal Cluster Meaning
         </button>
     </div>
     
     <div id="cluster5-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-        <p style="margin: 0;">i fou i anifi. i do i anocari. </p>
+        <p style="margin: 0;"> That's right! They are all <strong>characteristics</strong>.</p>
     </div>
     
-    This construction is so common it will soon become second nature!
+    These words are primarily used as adjectives, or characterists. This is not the only cluster with characteristics, we have another one coming up. The difference is that the **YA** cluster is about **objective characteristics**, that is, things that can be **measured**. The other cluster is about subjective characteristics, things like boring, or beautiful. 
     
-    You can also use the full verb form, like *i anidai i bonfene*. It tends to sound a bit formal and stiff for everyday speech. Sometimes you may want to create this effect, but short form is what you will hear and use most naturally in conversation.
+    Recall words are flexible. The **YA** cluster is usually in the role of adjectives, but they can have other meanings as well. For example:
     
-    In sum, in the AN cluster (actions), we have:
+    | Oravia | English |
+    |--------|---------|
+    | yasoi | fast, speed |
+    | yalgai | small, little |
+    | yani | new, innovation |
+    | yamirli | old, age |
+    | yavuson | slow, slowly |
     
-    ```
-    ANI - movement towards  
-    ANO - movement away     
-    ANE - static
-    i do/dai/fou... i [verb] = can/want/need... to [verb]
-    ```
-    
-    !!! tip "Flexibility"
-        Don't worry too much about memorizing the right subclusters for each word. For example, you can say *anefene*, or *anfene*, they mean the same thing! You could also say only *ane* (static) or *fene* (rest), just the meaning would be broader without context. Options like these will be discussed later on, once you understand better how the language works. For now, just keep in mind there is no need to stress over the right subclusters and that words are flexible. 
+    The sentence tells you which role the word has. We will use these words in different roles in later lessons. 
+
+
+    ### Recognize the Roots
+
+    Take another look at **yani**. Do you recognize any roots you've learned before?
+
+    <div style="text-align: center; margin: 1.25rem 0;">
+    <button onclick="document.getElementById('root-recall-l8-ya-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.65rem 1.5rem; border-radius: 4px; cursor: pointer;">
+        Click to Reveal the Roots
+    </button>
+    </div>
+
+    <div id="root-recall-l8-ya-answer" style="display: none; background: #c8e6c9; padding: 1.25rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 1.25rem 0;">
+    <p style="margin: 0 0 0.45rem 0;"><strong>yani</strong> → <strong>NI</strong> = new</p>
+    </div>
+
+    !!! info "🌍 Sound Connections"
+        Gai means small and comes from English and French grain.  
+        
+
+    Here are other words with this root:  
+    **litegai** = minute (clock time + small; hour is the big unit), just like yalgai = small (objective quality + small).          
 
 === "Practice"
 
     ## Matching Games
 
-    Time to practice! Match the Oravia words with their English meanings.
-
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
-
+    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
     Click one word from each column to match them. The game will check automatically when you select both words.
-
     ---
 
     ### Round 1
 
-    <div id="matching-game-1" data-lesson="lesson08" data-round="1"></div>
+    <div id="matching-game-1" data-lesson="cc26_lesson08" data-round="1"></div>
 
     ---
 
     ### Round 2
 
-    <div id="matching-game-2" data-lesson="lesson08" data-round="2"></div>
+    <div id="matching-game-2" data-lesson="cc26_lesson08" data-round="2"></div>
 
     ---
 
     ### Round 3
 
-    <div id="matching-game-3" data-lesson="lesson08" data-round="3"></div>
+    <div id="matching-game-3" data-lesson="cc26_lesson08" data-round="3"></div>
 
     ---
 
     ### Round 4
 
-    <div id="matching-game-4" data-lesson="lesson08" data-round="4"></div>
+    <div id="matching-game-4" data-lesson="cc26_lesson08" data-round="4"></div>
 
 
-
-=== "Review"
-
-    ## Review Missed Words
-    
-    This section shows only the words you got wrong during practice. If you didn't miss any words, this will be empty - great job! 🎉
-    
-    ---
-    
-    <div id="review-game-container"></div>
-
-    ---
 === "Flashcards"
 
     <div id="flashcard-container" data-lesson="8"></div>
@@ -246,68 +207,14 @@
         🎉 <strong>Lesson 8 Complete!</strong>
     </p>
 <p style="color: #5a8bb8; margin-bottom: 0.5rem;">
-        If you missed any words, check the <strong>Review</strong> tab to practice them again.
+        Use the <strong>Flashcards</strong> tab for another quick review.
     </p>
 <p style="color: #5a8bb8; margin-bottom: 1.5rem;">
         Come back tomorrow for Lesson 9.
     </p>
 </div>
 
-<script>
-    async function initReview() {
-    const wrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-    const container = document.getElementById('review-game-container');
-    if (!container) return;
-    if (wrongIds.length === 0) {
-        container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p><p style="color: #5a8bb8; margin-top: 0.5rem;">You did not miss any words. Excellent work!</p></div>';
-        return;
-}
-    try {
-        const lessonIds = [...new Set(
-            [...document.querySelectorAll('[data-lesson]')]
-                .map(el => el.dataset.lesson)
-        )];
-        const baseUrl = window.location.origin;
-        const responses = await Promise.all(
-            lessonIds.map(id => fetch(baseUrl + '/data/' + id + '_words.json').then(r => r.json()))
-        );
-        const allWords = responses.flatMap(data => data.words);
-        const seen = new Set();
-        const uniqueWords = allWords.filter(w => {
-            if (seen.has(w.id)) return false;
-            seen.add(w.id);
-            return true;
-        });
-        const wrongWords = uniqueWords.filter(word => wrongIds.includes(word.id));
-        if (wrongWords.length === 0) {
-            container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p></div>';
-            return;
-        }
-        container.innerHTML = '<p style="text-align: center; margin-bottom: 2rem; color: #5a8bb8;">Practice these ' + wrongWords.length + ' word(s) you found challenging:</p><div id="review-game-wrapper"></div><div style="text-align: center; margin-top: 2rem;"><button id="clear-review" style="padding: 0.5rem 1.5rem; background: #f57c00; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.95rem;">Clear Review List</button></div>';
-        new MatchingGame('review-game-wrapper', wrongWords, 'review', null, []);
-        document.getElementById('clear-review').addEventListener('click', function() {
-            if (confirm('Clear all review words? This will reset your wrong words list for this lesson.')) {
-                const allWrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-                const lessonWordIds = uniqueWords.map(w => w.id);
-                const remainingWrongIds = allWrongIds.filter(id => !lessonWordIds.includes(id));
-                localStorage.setItem('wrong_ids', JSON.stringify(remainingWrongIds));
-                location.reload();
-            }
-        });
-} catch (error) {
-        console.error('Error loading words:', error);
-        container.innerHTML = '<p style="color: #f44336;">Error loading review words. Please refresh the page.</p>';
-}
-}
-document.addEventListener('DOMContentLoaded', initReview);
-    document.querySelectorAll('.tabbed-labels label').forEach(label => {
-    if (label.textContent.trim() === 'Review') {
-        label.addEventListener('click', function() {
-            setTimeout(initReview, 50);
-        });
-}
-});
-</script>
+
 
 <script>
 (function() {

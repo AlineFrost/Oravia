@@ -1,0 +1,161 @@
+{
+  "lesson_id": "cc26_lesson58",
+  "cluster": "complete-course",
+  "cluster_meaning": "matching practice",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "JE recognition",
+      "buckets": [
+        "r1"
+      ],
+      "words_per_bucket": 4
+    },
+    {
+      "round": 2,
+      "title": "JE functional words",
+      "buckets": [
+        "r2"
+      ],
+      "words_per_bucket": 3
+    },
+    {
+      "round": 3,
+      "title": "Cluster recognition — mixed repeat",
+      "buckets": [
+        "r3_repeat"
+      ],
+      "words_per_bucket": 6,
+      "allow_repeats": true
+    },
+    {
+      "round": 4,
+      "title": "TALE / PARO roots",
+      "buckets": [
+        "r3"
+      ],
+      "words_per_bucket": 4
+    }
+  ],
+  "words": [
+    {
+      "id": "lesson58_r1_1",
+      "oravia": "jelano",
+      "english": "circle",
+      "bucket": "r1",
+      "source_bucket": "je"
+    },
+    {
+      "id": "lesson58_r1_2",
+      "oravia": "jenai",
+      "english": "corner / angle",
+      "bucket": "r1",
+      "source_bucket": "jen"
+    },
+    {
+      "id": "lesson58_r1_3",
+      "oravia": "jenrein",
+      "english": "between",
+      "bucket": "r1",
+      "source_bucket": "jen"
+    },
+    {
+      "id": "lesson58_r1_4",
+      "oravia": "jentale",
+      "english": "through",
+      "bucket": "r1",
+      "source_bucket": "jen"
+    },
+    {
+      "id": "lesson58_r2_1",
+      "oravia": "jetai",
+      "english": "direction",
+      "bucket": "r2",
+      "source_bucket": "je"
+    },
+    {
+      "id": "lesson58_r2_2",
+      "oravia": "jenon",
+      "english": "path / way",
+      "bucket": "r2",
+      "source_bucket": "jen"
+    },
+    {
+      "id": "lesson58_r2_3",
+      "oravia": "jenparo",
+      "english": "front",
+      "bucket": "r2",
+      "source_bucket": "jen"
+    },
+    {
+      "id": "lesson58_r3_1",
+      "oravia": "jentale",
+      "english": "through",
+      "bucket": "r3",
+      "source_bucket": "tale"
+    },
+    {
+      "id": "lesson58_r3_2",
+      "oravia": "boetale",
+      "english": "hall",
+      "bucket": "r3",
+      "source_bucket": "tale"
+    },
+    {
+      "id": "lesson58_r3_3",
+      "oravia": "jenparo",
+      "english": "front",
+      "bucket": "r3",
+      "source_bucket": "paro"
+    },
+    {
+      "id": "lesson58_r3_4",
+      "oravia": "varparo",
+      "english": "face",
+      "bucket": "r3",
+      "source_bucket": "paro"
+    },
+    {
+      "id": "lesson58_r3_repeat_1",
+      "oravia": "jelano",
+      "english": "circle",
+      "bucket": "r3_repeat",
+      "source_bucket": "je"
+    },
+    {
+      "id": "lesson58_r3_repeat_2",
+      "oravia": "jenai",
+      "english": "corner / angle",
+      "bucket": "r3_repeat",
+      "source_bucket": "jen"
+    },
+    {
+      "id": "lesson58_r3_repeat_3",
+      "oravia": "jenrein",
+      "english": "between",
+      "bucket": "r3_repeat",
+      "source_bucket": "jen"
+    },
+    {
+      "id": "lesson58_r3_repeat_4",
+      "oravia": "jetai",
+      "english": "direction",
+      "bucket": "r3_repeat",
+      "source_bucket": "je"
+    },
+    {
+      "id": "lesson58_r3_repeat_5",
+      "oravia": "jenon",
+      "english": "path / way",
+      "bucket": "r3_repeat",
+      "source_bucket": "jen"
+    },
+    {
+      "id": "lesson58_r3_repeat_6",
+      "oravia": "jenparo",
+      "english": "front",
+      "bucket": "r3_repeat",
+      "source_bucket": "jen"
+    }
+  ]
+}

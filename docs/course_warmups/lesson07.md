@@ -1,9 +1,9 @@
 # Lesson 7: AN Cluster
 
 !!! info "How to Use This Lesson"
-    This lesson is divided into five sections. Please move through them in this order: **Grammar**, **Vocabulary**, **Practice**, **Review**, **Flashcards**.
+    This lesson is divided into four sections. Please move through them in this order: **Grammar**, **Vocabulary**, **Practice**, **Flashcards**.
     
-    **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
+    **Do not try to memorize!** Just read through the content attentively. The warm-ups and flashcards will bring the vocabulary back later!
 
 ---
 
@@ -91,7 +91,7 @@
     ```
     
     ```
-    cedom nim i bospupi e falen?
+    cedom nim i bospupi e falfal?
     ```
     
     ```
@@ -111,7 +111,7 @@
     cedom = where (what + place)?  
     en = in/at/on  
     de = from/of  
-    falen = child  
+    falfal = child  
     boelori = room  
     bo = house  
     
@@ -159,7 +159,7 @@
     |--------|---------|
     | anye | make |
     | anvu | move |
-    | anifi | come |
+    | aniyel | come |
     | anidai | want |
     | anifou | need |
     | anefene | rest |
@@ -169,7 +169,7 @@
     
     <div style="text-align: center; margin: 2rem 0;">
         <button onclick="document.getElementById('cluster5-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
-            Click to Reveal Subcluster Meaning
+            Click to Reveal Cluster Meaning
         </button>
     </div>
     
@@ -190,7 +190,7 @@
     
     <div style="text-align: center; margin: 2rem 0;">
         <button onclick="document.getElementById('cluste-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
-            Click to Reveal Subcluster Meaning
+            Click to Reveal Answer
         </button>
     </div>
     
@@ -198,6 +198,21 @@
         <p style="margin: 0;">Possible translations: wanted chocolate, needed shower.</p>
     </div>
     
+
+    ### Recognize the Roots
+
+    Take another look at **anefene**. Do you recognize any roots you've learned before?
+
+    <div style="text-align: center; margin: 1.25rem 0;">
+    <button onclick="document.getElementById('root-recall-l7-an-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.65rem 1.5rem; border-radius: 4px; cursor: pointer;">
+        Click to Reveal the Roots
+    </button>
+    </div>
+
+    <div id="root-recall-l7-an-answer" style="display: none; background: #c8e6c9; padding: 1.25rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 1.25rem 0;">
+    <p style="margin: 0 0 0.45rem 0;"><strong>anefene</strong> → <strong>FENE</strong> = rest</p>
+    </div>
+
     !!! info "🌍 Sound Connections"
         Sau means start, like Hindi शुरू śurū (start, beginning).
         
@@ -207,53 +222,42 @@
                 
     Here are other words with these roots:  
     **beivu** = car (vehicle + move), just like anvu = movement (action + move).  
-    **bofi** = inside (house + come), just like anifi = come (movement towards + come)  
+    **bofi** = inside (house + come), just like aniyel = come (movement towards + come)  
     **roesau** = learn (formal knowledge + start/beginning), just like ansau = start (movement + start)
      
 
 === "Practice"
 
     ## Matching Games
-    
-    Time to practice! Match the Oravia words with their English meanings.
-    
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
-    
+
+    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
     Click one word from each column to match them. The game will check automatically when you select both words.
-    
     ---
-    
+
     ### Round 1
-    
-    <div id="matching-game-1" data-lesson="lesson07" data-round="1"></div>
+
+    <div id="matching-game-1" data-lesson="cc26_lesson07" data-round="1"></div>
 
     ---
 
     ### Round 2
-    
-    <div id="matching-game-2" data-lesson="lesson07" data-round="2"></div>
+
+    <div id="matching-game-2" data-lesson="cc26_lesson07" data-round="2"></div>
 
     ---
 
     ### Round 3
-    
-    <div id="matching-game-3" data-lesson="lesson07" data-round="3"></div>
 
-
-
-
-=== "Review"
-
-    ## Review Missed Words
-    
-    This section shows only the words you got wrong during practice. If you didn't miss any words, this will be empty - great job! 🎉
-    
-    ---
-    
-    <div id="review-game-container"></div>
-      
+    <div id="matching-game-3" data-lesson="cc26_lesson07" data-round="3"></div>
 
     ---
+
+    ### Round 4
+
+    <div id="matching-game-4" data-lesson="cc26_lesson07" data-round="4"></div>
+
+
 === "Flashcards"
 
     <div id="flashcard-container" data-lesson="7"></div>
@@ -263,68 +267,14 @@
         🎉 <strong>Lesson 7 Complete!</strong>
     </p>
 <p style="color: #5a8bb8; margin-bottom: 0.5rem;">
-        If you missed any words, check the <strong>Review</strong> tab to practice them again.
+        Use the <strong>Flashcards</strong> tab for another quick review.
     </p>
 <p style="color: #5a8bb8; margin-bottom: 1.5rem;">
         Come back tomorrow for Lesson 8.
     </p>
 </div>
 
-<script>
-    async function initReview() {
-    const wrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-    const container = document.getElementById('review-game-container');
-    if (!container) return;
-    if (wrongIds.length === 0) {
-        container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p><p style="color: #5a8bb8; margin-top: 0.5rem;">You did not miss any words. Excellent work!</p></div>';
-        return;
-}
-    try {
-        const lessonIds = [...new Set(
-            [...document.querySelectorAll('[data-lesson]')]
-                .map(el => el.dataset.lesson)
-        )];
-        const baseUrl = window.location.origin;
-        const responses = await Promise.all(
-            lessonIds.map(id => fetch(baseUrl + '/data/' + id + '_words.json').then(r => r.json()))
-        );
-        const allWords = responses.flatMap(data => data.words);
-        const seen = new Set();
-        const uniqueWords = allWords.filter(w => {
-            if (seen.has(w.id)) return false;
-            seen.add(w.id);
-            return true;
-        });
-        const wrongWords = uniqueWords.filter(word => wrongIds.includes(word.id));
-        if (wrongWords.length === 0) {
-            container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p></div>';
-            return;
-        }
-        container.innerHTML = '<p style="text-align: center; margin-bottom: 2rem; color: #5a8bb8;">Practice these ' + wrongWords.length + ' word(s) you found challenging:</p><div id="review-game-wrapper"></div><div style="text-align: center; margin-top: 2rem;"><button id="clear-review" style="padding: 0.5rem 1.5rem; background: #f57c00; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.95rem;">Clear Review List</button></div>';
-        new MatchingGame('review-game-wrapper', wrongWords, 'review', null, []);
-        document.getElementById('clear-review').addEventListener('click', function() {
-            if (confirm('Clear all review words? This will reset your wrong words list for this lesson.')) {
-                const allWrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-                const lessonWordIds = uniqueWords.map(w => w.id);
-                const remainingWrongIds = allWrongIds.filter(id => !lessonWordIds.includes(id));
-                localStorage.setItem('wrong_ids', JSON.stringify(remainingWrongIds));
-                location.reload();
-            }
-        });
-} catch (error) {
-        console.error('Error loading words:', error);
-        container.innerHTML = '<p style="color: #f44336;">Error loading review words. Please refresh the page.</p>';
-}
-}
-document.addEventListener('DOMContentLoaded', initReview);
-    document.querySelectorAll('.tabbed-labels label').forEach(label => {
-    if (label.textContent.trim() === 'Review') {
-        label.addEventListener('click', function() {
-            setTimeout(initReview, 50);
-        });
-}
-});
-</script>
+
 
 <script>
 (function() {

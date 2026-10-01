@@ -1,9 +1,9 @@
-# Lesson 3: FA Cluster
+# Lesson 3: BO Cluster
 
 !!! info "How to Use This Lesson"
-    This lesson is divided into five sections. Please move through them in this order: **Grammar**, **Vocabulary**, **Practice**, **Review**, **Flashcards**.
+    This lesson is divided into four sections. Please move through them in this order: **Grammar**, **Vocabulary**, **Practice**, **Flashcards**.
     
-    **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
+    **Do not try to memorize!** Just read through the content attentively. The warm-ups and flashcards will bring the vocabulary back later!
 
 ---
 
@@ -14,14 +14,9 @@
     In every other Grammar lesson, we will do some practice!
     
     See if you can understand these sentences. If you scroll bellow, you will see tips, and then answers. 
-    
-    <audio controls style="width:100%">
-      <source src="../audio/3g.mp3" type="audio/wav">
-    </audio>
-    
-    
+    <!-- Audio temporarily hidden: it contains the previous plural-pronoun forms. Rerecord with nimas/runas/hayas. -->
     ```
-    a runa i mo e moaria
+    a runas i mo e moaria
     ```
     
     ```
@@ -29,7 +24,7 @@
     ```
     
     ```
-    i mouje e mogali a nima 
+    i mouje e mogali a nimas 
     ```
     
     ```
@@ -37,11 +32,11 @@
     ```
     
     ```
-    haya i mouje e mouje
+    fare i mouje e mogali
     ```
     
     ```
-    nim i mo moalen
+    faibor i mo e moaria
     ```
     
     **Tips**
@@ -55,15 +50,15 @@
     | mogali | coffee |
     | mocen  | chocolate |
     | mouje  | drink |
-    | moulu  | milk |
     | moaria | apple |
-    | moalen  | banana |
-    
+    | fare | parent |
+    | faibor | spouse |
+
     | Singular | Plural |
     |----------|--------|
-    | **nim** (I) | **nima** (we) |
-    | **run** (you) | **runa** (you all) |
-    | **hay** (he/she/they) | **haya** (they pl.) |
+    | **nim** (I) | **nimas** (we) |
+    | **run** (you) | **runas** (you all) |
+    | **hay** (he/she/they) | **hayas** (they pl.) |
     
     
     **Answers**
@@ -74,7 +69,7 @@
     </div>
     
     <div id="subcluster-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-        <p style="margin: 0;"> Possible ways to translate:  You all eat the apple.  She drinks chocolate.  We drink coffee.  You eat apple.  They drink a drink.  I eat banana. </p>
+        <p style="margin: 0;"> Possible ways to translate: You all eat the apple. She drinks chocolate. We drink coffee. You eat an apple. The parent drinks coffee. The spouse eats an apple. </p>
     </div>
     
     Great job! Based on the sentences, we can see that:
@@ -83,11 +78,11 @@
     a [someone] i [verb] e [something]
     ```
     
-    . Because we have markers, the word order is flexible. 
+    - Because we have markers, the word order is flexible. 
     
-    . If it's clear from context, we can omit markers.
+    - If it's clear from context, we can omit markers.
 
-    . There are no articles, conjugation or plural (just plural for personal pronouns).  
+    - There are no articles, conjugation or plural (just plural for personal pronouns).  
     
     If it's helpful to you, here's some mnemonics for the markers:
     
@@ -133,46 +128,69 @@
 
 === "Vocabulary"
 
-    ## The FA Cluster
+    ## The BO Cluster
     
-    Time to take a look at our second cluster! Look at the list of words below.
-    
-    **Remember, do not try to memorize them.** Just read it through attentively.
+    BO is our third cluster! Take a look at these words and try to see if you can guess what this cluster is about.
     
     <audio controls style="width:100%">
-      <source src="../audio/3v.mp3" type="audio/wav">
+      <source src="../audio/5v.mp3" type="audio/wav">
     </audio>
     
     | Oravia | English |
     |--------|---------|
-    | faibor | spouse |
-    | fare | parent |
-    | falni | baby |
-    | falen | child |
+    | bortal | door |
+    | boelori | room |
+    | bontame | table |
+    | boemo | kitchen |
     
-    What do you think the words that start in *FA* have in common?
+    What do you think the words that start in *BO* have in common?
     
     <div style="text-align: center; margin: 2rem 0;">
-        <button onclick="document.getElementById('cluster-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
-            Click to Reveal Subcluster Meaning
+        <button onclick="document.getElementById('cluster1-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+            Click to Reveal Cluster Meaning
         </button>
     </div>
     
-    <div id="cluster-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-        <p style="margin: 0;">That's right! FA words are related to <strong>family</strong>.</p>
+    <div id="cluster1-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+        <p style="margin: 0;">They are all related to <strong>house</strong>. That's what *bo* means!</p>
     </div>
     
-    !!! info "🌍 Sound Connections"
-        Fa is like Latin familia, which is where the English word family comes from.  
-          
-        Parent uses the root re(l), which comes from Latin relevare (to lift, raise up). This is because parents are one generation above!  
-        
-        The root ni in Falni (baby) comes from the Proto-Indo-European root newo, which shares Greek νέος neos (young, fresh, recent), and English new.
 
-    Here are other word that use these roots:  
-    **yani** = new (quality + new), just like falni = baby (child + new).  
-    **wirel** = north (geography + up), just like fare = parent (family member + up). 
+    ### Recognize the Roots
+
+    Take another look at **boemo**. Do you recognize any roots you've learned before?
+
+    <div style="text-align: center; margin: 1.25rem 0;">
+    <button onclick="document.getElementById('root-recall-l3-bo-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.65rem 1.5rem; border-radius: 4px; cursor: pointer;">
+        Click to Reveal the Roots
+    </button>
+    </div>
+
+    <div id="root-recall-l3-bo-answer" style="display: none; background: #c8e6c9; padding: 1.25rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 1.25rem 0;">
+    <p style="margin: 0 0 0.45rem 0;"><strong>boemo</strong> → <strong>MO</strong> = food / eating</p>
+    </div>
+
+    !!! info "🌍 Sound Connections"
+        Bo is like Arabic بيت (bayt = house, dwelling); Hebrew בית (bayit = house); Proto-Semitic *bayt- (house); Swahili boma (enclosed homestead); Russian бок (bok = side of a house).  
     
+    Now that we are learning **locations**, there is a word that is very useful for this! When we want to talk about location, we use *en*. This means on/at/in.
+    For example,
+    
+    ```
+    en bo = at home
+    ```
+    
+    ```
+    en boemo = in the kitchen
+    ```
+    
+    ```
+    en bontame = on the table
+    ```
+    
+    Very versatile. Now we can talk about locations! We also use *en* for time, similar to how English also uses on/at/in to indicate time. But that's for another lesson :)
+    
+
     Can you create 2 sentences using these words?  
     
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
@@ -190,58 +208,34 @@
         setTimeout(()=>{btn.textContent='Save My Answer';btn.style.background='#4a9cd6';},2000);
     })(this)" class="save-writing-btn" style="background:#4a9cd6 !important; color:white !important; border:none; padding:0.5rem 1.5rem; border-radius:4px; cursor:pointer; font-size:1rem; font-weight:500;"><span>Save My Answer</span></button>
     </div>
-    
-    You will now move into the exercise. We have been seeing a lot of new words, but some are more central than others. For this reason, some words will appear frequently and you will retain them better. Other words will appear less and you may forget what they mean. Don't worry about it! If you don't remember a word that appears in an example or reading, check the tips on that same page. 
-    
-    ---
+
 
 === "Practice"
 
     ## Matching Games
-    
-    Time to practice! Match the Oravia words with their English meanings.
-    
-    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.
-    
+
+    Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
+    **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
     Click one word from each column to match them. The game will check automatically when you select both words.
-    
-    After completing the Exercises and Review, try it again to see how much you've improved.
-    
     ---
-    
+
     ### Round 1
-    
-    <div id="matching-game-1" data-lesson="lesson03" data-round="1"></div>
+
+    <div id="matching-game-1" data-lesson="cc26_lesson03" data-round="1"></div>
 
     ---
 
     ### Round 2
-    
-    <div id="matching-game-2" data-lesson="lesson03" data-round="2"></div>
+
+    <div id="matching-game-2" data-lesson="cc26_lesson03" data-round="2"></div>
 
     ---
 
     ### Round 3
-    
-    <div id="matching-game-3" data-lesson="lesson03" data-round="3"></div>
+
+    <div id="matching-game-3" data-lesson="cc26_lesson03" data-round="3"></div>
 
 
-    ---
-
-    ### Round 4
-    
-    <div id="matching-game-4" data-lesson="lesson03" data-round="4"></div>
-
-
-=== "Review"
-
-    ## Review Missed Words
-    
-    This section shows only the words you got wrong during practice. If you didn't miss any words, this will be empty - great job! 🎉
-    
-    ---
-    
-    <div id="review-game-container"></div>
 === "Flashcards"
 
     <div id="flashcard-container" data-lesson="3"></div>
@@ -253,68 +247,14 @@
         🎉 <strong>Lesson 3 Complete!</strong>
     </p>
 <p style="color: #5a8bb8; margin-bottom: 0.5rem;">
-        If you missed any words, check the <strong>Review</strong> tab to practice them again.
+        Use the <strong>Flashcards</strong> tab for another quick review.
     </p>
 <p style="color: #5a8bb8; margin-bottom: 1.5rem;">
         Come back tomorrow for Lesson 4.
     </p>
 </div>
 
-<script>
-async function initReview() {
-    const wrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-    const container = document.getElementById('review-game-container');
-    if (!container) return;
-    if (wrongIds.length === 0) {
-        container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p><p style="color: #5a8bb8; margin-top: 0.5rem;">You did not miss any words. Excellent work!</p></div>';
-        return;
-}
-    try {
-        const lessonIds = [...new Set(
-            [...document.querySelectorAll('[data-lesson]')]
-                .map(el => el.dataset.lesson)
-        )];
-        const baseUrl = window.location.origin;
-        const responses = await Promise.all(
-            lessonIds.map(id => fetch(baseUrl + '/data/' + id + '_words.json').then(r => r.json()))
-        );
-        const allWords = responses.flatMap(data => data.words);
-        const seen = new Set();
-        const uniqueWords = allWords.filter(w => {
-            if (seen.has(w.id)) return false;
-            seen.add(w.id);
-            return true;
-        });
-        const wrongWords = uniqueWords.filter(word => wrongIds.includes(word.id));
-        if (wrongWords.length === 0) {
-            container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p></div>';
-            return;
-        }
-        container.innerHTML = '<p style="text-align: center; margin-bottom: 2rem; color: #5a8bb8;">Practice these ' + wrongWords.length + ' word(s) you found challenging:</p><div id="review-game-wrapper"></div><div style="text-align: center; margin-top: 2rem;"><button id="clear-review" style="padding: 0.5rem 1.5rem; background: #f57c00; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.95rem;">Clear Review List</button></div>';
-        new MatchingGame('review-game-wrapper', wrongWords, 'review', null, []);
-        document.getElementById('clear-review').addEventListener('click', function() {
-            if (confirm('Clear all review words? This will reset your wrong words list for this lesson.')) {
-                const allWrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-                const lessonWordIds = uniqueWords.map(w => w.id);
-                const remainingWrongIds = allWrongIds.filter(id => !lessonWordIds.includes(id));
-                localStorage.setItem('wrong_ids', JSON.stringify(remainingWrongIds));
-                location.reload();
-            }
-        });
-} catch (error) {
-        console.error('Error loading words:', error);
-        container.innerHTML = '<p style="color: #f44336;">Error loading review words. Please refresh the page.</p>';
-}
-}
-document.addEventListener('DOMContentLoaded', initReview);
-document.querySelectorAll('.tabbed-labels label').forEach(label => {
-    if (label.textContent.trim() === 'Review') {
-        label.addEventListener('click', function() {
-            setTimeout(initReview, 50);
-        });
-}
-});
-</script>
+
 
 <script>
 (function() {

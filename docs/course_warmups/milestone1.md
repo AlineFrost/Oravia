@@ -14,7 +14,7 @@ Below is a conversation between Ana and Kai. They are *planning a family meal by
 
 3\. **Ana:** Oila!
 
-4\. **Kai:** ...Su a nim i fou i boemo u haya.
+4\. **Kai:** ...Su a nim i fou i boemo u hayas.
 
 5\. **Ana:** Run i boemo?<br>Nim i ilianum ca run i do i boemo!
 
@@ -24,7 +24,7 @@ Below is a conversation between Ana and Kai. They are *planning a family meal by
 
 8\. **Kai:** Nim fare, nim fasu su hay falen.<br>Par ilhei.
 
-9\. **Ana:** Su haya i dapas e ce?
+9\. **Ana:** Su hayas i dapas e ce?
 
 10\. **Kai:** I iliro e mocen,<br>mai nim fasu i pasum e moyi.
 
@@ -40,15 +40,15 @@ Below is a conversation between Ana and Kai. They are *planning a family meal by
 
 16\. **Kai:** Ceora um?<br>A moaria a yuba.
 
-17\. **Ana:** Um, nim i do i boemo e elireva mo u haya.
+17\. **Ana:** Um, nim i do i boemo e elireva mo u hayas.
 
 18\. **Kai:** Eloan!<br>Mai a nim boemo a yalgai.
 
-19\. **Ana:** Eta runa i do i anifi en nim bo.<br>Nim i gelna e mo, su i boemo.
+19\. **Ana:** Eta runas i do i anifi en nim bo.<br>Nim i gelna e mo, su i boemo.
 
 20\. **Kai:** Oia, yuba!<br>Nim i anona e gerina u run cali nim i do.
 
-21\. **Ana:** Su celi haya i anifi?
+21\. **Ana:** Su celi hayas i anifi?
 
 22\. **Kai:** Litamis en alui litetan.<br>Mai a nim fare a yamirli,<br>eta hay i anvu ho yasoi.
 
@@ -56,7 +56,7 @@ Below is a conversation between Ana and Kai. They are *planning a family meal by
 
 24\. **Kai:** Nim i ilianum, mai i dami a fare beivu.<br>Eloan!<br>Eta en liperis, nim i boemo u run.
 
-25\. **Ana:** Nima i ilaluan e ca lili en liperis!<br>Bi oi ca nim i eodani e run fare.<br>Hay i do i ilaluan e oimel de run,<br>cali a run a falen.
+25\. **Ana:** Nimas i ilaluan e ca lili en liperis!<br>Bi oi ca nim i eodani e run fare.<br>Hay i do i ilaluan e oimel de run,<br>cali a run a falen.
 
 26\. **Kai:** Oinesum.
 
@@ -124,7 +124,7 @@ fou = need (from anifou)
 gelna = buy  
 gerina = money  
 hay = he/she/they (sing.)  
-haya = they (pl.)  
+hayas = they (pl.)  
 ho = opposite  
 i = verb marker  
 ia = yes  
@@ -149,7 +149,7 @@ mogali = coffee
 molcui = bowl  
 moyi = sugar  
 nim = I / my  
-nima = we / our  
+nimas = we / our  
 noi = this  
 noli = now  
 oi = fun, entertaining  
@@ -160,7 +160,7 @@ oines = funny, joke
 par = three  
 pas = like (from dapas)  
 run = you / your  
-runa = you (plural) / your  
+runas = you (plural) / your  
 su = and, with, also  
 u = indirect complement marker / to, for  
 um = no, not (suffix)  
@@ -172,13 +172,13 @@ yuba = good
 yugai = easy  
 
 
-...Su a nim i fou i boemo u haya.  
+...Su a nim i fou i boemo u hayas.  
 *...And I need to cook for them.*
 
 Caora nim i ilace e run.  
 *That is why I am asking you.*
 
-Su haya i dapas e ce?  
+Su hayas i dapas e ce?  
 *And what do they like?*
 
 Hay i ilaluan ca "e ce run i anye, nim i dapas".  
@@ -190,10 +190,10 @@ Mai a noi daco a yugaium u run.
 Ilie e mogali su moaria molcui?  
 *Maybe coffee and a bowl of apples?*
 
-Nim i do i boemo e elireva mo u haya.  
+Nim i do i boemo e elireva mo u hayas.  
 *I can cook real food for them.*
 
-Nima i ilaluan e ca lili en liperis!  
+Nimas i ilaluan e ca lili en liperis!  
 *We will talk about that again next week!*
 
 Hay i do i ilaluan e oimel de run, cali a run a falen.  
@@ -231,7 +231,7 @@ d) Kai's family arrives
 Answer these questions in Oravia:
 
 a) Ceora a Kai i anyeum e mocen?  
-b) Cedom haya i mo litamis?  
+b) Cedom hayas i mo litamis?  
 
 <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write the answers here..."></textarea>
 
@@ -284,8 +284,8 @@ Now write 2 sentences about Ana and Kai:
 <div id="answer3" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
 <p style="margin: 0 0 0.5rem 0;">a) Ceora a Kai i anyeum e mocen?</p>
 <p style="margin: 0 0 0.5rem 0;">Possible answer: Caora a Kai fasu i pasum e moyi.</p>
-<p style="margin: 0 0 0.5rem 0;">b) Cedom haya i mo litamis?</p>
-<p style="margin: 0;">Possible answer: Haya i mo en Ana bo, caora a Kai boemo a yalgai.</p>
+<p style="margin: 0 0 0.5rem 0;">b) Cedom hayas i mo litamis?</p>
+<p style="margin: 0;">Possible answer: Hayas i mo en Ana bo, caora a Kai boemo a yalgai.</p>
 </div>
 
 *Dialogue Translation*

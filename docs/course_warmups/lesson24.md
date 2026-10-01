@@ -1,7 +1,7 @@
-# Lesson 24: Dia & Hue
+# Lesson 24: Dia & Hue / VA Subclusters
 
 !!! info "How to Use This Lesson"
-    This lesson is divided into six sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Practice**, **Review**, **Flashcards**.
+    This lesson is divided into five sections. Please move through them in this order: **Warm-Up**, **Grammar**, **Vocabulary**, **Practice**, **Flashcards**.
     
     **Do not try to memorize!** Just read through the content attentively. We will have plenty of exercises and reviews later!
 
@@ -48,8 +48,8 @@
     | anopu | to lose | loser | lost |
     | anocari | to leave | leaver | left behind | 
     | anelem | to keep | keeper | kept | 
-    | geldove | sell | seller | sold |
-    | eomio | support | supporter | supported |
+    | gehdove | sell | seller | sold |
+    | eomiu | support | supporter | supported |
     | mo | eat | eater | eaten |
 
     *Dia* may be used to derive words about roles or professions. For example:
@@ -57,8 +57,8 @@
     ```
     i boemo = to cook
     boemo dia = a cook
-    i roweir = to teach
-    roweir dia = teacher
+    i roena = to teach
+    roena dia = teacher
     ```
     
     Finally, *hue* may be used to create passive voice. To do this, you use it on the verb and indicate the doer with *de*, like this:
@@ -69,14 +69,14 @@
     ```
     
     ```
-    a falen i vanpai e eofa = the child kicks their friend.
-    a eofa i vanpai hue de falen = the friend is kicked by the child.
+    a falfal i vanpai e eofa = the child kicks their friend.
+    a eofa i vanpai hue de falfal = the friend is kicked by the child.
     ```
     
     Of course, the order is still flexible:
     ```
-    e eofa i vanpai a falen = the child kicks their friend.
-    de falen i vanpai hue a eofa = the friend is kicked by the child.
+    e eofa i vanpai a falfal = the child kicks their friend.
+    de falfal i vanpai hue a eofa = the friend is kicked by the child.
     ```
     
     To sum it up:
@@ -106,51 +106,92 @@
    
 === "Vocabulary"
 
-    ## NO Subclusters
+    ## VA Subclusters
     
-    Let's take a deeper look at the **NO** Cluster! 
+    Let's take a look at the **VA** Cluster! 
     
     | Oravia | English |
     |--------|---------|
-    | nomie | seems |
-    | norven | already |
-    | noniu | some |
-    | noli | now |
-    | none | have |
-    | noder | even |
-    | noi | here |
-    | norfih | enough |
-    | nordau | far |
-    | norocu | almost |
+    | vatale | neck, throat |
+    | vandi | finger |
+    | vanu | arm |
+    | vanta | hand |
+    | vanpai | foot |
+    | vanvu | leg |
+    | vardei | eye |
+    | varluan | tongue |
+    | varodu | head |
+    | varsus | ear |
+    | varmo | mouth |
+    | vardur | tooth |
+    | varasi | nose |
     
-    We only have one subcluster here: **NOR**. It indicates **proximity to a reference point**:  
-    *nordau* (far) is not close at all,  
-    *norocu* (almost) is just below the threshold,  
-    *norfih* (enough) is exactly there,
-    *norven* (already) is past it.  
+    What do you think the subcluster **VAN** is about?
     
+    <div style="text-align: center; margin: 2rem 0;">
+    <button onclick="document.getElementById('cluster4-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+        Click to Reveal the Answer
+    </button>
+    </div>
+    
+    <div id="cluster4-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+    <p style="margin: 0;"><strong>VAN</strong> is for <strong>limbs</strong>.</p></p>
+    </div>
+    
+    How about the subcluster **VAR**?
+    
+    <div style="text-align: center; margin: 2rem 0;">
+    <button onclick="document.getElementById('cluster5-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
+        Click to Reveal the Answer
+    </button>
+    </div>
+    
+    <div id="cluster5-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
+    <p style="margin: 0;"><strong>VAR</strong> is for body parts in the <strong>head/face</strong>.</p></p>
+    </div>
+    
+    These words can also be verbs or adjectives, for example:
+        
+    | Oravia | English |
+    |--------|---------|
+    | vanpai | foot, kick |
+    | vanvu | leg, walk |
+    | vardei | eye, see, look, watch |
+    | varluan | tongue, taste |
+    | varsus | ear, hear, listen |
+    | vardur | tooth, bite |
+    | varasi | nose, smell, prying |
+    | vandi | finger, toe, skillful |
+    | vanta | hand, hold, manual |
+    
+
+    ### Recognize the Roots
+
+    Take another look at **vanvu**, **varluan**, and **vardur**. Do you recognize any roots you've learned before?
+
+    <div style="text-align: center; margin: 1.25rem 0;">
+    <button onclick="document.getElementById('root-recall-l24-va-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.65rem 1.5rem; border-radius: 4px; cursor: pointer;">
+        Click to Reveal the Roots
+    </button>
+    </div>
+
+    <div id="root-recall-l24-va-answer" style="display: none; background: #c8e6c9; padding: 1.25rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 1.25rem 0;">
+    <p style="margin: 0 0 0.45rem 0;"><strong>vanvu</strong> → <strong>VU</strong> = movement</p>
+    <p style="margin: 0 0 0.45rem 0;"><strong>varluan</strong> → <strong>LUAN</strong> = tongue</p>
+    <p style="margin: 0 0 0.45rem 0;"><strong>vardur</strong> → <strong>DUR</strong> = hard</p>
+    </div>
+
     !!! info "🌍 Sound Connections"
-        Nor comes from Latin norma (standard, reference point), which is the origin of the English word "norm".  
+        Pai is like Hindi पैर pair (foot) and Tamil பாதம் pādam (foot).
+        
+        Var comes from Sanskrit वक्त्रम् vaktram (face/mouth).
+        
+        Van comes from Hindi बाँह (bāṃh = arm/limb); Arabic بَدَن (badan = body/limbs); Indonesian badan (body and its limbs).
+        
+    We also have:  
+    **yespai** = shoe (clothing + feet), just like vanpai = foot, kick (limb body part + foot)  
     
-    We also have an interesting word here, *noder* (even). We can pair it with *mai* to express concessions. For example:
-    
-    ```
-    Nim i none e beivu, mai i dai i vanvu.  
-    I have a car, but I like to walk.  
-    
-    Noder nim i none e beivu, mai i dai i vanvu.  
-    Even (though) I have a car, (but) I like to walk. 
-    ```
-    
-    ```
-    Nim i eodya hue, mai anvum.  
-    I was invited, but I am not going.
-    
-    Noder nim i eodya hue, mai anvum  
-    Even (though) I was invited, (but) I am not going.
-     ```
-    
-    Now try to create a sentence using *NO* words, or 3 if you're up for a challenge!
+    Now try to create a sentence using **VA** words, or 3 if you're up for a challenge!
     
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
     <div style="text-align: right; margin-top: 0.5rem;">
@@ -168,8 +209,6 @@
     })(this)" class="save-writing-btn" style="background:#4a9cd6 !important; color:white !important; border:none; padding:0.5rem 1.5rem; border-radius:4px; cursor:pointer; font-size:1rem; font-weight:500;"><span>Save My Answer</span></button>
     </div>
     
-    You are ready for the exercise now!
-
 === "Practice"
 
     ## Matching Games
@@ -177,34 +216,30 @@
     Time to practice! Match the Oravia words with their English meanings. **Use sound-meaning associations as clues**. For example, the subcluster sound tells you the category, even for words you haven't seen before.  
     **If you don't remember or make a mistake, that's totally fine!** We will have plenty of opportunities to practice. Right now just give it a try.  
     Click one word from each column to match them. The game will check automatically when you select both words.
-
     ---
 
     ### Round 1
 
-    <div id="matching-game-1" data-lesson="lesson24" data-round="1"></div>
+    <div id="matching-game-1" data-lesson="cc26_lesson24" data-round="1"></div>
 
     ---
 
     ### Round 2
 
-    <div id="matching-game-2" data-lesson="lesson24" data-round="2"></div>
+    <div id="matching-game-2" data-lesson="cc26_lesson24" data-round="2"></div>
 
     ---
 
     ### Round 3
 
-    <div id="matching-game-3" data-lesson="lesson24" data-round="3"></div>
+    <div id="matching-game-3" data-lesson="cc26_lesson24" data-round="3"></div>
 
+    ---
 
+    ### Round 4
 
-=== "Review"
+    <div id="matching-game-4" data-lesson="cc26_lesson24" data-round="4"></div>
 
-    ## Review Missed Words
-    
-    This section shows words you got wrong during practice. If you didn't miss any, this will be empty - great job! 🎉
-    
-    <div id="review-game-container"></div>
 === "Flashcards"
 
     <div id="flashcard-container" data-lesson="24"></div>
@@ -212,12 +247,10 @@
 <script>
     function initWarmup() {
         const warmupWords = [
-    {id: "wu_tam_1", oravia: "tam", english: "one"},
-    {id: "wu_tor_2", oravia: "tor", english: "two"},
-    {id: "wu_par_3", oravia: "par", english: "three"},
-    {id: "wu_bale_4", oravia: "bale", english: "four"},
-    {id: "wu_alui_5", oravia: "alui", english: "five"},
-    {id: "wu_gerina_6", oravia: "gerina", english: "money, spend money"},
+    {id: "wu_litam_1", oravia: "litam", english: "day"},
+    {id: "wu_liyar_2", oravia: "liyar", english: "morning"},
+    {id: "wu_eomsu_3", oravia: "eomsu", english: "party"},
+    {id: "wu_eodani_4", oravia: "eodani", english: "meet"}
     ];
 
     function renderSelfAssessment() {
@@ -273,68 +306,11 @@ initWarmup();
 </script>
 
 
-<script>
-    async function initReview() {
-    const wrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-    const container = document.getElementById('review-game-container');
-    if (!container) return;
-    if (wrongIds.length === 0) {
-        container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p><p style="color: #5a8bb8; margin-top: 0.5rem;">You did not miss any words. Excellent work!</p></div>';
-        return;
-}
-    try {
-        const lessonIds = [...new Set(
-            [...document.querySelectorAll('[data-lesson]')]
-                .map(el => el.dataset.lesson)
-        )];
-        const baseUrl = window.location.origin;
-        const responses = await Promise.all(
-            lessonIds.map(id => fetch(baseUrl + '/data/' + id + '_words.json').then(r => r.json()))
-        );
-        const allWords = responses.flatMap(data => data.words);
-        const seen = new Set();
-        const uniqueWords = allWords.filter(w => {
-            if (seen.has(w.id)) return false;
-            seen.add(w.id);
-            return true;
-        });
-        const wrongWords = uniqueWords.filter(word => wrongIds.includes(word.id));
-        if (wrongWords.length === 0) {
-            container.innerHTML = '<div style="text-align: center; padding: 3rem; background: #e0f2f1; border-radius: 8px;"><p style="font-size: 1.2rem; color: #4a9cd6; margin: 0;">🎉 No words to review!</p></div>';
-            return;
-        }
-        container.innerHTML = '<p style="text-align: center; margin-bottom: 2rem; color: #5a8bb8;">Practice these ' + wrongWords.length + ' word(s) you found challenging:</p><div id="review-game-wrapper"></div><div style="text-align: center; margin-top: 2rem;"><button id="clear-review" style="padding: 0.5rem 1.5rem; background: #f57c00; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.95rem;">Clear Review List</button></div>';
-        new MatchingGame('review-game-wrapper', wrongWords, 'review', null, []);
-        document.getElementById('clear-review').addEventListener('click', function() {
-            if (confirm('Clear all review words? This will reset your wrong words list for this lesson.')) {
-                const allWrongIds = JSON.parse(localStorage.getItem('wrong_ids') || '[]');
-                const lessonWordIds = uniqueWords.map(w => w.id);
-                const remainingWrongIds = allWrongIds.filter(id => !lessonWordIds.includes(id));
-                localStorage.setItem('wrong_ids', JSON.stringify(remainingWrongIds));
-                location.reload();
-            }
-        });
-} catch (error) {
-        console.error('Error loading words:', error);
-        container.innerHTML = '<p style="color: #f44336;">Error loading review words. Please refresh the page.</p>';
-}
-}
-document.addEventListener('DOMContentLoaded', initReview);
-    document.querySelectorAll('.tabbed-labels label').forEach(label => {
-    if (label.textContent.trim() === 'Review') {
-        label.addEventListener('click', function() {
-            setTimeout(initReview, 50);
-        });
-}
-});
-</script>
+
 
 <div style="text-align: center; padding: 2rem 0; background: #e0f2f1; border-radius: 8px; margin-top: 3rem;">
         <p style="font-size: 1.2rem; color: #4a9cd6; margin-bottom: 1rem;">
             🎉 <strong>Lesson 24 Complete!</strong>
-        </p>
-        <p style="color: #5a8bb8; margin-bottom: 0.5rem;">
-            If you missed any words, check the <strong>Review</strong> tab to practice them again.
         </p>
         <p style="color: #5a8bb8; margin-bottom: 1.5rem;">
             Come back tomorrow for Lesson 25.
