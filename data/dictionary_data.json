@@ -2,7 +2,7 @@
   {
     "w": "nim",
     "e": "I",
-    "usage": "pronoun; -a for plural: nima (we); before a noun, functions as possessive: nim bo = my house",
+    "usage": "pronoun; -a for plural: nimas (we); before a noun, functions as possessive: nim bo = my house",
     "type": "gram",
     "search_terms": [
       "i",
@@ -13,7 +13,7 @@
   {
     "w": "run",
     "e": "you",
-    "usage": "pronoun; -a for plural: runa (you all); before a noun, functions as possessive: run bo = your house",
+    "usage": "pronoun; -a for plural: runas (you all); before a noun, functions as possessive: run bo = your house",
     "type": "gram",
     "search_terms": [
       "run",
@@ -24,7 +24,7 @@
   {
     "w": "hay",
     "e": "he / she / they",
-    "usage": "gender-neutral singular pronoun; -a for plural: haya (they); before a noun, functions as possessive: hay bo = his/her/their house",
+    "usage": "gender-neutral singular pronoun; -a for plural: hayas (they); before a noun, functions as possessive: hay bo = his/her/their house",
     "type": "gram",
     "search_terms": [
       "hay",
@@ -142,7 +142,7 @@
   {
     "w": "rein",
     "e": "each other",
-    "usage": "haya i vardei e rein = they look at each other",
+    "usage": "hayas i vardei e rein = they look at each other",
     "type": "gram",
     "search_terms": [
       "each",
@@ -867,7 +867,7 @@
     ],
     "ex": [
       {
-        "o": "o e ca i anidai de nima, angi.",
+        "o": "o e ca i anidai de nimas, angi.",
         "e": "what life wants from us: courage",
         "from_lesson": true
       }
@@ -1762,7 +1762,7 @@
     "rel": [],
     "ex": [
       {
-        "o": "en noi eodomai, runa i anloris",
+        "o": "en noi eodomai, runas i anloris",
         "e": "in this negotiation, you will benefit",
         "from_lesson": false
       }
@@ -3466,7 +3466,7 @@
     ],
     "ex": [
       {
-        "o": "cali falte, lirular nima i apaleno en nim leayo",
+        "o": "cali falte, lirular nimas i apaleno en nim leayo",
         "e": "when we were young, we used to dig in my garden",
         "from_lesson": false
       }
@@ -6200,7 +6200,7 @@
     ],
     "ex": [
       {
-        "o": "ceora runa i dapasum e bociu?",
+        "o": "ceora runas i dapasum e bociu?",
         "e": "why don’t you all like the decoration?",
         "from_lesson": false
       }
@@ -9598,7 +9598,7 @@
     "rel": [],
     "ex": [
       {
-        "o": "haya i dasu cai tam ganter i do i pohnen ca a be dia i siur e jovabo, i daca hue no pohnen.",
+        "o": "hayas i dasu caei tam ganter i do i pohnen ca a be dia i siur e jovabo, i daca hue no pohnen.",
         "e": "they agreed that whoever could make the traveler remove his cloak would be declared the stronger",
         "from_lesson": true
       }
@@ -10839,7 +10839,7 @@
     ],
     "ex": [
       {
-        "o": "haya i damai de litam cali nim i anifar",
+        "o": "hayas i damai de litam cali nim i anifar",
         "e": "they had been arguing since the day I left",
         "from_lesson": true
       }
@@ -11575,7 +11575,7 @@
     ],
     "ex": [
       {
-        "o": "haya i dasu cai tam ganter i do i pohnen ca a be dia i siur e jovabo, i daca hue no pohnen.",
+        "o": "hayas i dasu caei tam ganter i do i pohnen ca a be dia i siur e jovabo, i daca hue no pohnen.",
         "e": "they agreed that whoever could make the traveler remove his cloak would be declared the stronger",
         "from_lesson": true
       }
@@ -11887,7 +11887,7 @@
     ],
     "ex": [
       {
-        "o": "a nima i vil i iloi linu davir li",
+        "o": "a nimas i vil i iloi linu davir li",
         "e": "we must wait until it is the right time",
         "from_lesson": false
       }
@@ -12073,7 +12073,7 @@
     ],
     "ex": [
       {
-        "o": "nima i ilaluan e raitar dia su dofa",
+        "o": "nimas i ilaluan e raitar dia su dofa",
         "e": "we are talking of rulers and inheritance",
         "from_lesson": false
       }
@@ -13660,7 +13660,7 @@
     ],
     "ex": [
       {
-        "o": "en nima elemi, i dami a neron eleyel",
+        "o": "en nimas elemi, i dami a neron eleyel",
         "e": "in our life, there is more love",
         "from_lesson": true
       }
@@ -13893,7 +13893,7 @@
     ],
     "ex": [
       {
-        "o": "nima elemi neron eleyel",
+        "o": "nimas elemi neron eleyel",
         "e": "we live with more love",
         "from_lesson": true
       }
@@ -14023,7 +14023,7 @@
     ],
     "ex": [
       {
-        "o": "haya i vardei e elihei",
+        "o": "hayas i vardei e elihei",
         "e": "they look at themselves",
         "from_lesson": true
       }
@@ -15330,7 +15330,7 @@
     ],
     "ex": [
       {
-        "o": "en noi eodomai, runa i anloris",
+        "o": "en noi eodomai, runas i anloris",
         "e": "in this negotiation, you will benefit",
         "from_lesson": false
       }
@@ -17582,7 +17582,7 @@
     ],
     "ex": [
       {
-        "o": "haya i dasu cai tam ganter i do i pohnen ca a be dia i siur e jovabo, i daca hue no pohnen.",
+        "o": "hayas i dasu caei tam ganter i do i pohnen ca a be dia i siur e jovabo, i daca hue no pohnen.",
         "e": "they agreed that whoever could make the traveler remove his cloak would be declared the stronger",
         "from_lesson": true
       }
@@ -20262,7 +20262,7 @@
     ],
     "ex": [
       {
-        "o": "en nima luyol, neron 'heoyar",
+        "o": "en nimas luyol, neron 'heoyar",
         "e": "in our sky, more rays of light",
         "from_lesson": true
       }
@@ -20550,7 +20550,7 @@
     ],
     "ex": [
       {
-        "o": "hay i ilaluan u lor haya",
+        "o": "hay i ilaluan u lor hayas",
         "e": "she told them for their sake",
         "from_lesson": true
       }
@@ -24435,7 +24435,7 @@
     "rel": [],
     "ex": [
       {
-        "o": "elhay i anidai o i vardei ca nima i roesau i do i neron-oila-davio, en jenrein oila",
+        "o": "elhay i anidai o i vardei ca nimas i roesau i do i neron-oila-davio, en jenrein oila",
         "e": "what God wants is to see us learning to be able to become more joyful, in the midst of joy",
         "from_lesson": false
       }
@@ -26370,7 +26370,7 @@
     ],
     "ex": [
       {
-        "o": "haya i dasu cai tam ganter i do i pohnen ca a be dia i siur e jovabo, i daca hue no pohnen.",
+        "o": "hayas i dasu caei tam ganter i do i pohnen ca a be dia i siur e jovabo, i daca hue no pohnen.",
         "e": "they agreed that whoever could make the traveler remove his cloak would be declared the stronger",
         "from_lesson": true
       }
@@ -29721,7 +29721,7 @@
     ],
     "ex": [
       {
-        "o": "en nima luyol, neron 'heoyar",
+        "o": "en nimas luyol, neron 'heoyar",
         "e": "in our sky, more rays of light",
         "from_lesson": true
       }
@@ -34447,7 +34447,7 @@
     "rel": [],
     "ex": [
       {
-        "o": "nima elemi neron eleyel",
+        "o": "nimas elemi neron eleyel",
         "e": "we live with more love",
         "from_lesson": true
       }
@@ -36067,7 +36067,7 @@
     "rel": [],
     "ex": [
       {
-        "o": "nim i ilahai e oines lilon nima i mo!",
+        "o": "nim i ilahai e oines lilon nimas i mo!",
         "e": "i will tell you a joke while we eat!",
         "from_lesson": false
       }
@@ -40500,7 +40500,7 @@
     ],
     "ex": [
       {
-        "o": "noli haya i roesau en boemo roedom, su litam i dami a roejo.",
+        "o": "noli hayas i roesau en boemo roedom, su litam i dami a roejo.",
         "e": "now they study at culinary school, and today there is an exam.",
         "from_lesson": false
       }
@@ -45948,7 +45948,7 @@
     "rel": [],
     "ex": [
       {
-        "o": "a nim a nepar toului, mai nima i do i anvu.",
+        "o": "a nim a nepar toului, mai nimas i do i anvu.",
         "e": "i am a little tired, but we can go.",
         "from_lesson": true
       }

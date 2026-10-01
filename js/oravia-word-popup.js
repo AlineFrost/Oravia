@@ -119,9 +119,9 @@
     }
 
     var explicit = {
-      nima: 'nim',
-      runa: 'run',
-      haya: 'hay'
+      nimas: 'nim',
+      runas: 'run',
+      hayas: 'hay'
     };
     if (explicit[normalized] && dictionary.has(explicit[normalized])) {
       return { kind: 'dictionary', key: explicit[normalized] };
