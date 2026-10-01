@@ -5,8 +5,9 @@
 . added **Graded Readers** 2.5, 2.6, 3.1, 3.2, 3.3.   
 . website version is in the **Wayback Machine** (thanks to *dankennedy*!).   
 . added inclusive and exclusive pronouns in the **Grammar** 4.1 (thanks to *wasoweli*!).  
-. changed plural pronouns from a -> as to avoid collisions with markers, so nima -> **nimas**, runa -> **runas**, and haya -> **hayas** (thanks to *Csaba*!).    
-. added new **Pronunciation Guide** page, under Reference.  
+. added hue passive in the **Grammar** 29 (thanks to *dankennedy*!). 
+. changed plural pronouns from a -> as to avoid collisions with markers, so nima -> **nimas**, runa -> **runas**, and haya -> **hayas** (thanks to *Csaba* and everyone that commented on the options!).    
+. added new **Pronunciation Guide** page, under Reference (thanks to *wasoweli* for checking collisions and *Ntsékees* for feedback as well!).  
 . changed the higher-level organization of the website.   
 
 
