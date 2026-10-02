@@ -1,14 +1,14 @@
 # Website Versions
 
 ## October 1st 2026 
-. new song **Yomel Hehou!** (thanks to *Dani Lau* and *Lucas Shred*!).  
-. added **Graded Readers** 2.5, 2.6, 3.1, 3.2, 3.3.   
-. website version is in the **Wayback Machine** (thanks to *dankennedy*!).   
-. added inclusive and exclusive pronouns in the **Grammar** 4.1 (thanks to *wasoweli*!).  
-. added hue passive in the **Grammar** 29 (thanks to *dankennedy*!). 
-. changed plural pronouns from a -> as to avoid collisions with markers, so nima -> **nimas**, runa -> **runas**, and haya -> **hayas** (thanks to *Csaba* and everyone that commented on the options!).    
-. added new **Pronunciation Guide** page, under Reference (thanks to *wasoweli* for checking collisions and *Ntsékees* for feedback as well!).  
-. changed the higher-level organization of the website.   
+. new song **Yomel Hehou!** (thanks to *Dani Lau* and *Lucas Shred*!).   
+. added **Graded Readers** 2.5, 2.6, 3.1, 3.2, 3.3.    
+. website version is in the **Wayback Machine** (thanks to *dankennedy*!).    
+. added inclusive and exclusive pronouns in the **Grammar** 4.1 (thanks to *wasoweli*!).   
+. added hue passive in the **Grammar** 29 (thanks to *dankennedy*!).    
+. changed nima -> **nimas**, runa -> **runas**, and haya -> **hayas** to avoid collision with markers (thanks to *Csaba* and everyone that commented on the options!).    
+. added new **Pronunciation Guide** page, under Reference (thanks to *wasoweli* for checking collisions and *Ntsékees* for feedback as well!).   
+. changed the higher-level organization of the website.    
 
 
 ## September 18th 2026
