@@ -81,8 +81,8 @@
     },
     {
       "id": "lesson60_r2_3",
-      "oravia": "witel",
-      "english": "map",
+      "oravia": "wile",
+      "english": "area",
       "bucket": "r2",
       "source_bucket": "wi"
     },
@@ -123,10 +123,10 @@
     },
     {
       "id": "lesson60_r4_1",
-      "oravia": "witel",
-      "english": "map",
+      "oravia": "ralua",
+      "english": "environment",
       "bucket": "r4",
-      "source_bucket": "tel"
+      "source_bucket": "lua"
     },
     {
       "id": "lesson60_r4_2",

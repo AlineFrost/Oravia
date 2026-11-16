@@ -205,7 +205,7 @@
   },
   {
     "id": "D1_aselano",
-    "front": "aselano",
+    "front": "asebua",
     "back": "hug, embrace",
     "breakdown": [
       {
@@ -213,8 +213,8 @@
         "meaning": "affectionate contact"
       },
       {
-        "sound": "lano",
-        "meaning": "around"
+        "sound": "bua",
+        "meaning": "circle, round, around, wheel"
       }
     ]
   },
@@ -250,7 +250,7 @@
   },
   {
     "id": "D1_asular",
-    "front": "asular",
+    "front": "asunes",
     "back": "to laugh, laughter",
     "breakdown": [
       {
@@ -258,8 +258,8 @@
         "meaning": "involuntary vocal acts"
       },
       {
-        "sound": "lar",
-        "meaning": "laugh"
+        "sound": "nes",
+        "meaning": "joke"
       }
     ]
   },
@@ -442,7 +442,7 @@
   },
   {
     "id": "D1_conehui",
-    "front": "conehui",
+    "front": "codai",
     "back": "request, ask, invocation, plea, petition, application, apply",
     "breakdown": [
       {
@@ -450,8 +450,8 @@
         "meaning": "communication"
       },
       {
-        "sound": "nehui",
-        "meaning": "request"
+        "sound": "dai",
+        "meaning": "desire"
       }
     ]
   },
@@ -553,7 +553,7 @@
   },
   {
     "id": "D1_dohcu",
-    "front": "dohcu",
+    "front": "dohsu",
     "back": "obey, compliance, obedient",
     "breakdown": [
       {
@@ -561,8 +561,8 @@
         "meaning": "enforcement"
       },
       {
-        "sound": "cu",
-        "meaning": "obey"
+        "sound": "su",
+        "meaning": "alongside"
       }
     ]
   },
@@ -721,21 +721,6 @@
     ]
   },
   {
-    "id": "D1_eori",
-    "front": "eori",
-    "back": "polite, gentle, gracious, courteous, please",
-    "breakdown": [
-      {
-        "sound": "eo",
-        "meaning": "social"
-      },
-      {
-        "sound": "ri",
-        "meaning": "act"
-      }
-    ]
-  },
-  {
     "id": "D1_faejal",
     "front": "faejal",
     "back": "masculine, masculine gender",
@@ -782,16 +767,16 @@
   },
   {
     "id": "D1_falen",
-    "front": "falen",
+    "front": "falfal",
     "back": "child (age stage), kid, children",
     "breakdown": [
       {
         "sound": "fal",
-        "meaning": "young ones"
+        "meaning": "young, youth, young ones"
       },
       {
-        "sound": "en",
-        "meaning": "child"
+        "sound": "fal",
+        "meaning": "young, youth, young ones"
       }
     ]
   },
@@ -887,16 +872,16 @@
   },
   {
     "id": "D1_gavio",
-    "front": "gavio",
-    "back": "vary, variety, various, variation, variance, different",
+    "front": "galiu",
+    "back": "vary, variety, various, variation, variance",
     "breakdown": [
       {
         "sound": "ga",
         "meaning": "evaluation"
       },
       {
-        "sound": "vio",
-        "meaning": "change, exchange"
+        "sound": "liu",
+        "meaning": "other"
       }
     ]
   },
@@ -1051,36 +1036,6 @@
       {
         "sound": "len",
         "meaning": "long"
-      }
-    ]
-  },
-  {
-    "id": "D1_jarih",
-    "front": "jarih",
-    "back": "ladder, escalator, stairs, steps, climb",
-    "breakdown": [
-      {
-        "sound": "ja",
-        "meaning": "tools"
-      },
-      {
-        "sound": "rih",
-        "meaning": "higher, rising"
-      }
-    ]
-  },
-  {
-    "id": "D1_jelano",
-    "front": "jelano",
-    "back": "circle, round, around, wheel",
-    "breakdown": [
-      {
-        "sound": "je",
-        "meaning": "geometrics"
-      },
-      {
-        "sound": "lano",
-        "meaning": "around"
       }
     ]
   },
@@ -1277,7 +1232,7 @@
   },
   {
     "id": "D1_litegai",
-    "front": "litegai",
+    "front": "litepe",
     "back": "minute",
     "breakdown": [
       {
@@ -1285,8 +1240,8 @@
         "meaning": "clock time"
       },
       {
-        "sound": "gai",
-        "meaning": "small"
+        "sound": "pe",
+        "meaning": "middle"
       }
     ]
   },
@@ -1388,21 +1343,6 @@
       {
         "sound": "sari",
         "meaning": "sun"
-      }
-    ]
-  },
-  {
-    "id": "D1_luyar",
-    "front": "luyar",
-    "back": "light, illumination, bright",
-    "breakdown": [
-      {
-        "sound": "lu",
-        "meaning": "weather and atmosphere"
-      },
-      {
-        "sound": "yar",
-        "meaning": "light"
       }
     ]
   },
@@ -2086,21 +2026,6 @@
     ]
   },
   {
-    "id": "D1_sioer",
-    "front": "sioer",
-    "back": "game, play",
-    "breakdown": [
-      {
-        "sound": "sio",
-        "meaning": "games"
-      },
-      {
-        "sound": "er",
-        "meaning": "game"
-      }
-    ]
-  },
-  {
     "id": "D1_sirose",
     "front": "sirose",
     "back": "computer, compute",
@@ -2421,7 +2346,7 @@
   },
   {
     "id": "D1_vosvo",
-    "front": "vosvo",
+    "front": "vosdama",
     "back": "soap, detergent",
     "breakdown": [
       {
@@ -2429,8 +2354,8 @@
         "meaning": "cleaning actions"
       },
       {
-        "sound": "vo",
-        "meaning": "soap"
+        "sound": "dama",
+        "meaning": "substance"
       }
     ]
   },

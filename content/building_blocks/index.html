@@ -3809,18 +3809,40 @@
       meta[key] = { natural_language: r.natural_language || '' };
     });
 
+    // Whole words used inside a compound (word|sound): they are words, not building blocks.
+    const WORD_PARTS = {
+      'wilimel|limel': 1, 'eomanse|anse': 1, 'vosdama|dama': 1, 'daeta|eta': 1, 'liheosu|heosu': 1, 'anilie|ilie': 1,
+      'tohiloi|iloi': 1, 'ranlevi|levi': 1, 'liperi|peri': 1, 'jenrein|rein': 1, 'beitor|tor': 1, 'muvardur|vardur': 1
+    };
+    // Blocks also used in a word that is not in the dictionary yet, so they are not standalone (odu: anodu).
+    const KEEP_AS_BLOCK = { 'odu': 1 };
+
     const map = {};
+    const allWords = {};   // sound -> every dictionary word that uses it
+    const loose = {};      // sounds without a registered block
 
     dictionary.forEach(entry => {
       const parts = entry.syllable_meanings || entry.bd || [];
 
       parts.forEach(part => {
         const type = part.bb_type;
-        if (type !== 'subcluster' && type !== 'root') return;
-        if (part.position && part.position !== type) return;
-
         const sound = String(part.sound || '').toLowerCase();
         if (!sound) return;
+        const word = entry.w || '';
+        if (WORD_PARTS[word + '|' + sound]) return;
+        if (!allWords[sound]) allWords[sound] = new Set();
+        if (word) allWords[sound].add(word);
+
+        if (type !== 'subcluster' && type !== 'root') {
+          if (!loose[sound]) loose[sound] = { oravia: [], english: [], meanings: [] };
+          if (word && loose[sound].oravia.indexOf(word) < 0) {
+            loose[sound].oravia.push(word);
+            loose[sound].english.push(entry.e || '');
+          }
+          if (part.meaning) loose[sound].meanings.push(part.meaning);
+          return;
+        }
+        if (part.position && part.position !== type) return;
 
         const key = type + '|' + sound;
         if (!map[key]) {
@@ -3838,7 +3860,6 @@
         }
 
         const r = map[key];
-        const word = entry.w || '';
         if (word && r.oravia.indexOf(word) < 0) {
           r.oravia.push(word);
           r.english.push(entry.e || '');
@@ -3850,15 +3871,40 @@
       });
     });
 
-    return Object.keys(map).map(key => {
+    const rows = Object.keys(map).map(key => {
       const r = map[key];
       r.meaning = mostCommon(r._meanings);
       r.cluster = mostCommon(r._clusters);
       delete r._meanings;
       delete r._clusters;
       return r;
-    }).sort((a, b) => {
-      if (a.type !== b.type) return a.type === 'subcluster' ? -1 : 1;
+    });
+
+    // Standalone: a block that appears in only one word. It goes at the bottom of the table.
+    const registered = new Set(rows.map(r => r.sound));
+    rows.forEach(r => {
+      if (allWords[r.sound] && allWords[r.sound].size === 1 && !KEEP_AS_BLOCK[r.sound]) {
+        r.id_type = r.type;   // keeps links like #bb-root-pa working
+        r.type = 'standalone';
+      }
+    });
+    Object.keys(loose).forEach(sound => {
+      if (registered.has(sound) || allWords[sound].size !== 1) return;
+      rows.push({
+        type: 'standalone',
+        sound: sound,
+        cluster: '',
+        meaning: mostCommon(loose[sound].meanings),
+        oravia: loose[sound].oravia,
+        english: loose[sound].english,
+        natural_language: ''
+      });
+    });
+
+    const EXCLUDED_STANDALONE = new Set(['dastor', 'taletor', 'vargor', 'yuli', 'mes']);
+    const order = { subcluster: 0, root: 1, standalone: 2 };
+    return rows.filter(r => r.type !== 'standalone' || !EXCLUDED_STANDALONE.has(r.sound)).sort((a, b) => {
+      if (a.type !== b.type) return order[a.type] - order[b.type];
       return a.sound.localeCompare(b.sound);
     });
   }
@@ -3896,7 +3942,12 @@
   }
 
   function bbId(r) {
-    return 'bb-' + (r.type || '') + '-' + String(r.sound || '').toLowerCase();
+    return 'bb-' + (r.id_type || r.type || '') + '-' + String(r.sound || '').toLowerCase();
+  }
+
+  // A sound that is both a subcluster and a root counts once.
+  function countSounds(rows) {
+    return new Set(rows.map(r => r.sound)).size;
   }
 
   function render() {
@@ -3929,7 +3980,7 @@
       });
     }
 
-    document.getElementById('bb-count').textContent = filtered.length + ' entries';
+    document.getElementById('bb-count').textContent = countSounds(filtered) + ' entries';
 
     const tbody = document.getElementById('bb-body');
     tbody.innerHTML = '';
@@ -3937,8 +3988,11 @@
       const tr = document.createElement('tr');
       tr.id = bbId(r);
       const isSub = r.type === 'subcluster';
+      const isStand = r.type === 'standalone';
       const bg = isSub
         ? (i%2===0 ? '#f0f7ff' : '#e8f4fb')
+        : isStand
+        ? (i%2===0 ? '#f2e8ff' : '#e9d9fa')
         : (i%2===0 ? '#fffef0' : '#fdf9e3');
       tr.style.background = bg;
       tr.addEventListener('mouseenter', ()=>tr.style.background='#ddeeff');
@@ -3946,8 +4000,10 @@
 
       const typeLabel = isSub
         ? '<span style="color:#1a6aa8;font-weight:600;">subcluster</span>'
+        : isStand
+        ? '<span style="color:#6f2da8;font-weight:600;">standalone</span>'
         : '<span style="color:#9B7700;font-weight:600;">root</span>';
-      const soundColor = isSub ? '#1a6aa8' : '#9B7700';
+      const soundColor = isSub ? '#1a6aa8' : isStand ? '#6f2da8' : '#9B7700';
 
       const oraviaLinks = r.oravia.map(w =>
         '<a href="/content/dictionary/#entry-'+encodeURIComponent(w)+'" data-vw="'+w+'" class="dict-word-link" style="color:#2c6e9e;text-decoration:none;">'+w+'</a>'
@@ -3997,17 +4053,20 @@
       const tbody = document.getElementById('bb-body');
       tbody.innerHTML = '';
       const matches = targetId ? allData.filter(r => bbId(r) === targetId) : allData.filter(r => r.sound === exact);
-      document.getElementById('bb-count').textContent = matches.length + ' entries';
+      document.getElementById('bb-count').textContent = countSounds(matches) + ' entries';
       matches.forEach((r, i) => {
         const tr = document.createElement('tr');
         tr.id = bbId(r);
         const isSub = r.type === 'subcluster';
-        const bg = isSub ? '#f0f7ff' : '#fffef0';
+        const isStand = r.type === 'standalone';
+        const bg = isSub ? '#f0f7ff' : isStand ? '#f2e8ff' : '#fffef0';
         tr.style.background = bg;
         const typeLabel = isSub
           ? '<span style="color:#1a6aa8;font-weight:600;">subcluster</span>'
+          : isStand
+          ? '<span style="color:#6f2da8;font-weight:600;">standalone</span>'
           : '<span style="color:#9B7700;font-weight:600;">root</span>';
-        const soundColor = isSub ? '#1a6aa8' : '#9B7700';
+        const soundColor = isSub ? '#1a6aa8' : isStand ? '#6f2da8' : '#9B7700';
         const oraviaLinks = r.oravia.map(w =>
           '<a href="/content/dictionary/#entry-'+encodeURIComponent(w)+'" data-vw="'+w+'" class="dict-word-link" style="color:#2c6e9e;text-decoration:none;">'+w+'</a>'
         ).join(', ');

@@ -30,7 +30,7 @@
     },
     {
       "round": 4,
-      "title": "FENE / LANO roots",
+      "title": "FENE / BUA roots",
       "buckets": [
         "r3"
       ],
@@ -68,7 +68,7 @@
     },
     {
       "id": "lesson48_r2_1",
-      "oravia": "aselano",
+      "oravia": "asebua",
       "english": "hug",
       "bucket": "r2",
       "source_bucket": "ase"
@@ -89,8 +89,8 @@
     },
     {
       "id": "lesson48_r2_4",
-      "oravia": "asusu",
-      "english": "whisper",
+      "oravia": "asuifi",
+      "english": "whistle",
       "bucket": "r2",
       "source_bucket": "asu"
     },
@@ -110,17 +110,17 @@
     },
     {
       "id": "lesson48_r3_3",
-      "oravia": "aselano",
+      "oravia": "asebua",
       "english": "hug",
       "bucket": "r3",
-      "source_bucket": "lano"
+      "source_bucket": "bua"
     },
     {
       "id": "lesson48_r3_4",
-      "oravia": "jelano",
-      "english": "circle",
+      "oravia": "jabua",
+      "english": "ball",
       "bucket": "r3",
-      "source_bucket": "lano"
+      "source_bucket": "bua"
     },
     {
       "id": "lesson48_r3_repeat_1",
@@ -145,7 +145,7 @@
     },
     {
       "id": "lesson48_r3_repeat_4",
-      "oravia": "aselano",
+      "oravia": "asebua",
       "english": "hug",
       "bucket": "r3_repeat",
       "source_bucket": "ase"

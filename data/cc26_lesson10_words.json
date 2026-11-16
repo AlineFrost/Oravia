@@ -61,8 +61,8 @@
     },
     {
       "id": "lesson10_r1_3",
-      "oravia": "anefene",
-      "english": "rest",
+      "oravia": "anejui",
+      "english": "pause",
       "bucket": "r1",
       "source_bucket": "ane"
     },
@@ -89,7 +89,7 @@
     },
     {
       "id": "lesson10_r2_3",
-      "oravia": "anepou",
+      "oravia": "anedetu",
       "english": "stop",
       "bucket": "r2",
       "source_bucket": "ane"
@@ -117,8 +117,8 @@
     },
     {
       "id": "lesson10_r3_3",
-      "oravia": "anefe",
-      "english": "put",
+      "oravia": "anever",
+      "english": "secure",
       "bucket": "r3",
       "source_bucket": "ane"
     },

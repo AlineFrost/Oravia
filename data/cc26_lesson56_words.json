@@ -62,15 +62,15 @@
     },
     {
       "id": "lesson56_r1_4",
-      "oravia": "sever",
-      "english": "key",
+      "oravia": "sesa",
+      "english": "machine",
       "bucket": "r1",
       "source_bucket": "se"
     },
     {
       "id": "lesson56_r2_1",
-      "oravia": "sever",
-      "english": "key",
+      "oravia": "javer",
+      "english": "lock",
       "bucket": "r2",
       "source_bucket": "ver"
     },
@@ -90,8 +90,8 @@
     },
     {
       "id": "lesson56_r2_4",
-      "oravia": "eomseri",
-      "english": "parade",
+      "oravia": "ciuseri",
+      "english": "series, row",
       "bucket": "r2",
       "source_bucket": "seri"
     }

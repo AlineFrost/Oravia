@@ -66,15 +66,15 @@
     },
     {
       "id": "lesson16_r2_3",
-      "oravia": "eori",
-      "english": "please",
+      "oravia": "eofa",
+      "english": "friend",
       "bucket": "r2",
       "source_bucket": "eo-general"
     },
     {
       "id": "lesson16_r3_1",
-      "oravia": "eomseri",
-      "english": "parade",
+      "oravia": "eomanse",
+      "english": "work meeting",
       "bucket": "r3",
       "source_bucket": "eom"
     },
