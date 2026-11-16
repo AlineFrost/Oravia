@@ -58,7 +58,7 @@
     ```
     
     ```
-    i dapasum cali run i mouje en liyar, mai nim i doum i anepou e run. 
+    i dapasum cali run i mouje en liyar, mai nim i doum i anedetu e run. 
     ```
     
     ```
@@ -66,7 +66,7 @@
     ```
     
     ```
-    a gedom gehsar a yaltan, eta nim i fou i anepou i gerina. 
+    a gedom gehsar a yaltan, eta nim i fou i anedetu i gerina. 
     ```
     
     **Tips**
@@ -76,7 +76,7 @@
     (an)do = can, capacity  
     (ani)fou = need  
     anye = make, do  
-    anepou = stop  
+    anedetu = stop  
     anelem = keep, stay, remain  
     anocari = leave  
     anona = give, gift  
@@ -116,7 +116,7 @@
         
     Stacking: the first verb (in short form) is the operator (need/can/etc.), and it applies to what follows. 
     
-    Stop: i anepou i [verb] always means *stop doing [verb]*. English *stop* constructions can have multiple meanings which we will examine later (e.g., stop to do).
+    Stop: i anedetu i [verb] always means *stop doing [verb]*. English *stop* constructions can have multiple meanings which we will examine later (e.g., stop to do).
     
   
     Now try to create a sentence using *ca* connectors, or 3 if you're up for a challenge!

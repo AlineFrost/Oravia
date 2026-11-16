@@ -41,7 +41,7 @@ One useful extension is **cali**:
 
 **cali** = **CA + LI** time → *when*
 
-`i anefene cali run i boemo`
+`i fene cali run i boemo`
 
 <details class="example-translation">
 <summary>Click to Reveal Translation</summary>

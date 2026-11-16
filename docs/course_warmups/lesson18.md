@@ -129,18 +129,18 @@
     | litam | day |
     | limel | evening |
     | liyar | morning |
-    | lipardas | month  |
+    | liheosu | month  |
     | ligo | half |
     | linu | until |
     | liperi | week  |
     | lidastor | year |
     | lilon | while |
     | litetan | hour  |
-    | litegai | minute |
+    | litepe | minute |
 
-    One more example is **litemi** = second (time).
+    One more example is **litegai** = second (time).
 
-    What do **litegai**, **litetan**, and **litemi** have in common?
+    What do **litepe**, **litetan**, and **litegai** have in common?
 
     <div style="text-align: center; margin: 2rem 0;">
     <button onclick="document.getElementById('cluster2-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer;">
@@ -176,7 +176,7 @@
 
     ```
     litam 
-    lipardas 
+    liheosu 
     liperi 
     lidastor 
     ```
@@ -185,7 +185,7 @@
 
     ```
     litam = li + tam (1) = day
-    lipardas = li + pardas (30) = month
+    liheosu = li + heosu (moon) = month
     liperi = li + peri (7) = week
     lidastor = li + dastor (12) = year
     ```
@@ -193,7 +193,7 @@
 
     ### Recognize the Roots
 
-    Take another look at **litetan** and **litegai**. Do you recognize any roots you've learned before?
+    Take another look at **litetan** and **litepe**. Do you recognize any roots you've learned before?
 
     <div style="text-align: center; margin: 1.25rem 0;">
     <button onclick="document.getElementById('root-recall-l18-li-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.65rem 1.5rem; border-radius: 4px; cursor: pointer;">
@@ -203,7 +203,7 @@
 
     <div id="root-recall-l18-li-answer" style="display: none; background: #c8e6c9; padding: 1.25rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 1.25rem 0;">
     <p style="margin: 0 0 0.45rem 0;"><strong>litetan</strong> → <strong>TAN</strong> = big</p>
-    <p style="margin: 0 0 0.45rem 0;"><strong>litegai</strong> → <strong>GAI</strong> = small</p>
+    <p style="margin: 0 0 0.45rem 0;"><strong>litepe</strong> → <strong>PE</strong> = middle</p>
     </div>
 
     !!! info "🌍 Sound Connections"

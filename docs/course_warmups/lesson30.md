@@ -40,7 +40,7 @@
     A yudur ga i iliroar.
     it's hard compared to what I thought.
     
-    Ga i boemo, a anefene a yuba.
+    Ga i boemo, a fene a yuba.
     Compared to cooking, resting is good.
     ```
     
@@ -100,7 +100,7 @@
     </div>
     
     <div id="subcluster6a-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;">Example answers: A nim a anodu yunmpou de nim famei. Ga nim jal fasu, a nim a yamirli. </p>
+    <p style="margin: 0;">Example answers: A nim a anodu yunsun de nim famei. Ga nim jal fasu, a nim a yamirli. </p>
     </div>
     
 === "Vocabulary"
@@ -115,12 +115,12 @@
     | touvei | illness |
     | tohpu | sad |
     | tohdin | sorry |
-    | toharou | anxious |
+    | tohiloi | anxious |
     | tohnaru | anger |
-    | tohbian | confusion |
+    | tohmia | confusion |
     | tohvor | fear |
     | toumo | hungry |
-    | tounir | weak |
+    | tounen | weak |
     | touros | tense |
     | toului | tired |
     

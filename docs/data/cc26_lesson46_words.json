@@ -68,14 +68,14 @@
     },
     {
       "id": "lesson46_r2_1",
-      "oravia": "dohtei",
+      "oravia": "dohano",
       "english": "expel",
       "bucket": "r2",
       "source_bucket": "do"
     },
     {
       "id": "lesson46_r2_2",
-      "oravia": "dohcu",
+      "oravia": "dohsu",
       "english": "obey",
       "bucket": "r2",
       "source_bucket": "do"
@@ -145,14 +145,14 @@
     },
     {
       "id": "lesson46_r3_repeat_4",
-      "oravia": "dohtei",
+      "oravia": "dohano",
       "english": "expel",
       "bucket": "r3_repeat",
       "source_bucket": "do"
     },
     {
       "id": "lesson46_r3_repeat_5",
-      "oravia": "dohcu",
+      "oravia": "dohsu",
       "english": "obey",
       "bucket": "r3_repeat",
       "source_bucket": "do"

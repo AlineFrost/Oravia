@@ -46,8 +46,8 @@
     },
     {
       "id": "lesson54_r1_3",
-      "oravia": "podau",
-      "english": "meter / distance",
+      "oravia": "pocan",
+      "english": "mass / weight",
       "bucket": "r1",
       "source_bucket": "po"
     },
@@ -67,7 +67,7 @@
     },
     {
       "id": "lesson54_r2_2",
-      "oravia": "pohyaro",
+      "oravia": "poh",
       "english": "energy",
       "bucket": "r2",
       "source_bucket": "poh"
@@ -81,8 +81,8 @@
     },
     {
       "id": "lesson54_r2_4",
-      "oravia": "poiyal",
-      "english": "liter / volume",
+      "oravia": "poilua",
+      "english": "flow / current",
       "bucket": "r2",
       "source_bucket": "poi"
     },
@@ -102,8 +102,8 @@
     },
     {
       "id": "lesson54_r3_repeat_3",
-      "oravia": "podau",
-      "english": "meter / distance",
+      "oravia": "pocan",
+      "english": "mass / weight",
       "bucket": "r3_repeat",
       "source_bucket": "po"
     },
@@ -116,7 +116,7 @@
     },
     {
       "id": "lesson54_r3_repeat_5",
-      "oravia": "pohyaro",
+      "oravia": "poh",
       "english": "energy",
       "bucket": "r3_repeat",
       "source_bucket": "poh"

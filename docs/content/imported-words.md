@@ -156,7 +156,7 @@ These are based on widely shared cross-linguistic names
 | 'Arecaceae, 'Areca | Palm Tree | wavenis leirih (beach-tree) |
 | 'Rhizophora | Mangrove | leawas leirih (swamp-tree) |
 | 'Adansonia | Baobab | yalwols nous leirih (wide-bottom-tree) |
-| 'Eucalyptus | Eucalyptus | varpis yalens leirih (smell-tall-tree) |
+| 'Eucalyptus | Eucalyptus | varasis yalens leirih (smell-tall-tree) |
 | 'Ficus | Fig / Banyan | apanous leides leirih (falling-root-tree) |
 | 'Nelumbo | Lotus | walenos leipili (mudwater-flower) |
 
@@ -167,12 +167,12 @@ These are based on widely shared cross-linguistic names
 | Scientific Name Import | English | Compound Example |
 |---|---|---|
 | 'Carota | Carrot | yahcis yopohsaris moleide (pointed-orange-food-root) |
-| 'Zingiber | Ginger | moyames leide (spice-root) |
+| 'Zingiber | Ginger | mas leide (spice-root) |
 | 'Solanum Lycopersicum | Tomato | yaltans yopohs moa (big-red-fruit) |
 | 'Lactuca | Lettuce | yahluls moleinou (smooth-grass-food) |
-| 'Spinacia | Spinach | yolimels moleinou (dark-grass-food) |
-| 'Apium | Celery | jolrers moleinou (fiber-grass-food) |
-| 'Brassica Capitata | Cabbage | jalanos moleinou (ball-grass-food) |
+| 'Spinacia | Spinach | yomels moleinou (dark-grass-food) |
+| 'Apium | Celery | jolyes moleinou (fiber-grass-food) |
+| 'Brassica Capitata | Cabbage | jabuas moleinou (ball-grass-food) |
 | 'Brassica Italica | Broccoli | yalgais moleirih (small-tree-food) |
 | 'Capsicum | Pepper | jenyas yalens moanih (empty-long-berry) |
 | 'Persea Americana | Avocado | vosjans yoleis moa (creamy-green-fruit) |
@@ -181,7 +181,7 @@ These are based on widely shared cross-linguistic names
 | 'Prunus Persica | Peach | vonyas lenodurs moa (furry-stone-fruit) |
 | 'Citrullus Lanatus | Watermelon | yaltans was moa (big-water-fruit) |
 | 'Ananas | Pineapple | yosaris jopopos moa (yellow-shelled-fruit) |
-| 'Cocos | Coconut | jelanos jopopos moa (round-shelled-fruit) |
+| 'Cocos | Coconut | buas jopopos moa (round-shelled-fruit) |
 | 'Mangifera, 'Mangi | Mango | yohisas yahluls moa (yellow-smooth-fruit) |
 | 'Olea | Olive | poilumos moanih (oil-berry) |
 | 'Fragaria | Strawberry | yopohs moanih (red-berry) |
@@ -202,15 +202,15 @@ These are based on widely shared cross-linguistic names
 | 'Giraffa | Giraffe | yalens vatales mio (long-neck-wild animal) |
 | 'Equus Quagga | Zebra | yedis mihie (striped-horse) |
 | 'Macropus | Kangaroo | yejaes aparihs mio (bag-jumping-big wild animal) |
-| 'Ailuropoda | Panda | yolimels yoyars miogar (black-white-bear) |
+| 'Ailuropoda | Panda | yomels yoyars miogar (black-white-bear) |
 | 'Strigiformes, 'Strigi | Owl | limels muhpili (night-bird) |
 | 'Delphinidae, 'Delphini | Dolphin | yalgais wamitan (small-whale) |
 | 'Selachi | Shark | wayols vardurs wamu (sea-tooth-fish) |
 | 'Testudines | Turtle | jopopos mufiva (shelled-reptile) |
-| 'Araneae | Spider | yewamus mus (net-insect) |
+| 'Araneae | Spider | yeriras mus (net-insect) |
 | 'Pavo | Peacock | yoyos javaris muhpili (colorful-tail-bird) |
 | 'Camelus | Camel | leafous mihie (desert-horse) |
-| 'Octopoda | Octopus | jelanos muwos (round-squid) |
+| 'Octopoda | Octopus | autas vans wamu (eight-arm-fish) |
 | 'Spheniscidae, 'Spheni | Penguin | wanons vans muhpili (swimming-limbs-bird) |
 | 'Crocodylidae, 'Croco | Crocodile | vardurs mufiva (tooth-reptile) |
 | 'Rhinocerotidae, 'Rhino | Rhinoceros | yudurs mio (hard big wild animal) |

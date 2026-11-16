@@ -103,14 +103,14 @@
     |--------|---------|
     | sirose | computer, virtual |
     | siyal | detect, notice |
-    | sioer | game, play |
+    | sio | game, play |
     | sioce | puzzle |
     | simir | complex, complicated |
     | sihei | robot, android |
     
     **SI** words are related to computer-like processes.  
-    Words that start with *sio*, like sioce and sioer, are related to *games*. 
-    Two very useful compounds here: bontame-sioer (boardgames) and sirose-sioer (video games). 
+    The word *sio* (game, play) and words that start with it, like sioce, are related to *games*. 
+    Two very useful compounds here: bontame-sio (boardgames) and sirose-sio (video games). 
     
 
     ### Recognize the Roots
@@ -146,7 +146,7 @@
     Tinen Hue Molbo: Joniu Tam 
     
     Lar, i dami a yamirli faejal caei i elemi en wilgai. Nehen liyar, hay i anise e tor wa molbo. Notor, i vanvu en yalen jenon sora i anise e wa de wimlua u fa. 
-    Mai, a tor wa molbo a gavio. En tam wa molbo, i dami a yalgai tinen. Eta, wa i apanou de noi molbo.
+    Mai, a tor wa molbo a neliu. En tam wa molbo, i dami a yalgai tinen. Eta, wa i apanou de noi molbo.
     A yamirli faejal i yaldih e wa molbo en wimlua. Mai cali i anivari-aniyel en bo, a tinen molbo a nealui jenya. Caora lilon a faejal i vanvu, a wa i apanou.
     A tinen molbo a tilira-neiden.
 
@@ -168,7 +168,7 @@
     eta = so, therefore  
     fa = family  
     faejal = man  
-    gavio = different  
+    neliu = different  
     hay = he  
     jenon = path  
     jenya = empty  
@@ -266,7 +266,7 @@
     {id: "wu_elemi_1", oravia: "elemi", english: "life"},
     {id: "wu_elonor_2", oravia: "elonor", english: "peace"},
     {id: "wu_elireva_3", oravia: "elireva", english: "truth"},
-    {id: "wu_elodan_4", oravia: "elodan", english: "freedom"}
+    {id: "wu_elodan_4", oravia: "eloele", english: "freedom"}
         ];
 
         function renderSelfAssessment() {

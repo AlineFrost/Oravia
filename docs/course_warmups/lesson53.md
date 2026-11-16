@@ -29,7 +29,7 @@
     |--------|---------|
     | cohela | send |
     | cojim | emergency |
-    | conehui | request |
+    | codai | request |
     | corior | phone, smartphone |
     | colira | sign, symbol |
     | couyen | mail, email |
@@ -52,7 +52,7 @@
         Pa means **paper**. Think Greek *papyros* → papyrus / paper.  
         
         Here is another word with this root:  
-        **ciupa** = paper (creative products + paper), just like coupa = card (written communication + paper).  
+        **coupa** = card (written communication + paper).  
     
     Run i neron anja e corior dou e sirose? Ce i anye noi?
     
@@ -89,7 +89,7 @@
     </div>
     
     <div id="subcluster6-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;">Example answers: I neron anja e sirose, caora i pas i rosa-sioer. Mai i anja e corior su, caora i pas i couhai u eofa.</p>
+    <p style="margin: 0;">Example answers: I neron anja e sirose, caora i pas i rosa-sio. Mai i anja e corior su, caora i pas i couhai u eofa.</p>
     </div>
     
     You are ready for the reading now!
@@ -235,7 +235,7 @@
     {id: "wu_elemi_1", oravia: "elemi", english: "life"},
     {id: "wu_elonor_2", oravia: "elonor", english: "peace"},
     {id: "wu_elireva_3", oravia: "elireva", english: "truth"},
-    {id: "wu_elodan_4", oravia: "elodan", english: "freedom"}
+    {id: "wu_elodan_4", oravia: "eloele", english: "freedom"}
         ];
 
         function renderSelfAssessment() {

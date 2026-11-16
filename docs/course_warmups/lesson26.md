@@ -64,10 +64,10 @@
     ```
     
     ```
-    Celi run i anepou e anse?  
+    Celi run i anedetu e anse?  
     When do you stop work?  
     
-    Notor i anepou, i anye e hoi borcai.  
+    Notor i anedetu, i anye e hoi borcai.  
     Second I stop, (first) I make this wall.   
     ```
     
@@ -101,14 +101,14 @@
     | yugai | easy |
     | yuba | good |
     | yudur | hard |
-    | yufer | dirty |
+    | yuleno | dirty |
     | yuloa | perfect |
-    | yunmir | rich |
+    | gemir | wealth |
     | yunro | smart |
     | yunpili | timid |
     | yunfou | poor |
     | yunitam | special |
-    | yunmpou | lazy |
+    | yunsun | lazy |
     | yunrani | beautiful |
     
     What subcluster do you see here and what do you think it's about?
@@ -210,7 +210,7 @@
     {id: "wu_gehna_1", oravia: "gehna", english: "buy"},
     {id: "wu_gehsar_2", oravia: "gehsar", english: "charge"},
     {id: "wu_litetan_3", oravia: "litetan", english: "hour"},
-    {id: "wu_litegai_4", oravia: "litegai", english: "minute"}
+    {id: "wu_litegai_4", oravia: "litepe", english: "minute"}
     ];
 
     function renderSelfAssessment() {

@@ -27,7 +27,7 @@
     
     | Oravia | English |
     |--------|---------|
-    | jelano | circle |
+    | jensu | side, beside |
     | jenai | corner, angle |
     | jenmue | left |
     | jenparo | front |
@@ -49,7 +49,7 @@
 
     ### Recognize the Roots
 
-    Take another look at **jelano**. Do you recognize any roots you've learned before?
+    Take another look at **jensu**. Do you recognize any roots you've learned before?
 
     <div style="text-align: center; margin: 1.25rem 0;">
     <button onclick="document.getElementById('root-recall-l58-je-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.65rem 1.5rem; border-radius: 4px; cursor: pointer;">
@@ -58,7 +58,7 @@
     </div>
 
     <div id="root-recall-l58-je-answer" style="display: none; background: #c8e6c9; padding: 1.25rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 1.25rem 0;">
-    <p style="margin: 0 0 0.45rem 0;"><strong>jelano</strong> → <strong>LANO</strong> = around</p>
+    <p style="margin: 0 0 0.45rem 0;"><strong>jensu</strong> → <strong>SU</strong> = alongside</p>
     </div>
 
     !!! info "🌍 Sound Connections"
@@ -66,7 +66,7 @@
         Paro means front. It comes from Latin pro/prae and Romance para, meaning in front, toward.
       
     Here are other words with these roots:    
-    **boetale** = hall (house spaces + cross), just like jentale = through (geometrics and location + cross)   
+    **vatale** = neck (core + through), just like jentale = through (geometrics and location + cross)   
     **varparo** = face (face + front), just like jenparo = front (geometrics and location + front)
    
     This cluster has two important words, *jetai* and *jenon*.  
@@ -213,7 +213,7 @@
 <script>
     function initWarmup() {
         const warmupWords = [
-    {id: "wu_jarih_1", oravia: "jarih", english: "ladder"},
+    {id: "wu_jarih_1", oravia: "jalei", english: "stick"},
     {id: "wu_jasru_2", oravia: "jasru", english: "bend"},
     {id: "wu_muhpili_3", oravia: "muhpili", english: "bird"},
     {id: "wu_mufis_4", oravia: "mufis", english: "snake"},

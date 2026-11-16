@@ -18,7 +18,7 @@ Litamar en limel, a fasu i ilaluan: "Noli nim i roudal u run."
 
 Lina i anona e roumir u hay. A fasu i ansau:
 
-"Cali a lunu i anifi, a miau i anvu en leayo de faejor..."
+"Cali a lunu i aniyel, a miau i anvu en leayo de faejor..."
 
 A fasu i ilaluan e neloa roumir! No yaltan ilhei.
 
@@ -30,7 +30,7 @@ Lina i oines, mai i ilaluanum e noi u fasu.
 
 Litamis, Lina i anona e yani roumir u hay. "Noli roudal e noi."  
 
-A fasu i vardei e roumir yalen litegai. Hay i ilaluanum, su hayas i vardei e rein. A hay a ho oila.
+A fasu i vardei e roumir yalen litepe. Hay i ilaluanum, su hayas i vardei e rein. A hay a ho oila.
 
 "Nim i doum!"
 
@@ -48,7 +48,7 @@ Su cali a Lina a toului, a fasu i roudal u hay.
 
 a = subject marker  
 ando = can  
-anifi = come  
+aniyel = come  
 anodu = the most (superlative)  
 anona = give  
 ansau = begin  
@@ -84,11 +84,11 @@ ilian = know
 ilianum = not know (ilian + -um)  
 lili = again  
 limel = evening  
-lipardas = month  
+liheosu = month  
 lirular = custom  
 litamar = yesterday (litam + -ar)  
 litamis = tomorrow (litam + -is)  
-litegai = minute  
+litepe = minute  
 lunpili = spring  
 lunu = winter  
 mai = but  

@@ -29,13 +29,12 @@
     |--------|---------|
     | asano | push |
     | asfene | sleep |
-    | asetowa | tears |
-    | aselano | hug |
+    | asebua | hug |
     | aseyel | kiss |
     | asela | smile |
     | asugar | yell |
-    | asular | laugh |
-    | asusu | whisper |
+    | asunes | laugh |
+    | asuifi | whistle |
     
     
     What do you think **AS** words are about?
@@ -86,7 +85,7 @@
 
     ### Recognize the Roots
 
-    Take another look at **asfene**, **asetowa**, **aseyel**, and **asela**. Do you recognize any roots you've learned before?
+    Take another look at **asfene**, **aseyel**, and **asela**. Do you recognize any roots you've learned before?
 
     <div style="text-align: center; margin: 1.25rem 0;">
     <button onclick="document.getElementById('root-recall-l48-as-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.65rem 1.5rem; border-radius: 4px; cursor: pointer;">
@@ -97,17 +96,16 @@
     <div id="root-recall-l48-as-answer" style="display: none; background: #c8e6c9; padding: 1.25rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 1.25rem 0;">
     
     <p style="margin: 0 0 0.45rem 0;"><strong>asfene</strong> → <strong>FENE</strong> = rest</p>
-    <p style="margin: 0 0 0.45rem 0;"><strong>asetowa</strong> → <strong>TO</strong> = suffering · <strong>WA</strong> = water</p>
     <p style="margin: 0 0 0.45rem 0;"><strong>aseyel</strong> → <strong>YEL</strong> = joining</p>
     <p style="margin: 0 0 0.45rem 0;"><strong>asela</strong> → <strong>LA</strong> = happiness</p>
     </div>
 
     !!! info "🌍 Sound Connections"
-        Do you recognize the syllables in asano, asfene, asetowa, aseyel, asela, asusu? What do they mean?   
-        Lano comes from the Polynesian root Rano, which is a circular volcanic crater with a lake. In Oravia it means round, around.
+        Do you recognize the syllables in asano, asfene, aseyel, asela, asuifi? What do they mean?   
+        Bua means round, around.
         
     Here's another word with this root:  
-    **jelano** = circle, wheel (geometric + around), just like aselano = hug (interpersonal body action + around) 
+    **jabua** = ball (tool + round), just like asebua = hug (affectionate contact + round) 
     **bonfene** = bed (furniture + rest), reusing FENE = rest from asfene = sleep. 
 
     
@@ -145,7 +143,7 @@
     I neron 2 yaltan mahon de maeyalo vilan-wa su lei.  
     Yadetu, i neron e 'yolei masloma, masnam su maemopi. Noli i do i mo e yuba pomia maemiri!  
 
-    roumo = rou ca i elomio i boemo e mo (writing that helps cook food).  
+    roumo = rou ca i elomiu i boemo e mo (writing that helps cook food).  
     malumo = poilumo sora boemo (oil to cook).
     
     
@@ -156,7 +154,7 @@
     jensu = side  
     lei = plant  
     lisoi = soon  
-    litegai = minute  
+    litepe = minute  
     lufiva = cool, cold  
     mahon = spoon  
     mamini = egg  

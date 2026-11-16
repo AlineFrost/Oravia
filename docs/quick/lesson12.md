@@ -110,7 +110,7 @@ Quick review:
 This is the last lesson of this course!  
 ## How much Oravia do you know now?
 
-Oravia is fast to learn, and it was designed with a purposefully small vocabulary that is very powerful combined with the grammatical and expressive features of the language. It has about ~860 dictionary words built mostly from ~260 building blocks. In these twelve lessons you've met about 65 building blocks, roughly a quarter of the building-block system.
+Oravia is fast to learn, and it was designed with a purposefully small vocabulary that is very powerful combined with the grammatical and expressive features of the language. It has about 780 dictionary words built mostly from a few hundred blocks. In these twelve lessons you've met about 65 building blocks, roughly a quarter of the building-block system.
 
 The six words in Lesson 11 were never taught as vocabulary. More than 40 other dictionary words also have breakdowns made entirely from pieces in this short course. 
 

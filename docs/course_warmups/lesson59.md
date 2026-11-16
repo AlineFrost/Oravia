@@ -26,7 +26,7 @@
     | Oravia | English |
     |--------|---------|
     | hehma | monster |
-    | hehui | ghost |
+    | hehou | shadow, hide |
     | hevas | secret |
     | heodom | planet |
     | heosu | moon |
@@ -164,7 +164,7 @@
 <script>
     function initWarmup() {
         const warmupWords = [
-    {id: "wu_jarih_1", oravia: "jarih", english: "ladder"},
+    {id: "wu_jarih_1", oravia: "jalei", english: "stick"},
     {id: "wu_jasru_2", oravia: "jasru", english: "bend"},
     {id: "wu_muhpili_3", oravia: "muhpili", english: "bird"},
     {id: "wu_mufis_4", oravia: "mufis", english: "snake"},

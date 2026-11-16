@@ -90,7 +90,7 @@
     | ciuseri | horizontal, series |
     | ciutel | image |
     | ciureva | photo, picture |
-    | ciupa | paper |
+    | ciuyen | print, publish |
     
     What do you think **CIU** words are about?
     
@@ -107,7 +107,7 @@
 
     ### Recognize the Roots
 
-    Take another look at **ciugai**, **ciureva**, and **ciupa**. Do you recognize any roots you've learned before?
+    Take another look at **ciugai** and **ciureva**. Do you recognize any roots you've learned before?
 
     <div style="text-align: center; margin: 1.25rem 0;">
     <button onclick="document.getElementById('root-recall-l55-ciu-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.65rem 1.5rem; border-radius: 4px; cursor: pointer;">
@@ -118,14 +118,13 @@
     <div id="root-recall-l55-ciu-answer" style="display: none; background: #c8e6c9; padding: 1.25rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 1.25rem 0;">
     <p style="margin: 0 0 0.45rem 0;"><strong>ciugai</strong> → <strong>GAI</strong> = small</p>
     <p style="margin: 0 0 0.45rem 0;"><strong>ciureva</strong> → <strong>REVA</strong> = accurate / correct</p>
-    <p style="margin: 0 0 0.45rem 0;"><strong>ciupa</strong> → <strong>PA</strong> = paper</p>
     </div>
 
     This cluster also has an important word, *ciude*! It means theme, topic, about. For example:
     
     ```
-    conehui de run = request from you
-    conehui ciude run = request about you
+    codai de run = request from you
+    codai ciude run = request about you
     ```
     
     You are ready for the reading now!
@@ -151,7 +150,7 @@
     "Mai a nimas i fou i iloi" nim i ilaluan.  
     "Iloi? E ce?"  
     "E ganou lusari. A nimas i fou i iloi linu davir li".  
-    Notam, run i nomie no nedas iloram. Notor, i asular. Run i ilahai u nim:  
+    Notam, run i nomie no nedas iloram. Notor, i asunes. Run i ilahai u nim:  
     "Nedas lirul a nim i iliro ca nim en bo!"  
 
     *noi, i damura no jal fano de dofa raitar dia (here, it means son of an inherited ruler).
@@ -162,7 +161,7 @@
     
     aniyel = come  
     (an)sau = start  
-    asular = laughter  
+    asunes = laughter  
     bale = four  
     bo = home, house  
     ciugai = detail   
@@ -269,11 +268,11 @@
     function initWarmup() {
         const warmupWords = [
     {id: "wu_gafi_1", oravia: "gafi", english: "less"},
-    {id: "wu_gavio_2", oravia: "gavio", english: "different"},
+    {id: "wu_gavio_2", oravia: "neliu", english: "different"},
     {id: "wu_wanon_3", oravia: "wanon", english: "swim"},
     {id: "wu_wayol_4", oravia: "wayol", english: "ocean"},
     {id: "wu_dohti_5", oravia: "dohti", english: "punish"},
-    {id: "wu_dohcu_6", oravia: "dohcu", english: "obey"}
+    {id: "wu_dohcu_6", oravia: "dohsu", english: "obey"}
         ];
 
         function renderSelfAssessment() {

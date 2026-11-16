@@ -75,8 +75,8 @@
     },
     {
       "id": "lesson50_r2_2",
-      "oravia": "ombum",
-      "english": "drum",
+      "oravia": "omdal",
+      "english": "rhythm",
       "bucket": "r2",
       "source_bucket": "om"
     },
@@ -152,8 +152,8 @@
     },
     {
       "id": "lesson50_r3_repeat_5",
-      "oravia": "ombum",
-      "english": "drum",
+      "oravia": "omdal",
+      "english": "rhythm",
       "bucket": "r3_repeat",
       "source_bucket": "om"
     },

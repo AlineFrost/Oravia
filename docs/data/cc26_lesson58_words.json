@@ -40,8 +40,8 @@
   "words": [
     {
       "id": "lesson58_r1_1",
-      "oravia": "jelano",
-      "english": "circle",
+      "oravia": "jensu",
+      "english": "side",
       "bucket": "r1",
       "source_bucket": "je"
     },
@@ -96,8 +96,8 @@
     },
     {
       "id": "lesson58_r3_2",
-      "oravia": "boetale",
-      "english": "hall",
+      "oravia": "vatale",
+      "english": "neck",
       "bucket": "r3",
       "source_bucket": "tale"
     },
@@ -117,8 +117,8 @@
     },
     {
       "id": "lesson58_r3_repeat_1",
-      "oravia": "jelano",
-      "english": "circle",
+      "oravia": "jensu",
+      "english": "side",
       "bucket": "r3_repeat",
       "source_bucket": "je"
     },

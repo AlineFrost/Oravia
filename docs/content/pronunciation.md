@@ -90,4 +90,4 @@ If you have trouble with the pronunciation of consonant clusters, you may add a 
 
 Oravia leaves unusual room for different accents. It was designed to avoid similar sounding words and to accomodate pronunciation diversity. So, beyond the cluster accommodations, if you have trouble with any of the sounds, you may use an approximation:   
 
-![Story illustration](../../images/graded-readers/pron.jpg){ width="720" style="display:block; margin:1.25rem auto 2rem auto;" }
+![Story illustration](../images/graded-readers/pron.jpg){ width="720" style="display:block; margin:1.25rem auto 2rem auto;" }

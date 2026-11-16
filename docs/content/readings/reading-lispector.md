@@ -8,7 +8,7 @@
 
 ## Reading  
 
-Neloa en heodom i ansau de "ia". Pogai i ilaluan u neliu pogai eta a elemi i favi. Mai notam notam-rasuir i dami notam-rasuir de notam-rasuir su i dami sunya lirul su i dami "ia". Nolili i dami. Nim i ilianum ca i dami, mai i ilian ca a heoloa ansaum. Bi iloi sunya i tohbian, nim i do e yugai netam anja mir anse. Lilon i dami ilace en nim, su i damium daco, i anlaro i roudi. Canon i do i ansau en ansau, daehun i ilwol i dateli notam i dateli? Daehun noi oimel i damium, noli bi el. A i iliro a elori. A i tohvi a elireva. Tor eodyel: o nim i roudi ilwol ca nim i roudi.
+Neloa en heodom i ansau de "ia". Pogai i ilaluan u neliu pogai eta a elemi i favi. Mai notam notam-rasuir i dami notam-rasuir de notam-rasuir su i dami sunya lirul su i dami "ia". Lilaro i dami. Nim i ilianum ca i dami, mai i ilian ca a heoloa ansaum. Bi iloi sunya i tohmia, nim i do e yugai netam anja mir anse. Lilon i dami ilace en nim, su i damium daco, i anlaro i roudi. Canon i do i ansau en ansau, daehun i ilwol i dateli notam i dateli? Daehun noi oimel i damium, noli bi el. A i iliro a elori. A i tohvi a elireva. Tor eodyel: o nim i roudi ilwol ca nim i roudi.
 
 from A Hora da Estrela
 
@@ -41,13 +41,13 @@ ilwol = thing
 oimel = story  
 netam = only  
 neloa = everything, everyone  
-nolili = forever  
+lilaro = forever  
 notam = first  
 pogai = atom  
 rasuir = history   
 roudi = write  
 sunya = 0/10  
-tohbian = confusion  
+tohmia = confusion  
 tohvi = feeling   
 tor = two  
 yugai = easy  

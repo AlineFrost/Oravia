@@ -107,7 +107,7 @@ mocen mouje   →  "chocolate drink"
 pohem mocen mouje   →  "hot chocolate drink"
 ```
 
-Because of the markers, any word can go in any role. For example, if you say *a angi* this means "[subject] brave", if you say *i angi* this means "[verb] to dare". If you say *angi falen*, this means "bold child".
+Because of the markers, any word can go in any role. For example, if you say *a angi* this means "[subject] brave", if you say *i angi* this means "[verb] to dare". If you say *angi falfal*, this means "bold child".
 
 ---
 
@@ -128,7 +128,7 @@ Use these instead of a large set of prepositions:
 ```
 
 ```
-  a nim i anifi de bo
+  a nim i aniyel de bo
      ↓    ↓         ↓         
      I come from the house 
 ```
@@ -247,7 +247,7 @@ Notice you can be as specific as you'd like by adding more descriptions to your 
 **Hyphenated forms** fuse two words into one expression:
 
 ```
-falen-li = child-time = childhood
+falfal-li = child-time = childhood
 tohpu-vanvu = sad-walk = to trudge, move with sadness
 bo-bortal = house-enter = to enter a house
 ilofun-vardei = hesitant-look = to peek with doubt
@@ -278,7 +278,7 @@ Now that you know a little of how the vocabulary works, you can explore:
 
 [Full vocabulary](../content/dictionary.md)  
 [Building blocks](../content/building_blocks.md)  
-[Blocks Cheat Sheet](../content/cheat.md)  
+[Blocks Cheat Sheet](../about/cheat-sheet.md)  
 
 ---
 
@@ -335,7 +335,7 @@ miau = cat
 beivu = car  
 none = have  
 litam = day  
-nolili = always  
+nedas lirul = always  
 eofa = friend  
 ilhei = person  
 noli = now  

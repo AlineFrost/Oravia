@@ -84,7 +84,7 @@
     | wilgai | village |
     | wiltan | city |
     | wilyel | bridge |
-    | witel | map |
+    | wile | area, region |
     | wimlua | river |
     | wimwa | lake |
     | wimrih | mountain |
@@ -138,7 +138,7 @@
         Lua means flow, inspired by Arabic lujja (deep flowing water).
       
     Here are other words with these roots:    
-    **ciutel** = image (creative products + image), just like witel = map (geography + image)    
+    **ciutel** = image (creative products + image)    
     **poilua** = current (liquid + flow), just like wimlua = river (natural geography + flow)  
     
     We also have four important words in this cluster:  
@@ -192,7 +192,7 @@
     
     Learn how to use the language like a master crafter and personalize your choices [Guide to Craft & Style](../content/oravia-style.md)  
     
-    Time to read Oravia in the wild! Here are some texts to explore [Readings](../content/readings.md)  
+    Time to read Oravia in the wild! Here are some texts to explore [Readings](../content/readings/readings.md)  
     
     Have fun with song, stories and more! [Media](../content/media.md)
     
@@ -212,7 +212,7 @@
     {id: "wu_veluo_3", oravia: "veluo", english: "exercise"},
     {id: "wu_velmo_4", oravia: "velmo", english: "pill"},
     {id: "wu_sirose_5", oravia: "sirose", english: "computer"},
-    {id: "wu_sioer_6", oravia: "sioer", english: "game"}
+    {id: "wu_sioer_6", oravia: "sio", english: "game"}
         ];
 
         function renderSelfAssessment() {

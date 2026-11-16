@@ -90,12 +90,12 @@
     
     Today we will re-read Curupira's story, with a twist! The sentences and meaning will be the same, but the word order will flip.
     
-    The word order we have been using so far has been mostly Subject-Verb-Object, like *a falfal i roesau e ompili* (the child learns piano). Today, we will see a different but also common order, Subject-Object-Verb.
+    The word order we have been using so far has been mostly Subject-Verb-Object, like *a falfal i roesau e 'piano* (the child learns piano). Today, we will see a different but also common order, Subject-Object-Verb.
     
     Word orders like this are very common worldwide and occur in languages like Japanese and Hindi. To mirror a different word order, here's what is going to happen to the text today:
     
-    - the verb will go to the end of the sentence, like *a falfal e ompili i roesau* (the child learns piano).  
-    - secondary and modifying clauses will go to the front. For example, *mioci ca i sioerar su fano* becomes *fano sioerar mioici* (monkey that had been playing with their offspring).
+    - the verb will go to the end of the sentence, like *a falfal e 'piano i roesau* (the child learns piano).  
+    - secondary and modifying clauses will go to the front. For example, *mioci ca i sioar su fano* becomes *fano sioar mioici* (monkey that had been playing with their offspring).
     
     In order to read the story, just remember: the markers indicate the role in the sentence, not the order! Keep your attention in the markers. Now let's give it a try. 
     
@@ -104,13 +104,13 @@
 
     En lealei a yalgai su mioici faejal i elemi. Hay e yopoh vosyas su e ancem hue vanpai i none. O e hay no Curupira i couya.  
     Eofa de le, hay lirul en yaltan mio mius. Curupira e lei su misumu i eover. Cali a neauta lupupi i widuo, notam hay u misumu i ilahai. Eta, neloa de lufu su 'lusiram  i do i raiver.  
-    Lar, a copei dia e fano sioerar mioici i copei. A curupira noi i vardei, su i ansau i vanvu. A vanpai colira de curupira a ancem hue.   
-    Cali a sita dia e colira en leno i vardei, i copei. Mai, a colira en ho jetai i antai. Eta, a sita dia e jenon en lealei i ilianum, su a jenon-tohbian. Notor, hay en janou i apanou: o yewamus de curupira.  
+    Lar, a copei dia e fano sioar mioici i copei. A curupira noi i vardei, su i ansau i vanvu. A vanpai colira de curupira a ancem hue.   
+    Cali a sita dia e colira en leno i vardei, i copei. Mai, a colira en ho jetai i antai. Eta, a sita dia e jenon en lealei i ilianum, su a jenon-tohmia. Notor, hay en janou i apanou: o hehou-sita de curupira.  
     A raiver dia de lealei e asugar de sita dia i varsus:  
-    "Eori, elomiu! E nim o i elodan !"  
+    "Eoren, elomiu! E nim o i eloele !"  
     "Run e mioici i dai i javoa. Noli, o run a javoa!"  
     A sita dia no tilira su tohpu i davio. Eta, a curupira i eloliuto.  
-    "O i asetowaum. A nim e run i elodan. Notam u nim o i elodao ca lis, run e fano de misumu i eoren."  
+    "O i vardeis waum. A nim e run i eloele. Notam u nim o i elodao ca lis, run e fano de misumu i eoren."  
     "A nim i elodao!"  
     A curupira e hay i eomiu. A sita dia, ca a elireva tohdin, no raiver dia de fano de misumu i davio. Su caora a faejal u elodao i elasu, a curupira a oila.  
 
@@ -121,20 +121,20 @@
     ansau = start  
     antai = lead, direct  
     apanou = fall  
-    asetowa = cry, tear  
+    vardeis wa = cry, tear  
     asugar = yell, scream  
     colira = sign, mark  
     couya = name  
     davio = change, become  
     elasu = faith, trust  
-    elodan = freedom, free, liberate  
+    eloele = freedom, free, liberate  
     elodao = promise  
     eloliuto = compassion, empathy 
-    elomio = aid, help  
+    elomiu = aid, help  
     elireva = truth, really  
     eomiu = support  
     eoren = honor, respect  
-    eori = polite, please  
+    eoren = polite, please  
     eover = to care for  
     faejal = man  
     fano = offspring  
@@ -160,7 +160,7 @@
     none = have  
     oila = happy  
     raiver = defend, protect  
-    sioer = play, game  
+    sio = play, game  
     tilira = blame, shame  
     tohdin = sorry, remorse  
     tohpu = sad  
@@ -172,7 +172,7 @@
     widuo = near, to approach  
     yalgai = small  
     yaltan = large  
-    yewamus = net, trap  
+    hehou-sita = trap  
     yopoh = red  
     
     <div style="text-align: center; margin: 2rem 0;">
@@ -241,7 +241,7 @@
     {id: "wu_joniu_1", oravia: "joniu", english: "piece"},
     {id: "wu_joldur_2", oravia: "joldur", english: "metal"},
     {id: "wu_vonlu_3", oravia: "vonlu", english: "skin"},
-    {id: "wu_vosvo_4", oravia: "vosvo", english: "soap"}
+    {id: "wu_vosvo_4", oravia: "vosdama", english: "soap"}
         ];
 
         function renderSelfAssessment() {

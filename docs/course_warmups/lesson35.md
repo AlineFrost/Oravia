@@ -119,7 +119,7 @@
     
     | Oravia | English |
     |--------|---------|
-    | yeleno | cotton |
+    | yedelei | cotton |
     | yeyel | sew |
     | yespuri | sock |
     | yesrel | jacket |
@@ -144,7 +144,7 @@
 
     ### Recognize the Roots
 
-    Take another look at **yeleno**, **yesrel**, **yesnou**, and **yeswol**. Do you recognize any roots you've learned before?
+    Take another look at **yedelei**, **yesrel**, **yesnou**, and **yeswol**. Do you recognize any roots you've learned before?
 
     <div style="text-align: center; margin: 1.25rem 0;">
     <button onclick="document.getElementById('root-recall-l35-ye-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.65rem 1.5rem; border-radius: 4px; cursor: pointer;">
@@ -153,7 +153,7 @@
     </div>
 
     <div id="root-recall-l35-ye-answer" style="display: none; background: #c8e6c9; padding: 1.25rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 1.25rem 0;">
-    <p style="margin: 0 0 0.45rem 0;"><strong>yeleno</strong> → <strong>LENO</strong> = ground</p>
+    <p style="margin: 0 0 0.45rem 0;"><strong>yedelei</strong> → <strong>DE</strong> = from · <strong>LEI</strong> = plants</p>
     <p style="margin: 0 0 0.45rem 0;"><strong>yesrel</strong> → <strong>REL</strong> = up / high</p>
     <p style="margin: 0 0 0.45rem 0;"><strong>yesnou</strong> → <strong>NOU</strong> = low / falling</p>
     <p style="margin: 0 0 0.45rem 0;"><strong>yeswol</strong> → <strong>WOL</strong> = wide</p>

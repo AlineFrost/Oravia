@@ -25,7 +25,7 @@ For several very common verbs, the first verb normally appears as its short form
 
 </details>
 
-`i fou i anefene`
+`i fou i fene`
 
 <details class="example-translation">
 <summary>Click to Reveal Translation</summary>
@@ -120,10 +120,10 @@ Look at **wiltan** and **visomo**:
     **dai / anidai** = want  
     **fou / anifou** = need  
     **boemo** = cook  
-    **anefene** = rest  
+    **fene** = rest  
     **beivu** = car
 
-`i dai i boemo, mai i fou i anefene`
+`i dai i boemo, mai i fou i fene`
 
 <details class="example-translation">
 <summary>Click to Reveal Translation</summary>

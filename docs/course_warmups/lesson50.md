@@ -92,9 +92,8 @@
     | Oravia | English |
     |--------|---------|
     | omapa | dance |
-    | ombum | drum |
+    | omdal | rhythm |
     | omja | guitar |
-    | ompili | piano |
     | omlia | sing, song |
     | omco | voice |
     
@@ -151,32 +150,32 @@
     copei = search, hunt  
   
   
-    (Eta, a sita dia i ilianum e jenon en lealei, su a jenon-tohbian. Notor, hay i apanou en janou: o yewamus de curupira.) 
+    (Eta, a sita dia i ilianum e jenon en lealei, su a jenon-tohmia. Notor, hay i apanou en janou: o hehou-sita de curupira.) 
   
     Curupira Joniu Tor (Curupira Part 2)
     
     A raiver dia de lealei i varsus e asugar de sita dia:  
-    "Eori, eomiu! O i elodan e nim!"  
+    "Eoren, eomiu! O i eloele e nim!"  
     "Run i dai i javoa e mioici. Noli, o run a javoa!"  
     A sita dia i davio no tilira su tohpu. Eta, a curupira i eloliuto.  
-    "O i asetowaum. A nim i elodan e run. Notam o i elodao u nim ca lis, run i eoren e fano de misumu."  
+    "O i vardeis waum. A nim i eloele e run. Notam o i elodao u nim ca lis, run i eoren e fano de misumu."  
     "A nim i elodao!"  
     A curupira i eomiu e hay. A sita dia, ca a elireva tohdin, i davio no raiver dia de fano de misumu. Su a curupira a oila caora a faejal i elasu u elodao.  
 
 
     **Tips**
 
-    asetowa = cry, tear  
+    vardeis wa = cry, tear  
     asugar = yell, scream  
     davio = change, become  
     elasu = faith, trust  
-    elodan = freedom, free, liberate  
+    eloele = freedom, free, liberate  
     elodao = promise  
     eloliuto = compassion, empathy  
     elireva = truth, really  
     eomiu = support  
     eoren = honor, respect  
-    eori = polite, please  
+    eoren = polite, please  
     faejal = man  
     fano = offspring  
     javoa = cage, to imprison  
@@ -274,7 +273,7 @@
     {id: "wu_joniu_1", oravia: "joniu", english: "piece"},
     {id: "wu_joldur_2", oravia: "joldur", english: "metal"},
     {id: "wu_vonlu_3", oravia: "vonlu", english: "skin"},
-    {id: "wu_vosvo_4", oravia: "vosvo", english: "soap"}
+    {id: "wu_vosvo_4", oravia: "vosdama", english: "soap"}
         ];
 
         function renderSelfAssessment() {

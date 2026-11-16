@@ -6,9 +6,9 @@
 
 <div class="oravia-reading graded-reader-text">
 <p>En limel, nim su fare i mo en mo dom ca hay lirul i eodenbor cali i dami en wiltan.</p>
-<p>Lilon fare i ilahai, nim i vardei e yamirli ciureva en borcai su i anepou i mo: a falte ilhei en hay a nedas no nim.</p>
+<p>Lilon fare i ilahai, nim i vardei e yamirli ciureva en borcai su i anedetu i mo: a fal ilhei en hay a nedas no nim.</p>
 <p>“Cei a hay?” nim i ilace.</p>
-<p>Fare i vardei e ciureva, su en litegai i asular. “A hay a nim.”</p>
+<p>Fare i vardei e ciureva, su en litepe i asunes. “A hay a nim.”</p>
 <p>Nim i ilace lili: “Run?”</p>
 <p>Hay i ilaluan ca a ciureva i anyear noi en yamirli lidastor, cali hay i anse widuo su i mo noi neauta lirul.</p>
 <p>Nim i vardei e ciureva, notor e fare, su i siyal e gaomem varodu non ca nim i vardeium notam.</p>
@@ -36,7 +36,7 @@
 ## Try to answer in Oravia
 
 <div class="oravia-reading">
-<p><strong>Ceora nim i anepou i mo cali i vardei e ciureva?</strong></p>
+<p><strong>Ceora nim i anedetu i mo cali i vardei e ciureva?</strong></p>
 </div>
 
 <details>
@@ -45,7 +45,7 @@
 <p><strong>English question:</strong> Why does the speaker stop eating when they see the photograph?</p>
 
 <div class="oravia-reading">
-<p><strong>Possible answer:</strong> Caora a falte ilhei en ciureva a nedas no nim.</p>
+<p><strong>Possible answer:</strong> Caora a fal ilhei en ciureva a nedas no nim.</p>
 </div>
 
 <p><strong>English:</strong> Because the young person in the photograph looks very much like the speaker.</p>

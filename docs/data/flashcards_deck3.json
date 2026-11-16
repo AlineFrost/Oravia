@@ -30,25 +30,6 @@
     ]
   },
   {
-    "id": "D3_anlorfi",
-    "front": "anlorfi",
-    "back": "privilege, prerogative",
-    "breakdown": [
-      {
-        "sound": "an",
-        "meaning": "action"
-      },
-      {
-        "sound": "lor",
-        "meaning": "benefit"
-      },
-      {
-        "sound": "fi",
-        "meaning": "inside, intrinsic"
-      }
-    ]
-  },
-  {
     "id": "D3_antai",
     "front": "antai",
     "back": "lead, leader, to direct, guide",
@@ -65,7 +46,7 @@
   },
   {
     "id": "D3_anpul",
-    "front": "anpul",
+    "front": "anwol",
     "back": "spread, diffuse, diffusion",
     "breakdown": [
       {
@@ -73,8 +54,8 @@
         "meaning": "action"
       },
       {
-        "sound": "pul",
-        "meaning": "spread"
+        "sound": "wol",
+        "meaning": "wide"
       }
     ]
   },
@@ -90,25 +71,6 @@
       {
         "sound": "en",
         "meaning": "activity"
-      }
-    ]
-  },
-  {
-    "id": "D3_apahotai",
-    "front": "apahotai",
-    "back": "wander, roam, rove",
-    "breakdown": [
-      {
-        "sound": "apa",
-        "meaning": "physical movement"
-      },
-      {
-        "sound": "ho",
-        "meaning": "opposite"
-      },
-      {
-        "sound": "tai",
-        "meaning": "guide"
       }
     ]
   },
@@ -177,36 +139,6 @@
     ]
   },
   {
-    "id": "D3_asubu",
-    "front": "asubu",
-    "back": "drown, a drowning",
-    "breakdown": [
-      {
-        "sound": "as",
-        "meaning": "involuntary bodily functions"
-      },
-      {
-        "sound": "ubu",
-        "meaning": "drown"
-      }
-    ]
-  },
-  {
-    "id": "D3_asucin",
-    "front": "asucin",
-    "back": "sneeze",
-    "breakdown": [
-      {
-        "sound": "asu",
-        "meaning": "involuntary vocal acts"
-      },
-      {
-        "sound": "cin",
-        "meaning": "sneeze"
-      }
-    ]
-  },
-  {
     "id": "D3_asuifi",
     "front": "asuifi",
     "back": "whistle, hiss, fizzle",
@@ -218,36 +150,6 @@
       {
         "sound": "ifi",
         "meaning": "whistle"
-      }
-    ]
-  },
-  {
-    "id": "D3_asuor",
-    "front": "asuor",
-    "back": "snore, grunt",
-    "breakdown": [
-      {
-        "sound": "asu",
-        "meaning": "involuntary vocal acts"
-      },
-      {
-        "sound": "or",
-        "meaning": "snore"
-      }
-    ]
-  },
-  {
-    "id": "D3_asusu",
-    "front": "asusu",
-    "back": "whisper, rustle, murmur",
-    "breakdown": [
-      {
-        "sound": "asu",
-        "meaning": "involuntary vocal acts"
-      },
-      {
-        "sound": "sus",
-        "meaning": "sound"
       }
     ]
   },
@@ -282,21 +184,6 @@
     ]
   },
   {
-    "id": "D3_betal",
-    "front": "betal",
-    "back": "reception, lobby, secretary",
-    "breakdown": [
-      {
-        "sound": "be",
-        "meaning": "travel"
-      },
-      {
-        "sound": "tal",
-        "meaning": "door"
-      }
-    ]
-  },
-  {
     "id": "D3_bociu",
     "front": "bociu",
     "back": "decorate, ornamentation, adorn, fancy",
@@ -308,21 +195,6 @@
       {
         "sound": "ciu",
         "meaning": "creative product"
-      }
-    ]
-  },
-  {
-    "id": "D3_boetale",
-    "front": "boetale",
-    "back": "hall, corridor",
-    "breakdown": [
-      {
-        "sound": "boe",
-        "meaning": "house spaces"
-      },
-      {
-        "sound": "tale",
-        "meaning": "cross"
       }
     ]
   },
@@ -473,21 +345,6 @@
       {
         "sound": "no",
         "meaning": "downward, extension below"
-      }
-    ]
-  },
-  {
-    "id": "D3_couvar",
-    "front": "couvar",
-    "back": "book cover",
-    "breakdown": [
-      {
-        "sound": "cou",
-        "meaning": "written communication"
-      },
-      {
-        "sound": "var",
-        "meaning": "face"
       }
     ]
   },
@@ -676,21 +533,6 @@
     ]
   },
   {
-    "id": "D3_danvandi",
-    "front": "danvandi",
-    "back": "point, spot, indicate",
-    "breakdown": [
-      {
-        "sound": "dan",
-        "meaning": "emphasis"
-      },
-      {
-        "sound": "vandi",
-        "meaning": "finger"
-      }
-    ]
-  },
-  {
     "id": "D3_davir",
     "front": "davir",
     "back": "exact, precise, precision, exactly",
@@ -763,7 +605,7 @@
   },
   {
     "id": "D3_dohtei",
-    "front": "dohtei",
+    "front": "dohano",
     "back": "expel, exile",
     "breakdown": [
       {
@@ -771,8 +613,8 @@
         "meaning": "enforcement"
       },
       {
-        "sound": "tei",
-        "meaning": "expel"
+        "sound": "ano",
+        "meaning": "movement away"
       }
     ]
   },
@@ -863,25 +705,6 @@
       {
         "sound": "wowo",
         "meaning": "oscillate"
-      }
-    ]
-  },
-  {
-    "id": "D3_elanato",
-    "front": "elanato",
-    "back": "sacrifice, offering",
-    "breakdown": [
-      {
-        "sound": "ela",
-        "meaning": "religious"
-      },
-      {
-        "sound": "na",
-        "meaning": "giving"
-      },
-      {
-        "sound": "to",
-        "meaning": "suffering"
       }
     ]
   },
@@ -1183,21 +1006,6 @@
     ]
   },
   {
-    "id": "D3_eomseri",
-    "front": "eomseri",
-    "back": "parade, march, procession",
-    "breakdown": [
-      {
-        "sound": "eom",
-        "meaning": "events and gatherings"
-      },
-      {
-        "sound": "seri",
-        "meaning": "series"
-      }
-    ]
-  },
-  {
     "id": "D3_eoras",
     "front": "eoras",
     "back": "association, organization",
@@ -1382,36 +1190,6 @@
     ]
   },
   {
-    "id": "D3_hehti",
-    "front": "hehti",
-    "back": "devil, demon, diabolical, evil",
-    "breakdown": [
-      {
-        "sound": "heh",
-        "meaning": "antagonist tropes"
-      },
-      {
-        "sound": "ti",
-        "meaning": "bad"
-      }
-    ]
-  },
-  {
-    "id": "D3_hehui",
-    "front": "hehui",
-    "back": "ghost, spirit, phantom",
-    "breakdown": [
-      {
-        "sound": "heh",
-        "meaning": "antagonist tropes"
-      },
-      {
-        "sound": "hui",
-        "meaning": "ethereal"
-      }
-    ]
-  },
-  {
     "id": "D3_heipili",
     "front": "heipili",
     "back": "fairy, sprite, pixie",
@@ -1423,21 +1201,6 @@
       {
         "sound": "pili",
         "meaning": "delicate"
-      }
-    ]
-  },
-  {
-    "id": "D3_heirih",
-    "front": "heirih",
-    "back": "angel, angelic",
-    "breakdown": [
-      {
-        "sound": "hei",
-        "meaning": "protagonist tropes"
-      },
-      {
-        "sound": "rih",
-        "meaning": "higher, rising"
       }
     ]
   },
@@ -1491,25 +1254,6 @@
     ]
   },
   {
-    "id": "D3_heohodetu",
-    "front": "heohodetu",
-    "back": "infinity, infinite",
-    "breakdown": [
-      {
-        "sound": "heo",
-        "meaning": "background"
-      },
-      {
-        "sound": "ho",
-        "meaning": "opposite"
-      },
-      {
-        "sound": "detu",
-        "meaning": "end"
-      }
-    ]
-  },
-  {
     "id": "D3_heoloa",
     "front": "heoloa",
     "back": "universe, universal",
@@ -1521,21 +1265,6 @@
       {
         "sound": "loa",
         "meaning": "completeness"
-      }
-    ]
-  },
-  {
-    "id": "D3_heoyar",
-    "front": "heoyar",
-    "back": "ray, beam, radiate, radius",
-    "breakdown": [
-      {
-        "sound": "heo",
-        "meaning": "background"
-      },
-      {
-        "sound": "yar",
-        "meaning": "light"
       }
     ]
   },
@@ -1619,23 +1348,8 @@
     ]
   },
   {
-    "id": "D3_jahpapa",
-    "front": "jahpapa",
-    "back": "hammer, mallet",
-    "breakdown": [
-      {
-        "sound": "jah",
-        "meaning": "cutting tools"
-      },
-      {
-        "sound": "papa",
-        "meaning": "hammer"
-      }
-    ]
-  },
-  {
     "id": "D3_jalano",
-    "front": "jalano",
+    "front": "jabua",
     "back": "ball, a spherical object, roll, sphere, globe, inflate",
     "breakdown": [
       {
@@ -1643,8 +1357,8 @@
         "meaning": "tools"
       },
       {
-        "sound": "lano",
-        "meaning": "around"
+        "sound": "bua",
+        "meaning": "circle, round, around, wheel"
       }
     ]
   },
@@ -1660,21 +1374,6 @@
       {
         "sound": "lia",
         "meaning": "resonant"
-      }
-    ]
-  },
-  {
-    "id": "D3_james",
-    "front": "james",
-    "back": "ring, loop, hoop, circuit, halo",
-    "breakdown": [
-      {
-        "sound": "ja",
-        "meaning": "tools"
-      },
-      {
-        "sound": "mes",
-        "meaning": "ring"
       }
     ]
   },
@@ -1709,36 +1408,6 @@
     ]
   },
   {
-    "id": "D3_jasar",
-    "front": "jasar",
-    "back": "hook, hanger, crook",
-    "breakdown": [
-      {
-        "sound": "ja",
-        "meaning": "tools"
-      },
-      {
-        "sound": "sar",
-        "meaning": "hang"
-      }
-    ]
-  },
-  {
-    "id": "D3_jashur",
-    "front": "jashur",
-    "back": "rip, tear",
-    "breakdown": [
-      {
-        "sound": "jas",
-        "meaning": "gripping and fastening tools"
-      },
-      {
-        "sound": "hur",
-        "meaning": "rip"
-      }
-    ]
-  },
-  {
     "id": "D3_jasru",
     "front": "jasru",
     "back": "bend, curve, flex",
@@ -1769,21 +1438,6 @@
     ]
   },
   {
-    "id": "D3_jati",
-    "front": "jati",
-    "back": "whip, lash",
-    "breakdown": [
-      {
-        "sound": "ja",
-        "meaning": "tools"
-      },
-      {
-        "sound": "ti",
-        "meaning": "bad"
-      }
-    ]
-  },
-  {
     "id": "D3_javin",
     "front": "javin",
     "back": "pin, needle",
@@ -1810,36 +1464,6 @@
       {
         "sound": "voa",
         "meaning": "constraint"
-      }
-    ]
-  },
-  {
-    "id": "D3_jayel",
-    "front": "jayel",
-    "back": "fastener",
-    "breakdown": [
-      {
-        "sound": "ja",
-        "meaning": "tools"
-      },
-      {
-        "sound": "yel",
-        "meaning": "joining"
-      }
-    ]
-  },
-  {
-    "id": "D3_jecai",
-    "front": "jecai",
-    "back": "fence, barrier, partition, hedge, fence off",
-    "breakdown": [
-      {
-        "sound": "je",
-        "meaning": "geometrics"
-      },
-      {
-        "sound": "cai",
-        "meaning": "flat"
       }
     ]
   },
@@ -1908,21 +1532,6 @@
     ]
   },
   {
-    "id": "D3_jerih",
-    "front": "jerih",
-    "back": "tower, steeple, minaret",
-    "breakdown": [
-      {
-        "sound": "je",
-        "meaning": "geometrics"
-      },
-      {
-        "sound": "rih",
-        "meaning": "higher, rising"
-      }
-    ]
-  },
-  {
     "id": "D3_jetaletor",
     "front": "jetaletor",
     "back": "cross, intersect, intersection",
@@ -1968,21 +1577,6 @@
     ]
   },
   {
-    "id": "D3_jojae",
-    "front": "jojae",
-    "back": "basket, braid, tangle",
-    "breakdown": [
-      {
-        "sound": "jo",
-        "meaning": "materials"
-      },
-      {
-        "sound": "jae",
-        "meaning": "container"
-      }
-    ]
-  },
-  {
     "id": "D3_jolace",
     "front": "jolace",
     "back": "rubber, rubbery, to stretch",
@@ -2009,21 +1603,6 @@
       {
         "sound": "bo",
         "meaning": "house"
-      }
-    ]
-  },
-  {
-    "id": "D3_jolfus",
-    "front": "jolfus",
-    "back": "foam, froth, suds, mousse, lather",
-    "breakdown": [
-      {
-        "sound": "jol",
-        "meaning": "material types"
-      },
-      {
-        "sound": "fus",
-        "meaning": "effervescence"
       }
     ]
   },
@@ -2063,16 +1642,16 @@
   },
   {
     "id": "D3_jolrer",
-    "front": "jolrer",
-    "back": "fiber, string, thread, wire, strand, cable",
+    "front": "jolyes",
+    "back": "fiber, string, thread, rope, wire, strand, cable",
     "breakdown": [
       {
         "sound": "jol",
         "meaning": "material types"
       },
       {
-        "sound": "rer",
-        "meaning": "fiber"
+        "sound": "yes",
+        "meaning": "garments"
       }
     ]
   },
@@ -2187,7 +1766,7 @@
   },
   {
     "id": "D3_litemi",
-    "front": "litemi",
+    "front": "litegai",
     "back": "second (time)",
     "breakdown": [
       {
@@ -2195,23 +1774,8 @@
         "meaning": "clock time"
       },
       {
-        "sound": "mi",
-        "meaning": "existence, being"
-      }
-    ]
-  },
-  {
-    "id": "D3_lubur",
-    "front": "lubur",
-    "back": "thunder",
-    "breakdown": [
-      {
-        "sound": "lu",
-        "meaning": "weather and atmosphere"
-      },
-      {
-        "sound": "bur",
-        "meaning": "thunder"
+        "sound": "gai",
+        "meaning": "small"
       }
     ]
   },
@@ -2261,21 +1825,6 @@
       {
         "sound": "wa",
         "meaning": "water"
-      }
-    ]
-  },
-  {
-    "id": "D3_madi",
-    "front": "madi",
-    "back": "noodle",
-    "breakdown": [
-      {
-        "sound": "ma",
-        "meaning": "cooking food"
-      },
-      {
-        "sound": "di",
-        "meaning": "stripe, finger"
       }
     ]
   },
@@ -2336,21 +1885,6 @@
       {
         "sound": "yalo",
         "meaning": "soy"
-      }
-    ]
-  },
-  {
-    "id": "D3_mahem",
-    "front": "mahem",
-    "back": "fry",
-    "breakdown": [
-      {
-        "sound": "ma",
-        "meaning": "cooking food"
-      },
-      {
-        "sound": "hem",
-        "meaning": "warmth"
       }
     ]
   },
@@ -2520,21 +2054,6 @@
     ]
   },
   {
-    "id": "D3_mioban",
-    "front": "mioban",
-    "back": "deer",
-    "breakdown": [
-      {
-        "sound": "mio",
-        "meaning": "wild animals"
-      },
-      {
-        "sound": "ban",
-        "meaning": "deer"
-      }
-    ]
-  },
-  {
     "id": "D3_miohou",
     "front": "miohou",
     "back": "wolf, predatory",
@@ -2610,36 +2129,6 @@
     ]
   },
   {
-    "id": "D3_molwa",
-    "front": "molwa",
-    "back": "jar, pitcher, jug, beaker, vase",
-    "breakdown": [
-      {
-        "sound": "mol",
-        "meaning": "food containers"
-      },
-      {
-        "sound": "wa",
-        "meaning": "water"
-      }
-    ]
-  },
-  {
-    "id": "D3_moyame",
-    "front": "moyame",
-    "back": "spice, curry, spiced, spicy",
-    "breakdown": [
-      {
-        "sound": "mo",
-        "meaning": "food, eating"
-      },
-      {
-        "sound": "yame",
-        "meaning": "spice"
-      }
-    ]
-  },
-  {
     "id": "D3_mufiva",
     "front": "mufiva",
     "back": "reptile, crawl, creep",
@@ -2651,21 +2140,6 @@
       {
         "sound": "fiva",
         "meaning": "cold"
-      }
-    ]
-  },
-  {
-    "id": "D3_muhcar",
-    "front": "muhcar",
-    "back": "eagle, hawk, a bird of prey",
-    "breakdown": [
-      {
-        "sound": "muh",
-        "meaning": "flying animals"
-      },
-      {
-        "sound": "car",
-        "meaning": "eagle"
       }
     ]
   },
@@ -2734,51 +2208,6 @@
     ]
   },
   {
-    "id": "D3_muvuson",
-    "front": "muvuson",
-    "back": "snail, slug, a mollusk",
-    "breakdown": [
-      {
-        "sound": "mu",
-        "meaning": "smaller animals"
-      },
-      {
-        "sound": "vuson",
-        "meaning": "slow movement"
-      }
-    ]
-  },
-  {
-    "id": "D3_muwos",
-    "front": "muwos",
-    "back": "squid, tentacle",
-    "breakdown": [
-      {
-        "sound": "mu",
-        "meaning": "smaller animals"
-      },
-      {
-        "sound": "wos",
-        "meaning": "squid"
-      }
-    ]
-  },
-  {
-    "id": "D3_nelem",
-    "front": "nelem",
-    "back": "leftover, left, excess, remainder",
-    "breakdown": [
-      {
-        "sound": "ne",
-        "meaning": "quantifiers"
-      },
-      {
-        "sound": "lem",
-        "meaning": "keeping"
-      }
-    ]
-  },
-  {
     "id": "D3_newol",
     "front": "newol",
     "back": "beyond, exceed, surpass, bonus",
@@ -2790,36 +2219,6 @@
       {
         "sound": "wol",
         "meaning": "wide"
-      }
-    ]
-  },
-  {
-    "id": "D3_noan",
-    "front": "noan",
-    "back": "verb",
-    "breakdown": [
-      {
-        "sound": "no",
-        "meaning": "function words"
-      },
-      {
-        "sound": "an",
-        "meaning": "verb"
-      }
-    ]
-  },
-  {
-    "id": "D3_nohei",
-    "front": "nohei",
-    "back": "pronoun",
-    "breakdown": [
-      {
-        "sound": "no",
-        "meaning": "function words"
-      },
-      {
-        "sound": "hei",
-        "meaning": "person"
       }
     ]
   },
@@ -2948,21 +2347,6 @@
     ]
   },
   {
-    "id": "D3_omlufu",
-    "front": "omlufu",
-    "back": "horn",
-    "breakdown": [
-      {
-        "sound": "om",
-        "meaning": "music"
-      },
-      {
-        "sound": "lufu",
-        "meaning": "air"
-      }
-    ]
-  },
-  {
     "id": "D3_omdal",
     "front": "omdal",
     "back": "rhythm",
@@ -2989,36 +2373,6 @@
       {
         "sound": "ja",
         "meaning": "guitar sound"
-      }
-    ]
-  },
-  {
-    "id": "D3_ompili",
-    "front": "ompili",
-    "back": "piano",
-    "breakdown": [
-      {
-        "sound": "om",
-        "meaning": "music"
-      },
-      {
-        "sound": "pili",
-        "meaning": "piano sound"
-      }
-    ]
-  },
-  {
-    "id": "D3_ombum",
-    "front": "ombum",
-    "back": "drum",
-    "breakdown": [
-      {
-        "sound": "om",
-        "meaning": "music"
-      },
-      {
-        "sound": "bum",
-        "meaning": "drum"
       }
     ]
   },
@@ -3068,21 +2422,6 @@
     ]
   },
   {
-    "id": "D3_podau",
-    "front": "podau",
-    "back": "centimeter, distance",
-    "breakdown": [
-      {
-        "sound": "po",
-        "meaning": "components"
-      },
-      {
-        "sound": "dau",
-        "meaning": "distance"
-      }
-    ]
-  },
-  {
     "id": "D3_pogai",
     "front": "pogai",
     "back": "atom, atomic",
@@ -3128,21 +2467,6 @@
     ]
   },
   {
-    "id": "D3_pohyaro",
-    "front": "pohyaro",
-    "back": "energy, energize, energetic",
-    "breakdown": [
-      {
-        "sound": "poh",
-        "meaning": "energy, fire"
-      },
-      {
-        "sound": "yaro",
-        "meaning": "energy"
-      }
-    ]
-  },
-  {
     "id": "D3_poiena",
     "front": "poiena",
     "back": "filter, sieve, colander",
@@ -3173,21 +2497,6 @@
       {
         "sound": "mo",
         "meaning": "eat"
-      }
-    ]
-  },
-  {
-    "id": "D3_poiyal",
-    "front": "poiyal",
-    "back": "liter, volume",
-    "breakdown": [
-      {
-        "sound": "poi",
-        "meaning": "liquids"
-      },
-      {
-        "sound": "yal",
-        "meaning": "liter"
       }
     ]
   },
@@ -3282,21 +2591,6 @@
       {
         "sound": "hei",
         "meaning": "person"
-      }
-    ]
-  },
-  {
-    "id": "D3_railem",
-    "front": "railem",
-    "back": "asylum, refugee, shelter",
-    "breakdown": [
-      {
-        "sound": "rai",
-        "meaning": "governance"
-      },
-      {
-        "sound": "lem",
-        "meaning": "keeping"
       }
     ]
   },
@@ -3571,21 +2865,6 @@
     ]
   },
   {
-    "id": "D3_roucou",
-    "front": "roucou",
-    "back": "article, essay",
-    "breakdown": [
-      {
-        "sound": "rou",
-        "meaning": "written knowledge"
-      },
-      {
-        "sound": "cou",
-        "meaning": "article"
-      }
-    ]
-  },
-  {
     "id": "D3_sebom",
     "front": "sebom",
     "back": "button, knob, stud",
@@ -3602,16 +2881,16 @@
   },
   {
     "id": "D3_semiru",
-    "front": "semiru",
+    "front": "semleo",
     "back": "type, classification, categorization",
     "breakdown": [
       {
         "sound": "sem",
-        "meaning": "system"
+        "meaning": "system, systematic, systematize, organize, manage"
       },
       {
-        "sound": "iru",
-        "meaning": "type"
+        "sound": "leo",
+        "meaning": "belonging"
       }
     ]
   },
@@ -3661,21 +2940,6 @@
     ]
   },
   {
-    "id": "D3_setin",
-    "front": "setin",
-    "back": "package, parcel, packet, bundle",
-    "breakdown": [
-      {
-        "sound": "se",
-        "meaning": "machines"
-      },
-      {
-        "sound": "tin",
-        "meaning": "package"
-      }
-    ]
-  },
-  {
     "id": "D3_sigai",
     "front": "sigai",
     "back": "virus, viral",
@@ -3702,21 +2966,6 @@
       {
         "sound": "hei",
         "meaning": "protagonist tropes"
-      }
-    ]
-  },
-  {
-    "id": "D3_simei",
-    "front": "simei",
-    "back": "spy",
-    "breakdown": [
-      {
-        "sound": "si",
-        "meaning": "processes"
-      },
-      {
-        "sound": "mei",
-        "meaning": "spy"
       }
     ]
   },
@@ -3762,21 +3011,6 @@
       {
         "sound": "ce",
         "meaning": "what?"
-      }
-    ]
-  },
-  {
-    "id": "D3_siofal",
-    "front": "siofal",
-    "back": "toy",
-    "breakdown": [
-      {
-        "sound": "sio",
-        "meaning": "games"
-      },
-      {
-        "sound": "fal",
-        "meaning": ""
       }
     ]
   },
@@ -3871,21 +3105,6 @@
     ]
   },
   {
-    "id": "D3_tila",
-    "front": "tila",
-    "back": "curse",
-    "breakdown": [
-      {
-        "sound": "ti",
-        "meaning": "harm, damage"
-      },
-      {
-        "sound": "ila",
-        "meaning": "curse"
-      }
-    ]
-  },
-  {
     "id": "D3_tilira",
     "front": "tilira",
     "back": "blame, fault, guilt, shame",
@@ -3912,21 +3131,6 @@
       {
         "sound": "mu",
         "meaning": "small animal"
-      }
-    ]
-  },
-  {
-    "id": "D3_tiriju",
-    "front": "tiriju",
-    "back": "deceive, deception",
-    "breakdown": [
-      {
-        "sound": "ti",
-        "meaning": "harm, damage"
-      },
-      {
-        "sound": "riju",
-        "meaning": "act + deceive"
       }
     ]
   },
@@ -3961,25 +3165,6 @@
       {
         "sound": "ti",
         "meaning": "bad"
-      }
-    ]
-  },
-  {
-    "id": "D3_titodom",
-    "front": "titodom",
-    "back": "hell, to damn, hellish",
-    "breakdown": [
-      {
-        "sound": "ti",
-        "meaning": "harm, damage"
-      },
-      {
-        "sound": "to",
-        "meaning": "suffering"
-      },
-      {
-        "sound": "dom",
-        "meaning": "place"
       }
     ]
   },
@@ -4044,21 +3229,6 @@
     ]
   },
   {
-    "id": "D3_tivonpu",
-    "front": "tivonpu",
-    "back": "accuse, accusation, charge (legal)",
-    "breakdown": [
-      {
-        "sound": "ti",
-        "meaning": "harm, damage"
-      },
-      {
-        "sound": "vonpu",
-        "meaning": "accuse"
-      }
-    ]
-  },
-  {
     "id": "D3_togei",
     "front": "togei",
     "back": "disgust, disgusting, revulsion, sicken, gross",
@@ -4071,7 +3241,7 @@
   },
   {
     "id": "D3_toharou",
-    "front": "toharou",
+    "front": "tohiloi",
     "back": "anxious, anxiety, nervous",
     "breakdown": [
       {
@@ -4079,14 +3249,14 @@
         "meaning": "emotional suffering"
       },
       {
-        "sound": "arou",
-        "meaning": "anxious"
+        "sound": "iloi",
+        "meaning": "expectation"
       }
     ]
   },
   {
     "id": "D3_tohbian",
-    "front": "tohbian",
+    "front": "tohmia",
     "back": "confusion, confuse, confusing, perplex",
     "breakdown": [
       {
@@ -4094,14 +3264,14 @@
         "meaning": "emotional suffering"
       },
       {
-        "sound": "bian",
-        "meaning": "confusion"
+        "sound": "mia",
+        "meaning": "mixing"
       }
     ]
   },
   {
     "id": "D3_tohlel",
-    "front": "tohlel",
+    "front": "tohfou",
     "back": "miss, absence, longing, nostalgia",
     "breakdown": [
       {
@@ -4109,8 +3279,8 @@
         "meaning": "emotional suffering"
       },
       {
-        "sound": "lel",
-        "meaning": "miss"
+        "sound": "fou",
+        "meaning": "lack"
       }
     ]
   },
@@ -4146,16 +3316,16 @@
   },
   {
     "id": "D3_tohsum",
-    "front": "tohsum",
-    "back": "envy, jealous",
+    "front": "tosdai",
+    "back": "envy",
     "breakdown": [
       {
-        "sound": "toh",
-        "meaning": "emotional suffering"
+        "sound": "tos",
+        "meaning": "interpersonal suffering"
       },
       {
-        "sound": "sum",
-        "meaning": "envy"
+        "sound": "dai",
+        "meaning": "desire"
       }
     ]
   },
@@ -4240,7 +3410,7 @@
   },
   {
     "id": "D3_tosleva",
-    "front": "tosleva",
+    "front": "tosvari",
     "back": "betrayal, treason",
     "breakdown": [
       {
@@ -4248,14 +3418,14 @@
         "meaning": "interpersonal suffering"
       },
       {
-        "sound": "leva",
-        "meaning": "betrayal"
+        "sound": "vari",
+        "meaning": "back"
       }
     ]
   },
   {
     "id": "D3_tosnar",
-    "front": "tosnar",
+    "front": "tosvio",
     "back": "revenge, vengeful, to seek revenge",
     "breakdown": [
       {
@@ -4263,8 +3433,8 @@
         "meaning": "interpersonal suffering"
       },
       {
-        "sound": "nar",
-        "meaning": "revenge"
+        "sound": "vio",
+        "meaning": "change, transformation"
       }
     ]
   },
@@ -4374,51 +3544,6 @@
     ]
   },
   {
-    "id": "D3_tunen",
-    "front": "tunen",
-    "back": "violence",
-    "breakdown": [
-      {
-        "sound": "tu",
-        "meaning": "conflict"
-      },
-      {
-        "sound": "nen",
-        "meaning": "power and violence"
-      }
-    ]
-  },
-  {
-    "id": "D3_vamiu",
-    "front": "vamiu",
-    "back": "spine, backbone",
-    "breakdown": [
-      {
-        "sound": "va",
-        "meaning": "core"
-      },
-      {
-        "sound": "miu",
-        "meaning": "support"
-      }
-    ]
-  },
-  {
-    "id": "D3_vanci",
-    "front": "vanci",
-    "back": "elbow, nudge",
-    "breakdown": [
-      {
-        "sound": "van",
-        "meaning": "limbs"
-      },
-      {
-        "sound": "ci",
-        "meaning": "sharp"
-      }
-    ]
-  },
-  {
     "id": "D3_vanen",
     "front": "vanen",
     "back": "fist, punch, hilt, handgrip",
@@ -4445,21 +3570,6 @@
       {
         "sound": "nou",
         "meaning": "low, falling"
-      }
-    ]
-  },
-  {
-    "id": "D3_varon",
-    "front": "varon",
-    "back": "cheek, jowl",
-    "breakdown": [
-      {
-        "sound": "var",
-        "meaning": "face"
-      },
-      {
-        "sound": "on",
-        "meaning": "cheek"
       }
     ]
   },
@@ -4648,40 +3758,6 @@
     ]
   },
   {
-    "id": "D3_vonici",
-    "front": "vonici",
-    "back": "nail, hoof, claw",
-    "breakdown": [
-      {
-        "sound": "von",
-        "meaning": "external body"
-      },
-      {
-        "sound": "ni",
-        "meaning": "new"
-      },
-      {
-        "sound": "ci",
-        "meaning": "sharp"
-      }
-    ]
-  },
-  {
-    "id": "D3_vonmo",
-    "front": "vonmo",
-    "back": "lip, rim, brim",
-    "breakdown": [
-      {
-        "sound": "von",
-        "meaning": "external body"
-      },
-      {
-        "sound": "mo",
-        "meaning": "eat"
-      }
-    ]
-  },
-  {
     "id": "D3_vosfan",
     "front": "vosfan",
     "back": "to brush, comb, sweep",
@@ -4728,16 +3804,16 @@
   },
   {
     "id": "D3_vosrol",
-    "front": "vosrol",
-    "back": "curl, coil, elastic, springy",
+    "front": "vosbua",
+    "back": "curl, coil, springy",
     "breakdown": [
       {
         "sound": "vos",
         "meaning": "cleaning actions"
       },
       {
-        "sound": "rol",
-        "meaning": "curl"
+        "sound": "bua",
+        "meaning": "circle, round, around, wheel"
       }
     ]
   },
@@ -4787,40 +3863,6 @@
       {
         "sound": "tan",
         "meaning": "big"
-      }
-    ]
-  },
-  {
-    "id": "D3_wacui",
-    "front": "wacui",
-    "back": "cave, cavern, grotto",
-    "breakdown": [
-      {
-        "sound": "wa",
-        "meaning": "water, sea"
-      },
-      {
-        "sound": "cui",
-        "meaning": "bowl, concavity"
-      }
-    ]
-  },
-  {
-    "id": "D3_wanenou",
-    "front": "wanenou",
-    "back": "dive, plunge, submerge, dip, dunk",
-    "breakdown": [
-      {
-        "sound": "wa",
-        "meaning": "water, sea"
-      },
-      {
-        "sound": "ne",
-        "meaning": "quantifiers"
-      },
-      {
-        "sound": "nou",
-        "meaning": "low, falling"
       }
     ]
   },
@@ -4900,25 +3942,6 @@
     ]
   },
   {
-    "id": "D3_wilwatai",
-    "front": "wilwatai",
-    "back": "canal",
-    "breakdown": [
-      {
-        "sound": "wil",
-        "meaning": "human made geography"
-      },
-      {
-        "sound": "wa",
-        "meaning": "water"
-      },
-      {
-        "sound": "tai",
-        "meaning": "guide"
-      }
-    ]
-  },
-  {
     "id": "D3_wilyel",
     "front": "wilyel",
     "back": "bridge, connect",
@@ -4975,21 +3998,6 @@
       {
         "sound": "rel",
         "meaning": "up, high"
-      }
-    ]
-  },
-  {
-    "id": "D3_witel",
-    "front": "witel",
-    "back": "map, chart",
-    "breakdown": [
-      {
-        "sound": "wi",
-        "meaning": "geographical orientation"
-      },
-      {
-        "sound": "tel",
-        "meaning": "image"
       }
     ]
   },
@@ -5119,7 +4127,7 @@
   },
   {
     "id": "D3_yeleno",
-    "front": "yeleno",
+    "front": "yedelei",
     "back": "cotton",
     "breakdown": [
       {
@@ -5127,8 +4135,12 @@
         "meaning": "clothing and fabric"
       },
       {
-        "sound": "leno",
-        "meaning": "ground"
+        "sound": "de",
+        "meaning": "origin, from"
+      },
+      {
+        "sound": "lei",
+        "meaning": "plants"
       }
     ]
   },
@@ -5148,51 +4160,6 @@
       {
         "sound": "du",
         "meaning": "top"
-      }
-    ]
-  },
-  {
-    "id": "D3_yemuh",
-    "front": "yemuh",
-    "back": "feather",
-    "breakdown": [
-      {
-        "sound": "ye",
-        "meaning": "clothing and fabric"
-      },
-      {
-        "sound": "muh",
-        "meaning": "flying animals"
-      }
-    ]
-  },
-  {
-    "id": "D3_yemus",
-    "front": "yemus",
-    "back": "silk",
-    "breakdown": [
-      {
-        "sound": "ye",
-        "meaning": "clothing and fabric"
-      },
-      {
-        "sound": "mus",
-        "meaning": "bug"
-      }
-    ]
-  },
-  {
-    "id": "D3_yesjin",
-    "front": "yesjin",
-    "back": "jeans",
-    "breakdown": [
-      {
-        "sound": "yes",
-        "meaning": "garments"
-      },
-      {
-        "sound": "jin",
-        "meaning": "jeans"
       }
     ]
   },
@@ -5223,25 +4190,6 @@
       {
         "sound": "yel",
         "meaning": "joining"
-      }
-    ]
-  },
-  {
-    "id": "D3_yoyodur",
-    "front": "yoyodur",
-    "back": "diamond, sparkle",
-    "breakdown": [
-      {
-        "sound": "yo",
-        "meaning": "colors"
-      },
-      {
-        "sound": "yo",
-        "meaning": "color"
-      },
-      {
-        "sound": "dur",
-        "meaning": "hardness"
       }
     ]
   },
@@ -5347,21 +4295,6 @@
       {
         "sound": "lufu",
         "meaning": "air"
-      }
-    ]
-  },
-  {
-    "id": "D3_luhue",
-    "front": "luhue",
-    "back": "mist, fog, foggy, nebulous",
-    "breakdown": [
-      {
-        "sound": "lu",
-        "meaning": "weather and atmosphere"
-      },
-      {
-        "sound": "hue",
-        "meaning": "mist"
       }
     ]
   },

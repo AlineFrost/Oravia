@@ -1303,13 +1303,9 @@
   {
     "id": "L105_v_anefene",
     "lesson": 105,
-    "front": "anefene",
+    "front": "fene",
     "back": "rest",
     "breakdown": [
-      {
-        "sound": "ane",
-        "meaning": "static movement"
-      },
       {
         "sound": "fene",
         "meaning": "rest"
@@ -1409,16 +1405,16 @@
   {
     "id": "L107_v_eori",
     "lesson": 107,
-    "front": "eori",
-    "back": "polite, please",
+    "front": "eoren",
+    "back": "honor, polite, please",
     "breakdown": [
       {
         "sound": "eo",
         "meaning": "social"
       },
       {
-        "sound": "ri",
-        "meaning": "act"
+        "sound": "ren",
+        "meaning": "honor"
       }
     ]
   },
@@ -1727,7 +1723,7 @@
   {
     "id": "L45_v2",
     "lesson": 45,
-    "front": "vosvo",
+    "front": "vosdama",
     "back": "soap"
   },
   {
@@ -1751,7 +1747,7 @@
   {
     "id": "L47_v2",
     "lesson": 47,
-    "front": "elodan",
+    "front": "eloele",
     "back": "freedom"
   },
   {
@@ -1763,8 +1759,8 @@
   {
     "id": "L48_v2",
     "lesson": 48,
-    "front": "gavio",
-    "back": "different"
+    "front": "galiu",
+    "back": "various"
   },
   {
     "id": "L49_v1",
@@ -1787,7 +1783,7 @@
   {
     "id": "L49_v4",
     "lesson": 49,
-    "front": "dohcu",
+    "front": "dohsu",
     "back": "obey"
   },
   {
@@ -1817,8 +1813,8 @@
   {
     "id": "L52_v1",
     "lesson": 52,
-    "front": "jarih",
-    "back": "ladder"
+    "front": "jalei",
+    "back": "stick, rod"
   },
   {
     "id": "L52_v2",
@@ -1883,7 +1879,7 @@
   {
     "id": "L55_v4",
     "lesson": 55,
-    "front": "sioer",
+    "front": "sio",
     "back": "game"
   },
   {
@@ -1931,8 +1927,8 @@
   {
     "id": "L58_v4",
     "lesson": 58,
-    "front": "ciupa",
-    "back": "paper"
+    "front": "ciuyen",
+    "back": "print, publish"
   },
   {
     "id": "L59_v1",
@@ -1943,8 +1939,8 @@
   {
     "id": "L59_v2",
     "lesson": 59,
-    "front": "sever",
-    "back": "key"
+    "front": "sesa",
+    "back": "machine, device"
   },
   {
     "id": "L60_v1",

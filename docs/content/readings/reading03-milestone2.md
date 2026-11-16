@@ -10,19 +10,19 @@
 
 **Boemo Roejo**
 
-A Lina su Ana a mir li eofa. Cali falen, lirular i mo en bo de famei de Ana en tevaen limel. Noli hayas i roesau en boemo roedom, su litam i dami a roejo.
+A Lina su Ana a mir li eofa. Cali falfal, lirular i mo en bo de famei de Ana en tevaen limel. Noli hayas i roesau en boemo roedom, su litam i dami a roejo.
 
 Tamen en liyar en lunu. A luyol a lumbo, a lufu a lufiva.
 
-Notam Lina i asau, notor i yes. I vardei e elihei, hay i nomie no toului su toharou.
+Notam Lina i asau, notor i yes. I vardei e elihei, hay i nomie no toului su tohiloi.
 
-I anocari yasoi su ho miau. A roedom a nordaum, eta i vanpai lilon i mo. Anolu, mir ilhei: a geldove dia i ilaluan, a falen i apavu.
+I anocari yasoi su ho miau. A roedom a nordaum, eta i vanpai lilon i mo. Anolu, mir ilhei: a geldove dia i ilaluan, a falfal i apavu.
 
-Lina i anifi en roedom. Hay i anvuis en bortal cali i vardei norven Ana en borlu. Ana i boemo e noniu, su i nomie no iloto. Lina i bortal, su Ana i eon lisoi.
+Lina i aniyel en roedom. Hay i anvuis en bortal cali i vardei norven Ana en borlu. Ana i boemo e noniu, su i nomie no iloto. Lina i bortal, su Ana i eon lisoi.
 
 "Cenon run?" Lina ilace.
 
-"Liperiar, netam i roesau, i anyeum neliu. Faibor i ilahai ca nim i tane i anefene neron, mai i vil i yuloa."
+"Liperiar, netam i roesau, i anyeum neliu. Faibor i ilahai ca nim i tane i fene neron, mai i vil i yuloa."
 
 "Mihie run! Run i iliro ca a roejois a yudur?"
 
@@ -32,21 +32,21 @@ Lina i vardei e mo ca Ana i boemo. I varsi yuba.
 
 "Ce hoi?"
 
-"Micuc. No farejor. Lirular a hay i boemo e micuc neauta lirul perien. Daefer nim i anye no yuba, nedas ilie a roena dia i dapas. Iliciu a nim a nime farejor, i ilian canon…"
+"Micuc. No jor fare. Lirular a hay i boemo e micuc neauta lirul perien. Daefer nim i anye no yuba, nedas ilie a roena dia i dapas. Iliciu a nim a nime jor fare, i ilian canon…"
 
-"Ceora run no iloto? Norven a run a boemo dia. A rune mo a anodu. Ga run, a nim a yunmpou."
+"Ceora run no iloto? Norven a run a boemo dia. A rune mo a anodu. Ga run, a nim a yunsun."
 
-Hayas i vardei e fene en litegai.
+Hayas i vardei e fene en litepe.
 
-"I miotan cali a nimas a falen?" Ana i ansau i ilahai. "A nim a micear, mai a run i anidai a eofa. Notor i mo, lirular nimas i apaleno en nime leayo, i apaluon su nime fare, no mioici i anodu e leirih! Neron, nime farejal nedas lirul i ilahai…"
+"I miotan cali a nimas a falfal?" Ana i ansau i ilahai. "A nim a micear, mai a run i anidai a eofa. Notor i mo, lirular nimas i apaleno en nime leayo, i apaluon su nime fare, no mioici i anodu e leirih! Neron, nime jal fare nedas lirul i ilahai…"
 
-"...ca yesmel i tane yufer." Lina i yadetu, a oimin.
+"...ca yesmel i tane yuleno." Lina i yadetu, a oimin.
 
 Bi ho yuvabo, roena dia i bortal.
 
 "Notam run i ansau i boemo, Lina." Hay i ilahai, a miogar. "Notor runas i roejo. Runas i vil i ilahaium."
 
-Lina i ansau i boemo, su i iliro, a litam a yalen. Mai cali hay i anroar i boemo e mo de falen su, i anivari en leayo de Ana, su a luyar i anifi lili.
+Lina i ansau i boemo, su i iliro, a litam a yalen. Mai cali hay i anroar i boemo e mo de falfal su, i anivari en leayo de Ana, su a yar i aniyel lili.
 
 ---
 
@@ -54,9 +54,9 @@ Lina i ansau i boemo, su i iliro, a litam a yalen. Mai cali hay i anroar i boemo
 
 | Oravia | English |
 |--------|---------|
-| anefene | rest |
+| fene | rest |
 | anivari | come back |
-| anifi | arrive, come |
+| aniyel | arrive, come |
 | anocari | leave |
 | apaleno | dig |
 | apaluon | jump |
@@ -80,9 +80,9 @@ Lina i ansau i boemo, su i iliro, a litam a yalen. Mai cali hay i anroar i boemo
 | eofa | friend |
 | eta | therefore |
 | faibor | spouse |
-| farejal | father |
-| farejor | mother |
-| falen | child |
+| jal fare | father |
+| jor fare | mother |
+| falfal | child |
 | ga | compared to, than |
 | geldove | sell |
 | dia | agent, role |
@@ -103,13 +103,13 @@ Lina i ansau i boemo, su i iliro, a litam a yalen. Mai cali hay i anroar i boemo
 | liperiar | last week |
 | lirul | habitually |
 | lirular | used to |
-| litegai | moment |
+| litepe | moment |
 | liyar | morning |
 | lufiva | cold |
 | lufu | wind |
 | lumbo | cloud |
 | lunu | winter |
-| luyar | light |
+| yar | light |
 | luyol | sky |
 | miau | cat, graceful |
 | micear | rabbit, shy |
@@ -138,7 +138,7 @@ Lina i ansau i boemo, su i iliro, a litam a yalen. Mai cali hay i anroar i boemo
 | su | and, with, also |
 | tane | recommendation, should |
 | tevaen | Friday |
-| toharou | anxious |
+| tohiloi | anxious |
 | toului | tired |
 | vardei | eye, see |
 | varsi | nose, smell |
@@ -150,24 +150,24 @@ Lina i ansau i boemo, su i iliro, a litam a yalen. Mai cali hay i anroar i boemo
 | yesmel | dress |
 | yuba | good |
 | yudur | hard, difficult |
-| yufer | dirty |
+| yuleno | dirty |
 | yuloa | perfect |
-| yunmpou | lazy |
+| yunsun | lazy |
 
 
-*Lirular a farejor i boemo e micuc neauta lirul perien.*
+*Lirular a jor fare i boemo e micuc neauta lirul perien.*
 My mother used to cook chicken often on Sundays.
 
 *Daefer nim i anye no yuba, nedas ilie a roena dia i dapas.*
 If I make it well like that, 10/10 likelihood the teacher will like it.
 
-*Iliciu a nim a nime farejor, i ilian canon.*
+*Iliciu a nim a nime jor fare, i ilian canon.*
 If I were my mother, I would know how.
 
 *Run i iliro ca a roejois a yudur?*
 Do you think the upcoming exam will be hard?
 
-*I miotan cali a nimas a falen?*
+*I miotan cali a nimas a falfal?*
 Do you remember when we were children?
 
 *A nim a micear, mai a run i anidai a eofa.*
@@ -179,7 +179,7 @@ Before eating, we used to dig in my garden and jump with my parents, like monkey
 *Bi ho yuvabo, roena dia i bortal.*
 How uncomfortable: the teacher enters.
 
-*Mai cali hay i anroar i boemo e mo de falen su, i anivari en leayo de Ana, su a luyar i anifi lili.*
+*Mai cali hay i anroar i boemo e mo de falfal su, i anivari en leayo de Ana, su a yar i aniyel lili.*
 But when she decided to cook something from her childhood also, she was back in Ana's garden, and the light arrived again.
 
 ---

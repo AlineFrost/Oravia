@@ -71,8 +71,8 @@
     And here's a short dialogue. There's a new word in it: *eloan*, which means *gratitude, thank you*. See if you can understand it:
     
     N: Nim i aniyel! Cedom run?  
-    B: i anefene en bonfene.   
-    N: Nim i anifou e molvou yasoi. Nimas fano i anidai e moulu. Cedom run i anefe e molvou? En bonjae?  
+    B: i fene en bonfene.   
+    N: Nim i anifou e molvou yasoi. Nimas fano i anidai e moulu. Cedom run i fene e molvou? En bonjae?  
     B: Um, en bontame! Nim i anona u run.  
     N: Eloan. i daium i boemo...  
     B: Nim i boemo u run.  

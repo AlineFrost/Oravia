@@ -39,7 +39,7 @@
     ```
     
     ```
-    Notam runas i mo, i bospupi e molcui, eori.
+    Notam runas i mo, i bospupi e molcui, eoren.
     ```
     
     ```
@@ -122,7 +122,7 @@
     | touwa | thirst |
     | touvei | illness |
     | tohpu | sad |
-    | tounir | weak |
+    | tounen | weak |
     | toului | tired |
     | tohnaru | anger |
     
@@ -210,7 +210,7 @@
     {id: "wu_gehna_1", oravia: "gehna", english: "buy"},
     {id: "wu_gehsar_2", oravia: "gehsar", english: "charge"},
     {id: "wu_litetan_3", oravia: "litetan", english: "hour"},
-    {id: "wu_litegai_4", oravia: "litegai", english: "minute"}
+    {id: "wu_litegai_4", oravia: "litepe", english: "minute"}
     ];
 
     function renderSelfAssessment() {

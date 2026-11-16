@@ -27,13 +27,13 @@
     
     | Oravia | English |
     |--------|---------|
-    | jarih | ladder |
+    | jalei | stick, rod |
     | jasru | bend |
     | jadun | fork |
     | jalen | pencil |
     | jajol | pocket |
     | jahci | knife |
-    | jahpapa | hammer |
+    | jahgo | axe |
     | jadoe | shelf |
     
     
@@ -60,7 +60,7 @@
 
     ### Recognize the Roots
 
-    Take another look at **jarih**, **jalen**, and **jahci**. Do you recognize any roots you've learned before?
+    Take another look at **jalei**, **jalen**, and **jahci**. Do you recognize any roots you've learned before?
 
     <div style="text-align: center; margin: 1.25rem 0;">
     <button onclick="document.getElementById('root-recall-l49-ja-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.65rem 1.5rem; border-radius: 4px; cursor: pointer;">
@@ -69,13 +69,13 @@
     </div>
 
     <div id="root-recall-l49-ja-answer" style="display: none; background: #c8e6c9; padding: 1.25rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 1.25rem 0;">
-    <p style="margin: 0 0 0.45rem 0;"><strong>jarih</strong> → <strong>RIH</strong> = higher / rising</p>
+    <p style="margin: 0 0 0.45rem 0;"><strong>jalei</strong> → <strong>LEI</strong> = plants</p>
     <p style="margin: 0 0 0.45rem 0;"><strong>jalen</strong> → <strong>LEN</strong> = long</p>
     <p style="margin: 0 0 0.45rem 0;"><strong>jahci</strong> → <strong>CI</strong> = sharp</p>
     </div>
 
     !!! info "🌍 Sound Connections"
-        Rih means higher, rising. That's why we have Elarih (religious + higher) as divine, aparih (body movement + higher) as jump, ganrih (rank + higher) as above, leirih (plant + higher) as tree, and jarih (tool + higher) as ladder.  
+        Rih means higher, rising. That's why we have Elarih (religious + higher) as divine, aparih (body movement + higher) as jump, ganrih (rank + higher) as above, and leirih (plant + higher) as tree.  
        This is a bit different from Rel, which means up. Some words that have the rel root include fare[l] (family + one generation up) as parent, borel (house structure + up) as ceiling or roof, and yesrel (clothes + up) as jacket.
        
        Ru means **bend**. A memory hook is Russian *ruka* (arm): a limb that bends.  
@@ -102,8 +102,8 @@
     
     En lealei i elemi a yalgai su mioici faejal. Hay i none e yopoh vosyas su e ancem hue vanpai. O e hay i couya no Curupira.  
     Eofa de le, hay lirul en yaltan mio mius. Curupira i eover e lei su misumu. Cali a neauta lupupi i widuo, notam hay i ilahai u misumu. Eta, neloa i do i raiver de lufu su 'lusiram.   
-    Lar, a copei dia i copei e mioici ca i sioerar su fano. A curupira i vardei noi, su i ansau i vanvu. A vanpai colira de curupira a ancem hue.   
-    Cali a sita dia i vardei e colira en leno, i copei. Mai, a colira i antai en ho jetai. Eta, a sita dia i ilianum e jenon en lealei, su a jenon-tohbian. Notor, hay i apanou en janou: o yewamus de curupira.   
+    Lar, a copei dia i copei e mioici ca i sioar su fano. A curupira i vardei noi, su i ansau i vanvu. A vanpai colira de curupira a ancem hue.   
+    Cali a sita dia i vardei e colira en leno, i copei. Mai, a colira i antai en ho jetai. Eta, a sita dia i ilianum e jenon en lealei, su a jenon-tohmia. Notor, hay i apanou en janou: o hehou-sita de curupira.   
 
     **Tips**
 
@@ -138,8 +138,8 @@
     none = have  
     notor =   
     raiver = defend  
-    sioer = play, game  
-    tohbian = confusion  
+    sio = play, game  
+    tohmia = confusion  
     vanpai = foot  
     vanvu = walk  
     vardei = see  
@@ -147,7 +147,7 @@
     widuo = near, to approach  
     yalgai = small  
     yaltan = large  
-    yewamus = net, trap  
+    hehou-sita = trap  
     yopoh = red  
 
     <div style="text-align: center; margin: 2rem 0;">

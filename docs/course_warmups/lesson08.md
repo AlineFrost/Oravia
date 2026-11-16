@@ -164,7 +164,7 @@
         
 
     Here are other words with this root:  
-    **litegai** = minute (clock time + small; hour is the big unit), just like yalgai = small (objective quality + small).          
+    **litepe** = minute (clock time + middle; hour is the big unit), just like jeope = middle (position + middle).          
 
 === "Practice"
 

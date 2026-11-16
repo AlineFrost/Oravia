@@ -111,8 +111,8 @@
     | elireva | truth |
     | elirota | moral |
     | elihei | self |
-    | elomio | help |
-    | elodan | free, freedom |
+    | elomiu | help |
+    | eloele | free, freedom |
     | elonor | peace |
 
     
@@ -196,7 +196,7 @@
     </div>
     
     <div id="subcluster6-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;">Example answer: A nim eleyus a elomio e neliu ilhei. </p>
+    <p style="margin: 0;">Example answer: A nim eleyus a elomiu e neliu ilhei. </p>
     </div>
     
     You are ready for the exercise now!

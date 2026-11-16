@@ -6,7 +6,7 @@ Connect with other learners, follow updates, and give feedback.
 [Join the Oravia Discord →](https://discord.gg/NG5w64McTv){ .md-button }
 
 ---
-(psst... Oravia's vocabulary is small by design. It has only ~860 core words, mostly composed of ~260 building blocks. This means that the videos below already cover a large share of the vocabulary!)
+(psst... Oravia's vocabulary is small by design. It has only ~780 core words, mostly composed of a few hundred blocks. This means that the videos below already cover a large share of the vocabulary!)
 
 All images, translations and voices in Oravia's videos are created by humans.
 

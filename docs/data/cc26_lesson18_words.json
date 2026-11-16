@@ -60,7 +60,7 @@
     },
     {
       "id": "lesson18_r2_1",
-      "oravia": "litegai",
+      "oravia": "litepe",
       "english": "minute",
       "bucket": "r2",
       "source_bucket": "lite"
@@ -81,7 +81,7 @@
     },
     {
       "id": "lesson18_r3_1",
-      "oravia": "litemi",
+      "oravia": "litegai",
       "english": "second",
       "bucket": "r3",
       "source_bucket": "lite"
@@ -103,7 +103,7 @@
     {
       "id": "lesson18_r4_1",
       "oravia": "litegai",
-      "english": "minute",
+      "english": "second",
       "bucket": "r4",
       "source_bucket": "gai-root"
     },

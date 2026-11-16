@@ -29,12 +29,12 @@
     |--------|---------|
     | poarofei | alcohol |
     | pocor | trash |
-    | podau | meter, distance |
+    | pocan | mass, weight |
     | pohivi | electricity |
-    | pohyaro | energy, charger |
+    | poh | energy |
     | poilumo | oil |
     | poiwa | liquid |
-    | poiyal | liter, volume |
+    | poilua | flow, current |
     
     **PO** words are related to chemistry.
     
@@ -70,9 +70,9 @@
     In this cluster, we have a very important word: **pohnen**. It means power, force, strong, to impose. We use it to say someone is forcing someone to do something. For that, we use the ca connector, like this:
     
     ```
-    Toului i pohnen ca a nim i anefene = tiredness makes me rest.  
+    Toului i pohnen ca a nim i fene = tiredness makes me rest.  
     
-    A fare i pohnen ca a fano i yadetu e dahau notor sioer = The parent makes the child finish the chores before playing.
+    A fare i pohnen ca a fano i yadetu e dahau notor sio = The parent makes the child finish the chores before playing.
     ```
     
     Run fare i pohnen ca run i mo e lei cali falfal? 
@@ -110,7 +110,7 @@
     </div>
     
     <div id="subcluster6-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;">Example answers: I foum, caora nolili i pas i mo e lei. Mai, hayas i pohnen ca nim i mo e mi, caora nim i anidaium.</p>
+    <p style="margin: 0;">Example answers: I foum, caora nedas lirul i pas i mo e lei. Mai, hayas i pohnen ca nim i mo e mi, caora nim i anidaium.</p>
     </div>
     
     You are ready for the reading now!
@@ -121,8 +121,8 @@
     
     Here's what is going to happen to the text today:
     
-    - the verb will go to the end of the sentence, like *a falfal e ompili i roesau* (the child learns piano).  
-    - secondary and modifying clauses will go to the front. For example, *mioci ca i sioerar su fano* becomes *fano sioerar mioici* (monkey that had been playing with their offspring).
+    - the verb will go to the end of the sentence, like *a falfal e 'piano i roesau* (the child learns piano).  
+    - secondary and modifying clauses will go to the front. For example, *mioci ca i sioar su fano* becomes *fano sioar mioici* (monkey that had been playing with their offspring).
     
     In order to read the story, just remember: the markers indicate the role in the sentence, not the order! Keep your attention in the markers. Now let's give it a try. 
   
@@ -130,7 +130,7 @@
     Tinen Hue Molbo 
     
     Lar, a wilgai-elemi yamirli faejal i dami. Nehen liyar, hay e tor wa molbo i anise. Notor, sora e wa de wimlua u fa i anise, en yalen jenon i vanvu.  
-    Mai, a tor wa molbo a gavio. En tam wa molbo, a yalgai tinen i dami. Eta, de noi molbo a wa i apanou.  
+    Mai, a tor wa molbo a neliu. En tam wa molbo, a yalgai tinen i dami. Eta, de noi molbo a wa i apanou.  
     A yamirli faejal e wa molbo en wimlua i yaldih. Mai cali en bo i anivari-aniyel, a tinen molbo a nealui jenya. Caora lilon a faejal i vanvu, a wa i apanou.  
     A tinen molbo a tilira-neiden.  
     Lilon a faejal e molbo en wimlua i yaldih, a tinen molbo u hay i ilaluan.  
@@ -160,7 +160,7 @@
     fa = family  
     faejal = man  
     ga = compared to, than  
-    gavio = different  
+    neliu = different  
     hay = he  
     hayas = they  
     ilaluan = speak, say  
@@ -253,11 +253,11 @@
     function initWarmup() {
         const warmupWords = [
     {id: "wu_gafi_1", oravia: "gafi", english: "less"},
-    {id: "wu_gavio_2", oravia: "gavio", english: "different"},
+    {id: "wu_gavio_2", oravia: "neliu", english: "different"},
     {id: "wu_wanon_3", oravia: "wanon", english: "swim"},
     {id: "wu_wayol_4", oravia: "wayol", english: "ocean"},
     {id: "wu_dohti_5", oravia: "dohti", english: "punish"},
-    {id: "wu_dohcu_6", oravia: "dohcu", english: "obey"}
+    {id: "wu_dohcu_6", oravia: "dohsu", english: "obey"}
         ];
 
         function renderSelfAssessment() {

@@ -48,7 +48,7 @@
     | anopu | to lose | loser | lost |
     | anocari | to leave | leaver | left behind | 
     | anelem | to keep | keeper | kept | 
-    | gehdove | sell | seller | sold |
+    | rani-ano | sell | seller | sold |
     | eomiu | support | supporter | supported |
     | mo | eat | eater | eaten |
 

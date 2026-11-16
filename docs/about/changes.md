@@ -1,5 +1,14 @@
 # Website Versions
 
+## November 15th 2026  
+. Big Vocabulary Update! We have added thousands of meanings, and simultaneoulsy reduced the total number of words and blocks.   
+. launched the extended search beyond the core words in the **Dictionary**, with 5245 English entries!  
+
+. deleted: anefe, anefene, anlorfi, anu, apahotai, asetowa, asubu, asucin, asuor, asusu, betal, boetale, ciupa, couvar, danvandi, elanato, eomseri, eori, falte, gehdove, hehti, hehui, heirih, heohodetu, heoyar, jahpapa, jarih, jasar, jashur, jati, jayel, jecai, jelano, jenpur, jeolan, jerih, jojae, lubur, luhue, luyar, madi, mahem, mioban, molwa, moyame, muhcar, muvuson, muwos, nelem, noan, nohei, nolili, ombum, omlufu, ompili, podau, pohyaro, poiyal, railem, roucou, semtela, setin, sever, simei, sioer, siofal, tila, tiriju, titodom, tivonpu, tunen, vamiu, vanci, varon, vonici, vonmo, wacui, wanenou, wilwatai, witel, yemuh, yemus, yesjin, yoyodur. Now we have about 780 words.    
+
+. changed (consolidating roots): anepou -> **anedetu**, anpul -> **anwol**, anu -> **aparos**, aselano -> **asebua**, asfe -> **anejui**, asular -> **asunes**, cohua -> **coani**, conehui -> **codai**, dohcu -> **dohsu**, dohtei -> **dohano**, ganyu -> **ganpe**, gavio -> **galiu**, jalano -> **jabua**, jeonim -> **jeope**, jolfus -> **jolufu**, lipardas -> **liheosu**, litegai -> **litepe** (minute), litemi -> **litegai** (second), semiru -> **semleo**, toharou -> **tohiloi**, tohbian -> **tohmia**, tohsum -> **tosdai**, tosleva -> **tosvari**, tosnar -> **tosvio**, tounir -> **tounen**, vosrol -> **vosbua**, vosvo -> **vosdama**, yeleno -> **yedelei**, yewamus -> **yerira**, yufer -> **yuleno**, yunmir -> **gemir**, yunmpou -> **yunsun**. Now we have about 413 total blocks, out of which we remain with a few hundred blocks (used in 2 words or more).  
+. added: **beiwa**, **rarul**, **sesa**.
+
 ## October 1st 2026 
 . new song **Yomel Hehou!** (thanks to *Dani Lau* and *Lucas Shred*!).   
 . added **Graded Readers** 2.5, 2.6, 3.1, 3.2, 3.3.    

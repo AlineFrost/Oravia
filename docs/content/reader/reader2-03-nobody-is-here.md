@@ -6,9 +6,9 @@
 
 <div class="oravia-reading">
 <p>"A run i anidai ce mouje? Moaria mouje dou mogali?"</p>
-<p>"Mogali, eori."</p>
+<p>"Mogali, eoren."</p>
 <p>"Moval mogali?"</p>
-<p>"Um, mai su moulu, eori."</p>
+<p>"Um, mai su moulu, eoren."</p>
 <p>"Run i anidai e mocen su?”</p>
 <p>"Ia, anidai. Nim fano en bosvi, eta a nim i do i anita e tor?"</p>
 <p>"Nim i do i anona e tor mocen, u run su u hay."</p>

@@ -50,7 +50,7 @@ Such a focus on expression is not common among auxlangs. But I strongly believe 
 <details class="gr-part">
 <summary><strong>0. Glossary of common terms</strong></summary>
 <div class="gr-content">
-<p><em>Vocabulary</em> - the bulk of the language, ~800 words, almost all composed of (sub)cluster + root (e.g., ANE + LEM = remain).</p>
+<p><em>Vocabulary</em> - the bulk of the language, ~780 words, almost all composed of (sub)cluster + root (e.g., ANE + LEM = remain).</p>
 <p><em>Cluster</em> - the first two letters and/or syllable of a word, which indicates its noun class (there are 48 clusters). Not all words belong to a cluster but almost all do (e.g., AN = movement). The exceptions are typically pronouns, prepositions, and numbers.</p>
 <p><em>Subcluster</em> - subdivision of a cluster, typically indicated by the third letter. Clusters have between 0-4 subclusters (e.g., ANE = static movement. There is also ANI = movement toward, and ANO = movement away).</p>
 <p><em>Root</em> - typically the rest of the word after subtracting the cluster, creating cross-cluster associations (e.g., LEM = remain, like BEILEM = vehicle + remain = station).</p>
@@ -123,7 +123,7 @@ tornono → dear grandchild (from fatorno = grandchild)</pre>
 <tr><td>bi tohpu,</td><td>unfortunately</td><td>bi + tohpu (sadness)</td></tr>
 <tr><td>yawol,</td><td>generally, broadly</td><td>yawol (broad)</td></tr>
 <tr><td>ciugai,</td><td>specifically</td><td>ciugai (detail)</td></tr>
-<tr><td>ganyu,</td><td>commonly</td><td>ganyu (average)</td></tr>
+<tr><td>ganpe,</td><td>commonly</td><td>ganpe (average)</td></tr>
 <tr><td>yunitam,</td><td>with the exception</td><td>yunitam (special)</td></tr>
 <tr><td>nesunya,</td><td>no way, impossible, none</td><td>ne (quantifier) + sunya (zero)</td></tr>
 <tr><td>o noi,</td><td>indeed, really</td><td>o (emphasis) + noi (this)</td></tr>
@@ -217,7 +217,7 @@ bi el, nim i elodao. → I hereby promise. (the promise itself — enacted by sp
 <tr><th>Word</th><th>Built from</th><th>Meaning</th></tr>
 <tr><td>tohpu-anvu</td><td>tohpu (grief) + anvu (go/move)</td><td>to trudge / to move with sadness</td></tr>
 <tr><td>aela-ilaluan</td><td>aela (joy) + ilaluan (speak)</td><td>to exclaim happily / to say with joy</td></tr>
-<tr><td>tohvor-anifi</td><td>tohvor (fear) + anifi (arrive)</td><td>to approach anxiously / to come with fear</td></tr>
+<tr><td>tohvor-aniyel</td><td>tohvor (fear) + aniyel (arrive)</td><td>to approach anxiously / to come with fear</td></tr>
 <tr><td>tohpu-bonfene</td><td>tohpu (sadness) + bonfene (lie down)</td><td>to collapse with grief</td></tr>
 <tr><td>oipoh-anvu</td><td>oipoh (excitement) + anvu (go)</td><td>to rush / to bound forward with excitement</td></tr>
 </table>
@@ -376,12 +376,12 @@ notor, i do i vardei e hay 'gelonor. → Later, I could see her gelonor.</pre>
 <table>
 <tr><th>Examples</th><th>Literal meaning</th><th>Emotional register</th></tr>
 <tr><td>lupupi</td><td>rain</td><td>melancholy, inevitability, cleansing, release</td></tr>
-<tr><td>luyar</td><td>light / lamp</td><td>hope, clarity, exposure, revelation</td></tr>
-<tr><td>luyun</td><td>fog</td><td>confusion, mystery, transition, suspension</td></tr>
+<tr><td>lusari</td><td>sun</td><td>hope, clarity, exposure, revelation</td></tr>
+<tr><td>ganou lumbo</td><td>fog</td><td>confusion, mystery, transition, suspension</td></tr>
 <tr><td>lufiva</td><td>frost / cold</td><td>emotional distance, preservation, hardness, clarity through cold</td></tr>
 </table>
 <h4>11.2 Examples</h4>
-<pre>a luyar en bo. → There is light in my house (warmth, safety, hope)
+<pre>a lusari en bo. → There is sun in my house (warmth, safety, hope)
 a nim a lumbo-lusari. → I am cloudy and sunny (may mean "cautiously optimistic")</pre>
 </div>
 </details>
@@ -396,7 +396,7 @@ a nim a lumbo-lusari. → I am cloudy and sunny (may mean "cautiously optimistic
 <p>Two words share the same root but differ in their opening cluster. The rhyme creates a sound bridge between semantic domains, inviting the listener to feel the analogy. For example, in the first sentence of a poem the writer uses "elonor", or virtue-path. By the time we are mid-stanza, it has shifted to "tinor", or "harm-path.</p>
 <h4>12.2 Root Drift Across Subclusters</h4>
 <p>Within a single cluster, subclusters refine and redirect the domain. Using the same root sound across neighboring subclusters traces movement or change without stating it:</p>
-<pre>hay i anifi, i anelem, i anocari. → she arrived, she stilled, she departed (full arc through AN subclusters: ANI → ANE → ANO)</pre>
+<pre>hay i aniyel, i anelem, i anocari. → she arrived, she stilled, she departed (full arc through AN subclusters: ANI → ANE → ANO)</pre>
 <p>The three verbs share the AN root. Their subcluster's phonetic and semantic drift from i → e → o mirrors the narrative arc.</p>
 <p>This technique works for:</p>
 <p>— Escalation: moving through subclusters toward increasing intensity</p>
@@ -435,7 +435,7 @@ mo___ = food / eating
 <table>
 <tr><th>Root</th><th>Meaning</th><th>Examples</th></tr>
 <tr><td>mir</td><td>many / lots of</td><td>yamirli (old = many-time quality), mir miau (many cats)</td></tr>
-<tr><td>yar</td><td>light / radiant</td><td>luyar (lamp/light), oiyar (to emphasize)</td></tr>
+<tr><td>yar</td><td>light / radiant</td><td>liyar (morning = time + light), oiyar (to emphasize)</td></tr>
 <tr><td>non</td><td>way / path / manner</td><td>jenon (path), canon (how/in what way)</td></tr>
 <tr><td>tam</td><td>one / single / first</td><td>litam (day = time-1), yunitam (special)</td></tr>
 <tr><td>li</td><td>time</td><td>lirul (habit), noli (now)</td></tr>
@@ -457,11 +457,11 @@ mo___ = food / eating
 <h4>13.4 Hyphenated Combinations</h4>
 <p>Combine roots freely. The hyphen signals is different from the compound because its main function is not to describe a single concept using multiple words. Instead, it is giving flavor and color to the second word.</p>
 <pre>i ilofun-vardei → to hesitant-look, to peek with doubt
-i toului-asfe → to tired-stop, to give up
+i toului-anejui → to tired-stop, to give up
 i raidana-ilaluan → to surrender-say, to concede
 i tosrei-neiden → to bitter-develop, to feed into your bitterness</pre>
 <p>You can also use hyphens to achieve more fine-grained meanings, blending two experiential flavors together. This is commonly done with emotions or abstract nouns:</p>
-<pre>aela-tohlel → joy + longing, a type of nostalgic happiness
+<pre>aela-tohfou → joy + longing, a type of nostalgic happiness
 tohpu-oipoh → sadness + excitement, a type of bittersweetness, holding loss and anticipation at once
 mirli-eliyuli → much time + wisdom, understanding that comes with time</pre>
 <h4>13.5 Formation Patterns</h4>
@@ -473,7 +473,7 @@ mirli-eliyuli → much time + wisdom, understanding that comes with time</pre>
 <tr><td>root + root (least common)</td><td>domvio (DOM+VIO)</td><td>instead, in the place of (place + change)</td></tr>
 <tr><td>noun/adjective-gu + noun (compound, forming a concept)</td><td>"yedigu yaltangu miau"</td><td>tiger (striped-big-cat as concept; in this case one can also say the scientific name panthera tigris)</td></tr>
 <tr><td>noun/adjective + verb (hyphenated)</td><td>toh-vanvu</td><td>trudge (emotional suffering + walk)</td></tr>
-<tr><td>noun + noun, verb + verb (coloring the second word)</td><td>eola-tohlel</td><td>happy-longing (a kind of nostalgic joy)</td></tr>
+<tr><td>noun + noun, verb + verb (coloring the second word)</td><td>eola-tohfou</td><td>happy-longing (a kind of nostalgic joy)</td></tr>
 <tr><td>cluster prefix + word</td><td>tielonor</td><td>corrupted peace (can also say just "tinor", may be more opaque than using both clusters)</td></tr>
 <tr><td>ne + number + noun/adjective</td><td>neauta yasoi</td><td>swift (8/10 fast)</td></tr>
 </table>
@@ -500,7 +500,7 @@ i mogali → to drink coffee (coffee → to do the coffee thing)</pre>
 <tr><td>hay i bo-anvu</td><td>she V house-goes</td><td>she goes to the house</td></tr>
 <tr><td>hay i bortal en bo</td><td>she V enter LOC house</td><td>she enters the house</td></tr>
 <tr><td>hay i bo-bortal</td><td>she V house-enters</td><td>she enters the house</td></tr>
-<tr><td>hay i bo e falen</td><td>she V house OBJ kid</td><td>she houses/shelters the kid</td></tr>
+<tr><td>hay i bo e falfal</td><td>she V house OBJ kid</td><td>she houses/shelters the kid</td></tr>
 <tr><td>hay i bo</td><td>she V house</td><td>she houses — open / poetic / vague</td></tr>
 </table>
 <p>tohpu — sadness</p>
@@ -684,6 +684,6 @@ su noder micea en noi a lunhem</pre>
 <tr><td>YO</td><td>colors</td><td>—</td></tr>
 <tr><td>YU</td><td>subjective qualities</td><td>YUN personal characteristics</td></tr>
 </table>
-<p>Even without knowing a specific word, the opening sound gives the domain. Subclusters narrow it further. Roots connect words across groups. In total, there are about 260 building blocks from which most words are formed.</p>
+<p>Even without knowing a specific word, the opening sound gives the domain. Subclusters narrow it further. Roots connect words across groups. In total, there are a few hundred blocks from which most words are formed.</p>
 </div>
 </details>

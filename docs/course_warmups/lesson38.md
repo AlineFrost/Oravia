@@ -43,7 +43,7 @@
     *First action completed by the time of the second action*
      
     ```
-    Litamar, nim i vaspai, hay anifis.
+    Litamar, nim i vaspai, hay aniyelis.
     Yesterday, (when) I put on my shoes, he hadn't arrived yet.
     ```
     *By the time of the first action, second action yet to start*
@@ -113,11 +113,11 @@
     | Oravia | English |
     |--------|---------|
     | yoyol | blue |
-    | yolimel | dark, black |
+    | yomel | dark, black |
     | yopoh | red |
     | yoyar | white |
     | yosari | yellow |
-    | yogali | brown |
+    | yogafei yopoh-sari | brown |
    
     What do you think it is about?
     

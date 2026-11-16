@@ -177,7 +177,7 @@
     | Oravia | English |
     |--------|---------|
     | boelori | room |
-    | boetale | hall |
+    | boelulo | patio, yard |
     | boemo | kitchen |
     | bonjae | cabinet |
     | bonfene | bed |

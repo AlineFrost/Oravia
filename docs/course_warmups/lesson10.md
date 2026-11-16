@@ -155,9 +155,9 @@
     | anopu | lose |
     | anocari | leave |
     | anolu | out |
-    | anefene | rest |
-    | anepou | stop |
-    | anefe | put |
+    | anejui | pause |
+    | anedetu | stop |
+    | anever | secure |
     | anelem | stay, remain |
     
     What do you think the words beginning with **ANI**, **ANO**, and **ANE** have in common?
@@ -214,7 +214,7 @@
     nim fare i dai i bonfene.
     ```
     
-    Done! There are a few reasons we use just the root of the first verb for a construction like *to want to do*. First, it sounds more distinct from the noun option, so listeners can tell the difference easily. Second, it's shorter, and these verb stacks come up a lot! You can use many verbs in the first verb role - ando, anifou, anidai, anepou, anelem... These are all verbs that take another action as a complement.
+    Done! There are a few reasons we use just the root of the first verb for a construction like *to want to do*. First, it sounds more distinct from the noun option, so listeners can tell the difference easily. Second, it's shorter, and these verb stacks come up a lot! You can use many verbs in the first verb role - ando, anifou, anidai, anedetu, anelem... These are all verbs that take another action as a complement.
     
     How do you think we would say *to need to come*? How about *to be able to leave*?
     
@@ -242,7 +242,7 @@
     ```
     
     !!! tip "Flexibility"
-        Don't worry too much about memorizing the right subclusters for each word. For example, you can say *anefene*, or *anfene*, they mean the same thing! You could also say only *ane* (static) or *fene* (rest), just the meaning would be broader without context. Options like these will be discussed later on, once you understand better how the language works. For now, just keep in mind there is no need to stress over the right subclusters and that words are flexible. 
+        Don't worry too much about memorizing the right subclusters for each word. For example, you can say *anejui*, or *anjui*, they mean the same thing! You could also say only *ane* (static) or *jui* (temporary), just the meaning would be broader without context. Options like these will be discussed later on, once you understand better how the language works. For now, just keep in mind there is no need to stress over the right subclusters and that words are flexible. 
 
 === "Practice"
 

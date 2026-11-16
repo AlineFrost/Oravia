@@ -67,7 +67,7 @@
     </div>
     
     <div id="subcluster3-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0 0 0.5rem 0;">Possible translations: litegais, liperiar </p>
+    <p style="margin: 0 0 0.5rem 0;">Possible translations: litepes, liperiar </p>
     </div>
     
     Notice that **ar** and **is** are **optional**. That is, if clear from context, you can just use the base verb. 

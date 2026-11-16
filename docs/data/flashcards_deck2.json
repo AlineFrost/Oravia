@@ -111,21 +111,6 @@
     ]
   },
   {
-    "id": "D2_anefe",
-    "front": "anefe",
-    "back": "put, lay, to place",
-    "breakdown": [
-      {
-        "sound": "ane",
-        "meaning": "static movement"
-      },
-      {
-        "sound": "fe",
-        "meaning": "halting"
-      }
-    ]
-  },
-  {
     "id": "D2_anelem",
     "front": "anelem",
     "back": "keep, stay, remain",
@@ -142,7 +127,7 @@
   },
   {
     "id": "D2_anepou",
-    "front": "anepou",
+    "front": "anedetu",
     "back": "stop, halt, cancel",
     "breakdown": [
       {
@@ -150,8 +135,8 @@
         "meaning": "static movement"
       },
       {
-        "sound": "pou",
-        "meaning": "stop"
+        "sound": "detu",
+        "meaning": "end"
       }
     ]
   },
@@ -509,25 +494,6 @@
     ]
   },
   {
-    "id": "D2_asetowa",
-    "front": "asetowa",
-    "back": "tears, to cry",
-    "breakdown": [
-      {
-        "sound": "ase",
-        "meaning": "affectionate contact"
-      },
-      {
-        "sound": "to",
-        "meaning": "suffering"
-      },
-      {
-        "sound": "wa",
-        "meaning": "water"
-      }
-    ]
-  },
-  {
     "id": "D2_asiwa",
     "front": "asiwa",
     "back": "pee, urinate",
@@ -663,21 +629,6 @@
     ]
   },
   {
-    "id": "D2_ciupa",
-    "front": "ciupa",
-    "back": "paper",
-    "breakdown": [
-      {
-        "sound": "ciu",
-        "meaning": "creative products"
-      },
-      {
-        "sound": "pa",
-        "meaning": "paper"
-      }
-    ]
-  },
-  {
     "id": "D2_ciutel",
     "front": "ciutel",
     "back": "image",
@@ -709,7 +660,7 @@
   },
   {
     "id": "D2_cohua",
-    "front": "cohua",
+    "front": "coani",
     "back": "receive, get, receipt, acknowledge, reception",
     "breakdown": [
       {
@@ -717,8 +668,8 @@
         "meaning": "communication"
       },
       {
-        "sound": "hua",
-        "meaning": "receive"
+        "sound": "ani",
+        "meaning": "directed pull, toward"
       }
     ]
   },
@@ -1106,21 +1057,6 @@
     ]
   },
   {
-    "id": "D2_falte",
-    "front": "falte",
-    "back": "young, youth, a youth",
-    "breakdown": [
-      {
-        "sound": "fal",
-        "meaning": "young ones"
-      },
-      {
-        "sound": "te",
-        "meaning": "young"
-      }
-    ]
-  },
-  {
     "id": "D2_gahoh",
     "front": "gahoh",
     "back": "extreme, radical",
@@ -1399,7 +1335,7 @@
   },
   {
     "id": "D2_jasrec",
-    "front": "jasrec",
+    "front": "jasjece",
     "back": "cut, incision, slice, chop",
     "breakdown": [
       {
@@ -1407,7 +1343,7 @@
         "meaning": "gripping and fastening tools"
       },
       {
-        "sound": "rec",
+        "sound": "jece",
         "meaning": "cut"
       }
     ]
@@ -1473,21 +1409,6 @@
     ]
   },
   {
-    "id": "D2_jenpur",
-    "front": "jenpur",
-    "back": "under, below, down",
-    "breakdown": [
-      {
-        "sound": "jen",
-        "meaning": "location"
-      },
-      {
-        "sound": "pur",
-        "meaning": "under"
-      }
-    ]
-  },
-  {
     "id": "D2_jenya",
     "front": "jenya",
     "back": "empty, vacuum, vacuous",
@@ -1499,21 +1420,6 @@
       {
         "sound": "nya",
         "meaning": "empty"
-      }
-    ]
-  },
-  {
-    "id": "D2_jeolan",
-    "front": "jeolan",
-    "back": "center",
-    "breakdown": [
-      {
-        "sound": "jeo",
-        "meaning": "geometric positions"
-      },
-      {
-        "sound": "lan",
-        "meaning": "balance"
       }
     ]
   },
@@ -1677,7 +1583,7 @@
   },
   {
     "id": "D2_lipardas",
-    "front": "lipardas",
+    "front": "liheosu",
     "back": "month, monthly",
     "breakdown": [
       {
@@ -1685,8 +1591,8 @@
         "meaning": "time"
       },
       {
-        "sound": "pardas",
-        "meaning": "thirty"
+        "sound": "heosu",
+        "meaning": "moon"
       }
     ]
   },
@@ -2269,21 +2175,6 @@
     ]
   },
   {
-    "id": "D2_semtela",
-    "front": "semtela",
-    "back": "system, systematic, systematize, organize",
-    "breakdown": [
-      {
-        "sound": "sem",
-        "meaning": "system"
-      },
-      {
-        "sound": "tela",
-        "meaning": "system"
-      }
-    ]
-  },
-  {
     "id": "D2_sero",
     "front": "sero",
     "back": "memory, remember, familiar",
@@ -2589,7 +2480,7 @@
   },
   {
     "id": "D2_varpi",
-    "front": "varpi",
+    "front": "varasi",
     "back": "nose, smell, to smell, meddlesome, prying",
     "breakdown": [
       {
@@ -2597,8 +2488,8 @@
         "meaning": "face"
       },
       {
-        "sound": "pi",
-        "meaning": "nose"
+        "sound": "asi",
+        "meaning": "orifice intake and expulsion"
       }
     ]
   },
@@ -2871,8 +2762,12 @@
         "meaning": "objective qualities"
       },
       {
-        "sound": "vuson",
-        "meaning": "slow movement"
+        "sound": "vu",
+        "meaning": "movement"
+      },
+      {
+        "sound": "son",
+        "meaning": "late"
       }
     ]
   },
@@ -2938,41 +2833,22 @@
   },
   {
     "id": "D2_yewamus",
-    "front": "yewamus",
-    "back": "net, network, web, internet, catch, trap",
+    "front": "yerira",
+    "back": "net, mesh",
     "breakdown": [
       {
         "sound": "ye",
         "meaning": "clothing and fabric"
       },
       {
-        "sound": "wa",
-        "meaning": "water"
-      },
-      {
-        "sound": "mus",
-        "meaning": "bug"
-      }
-    ]
-  },
-  {
-    "id": "D2_yogali",
-    "front": "yogali",
-    "back": "brown",
-    "breakdown": [
-      {
-        "sound": "yo",
-        "meaning": "colors"
-      },
-      {
-        "sound": "gali",
-        "meaning": "coffee"
+        "sound": "rira",
+        "meaning": "grid"
       }
     ]
   },
   {
     "id": "D2_yolimel",
-    "front": "yolimel",
+    "front": "yomel",
     "back": "dark, black",
     "breakdown": [
       {
@@ -2980,8 +2856,8 @@
         "meaning": "colors"
       },
       {
-        "sound": "limel",
-        "meaning": "evening"
+        "sound": "mel",
+        "meaning": "dark"
       }
     ]
   },
@@ -3028,7 +2904,7 @@
   },
   {
     "id": "D2_yufer",
-    "front": "yufer",
+    "front": "yuleno",
     "back": "dirty, grime, filth, to taint, corruption",
     "breakdown": [
       {
@@ -3036,8 +2912,8 @@
         "meaning": "subjective qualities"
       },
       {
-        "sound": "fer",
-        "meaning": "dirty"
+        "sound": "leno",
+        "meaning": "ground"
       }
     ]
   },
@@ -3083,21 +2959,6 @@
       {
         "sound": "vabo",
         "meaning": "cozy, body home"
-      }
-    ]
-  },
-  {
-    "id": "D2_anefene",
-    "front": "anefene",
-    "back": "rest",
-    "breakdown": [
-      {
-        "sound": "ane",
-        "meaning": "static movement"
-      },
-      {
-        "sound": "fene",
-        "meaning": "rest"
       }
     ]
   },
@@ -3162,21 +3023,6 @@
     ]
   },
   {
-    "id": "D2_anu",
-    "front": "anu",
-    "back": "close, shut",
-    "breakdown": [
-      {
-        "sound": "an",
-        "meaning": "action"
-      },
-      {
-        "sound": "nu",
-        "meaning": "limit"
-      }
-    ]
-  },
-  {
     "id": "D2_asensau",
     "front": "asensau",
     "back": "awake, wake, aware",
@@ -3193,16 +3039,16 @@
   },
   {
     "id": "D2_asfe",
-    "front": "asfe",
+    "front": "anejui",
     "back": "pause, break, interruption",
     "breakdown": [
       {
-        "sound": "as",
-        "meaning": "involuntary bodily functions"
+        "sound": "ane",
+        "meaning": "static movement"
       },
       {
-        "sound": "fe",
-        "meaning": "halting"
+        "sound": "jui",
+        "meaning": "temporary"
       }
     ]
   },
@@ -3726,7 +3572,7 @@
   },
   {
     "id": "D2_gaet",
-    "front": "gaet",
+    "front": "gaehela",
     "back": "effect, result, to effect, effective",
     "breakdown": [
       {
@@ -3734,8 +3580,8 @@
         "meaning": "evaluation"
       },
       {
-        "sound": "et",
-        "meaning": "effect"
+        "sound": "hela",
+        "meaning": "projecting outward"
       }
     ]
   },
@@ -3756,7 +3602,7 @@
   },
   {
     "id": "D2_ganyu",
-    "front": "ganyu",
+    "front": "ganpe",
     "back": "average, medium, normal, usual, standard, norm, common",
     "breakdown": [
       {
@@ -3764,8 +3610,8 @@
         "meaning": "ranking"
       },
       {
-        "sound": "nyu",
-        "meaning": "average"
+        "sound": "pe",
+        "meaning": "middle"
       }
     ]
   },
@@ -3781,21 +3627,6 @@
       {
         "sound": "rel",
         "meaning": "up, high"
-      }
-    ]
-  },
-  {
-    "id": "D2_gehdove",
-    "front": "gehdove",
-    "back": "sell, sale",
-    "breakdown": [
-      {
-        "sound": "geh",
-        "meaning": "sell"
-      },
-      {
-        "sound": "dove",
-        "meaning": "sell"
       }
     ]
   },
@@ -4064,15 +3895,15 @@
   },
   {
     "id": "D2_jeonim",
-    "front": "jeonim",
-    "back": "middle",
+    "front": "jeope",
+    "back": "middle, center",
     "breakdown": [
       {
         "sound": "jeo",
         "meaning": "geometric positions"
       },
       {
-        "sound": "nim",
+        "sound": "pe",
         "meaning": "middle"
       }
     ]
@@ -4363,25 +4194,6 @@
     ]
   },
   {
-    "id": "D2_nolili",
-    "front": "nolili",
-    "back": "always, consistently, constantly",
-    "breakdown": [
-      {
-        "sound": "no",
-        "meaning": "function words"
-      },
-      {
-        "sound": "li",
-        "meaning": "time"
-      },
-      {
-        "sound": "li",
-        "meaning": "time"
-      }
-    ]
-  },
-  {
     "id": "D2_norfih",
     "front": "norfih",
     "back": "enough, sufficient, suffice",
@@ -4442,21 +4254,6 @@
     ]
   },
   {
-    "id": "D2_sever",
-    "front": "sever",
-    "back": "key, unlock",
-    "breakdown": [
-      {
-        "sound": "se",
-        "meaning": "machines"
-      },
-      {
-        "sound": "ver",
-        "meaning": "safety"
-      }
-    ]
-  },
-  {
     "id": "D2_tinen",
     "front": "tinen",
     "back": "break, rupture, smash, disrupt",
@@ -4473,7 +4270,7 @@
   },
   {
     "id": "D2_tounir",
-    "front": "tounir",
+    "front": "tounen",
     "back": "weak, weakness, feeble",
     "breakdown": [
       {
@@ -4481,8 +4278,8 @@
         "meaning": "physical depletion"
       },
       {
-        "sound": "nir",
-        "meaning": "weak"
+        "sound": "nen",
+        "meaning": "power and violence"
       }
     ]
   },
@@ -4668,7 +4465,7 @@
   },
   {
     "id": "D2_yunmpou",
-    "front": "yunmpou",
+    "front": "yunsun",
     "back": "lazy, indolence, inactivity",
     "breakdown": [
       {
@@ -4676,8 +4473,8 @@
         "meaning": "personal characteristics"
       },
       {
-        "sound": "mpou",
-        "meaning": "lazy"
+        "sound": "sun",
+        "meaning": "limp"
       }
     ]
   }

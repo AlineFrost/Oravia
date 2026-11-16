@@ -89,8 +89,8 @@
     },
     {
       "id": "lesson06_r2_3",
-      "oravia": "boetale",
-      "english": "hall",
+      "oravia": "boelulo",
+      "english": "patio, yard",
       "bucket": "r2",
       "source_bucket": "boe"
     },
@@ -166,7 +166,7 @@
     },
     {
       "id": "lesson06_r5_2",
-      "oravia": "anefene",
+      "oravia": "fene",
       "english": "rest",
       "bucket": "r5",
       "source_bucket": "fene"

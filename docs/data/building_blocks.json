@@ -7,13 +7,12 @@
     "oravia": [
       "ancem",
       "ando",
-      "aneoleo",
+      "anleo",
       "angi",
       "anja",
       "anlaro",
       "anliulor",
       "anlor",
-      "anlorfi",
       "anomi",
       "anparu",
       "anro",
@@ -21,11 +20,10 @@
       "anse",
       "antai",
       "anbas",
-      "anpul",
+      "anwol",
       "anvu",
       "anye",
-      "anilie",
-      "anu"
+      "anilie"
     ],
     "english": [
       "turn",
@@ -36,7 +34,6 @@
       "continue",
       "service",
       "benefit",
-      "privilege",
       "right",
       "preparation",
       "decide",
@@ -47,8 +44,7 @@
       "spread",
       "move",
       "make",
-      "try",
-      "close"
+      "try"
     ],
     "natural_language": "PIE *h₂en- (to breathe/live)"
   },
@@ -58,18 +54,16 @@
     "cluster": "volitional action",
     "meaning": "static movement",
     "oravia": [
-      "anefe",
-      "anefene",
       "anelem",
-      "anepou",
-      "anever"
+      "anedetu",
+      "anever",
+      "anejui"
     ],
     "english": [
-      "put",
-      "rest",
       "keep",
       "stop",
-      "secure"
+      "secure",
+      "pause"
     ],
     "natural_language": "Latin manere (to remain/stay)"
   },
@@ -94,7 +88,7 @@
       "choose",
       "bring",
       "take",
-      "back"
+      "return"
     ],
     "natural_language": "Latin animus (directed will); Japanese に ni (toward, directional particle)"
   },
@@ -134,11 +128,11 @@
       "apaima",
       "apaleno",
       "apanou",
-      "apahotai",
       "aparih",
       "apasar",
       "apasoi",
-      "apavu"
+      "apavu",
+      "aparos"
     ],
     "english": [
       "pull",
@@ -148,11 +142,11 @@
       "vertical",
       "dig",
       "drop",
-      "wander",
       "jump",
       "hang",
       "hurry",
-      "run"
+      "run",
+      "close"
     ],
     "natural_language": "Sanskrit apad (to move on foot)"
   },
@@ -164,20 +158,16 @@
     "oravia": [
       "asano",
       "asensau",
-      "asfe",
       "asfene",
       "aslufu",
-      "asoyo",
-      "asubu"
+      "aswowo"
     ],
     "english": [
       "move away",
       "awake",
-      "pause",
       "sleep",
       "breathe",
-      "shake",
-      "drown"
+      "shake"
     ],
     "natural_language": "PIE *h₁es- (to be, to exist)"
   },
@@ -188,14 +178,12 @@
     "meaning": "affective expression",
     "oravia": [
       "asela",
-      "aselano",
-      "asetowa",
+      "asebua",
       "aseyel"
     ],
     "english": [
       "smile",
       "hug",
-      "tears",
       "kiss"
     ],
     "natural_language": "Sanskrit āśleṣa (embrace, close contact)"
@@ -225,19 +213,13 @@
     "cluster": "bodily actions",
     "meaning": "vocal expressions",
     "oravia": [
-      "asucin",
       "asuifi",
-      "asular",
-      "asuor",
-      "asusu",
+      "asunes",
       "asugar"
     ],
     "english": [
-      "sneeze",
       "whistle",
       "laugh",
-      "snore",
-      "whisper",
       "yell"
     ],
     "natural_language": "Sanskrit asu (breath, vital force)"
@@ -251,7 +233,6 @@
       "bedam",
       "bejae",
       "bejui",
-      "betal",
       "bevas",
       "bevio"
     ],
@@ -259,7 +240,6 @@
       "square",
       "luggage",
       "rent",
-      "lobby",
       "private",
       "shop"
     ],
@@ -274,13 +254,15 @@
       "beilem",
       "beimete",
       "beitor",
-      "beivu"
+      "beivu",
+      "beiwa"
     ],
     "english": [
       "station",
       "wagon",
       "bicycle",
-      "car"
+      "car",
+      "boat"
     ],
     "natural_language": ""
   },
@@ -288,7 +270,7 @@
     "type": "subcluster",
     "sound": "bo",
     "cluster": "house",
-    "meaning": "home interior",
+    "meaning": "home, home interior",
     "oravia": [
       "bociu",
       "bofi",
@@ -309,14 +291,12 @@
     "oravia": [
       "boelori",
       "boelulo",
-      "boemo",
-      "boetale"
+      "boemo"
     ],
     "english": [
       "room",
       "patio",
-      "kitchen",
-      "hall"
+      "kitchen"
     ],
     "natural_language": "English bower (chamber, private room), Korean bueok (kitchen)"
   },
@@ -386,7 +366,6 @@
       "ciudon",
       "ciugai",
       "ciumar",
-      "ciupa",
       "ciureva",
       "ciuro",
       "ciuseri",
@@ -402,7 +381,6 @@
       "demonstration",
       "detail",
       "art",
-      "paper",
       "photo",
       "abstract",
       "horizontal",
@@ -419,11 +397,11 @@
     "meaning": "communication",
     "oravia": [
       "cohela",
-      "cohua",
+      "coani",
       "colira",
       "coman",
       "cojim",
-      "conehui",
+      "codai",
       "conodo",
       "copei",
       "copen",
@@ -456,7 +434,6 @@
       "coupa",
       "cousiu",
       "coutam",
-      "couvar",
       "couya",
       "couyen"
     ],
@@ -466,7 +443,6 @@
       "card",
       "letter",
       "page",
-      "cover",
       "name",
       "mail"
     ],
@@ -497,7 +473,8 @@
       "dateli",
       "davio",
       "davir",
-      "dayar"
+      "dayar",
+      "dajim"
     ],
     "english": [
       "refer",
@@ -519,7 +496,8 @@
       "situation",
       "change",
       "exact",
-      "obvious"
+      "obvious",
+      "attention"
     ],
     "natural_language": "Arabic ذا dhā (this, that, referential)"
   },
@@ -531,7 +509,7 @@
     "oravia": [
       "daedon",
       "daeta",
-      "daefei",
+      "daecoti",
       "daegor",
       "daefer",
       "daelan",
@@ -562,17 +540,13 @@
     "oravia": [
       "dandao",
       "danmir",
-      "dajim",
       "dantam",
-      "danvandi",
       "jeodan"
     ],
     "english": [
       "serious",
       "important",
-      "attention",
       "only",
-      "point",
       "main"
     ],
     "natural_language": "Mandarin 但 (dàn = but, emphatic contrast); Mandarin 单 (dān = single, only, emphasis)"
@@ -588,7 +562,7 @@
       "dolal",
       "dosaba",
       "dogue",
-      "dorel",
+      "dopim",
       "doro",
       "dovea",
       "dowowo"
@@ -612,9 +586,9 @@
     "cluster": "regulations",
     "meaning": "enforcement",
     "oravia": [
-      "dohcu",
+      "dohsu",
       "dohtar",
-      "dohtei",
+      "dohano",
       "dohti",
       "dohvil"
     ],
@@ -633,7 +607,6 @@
     "cluster": "wonder",
     "meaning": "sacred",
     "oravia": [
-      "elanato",
       "elano",
       "elaora",
       "elaren",
@@ -642,7 +615,6 @@
       "elasu"
     ],
     "english": [
-      "sacrifice",
       "worship",
       "religion",
       "holy",
@@ -751,7 +723,6 @@
       "eopan",
       "eoras",
       "eoren",
-      "eori",
       "eover"
     ],
     "english": [
@@ -765,7 +736,6 @@
       "win",
       "association",
       "honor",
-      "polite",
       "care for"
     ],
     "natural_language": "Greek εὐ- (eu = good, social prefix)"
@@ -797,13 +767,11 @@
     "oravia": [
       "eomanse",
       "eomfel",
-      "eomseri",
       "eomsu"
     ],
     "english": [
       "meeting",
       "event",
-      "parade",
       "party"
     ],
     "natural_language": "Korean moim (gathering, meeting)"
@@ -837,7 +805,7 @@
       "faigel"
     ],
     "english": [
-      "companion",
+      "spouse",
       "marry"
     ],
     "natural_language": "Latin foedus (pact, partnership)"
@@ -846,16 +814,14 @@
     "type": "subcluster",
     "sound": "fal",
     "cluster": "family",
-    "meaning": "young ones",
+    "meaning": "young, youth, young ones",
     "oravia": [
-      "falen",
-      "falni",
-      "falte"
+      "falfal",
+      "falni"
     ],
     "english": [
       "child",
-      "baby",
-      "young"
+      "baby"
     ],
     "natural_language": "Latin filia, filius (children)"
   },
@@ -878,13 +844,13 @@
     "type": "subcluster",
     "sound": "ga",
     "cluster": "compare",
-    "meaning": "evaluation",
+    "meaning": "evaluation, comparison",
     "oravia": [
-      "gaet",
+      "gaehela",
       "gafei",
       "gahoh",
       "garel",
-      "gavio",
+      "galiu",
       "gavol"
     ],
     "english": [
@@ -906,7 +872,7 @@
       "ganou",
       "ganrih",
       "ganter",
-      "ganyu"
+      "ganpe"
     ],
     "english": [
       "low",
@@ -955,7 +921,8 @@
       "geta",
       "geyavu",
       "geyelu",
-      "geyosa"
+      "geyosa",
+      "gemir"
     ],
     "english": [
       "bank",
@@ -966,7 +933,8 @@
       "pay",
       "invest",
       "collect",
-      "bet"
+      "bet",
+      "wealth"
     ],
     "natural_language": "Proto-Germanic *geldan (to pay); German Geld (money); Dutch geld (money)"
   },
@@ -976,15 +944,13 @@
     "cluster": "finances",
     "meaning": "sales",
     "oravia": [
-      "gehdove",
       "gehna",
       "gehsar",
       "gehvio"
     ],
     "english": [
-      "sell",
       "buy",
-      "charge",
+      "price",
       "exchange"
     ],
     "natural_language": "German gelten (to be worth, to trade)"
@@ -1011,15 +977,11 @@
     "meaning": "antagonist tropes",
     "oravia": [
       "hehou",
-      "hehui",
-      "hehma",
-      "hehti"
+      "hehma"
     ],
     "english": [
       "shadow",
-      "ghost",
-      "monster",
-      "devil"
+      "monster"
     ],
     "natural_language": "English hex"
   },
@@ -1031,13 +993,11 @@
     "oravia": [
       "heimir",
       "heipili",
-      "heirih",
       "heivio"
     ],
     "english": [
       "awesome",
       "fairy",
-      "angel",
       "magic"
     ],
     "natural_language": ""
@@ -1046,20 +1006,16 @@
     "type": "subcluster",
     "sound": "heo",
     "cluster": "fiction trope",
-    "meaning": "background",
+    "meaning": "space, background",
     "oravia": [
       "heodom",
       "heoloa",
-      "heosu",
-      "heohodetu",
-      "heoyar"
+      "heosu"
     ],
     "english": [
       "planet",
       "universe",
-      "moon",
-      "infinity",
-      "ray"
+      "moon"
     ],
     "natural_language": "Old English heofon (firmament, vault of sky)"
   },
@@ -1094,8 +1050,8 @@
     ],
     "english": [
       "ask",
-      "talk",
       "say",
+      "speak",
       "expression",
       "describe"
     ],
@@ -1163,16 +1119,12 @@
       "jadoe",
       "jadun",
       "jajol",
-      "jalano",
+      "jabua",
       "jalen",
       "jalia",
-      "james",
       "jalei",
       "janos",
       "janou",
-      "jarih",
-      "jasar",
-      "jati",
       "javari",
       "javer",
       "javin",
@@ -1186,13 +1138,9 @@
       "ball",
       "pen",
       "bell",
-      "ring",
       "stick",
       "oar",
       "hole",
-      "ladder",
-      "hook",
-      "whip",
       "tail",
       "lock",
       "pin",
@@ -1207,13 +1155,11 @@
     "meaning": "cutting tools",
     "oravia": [
       "jahci",
-      "jahgo",
-      "jahpapa"
+      "jahgo"
     ],
     "english": [
       "knife",
-      "ax",
-      "hammer"
+      "ax"
     ],
     "natural_language": "Japanese 刃 (ha/ja = blade, edge)"
   },
@@ -1223,13 +1169,11 @@
     "cluster": "tools",
     "meaning": "gripping and fastening tools",
     "oravia": [
-      "jashur",
-      "jasrec",
+      "jasjece",
       "jasru",
       "jasvao"
     ],
     "english": [
-      "rip",
       "cut",
       "bend",
       "fold"
@@ -1242,28 +1186,22 @@
     "cluster": "geometrics",
     "meaning": "geometrics",
     "oravia": [
-      "jecai",
       "jeciuta",
-      "jegai",
-      "jelano",
+      "jeros",
       "jele",
       "jeluin",
       "jenon",
-      "jerih",
       "jetai",
       "jetaletor",
       "jevar",
       "jevoi"
     ],
     "english": [
-      "fence",
       "line",
       "narrow",
-      "circle",
       "field",
       "wing",
       "path",
-      "tower",
       "direction",
       "cross",
       "arch",
@@ -1281,7 +1219,6 @@
       "jenai",
       "jenya",
       "jenparo",
-      "jenpur",
       "jenrein",
       "jensu",
       "jentale"
@@ -1291,7 +1228,6 @@
       "corner",
       "empty",
       "front",
-      "under",
       "between",
       "side",
       "through"
@@ -1302,16 +1238,14 @@
     "type": "subcluster",
     "sound": "jeo",
     "cluster": "geometrics",
-    "meaning": "geometric positions",
+    "meaning": "position, geometric positions",
     "oravia": [
       "jeodeh",
-      "jeolan",
-      "jeonim",
+      "jeope",
       "jeodan"
     ],
     "english": [
       "base",
-      "center",
       "middle",
       "main"
     ],
@@ -1326,9 +1260,7 @@
       "jobos",
       "jocai",
       "jociuwa",
-      "jojae",
       "jolem",
-      "jolufu",
       "jomo",
       "joniu",
       "jopopo",
@@ -1338,9 +1270,7 @@
       "pipe",
       "sheet",
       "paint",
-      "basket",
       "box",
-      "bubble",
       "plate",
       "piece",
       "shell",
@@ -1355,16 +1285,16 @@
     "meaning": "material types",
     "oravia": [
       "jolbo",
-      "jolfus",
+      "jolufu",
       "joldur",
       "joliri",
       "jolace",
       "joleni",
-      "jolrer"
+      "jolyes"
     ],
     "english": [
       "cement",
-      "foam",
+      "bubble",
       "metal",
       "glass",
       "rubber",
@@ -1377,7 +1307,7 @@
     "type": "subcluster",
     "sound": "le",
     "cluster": "environment",
-    "meaning": "environment",
+    "meaning": "environment, nature",
     "oravia": [
       "ledom",
       "leno",
@@ -1449,7 +1379,7 @@
       "lilon",
       "limel",
       "linu",
-      "lipardas",
+      "liheosu",
       "liperi",
       "lirul",
       "lises",
@@ -1481,8 +1411,8 @@
     "cluster": "time",
     "meaning": "clock time",
     "oravia": [
+      "litepe",
       "litegai",
-      "litemi",
       "litetan"
     ],
     "english": [
@@ -1498,31 +1428,25 @@
     "cluster": "weather",
     "meaning": "weather and atmosphere",
     "oravia": [
-      "lubur",
       "lufiva",
       "lufu",
-      "luhue",
       "lumbo",
       "lumirwa",
       "lupupi",
       "lusari",
       "luswa",
       "luval",
-      "luyar",
       "luyol"
     ],
     "english": [
-      "thunder",
       "cool",
       "wind",
-      "mist",
       "cloud",
       "flood",
       "rain",
       "sun",
       "wave",
       "snow",
-      "light",
       "sky"
     ],
     "natural_language": "Latin lux (light, sky phenomenon); Italian luce; French lumière; Portuguese/Spanish luz; PIE *lewk- (to shine)"
@@ -1552,8 +1476,6 @@
     "cluster": "cooking food",
     "meaning": "cooking food",
     "oravia": [
-      "madi",
-      "mahem",
       "mahon",
       "malil",
       "mamini",
@@ -1565,8 +1487,6 @@
       "mawa"
     ],
     "english": [
-      "noodle",
-      "fry",
       "spoon",
       "meat",
       "egg",
@@ -1625,7 +1545,7 @@
     "type": "subcluster",
     "sound": "mas",
     "cluster": "cooking food",
-    "meaning": "spices and seasonings",
+    "meaning": "spice, seasoning",
     "oravia": [
       "mascur",
       "masha",
@@ -1675,9 +1595,8 @@
     "type": "subcluster",
     "sound": "mio",
     "cluster": "bigger animals",
-    "meaning": "wild animals",
+    "meaning": "wild, wild animals",
     "oravia": [
-      "mioban",
       "miogar",
       "miohou",
       "mioici",
@@ -1685,7 +1604,6 @@
       "miotan"
     ],
     "english": [
-      "deer",
       "bear",
       "wolf",
       "monkey",
@@ -1704,7 +1622,6 @@
       "mogali",
       "moulu",
       "moval",
-      "moyame",
       "moyi"
     ],
     "english": [
@@ -1712,7 +1629,6 @@
       "coffee",
       "milk",
       "ice",
-      "spice",
       "sugar"
     ],
     "natural_language": "Hawaiian moku (to eat, archaic); Swahili mlo (meal); Korean 먹다 (meokda = to eat); Japanese もぐもぐ (mogu-mogu = onomatopoeia for eating/chewing)"
@@ -1743,13 +1659,11 @@
     "meaning": "food containers",
     "oravia": [
       "molbai",
-      "molwa",
       "molcui",
       "molvou"
     ],
     "english": [
       "cup",
-      "jar",
       "bowl",
       "bottle"
     ],
@@ -1765,18 +1679,14 @@
       "mufiva",
       "muvardur",
       "muliwa",
-      "mus",
-      "muvuson",
-      "muwos"
+      "mus"
     ],
     "english": [
       "snake",
       "reptile",
       "mouse",
       "frog",
-      "insect",
-      "snail",
-      "squid"
+      "insect"
     ],
     "natural_language": "Swahili mdudu (insect, bug); Japanese 虫 (mushi = insect, bug, worm)"
   },
@@ -1786,13 +1696,11 @@
     "cluster": "smaller animals",
     "meaning": "flying animals",
     "oravia": [
-      "muhcar",
       "muhin",
       "muhpili",
       "muhsis"
     ],
     "english": [
-      "eagle",
       "bee",
       "bird",
       "mosquito"
@@ -1807,7 +1715,6 @@
     "oravia": [
       "nehen",
       "neiden",
-      "nelem",
       "neliu",
       "neloa",
       "nepui",
@@ -1817,7 +1724,6 @@
     "english": [
       "each",
       "develop",
-      "leftover",
       "other",
       "all",
       "any",
@@ -1832,12 +1738,9 @@
     "cluster": "function words",
     "meaning": "function words",
     "oravia": [
-      "noan",
       "noder",
-      "nohei",
       "noi",
       "noli",
-      "nolili",
       "nomie",
       "none",
       "noniu",
@@ -1846,17 +1749,14 @@
       "no"
     ],
     "english": [
-      "verb",
       "yet",
-      "pronoun",
-      "this",
+      "here",
       "now",
-      "always",
       "seem",
       "have",
       "some",
       "already",
-      "should",
+      "suggestion",
       "so"
     ],
     "natural_language": "Latin non (negation, downward movement in discourse); Japanese の (no = possessive particle)"
@@ -1890,7 +1790,7 @@
       "oifu",
       "oihi",
       "oila",
-      "oimel",
+      "oihica",
       "oimin",
       "oines",
       "oipili",
@@ -1922,21 +1822,15 @@
     "meaning": "sound, music",
     "oravia": [
       "omapa",
-      "omlufu",
       "omco",
       "omja",
-      "omlia",
-      "ompili",
-      "ombum"
+      "omlia"
     ],
     "english": [
       "dance",
-      "horn",
       "voice",
-      "guitar",
-      "sing",
-      "piano",
-      "drum"
+      "musical instrument",
+      "sing"
     ],
     "natural_language": "Sanskrit om/aum (the primordial sound, universal vibration — foundational to Hindu/Buddhist traditions); Japanese 音 (on/oto = sound, music); Korean 음 (eum = sound, music)"
   },
@@ -1948,7 +1842,6 @@
     "oravia": [
       "pocan",
       "pocor",
-      "podau",
       "poelve",
       "pogai",
       "pomia",
@@ -1957,7 +1850,6 @@
     "english": [
       "mass",
       "waste",
-      "meter",
       "pure",
       "atom",
       "mixture",
@@ -1986,15 +1878,14 @@
     "type": "subcluster",
     "sound": "poh",
     "cluster": "components",
-    "meaning": "energy, fire",
+    "meaning": "energy, energize, energetic, fire",
     "oravia": [
       "pohcavo",
       "pohem",
       "pohpoh",
       "pohivi",
       "pohnen",
-      "pohufu",
-      "pohyaro"
+      "pohufu"
     ],
     "english": [
       "fuel",
@@ -2002,8 +1893,7 @@
       "fire",
       "electric",
       "power",
-      "steam",
-      "energy"
+      "steam"
     ],
     "natural_language": "Greek πῦρ (pyr = fire); PIE *péh₂ur (fire)"
   },
@@ -2016,15 +1906,13 @@
       "poiena",
       "poilua",
       "poilumo",
-      "poiwa",
-      "poiyal"
+      "poiwa"
     ],
     "english": [
       "filter",
       "flow",
       "oil",
-      "liquid",
-      "liter"
+      "liquid"
     ],
     "natural_language": ""
   },
@@ -2040,7 +1928,8 @@
       "rapas",
       "raleo",
       "ralua",
-      "rani"
+      "rani",
+      "rarul"
     ],
     "english": [
       "nation",
@@ -2049,7 +1938,8 @@
       "elect",
       "race",
       "environment",
-      "resource"
+      "resource",
+      "tradition"
     ],
     "natural_language": "Sanskrit राष्ट्र rastra (state, polity, society)"
   },
@@ -2062,7 +1952,6 @@
       "raidana",
       "raidoi",
       "raihei",
-      "railem",
       "railiu",
       "rainen",
       "raihucu",
@@ -2077,7 +1966,6 @@
       "surrender",
       "rebel",
       "citizen",
-      "asylum",
       "foreign",
       "police",
       "law",
@@ -2176,13 +2064,11 @@
     "cluster": "knowledge",
     "meaning": "written knowledge",
     "oravia": [
-      "roucou",
       "roudal",
       "roudi",
       "roumir"
     ],
     "english": [
-      "article",
       "read",
       "write",
       "book"
@@ -2201,8 +2087,7 @@
       "sehucu",
       "sero",
       "seseri",
-      "setin",
-      "sever"
+      "sesa"
     ],
     "english": [
       "button",
@@ -2211,8 +2096,7 @@
       "command",
       "memory",
       "menu",
-      "package",
-      "key"
+      "machine"
     ],
     "natural_language": "Mandarin 设备 (shèbèi = equipment)"
   },
@@ -2239,15 +2123,13 @@
     "type": "subcluster",
     "sound": "sem",
     "cluster": "machine",
-    "meaning": "system",
+    "meaning": "system, systematic, systematize, organize, manage",
     "oravia": [
-      "semiru",
-      "semtela",
+      "semleo",
       "semvir"
     ],
     "english": [
       "type",
-      "system",
       "method"
     ],
     "natural_language": "Greek σύστημα systema (system)"
@@ -2259,7 +2141,6 @@
     "meaning": "processes",
     "oravia": [
       "sigai",
-      "simei",
       "simia",
       "sihei",
       "siram",
@@ -2270,7 +2151,6 @@
     ],
     "english": [
       "virus",
-      "spy",
       "random",
       "robot",
       "flash",
@@ -2285,19 +2165,15 @@
     "type": "subcluster",
     "sound": "sio",
     "cluster": "process",
-    "meaning": "games",
+    "meaning": "game, play",
     "oravia": [
       "sioce",
-      "sioer",
-      "siofal",
       "siojai",
       "sioju",
       "simir"
     ],
     "english": [
       "puzzle",
-      "game",
-      "toy",
       "solve",
       "trick",
       "complex"
@@ -2310,7 +2186,6 @@
     "cluster": "harm",
     "meaning": "harm, damage",
     "oravia": [
-      "tila",
       "ticati",
       "tidac",
       "tidetu",
@@ -2320,14 +2195,10 @@
       "tilira",
       "timu",
       "tinen",
-      "tiriju",
       "titata",
-      "titodom",
-      "tigim",
-      "tivonpu"
+      "tigim"
     ],
     "english": [
-      "curse",
       "slave",
       "beat",
       "die",
@@ -2337,11 +2208,8 @@
       "blame",
       "venom",
       "break",
-      "deceive",
       "steal",
-      "hell",
-      "hate",
-      "accuse"
+      "hate"
     ],
     "natural_language": "Tamil தீ (tī = fire, harm, danger); Hindi तीखा (tīkhā = sharp, piercing, harmful)"
   },
@@ -2399,14 +2267,13 @@
     "cluster": "suffer",
     "meaning": "emotional suffering",
     "oravia": [
-      "toharou",
-      "tohbian",
+      "tohiloi",
+      "tohmia",
       "tohdin",
-      "tohlel",
+      "tohfou",
       "tohlora",
       "tohnaru",
       "tohpu",
-      "tohsum",
       "tohvi",
       "tohvor"
     ],
@@ -2418,7 +2285,6 @@
       "crazy",
       "anger",
       "sad",
-      "envy",
       "emotion",
       "fear"
     ],
@@ -2430,16 +2296,18 @@
     "cluster": "suffer",
     "meaning": "interpersonal suffering",
     "oravia": [
-      "tosleva",
-      "tosnar",
+      "tosvari",
+      "tosvio",
       "tostale",
-      "tosrei"
+      "tosrei",
+      "tosdai"
     ],
     "english": [
       "betrayal",
       "revenge",
       "offend",
-      "bitter"
+      "bitter",
+      "envy"
     ],
     "natural_language": "Greek pathos (suffering, passion)"
   },
@@ -2451,7 +2319,7 @@
     "oravia": [
       "toului",
       "toumo",
-      "tounir",
+      "tounen",
       "touros",
       "touvei",
       "touwa"
@@ -2474,13 +2342,11 @@
     "oravia": [
       "tuapa",
       "tugom",
-      "tunen",
       "turai"
     ],
     "english": [
       "attack",
       "barrage",
-      "violence",
       "war"
     ],
     "natural_language": "Latin tumultus (conflict, violent disorder)"
@@ -2508,12 +2374,10 @@
     "cluster": "conflict",
     "meaning": "weapons",
     "oravia": [
-      "tumjeh",
       "tumjum",
       "tumlovi"
     ],
     "english": [
-      "weapon",
       "gun",
       "arrow"
     ],
@@ -2525,7 +2389,6 @@
     "cluster": "body parts",
     "meaning": "core",
     "oravia": [
-      "vamiu",
       "vanou",
       "vavari",
       "vavi",
@@ -2534,7 +2397,6 @@
       "vatale"
     ],
     "english": [
-      "spine",
       "butt",
       "back",
       "pelvis",
@@ -2550,7 +2412,6 @@
     "cluster": "body parts",
     "meaning": "limbs",
     "oravia": [
-      "vanci",
       "vandi",
       "vanen",
       "vanu",
@@ -2560,7 +2421,6 @@
       "vanvu"
     ],
     "english": [
-      "elbow",
       "finger",
       "fist",
       "arm",
@@ -2582,9 +2442,8 @@
       "varluan",
       "varmo",
       "varodu",
-      "varon",
       "varparo",
-      "varpi",
+      "varasi",
       "varsus"
     ],
     "english": [
@@ -2593,7 +2452,6 @@
       "tongue",
       "mouth",
       "head",
-      "cheek",
       "face",
       "nose",
       "ear"
@@ -2627,7 +2485,7 @@
     "type": "subcluster",
     "sound": "vel",
     "cluster": "health",
-    "meaning": "medical treatments",
+    "meaning": "health, medical treatment",
     "oravia": [
       "velan",
       "velmo",
@@ -2691,14 +2549,10 @@
     "meaning": "external body",
     "oravia": [
       "vonlu",
-      "vonmo",
-      "vonici",
       "vonyas"
     ],
     "english": [
       "skin",
-      "lip",
-      "nail",
       "hair"
     ],
     "natural_language": ""
@@ -2712,8 +2566,8 @@
       "vosfan",
       "vosfou",
       "vosjam",
-      "vosrol",
-      "vosvo",
+      "vosbua",
+      "vosdama",
       "vosvosi",
       "vosyec"
     ],
@@ -2737,9 +2591,7 @@
       "waveni",
       "wamitan",
       "walufu",
-      "wamon",
       "wamu",
-      "wanenou",
       "wanon",
       "warel",
       "wawowo",
@@ -2749,9 +2601,7 @@
       "beach",
       "whale",
       "sail",
-      "cave",
       "fish",
-      "dive",
       "swim",
       "cliff",
       "float",
@@ -2770,7 +2620,6 @@
       "wilimel",
       "winou",
       "wirel",
-      "witel",
       "wiyar"
     ],
     "english": [
@@ -2779,7 +2628,6 @@
       "west",
       "south",
       "north",
-      "map",
       "east"
     ],
     "natural_language": "Arabic وين (wayn = where?)"
@@ -2790,13 +2638,11 @@
     "cluster": "geography",
     "meaning": "human made geography",
     "oravia": [
-      "wilwatai",
       "wilgai",
       "wiltan",
       "wilyel"
     ],
     "english": [
-      "canal",
       "village",
       "city",
       "bridge"
@@ -2899,22 +2745,18 @@
     "oravia": [
       "yedi",
       "yejae",
-      "yeleno",
+      "yedelei",
       "yemiudu",
-      "yemus",
-      "yewamus",
-      "yeyel",
-      "yemuh"
+      "yerira",
+      "yeyel"
     ],
     "english": [
       "stripe",
       "bag",
       "cotton",
       "pillow",
-      "silk",
       "net",
-      "sew",
-      "feather"
+      "sew"
     ],
     "natural_language": "Turkish yelken (sail/large expanse of fabric)"
   },
@@ -2922,10 +2764,9 @@
     "type": "subcluster",
     "sound": "yes",
     "cluster": "clothing",
-    "meaning": "garments",
+    "meaning": "garments, wear, get dressed",
     "oravia": [
       "yesdora",
-      "yesjin",
       "yesmel",
       "yesnou",
       "yespai",
@@ -2935,7 +2776,6 @@
     ],
     "english": [
       "tie",
-      "jeans",
       "dress",
       "pants",
       "shoe",
@@ -2951,23 +2791,19 @@
     "cluster": "colors",
     "meaning": "colors",
     "oravia": [
-      "yogali",
       "yopoh",
-      "yolimel",
+      "yomel",
       "yoyo",
       "yosari",
       "yoyar",
-      "yoyodur",
       "yoyol"
     ],
     "english": [
-      "brown",
       "red",
       "dark",
       "colorful",
       "yellow",
       "white",
-      "diamond",
       "blue"
     ],
     "natural_language": "Yoruba yọ (to emerge)"
@@ -2980,7 +2816,7 @@
     "oravia": [
       "yuba",
       "yudur",
-      "yufer",
+      "yuleno",
       "yugai",
       "yuloa",
       "yumin",
@@ -3005,14 +2841,13 @@
     "type": "subcluster",
     "sound": "yun",
     "cluster": "subjective qualities",
-    "meaning": "personal characteristics",
+    "meaning": "characteristics, qualities",
     "oravia": [
       "yunfou",
       "yungei",
       "yungi",
       "yunitam",
-      "yunmir",
-      "yunmpou",
+      "yunsun",
       "yunrani",
       "yunro"
     ],
@@ -3021,7 +2856,6 @@
       "ugly",
       "proud",
       "special",
-      "rich",
       "lazy",
       "beautiful",
       "smart"
@@ -3035,14 +2869,12 @@
     "oravia": [
       "eloan",
       "ilian",
-      "noan",
       "tiuan",
       "ciuan"
     ],
     "english": [
       "thanks",
       "know",
-      "verb",
       "crime",
       "project"
     ],
@@ -3055,12 +2887,14 @@
     "oravia": [
       "apani",
       "eodani",
-      "iloani"
+      "iloani",
+      "coani"
     ],
     "english": [
       "pull",
       "meet",
-      "to care about"
+      "to care about",
+      "receive"
     ],
     "natural_language": "Latin animus (directed will); Japanese に ni (toward, directional particle)"
   },
@@ -3084,12 +2918,10 @@
     "meaning": "flat",
     "oravia": [
       "borcai",
-      "jecai",
       "jocai"
     ],
     "english": [
       "wall",
-      "fence",
       "sheet"
     ],
     "natural_language": "Sanskrit चय caya (flat layer)"
@@ -3128,12 +2960,10 @@
     "meaning": "sharp",
     "oravia": [
       "jahci",
-      "vanci",
       "yahci"
     ],
     "english": [
       "knife",
-      "elbow",
       "sharp"
     ],
     "natural_language": "Mandarin 刺 cì (to stab, prick, sharp); Arabic سكين sikkīn (knife, sharp); Sanskrit छिद् chid (to cut, sharp action); Swahili kisu (knife, sharp)"
@@ -3180,11 +3010,15 @@
     "meaning": "desire",
     "oravia": [
       "anidai",
-      "ilidai"
+      "codai",
+      "ilidai",
+      "tosdai"
     ],
     "english": [
       "want",
-      "intention"
+      "request",
+      "intention",
+      "envy"
     ],
     "natural_language": ""
   },
@@ -3223,12 +3057,10 @@
     "sound": "dau",
     "meaning": "distance",
     "oravia": [
-      "nordau",
-      "podau"
+      "nordau"
     ],
     "english": [
-      "far",
-      "meter"
+      "far"
     ],
     "natural_language": ""
   },
@@ -3269,10 +3101,12 @@
     "sound": "detu",
     "meaning": "end",
     "oravia": [
+      "anedetu",
       "tidetu",
       "yadetu"
     ],
     "english": [
+      "stop",
       "die",
       "finish"
     ],
@@ -3283,13 +3117,11 @@
     "sound": "di",
     "meaning": "stripe, finger",
     "oravia": [
-      "madi",
       "roudi",
       "vandi",
       "yedi"
     ],
     "english": [
-      "noodle",
       "write",
       "finger",
       "stripe"
@@ -3299,7 +3131,7 @@
   {
     "type": "root",
     "sound": "do",
-    "meaning": "regulations",
+    "meaning": "can, able",
     "oravia": [
       "ando",
       "dodo"
@@ -3410,29 +3242,13 @@
   },
   {
     "type": "root",
-    "sound": "fe",
-    "meaning": "halting",
-    "oravia": [
-      "anefe",
-      "asfe"
-    ],
-    "english": [
-      "put",
-      "pause"
-    ],
-    "natural_language": "Turkish fren (brake)"
-  },
-  {
-    "type": "root",
     "sound": "fei",
     "meaning": "less",
     "oravia": [
-      "daefei",
       "gafei",
       "poarofei"
     ],
     "english": [
-      "criticize",
       "less",
       "alcohol"
     ],
@@ -3441,15 +3257,13 @@
   {
     "type": "root",
     "sound": "fene",
-    "meaning": "rest",
+    "meaning": "rest, put, place",
     "oravia": [
-      "anefene",
       "apafene",
       "asfene",
       "bonfene"
     ],
     "english": [
-      "rest",
       "sit",
       "sleep",
       "bed"
@@ -3493,14 +3307,16 @@
       "gefou",
       "leafou",
       "vosfou",
-      "yunfou"
+      "yunfou",
+      "tohfou"
     ],
     "english": [
       "need",
       "debt",
       "desert",
       "dry",
-      "poor"
+      "poor",
+      "miss"
     ],
     "natural_language": "English few"
   },
@@ -3524,7 +3340,6 @@
     "meaning": "small",
     "oravia": [
       "ciugai",
-      "jegai",
       "leigai",
       "litegai",
       "pogai",
@@ -3536,9 +3351,8 @@
     ],
     "english": [
       "detail",
-      "narrow",
       "shrub",
-      "minute",
+      "second (time)",
       "atom",
       "virus",
       "cell",
@@ -3567,14 +3381,27 @@
     "sound": "ge",
     "meaning": "finances",
     "oravia": [
-      "rage",
-      "togei"
+      "rage"
     ],
     "english": [
-      "economy",
-      "disgust"
+      "economy"
     ],
     "natural_language": "Proto-Germanic *geldan (to pay); German Geld (money); Dutch geld (money)"
+  },
+  {
+    "type": "root",
+    "sound": "gei",
+    "cluster": null,
+    "meaning": "ugly",
+    "oravia": [
+      "togei",
+      "yungei"
+    ],
+    "english": [
+      "disgust",
+      "ugly"
+    ],
+    "natural_language": ""
   },
   {
     "type": "root",
@@ -3630,7 +3457,7 @@
     ],
     "english": [
       "message",
-      "talk"
+      "say"
     ],
     "natural_language": "Swahili habari (news, message)"
   },
@@ -3642,7 +3469,6 @@
       "elihei",
       "gaohei",
       "ilhei",
-      "nohei",
       "raihei",
       "sihei"
     ],
@@ -3650,7 +3476,6 @@
       "self",
       "neutral",
       "people",
-      "pronoun",
       "citizen",
       "robot"
     ],
@@ -3662,11 +3487,13 @@
     "meaning": "projecting outward",
     "oravia": [
       "apahela",
-      "cohela"
+      "cohela",
+      "gaehela"
     ],
     "english": [
       "throw",
-      "send"
+      "send",
+      "effect"
     ],
     "natural_language": "Sanskrit हेल् hel (to throw, sport)"
   },
@@ -3676,12 +3503,10 @@
     "meaning": "warmth",
     "oravia": [
       "lunhem",
-      "mahem",
       "pohem"
     ],
     "english": [
       "summer",
-      "fry",
       "heat"
     ],
     "natural_language": ""
@@ -3719,11 +3544,9 @@
     "sound": "hue",
     "meaning": "haze",
     "oravia": [
-      "luhue",
       "tulhue"
     ],
     "english": [
-      "mist",
       "smoke"
     ],
     "natural_language": ""
@@ -3733,12 +3556,10 @@
     "sound": "hui",
     "meaning": "ethereal",
     "oravia": [
-      "elehui",
-      "hehui"
+      "elehui"
     ],
     "english": [
-      "soul",
-      "ghost"
+      "soul"
     ],
     "natural_language": "Mandarin 魂 hún (soul, spirit)"
   },
@@ -3768,7 +3589,7 @@
     ],
     "english": [
       "use",
-      "guitar"
+      "musical instrument"
     ],
     "natural_language": "Arabic jihāz (apparatus, equipment)"
   },
@@ -3779,13 +3600,11 @@
     "oravia": [
       "bejae",
       "bonjae",
-      "jojae",
       "yejae"
     ],
     "english": [
       "luggage",
       "cabinet",
-      "basket",
       "bag"
     ],
     "natural_language": "Portuguese/Spanish/Arabic جَرَّة jarra (large container, jar); Hindi जार jār (jar, container)"
@@ -3810,11 +3629,13 @@
     "meaning": "temporary",
     "oravia": [
       "bejui",
-      "yaljui"
+      "yaljui",
+      "anejui"
     ],
     "english": [
       "rent",
-      "short"
+      "short",
+      "pause"
     ],
     "natural_language": "Hindi/Urdu jugāṛ (makeshift, temporary fix)"
   },
@@ -3839,30 +3660,28 @@
     "oravia": [
       "daelan",
       "gaolan",
-      "jeolan",
       "velan"
     ],
     "english": [
       "evaluate",
       "balance",
-      "center",
       "therapy"
     ],
     "natural_language": "Hindi संतुलन saṁtulana (balance, equilibrium)"
   },
   {
     "type": "root",
-    "sound": "lano",
-    "meaning": "around",
+    "sound": "bua",
+    "meaning": "circle, round, around, wheel",
     "oravia": [
-      "aselano",
-      "jalano",
-      "jelano"
+      "asebua",
+      "jabua",
+      "vosbua"
     ],
     "english": [
       "hug",
       "ball",
-      "circle"
+      "curl"
     ],
     "natural_language": ""
   },
@@ -3883,7 +3702,7 @@
   {
     "type": "root",
     "sound": "le",
-    "meaning": "environment",
+    "meaning": "environment, nature",
     "oravia": [
       "jele",
       "wile"
@@ -3900,11 +3719,13 @@
     "meaning": "plants",
     "oravia": [
       "lealei",
-      "jalei"
+      "jalei",
+      "yedelei"
     ],
     "english": [
       "forest",
-      "stick"
+      "stick",
+      "cotton"
     ],
     "natural_language": "Mandarin 蕾 (lěi = flower bud, plant growth)"
   },
@@ -3915,16 +3736,12 @@
     "oravia": [
       "anelem",
       "beilem",
-      "jolem",
-      "nelem",
-      "railem"
+      "jolem"
     ],
     "english": [
       "keep",
       "station",
-      "box",
-      "leftover",
-      "asylum"
+      "box"
     ],
     "natural_language": "Greek λῆμμα lēmma (something taken and kept)"
   },
@@ -3950,29 +3767,33 @@
     "meaning": "ground",
     "oravia": [
       "apaleno",
-      "yeleno"
+      "yuleno"
     ],
     "english": [
       "dig",
-      "cotton"
+      "dirty"
     ],
     "natural_language": "Spanish llano (flat ground)"
   },
   {
     "type": "root",
     "sound": "leo",
-    "meaning": "belonging",
+    "meaning": "belonging, member",
     "oravia": [
+      "anleo",
       "elileo",
       "eoleo",
       "gaoleo",
-      "raleo"
+      "raleo",
+      "semleo"
     ],
     "english": [
+      "contribute",
       "kind",
       "member",
       "value",
-      "race"
+      "race",
+      "type"
     ],
     "natural_language": ""
   },
@@ -4025,12 +3846,10 @@
     "sound": "limel",
     "meaning": "evening",
     "oravia": [
-      "wilimel",
-      "yolimel"
+      "wilimel"
     ],
     "english": [
-      "west",
-      "dark"
+      "west"
     ],
     "natural_language": "Arabic لَيْل layl (night)"
   },
@@ -4053,10 +3872,12 @@
     "sound": "liu",
     "meaning": "other",
     "oravia": [
+      "galiu",
       "neliu",
       "railiu"
     ],
     "english": [
+      "vary",
       "other",
       "foreign"
     ],
@@ -4121,7 +3942,7 @@
       "varluan"
     ],
     "english": [
-      "say",
+      "speak",
       "tongue"
     ],
     "natural_language": "Arabic لِسَان lisān (tongue)"
@@ -4180,13 +4001,11 @@
     "meaning": "existence, being",
     "oravia": [
       "dami",
-      "elemi",
-      "litemi"
+      "elemi"
     ],
     "english": [
       "exist",
-      "life",
-      "second (time)"
+      "life"
     ],
     "natural_language": "Swahili mnyama (animal, with m- animate class prefix)"
   },
@@ -4196,11 +4015,13 @@
     "meaning": "mixing",
     "oravia": [
       "pomia",
-      "simia"
+      "simia",
+      "tohmia"
     ],
     "english": [
       "mixture",
-      "random"
+      "random",
+      "confusion"
     ],
     "natural_language": ""
   },
@@ -4241,7 +4062,7 @@
       "heimir",
       "roumir",
       "simir",
-      "yunmir",
+      "gemir",
       "yamirpas"
     ],
     "english": [
@@ -4249,7 +4070,7 @@
       "awesome",
       "book",
       "complex",
-      "rich",
+      "wealth",
       "popular"
     ],
     "natural_language": "Sanskrit मीर mīr (leader of many)"
@@ -4260,13 +4081,11 @@
     "meaning": "support",
     "oravia": [
       "elomiu",
-      "eomiu",
-      "vamiu"
+      "eomiu"
     ],
     "english": [
       "aid",
-      "support",
-      "spine"
+      "support"
     ],
     "natural_language": ""
   },
@@ -4279,7 +4098,6 @@
       "toumo",
       "varmo",
       "velmo",
-      "vonmo",
       "boemo"
     ],
     "english": [
@@ -4287,7 +4105,6 @@
       "hungry",
       "mouth",
       "pill",
-      "lip",
       "kitchen"
     ],
     "natural_language": "Hawaiian moku (to eat, archaic); Swahili mlo (meal); Korean 먹다 meokda (to eat); Japanese もぐもぐ mogu-mogu (onomatopoeia for eating, chewing)"
@@ -4298,13 +4115,11 @@
     "meaning": "small animal",
     "oravia": [
       "timu",
-      "wamu",
-      "yemus"
+      "wamu"
     ],
     "english": [
       "venom",
-      "fish",
-      "silk"
+      "fish"
     ],
     "natural_language": "Swahili mdudu (insect, bug); Japanese 虫 mushi (insect, bug, worm)"
   },
@@ -4363,7 +4178,7 @@
       "pohnen",
       "rainen",
       "tinen",
-      "tunen",
+      "tounen",
       "vanen"
     ],
     "english": [
@@ -4371,7 +4186,7 @@
       "power",
       "police",
       "break",
-      "violence",
+      "weak",
       "fist"
     ],
     "natural_language": "Latin imponens (imposing)"
@@ -4439,7 +4254,7 @@
   {
     "type": "root",
     "sound": "non",
-    "meaning": "path",
+    "meaning": "path, way, manner",
     "oravia": [
       "elenon",
       "jenon",
@@ -4521,7 +4336,7 @@
   {
     "type": "root",
     "sound": "ora",
-    "meaning": "idea",
+    "meaning": "idea, reason",
     "oravia": [
       "rora",
       "elaora",
@@ -4541,11 +4356,9 @@
     "sound": "pa",
     "meaning": "paper",
     "oravia": [
-      "ciupa",
       "coupa"
     ],
     "english": [
-      "paper",
       "card"
     ],
     "natural_language": "Latin papyrus (paper); English paper (from papyrus)"
@@ -4594,6 +4407,22 @@
   },
   {
     "type": "root",
+    "sound": "pe",
+    "meaning": "middle",
+    "oravia": [
+      "ganpe",
+      "jeope",
+      "litepe"
+    ],
+    "english": [
+      "average",
+      "middle",
+      "minute"
+    ],
+    "natural_language": ""
+  },
+  {
+    "type": "root",
     "sound": "pili",
     "meaning": "delicate",
     "oravia": [
@@ -4601,23 +4430,21 @@
       "leipili",
       "lunpili",
       "muhpili",
-      "oipili",
-      "ompili"
+      "oipili"
     ],
     "english": [
       "fairy",
       "flower",
       "spring",
       "bird",
-      "cute",
-      "piano"
+      "cute"
     ],
     "natural_language": ""
   },
   {
     "type": "root",
     "sound": "poh",
-    "meaning": "energy",
+    "meaning": "energy, energize, energetic",
     "oravia": [
       "pohpoh",
       "yopoh",
@@ -4633,7 +4460,7 @@
   {
     "type": "root",
     "sound": "popo",
-    "meaning": "echo",
+    "meaning": "echo, reflection",
     "oravia": [
       "jopopo",
       "sepopo"
@@ -4710,7 +4537,6 @@
     "meaning": "up, high",
     "oravia": [
       "borel",
-      "dorel",
       "garel",
       "warel",
       "wirel",
@@ -4718,7 +4544,6 @@
     ],
     "english": [
       "ceiling",
-      "tolerate",
       "rise",
       "cliff",
       "north",
@@ -4762,12 +4587,10 @@
     "meaning": "act",
     "oravia": [
       "elori",
-      "eori",
       "tiuri"
     ],
     "english": [
       "act",
-      "polite",
       "abuse"
     ],
     "natural_language": ""
@@ -4780,9 +4603,6 @@
       "aparih",
       "elarih",
       "ganrih",
-      "heirih",
-      "jarih",
-      "jerih",
       "leirih",
       "wimrih"
     ],
@@ -4790,9 +4610,6 @@
       "jump",
       "god",
       "above",
-      "angel",
-      "ladder",
-      "tower",
       "tree",
       "mountain"
     ],
@@ -4822,6 +4639,22 @@
   },
   {
     "type": "root",
+    "sound": "ros",
+    "meaning": "tense, tight",
+    "oravia": [
+      "aparos",
+      "jeros",
+      "touros"
+    ],
+    "english": [
+      "close",
+      "narrow",
+      "tense"
+    ],
+    "natural_language": ""
+  },
+  {
+    "type": "root",
     "sound": "ru",
     "meaning": "bend",
     "oravia": [
@@ -4836,17 +4669,33 @@
   },
   {
     "type": "root",
+    "sound": "rira",
+    "meaning": "grid, internet",
+    "oravia": [
+      "marira",
+      "yerira"
+    ],
+    "english": [
+      "grill",
+      "net"
+    ],
+    "natural_language": ""
+  },
+  {
+    "type": "root",
     "sound": "rul",
     "meaning": "recurrence",
     "oravia": [
       "ciurul",
       "elarul",
-      "lirul"
+      "lirul",
+      "rarul"
     ],
     "english": [
       "rhyme",
       "rite",
-      "custom"
+      "custom",
+      "tradition"
     ],
     "natural_language": "English rule; Hindi रोल rol (role, habit)"
   },
@@ -4856,13 +4705,11 @@
     "meaning": "hang",
     "oravia": [
       "apasar",
-      "gehsar",
-      "jasar"
+      "gehsar"
     ],
     "english": [
       "hang",
-      "charge",
-      "hook"
+      "price"
     ],
     "natural_language": "Turkish sarkmak (to hang down)"
   },
@@ -4900,12 +4747,10 @@
     "meaning": "series",
     "oravia": [
       "ciuseri",
-      "eomseri",
       "seseri"
     ],
     "english": [
       "horizontal",
-      "parade",
       "menu"
     ],
     "natural_language": "Latin series (sequence, series)"
@@ -4949,6 +4794,7 @@
     "oravia": [
       "anisu",
       "dasu",
+      "dohsu",
       "elasu",
       "eomsu",
       "fasu",
@@ -4959,6 +4805,7 @@
     "english": [
       "bring",
       "accept",
+      "obey",
       "faith",
       "party",
       "sibling",
@@ -4989,20 +4836,16 @@
   {
     "type": "root",
     "sound": "tai",
-    "meaning": "guide",
+    "meaning": "guide, leader",
     "oravia": [
       "rastai",
       "antai",
-      "jetai",
-      "wilwatai",
-      "apahotai"
+      "jetai"
     ],
     "english": [
       "politics",
       "lead",
-      "direction",
-      "canal",
-      "wander"
+      "direction"
     ],
     "natural_language": "Mandarin 带 dài (lead)"
   },
@@ -5011,12 +4854,10 @@
     "sound": "tal",
     "meaning": "door",
     "oravia": [
-      "betal",
       "bortal",
       "matal"
     ],
     "english": [
-      "lobby",
       "door",
       "oven"
     ],
@@ -5028,12 +4869,10 @@
     "meaning": "through",
     "oravia": [
       "tostale",
-      "boetale",
       "jentale"
     ],
     "english": [
       "offend",
-      "hall",
       "through"
     ],
     "natural_language": "Welsh taith (journey, passage)"
@@ -5093,12 +4932,10 @@
     "sound": "tel",
     "meaning": "image",
     "oravia": [
-      "ciutel",
-      "witel"
+      "ciutel"
     ],
     "english": [
-      "image",
-      "map"
+      "image"
     ],
     "natural_language": "English television; Arabic تِلِيفِزْيُون tilifiziyūn (television); Swahili televisheni (television)"
   },
@@ -5136,15 +4973,11 @@
     "meaning": "bad, harm",
     "oravia": [
       "dohti",
-      "hehti",
-      "jati",
       "veiti",
       "titi"
     ],
     "english": [
       "punish",
-      "devil",
-      "whip",
       "tumor",
       "mean"
     ],
@@ -5211,11 +5044,9 @@
     "sound": "var",
     "meaning": "face",
     "oravia": [
-      "couvar",
       "jevar"
     ],
     "english": [
-      "cover",
       "arch"
     ],
     "natural_language": "Sanskrit वक्त्रम् vaktram (face/mouth)"
@@ -5227,11 +5058,13 @@
     "oravia": [
       "anivari",
       "javari",
+      "tosvari",
       "vavari"
     ],
     "english": [
-      "back",
+      "return",
       "tail",
+      "betrayal",
       "back"
     ],
     "natural_language": "Arabic warāʾ (behind, back)"
@@ -5258,15 +5091,13 @@
       "anever",
       "eover",
       "javer",
-      "raiver",
-      "sever"
+      "raiver"
     ],
     "english": [
       "secure",
       "care for",
       "lock",
-      "defend",
-      "key"
+      "defend"
     ],
     "natural_language": "German Wehr (defense, protection)"
   },
@@ -5297,18 +5128,18 @@
     "oravia": [
       "bevio",
       "davio",
-      "gavio",
       "gehvio",
       "heivio",
-      "ranvio"
+      "ranvio",
+      "tosvio"
     ],
     "english": [
       "shop",
       "change",
-      "vary",
       "exchange",
       "magic",
-      "market"
+      "market",
+      "revenge"
     ],
     "natural_language": "Latin via (road, path of change, exchange); Italian/Spanish vía (route of exchange)"
   },
@@ -5366,55 +5197,41 @@
       "anvu",
       "apavu",
       "beivu",
-      "vanvu"
+      "vanvu",
+      "yavuson"
     ],
     "english": [
       "move",
       "run",
       "car",
-      "leg"
-    ],
-    "natural_language": "Mandarin 步 bù (step, pace)"
-  },
-  {
-    "type": "root",
-    "sound": "vuson",
-    "meaning": "slow movement",
-    "oravia": [
-      "muvuson",
-      "yavuson"
-    ],
-    "english": [
-      "snail",
+      "leg",
       "slow"
     ],
-    "natural_language": "Oravia VU (movement) + SON (late)"
+    "natural_language": "Mandarin 步 bù (step, pace)"
   },
   {
     "type": "root",
     "sound": "wa",
     "meaning": "water",
     "oravia": [
-      "molwa",
       "asiwa",
+      "beiwa",
       "leawa",
       "mawa",
       "poiwa",
       "touwa",
       "viwa",
-      "wimwa",
-      "wilwatai"
+      "wimwa"
     ],
     "english": [
-      "jar",
       "pee",
+      "boat",
       "fen",
       "soup",
       "liquid",
       "thirst",
       "blood",
-      "lake",
-      "canal"
+      "lake"
     ],
     "natural_language": "Polynesian root wai (water)"
   },
@@ -5423,6 +5240,7 @@
     "sound": "wol",
     "meaning": "wide",
     "oravia": [
+      "anwol",
       "ilwol",
       "newol",
       "vawol",
@@ -5430,6 +5248,7 @@
       "yeswol"
     ],
     "english": [
+      "spread",
       "thing",
       "beyond",
       "chest",
@@ -5471,11 +5290,9 @@
     "sound": "yal",
     "meaning": "size qualities",
     "oravia": [
-      "poiyal",
       "siyal"
     ],
     "english": [
-      "liter",
       "detect"
     ],
     "natural_language": "Arabic ṭawīl (long, tall, length)"
@@ -5486,9 +5303,7 @@
     "meaning": "light",
     "oravia": [
       "dayar",
-      "heoyar",
       "liyar",
-      "luyar",
       "oiyar",
       "ranyar",
       "wiyar",
@@ -5496,9 +5311,7 @@
     ],
     "english": [
       "obvious",
-      "ray",
       "morning",
-      "light",
       "star",
       "marketing",
       "east",
@@ -5592,13 +5405,11 @@
     "meaning": "benefit",
     "oravia": [
       "anlor",
-      "anliulor",
-      "anlorfi"
+      "anliulor"
     ],
     "english": [
       "benefit",
-      "service",
-      "privilege"
+      "service"
     ],
     "natural_language": ""
   },
@@ -5613,18 +5424,6 @@
     "english": [
       "flour",
       "beach"
-    ],
-    "natural_language": ""
-  },
-  {
-    "type": "root",
-    "sound": "mus",
-    "meaning": "bug",
-    "oravia": [
-      "yemus"
-    ],
-    "english": [
-      "silk"
     ],
     "natural_language": ""
   },

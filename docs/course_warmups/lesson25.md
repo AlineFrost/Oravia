@@ -47,7 +47,7 @@
     ```
     
     ```
-    Nolili a nim faibor a eomiu dia. A faiborar a anocari dia. 
+    Lilaro a nim faibor a eomiu dia. A faiborar a anocari dia. 
     ```
     
     ```
@@ -77,7 +77,7 @@
     mai = but  
     mo = food, eat  
     noder = even  
-    nolili = forever  
+    lilaro = forever  
     nomie = seems  
     vardur = tooth, bite
     yani = new  

@@ -29,7 +29,7 @@ Did you know? In Italian, *ma*, which is similar to *mai*, also means *but*; and
 
 </details>
 
-`i mo dou i anefene?`
+`i mo dou i fene?`
 
 <details class="example-translation">
 <summary>Click to Reveal Translation</summary>
@@ -38,7 +38,7 @@ Did you know? In Italian, *ma*, which is similar to *mai*, also means *but*; and
 
 </details>
 
-`nim i mo, eta i anefene`
+`nim i mo, eta i fene`
 
 <details class="example-translation">
 <summary>Click to Reveal Translation</summary>
@@ -76,7 +76,7 @@ Family members are expressed based on the generation. The sibling is the family 
 |---|---|---|
 | **fasu** | sibling | **FA** family + **SU** alongside |
 | **leini** | seed | **LEI** plants + **NI** new |
-| **eori** | polite, courteous; please | **EO** social + **RI** act |
+| **eoren** | honor, polite; please | **EO** social + **REN** honor |
 | **anro** | decide | **AN** action + **RO** thinking |
 | **oico** | gossip | **OI** fun + **CO** communication |
 
@@ -91,9 +91,9 @@ Look at two of the breakdowns:
     **ilian** = know  
     **anona** = give  
     **eofa** = friend  
-    **anefene** = rest
+    **fene** = rest
 
-`eori, ce i mo?`
+`eoren, ce i mo?`
 
 <details class="example-translation">
 <summary>Click to Reveal Translation</summary>
@@ -138,7 +138,7 @@ Look at two of the breakdowns:
 
 </details>
 
-`i mo dou i anefene?`
+`i mo dou i fene?`
 
 <details class="example-translation">
 <summary>Click to Reveal Translation</summary>

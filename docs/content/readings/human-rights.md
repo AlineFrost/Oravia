@@ -11,21 +11,21 @@
 
 Caora a ilivargor de bofis gaoleo su gaomem ilheis rainevi ca sunya ilhei i do i anita de hayas, de neloa eoleo de ilheis famei, a jeodeh de eloele, dael su elonor en heodom;  
 
-Caora a eorenum su ho eoren de ilheis rainevi i dosaba e titi elori ca i tohnaru e ilhei iliroyar, su a heodom cadom ilhei i oila e eloele u ilahai su ilisu, su eloele de tohvor su anifou, i eoco hue no anodu iloi de ganyu ilhei;  
+Caora a eorenum su ho eoren de ilheis rainevi i dosaba e titi elori ca i tohnaru e ilhei iliroyar, su a heodom cadom ilhei i oila e eloele u ilahai su ilisu, su eloele de tohvor su anifou, i eoco hue no anodu iloi de ganpe ilhei;  
 
 Caora a raiver de ilheis rainevi anja raihucu a anifou, suum ilhei i vil i anita, no yadetu jenon, e raidoi tidoi tiraitar su tiuri;  
 
 Caora a neiden de eofa dameo jenrein radom a anifou;  
 
-Caora ilhei de Radoms Eodyel i eocoar lili en hayas coupa e elasu u jeodeh ilheis rainevi, u bofis gaoleo su gaoleo de ilhei, su u gaomem rainevi de faejal su faejor, su i anroar i neiden e rafa neiden su yuba ganyu de elemi en neron eloele;  
+Caora ilhei de Radoms Eodyel i eocoar lili en hayas coupa e elasu u jeodeh ilheis rainevi, u bofis gaoleo su gaoleo de ilhei, su u gaomem rainevi de faejal su faejor, su i anroar i neiden e rafa neiden su yuba ganpe de elemi en neron eloele;  
 
-Caora eoleo radom i elodaoar i anleo su Radoms Eodyel sora i gaet e heoloa eoren su anja de ilheis rainevi su jeodeh eloele;  
+Caora eoleo radom i elodaoar i anleo su Radoms Eodyel sora i gaehela e heoloa eoren su anja de ilheis rainevi su jeodeh eloele;  
 
-Caora a ganyu ilinou de noi rainevi su eloele a anodu anifou sora yaldih gaet de noi elodao;  
+Caora a ganpe ilinou de noi rainevi su eloele a anodu anifou sora yaldih gaehela de noi elodao;  
 
-Eta, Geyelu de Radoms Eodyel i eoco e noi Heoloa Eoco de Ilheis Rainevi no ganyu gavol de elepan sora neloa ilhei su neloa radom.  
+Eta, Geyelu de Radoms Eodyel i eoco e noi Heoloa Eoco de Ilheis Rainevi no ganpe gavol de elepan sora neloa ilhei su neloa radom.  
 
-Nehen ilhei su nehen eoras de rafa i anelem nolili e noi eoco en iliroyar, i tane i anse anja roena su roesau sora i neiden e eoren u noi rainevi su eloele. Anja neiden elori en radom su jenrein radom, i tane i raiver e heoloa su gaet ilivargor su anja de noi rainevi, en ilhei de eoleo radom su en ilhei de ledom ca hayas i raitar.  
+Nehen ilhei su nehen eoras de rafa i anelem nedas lirul e noi eoco en iliroyar, i tane i anse anja roena su roesau sora i neiden e eoren u noi rainevi su eloele. Anja neiden elori en radom su jenrein radom, i tane i raiver e heoloa su gaehela ilivargor su anja de noi rainevi, en ilhei de eoleo radom su en ilhei de ledom ca hayas i raitar.  
 
 ### Gon 1  
 
@@ -35,11 +35,11 @@ Hayas i none e yunro su iliroyar, su i tane i elori u rein no fasu.
 
 ### Gon 2  
 
-Neloa ilhei i none e neloa rainevi su eloele ca noi eoco i daca, suum gavios elori.  
+Neloa ilhei i none e neloa rainevi su eloele ca noi eoco i daca, suum galius elori.  
 
-Noi i gavioum caora raleo, yoyo, oivamin, varluan, elaora, rastai dou neliu iliro, radom dade dou rafa dade, none, fadevi dou neliu ganter.  
+Noi i galium caora raleo, yoyo, oivamin, varluan, elaora, rastai dou neliu iliro, radom dade dou rafa dade, none, fadevi dou neliu ganter.  
 
-Su, gavios elori i doum i anye caora rastai ganter, raihucu ganter dou jenrein radom ganter de radom dou ledom ca ilhei i eoleo en hay, ia dou a hay a elihei raitar, a raidana, i raitar hue de neliu, dou i none e neliu linu en raitar.  
+Su, galius elori i doum i anye caora rastai ganter, raihucu ganter dou jenrein radom ganter de radom dou ledom ca ilhei i eoleo en hay, ia dou a hay a elihei raitar, a raidana, i raitar hue de neliu, dou i none e neliu linu en raitar.  
 
 ### Gon 3  
 
@@ -61,25 +61,25 @@ Neloa ilhei i none e rainevi ca raihucu i ilivargor e hay no ilhei en neloa dom.
 
 ### Gon 7  
 
-Neloa ilhei a gaomem en raihucu su i none e gaomem raiver de raihucu suum gavios elori.  
+Neloa ilhei a gaomem en raihucu su i none e gaomem raiver de raihucu suum galius elori.  
 
-Neloa i none su e gaomem raiver tidoi gavios elori ca i tiuri e noi eoco, su tidoi anse ca i dosaba e gavios elori.  
+Neloa i none su e gaomem raiver tidoi galius elori ca i tiuri e noi eoco, su tidoi anse ca i dosaba e galius elori.  
 
 ### Gon 8  
 
-Neloa ilhei i none e rainevi u gaet raihucus selota de radom raihucus anros eoras ca i ando i anro, tidoi elori ca i tiuri e jeodeh rainevi ca radoms coupa dou raihucu i anona u hay.  
+Neloa ilhei i none e rainevi u gaehela raihucus selota de radom raihucus anros eoras ca i ando i anro, tidoi elori ca i tiuri e jeodeh rainevi ca radoms coupa dou raihucu i anona u hay.  
 
 ### Gon 9  
 
-Sunya ilhei i rainens sita hue, raivoa hue dou dohtei hue non simia.  
+Sunya ilhei i rainens sita hue, raivoa hue dou dohano hue non simia.  
 
 ### Gon 10  
 
-Neloa ilhei i none e rainevi, non yaldih gaomem, u gaolan su rafa raihucus roejo de raihucus anros eoras, cali i anro e hay rainevi su dohvil, dou noniu tivonpu de tiuan tidoi hay. Noi eoras a gaohei, su neliu i dohtarum e hay.  
+Neloa ilhei i none e rainevi, non yaldih gaomem, u gaolan su rafa raihucus roejo de raihucus anros eoras, cali i anro e hay rainevi su dohvil, dou noniu tilira de tiuan tidoi hay. Noi eoras a gaohei, su neliu i dohtarum e hay.  
 
 ### Gon 11  
 
-1. Neloa ilhei ca i tivonpu hue de dohti tiuan i none e rainevi ca i iliro hue no tiliraum linu raihucu i ciudon e hay tilira, en rafa raihucus roejo cadom hay i none e neloa anifou raiver sora elihei.  
+1. Neloa ilhei ca i tilira hue de dohti tiuan i none e rainevi ca i iliro hue no tiliraum linu raihucu i ciudon e hay tilira, en rafa raihucus roejo cadom hay i none e neloa anifou raiver sora elihei.  
 
 2. Sunya ilhei i tilira hue de dohti tiuan caora elori dou elorium ca a dohti tiuanum anja radom raihucu dou jenrein radom raihucu en litam cali noi i anye. A dohti ca a veihoh ga dohti ca i anore hue en noi litam a tolenu.  
 
@@ -97,7 +97,7 @@ Neloa ilhei i none e rainevi u raihucus raiver tidoi noi tiuri su tuapa.
 
 ### Gon 14  
 
-1. Neloa ilhei i none e rainevi i copei su i oila e railem en neliu radom de anlaro tiuri.  
+1. Neloa ilhei i none e rainevi i copei su i oila e raiver dom en neliu radom de anlaro tiuri.  
 
 2. Noi rainevi i doum i anja cali ilhei i copei hue anja raihucu caora elireva tiuan ca a rastaium, dou caora elori tidoi dasora su rodel de Radoms Eodyel.  
 
@@ -131,7 +131,7 @@ Noi rainevi i none su e eloele i davio e hay elaora dou ilisu, su i ciudon e hay
 
 Neloa ilhei i none e rainevi u eloele de iliro su ilavos.  
 
-Noi rainevi i none su e eloele i anelem e iliro suum tiuri, su i copei, i cohua, su i cohela e coman su iliora anja noniu ranco, noder jenrein radom.  
+Noi rainevi i none su e eloele i anelem e iliro suum tiuri, su i copei, i coani, su i cohela e coman su iliora anja noniu ranco, noder jenrein radom.  
 
 ### Gon 20  
 
@@ -153,13 +153,13 @@ Neloa ilhei, no eoleo de rafa, i none e rainevi u rafas anever.
 
 I none su e rainevi ca i anifou u bofis gaoleo su eloele neiden de elihei: rage rainevi, rafa rainevi su rasora rainevi.  
 
-Noi i tane i gaet anja anse de hay radom su anleo jenrein radom, cane eoras su rani de nehen radom i ando.  
+Noi i tane i gaehela anja anse de hay radom su anleo jenrein radom, cane eoras su rani de nehen radom i ando.  
 
 ### Gon 23  
 
 1. Neloa ilhei i none e rainevi u anse, u eloele anipas de anse, u dael su yuba veinal de anse, su u raiver de anseum.  
 
-2. Neloa ilhei, suum gavios elori, i none e rainevi u gaomem geta sora gaomem anse.  
+2. Neloa ilhei, suum galius elori, i none e rainevi u gaomem geta sora gaomem anse.  
 
 3. Neloa anse hai i none e rainevi u dael su yuba geta ca i anever e norfih elemi sora hay su famei, elemi ca a elonevi de bofis gaoleo. Daehun noi i norfihum, i tane i elomiu anja neliu rafa raiver.  
 
@@ -167,23 +167,23 @@ Noi i tane i gaet anja anse de hay radom su anleo jenrein radom, cane eoras su r
 
 ### Gon 24  
 
-Neloa ilhei i none e rainevi u anefene su oi li, su u gaolan linu de anse litetan su lirul anefene litam anja geta.  
+Neloa ilhei i none e rainevi u fene su oi li, su u gaolan linu de anse litetan su lirul fene litam anja geta.  
 
 ### Gon 25  
 
-1. Neloa ilhei i none e rainevi u ganyu elemi ca a norfih sora vei su yuba elemi de hay su famei. Noi i none e mo, yes, bo, velan su anifou rafa anliulor.  
+1. Neloa ilhei i none e rainevi u ganpe elemi ca a norfih sora vei su yuba elemi de hay su famei. Noi i none e mo, yes, bo, velan su anifou rafa anliulor.  
 
 I none su e rainevi u anever cali i anseum, i touvei, a ganou ando veinal, faibor i tidetu, a hay a yamirli, dou i anopu e rani sora elemi caora veinal ca hay i doum i dohtar.  
 
-2. Farejor su falen i none e rainevi u yunitam eover su elomiu. Neloa falen i none e gaomem rafa raiver, noder faigel ganter de hayas fare.  
+2. Jor fare su falfal i none e rainevi u yunitam eover su elomiu. Neloa falfal i none e gaomem rafa raiver, noder faigel ganter de hayas fare.  
 
 ### Gon 26  
 
-1. Neloa ilhei i none e rainevi u roena. Jeodeh roena i tane a suum gerina, su i vil i anita hue de neloa falen. Ranvir su anse roena i tane i dami en mir dom. Ganrih roena i tane a gaomem do anita hue u neloa ilhei anja elonevi.  
+1. Neloa ilhei i none e rainevi u roena. Jeodeh roena i tane a suum gerina, su i vil i anita hue de neloa falfal. Ranvir su anse roena i tane i dami en mir dom. Ganrih roena i tane a gaomem do anita hue u neloa ilhei anja elonevi.  
 
 2. Roena i tane i antai jetai yaldih neiden de elihei su jetai neiden de eoren u ilheis rainevi su jeodeh eloele. I tane i neiden e ilinou, dopim su eofa jenrein neloa radom, raleo eodyel su elaora eodyel, su i anleo u elori de Radoms Eodyel sora i anelem e elonor.  
 
-3. Fare i none e notam rainevi i anipas e semiru de roena ca hayas falen i anita.  
+3. Fare i none e notam rainevi i anipas e semleo de roena ca hayas falfal i anita.  
 
 ### Gon 27  
 
@@ -193,13 +193,13 @@ I none su e rainevi u anever cali i anseum, i touvei, a ganou ando veinal, faibo
 
 ### Gon 28  
 
-Neloa ilhei i none e rainevi u rafa semtela su jenrein radom semtela cadom noi rainevi su eloele i do i gaet hue yaldih.  
+Neloa ilhei i none e rainevi u rafa sem su jenrein radom sem cadom noi rainevi su eloele i do i gaehela hue yaldih.  
 
 ### Gon 29  
 
 1. Neloa ilhei i none e dohvil u rafa, ca dantam en hay ilhei i do i neiden e elihei non eloele su yaldih.  
 
-2. En anja de hay rainevi su eloele, ilhei i do i none dantam linu ca raihucu i anefe, sora i anever e ilivargor su eoren de rainevi su eloele de neliu, su sora i gaet e dael anifou de elirota, rafa semtela su ganyu yuba elemi en rafa cadom ilhei i anipas e raitar.  
+2. En anja de hay rainevi su eloele, ilhei i do i none dantam linu ca raihucu i fene, sora i anever e ilivargor su eoren de rainevi su eloele de neliu, su sora i gaehela e dael anifou de elirota, rafa sem su ganpe yuba elemi en rafa cadom ilhei i anipas e raitar.  
 
 3. Noi rainevi su eloele i doum i anja en non ca a tidoi dasora su rodel de Radoms Eodyel.  
 
@@ -213,7 +213,7 @@ Sunya ilwol en noi eoco i doum i iliro hue canon ca i anona u noniu radom, eodye
 
 | Oravia | English |  
 |--------|---------|  
-| anefene | rest |  
+| fene | rest |  
 | anever | security, safety |  
 | anifou | need, necessity |  
 | anipas | choose |  
@@ -229,7 +229,7 @@ Sunya ilwol en noi eoco i doum i iliro hue canon ca i anona u noniu radom, eodye
 | ciudon | show, demonstrate |  
 | ciumar | art |  
 | cohela | send, transmit |  
-| cohua | receive |  
+| coani | receive |  
 | coman | information |  
 | couyen | mail, correspondence |  
 | dael | just, justice |  
@@ -237,7 +237,7 @@ Sunya ilwol en noi eoco i doum i iliro hue canon ca i anona u noniu radom, eodye
 | [da]sora | purpose, in order to |  
 | dasu | consent, agreement |  
 | dantam | only |  
-| dohtei | expel, exile |  
+| dohano | expel, exile |  
 | dohti | punishment |  
 | dohvil | obligation, duty |  
 | elileoum | inhumane, humane-not |  
@@ -252,12 +252,12 @@ Sunya ilwol en noi eoco i doum i iliro hue canon ca i anona u noniu radom, eodye
 | eoren | honor, respect, reputation |  
 | famei | family |  
 | faiboris | prospective spouse (faibor + -is) |  
-| gaet | effect, effective, realize |  
+| gaehela | effect, effective, realize |  
 | gaolan | fair, balanced |  
 | gaohei | impartial, neutral |  
 | gaoleo | value, worth |  
 | gaomem | equal, equality |  
-| gavios elori | discrimination, differential treatment (compound) |  
+| galius elori | discrimination, differential treatment (compound) |  
 | geyelu | assembly, gathering |  
 | gon | one piece of something |  
 | heoloa | universal |  
@@ -288,7 +288,7 @@ Sunya ilwol en noi eoco i doum i iliro hue canon ca i anona u noniu radom, eodye
 | raihucus roejo | trial, hearing; legal examination (compound) |  
 | raihucus selota | legal remedy, redress (compound) |  
 | rainens sita | arrest; police-capture (compound) |  
-| railem | asylum, refuge |  
+| raiver dom | asylum, refuge |  
 | raiver | protect, protection, defense |  
 | raleo | race, ethnicity |  
 | rapas | elect, election |  
@@ -296,9 +296,9 @@ Sunya ilwol en noi eoco i doum i iliro hue canon ca i anona u noniu radom, eodye
 | rastai | politics, political |  
 | roena | education, teach |  
 | rovir | science, research |  
-| roucou | article, essay |  
+| roudis joniu | article, essay |  
 | roudi | writing, text |  
-| semtela | system, order |  
+| sem | system, order |  
 | simia | arbitrary, random |  
 | sunya | zero, none |  
 | ticati | slave, enslave |  

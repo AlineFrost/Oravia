@@ -141,18 +141,18 @@
     I mamol e maemiri su 6 molbai wa su vandi gavol de masha.  
     I anodu e mamol su i pohem.  
     Cali i varsus ca a wa i jolufu, i gafi e pohem.  
-    A mamol i anefene en das alui litegai.  
+    A mamol i fene en das alui litepe.  
     O i antorium e anodu.  
 
     
-    roumo = rou ca i elomio i boemo e mo (writing that helps cook food).  
+    roumo = rou ca i elomiu i boemo e mo (writing that helps cook food).  
     malumo = poilumo sora boemo (oil to cook).
     
     
     **Tips**
 
     ' = coined word, guess from its parts!  
-    anefene = rest  
+    fene = rest  
     anodu = top, to top, to close  
     antori = open  
     bospupi = shower, to wash  
@@ -165,7 +165,7 @@
     jolufu = bubble  
     lei = plant  
     linu = until  
-    litegai = minute  
+    litepe = minute  
     mahon = spoon  
     mamini = egg  
     mamol = pot  

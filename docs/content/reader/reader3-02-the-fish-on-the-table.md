@@ -5,12 +5,12 @@
 ![Story illustration](../../images/graded-readers/3.2.jpg){ width="480" style="display:block; margin:1.25rem auto 2rem auto;" }
 
 <div class="oravia-reading graded-reader-text">
-<p>En limel, wamu i dami en bontame molcui, mai cali falen i anocari de boelori, hay i aparih de molcui.</p>
-<p>Cali falen i anivari, a miau i dami en bontame su i anvuum; dantam i vardei e tam jetai.</p>
-<p>Falen i iliro ca a miau i nomie no yunitam, eta i widuo su i vardei e ilwol ca miau i vardei.</p>
+<p>En limel, wamu i dami en bontame molcui, mai cali falfal i anocari de boelori, hay i aparih de molcui.</p>
+<p>Cali falfal i anivari, a miau i dami en bontame su i anvuum; dantam i vardei e tam jetai.</p>
+<p>Falfal i iliro ca a miau i nomie no yunitam, eta i widuo su i vardei e ilwol ca miau i vardei.</p>
 <p>Notor i siyal e wamu en bontame, widuo de vanpai de miau.</p>
-<p>Yasoi, i anefe e wamu en molcui su i nordau e molcui de miau.</p>
-<p>Su falen i ilaluan: “Nim i ilian ce run i anidai! Run i anitaum.”</p>
+<p>Yasoi, i fene e wamu en molcui su i nordau e molcui de miau.</p>
+<p>Su falfal i ilaluan: “Nim i ilian ce run i anidai! Run i anitaum.”</p>
 <p>Mai a miau i nomie no varsusum. Dantam i anlaro vardei e wamu.</p>
 </div>
 
@@ -32,7 +32,7 @@
 ## Try to answer in Oravia
 
 <div class="oravia-reading">
-<p><strong>Cenon falen i siyal e wamu?</strong></p>
+<p><strong>Cenon falfal i siyal e wamu?</strong></p>
 </div>
 
 <details>

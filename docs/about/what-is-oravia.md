@@ -67,7 +67,7 @@ This is not the first language I've created, but it's the first I am sharing. Th
 - languages with very few words may end up with vague communication and long word strings to express simple concepts
 
 **Oravia's approach:**
-A vocabulary that is larger than the minimalistic approach to allow more specificity and nuance, and expression of most concepts with only 1-2 words. At the same time, with about 800 words it is still one of the smallest languages. 
+A vocabulary that is larger than the minimalistic approach to allow more specificity and nuance, and expression of most concepts with only 1-2 words. At the same time, with about 780 words it is still one of the smallest languages. 
 
 Importantly, these words don't add as much cognitive load because of the syllable-meaning associations and the cluster semantic structure. Once you get a gist of the language, they are much easier and faster to learn than arbitrary sounds. That way, we get the benefit of having a larger vocabulary than minimalistic languages, with less load than the (already small) raw number may suggest.
 
@@ -157,7 +157,7 @@ Words are composed from meaningful building blocks, and similar sounds often hav
 ```
 Can you guess which word means 'to cut' and which word means 'to slip'?  
 (c is pronounced as cake)
- jasrec, jasel
+ jasjece, jasel
  
 Which word means 'pool' and which word means 'beak'?
   mutec, bouwa
@@ -237,6 +237,6 @@ And have I mentioned *it's fun?* :)
 
 ---
 
-[Start Learning →](../course/lesson00.md){ .md-button .md-button--primary }
+[Start Learning →](../quick/lesson00.md){ .md-button .md-button--primary }
 [Read Core Grammar →](core-grammar.md){ .md-button }
 [Get Involved →](get-involved.md){ .md-button }

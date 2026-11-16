@@ -149,7 +149,7 @@
     |--------|---------|
     | eomfel | event |
     | eomsu | party |
-    | eomseri | parade |
+    | eomanse | work meeting |
     | eodya | invite |
     | eodani | meet |
     | eodenbor | visit |
@@ -198,18 +198,17 @@
 
         Eod comes from Japanese deau 出会う (meet).  
 
-    In this cluster, we also have three important words with important functions:
+    In this cluster, we also have two important words with important functions:
 
     | Oravia | English |
     |--------|---------|
     | eon | greeting, hello |
-    | eoren | honor, mr. mrs. ms. |
-    | eori | polite, please |
+    | eoren | honor, mr. mrs. ms., please |
 
 
     ### Recognize the Roots
 
-    Take another look at **eori**. Do you recognize any roots you've learned before?
+    Take another look at **eoren**. Do you recognize any roots you've learned before?
 
     <div style="text-align: center; margin: 1.25rem 0;">
     <button onclick="document.getElementById('root-recall-l16-eo-core-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.65rem 1.5rem; border-radius: 4px; cursor: pointer;">
@@ -218,23 +217,22 @@
     </div>
 
     <div id="root-recall-l16-eo-core-answer" style="display: none; background: #c8e6c9; padding: 1.25rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 1.25rem 0;">
-    <p style="margin: 0 0 0.45rem 0;"><strong>eori</strong> → <strong>RI</strong> = act / conduct</p>
+    <p style="margin: 0 0 0.45rem 0;"><strong>eoren</strong> → <strong>REN</strong> = honor</p>
     </div>
 
     For example,
     ```
-    Eon, Eoren Lee! I ilahai u nim, eori.
+    Eon, Eoren Lee! I ilahai u nim, eoren.
      ↓     ↓            ↓     ↓      ↓ 
     Hello Mrs. Lee!   talk  to me, please
     ```
 
     So, to sum it up:
     ```
-    EOM = social events (party, event, parade)
+    EOM = social events (party, event, work meeting)
     EOD = meeting people (invite, meet, visit)
     eon = hello
-    eoren = mr. mrs.
-    eori = please
+    eoren = mr. mrs., please
     ```
 
     Ps. Two words in the list were inspired by the sounds for *into house* and *social approach*. Can you identify them and their meaning?

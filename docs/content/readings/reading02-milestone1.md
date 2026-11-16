@@ -8,9 +8,9 @@
 
 ## Read
 
-1\. **Ana:** Eon, Kai!<br>Celi run i anifi en beilem?
+1\. **Ana:** Eon, Kai!<br>Celi run i aniyel en beilem?
 
-2\. **Kai:** Nim i anifi lisoi.<br>Nim i bejui e beitor litamar,<br>eta i foum i gerina en beitan.
+2\. **Kai:** Nim i aniyel lisoi.<br>Nim i bejui e beitor litamar,<br>eta i foum i gerina en beitan.
 
 3\. **Ana:** Oihi iliora!<br>Run i do i anisu e bejae en beitor?
 
@@ -26,13 +26,13 @@
 
 9\. **Ana:** Oila.<br>Nimas i do i mo e moa en bedam.<br>Su i anvu en mo bevio litamis.
 
-10\. **Kai:** Celi run i anocari?<br>Nim i pas i eodya e run,<br>liperis, i dami a eompela u falte.
+10\. **Kai:** Celi run i anocari?<br>Nim i pas i eodya e run,<br>liperis, i dami a eompela u fal.
 
-11\. **Ana:** Nim i anelem en ligo lipardas,<br>eta i do i eompela su run.<br>Oi!<br>I pas i eodani e yani ilhei,<br>su i do i anefene cali en bo.
+11\. **Ana:** Nim i anelem en ligo liheosu,<br>eta i do i eompela su run.<br>Oi!<br>I pas i eodani e yani ilhei,<br>su i do i fene cali en bo.
 
-12\. **Kai:** Ia, nim i do i anefene cali faigel.<br>Su cedom run?
+12\. **Kai:** Ia, nim i do i fene cali faigel.<br>Su cedom run?
 
-13\. **Ana:** Nim i anifi en beilem en litegai.<br>Eori beitan, i yasoi anvu!<br>Su i fou i anvu en bosvi,<br>i dami a bosvi en beilem?
+13\. **Ana:** Nim i aniyel en beilem en litepe.<br>Eoren beitan, i yasoi anvu!<br>Su i fou i anvu en bosvi,<br>i dami a bosvi en beilem?
 
 14\. **Kai:** I dami, cadom bortal.<br>A beilem a ho yalen.
 
@@ -73,9 +73,9 @@ In two weeks: <textarea style="width: 100%; min-height: 50px; padding: 0.5rem; b
 
 | Oravia | English |
 |--------|---------|
-| anefene | rest |
+| fene | rest |
 | anelem | stay, remain |
-| anifi | come, arrive |
+| aniyel | come, arrive |
 | anisu | carry, bring |
 | anita | take, receive |
 | anocari | leave |
@@ -107,7 +107,7 @@ In two weeks: <textarea style="width: 100%; min-height: 50px; padding: 0.5rem; b
 | eompela | parade, party |
 | eofa | friend |
 | eon | hello |
-| eori | please |
+| eoren | please |
 | eta | therefore |
 | faigel | marry, wedding |
 | geldove | sell |
@@ -121,11 +121,11 @@ In two weeks: <textarea style="width: 100%; min-height: 50px; padding: 0.5rem; b
 | lili | again |
 | lilon | while |
 | limel | evening |
-| lipardas | month |
+| liheosu | month |
 | liperis | week |
 | lisoi | soon |
 | litam | day |
-| litegai | minute |
+| litepe | minute |
 | mai | but |
 | mo | food, eat |
 | mo bevio | restaurant |
@@ -151,10 +151,10 @@ So I don't need to spend money on the bus.
 *A ilhei i ilaluan ca oipili.*
 People say that it's cute.
 
-*Liperis, i dami a eompela u falte.*
+*Liperis, i dami a eompela u fal.*
 There is a party for young people next week.
 
-*Eori beitan, i yasoi anvu!*
+*Eoren beitan, i yasoi anvu!*
 Please bus, move fast!
 
 *I dami, cadom bortal.*

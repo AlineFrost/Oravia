@@ -6,9 +6,9 @@
 
 <div class="oravia-reading graded-reader-text">
 <p>En liyar, lupupi i apanou yasoi en wiltan, su wimlua i neiden cali jenon widuo i davio e tiuvor.</p>
-<p>Raitar i eoco ca ilhei i tane i anonuve e jenon, mai beitan ca norven en hay i anepou en jenparo de bogor.</p>
+<p>Raitar i eoco ca ilhei i tane i anonuve e jenon, mai beitan ca norven en hay i anedetu en jenparo de bogor.</p>
 <p>Roena hai en beitan i ilaluan ca a bogor a anever, eta ilhei i anocari de beitan su i bortal; tam ilhei i anisu e yejae u fare ca i vanta e falni.</p>
-<p>Lisoi wa i bortal en jenpur gaone, su hayas i anvu en boelori en ganrih gaone lilon i anelem ca lupupi i gafei.</p>
+<p>Lisoi wa i bortal en ganou gaone, su hayas i anvu en boelori en ganrih gaone lilon i anelem ca lupupi i gafei.</p>
 <p>En auta litetan, raitar i eoco ca a jenon a anever lili.</p>
 <p>Cali hayas i anocari de bogor, a lufu norven i gafei, mai jenon i dami e mir wa; eta hayas i anvu vanpai, yasoi su eoren, jetai neliu beilem.</p>
 </div>
@@ -39,7 +39,7 @@
 <p><strong>English question:</strong> Why do the people move to an upper floor of the building?</p>
 
 <div class="oravia-reading">
-<p><strong>Possible answer:</strong> Caora wa i bortal en jenpur gaone.</p>
+<p><strong>Possible answer:</strong> Caora wa i bortal en ganou gaone.</p>
 </div>
 
 <p><strong>English:</strong> Because water enters the lower floor.</p>

@@ -222,7 +222,7 @@
     
     1) Run i pas i varasi e mo, dou i varsus e bospupi?  
     
-    2) A run va a yasoi dou a yavuson? A falte dou a yamirli? A yalgai dou a yaltan? A yalen dou a ho yalen?  
+    2) A run va a yasoi dou a yavuson? A fal dou a yamirli? A yalgai dou a yaltan? A yalen dou a ho yalen?  
         
     <textarea style="width: 100%; min-height: 80px; padding: 1rem; border: 2px solid #4a9cd6; border-radius: 8px; font-family: inherit;" placeholder="Write your sentences in Oravia here..."></textarea>
     <div style="text-align: right; margin-top: 0.5rem;">

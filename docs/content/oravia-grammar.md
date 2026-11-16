@@ -43,14 +43,14 @@ It has a lot of freedom, flexibility, and stylistic options that make it express
 
 Nearly all auxlangs are essentially simplified Romance-Germanic: even when they broaden the vocabulary, the structure and logic are largely untouched, just replacing the words (easy way to see this: check the interlinear gloss). Oravia has a **different grammatical system inspired by languages around the world**. For example, the cluster system draws from Bantu noun classes, the marker and zero-pronoun system from Japanese, and the verb aspect system from Yucatec Maya. In the quest of building Oravia, I asked a simple question: *how can something be expressed in the most elegant way, with the least load?*
 
-This grammar document aims to be comprehensive, and as such has more advanced or niche constructions. Also, **a lot of these smaller rules are either optional or can be acquired by "osmosis"**. If you'd like to check the foundations of the grammar and start speaking, check the [Core Grammar](../about/core-grammar.md) or the [Core Course](../course/lesson00.md).
+This grammar document aims to be comprehensive, and as such has more advanced or niche constructions. Also, **a lot of these smaller rules are either optional or can be acquired by "osmosis"**. If you'd like to check the foundations of the grammar and start speaking, check the [Core Grammar](../about/core-grammar.md) or the [Core Course](../quick/lesson00.md).
 
 ---
 
 <details class="gr-part">
 <summary><strong>0. Glossary of Common Terms</strong></summary>
 <div class="gr-content">
-<p><em>Vocabulary</em> - the bulk of the language, ~800 words, almost all composed of (sub)cluster + root (e.g., ANE + LEM = remain).</p>
+<p><em>Vocabulary</em> - the bulk of the language, ~780 words, almost all composed of (sub)cluster + root (e.g., ANE + LEM = remain).</p>
 <p><em>Cluster</em> - the first two letters and/or first syllable of a word, which indicates its noun class. There are 48 clusters. Not all words belong to a cluster but almost all do (e.g., AN = movement). The exceptions are typically pronouns, prepositions, and numbers. </p>
 <p><em>Subcluster </em>- subdivision of a cluster, typically indicated by the third letter. Clusters have between 0-4 subclusters (e.g., ANE = static movement. There is also ANI = movement toward, and ANO = movement away).</p>
 <p><em>Root</em> - typically the rest of the word after subtracting the (sub)cluster, creating cross-cluster associations. When we refer to the short form of a verb or another word, it means just its root (e.g., LEM = remain, like BEILEM = vehicle + remain = station).</p>
@@ -164,7 +164,7 @@ moujeum (mouje+um) → MOU-je-UM</pre>
 <p>These are NOT valid because they break a block:</p>
 <pre>❌  [nim] en [i copei] nim yamirli bo     (en split from its block)
 ❌  [nim] [i copei] en nim bo yamirli     (yamirli after what it modifies)</pre>
-<p>Modifiers used as adjectives always come before what they modify. A long noun phrase like de yamirli heivio haijor (of the old magic witch) reads left to right, with each word narrowing the concept of what follows.</p>
+<p>Modifiers used as adjectives always come before what they modify. A long noun phrase like de yamirli heivio jor hai (of the old magic witch) reads left to right, with each word narrowing the concept of what follows.</p>
 <p>For more clarity, keep modifiers right next to what they modify. This includes words or expressions used as adjectives, adverbs, possessives, relative clauses, and general embedded clauses.</p>
 <p>Because of the markers and block structure, word order is flexible. Most commonly, at the beginning position you may find subjects (SOV / SVO) or sentence framing expressions (e.g., time adverbs, bi speaker comments §30). Other orders that follow the two above rules (the whole block moves together, and modifiers come next to what they modify) are equally accepted with explicit markers.</p>
 <h4>3.3 Dropping Markers</h4>
@@ -191,8 +191,8 @@ a miau e muvardur i copei = miau e muvardur i copei = the cat hunts the mouse</p
 </table>
 <p>hay is fully gender-neutral. It covers he, she, it, and any singular third person. Some speakers may prefer to use demonstratives such as noi (this) to refer to objects or things. </p>
 <p>One may also form more specific pronouns: </p>
-<pre>hayjor      → hay (3rd person singular) + jor (feminine) = she
-hayjal      → hay (3rd person singular) + jal (masculine) = he
+<pre>jor hay     → jor (feminine) + hay (3rd person singular) = she
+jal hay     → jal (masculine) + hay (3rd person singular) = he
 nimnim      → nim (1st person singular) reduplication = exclusive we (we here, not you)
 nimrun      → nim (1st person singular) + run (2nd person singular) = inclusive we (you too)</pre>
 <h4>4.2 Possessive Pronouns</h4>
@@ -203,7 +203,7 @@ nimrun      → nim (1st person singular) + run (2nd person singular) = inclusiv
 <h4>4.3 Zero Pronouns</h4>
 <p>Oravia omits possessives when ownership is obvious: body parts, family roles, clothing, body actions:</p>
 <pre>varodu tounu      → head hurts (not: my head)
-farejor i anifi     → mother is coming (not: my mother)
+jor fare i aniyel   → mother is coming (not: my mother)
 i siur e yesrel      → remove the jacket (not: your jacket)</pre>
 <p>Many utterances don&#x27;t have a subject. An affirmative sentence without a subject defaults to &quot;I&quot;, and a question defaults to &quot;you&quot;, like this:</p>
 <pre>i ilianum = [V] know-not = I don&#x27;t know 
@@ -215,8 +215,8 @@ ce i anye? = what [V] do? = what are you doing?</pre>
 <tr><td>Existence</td><td>dami</td></tr>
 <tr><td>Events and happenings</td><td>dateli, eomfel</td></tr>
 <tr><td>Seeming</td><td>nomie</td></tr>
-<tr><td>Weather and ambient conditions</td><td>lupupi, luval, lufu, lusari, lumbo, lufiva, luyar, luyun, luhue, lubur, lumirwa, luswa, pohem, yomel, yoyar</td></tr>
-<tr><td>Time</td><td>limel, liyar, litam, lipardas, lidastor, liperi, litetan, litegai, litemi, ilteli, lunhem, lunu</td></tr>
+<tr><td>Weather and ambient conditions</td><td>lupupi, luval, lufu, lusari, lumbo, lufiva, lumirwa, luswa, pohem, yomel, yoyar</td></tr>
+<tr><td>Time</td><td>limel, liyar, litam, liheosu, lidastor, liperi, litetan, litepe, litegai, ilteli, lunhem, lunu</td></tr>
 </table>
 <p>When time verbs are used as impersonal verbs, they mean time passing; see §48.</p>
 <p>Evaluative words like elireva, dayar, dael, davir, danmir normally function as framing phrases (§49.2) or with bi for speaker comment (§30). In conditionals, questions, or embedded clauses, they may be used to mean "this claim / situation", and do not default to "I".</p>
@@ -240,10 +240,10 @@ Hayas i ilian ca nim i anye. Notor, i anocari. = They know what I am doing. Then
 <p>Oravia has no grammatical gender. hay is fully neutral. Gender can be specified optionally:</p>
 <table>
 <tr><th>Method</th><th>Female</th><th>Male</th></tr>
-<tr><td>Suffix</td><td>-jor</td><td>-jal</td></tr>
+<tr><td>Word before</td><td>jor</td><td>jal</td></tr>
 <tr><td>Prefix word</td><td>faejor</td><td>faejal</td></tr>
 </table>
-<pre>hayjor = she         farejor = mother
+<pre>jor hay = she        jor fare = mother
 faejor fano = daughter    faejal fano = son</pre>
 <p>Gender is always optional: use it only when disambiguation is needed.  
 You can also make any word into a gender word by adding it into the fae subcluster (fae + root). More information about coining words in the Guide to Craft and Style.</p>
@@ -265,9 +265,9 @@ a bo a no leayo         → the house is like a garden</pre>
 <pre>nim en gedom           → I am in the bank
 nim [en] noi           → I am here</pre>
 <p>When a word has both a literal and a metaphorical / adjective reading, context will help identify it. To force an adjective reading, use <em>ya</em> (adjective) before the modifier. To force a literal reading, use <em>bi reva</em> (it&#39;s accurate). For example:</p>
-<pre>a falen a fare          → the child is parental, or in other contexts, the child is a parent
-a falen a ya fare            → the child is parental
-a falen a fare bi reva       → the child is a parent</pre>
+<pre>a falfal a fare         → the child is parental, or in other contexts, the child is a parent
+a falfal a ya fare           → the child is parental
+a falfal a fare bi reva      → the child is a parent</pre>
 <h4>6.2 The Reduced Copula</h4>
 <p>Recall that when the subject is in the beginning of the sentence, you may drop the a marker. This is also the case with the copula:</p>
 <pre>a bo a yaltan.   → bo a yaltan.</pre>
@@ -349,15 +349,15 @@ lis = li + is = unspecified time yet to start, one day</pre>
 <h5>Relative time</h5>
 <p>Typically, our reference is the present, so the completed time and the time yet to start are in the past and in the future, respectively. However, when we use another reference that is not the present, the meaning diverges.</p>
 <p>When we are talking about a narrative in the past, or sequencing two actions, the time is relative to these references:</p>
-<pre>Litamar, nim i yespai cali hay anifi.
+<pre>Litamar, nim i yespai cali hay aniyel.
 Yesterday, I was putting on my shoes when he arrived.
 (both actions at the same time)
 
-Litamar, nim i yespaiar cali hay anifi.
+Litamar, nim i yespaiar cali hay aniyel.
 Yesterday, I had put on my shoes when he arrived.
 (first action completed by the time of the second action)
 
-Litamar, nim i yespai, hay anifis.
+Litamar, nim i yespai, hay aniyelis.
 Yesterday, (when) I put on my shoes, he hadn't arrived yet.
 (by the time of the first action, second action yet to start)</pre>
 <p>Relative time also happens when the reference is the future:</p>
@@ -393,7 +393,7 @@ hay i anocari noli          → she just left
  
 -is noli = about to (starting right now):
 nim i mois noli            → I&#x27;m about to eat
-hay i anifis noli           → she&#x27;s about to leave</pre>
+hay i aniyelis noli         → she&#x27;s about to leave</pre>
 <p>Without noli, -ar and -is are relative to the narrative moment. With noli, they are anchored to right now. Think of it as the Oravia equivalent of &quot;just did&quot; and &quot;about to.&quot;</p>
 </div>
 </details>
@@ -560,9 +560,9 @@ nim i tohvor-saba e run   → I trigger fear in you (I frighten you)</pre>
 </tr>
 
 <tr>
-<td>tohbian</td>
-<td>X i tohbian e Y<br>(X is confused by Y)</td>
-<td>X i tohbian-saba e Y<br>(X confuses Y)</td>
+<td>tohmia</td>
+<td>X i tohmia e Y<br>(X is confused by Y)</td>
+<td>X i tohmia-saba e Y<br>(X confuses Y)</td>
 </tr>
 
 <tr>
@@ -620,15 +620,15 @@ nim i tohvor-saba e run   → I trigger fear in you (I frighten you)</pre>
 </tr>
 
 <tr>
-<td>tohlel</td>
-<td>X i tohlel e Y<br>(X misses Y)</td>
-<td>X i tohlel-saba e Y<br>(X causes Y to miss X)</td>
+<td>tohfou</td>
+<td>X i tohfou e Y<br>(X misses Y)</td>
+<td>X i tohfou-saba e Y<br>(X causes Y to miss X)</td>
 </tr>
 
 <tr>
-<td>tohsum</td>
-<td>X i tohsum e Y<br>(X envies Y)</td>
-<td>X i tohsum-saba e Y<br>(X provokes envy in Y)</td>
+<td>tosdai</td>
+<td>X i tosdai e Y<br>(X envies Y)</td>
+<td>X i tosdai-saba e Y<br>(X provokes envy in Y)</td>
 </tr>
 
 <tr>
@@ -828,7 +828,7 @@ par das = 30    par das bale = 34</pre>
 <tr><th>Word</th><th>Meaning</th><th>Built from</th></tr>
 <tr><td>litam</td><td>day</td><td>li + tam (1)</td></tr>
 <tr><td>liperi</td><td>week</td><td>li + peri (7)</td></tr>
-<tr><td>lipardas</td><td>month</td><td>li + pardas (30)</td></tr>
+<tr><td>liheosu</td><td>month</td><td>li + heosu (moon)</td></tr>
 <tr><td>lidastor</td><td>year</td><td>li + dastor (12)</td></tr>
 </table>
 <pre>litamar = yesterday    litamis = tomorrow
@@ -905,7 +905,7 @@ en bo i dami a yunitam mo   → in the house there is a special dish</pre>
 <div class="gr-content">
 <p>In Oravia, you have a lot of flexibility in create new meanings. In this section we will explore common ways to do that.</p>
 <h4>22.1 Modifiers</h4>
-<p>Modifiers always come before what they modify. A long noun phrase like de yamirli heivio haijor (of the old magic witch) reads left to right, with each word narrowing the description of what follows.</p>
+<p>Modifiers always come before what they modify. A long noun phrase like de yamirli heivio jor hai (of the old magic witch) reads left to right, with each word narrowing the description of what follows.</p>
 <p>The combination of modifier + noun may also be used to create new meanings. Here are a few examples.</p>
 <table>
 <tr><th>Head</th><th>Meaning</th><th>Examples</th></tr>
@@ -917,7 +917,7 @@ en bo i dami a yunitam mo   → in the house there is a special dish</pre>
 <tr><td>tai</td><td>leader or director of X</td><td>eodyel tai (group leader), roesau dom tai (head of a study place)</td></tr>
 <tr><td>fano</td><td>offspring or descendant of X</td><td>miau fano (kitten), miwo fano (puppy)</td></tr>
 <tr><td>ja</td><td>instrument or tool used for X</td><td>mo ja (eating tool, utensils), apasar ja (hanger)</td></tr>
-<tr><td>jae</td><td>container, holder, fitting, or socket for X</td><td>luyar jae (lamp socket), yespai jae (shoe holder)</td></tr>
+<tr><td>jae</td><td>container, holder, fitting, or socket for X</td><td>yar jae (lamp socket), yespai jae (shoe holder)</td></tr>
 <tr><td>ora</td><td>idea, theory, doctrine, conceptual system</td><td>gaomem ora (theory of equality)</td></tr>
 <tr><td>rodel</td><td>worldview, ideology, belief system</td><td>gaomem rodel (egalitarianism)</td></tr>
 <tr><td>dia</td><td>practitioner, professional, agent, role</td><td>boemo dia (cook), roena dia (teacher)</td></tr>
@@ -947,11 +947,11 @@ en bo i dami a yunitam mo   → in the house there is a special dish</pre>
 <h4>22.3 Hyphenated Combinations</h4>
 <p>The hyphen signals flavor and color to the second word, usually a verb. For example: </p>
 <pre>i ilofun-vardei   → to hesitant-look, to peek with doubt
-i toului-asfe   → to tired-stop, to give up
+i toului-anejui → to tired-stop, to give up
 i raidana-ilaluan   → to surrender-say, to concede
 i tosrei-neiden   → to bitter-develop, to feed into your bitterness</pre>
 <p>You can also use hyphens to achieve more fine-grained meanings, blending two experiential flavors together. This is commonly done with emotions or abstract nouns:</p>
-<pre>oila-tohlel   → joy + longing, a type of nostalgic happiness
+<pre>oila-tohfou   → joy + longing, a type of nostalgic happiness
 tohpu-oipoh   → sadness + excitement, a type of bittersweetness, holding loss and anticipation at once
 mirli-elivon   → much time + wisdom, understanding that comes with time</pre>
 <p>Here are some common uses of hyphens. Remember, the main action is always the last:</p>
@@ -1043,7 +1043,7 @@ a oihi-tava ilhei       → an interested person</pre>
 <pre>ga [x], a [y] a [adjective]
 compared to x, y is more [adjective]
  
-ga nim fasujal, a nim a yamirli      → I am older than my brother
+ga nim jal fasu, a nim a yamirli     → I am older than my brother
 a bo a yaltan ga run bo              → the house is bigger than yours</pre>
 <h4>24.2 Equality — gaomem</h4>
 <p>gaomem means &quot;the same.&quot; With ga it expresses &quot;as [adjective] as&quot;:</p>
@@ -1082,7 +1082,7 @@ neauta lirul = often      nedas lirul = every time</pre>
 neperi ilie = likely         nedas ilie = certainly</pre>
 <p>Other examples:</p>
 <pre>nebale antori = 4/10 open = ajar
-nepar luyar    = 3/10 light = dimly lit</pre>
+nepar yar    = 3/10 light = dimly lit</pre>
 <p>Notice this allows for expressiveness, precision, and avoids adding dozens of words to the vocabulary.</p>
 </div>
 </details>
@@ -1125,7 +1125,7 @@ bi gai i ilaluan         → I'm just saying</pre>
 <p>Because it uses bi, this is always a speaker's stance.</p>
 <h4>27.3 dantam — exclusively / and no others</h4>
 <p>dantam is formed by DAN (emphasis) + TAM (one, single). It singles out one entity above all others.</p>
-<pre>dantam a Maria i anifi              → Only Maria came
+<pre>dantam a Maria i aniyel             → Only Maria came
 dantam a run i ilidai e noi dasora  → Only you intended this purpose</pre>
 <h4>27.4 su — Also/Too</h4>
 <p>su already appears as the connector "and/also/with" (placed before or between elements). When placed after a word, it takes on the meaning "also / too," emphasizing that the word it follows is included in addition to something already established.</p>
@@ -1190,10 +1190,10 @@ o e [object]    → passive</pre>
 <div class="gr-content">
 <h4>29.1 o e — with agent</h4>
 <p>Use the o emphasis marker before the e-marked object. This makes the object become the focus, and recedes the subject:</p>
-<pre>o e falen i vanpai a eofa  → the kid was kicked by the friend</pre>
+<pre>o e falfal i vanpai a eofa → the kid was kicked by the friend</pre>
 <h4>29.2 hue — without agent</h4>
 <p>One may also use hue for passive when there is no specified agent:</p>
-<pre>a falen i vanpai hue             → the kid is kicked</pre>
+<pre>a falfal i vanpai hue            → the kid is kicked</pre>
 <h4>29.3 Choosing between them</h4>
 <pre>o e leirih i vonlu a hay    → the tree was touched by her (with subject)  
 a leirih i vonlu hue             → the tree is touched (event narration)</pre>
@@ -1224,7 +1224,7 @@ bi tohpu!      → how sad!</pre>
 <h4>31.2 ilie — Epistemic Hedging</h4>
 <p>ilie (maybe/likelihood) softens it into a possibility or expresses the speaker&#x27;s uncertainty:</p>
 <pre>nim i anvu ilie         → I might go / I&#x27;m going maybe
-hay i anifi litamis ilie     → she might arrive tomorrow</pre>
+hay i aniyel litamis ilie    → she might arrive tomorrow</pre>
 <h4>31.3 o — Spotlight / Assertion</h4>
 <p>o puts emphasis, asserting it or marking it as the key point:</p>
 <pre>o hay !           → it&#x27;s HER! 
@@ -1278,10 +1278,10 @@ the day when I left
 (the man whose child I know)</pre>
 <h5></h5>
 <h5>&quot;With which / using which&quot; — the knife with which I cut bread:</h5>
-<pre>a jahvel ca nim i anja i jasrec e malvae
+<pre>a jahvel ca nim i anja i jasjece e malvae
 (the knife that I use to cut bread)
 
-jasrec malvae jahvel
+jasjece malvae jahvel
 (cut bread knife)</pre>
 </div>
 </details>
@@ -1297,14 +1297,14 @@ I say that he is going
 hayas i ilahai ca a nim a ti
 they say that I am bad
  
-farejor i ilahai ca litamis i dami a yuba mo
+jor fare i ilahai ca litamis i dami a yuba mo
 my mother said that tomorrow there will be good food</pre>
 <h4>33.2 Direct Speech</h4>
 <p>Direct (verbatim) speech uses no as connector, or quotations. The quoted speech follows the speech verb immediately:</p>
 <pre>i ilahai no hay i anvu
 I said such: he is going
  
-farejor i ilahai &quot;litamis i dami a yuba mo&quot;
+jor fare i ilahai &quot;litamis i dami a yuba mo&quot;
 my mother said &quot;tomorrow there will be good food&quot;</pre>
 </div>
 </details>
@@ -1481,7 +1481,7 @@ caora a nim a toumo, i mo          → because I&#x27;m hungry, I eat</pre>
 i anye u lor run    → I do it for your benefit (a gift / act of service for you)</pre>
 <p>u marks who receives. u lor adds that the action is a meaningful gift or service done out of care or generosity: the difference between handing someone something and genuinely doing something for them.</p>
 <pre>
-eori, o i anye e noi u lor nim     → please, do this for me (as a favor)
+eoren, o i anye e noi u lor nim    → please, do this for me (as a favor)
 i boemo u lor run                   → I cook for your benefit (as a kindness)
 hay i ilaluan u lor hayas            → she told them for their sake (to help them)
 i copei e coupa u lor nimas          → I searched for the card for our sake</pre>
@@ -1502,7 +1502,7 @@ en liyar                    → in the morning</pre>
 <table>
 <tr><th>Word</th><th>Meaning</th></tr>
 <tr><td>en</td><td>at / in / on (location)</td></tr>
-<tr><td>jenpur</td><td>under / below</td></tr>
+<tr><td>ganou</td><td>under / below</td></tr>
 <tr><td>ganrih</td><td>above / over / up</td></tr>
 <tr><td>jenparo</td><td>front / forward</td></tr>
 <tr><td>anolu</td><td>out / away / external</td></tr>
@@ -1521,7 +1521,7 @@ en liyar                    → in the morning</pre>
 <h4>41.1 Similative — comparing actions or manners</h4>
 <p>Use no to describe how something is done, or what something resembles in behavior:</p>
 <pre>hay i vanvu no yamirli      → she walks like an old person
-hay i neiden no falen       → she runs like a child
+hay i neiden no falfal      → she runs like a child
 hay i bonfene no toulu      → she sleeps like she is tired</pre>
 <p>no always comes before what it modifies.</p>
 <h4>41.2 Nominal Complement — secondary predicate after a verb</h4>
@@ -1531,7 +1531,7 @@ hay i bonfene no toulu      → she sleeps like she is tired</pre>
  
 i daelan e hay no ti   → I judge him as bad / I consider him bad
  
-i nomie no yufer             → it looks dirty / it appears dirty
+i nomie no yuleno            → it looks dirty / it appears dirty
  
 i iliro ciude run no elonemi dia   → I think about you as a savior</pre>
 <p>The pattern generally is [verb] e [object] no [characterization], where the no phrase tells you what the object is being called, or perceived as. Compare with the copula for direct identity:</p>
@@ -1556,9 +1556,9 @@ varsus (ear / hearing):
   i nomie-varsus no lupupi   → it sounds like rain
   i nomie no lupupi om       → it sounds like rain (sound)
 
-varpi (nose / smell):
-  i nomie-varpi no lupupi    → it smells like rain
-  i nomie no lupui varpi     → it smells like rain
+varasi (nose / smell):
+  i nomie-varasi no lupupi   → it smells like rain
+  i nomie no lupui varasi    → it smells like rain
  
 varluan (tongue / taste):
   i nomie-varluan no moval mogali  → it tastes like iced coffee</pre>
@@ -1577,12 +1577,12 @@ varluan (tongue / taste):
 i dosaba ca a hay i mo
 I made that him eat
  
-farejor i saba ca a nim i bonfene
+jor fare i saba ca a nim i bonfene
 my mother made me lie down</pre>
 <p>An alternative construction is with a hyphen, in which short form is preferred:</p>
 <pre>[causer] i [verb]-saba e [causee]
  
-hayas i ilaluan-saba e falen
+hayas i ilaluan-saba e falfal
 they made the child speak</pre>
 <h4>43.2 Forceful Causative — pohnen</h4>
 <p>pohnen is used when the causative is forceful or an imposition.</p>
@@ -1592,12 +1592,12 @@ i pohnen ca a hay i mo
 I forced that him eat
 (I imposed on him: eat)
  
-hayas i nen ca a falen i ilaluan
+hayas i nen ca a falfal i ilaluan
 they forced the child to speak</pre>
 <p>An alternative construction is with a hyphen:</p>
 <pre>[causer] i [verb]-nen e [causee]
  
-farejor i bonfene-nen e nim
+jor fare i bonfene-nen e nim
 my mother forced me to lie down</pre>
 <h4>43.3 Other Causative Words</h4>
 <p>You can use other words as causative for different flavors. For example, we use &quot;antai&quot; (to guide) as a soft causative:</p>
@@ -1606,10 +1606,10 @@ my mother forced me to lie down</pre>
 i antai ca a hay i mo
 I guided that him eat
  
-farejor i tai ca a nim i bonfene
+jor fare i tai ca a nim i bonfene
 my mother guided me to lie down
  
-hayas i tai ca a falen i ilaluan
+hayas i tai ca a falfal i ilaluan
 they guided the child to speak</pre>
 <p>When we are talking about emotions, states, or general things that do not require that the affected person perform an action, see section 14.</p>
 </div>
@@ -1680,7 +1680,7 @@ i davio no toului      → I become tired (arrival at state)</pre>
 <div class="gr-content">
 <h4>47.1 bi iloi — Hope and Wish</h4>
 <p>bi iloi (bi = speaker comment + iloi = hope) expresses a wish or hope about something:</p>
-<pre>bi iloi hay i anefene              → I wish/hope she rests
+<pre>bi iloi hay i fene                 → I wish/hope she rests
 bi iloi a litamis a yuba           → I hope tomorrow is good
 bi iloi run i anocari              → I hope you leave</pre>
 <p>Notice that this is for a prospective wish. A counterfactual wish uses the counterfactual construction, with iliciu:</p>
@@ -1710,7 +1710,7 @@ o i mo nimas / nimas o i mo → let's eat</pre>
 <tr><td>Time Period</td><td>to spend that time</td><td>i limel = to spend the night</td></tr>
 <tr><td>Vehicle</td><td>to conduct for transportation</td><td>i beivu = to drive a car</td></tr>
 </table>
-<p>Some words have a fixed meaning when used as a verb, since there may have multiple main functions. It's the case of door, which by convention means to enter (i bortal), and key, which means to unlock (i sever).</p>
+<p>Some words have a fixed meaning when used as a verb, since there may have multiple main functions. It's the case of door, which by convention means to enter (i bortal).</p>
 <p>Some words, especially locations, qualities, and abstract nouns, don't have a fixed meaning when used as a verb. This is deliberate. Psychological and emotional words are an exception: when used as bare verbs, they follow the experiencer-subject pattern described in §14.</p>
 
 <p>i bo could mean to be at home, to go home, to enter. Think of it as a general option that you may choose when the specific reading is clear from context, when it doesn't matter, or when you want the word to carry more than one resonance at once.</p>
@@ -1723,14 +1723,14 @@ hay i anvu jetai bo          → she goes toward the house
 hay i bortal en bo           → she enters the house
 hay i bo-anvu                → she house-goes
 hay i bo-bortal              → she house-enters
-hay i bo e falen             → she houses/shelters a kid
+hay i bo e falfal            → she houses/shelters a kid
 </pre>
 
 <h5>Psychological and emotional words as verbs</h5>
 <pre>a hay a tohpu           → she is sad (copula)
 hay i tohpu                  → she feels sadness / is sad
-hay i tohpu e falen          → she is sad about the child
-hay i tohpu-saba e falen     → she saddens the child
+hay i tohpu e falfal         → she is sad about the child
+hay i tohpu-saba e falfal    → she saddens the child
 hay i davio no tohpu         → she becomes sad
 hay i tohpu-davio            → she sad-becomes
 hay i ciudon e tohpu         → she shows sadness
@@ -1986,7 +1986,7 @@ I  COP twelve
 <summary>51. How the Vocabulary Works</summary>
 <div class="gr-content">
 <h4>51.1 The Building Block System</h4>
-<p>Oravia&#x27;s 800 words are largely built from 260 syllable-meaning associations called building blocks. These blocks are divided into clusters, subclusters, and roots. Once you have internalized them, you may be able to decode unfamiliar words on sight, learn words much faster, and recognize patterns across the entire vocabulary. The system is designed so that vocabulary does not need to be memorized word by word. Every word reflects its meaning in its structure.</p>
+<p>Oravia&#x27;s ~780 words are largely built from a few hundred syllable-meaning associations called building blocks. These blocks are divided into clusters, subclusters, and roots. Once you have internalized them, you may be able to decode unfamiliar words on sight, learn words much faster, and recognize patterns across the entire vocabulary. The system is designed so that vocabulary does not need to be memorized word by word. Every word reflects its meaning in its structure.</p>
 <p>There are three kinds of building blocks. Clusters signal the semantic domain of a word. Subclusters refine the domain. Roots create conceptual links between words in different clusters. </p>
 <h4>51.2 Clusters</h4>
 <p>A cluster is the opening sound or sounds of a word. It signals the broad semantic domain the word belongs to. There are approximately 48 clusters. Every word beginning with MO belongs to the domain of food and eating. Every word beginning with VA belongs to the body&#x27;s vital systems. Every word beginning with EL belongs to the domain of wonder and virtue.</p>
@@ -2009,7 +2009,7 @@ YA   objective qualities (size, texture, physical characteristics)</pre>
 ANE   static actions: rest, remain, stop, stay
 ANI   movement toward: arrive, come, bring, attract
 ANO   movement away: leave, depart, push, send</pre>
-<p>The word anifi belongs to ANI (toward), so even without knowing the root, a reader knows it involves approach. Anocari belongs to ANO (away), so it involves departure. The subcluster orients the reader directionally before the root is parsed.</p>
+<p>The word aniyel belongs to ANI (toward), so even without knowing the root, a reader knows it involves approach. Anocari belongs to ANO (away), so it involves departure. The subcluster orients the reader directionally before the root is parsed.</p>
 <h4>51.4 Roots</h4>
 <p>When you take the (sub)cluster out of a word, what is left is the root. Roots carry consistent meaning, and crucially the same root can appear across multiple clusters, creating conceptual links between words in different domains.</p>
 <p>A root encountered in one cluster will carry a recognizable relational meaning when it appears in another. </p>
@@ -2025,7 +2025,7 @@ BEI (vehicles) + LEM (remain) = station, stop (where vehicles stay)</pre>
 <pre>(sub)cluster + root = word</pre>
 <p>From there, several patterns extend the system further.</p>
 <p>Compounds are two or more words that together name a single concept rather than describing one thing with an adjective. The compound is opened by sol, which is optional, and every word except the last takes -s to signal that it is part of a compound rather than a free modifier (see §22.2)</p>
-<p>Hyphenated forms join two words for fine-grained or expressive meaning, usually the second word being a verb flavored by the first. Ilofun-vardei (hesitant-look, to peek with doubt) and toului-asfe (tired-stop, to give up from exhaustion) are examples. (see §22.3)</p>
+<p>Hyphenated forms join two words for fine-grained or expressive meaning, usually the second word being a verb flavored by the first. Ilofun-vardei (hesitant-look, to peek with doubt) and toului-anejui (tired-stop, to give up from exhaustion) are examples. (see §22.3)</p>
 <p>Imported words use an apostrophe prefix to signal that the word does not come from the core vocabulary: &#x27;Italia, &#x27;Nihongo, scientific species names. These never enter the permanent vocabulary. The apostrophe tells the reader this is not a core Oravia word (see §22.5)</p>
 <h4>51.6 Decoding New Words</h4>
 <p>Given an unfamiliar word, three steps will usually get you to the meaning or close to it.</p>
@@ -2100,7 +2100,7 @@ BEI (vehicles) + LEM (remain) = station, stop (where vehicles stay)</pre>
 <tr><td>YO</td><td>colors</td><td>—</td></tr>
 <tr><td>YU</td><td>subjective qualities</td><td>YUN personal characteristics</td></tr>
 </table>
-<p>Even without knowing a specific word, the opening sound gives the domain. Subclusters narrow it further. The full vocabulary of ~800 words is distributed across these clusters, with a total of ~260 building syllable-meaning associations.</p>
+<p>Even without knowing a specific word, the opening sound gives the domain. Subclusters narrow it further. The full vocabulary of ~780 words is distributed across these clusters, with a total of a few hundred syllable-meaning associations.</p>
 </div>
 </details>
 
@@ -2124,7 +2124,7 @@ BEI (vehicles) + LEM (remain) = station, stop (where vehicles stay)</pre>
 <tr><td>semluans daciu</td><td>syntax</td><td>language-form</td></tr>
 <tr><td>ilaces colira</td><td>question mark</td><td>question-sign</td></tr>
 <tr><td>yadetus colira</td><td>period</td><td>end-sign</td></tr>
-<tr><td>asfes colira</td><td>comma</td><td>pause-sign</td></tr>
+<tr><td>anejuis colira</td><td>comma</td><td>pause-sign</td></tr>
 <tr><td>os colira</td><td>exclamation mark</td><td>emphasis-sign</td></tr>
 <tr><td>couyas seseri</td><td>word list</td><td>word-list</td></tr>
 <tr><td>sol sus eodyel</td><td>syllable</td><td>sound-group</td></tr>

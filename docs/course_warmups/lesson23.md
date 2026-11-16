@@ -39,11 +39,11 @@
     ```
     
     ```
-    Lipardas auta, i dami a eomsu en nim bo.
+    Liheosu auta, i dami a eomsu en nim bo.
     ```
     
     ```
-    A nim fadevi litam a lipardas alui.
+    A nim fadevi litam a liheosu alui.
     ```
     
     ```
@@ -74,7 +74,7 @@
     fadevi litam = birthday  
     ilhei = person  
     lidastor = year  
-    lipardas = month  
+    liheosu = month  
     liperi = week  
     litam = day  
     mai = but  

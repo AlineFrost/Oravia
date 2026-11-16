@@ -30,8 +30,8 @@
     | sebom | button |
     | seldal | code |
     | selota | fix |
-    | semiru | type |
-    | sever | key |
+    | semleo | type |
+    | sesa | machine, device |
     | seseri | menu, list |
     
     What do you think **SE** words are about?
@@ -53,8 +53,8 @@
         Ver means safety, like German Wehr (defense, protection).  
         
     Here are others word with these sounds:    
-    **eover** = to care for (social + safety), just like sever = key (machine + safety)    
-    **eomseri** = parade, procession (social events and gatherings + series), just like seseri = menu, list (machine + series)    
+    **eover** = to care for (social + safety), just like javer = lock (tool + safety)    
+    **ciuseri** = series, row (creative products + series), just like seseri = menu, list (machine + series)    
    
     Sesa is a very important word that we can use to talk about everyday machines and appliances. For that we use compounds, for example:
     
@@ -87,14 +87,14 @@
     Yalgai Raitar: Joniu Tor 
     
     Neloa ilhei i ilian: cali dastor litetan en 'USA, a lusari i anocari en 'France.
-    Daefer run i do i helufu de USA en France en tam litegai, i do i vardei e anocari lusari cali dastor litetan en USA.  
+    Daefer run i do i helufu de USA en France en tam litepe, i do i vardei e anocari lusari cali dastor litetan en USA.  
     Bi tohpu, a France a nordau, eta i doum i anye e noi. Mai en run yalgaigai heodom, yalgai raitar, run negafei i fou i anvu e apafene noniu vanpai. run i do i vardei e litam yadetu nehen li ca run i anidai...  
     "Lar" run i ilaluan u nim "i vardei e anocari lusari bale das bale coter!  
     Su yalgai li notor:  
     "A ilhei i eleyel e anocari lusari, cali a tohpu..."  
     "Eta, a run a tohpu?" u run i ilace "noi litam cali i vardei bale das bale anocari lusari?"   Mai a yalgai raitar i dacoum.  
 
-    * USA = Radom en Wirel-Wilimel. Ilhei ilian ca en noi ledom, i dami muhcar su McDonalds (Country in north-west region [North America]. People know that in this land, there are eagles and McDonalds).
+    * USA = Radom en Wirel-Wilimel. Ilhei ilian ca en noi ledom, i dami copeis muhpili su McDonalds (Country in north-west region [North America]. People know that in this land, there are eagles and McDonalds).
     * France = Radom en Yalgai-Wilimel. A noi ledom a yamirhei caora malvesi su Jenrih Eiffel (Country in small-west region [Europa]. This land is famous for cheese and the Eiffel Tower).
 
 
@@ -125,7 +125,7 @@
     lar = unspecified past, once  
     li = time  
     litam = day  
-    litegai = minute  
+    litepe = minute  
     litetan = hour  
     lusari = sun  
     negafei = only, small amount, as in "only this small thing"  

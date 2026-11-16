@@ -89,8 +89,8 @@
     },
     {
       "id": "lesson55_r2_4",
-      "oravia": "ciupa",
-      "english": "paper",
+      "oravia": "ciuyen",
+      "english": "print, publish",
       "bucket": "r2",
       "source_bucket": "ciu"
     },
@@ -110,7 +110,7 @@
     },
     {
       "id": "lesson55_r3_3",
-      "oravia": "ciupa",
+      "oravia": "pa",
       "english": "paper",
       "bucket": "r3",
       "source_bucket": "pa"

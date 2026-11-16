@@ -40,7 +40,7 @@
 
     ## Compounds
     
-    Oravia has less than 800 words. This makes it much faster and easier to learn than having thousands of words. The trade-off is that we don't have words for every single concept. Many times, we need to use more than one word to express what we mean. That's where compounds enter!
+    Oravia has less than ~780 words. This makes it much faster and easier to learn than having thousands of words. The trade-off is that we don't have words for every single concept. Many times, we need to use more than one word to express what we mean. That's where compounds enter!
     
     Compounds are multiple words that name a single concept. In a compound, every word except the last takes **-s**. You can also put **sol** at the front to explicitly open the compound; **sol** is optional. This distinguishes a compound from an ordinary modifier phrase, which does not take **-s**. For example:
     
@@ -79,7 +79,7 @@
     
     ``` 
     falfal-li = child-time, childhood  
-    i toului-asfe = tired-stop, to give up from exhaustion  
+    i toului-anejui = tired-stop, to give up from exhaustion  
     ```
     
     We also use it for other verbs, to make it easier:
@@ -127,11 +127,9 @@
     
     | Oravia | English |
     |--------|---------|
-    | vonmo | lip |
-    | vonici | nail |
     | vonlu | skin |
     | vonyas | hair |
-    | vosvo | soap |
+    | vosdama | soap |
     | vosfan | brush |
     | vosfou | dry |
     | vosvosi | rub |
@@ -164,7 +162,7 @@
 
     ### Recognize the Roots
 
-    Take another look at **vonmo**, **vonici**, **vonlu**, and **vosfou**. Do you recognize any roots you've learned before?
+    Take another look at **vonlu** and **vosfou**. Do you recognize any roots you've learned before?
 
     <div style="text-align: center; margin: 1.25rem 0;">
     <button onclick="document.getElementById('root-recall-l42-vo-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.65rem 1.5rem; border-radius: 4px; cursor: pointer;">
@@ -174,8 +172,6 @@
 
     <div id="root-recall-l42-vo-answer" style="display: none; background: #c8e6c9; padding: 1.25rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 1.25rem 0;">
     
-    <p style="margin: 0 0 0.45rem 0;"><strong>vonmo</strong> → <strong>MO</strong> = food / eating</p>
-    <p style="margin: 0 0 0.45rem 0;"><strong>vonici</strong> → <strong>NI</strong> = new · <strong>CI</strong> = sharp</p>
     <p style="margin: 0 0 0.45rem 0;"><strong>vonlu</strong> → <strong>LU</strong> = outside</p>
     <p style="margin: 0 0 0.45rem 0;"><strong>vosfou</strong> → <strong>FOU</strong> = lack</p>
     </div>
@@ -215,7 +211,7 @@
     </div>
     
     <div id="subcluster6-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;">Example answer: Neloa yogali. </p>
+    <p style="margin: 0;">Example answer: Neloa yogafei yopoh-sari. </p>
     </div>
     
     You are ready for the exercise now!

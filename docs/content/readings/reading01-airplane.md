@@ -9,15 +9,15 @@
 ## Reading
 
 L: "Ce mouje a run i anidai, eoren? E moaria mouje dou e mogali?"  
-M: "E mogali, eori."  
+M: "E mogali, eoren."  
 L: "Moval mogali?"  
-M: "Um, mai su moulu, eori."  
+M: "Um, mai su moulu, eoren."  
 L: "Run i anidai e mocen?"  
 M: "I anidai, mai i anifoum... Nim i moum e moyi, eta ilie i anita e ho yantan mocen."  
 L: "Nim i do i anona e moyium mocen u run."  
 M: "Eloan!"  
 L: "Su rune fano, hay i anidai moulu?"  
-M: "Oi, nim i iliro oi. A nim a ilonya, eta anitaum e mo u hay. Su, i bontame e mogali su mocen u nime faibor, eori. Hay en bosvi."  
+M: "Oi, nim i iliro oi. A nim a ilonya, eta anitaum e mo u hay. Su, i bontame e mogali su mocen u nime faibor, eoren. Hay en bosvi."  
 
 ---
 
@@ -46,7 +46,7 @@ M: "Oi, nim i iliro oi. A nim a ilonya, eta anitaum e mo u hay. Su, i bontame e 
 | faibor | spouse, partner |
 | bosvi | bathroom |
 | eoren | sir, ma'am (honorific) |
-| eori | please |
+| eoren | please |
 | eloan | thank you |
 | dou | or |
 | eta | therefore, so |

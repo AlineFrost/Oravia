@@ -47,7 +47,7 @@
     ```
     
     ```
-    nim i dai i bonfene, eori. Eta, cedom a bonfene i dami? 
+    nim i dai i bonfene, eoren. Eta, cedom a bonfene i dami? 
 
     ```
     
@@ -69,7 +69,7 @@
     cedom = what + place = where  
     eta = therefore, then  
     dami = exist, there is  
-    eori = please  
+    eoren = please  
     um = negative, no, not  
     a...a... = is/are   
     a [subject] i [verb] e [direct complement] u [indirect complement/to/for] 
@@ -132,7 +132,7 @@
     |--------|---------|
     | gehna | buy, a purchase |
     | gehsar | charge, bill |
-    | gehdove | sell, sale |
+    | gehvio | exchange, trade |
 
     What do you think **GEH** is about?
 

@@ -131,7 +131,7 @@
     I pas i gelsar. Neron, i vanta e gerina. 
     I like to buy. Furthermore, I have money.
     
-    Neron, eori.
+    Neron, eoren.
     More, please.
     ```
    

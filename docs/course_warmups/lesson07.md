@@ -162,7 +162,7 @@
     | aniyel | come |
     | anidai | want |
     | anifou | need |
-    | anefene | rest |
+    | anolu | out |
     | ansau | start |
     
     What do you think the AN cluster is about?
@@ -201,7 +201,7 @@
 
     ### Recognize the Roots
 
-    Take another look at **anefene**. Do you recognize any roots you've learned before?
+    Take another look at **anolu**. Do you recognize any roots you've learned before?
 
     <div style="text-align: center; margin: 1.25rem 0;">
     <button onclick="document.getElementById('root-recall-l7-an-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.65rem 1.5rem; border-radius: 4px; cursor: pointer;">
@@ -210,7 +210,7 @@
     </div>
 
     <div id="root-recall-l7-an-answer" style="display: none; background: #c8e6c9; padding: 1.25rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 1.25rem 0;">
-    <p style="margin: 0 0 0.45rem 0;"><strong>anefene</strong> → <strong>FENE</strong> = rest</p>
+    <p style="margin: 0 0 0.45rem 0;"><strong>anolu</strong> → <strong>LU</strong> = outside</p>
     </div>
 
     !!! info "🌍 Sound Connections"

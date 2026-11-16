@@ -53,7 +53,7 @@ You can still describe that food truck:
 
 With a hyphen, one word is coloring the meaning of another. It is usually done with verbs to give them more nuance and expression, and make sentences more direct:
 
-`i eori-ilaluan u eofa`
+`i eoren-ilaluan u eofa`
 
 <details class="example-translation">
 <summary>Click to Reveal Translation</summary>
@@ -62,7 +62,7 @@ With a hyphen, one word is coloring the meaning of another. It is usually done w
 
 </details>
 
-Here **ilaluan** is still the main action, and **eori** gives it the *polite* flavor.
+Here **ilaluan** is still the main action, and **eoren** gives it the *polite* flavor.
 
 ### Imports and local coinages
 
@@ -77,7 +77,7 @@ Use the apostrophe for names and other words brought in from outside the fixed O
 
 ### Before you split a word apart
 
-A root can be more than one syllable. **FENE**, **LUAN**, **PILI**, and **REVA** are each single roots, so they don't split further. The same letters may also do different jobs in different words. There are only about ~260 building blocks, and once learned, recognizing them becomes easy.  
+A root can be more than one syllable. **FENE**, **LUAN**, **PILI**, and **REVA** are each single roots, so they don't split further. The same letters may also do different jobs in different words. There are only a few hundred blocks, and once learned, recognizing them becomes easy.  
 
 ### Building blocks
 
@@ -173,7 +173,7 @@ With the building blocks from this short course, more than 40 additional diction
 
 !!! tip "From earlier lessons"
     **leayo** = garden  
-    **eori** = polite / please  
+    **eoren** = polite / please  
     **ilaluan** = say / tell  
     **eofa** = friend  
     **lis** = one day / sometime in the future
@@ -223,7 +223,7 @@ With the building blocks from this short course, more than 40 additional diction
 
 </details>
 
-`i eori-ilaluan u eofa`
+`i eoren-ilaluan u eofa`
 
 <details class="example-translation">
 <summary>Click to Reveal Translation</summary>

@@ -120,7 +120,7 @@ So to keep this in mind: **ANI-** points toward, and **ANO-** points away.
 
 | Oravia | Meaning | Breakdown |
 |---|---|---|
-| **anefene** | rest | **ANE** static action + **FENE** rest |
+| **fene** | rest | **FENE** rest |
 | **anona** | give | **ANO** movement away + **NA** giving |
 | **borlu** | window | **BOR** house structure + **LU** outside |
 | **leigai** | shrub | **LEI** plants + **GAI** small |
@@ -170,7 +170,7 @@ So to keep this in mind: **ANI-** points toward, and **ANO-** points away.
 
 </details>
 
-`i anefene en boemo`
+`i fene en boemo`
 
 <details class="example-translation">
 <summary>Click to Reveal Translation</summary>

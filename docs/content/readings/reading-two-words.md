@@ -10,7 +10,7 @@
 ## Reading
 
 Noi limel widuo nim varsus a run i ilaluan·ar e tor couya.  
-Ganyu couya. A tor couya a toului  
+Ganpe couya. A tor couya a toului  
 caora lirul-ilaluan hue. A couya  
 caora yamirli a yani.  
 
@@ -53,7 +53,7 @@ i jasjece e oiyar.
 | elemi | life |
 | elonor | peace |
 | en | in, at, on |
-| ganyu | ordinary, common |
+| ganpe | ordinary, common |
 | heosu | moon |
 | ilaluan | say, tell |
 | jahtorci | scissors |

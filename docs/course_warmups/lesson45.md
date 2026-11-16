@@ -44,7 +44,7 @@
     
  
     ```
-    litamar, o nim i elomio e hay!
+    litamar, o nim i elomiu e hay!
     ```
         
     ```
@@ -73,7 +73,7 @@
     bi yuba = how good, that's good 
     bortal = door, to enter  
     elireva = truth  
-    elomio = help  
+    elomiu = help  
     fani = baby  
     ilahai = speak, talk  
     miwo = dog  
@@ -110,9 +110,9 @@
     | Oravia | English |
     |--------|---------|
     | gafi | less |
-    | gavio | various, different |
+    | galiu | various |
     | ganrih | above |
-    | ganyu | common, average |
+    | ganpe | common, average |
     | ganter | rank |
     | gaomem | equal |
     | gaolei | value |
@@ -169,7 +169,7 @@
 
     ### Recognize the Roots
 
-    Take another look at **gavio** and **ganrih**. Do you recognize any roots you've learned before?
+    Take another look at **galiu** and **ganrih**. Do you recognize any roots you've learned before?
 
     <div style="text-align: center; margin: 1.25rem 0;">
     <button onclick="document.getElementById('root-recall-l45-ga-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.65rem 1.5rem; border-radius: 4px; cursor: pointer;">
@@ -178,7 +178,7 @@
     </div>
 
     <div id="root-recall-l45-ga-answer" style="display: none; background: #c8e6c9; padding: 1.25rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 1.25rem 0;">
-    <p style="margin: 0 0 0.45rem 0;"><strong>gavio</strong> → <strong>VIO</strong> = change / exchange</p>
+    <p style="margin: 0 0 0.45rem 0;"><strong>galiu</strong> → <strong>LIU</strong> = other</p>
     <p style="margin: 0 0 0.45rem 0;"><strong>ganrih</strong> → <strong>RIH</strong> = higher / rising</p>
     </div>
 
@@ -274,7 +274,7 @@
     function initWarmup() {
         const warmupWords = [
     {id: "lu_1", oravia: "lufiva", english: "cold"},
-    {id: "lu_2", oravia: "luyar",  english: "light"},
+    {id: "lu_2", oravia: "lumbo",  english: "cloud"},
     {id: "lu_3", oravia: "lupupi", english: "rain"},
     {id: "lu_4", oravia: "luyol",  english: "sky"},
     {id: "lu_5", oravia: "lusari", english: "sun"},

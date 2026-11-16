@@ -11,15 +11,15 @@
 
 ## Read  
 
-**Bo de Heivio Haijor**  
+**Bo de Heivio Jor Hai**  
 
-i do i vardei en bo e pohcavo luyar. su en nebalem antori bo bortal, e daciu de yamirli heivio haijor. o hay en bo.  
+i do i vardei en bo e pohcavo yar. su en nebalem antori bo bortal, e daciu de yamirli heivio jor hai. o hay en bo.  
 
-nim i jelano e bo. yedia yaltana miau i bonfene en lea bortal. notam, a miau i anvu e varsus jetai nim. notor, tonan, e varodu. hay i siyal e nim.  
+nim i bua e bo. yedia yaltana miau i bonfene en lea bortal. notam, a miau i anvu e varsus jetai nim. notor, tonan, e varodu. hay i siyal e nim.  
 
-anja yasoi aparih, hay i widuo. noi ilteli, a bo bortal i antori, su o heivio haijor i ilofun-vardei.  
+anja yasoi aparih, hay i widuo. noi ilteli, a bo bortal i antori, su o heivio jor hai i ilofun-vardei.  
 
-“bi elodanis run i anifi sora i anivari-anita e rune miau, tornono. bi muhsis hay nedas lirul i sioer-copei e bo.”  
+“bi eloeleis run i aniyel sora i anivari-anita e rune miau, tornono. bi muhsis hay nedas lirul i sio-copei e bo.”  
 
 
 ---
@@ -29,7 +29,7 @@ anja yasoi aparih, hay i widuo. noi ilteli, a bo bortal i antori, su o heivio ha
 a [subject] i [verb] e [direct object] u [indirect object, to, for]  
 a...a... = is/are (copula)  
 -a = indicates a compound, multiple words for one concept
-anifi = come  
+aniyel = come  
 anivari = back 
 anita = take  
 antori = open  
@@ -42,7 +42,7 @@ bortal = door
 copei = seek, search, hunt  
 daciu = shape  
 (da)sora = purpose, for  
-elodan = freedom  
+eloele = freedom  
 en = location (at, in)  
 dia = agent, user  
 heivio = magic  
@@ -51,11 +51,11 @@ i = verb marker
 -is = prospective
 ilofun = hesitant  
 ilteli = moment, instant  
-jelano = circle, round, around  
+bua = circle, round, around  
 jetai = direction, toward  
 jor = female, woman  
 lea = land   
-luyar = light, illumination  
+yar = light, illumination  
 miau = cat  
 muhsis = mosquito, fly, annoying  
 nebalem = 4/10    

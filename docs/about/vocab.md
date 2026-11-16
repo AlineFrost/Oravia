@@ -33,7 +33,7 @@ Many people have been asking how Oravia differs from previous attempts at oligos
 
   - **f)** You don't need separate words to create register, you can use the same word components to vary formality.
 
-  - **g)** You can essentially learn a lot of the vocabulary just by knowing the ~260 building blocks.
+  - **g)** You can essentially learn a lot of the vocabulary just by knowing the a few hundred blocks.
 
   - **h)** It's much easier to scan a text for information or to parse sentences. For example, a li word is telling you when something happened, a no word is a function word like already, almost, and so on.
 

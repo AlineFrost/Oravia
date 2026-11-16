@@ -31,7 +31,7 @@
     ```
     
     ```
-    Cegaori a hoi eomfel?
+    Cegehsar a hoi eomfel?
     ```
     
     ```
@@ -51,7 +51,7 @@
     ```
     
     ```
-    Caora toului, i fou i anepou.
+    Caora toului, i fou i anedetu.
     ```
 
     **Tips**
@@ -60,7 +60,7 @@
     -is = yet to start    
     a...a... = is/are  
     a [subject] i [verb] e [direct complement] u [indirect complement/to/for]
-    anepou = stop
+    anedetu = stop
     (ani)dai = want  
     (ani)fou = need
     dapas = like, enjoy  
@@ -71,7 +71,7 @@
     canon = how, the way   
     caora = because  
     cecoter = how many (quantity)?  
-    cegaori = how much (price)?  
+    cegehsar = how much (price)?  
     cenon = how, what way?  
     ceora = why?  
     eomfel = event  

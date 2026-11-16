@@ -63,7 +63,7 @@
     Lastly, we can create other questions by combining other words:
     ```
     cecoter? = ce (what) + coter (number) = how many?
-    cegaori? = ce (what) + gaoleo (price) = how much / what price?
+    cegehsar? = ce (what) + gehsar (price) = how much / what price?
     ```
     
     When we answer a question about quantity, we can reply a specific number, or just say *mir*. *Mir* means *many*, that's why we have words like *yamirli* = old.
@@ -74,7 +74,7 @@
     ceora? = ce (what) + ora (idea) = why?
     cenon? = ce (what) + non (way) = how?
     cecoter? = ce (what) + coter (number) = how many?
-    cegaori? = ca (what) + gaoleo (price) = how much / what price?
+    cegehsar? = ca (what) + gehsar (price) = how much / what price?
     mir = many, plural
     ```
     
@@ -105,13 +105,13 @@
     | Oravia | English |
     |--------|---------|
     | lufiva | cold |
-    | luyar | light |
+    | luyol | sky |
     | lupupi | rain |
     | luval | snow |
     | lufu | wind |
     | lunhem | summer |
     | lusari | sun |
-    | luhue | mist |
+    | luswa | wave |
     | lumbo | cloud|
     
     What do you think the **LU** cluster is about? 
@@ -131,18 +131,18 @@
     | Oravia | English |
     |--------|---------|
     | lufiva | cold, to cool |
-    | luyar | light, to illuminate, bright |
+    | luyol | sky |
     | lupupi | rain, rainy |
     | luval | snow, snowy |
     | lufu | wind, windy |
     | lusari | sun, sunny |
-    | luhue | mist, misty |
+    | luswa | wave, undulation |
     | lumbo | cloud, cloudy |
     
 
     ### Recognize the Roots
 
-    Take another look at **luyar** and **lupupi**. Do you recognize any roots you've learned before?
+    Take another look at **luyol** and **lupupi**. Do you recognize any roots you've learned before?
 
     <div style="text-align: center; margin: 1.25rem 0;">
     <button onclick="document.getElementById('root-recall-l28-lu-answer').style.display='block'; this.style.display='none';" style="background: #4a9cd6; color: white; border: none; padding: 0.65rem 1.5rem; border-radius: 4px; cursor: pointer;">
@@ -151,7 +151,7 @@
     </div>
 
     <div id="root-recall-l28-lu-answer" style="display: none; background: #c8e6c9; padding: 1.25rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 1.25rem 0;">
-    <p style="margin: 0 0 0.45rem 0;"><strong>luyar</strong> → <strong>YAR</strong> = light</p>
+    <p style="margin: 0 0 0.45rem 0;"><strong>luyol</strong> → <strong>YOL</strong> = sky and ocean</p>
     <p style="margin: 0 0 0.45rem 0;"><strong>lupupi</strong> → <strong>PUPI</strong> = falling water</p>
     </div>
 

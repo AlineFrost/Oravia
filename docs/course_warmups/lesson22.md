@@ -51,8 +51,8 @@
     For months, we use numbers 8–12: *auta, tenda, das, dastam, dastor.* For dates, we specify the month and day, like this:
     
     ```
-    Lipardas tam = month one = January
-    Lipardas tor = month two = February
+    Liheosu tam = month one = January
+    Liheosu tor = month two = February
     Litam tam = day one = 1st of...
     Litam tor = day two = 2nd of...
     ```
@@ -66,7 +66,7 @@
     </div>
     
     <div id="answer-months" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0 0 0.5rem 0;">Lipardas peri. Lipardas das. Lipardas dastor. Lipardas auta su Litam tordas par. / Litam tordas par su Lipardas auta.</p>
+    <p style="margin: 0 0 0.5rem 0;">Liheosu peri. Liheosu das. Liheosu dastor. Liheosu auta su Litam tordas par. / Litam tordas par su Liheosu auta.</p>
     </div>
     
     
@@ -95,7 +95,7 @@
     </div>
     
     <div id="subcluster5-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0 0 0.5rem 0;">When is your birthday? Possible answer: Lipardas par su Litam tam / Litam tam su Lipardas par (March 1st). </p>
+    <p style="margin: 0 0 0.5rem 0;">When is your birthday? Possible answer: Liheosu par su Litam tam / Litam tam su Liheosu par (March 1st). </p>
     </div>
     
     Finally, there are two more important words when it comes to time. *Lar* is used for a general, unspecified past, and *lis* is used for a general, unspecified future. For example:
@@ -109,14 +109,14 @@
         
     ```
     Lar lidastor = the previous year / last year
-    Lis lipardas = the following month / next month 
+    Lis liheosu = the following month / next month 
     ```
     
     The reference is usually the present, so when someone says *lis or lar + time*, it usually means last or next year / month / week. But remember, -ar and -is work as relative time, so if the narrative is not in the present, they may mean the previous / the following. 
     
     To sum up:
     ```
-    Lipardas tam, lipardas tor... = January, February... 
+    Liheosu tam, liheosu tor... = January, February... 
     Litam tam, litam tor... = day 1, day 2...
     Tamen liperi, toren liperi... = Monday, Tuesday...
     Lar = unspecified past, once
@@ -145,9 +145,9 @@
     
     ```
     nim i anye = I do
-    nolili nim i anyeis = I will do it forever
-    nim i anepou = I stop
-    norven nim i anepou = I already stopped
+    lilaro nim i anyeis = I will do it forever
+    nim i anedetu = I stop
+    norven nim i anedetu = I already stopped
     ```
     
     Remember: when combining words, the word that comes before modifies what comes after (e.g., moaria mouje = apple juice). *NO* words follow the same rule, so use a *NO* word before what it modifies. For example,

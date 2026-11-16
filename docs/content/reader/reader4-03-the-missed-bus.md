@@ -6,15 +6,15 @@
 
 <div class="oravia-reading graded-reader-text">
 <p>Cali Lina i eodani e Ana notar anse, i ilace: “Cenon a run?”</p>
-<p>Ana i daco: “Toharou. Nim i ansau e ni ciuan en anse, su neloa noi liperi i nomie no nedastam apasoi.”</p>
+<p>Ana i daco: “Tohiloi. Nim i ansau e ni ciuan en anse, su neloa noi liperi i nomie no nedastam apasoi.”</p>
 <p>Lina i ilaluan: “Run i anidai i mo su nim en litam?”</p>
 <p>“Bi tohpu, i doum. Nim i dami en anse en neloa noi liperi.”</p>
 <p>“En liperis?”</p>
-<p>Ana i iliro en litegai. “Ia. Celi?”</p>
+<p>Ana i iliro en litepe. “Ia. Celi?”</p>
 <p>“En dastor litetan? Nimas i do i mo su i ilahai.”</p>
 <p>“Nim i do su en liyar. Ce en auta litetan? Nimas i mo notam anse.”</p>
 <p>Lina i dasu: “Auta litetan. Su run i do i ilahai u nim canon a eodenbor de run gel fare.”</p>
-<p>Ana i asular. “Daehun nimas i dami e yalen liyar, nim i ilahai e neloa.”</p>
+<p>Ana i asunes. “Daehun nimas i dami e yalen liyar, nim i ilahai e neloa.”</p>
 </div>
 
 <details>

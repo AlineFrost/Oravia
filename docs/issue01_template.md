@@ -73,7 +73,7 @@
             <span>elemi</span>
             <span>roudi</span>
             <span>yani</span>
-            <span>sioer</span>
+            <span>sio</span>
           </nav>
         </div>
       </div>
@@ -91,7 +91,7 @@
           <div class="mag-toc-row" role="listitem"><span class="mag-toc-name">elemi</span><span class="mag-toc-page toc-page" data-toc-for="elemi">3</span></div>
           <div class="mag-toc-row" role="listitem"><span class="mag-toc-name">roudi</span><span class="mag-toc-page toc-page" data-toc-for="roudi">4</span></div>
           <div class="mag-toc-row" role="listitem"><span class="mag-toc-name">yani</span><span class="mag-toc-page toc-page" data-toc-for="yani">5</span></div>
-          <div class="mag-toc-row" role="listitem"><span class="mag-toc-name">sioer</span><span class="mag-toc-page toc-page" data-toc-for="sioer">6</span></div>
+          <div class="mag-toc-row" role="listitem"><span class="mag-toc-name">sio</span><span class="mag-toc-page toc-page" data-toc-for="sio">6</span></div>
           <div class="mag-toc-row" role="listitem"><span class="mag-toc-name">ciude</span><span class="mag-toc-page toc-page" data-toc-for="ciude">7</span></div>
           <div class="mag-toc-row" role="listitem"><span class="mag-toc-name">he</span><span class="mag-toc-page toc-page" data-toc-for="he">8</span></div>
           <div class="mag-toc-row" role="listitem"><span class="mag-toc-name">ciureva</span><span class="mag-toc-page toc-page" data-toc-for="ciureva">9</span></div>
@@ -151,7 +151,7 @@
               <p class="mag-meta">Maya</p>
             </article>
             <article class="mag-checkin">
-              <p class="mag-checkin-text">En noi liperi, nim i anefene mir su i vardei e fare.</p>
+              <p class="mag-checkin-text">En noi liperi, nim i fene mir su i vardei e fare.</p>
               <p class="mag-meta">Noa</p>
             </article>
           </div>
@@ -162,26 +162,26 @@
       <section data-mag-section="roudi">
         <h2 class="mag-section-title" data-section-id="roudi">roudi</h2>
         <div data-mag-section-body class="mag-section-body oravia-reading">
-          <h3 class="mag-piece-title" style="margin-bottom:.35rem;">canon i tidetu a luyar</h3>
+          <h3 class="mag-piece-title" style="margin-bottom:.35rem;">canon i tidetu a yar</h3>
           <p class="mag-byline" style="margin-bottom:1.8rem;">de Aline</p>
 
           <!-- Keep each stanza as its own pagination block so the poem can begin on page one. -->
           <p class="mag-poem-stanza" style="max-width:34rem;margin:0 0 1.9rem 2.2rem;padding:0;font-size:1.08rem;line-height:1.68;break-inside:avoid;page-break-inside:avoid;">
-            a luyar ca e vardei i luyar <br>
+            a yar ca e vardei i yar <br>
             i neiden de couya ca i ram-siyal e elihei no elelia<br>
             su de dom ca nim i ilidaium-vanvu,<br>
             no a elemi i ilian e niu jenon e ca lis nim i anifou i sero
           </p>
 
           <p class="mag-poem-stanza" style="max-width:34rem;margin:0 0 1.9rem 2.2rem;padding:0;font-size:1.08rem;line-height:1.68;break-inside:avoid;page-break-inside:avoid;">
-            a luyar ca e vardei i luyar <br>
+            a yar ca e vardei i yar <br>
             i neiden sora ciudon e 'anidora<br>
             ca nimas i norocu-doum i ilian canon ilivargor,<br>
             no a lupupi i ilian e niu leipili a ca i anifou e bos
           </p>
 
           <p class="mag-poem-stanza" style="max-width:34rem;margin:0 0 1.9rem 2.2rem;padding:0;font-size:1.08rem;line-height:1.68;break-inside:avoid;page-break-inside:avoid;">
-            a luyar ca e vardei i luyar<br>
+            a yar ca e vardei i yar<br>
             nepar eomfel, i ilonya canon su sora i dami<br>
             su i 'anvuson-damium<br>
             omum<br>
@@ -190,11 +190,11 @@
 
           <p class="mag-poem-stanza" style="max-width:34rem;margin:0 0 0 2.2rem;padding:0;font-size:1.08rem;line-height:1.68;break-inside:avoid;page-break-inside:avoid;">
             mai notor,<br>
-            a neliu luyar gon i aniyel<br>
+            a neliu yar gon i aniyel<br>
             caora i sepopo<br>
             vardei notor vardei<br>
             su i siyalum-bortal en couhaium nim<br>
-            o luyar ca a vardei i luyar
+            o yar ca a vardei i yar
           </p>
         </div>
       </section>
@@ -203,17 +203,17 @@
       <section data-mag-section="yani">
         <h2 class="mag-section-title" data-section-id="yani">yani</h2>
         <div data-mag-section-body class="mag-section-body oravia-reading">
-          <h3 class="mag-piece-title">yani leayo u falen</h3>
-          <p class="mag-deck">En wilgai 'Sola, ilhei i anye e yani leayo u falen.</p>
+          <h3 class="mag-piece-title">yani leayo u falfal</h3>
+          <p class="mag-deck">En wilgai 'Sola, ilhei i anye e yani leayo u falfal.</p>
           <p class="mag-byline">Maya</p>
-          <p class="dropcap">Mir leirih su leipili i dami en leayo. Falen i do i apavu, i vardei e muhpili, su i anefene en yalgai dom.</p>
+          <p class="dropcap">Mir leirih su leipili i dami en leayo. Falfal i do i apavu, i vardei e muhpili, su i fene en yalgai dom.</p>
           <p>Ilhei de wilgai i anona e mir leini u ciuan. Bi yuba, leayo i anbas u neloa ilhei en noi liperi.</p>
         </div>
       </section>
 
       <!-- Linguistic puzzle + voting. Replace blanks with community submissions. -->
-      <section data-mag-section="sioer">
-        <h2 class="mag-section-title" data-section-id="sioer">sioer</h2>
+      <section data-mag-section="sio">
+        <h2 class="mag-section-title" data-section-id="sio">sio</h2>
         <div data-mag-section-body class="mag-section-body oravia-reading">
           <div class="mag-puzzle-result">
             <p class="mag-small-label">0 · eopan</p>
@@ -237,15 +237,15 @@
         <div data-mag-section-body class="mag-section-body oravia-reading">
           <p class="mag-topic">muhpili</p>
           <article class="mag-personal-piece">
-            <p>Cali nim a falen, mir muhpili lirular i anifi en leayo de nim bo. Nim lirular i apafene su i vardei e hayas en liyar.</p>
+            <p>Cali nim a falfal, mir muhpili lirular i aniyel en leayo de nim bo. Nim lirular i apafene su i vardei e hayas en liyar.</p>
             <p class="mag-meta">Lina</p>
           </article>
           <article class="mag-personal-piece">
-            <p>Lar, yalgai muhpili i bortal en nim bo. Hay i anelem en borlu, su nimas i ilahaium en mir litegai.</p>
+            <p>Lar, yalgai muhpili i bortal en nim bo. Hay i anelem en borlu, su nimas i ilahaium en mir litepe.</p>
             <p class="mag-meta">Toma</p>
           </article>
           <article class="mag-personal-piece">
-            <p>Nim i eleyel e om de muhpili en liyar. Hay i dosaba ca nim i anefene su i vardei e luyol.</p>
+            <p>Nim i eleyel e om de muhpili en liyar. Hay i dosaba ca nim i fene su i vardei e luyol.</p>
             <p class="mag-meta">Maya</p>
           </article>
         </div>
@@ -258,7 +258,7 @@
           <h3 class="mag-piece-title">wiltan en wa</h3>
           <p class="mag-byline">Noa</p>
           <p class="dropcap">O iliciu, a yaltan wiltan i dami en wa. Mir wilyel i yel e bo, su ilhei i anvu en hayas en neloa litam.</p>
-          <p>En limel, luyar i dami en borlu. En liyar, ilhei i anvu en leayo en jeolan de wiltan. Neliu ilhei i iliro ca a noi dom a elonor; neliu i iliro ca a hay a heivio.</p>
+          <p>En limel, yar i dami en borlu. En liyar, ilhei i anvu en leayo en jeope de wiltan. Neliu ilhei i iliro ca a noi dom a elonor; neliu i iliro ca a hay a heivio.</p>
         </div>
       </section>
 
@@ -291,13 +291,13 @@
       <section data-mag-section="roumir">
         <h2 class="mag-section-title" data-section-id="roumir">roumir</h2>
         <div data-mag-section-body class="mag-section-body oravia-reading">
-          <h3 class="mag-piece-title">Faltejor en Beijevoi</h3>
+          <h3 class="mag-piece-title">Jor Fal en Beijevoi</h3>
           <p class="mag-piece-subtitle">Joniu 1</p>
           <p class="mag-byline">de Ruskin Bond</p>
 
-          <p class="dropcap">Linu 'Rohana, dantam nim i dami en boelori en beimete. Notor faltejor i aniyel en boelori. Tor ilhei i anvu su hay linu beimete. Bi daeta, a hayas a hay fare; hayas i neauta iloto u hay. Farejor i ilahai ciude ciugai u hay: cadom hay i anefe e ilwol, cali hay i anolum e varodu anja borlu, su ca i tane i ilahaium u ilhei ca hay i ilianum.</p>
+          <p class="dropcap">Linu 'Rohana, dantam nim i dami en boelori en beimete. Notor jor fal i aniyel en boelori. Tor ilhei i anvu su hay linu beimete. Bi daeta, a hayas a hay fare; hayas i neauta iloto u hay. Jor fare i ilahai ciude ciugai u hay: cadom hay i fene e ilwol, cali hay i anolum e varodu anja borlu, su ca i tane i ilahaium u ilhei ca hay i ilianum.</p>
 
-          <p>Hayas i ano-eon u hay, su beimete i anocari de beilem. A nim a ilhei ca i doum i vardei. Nim i do i siyal dantam e luyar su yomel; eta nim i doum i ilian canon faltejor i nomie. Mai de hay vanpai om cali hay i anvu, nim i siyal ca hay i none e yespai ca i anbas en vavari. I dapas e hay omco su om de hay yespai.</p>
+          <p>Hayas i ano-eon u hay, su beimete i anocari de beilem. A nim a ilhei ca i doum i vardei. Nim i do i siyal dantam e yar su yomel; eta nim i doum i ilian canon jor fal i nomie. Mai de hay vanpai om cali hay i anvu, nim i siyal ca hay i none e yespai ca i anbas en vavari. I dapas e hay omco su om de hay yespai.</p>
 
           <p>“Run i anvu linu 'Dehra?” nim i ilace.</p>
 
@@ -309,17 +309,17 @@
 
           <p>Nim i iliro ia dou i do i anonuve ca hay i siyal ca nim i vardeium. Daefer nim i anelem en apafene, eta ilie hay i siyalum.</p>
 
-          <p>Faltejor i ilaluan, “Nim i anocari de beimete en 'Saharanpur. Faresujor i eodani e nim en dom.”</p>
+          <p>Jor fal i ilaluan, “Nim i anocari de beimete en 'Saharanpur. Jor faresu i eodani e nim en dom.”</p>
 
-          <p>“Eta nim i tane i anelem no nordau de run,” nim i daco. “A faresujor a tohvor.”</p>
+          <p>“Eta nim i tane i anelem no nordau de run,” nim i daco. “A jor faresu a tohvor.”</p>
 
           <p>“Cedom run i anvu?” hay i ilace.</p>
 
           <p>“Jetai 'Dehra; notor jetai 'Mussoorie.”</p>
 
-          <p>“Bi yuba u run! Bi tohpu, nim i anvum jetai 'Mussoorie su. I eleyel e wimrih, o en Lipardas das.”</p>
+          <p>“Bi yuba u run! Bi tohpu, nim i anvum jetai 'Mussoorie su. I eleyel e wimrih, o en Liheosu das.”</p>
 
-          <p>“Dasu. A noi li a anodu yuba,” nim i ilaluan lilon i sero e dom. “Mir 'Dahlia i yaldih e wimrih. A lusari a nedas yuba. En limel, run i do i apafene jenparo pohpoh su i mouje e netor 'brandy. Norocu neloa bei dia i anocariar, su a jenon a elonor su norocu jenya. Dasu, a Lipardas das a anodu yuba li.”</p>
+          <p>“Dasu. A noi li a anodu yuba,” nim i ilaluan lilon i sero e dom. “Mir 'Dahlia i yaldih e wimrih. A lusari a nedas yuba. En limel, run i do i apafene jenparo pohpoh su i mouje e netor 'brandy. Norocu neloa bei dia i anocariar, su a jenon a elonor su norocu jenya. Dasu, a Liheosu das a anodu yuba li.”</p>
 
           <p>A hay i ilahaium. Nim i iliro ia dou hay i yalnou-dapas e nim ilaluan, ia dou hay i iliro ca a nim a oifu.</p>
 
@@ -327,7 +327,7 @@
 
           <p>“Ce i dami en anolu?”</p>
 
-          <p>I nomie ca hay i siyalum e nepui ho ganyu en noi ilace. Nim i iliro ia dou hay norven i siyal ca nim i vardeium. Mai hay i ilace:</p>
+          <p>I nomie ca hay i siyalum e nepui ho ganpe en noi ilace. Nim i iliro ia dou hay norven i siyal ca nim i vardeium. Mai hay i ilace:</p>
 
           <p><strong>“O i vardei e anolu anja borlu, ia?”</strong></p>
 

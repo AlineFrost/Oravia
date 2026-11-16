@@ -79,7 +79,7 @@
     
     | Oravia | English |
     |--------|---------|
-    | tunen | violence |
+    | tulram | explode |
     | tuldac | crash, hit |
     | tumjum | gun |
     | turai | war |
@@ -130,10 +130,10 @@
     "Mai a nimas i fou i iloi" nim i ilaluan.  
     "Iloi? E ce?"  
     "E ganou lusari. A nimas i fou i iloi linu davir li"  
-    Notam, run i nomie no nedas iloram. Notor, i asular. Run i ilahai u nim:  
+    Notam, run i nomie no nedas iloram. Notor, i asunes. Run i ilahai u nim:  
     "Nedas lirul a nim i iliro ca nim en bo!"  
     Neloa ilhei i ilian: cali dastor litetan en 'USA, a lusari i anocari en 'France.
-    Daefer run i do i helufu de USA en France en tam litegai, i do i vardei e anocari lusari cali dastor litetan en USA.  
+    Daefer run i do i helufu de USA en France en tam litepe, i do i vardei e anocari lusari cali dastor litetan en USA.  
     Bi tohpu, a France a nordau, eta i doum i anye e noi. Mai en run yalgaigai heodom, yalgai raitar, run negafei i fou i anvu e apafene noniu vanpai. run i do i vardei e litam yadetu nehen li ca run i anidai...  
     "Lar" run i ilaluan u nim "i vardei e anocari lusari bale das bale coter!  
     Su yalgai li notor:  
@@ -150,7 +150,7 @@
     anvu = move  
     anye = make, do  
     apafene = sit, chair  
-    asular = laugh, laughter  
+    asunes = laugh, laughter  
     bale = four  
     bale das = forty  
     bo = home, house  
@@ -187,7 +187,7 @@
     linu = until  
     lirul = habit, custom  
     litam = day  
-    litegai = minute  
+    litepe = minute  
     litetan = hour  
     liyar = morning  
     lusari = sun  

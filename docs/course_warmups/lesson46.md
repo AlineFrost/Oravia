@@ -69,8 +69,8 @@
     
     | Oravia | English |
     |--------|---------|
-    | dohtei | expel |
-    | dohcu | obey |
+    | dohano | expel |
+    | dohsu | obey |
     | dopim | tolerate |
     | dogue | tendency |
     | dohti | punish |
@@ -97,7 +97,7 @@
         
         Here are other words with this root:  
         **veiti** = tumor (health issue + bad)  
-        **jati** = whip (tool + bad)  
+        **tidetu** = death (harm + end)  
 
     
     You are ready for the reading now!
@@ -123,7 +123,7 @@
     a muhpili ca i omlia noi,  
     i omlia noum muhpili en ho noi  
 
-    en nimas luyol, neron 'heoyar  
+    en nimas luyol, neron yars jeciuta  
     en nimas was jele, neron leipili  
     en nimas leayo, neron elemi  
     nimas elemi neron eleyel  

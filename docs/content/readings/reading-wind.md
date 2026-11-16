@@ -7,13 +7,13 @@
 
 ## Reading
 
-Wirel Lufu su Lusari i damai cai a pohnen, cali be dia i anifi su vilan jovabo.
+Wirel Lufu su Lusari i damai cai a pohnen, cali be dia i aniyel su vilan jovabo.
 
 Hayas i dasu cai tam ganter i do i pohnen ca a be dia i siur e jovabo, i daca hue no pohnen.
 
 Eta Wirel Lufu i 'asufu cane pohnen ca hay i ando, mai neron hay i 'asufu, neron be dia i vanta e jovabo en hay.
 
-Yadetu, a Wirel Lufu i toului-asfe. Notor, Lusari i luyar en neauta pohem non, su ilteli a be dia i siur e jovabo.
+Yadetu, a Wirel Lufu i toului-anejui. Notor, Lusari i yar en neauta pohem non, su ilteli a be dia i siur e jovabo.
 
 Eta Wirel Lufu i raidana-ilaluan ca a Lusari a pohnen.
 
@@ -25,8 +25,8 @@ Eta Wirel Lufu i raidana-ilaluan ca a Lusari a pohnen.
 |--------|---------|
 | 'asufu | blow (wind) |
 | ando | be able to |
-| anifi | arrive, come |
-| asfe | stop |
+| aniyel | arrive, come |
+| anejui | stop |
 | be | travel |
 | ca | that, which (connector) |
 | cai | connector (who) |
@@ -43,7 +43,7 @@ Eta Wirel Lufu i raidana-ilaluan ca a Lusari a pohnen.
 | jovabo | cloak |
 | Lufu | wind |
 | Lusari | Sun |
-| luyar | shine, light |
+| yar | shine, light |
 | mai | but |
 | neauta | 8/10 |
 | neron | more |

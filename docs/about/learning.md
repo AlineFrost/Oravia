@@ -4,7 +4,7 @@ Oravia is a language with a small vocabulary that was designed to be fast to lea
 
 ## Oravia Primer
 
-This learning path is the quickest way to learn the basics and to start communicating. By the end, you'll have a sense of how the system works, you'll be able to continue developing your skills, and to interact with content using the [dictionary](../dictionary.md). It's also perfect if just want to know what Oravia is about, or you are not sure yet whether you'd like to go further.  
+This learning path is the quickest way to learn the basics and to start communicating. By the end, you'll have a sense of how the system works, you'll be able to continue developing your skills, and to interact with content using the [dictionary](../content/dictionary.md). It's also perfect if just want to know what Oravia is about, or you are not sure yet whether you'd like to go further.  
 
 It can be done in a week (for example, core grammar day 1, then 2 lessons a day), as a deep dive, or at your own pace.
 
@@ -30,14 +30,14 @@ Ready for more? This learning path will take you to a new level. You'll become a
 
 For this path, first do Oravia in 2 months. Then, add one extra month on top:
 
-- Month 3: do *Deck 3* under [Flashcards](../content/flashcards.md), 10 new cards a day. PLUS, *engage with the language everyday* by alternating a) writing your own pieces and translating; b) chatting on [discord](https://discord.gg/YOUR-INVITE) and reading books; and c) reading the reference content on the website, such as the [Comprehensive Grammar](../reference/oravia-grammar.md), the [Guide to Craft and Style](../reference/style.md), and the [Building Blocks](../reference/building_blocks_reference.md). 
+- Month 3: do *Deck 3* under [Flashcards](../content/flashcards.md), 10 new cards a day. PLUS, *engage with the language everyday* by alternating a) writing your own pieces and translating; b) chatting on [discord](https://discord.gg/YOUR-INVITE) and reading books; and c) reading the reference content on the website, such as the [Comprehensive Grammar](../content/oravia-grammar.md), the [Guide to Craft and Style](../content/oravia-style.md), and the [Building Blocks](../content/building_blocks.md). 
 
 **Wait, so you're saying Oravia can be learned in 2-3 months with just a little per day?**  
 Yes, that's right! It was especially designed to be fast to learn across linguistic backgrounds, while still offering precision, expressiveness, and a range of stylistic and pragmatic options.
 
 ## Conclusion
 
-Oravia has about 860 words built mostly from ~260 building blocks. It also has a simple grammar with a low learning load, designed to complement the vocabulary system.  
+Oravia has about 780 words built mostly from a few hundred blocks. It also has a simple grammar with a low learning load, designed to complement the vocabulary system.  
 
 This means that the more you learn, the faster it gets. Each new piece brings more possibilities of recombination, and the semantic structure helps you build associations. That's how Oravia can be so precise and expressive, while also possible to learn so fast.
 

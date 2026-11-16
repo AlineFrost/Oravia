@@ -110,7 +110,7 @@
     
     | Oravia | English |
     |--------|---------|
-    | yeleno | cotton |
+    | yedelei | cotton |
     | yespuli | sock |
     | yesrel | jacket |
     | yesnou | pants |
@@ -118,7 +118,7 @@
     | yeswol | shirt |
     | yejae | bag |
     | yemiodu | pillow, cushion |
-    | yewamus | net |
+    | yerira | net |
 
    
     Do you see a subcluster in here? What do you think it is about?
@@ -137,13 +137,13 @@
     
     | Oravia | English |
     |--------|---------|
-    | yeleno | cotton, soft, fluffy |
+    | yedelei | cotton |
     | yeyel | sew, to mend |
     | yespili | dress, elegant |
     | yespai | shoe, suitable |
     | yejae | bag, burden |
     | yemiodu | pillow, cushion, padded |
-    | yewamus | net, network, internet, catch |
+    | yerira | net, mesh |
     
 
     ### Recognize the Roots

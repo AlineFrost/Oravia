@@ -22,7 +22,7 @@ Below is a conversation between Ana and Kai. They are *planning a family meal by
 
 7\. **Ana:** Ia, ia.<br>Cei i anvu?
 
-8\. **Kai:** Nim fare, nim fasu su hay falen.<br>Par ilhei.
+8\. **Kai:** Nim fare, nim fasu su hay falfal.<br>Par ilhei.
 
 9\. **Ana:** Su hayas i dapas e ce?
 
@@ -44,11 +44,11 @@ Below is a conversation between Ana and Kai. They are *planning a family meal by
 
 18\. **Kai:** Eloan!<br>Mai a nim boemo a yalgai.
 
-19\. **Ana:** Eta runas i do i anifi en nim bo.<br>Nim i gelna e mo, su i boemo.
+19\. **Ana:** Eta runas i do i aniyel en nim bo.<br>Nim i gelna e mo, su i boemo.
 
 20\. **Kai:** Oia, yuba!<br>Nim i anona e gerina u run cali nim i do.
 
-21\. **Ana:** Su celi hayas i anifi?
+21\. **Ana:** Su celi hayas i aniyel?
 
 22\. **Kai:** Litamis en alui litetan.<br>Mai a nim fare a yamirli,<br>eta hay i anvu ho yasoi.
 
@@ -56,7 +56,7 @@ Below is a conversation between Ana and Kai. They are *planning a family meal by
 
 24\. **Kai:** Nim i ilianum, mai i dami a fare beivu.<br>Eloan!<br>Eta en liperis, nim i boemo u run.
 
-25\. **Ana:** Nimas i ilaluan e ca lili en liperis!<br>Bi oi ca nim i eodani e run fare.<br>Hay i do i ilaluan e oimel de run,<br>cali a run a falen.
+25\. **Ana:** Nimas i ilaluan e ca lili en liperis!<br>Bi oi ca nim i eodani e run fare.<br>Hay i do i ilaluan e oimel de run,<br>cali a run a falfal.
 
 26\. **Kai:** Oinesum.
 
@@ -86,7 +86,7 @@ Did you notice yourself scanning for certain sounds to find information? For exa
 
 a = subject marker  
 alui = five  
-anifi = come  
+aniyel = come  
 anona = give  
 anvu = move  
 anye = make  
@@ -117,7 +117,7 @@ eodenbor = visit
 eon = hello  
 eta = therefore, so  
 fa = family  
-falen = child  
+falfal = child  
 fare = parent  
 fasu = sibling  
 fou = need (from anifou)  
@@ -196,7 +196,7 @@ Nim i do i boemo e elireva mo u hayas.
 Nimas i ilaluan e ca lili en liperis!  
 *We will talk about that again next week!*
 
-Hay i do i ilaluan e oimel de run, cali a run a falen.  
+Hay i do i ilaluan e oimel de run, cali a run a falfal.  
 *They can tell stories about you from when you were a child.*
 
 Oinesum.  

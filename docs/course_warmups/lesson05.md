@@ -138,7 +138,7 @@
     
     | Oravia | English |
     |--------|---------|
-    | falte | young |
+    | fal | young |
     | falni | baby |
     | falfal | child |
 

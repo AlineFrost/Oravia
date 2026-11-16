@@ -23,7 +23,7 @@ o i apavu-raisoi de tidetu
 caora a yuba sioren  
 a caei i eleyel e ledom    
 su en virfiyur i anelem  
-e varpi de nolili lealei  
+e varasi de lilaro lealei  
 'citrus Luanda  
 nedas lirul su leipili  
 
@@ -60,7 +60,7 @@ lufu = wind
 nedas = 10/10  
 neloa = all, everything  
 nen par = 1,000  
-nolili = forever, eternal  
+lilaro = forever, eternal  
 raisoi = flee, escape  
 sepuni = command, empire  
 sioren = luck, random  
@@ -69,7 +69,7 @@ sora = purpose, in order to
 ticati = slave, to enslave  
 tidetu = death
 vanta = hand   
-varpi = nose, smell  
+varasi = nose, smell  
 yes = cloth, fabric  
   
 ---

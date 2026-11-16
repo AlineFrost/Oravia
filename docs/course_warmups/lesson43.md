@@ -134,7 +134,7 @@
     | elireva | truth |
     | elonor | calm, peace |
     | eloan | thank, gratitude |
-    | elomio | help |
+    | elomiu | help |
     
     
     What do you think the **EL** Cluster is about?
@@ -208,7 +208,7 @@
     </div>
     
     <div id="subcluster6-answer" style="display: none; background: #c8e6c9; padding: 1.5rem; border-left: 4px solid #43a047; border-radius: 4px; margin: 2rem 0;">
-    <p style="margin: 0;">Example answer: i tane i eloan e nim jor fare caora nolili i elomio e nim. </p>
+    <p style="margin: 0;">Example answer: i tane i eloan e nim jor fare caora nedas lirul i elomiu e nim. </p>
     </div>
     
     
@@ -261,7 +261,7 @@
     function initWarmup() {
         const warmupWords = [
     {id: "lu_1", oravia: "lufiva", english: "cold"},
-    {id: "lu_2", oravia: "luyar",  english: "light"},
+    {id: "lu_2", oravia: "lumbo",  english: "cloud"},
     {id: "lu_3", oravia: "lupupi", english: "rain"},
     {id: "lu_4", oravia: "luyol",  english: "sky"},
     {id: "lu_5", oravia: "lusari", english: "sun"},

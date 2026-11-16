@@ -47,7 +47,7 @@
     ```
     
     ```
-    Ga falfal, a ho falfal a yunmpou.  
+    Ga falfal, a ho falfal a yunsun.  
     ```
     
 
@@ -74,7 +74,7 @@
     yasoi = fast  
     yuba = good  
     yuvabo = comfortable  
-    yunmpou = lazy  
+    yunsun = lazy  
     
     
     <div style="text-align: center; margin: 2rem 0;">

@@ -8,7 +8,7 @@
 
 ## Reading  
 
-Tohvi ca semtelaum, caora o nim doum siyal e damura-ora. Ca nim i anidai su anidaium, yadetum oimel. A jenparo apasoi de elemi i pomia-tohbian e neloa. I pohem su i lufiva, i tourou su notor i anefene, i elonor-anelem su i anivari-elori. O e ca i anidai de nimas, angi. Elhay i anidai o i vardei ca nimas i roesau i do i neron-oila-davio, en jenrein oila, su neronron oila en jenrein tohpu. Netam noi, tonan, en anidai litegai, anidai non, anja angi… ilie? O noi nepar lirul i iliroar. Cali a litam i ansau no luyar.
+Tohvi ca semum, caora o nim doum siyal e damura-ora. Ca nim i anidai su anidaium, yadetum oimel. A jenparo apasoi de elemi i pomia-tohmia e neloa. I pohem su i lufiva, i tourou su notor i fene, i elonor-anelem su i anivari-elori. O e ca i anidai de nimas, angi. Elhay i anidai o i vardei ca nimas i roesau i do i neron-oila-davio, en jenrein oila, su neronron oila en jenrein tohpu. Netam noi, tonan, en anidai litepe, anidai non, anja angi… ilie? O noi nepar lirul i iliroar. Cali a litam i ansau no yar.
 
 from Grande Sertão Veredas
 
@@ -17,7 +17,7 @@ from Grande Sertão Veredas
 ## Tips  
 
 ando = can, be able  
-anefene = rest  
+fene = rest  
 angi = courage, dare, bold  
 anidai = want, desire   
 anivari = return, come back  
@@ -38,10 +38,10 @@ iliro = think
 jenparo = front, forward  
 jenrein = middle, midst, within  
 litam = day  
-litegai = moment, minute  
+litepe = moment, minute  
 lirul = habitually  
 lufiva = cold  
-luyar = light  
+yar = light  
 neloa = all, everything  
 nepar = 3/10  
 neron = more   
@@ -55,10 +55,10 @@ ora = idea, reason
 pohem = warm, hot  
 pomia = mixture, mix  
 roesau = learn, study  
-semtela = organize  
+sem = organize  
 siyal = find, notice  
 su = and, with, also  
-tohbian = confusion  
+tohmia = confusion  
 tohvi = internal feeling, emotion  
 tonan = suddenly  
 tourou = tense, stress, squeeze  
@@ -86,19 +86,19 @@ yadetu = end, final
 *tohvi, o nim doum siyal, damura-ora*  
 Tohvi places the feeling inside and embodied (not only to or toh, but joined with the internal body, vi). Then o nim doum siyal: the focus marker lands on nim, making the failure to understand personal.   
 
-*a jenparo apasoi de elemi i pomia-tohbian e neloa. i pohem su i lufiva, i tourou su notor i anefene, i elonor-anelem su i anivari-elori*  
-Three extra layers of movement embody meaning through these sentences at once. The first is a movement of PO-LU: pomia (PO — substance, material) opens the first clause anchored in concreteness; by the next clause, lufiva (LU — atmosphere, the open sky) shifts it into expansion. The second arc is emotional: the passage starts at the TO cluster (tohbian, tourou) and ends at EL (elonor, elori). The suffering cluster gives way to elevation, moving from an internal-focused mental state to a realization of this suffering as a larger, elevated wonder about life. The final movement is the AN subcluster: from EL-ANE holding still to ANI-EL returning to active, creating a complete circle in both meaning and form.  
+*a jenparo apasoi de elemi i pomia-tohmia e neloa. i pohem su i lufiva, i tourou su notor i fene, i elonor-anelem su i anivari-elori*  
+Three extra layers of movement embody meaning through these sentences at once. The first is a movement of PO-LU: pomia (PO — substance, material) opens the first clause anchored in concreteness; by the next clause, lufiva (LU — atmosphere, the open sky) shifts it into expansion. The second arc is emotional: the passage starts at the TO cluster (tohmia, tourou) and ends at EL (elonor, elori). The suffering cluster gives way to elevation, moving from an internal-focused mental state to a realization of this suffering as a larger, elevated wonder about life. The final movement is the AN subcluster: from EL-ANE holding still to ANI-EL returning to active, creating a complete circle in both meaning and form.  
 
 *o e ca i anidai de nimas, angi*  
 The construction starting with the o marker emphasis the demand, not the answer. By the time angi lands, it has been anticipated and weighted, so courage is a matter-of-fact, trivial answer. This is a different way to mirror Rosa's delivery: "é coragem".  
 
-*anidai, anidaium — o e ca i anidai de nimas — Elhay i anidai — en anidai litegai, anidai non*  
+*anidai, anidaium — o e ca i anidai de nimas — Elhay i anidai — en anidai litepe, anidai non*  
 anidai (want, desire) runs through almost every sentence of the passage. Rosa's paragraph is about wanting: the confusion of not knowing what you want, what life demands of us, what God wants, the moment of willing. Rather than scattering different words across these moments, holding anidai as the spine gives it unshattered focus and weight.  
 
 *neron-oila-davio... neronron oila en jenrein tohpu*  
 Rosa's escalation ("alegre a mais, e inda mais alegre ainda") is mirrored morphologically. First a three-part cascade: neron-oila-davio, more-joy-become. Then neron itself doubles into neronron.  
 
-*cali a litam i ansau no luyar*  
+*cali a litam i ansau no yar*  
 The day is the subject and it begins, as light. The day itself acts, and the character is watching it unfold. This ending portrays the beauty of the sunrise, but contrasts the inevitability of the phenomenon and the passivity of the watcher with the central theme of the necessity of desire and courage in order to create happiness.     
 
 [← Back to Readings](readings.md)

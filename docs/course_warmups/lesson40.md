@@ -247,7 +247,7 @@
     
     Now let's see these words in context:
 
-    "Nedas toului. Faibor i ilaluan ca nim i tane i anefene neron, mai i vil i yuloa."
+    "Nedas toului. Faibor i ilaluan ca nim i tane i fene neron, mai i vil i yuloa."
 
     "Mihie run! Run i iliro ca a roejois a yudur?"
 

@@ -7,15 +7,15 @@
 ![Two children looking for flowers near one tree, then discovering them beside a different tree after heavy rain.](../../images/graded-readers/reader3/05-the-plant-grew-somewhere-else.jpg){ width="480" style="display:block; margin:1.25rem auto 2rem auto;" }
 
 <div class="oravia-reading">
-<p>En litam, a falen su fasu i anvu en leayo.</p>
+<p>En litam, a falfal su fasu i anvu en leayo.</p>
 <p>Hayas i apaleno e leini en tam leirih.</p>
 <p>En limel, a lupupi i apanou yasoi.</p>
 <p>En neliu litam, hayas i vardei e tam leirih, mai a leipili i damium.</p>
-<p>En par litam, a falen i vardei e leipili en neliu leirih.</p>
+<p>En par litam, a falfal i vardei e leipili en neliu leirih.</p>
 <p>Hay i ilace u fare: “Ceora?”</p>
 <p>A fare i ilaluan ca a lupupi i anvu e leini.</p>
-<p>A fasu i asular.</p>
-<p>A falen i ilaluan: “A leini i anidai e neliu leirih.”</p>
+<p>A fasu i asunes.</p>
+<p>A falfal i ilaluan: “A leini i anidai e neliu leirih.”</p>
 </div>
 
 <details>

@@ -7,7 +7,7 @@
 ![Story illustration](../../images/graded-readers/1.5.jpg){ width="480" style="display:block; margin:1.25rem auto 2rem auto;" }
 
 <div class="oravia-reading">
-<p>A nim en lenou.</p>
+<p>A nim en leinou.</p>
 <p>I dami a micea.</p>
 <p>A nim i anidai i eofa e micea.</p>
 <p>I anona e yaltan moaria u hay.</p>
