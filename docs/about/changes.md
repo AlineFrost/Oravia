@@ -1,5 +1,10 @@
 # Website Versions
 
+## November 22nd 2026  
+. First issue of our **Magazine** Eon Oravia is out!! (big thanks to *dankennedy*, *Steve M*, *Paula SF*, *DanGlass*, and *Fernanda Arellano* for their original submissions!)   
+. New flag! (thanks to *Hyperr*)  
+. Restructured the Comprehensive **Grammar**  
+
 ## November 15th 2026  
 . Big Vocabulary Update! We have added thousands of meanings, and simultaneoulsy reduced the total number of words and blocks.   
 . launched the extended search beyond the core words in the **Dictionary**, with 5245 English entries!  

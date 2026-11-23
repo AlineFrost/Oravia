@@ -13,6 +13,8 @@ It can be done in a week (for example, core grammar day 1, then 2 lessons a day)
 
  That's it, and then you're ready to explore!
  
+ Would you like to keep going with a bit more guidance? Then I'd highly recommend *Graded Readers*, *Comprehensive Grammar* Part I, and *Word Builder* (coming soon).
+ 
 ## Oravia in 2 months
 
 This learning path allows you to communicate more freely and to engage with the language more creatively. You will have enough basis to chat with people, create new words and meanings, write your own original pieces, make choices on style, and play with the language.

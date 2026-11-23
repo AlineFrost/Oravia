@@ -69,8 +69,8 @@ With a suffix, the word keeps its original stress and the suffix gets an additio
 
 Adjacent vowels are preferably pronounced as one syllable, as in o**RA**via, but two syllables are also acceptable:
 
-- **LI**ria — preferred
-- li**RI**a — also acceptable
+- **LI**.ria — preferred
+- **LI**.ri.a — also acceptable
 
 **iliru · mouje · moujeum · liria**
 

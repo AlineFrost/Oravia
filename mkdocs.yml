@@ -52,6 +52,7 @@ nav:
     - Stories and Scenes: content/stories.md
     - Daily Wordle Game: games/oravia-wordle.html
   - Readings:
+    - Magazine: issue01_template.md
     - Graded Readers: content/reader/reader.md
     - Readings: content/readings/readings.md
   - Learning:
