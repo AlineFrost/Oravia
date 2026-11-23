@@ -2,7 +2,7 @@
   {
     "w": "nim",
     "e": "I",
-    "usage": "pronoun; -a for plural: nimas (we); before a noun, functions as possessive: nim bo = my house",
+    "usage": "pronoun; -as for plural: nimas (we); before a noun, functions as possessive: nim bo = my house",
     "type": "gram",
     "search_terms": [
       "i",
@@ -13,7 +13,7 @@
   {
     "w": "run",
     "e": "you",
-    "usage": "pronoun; -a for plural: runas (you all); before a noun, functions as possessive: run bo = your house",
+    "usage": "pronoun; -as for plural: runas (you all); before a noun, functions as possessive: run bo = your house",
     "type": "gram",
     "search_terms": [
       "run",
@@ -24,7 +24,7 @@
   {
     "w": "hay",
     "e": "he / she / they",
-    "usage": "gender-neutral singular pronoun; -a for plural: hayas (they); before a noun, functions as possessive: hay bo = his/her/their house",
+    "usage": "gender-neutral singular pronoun; -as for plural: hayas (they); before a noun, functions as possessive: hay bo = his/her/their house",
     "type": "gram",
     "search_terms": [
       "hay",
@@ -22344,6 +22344,61 @@
     "core_source": "building-block coverage"
   },
   {
+    "w": "jenpur",
+    "e": "under",
+    "ea": "under, below, down",
+    "c": "geometrics",
+    "cs": "je",
+    "sc": "jen",
+    "r": "pur",
+    "bd": [
+      {
+        "sound": "jen",
+        "meaning": "location",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-jen",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-jen",
+        "bb_meaning": "location"
+      },
+      {
+        "sound": "pur",
+        "meaning": "under"
+      }
+    ],
+    "rel": [],
+    "ex": [],
+    "syllable_meanings": [
+      {
+        "sound": "jen",
+        "meaning": "location",
+        "position": "subcluster",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-jen",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-jen",
+        "bb_meaning": "location"
+      },
+      {
+        "sound": "pur",
+        "meaning": "under",
+        "position": "root"
+      }
+    ],
+    "search_terms": [
+      "below",
+      "down",
+      "geometrics",
+      "je",
+      "jen",
+      "jenpur",
+      "location",
+      "pur",
+      "under",
+      "under, below, down"
+    ],
+    "core": true,
+    "core_source": "2+ lists"
+  },
+  {
     "w": "jenrein",
     "e": "between",
     "ea": "between, among",
@@ -31433,8 +31488,8 @@
   },
   {
     "w": "no",
-    "e": "so",
-    "ea": "so",
+    "e": "as",
+    "ea": "as, like, so, such",
     "c": "function words",
     "sc": "no",
     "r": null,
@@ -31648,6 +31703,94 @@
       "now",
       "now, present",
       "present",
+      "time",
+      "words"
+    ],
+    "core": true
+  },
+  {
+    "w": "nolili",
+    "e": "always",
+    "ea": "always, consistently, constantly",
+    "c": "function words",
+    "cs": "no",
+    "sc": "no",
+    "r": "lili",
+    "bd": [
+      {
+        "sound": "no",
+        "meaning": "function words",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-no",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-no",
+        "bb_meaning": "function words"
+      },
+      {
+        "sound": "li",
+        "meaning": "time",
+        "bb_type": "root",
+        "bb_id": "bb-root-li",
+        "bb_href": "building_blocks_reference.html#bb-root-li",
+        "bb_meaning": "time"
+      },
+      {
+        "sound": "li",
+        "meaning": "time",
+        "bb_type": "root",
+        "bb_id": "bb-root-li",
+        "bb_href": "building_blocks_reference.html#bb-root-li",
+        "bb_meaning": "time"
+      }
+    ],
+    "rel": [],
+    "ex": [
+      {
+        "o": "nolili nim i anyeis",
+        "e": "i will always do it",
+        "from_lesson": true
+      }
+    ],
+    "syllable_meanings": [
+      {
+        "sound": "no",
+        "meaning": "function words",
+        "position": "subcluster",
+        "bb_type": "subcluster",
+        "bb_id": "bb-subcluster-no",
+        "bb_href": "building_blocks_reference.html#bb-subcluster-no",
+        "bb_meaning": "function words"
+      },
+      {
+        "sound": "li",
+        "meaning": "time",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-li",
+        "bb_href": "building_blocks_reference.html#bb-root-li",
+        "bb_meaning": "time"
+      },
+      {
+        "sound": "li",
+        "meaning": "time",
+        "position": "root",
+        "bb_type": "root",
+        "bb_id": "bb-root-li",
+        "bb_href": "building_blocks_reference.html#bb-root-li",
+        "bb_meaning": "time"
+      }
+    ],
+    "search_terms": [
+      "always",
+      "always, often, consistently, constantly",
+      "consistently",
+      "constantly",
+      "function",
+      "function words",
+      "li",
+      "lili",
+      "no",
+      "nolili",
+      "often",
       "time",
       "words"
     ],
